@@ -1,0 +1,35 @@
+Flavivirus0 : G0YVK3,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Flaviviridae; Flavivirus; Ntaya virus group. Tembusu virus.
+Flavivirus1 : P29990,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Flaviviridae; Flavivirus; Dengue virus group. activity. 
+Flavivirus.2 : P33515,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Flaviviridae; Flavivirus. activity. 
+Digenea3 : G7YB21,  Eukaryota; Metazoa; Platyhelminthes; Trematoda; Digenea;  Opisthorchiida; Opisthorchiata; Opisthorchiidae; Clonorchis. Clonorchis sinensis (Chinese liver fluke).
+Flavivirus4 : P06935,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Flaviviridae; Flavivirus; Japanese encephalitis virus group. 
+Flavivirus5 : P22338,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Flaviviridae; Flavivirus; tick-borne encephalitis virus group. activity. 
+Flavivirus6 : P27395,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Flaviviridae; Flavivirus; Japanese encephalitis virus group. activity.
+Flavivirus7 : D1FNM3,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Flaviviridae; Flavivirus; tick-borne encephalitis virus group. Tick-borne encephalitis virus.
+Orthobunyavirus8 : W8CZ94,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Bunyaviridae;  Orthobunyavirus; unclassified Orthobunyavirus.
+Bunyaviridae9 : A3RKP6,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Bunyaviridae.
+Bunyaviridae10 : Q02004,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Bunyaviridae; Dugbe virus (isolate ArD44313) (DUGV).
+Emaravirus.11 : C0MMX3,  Viruses; ssRNA viruses; ssRNA negative-strand viruses;  Unassigned ssRNA negative-strand viruses; Emaravirus. Fig mosaic virus.
+Bunyaviridae12 : Q8JPR1,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Bunyaviridae; Bunyavirus La Crosse (isolate Human/United States/L78/1978).
+Alphavirus13 : R9RW17,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Togaviridae; Alphavirus; SFV complex. Chikungunya virus (CHIKV).
+Alphavirus14 : P03315,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Togaviridae; Alphavirus; SFV complex.
+Alphavirus15 : P13897,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Togaviridae; Alphavirus; WEEV complex.
+Bunyaviridae16 : Q01260,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Bunyaviridae; Impatiens necrotic spot virus (INSV).
+Orthobunyavirus17 : H2AM12,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Bunyaviridae;  Orthobunyavirus; unclassified Orthobunyavirus. Bovine Schmallenberg virus (isolate Bovine/BH80/Germany/2011) (SBV).
+Phlebovirus18 : M9T5J2,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Bunyaviridae;  Phlebovirus; unclassified Phlebovirus. SFTS virus HNXY_212.
+Chromadorea19 : G5EGL9,  Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;  Rhabditoidea; Rhabditidae; Peloderinae; Caenorhabditis.
+Branchiostomidae20 : C3Y7J9,  Eukaryota; Metazoa; Chordata; Cephalochordata; Branchiostomidae; Branchiostoma floridae (Florida lancelet) (Amphioxus).
+Myriapoda21 : T1ISJ2,  Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Myriapoda; Chilopoda;  Pleurostigmophora; Geophilomorpha; Linotaeniidae; Strigamia. Strigamia maritima (European centipede) (Geophilus maritimus).
+Naegleria.22 : D2VQ99,  Eukaryota; Heterolobosea; Schizopyrenida; Vahlkampfiidae; Naegleria. Naegleria gruberi (Amoeba).
+Naegleria.23 : D2W008,  Eukaryota; Heterolobosea; Schizopyrenida; Vahlkampfiidae; Naegleria. Naegleria gruberi (Amoeba).
+Tenuivirus.24 : Q85429,  Viruses; ssRNA viruses; ssRNA negative-strand viruses;  Unassigned ssRNA negative-strand viruses; Tenuivirus. Rice stripe virus (isolate T) (RSV).
+Bunyaviridae25 : A2T090,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Bunyaviridae; Rift valley fever virus (RVFV).
+Wuhan Mosquito Virus 1. : A0A0B5KS44,  Viruses; ssRNA viruses; ssRNA negative-strand viruses; Wuhan Mosquito Virus 1.
+Dictyostelium.27 : Q23869,  Eukaryota; Amoebozoa; Mycetozoa; Dictyosteliida; Dictyostelium. Dictyostelium discoideum (Slime mold).
+Rubivirus.28 : Q6X2U1,  Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA stage;  Togaviridae; Rubivirus. Rubella virus (strain BRDII) (RUBV).
+Reticulomyxidae29 : X6N9B2,  Eukaryota; Rhizaria; Foraminifera; Monothalamids; Reticulomyxidae; Reticulomyxa filosa.
+Naegleria.30 : D2VN83,  Eukaryota; Heterolobosea; Schizopyrenida; Vahlkampfiidae; Naegleria. Naegleria gruberi (Amoeba).
+Oligohymenophorea31 : A0A060A682,  Eukaryota; Alveolata; Ciliophora; Intramacronucleata;  Oligohymenophorea; Hymenostomatida; Tetrahymenina; Tetrahymenidae; Tetrahymena thermophila.
+Dictyostelium.32 : A0A0K2SR10,  Eukaryota; Amoebozoa; Mycetozoa; Dictyosteliida; Dictyostelium. Dictyostelium discoideum (Slime mold).
+Tracheophyta33 : F4JP36,  Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;  Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;  Pentapetalae; rosids; malvids; Brassicales; Brassicaceae; Camelineae; Arabidopsis thaliana (Mouse-ear cress).
+Trypanosoma.34 : D0A4L4,  Eukaryota; Euglenozoa; Kinetoplastida; Trypanosomatidae; Trypanosoma. Trypanosoma brucei gambiense (strain MHOM/CI/86/DAL972).

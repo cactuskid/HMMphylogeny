@@ -1,0 +1,480 @@
+Query         ArabidopsisHap2SS
+Match_columns 670
+No_of_seqs    250 out of 306
+Neff          7.3 
+Searched_HMMs 943
+Date          Thu Aug  4 12:31:44 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/ArabidopsisHap2SS.a3m.hhm -ohhm ./structurepred/ArabidopsisHap2SS.a3m.hhm -o ./structurepred/ArabidopsisHap2SS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4d0j_A Beta-glucosidase; hydro  77.9      28  0.0039   35.7  25.8   49  410-458   759-813 (857)
+  2 4iib_A Beta-glucosidase 1; TIM  67.6      46  0.0065   33.7  32.8   72  410-490   745-824 (841)
+  3 3vta_A Cucumisin; subtilisin-l  67.0      38  0.0055   32.7  30.7   51  410-460   540-592 (621)
+  4 2k1a_A Integrin alpha-IIB; sin  61.1      10  0.0014   23.7  19.9   32  559-591    10-41  (42)
+  5 3zyz_A Beta-D-glucoside glucoh  60.7      54  0.0078   32.3  36.7  224  213-491   427-698 (713)
+  6 4pyp_A Solute carrier family 2  46.1      65  0.0098   29.1  15.0    9  662-670   496-504 (504)
+  7 3idu_A Uncharacterized protein  45.1      33  0.0049   25.3  33.5   85  368-496    13-98  (127)
+  8 2m3e_A Integrin alpha-L; integ  43.6      24  0.0032   22.7  20.7   38  559-613    12-49  (50)
+  9 3u48_A JMB19063; TIM barrel, b  38.5 1.2E+02   0.017   29.7  37.1  200  231-491   470-722 (775)
+ 10 2l8s_A Integrin alpha-1; trans  31.8      41  0.0054   21.9  19.0   34  560-612    10-45  (54)
+ 11 4i3g_A Beta-glucosidase; PA14   16.7 2.9E+02   0.041   26.7  39.1  204  214-492   566-815 (829)
+ 12 4pj0_R Photosystem II protein   14.4      90   0.011   19.1  12.3   21  564-584     3-23  (41)
+ 13 4ub6_R Photosystem II protein   13.8      84   0.011   18.4  12.4   21  564-584     2-22  (34)
+ 14 2ys4_A Hydrocephalus-inducing   12.6 1.3E+02   0.019   20.7  31.8   72  407-503    41-112 (122)
+ 15 2w0t_A Lethal(3)malignant brai  11.5 1.1E+02   0.014   18.6   5.2   32  287-321     5-36  (43)
+ 16 3fwy_A Light-independent proto  10.3      13   0.002   32.5   0.0   22  631-652     2-24  (314)
+ 17 2jln_A MHP1; hydantoin, transp   9.7 3.5E+02   0.051   23.8  18.2   41  556-596   411-464 (501)
+ 18 1q90_G Cytochrome B6F complex    9.6 1.3E+02   0.016   17.9  16.2   25  561-585     4-32  (37)
+ 19 4o2x_A MBP, MMBP, maltose-bind   8.9      16  0.0024   34.2   0.0   15  574-588   463-477 (507)
+ 20 3oka_C N-terminal His-affinity   8.0      74  0.0088   16.2   2.0    6  664-669    12-17  (21)
+
+No 1  
+>4d0j_A Beta-glucosidase; hydrolase, glycoside hydrolase; HET: NAG BMA MAN BGC GLC; 2.20A {Rasamsonia emersonii}
+Probab=77.92  E-value=28  Score=35.73  Aligned_cols=49  Identities=16%  Similarity=0.088  Sum_probs=0.0
+
+Q ss_pred             cEEEEEecCceeEeEEEEEeec------CcceeeeeeeeeEeecceeeeeeeeee
+Q ArabidopsisHap  410 VAAVIIKNTGEVEASYSLTFDC------SKGVAFVEEQFFIIKPKAVTTRSFKLY  458 (670)
+Q Consensus       410 ~l~V~v~N~G~~~a~y~v~v~C------s~~v~~i~~~~~~i~p~~~~~~~f~l~  458 (670)
+                      +++|.|+|+|++.+...|++.=      .....-.--+++.|+|+++++++|.|.
+T Consensus       759 ~vsv~VtNtG~~~G~evvQlY~~~~~~~~p~k~L~gF~kv~l~pGes~~v~~~l~  813 (857)
+T 4d0j_A          759 RVTTIITNTGKVTGDEVPQLYVSLGGPDDAPKVLRGFDRITLAPGQQYLWTTTLT  813 (857)
+T ss_dssp             EEEEEEEECSSSCEEECCEEEEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEE
+T ss_pred             EEEEEEEeCCCCCCceEEEEEeecCCCCcchhhhhceeccccCCCCEEEEEEEEc
+
+
+No 2  
+>4iib_A Beta-glucosidase 1; TIM barrel, hydrolase, high-mannose N-glycosylations, extrac; HET: NAG BMA MAN; 1.80A {Aspergillus aculeatus} PDB: 4iic_A* 4iid_A* 4iie_A* 4iif_A* 4iig_A* 4iih_A*
+Probab=67.59  E-value=46  Score=33.75  Aligned_cols=72  Identities=17%  Similarity=0.079  Sum_probs=0.0
+
+Q ss_pred             cEEEEEecCceeEeEEEEEeec------CcceeeeeeeeeEeecceeeeeeeeeeeCchhhhhHHhhhhcccCCcC--cc
+Q ArabidopsisHap  410 VAAVIIKNTGEVEASYSLTFDC------SKGVAFVEEQFFIIKPKAVTTRSFKLYPTKDQAAKYICTAILKDSQFS--EV  481 (670)
+Q Consensus       410 ~l~V~v~N~G~~~a~y~v~v~C------s~~v~~i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~C~v~L~ds~~~--~l  481 (670)
+                      +++|+|+|+|++.+...+++.=      .....-.--+++.|+|+++++++|.|.         ......||....  ++
+T Consensus       745 ~vsv~V~NtG~~~g~evvqlY~~~~~~~~p~~~L~gf~kv~l~pge~~~v~~~l~---------~~~ls~~d~~~~~~~~  815 (841)
+T 4iib_A          745 RVSVTVKNTGRVAGDAVPQLYVSLGGPNEPKVVLRKFDRLTLKPSEETVWTTTLT---------RRDLSNWDVAAQDWVI  815 (841)
+T ss_dssp             EEEEEEEECSSSCEEECCEEEEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEE---------HHHHCEEETTTTEEEC
+T ss_pred             EEEEEEEecCCCCCceeeEEeecCCCCCCChhheeeeeeeecCCCCeEEEEEEEe---------HHHcceEECCCCeEEE
+
+
+Q ss_pred             ccceeeeee
+Q ArabidopsisHap  482 DRAECQFST  490 (670)
+Q Consensus       482 D~~~~~f~t  490 (670)
+                      +.-.+.+.+
+T Consensus       816 ~~G~~~i~v  824 (841)
+T 4iib_A          816 TSYPKKVHV  824 (841)
+T ss_dssp             CSSCCEEEE
+T ss_pred             ecceEEEEE
+
+
+No 3  
+>3vta_A Cucumisin; subtilisin-like fold, serine protease, hydrolase; HET: DFP NAG FUC BMA MAN; 2.75A {Cucumis melo}
+Probab=66.97  E-value=38  Score=32.68  Aligned_cols=51  Identities=6%  Similarity=0.120  Sum_probs=0.0
+
+Q ss_pred             cEEEEEecCceeEeEEEEEeecCccee-eeeeeeeEeec-ceeeeeeeeeeeC
+Q ArabidopsisHap  410 VAAVIIKNTGEVEASYSLTFDCSKGVA-FVEEQFFIIKP-KAVTTRSFKLYPT  460 (670)
+Q Consensus       410 ~l~V~v~N~G~~~a~y~v~v~Cs~~v~-~i~~~~~~i~p-~~~~~~~f~l~~~  460 (670)
+                      +++.+|+|.|.-++.|++.+....++. .+....+++.+ ++..+|.+.|...
+T Consensus       540 ~~~rtvtnv~~~~~~y~~~~~~~~~~~~~v~p~~~~~~~~~~~~~~~v~~~~~  592 (621)
+T 3vta_A          540 YFNRTLTSVAPQASTYRAMISAPQGLTISVNPNVLSFNGLGDRKSFTLTVRGS  592 (621)
+T ss_dssp             EEEEEEEECSSSCEEEEEEEECCSSEEEEEESSEEEECSTTCEEEEEEEEEEC
+T ss_pred             EEEEEEEecCCCCcEEEEEEEecCCcEEEeccceEEeccCCcEEEEEEEEEEe
+
+
+No 4  
+>2k1a_A Integrin alpha-IIB; single-PASS transmembrane segment, alternative splicing, calcium, cell adhesion, cleavage on PAIR of basic residues; NMR {Homo sapiens} PDB: 2k9j_A
+Probab=61.06  E-value=10  Score=23.73  Aligned_cols=32  Identities=25%  Similarity=0.545  Sum_probs=18.5
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhcCCCCcch
+Q ArabidopsisHap  559 SWMVMFGLLLALFPITCLLLWLLHQKGLFDPCY  591 (670)
+Q Consensus       559 ~~l~~~~lll~l~~~~l~ll~ll~~~g~~~~~~  591 (670)
+                      .|++....+.+++.. .++...|+|.|+|+.-.
+T Consensus        10 ~wiii~s~i~GlllL-~li~~iL~K~GFFkR~~   41 (42)
+T 2k1a_A           10 IWWVLVGVLGGLLLL-TILVLAMWKVGFFKRNR   41 (42)
+T ss_dssp             HHHHHHHHHHHHHHH-HHHHHHHHHTTTTCCCC
+T ss_pred             HHHHHHHHHHHHHHH-HHHHHHHHHcCcCCCCC
+Confidence            355555555554433 34566778999986321
+
+
+No 5  
+>3zyz_A Beta-D-glucoside glucohydrolase; HET: NAG BGC; 2.10A {Hypocrea jecorina} PDB: 3zz1_A* 4i8d_A*
+Probab=60.68  E-value=54  Score=32.26  Aligned_cols=224  Identities=17%  Similarity=0.114  Sum_probs=70.3
+
+Q ss_pred             cceeeeEEec--CC----C-------cccc---------------cCCceeEEeeecccCCcccc--CCccceEEEeehh
+Q ArabidopsisHap  213 GTRVSEVIIG--PE----N-------RTAT---------------ANDNFLKVNLIGDFGGYTSI--PSFEDFYLVIPRE  262 (670)
+Q Consensus       213 ~~~~~~~~l~--p~----~-------~~~~---------------s~~~~l~v~ligdf~~~~~~--p~l~~~yLliP~~  262 (670)
+                      ...+-.+.++  +.    .       |...               ...+.+.|-..|.-.-...+  ..-.+-.|.....
+T Consensus       427 ~aD~~Iv~lg~~~~~~~~~~e~e~~dr~~l~l~~~q~~li~~v~~~~~~vIvVv~~g~p~~l~~~~~~~~v~AIl~a~~~  506 (713)
+T 3zyz_A          427 GKDVAIVFITADSGEGYITVEGNAGDRNNLDPWHNGNALVQAVAGANSNVIVVVHSVGAIILEQILALPQVKAVVWAGLP  506 (713)
+T ss_dssp             TCSEEEEEEEECCBCTTCCBTTBCSSCSCSSCSTTHHHHHHHHHHHCSCEEEEEEESSCCCCHHHHTCTTEEEEEECCCC
+T ss_pred             cCCEEEEEEccCCCCCccccccccccccchhhhhhHHHHHHHHHHhCCCeEEEEecCCccccchhhhccCcceEEEeccC
+Confidence            1122233332  10    0       0000               01222323222211100000  0111222222111
+
+
+Q ss_pred             hhhcCCCCCCCcchhHHHhhhh--hcccccccccccccccceeccCCCCCCCCcchhhhhhhccccccccccc-----cc
+Q ArabidopsisHap  263 AAEAGQPGSLGANYSMWMLLER--VRFTLDGLECNKIGVGYEAFNTQPNFCSSPYWSCLHNQLWNFRESDINR-----ID  335 (670)
+Q Consensus       263 ~~~~~~p~~~~~~~~~~mll~~--~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~f~~~D~~~-----i~  335 (670)
+                      .          ..... -+.+-  -.+..+|+-=-.+-.+++.....  .+...        -..|.+ +..+     ..
+T Consensus       507 g----------~~gg~-AiadvL~G~~~PsGrLP~t~p~~~~~~~~~--~~~~~--------~~~~~e-~~~~~yr~~~~  564 (713)
+T 3zyz_A          507 S----------QESGN-ALVDVLWGDVSPSGKLVYTIAKSPNDYNTR--IVSGG--------SDSFSE-GLFIDYKHFDD  564 (713)
+T ss_dssp             G----------GGHHH-HHHHHHTTSSCCCCCCSSCBCSCGGGSSCC--CCCSS--------EECCTT-TTCCHHHHHHH
+T ss_pred             C----------Cccce-EhHHhhcCCCCCCCCCceeeecchhhCCcc--cccCC--------CcccCC-Cccccceeecc
+Confidence            0          01111 11111  00111111100000000000000  00000        000000 0000     00
+
+
+Q ss_pred             cCCcccccccccchhcccCCCCCCceeeeeeeeeeccceEEEEecccceeeeecCCCcEEEEeccchHhhh-hcccEEEE
+Q ArabidopsisHap  336 RHQLPLYGLEGRFERINQHPNAGPHSFSIGVTETLNTNLMIELRADDIEYVFQRSPGKIINIAIPTFEALT-QFGVAAVI  414 (670)
+Q Consensus       336 ~g~~~~Y~~~g~f~~i~~~~~~~~~~~~i~~~~~~~s~l~iei~AD~i~~v~~~spG~I~s~~~~~fe~~s-~~g~l~V~  414 (670)
+                      .+..|.|-+ | |. +      .-.+|.+.         .+++.......-   ....+.   ...-+... ..-+++|.
+T Consensus       565 ~~~~~~ypF-G-~G-L------SYt~F~~~---------~~~~~~~~~~~~---~~~~~~---~~~~~~~~~~~~~vsv~  620 (713)
+T 3zyz_A          565 ANITPRYEF-G-YG-L------SYTKFNYS---------RLSVLSTAKSGP---ATGAVV---PGGPSDLFQNVATVTVD  620 (713)
+T ss_dssp             TTCCCSBCT-T-CC-B------CSSCEEEE---------EEEEEECCCCEE---CCSCEE---TTEETTTTSEEEEEEEE
+T ss_pred             CCCceeeeC-C-CC-C------ccCcceee---------eccccccccccc---cccccc---CCCccccccceEEEEEE
+Confidence            012233322 0 00 0      01234332         222222211110   111111   00000011 11268999
+
+
+Q ss_pred             EecCceeEeEEEEEee---cCcc-----eeeeeeeeeEeecceeeeeeeeeeeCchhhhhHHhhhhcccCCcC--ccccc
+Q ArabidopsisHap  415 IKNTGEVEASYSLTFD---CSKG-----VAFVEEQFFIIKPKAVTTRSFKLYPTKDQAAKYICTAILKDSQFS--EVDRA  484 (670)
+Q Consensus       415 v~N~G~~~a~y~v~v~---Cs~~-----v~~i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~C~v~L~ds~~~--~lD~~  484 (670)
+                      |+|+|++.+.-.|++.   ....     ..-.--+++.|+|+++.+++|.|...         ....||..+.  .++.-
+T Consensus       621 V~NtG~~~g~evvqlY~~~~~~~~~~p~k~L~gF~kv~L~pGe~~~v~~~~~~~---------~l~~~d~~~~~~~~~~G  691 (713)
+T 3zyz_A          621 IANSGQVTGAEVAQLYITYPSSAPRTPPKQLRGFAKLNLTPGQSGTATFNIRRR---------DLSYWDTASQKWVVPSG  691 (713)
+T ss_dssp             EEECSSSCEEEEEEEEEECCTTSSSCCSCEEEEEEEEEECTTCEEEEEEEEEGG---------GGCEEETTTTEEEECCE
+T ss_pred             EEecCcccceeeEEEEeccCCCCcccchHHHHhhhhhccCCCceEEEEEEEcHH---------HeeEEecCCCeEEEeCc
+Confidence            9999999988888763   2221     12345577899999999999999842         2345665542  33333
+
+
+Q ss_pred             eeeeeee
+Q ArabidopsisHap  485 ECQFSTT  491 (670)
+Q Consensus       485 ~~~f~t~  491 (670)
+                      .+.+.+-
+T Consensus       692 ~y~~~vg  698 (713)
+T 3zyz_A          692 SFGISVG  698 (713)
+T ss_dssp             EEEEEEE
+T ss_pred             EEEEEEE
+Confidence            3333321
+
+
+No 6  
+>4pyp_A Solute carrier family 2, facilitated glucose TRAN member 1; membrane transporter, helix, glycosylation, transport protei; HET: BNG; 3.17A {Homo sapiens}
+Probab=46.15  E-value=65  Score=29.09  Aligned_cols=9  Identities=33%  Similarity=0.427  Sum_probs=0.0
+
+Q ss_pred             chhcccccC
+Q ArabidopsisHap  662 YYHQLHRVH  670 (670)
+Q Consensus       662 ~~~~~~~~~  670 (670)
+                      ||||+||.|
+T Consensus       496 ~~~~~~~~~  504 (504)
+T 4pyp_A          496 HHHHHHHHH  504 (504)
+T ss_dssp             ---------
+T ss_pred             hhcccccCC
+Confidence            111222222
+
+
+No 7  
+>3idu_A Uncharacterized protein; all beta-protein, structural genomics, PSI-2, protein structure initiative; 1.70A {Pyrococcus furiosus} PDB: 2kl6_A 2m8x_A
+Probab=45.09  E-value=33  Score=25.27  Aligned_cols=85  Identities=22%  Similarity=0.290  Sum_probs=47.6
+
+Q ss_pred             eeeccceEEEEecccceeeeecCCCcEEEEeccchHhhhhcccEEEEEecCceeE-eEEEEEeecCcceeeeeeeeeEee
+Q ArabidopsisHap  368 ETLNTNLMIELRADDIEYVFQRSPGKIINIAIPTFEALTQFGVAAVIIKNTGEVE-ASYSLTFDCSKGVAFVEEQFFIIK  446 (670)
+Q Consensus       368 ~~~~s~l~iei~AD~i~~v~~~spG~I~s~~~~~fe~~s~~g~l~V~v~N~G~~~-a~y~v~v~Cs~~v~~i~~~~~~i~  446 (670)
+                      ......+.+++....  .+   .+|+              .-.++|.|.|.|..+ ..+.+.+.=. +. .+..+.+.|+
+T Consensus        13 ~~~~~Dl~v~v~~p~--~~---~~g~--------------~~~i~v~V~N~G~~~~~~~~v~l~~~-~~-~~~~~~v~l~   71 (127)
+T 3idu_A           13 TFEFPDLTVEIKGPD--VV---GVNK--------------LAEYEVHVKNLGGIGVPSTKVRVYIN-GT-LYKNWTVSLG   71 (127)
+T ss_dssp             CCSSCCEEEEEESCS--EE---CTTC--------------CEEEEEEEEECSSSCEEEEEEEEEET-TE-EEEEEEEEEC
+T ss_pred             cCCCCCEEEEEeCCC--cc---cCCC--------------EEEEEEEEEECCCCCCCCEEEEEEEC-CE-EEEEEEEEEC
+Confidence            112344555543211  11   2222              236899999988874 6777776433 32 4667788999
+
+
+Q ss_pred             cceeeeeeeeeeeCchhhhhHHhhhhcccCCcCccccceeeeeeeeEEee
+Q ArabidopsisHap  447 PKAVTTRSFKLYPTKDQAAKYICTAILKDSQFSEVDRAECQFSTTATVLD  496 (670)
+Q Consensus       447 p~~~~~~~f~l~~~~~~~~~~~C~v~L~ds~~~~lD~~~~~f~t~~t~~~  496 (670)
+                      |++..+++|.+....                     .  =.+..++.+-.
+T Consensus        72 ~g~~~tv~f~~~~~~---------------------~--G~~~~~~~v~~   98 (127)
+T 3idu_A           72 PKEEKVLTFNWTPTQ---------------------E--GMYRINATVDE   98 (127)
+T ss_dssp             TTCEEEEEEEECCSS---------------------C--EEEEEEEEEST
+T ss_pred             CCCEEEEEEEEEcCC---------------------C--eEEEEEEEECC
+Confidence            999999999876431                     1  12333333311
+
+
+No 8  
+>2m3e_A Integrin alpha-L; integrin alpah L TM domain, polar interaction, membrane PROT; NMR {Homo sapiens}
+Probab=43.57  E-value=24  Score=22.71  Aligned_cols=38  Identities=18%  Similarity=0.405  Sum_probs=17.1
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhcCCCCcchhhhhcccCcccccccCCCcccc
+Q ArabidopsisHap  559 SWMVMFGLLLALFPITCLLLWLLHQKGLFDPCYDWWEDHFDLDHHRRLLPSRADV  613 (670)
+Q Consensus       559 ~~l~~~~lll~l~~~~l~ll~ll~~~g~~~~~~~~~~~~~~~~~~~r~~~~~~~~  613 (670)
+                      .|++..+.+++++.. +++...|+|.|+|                +|.++.....
+T Consensus        12 ~wiii~s~i~GlllL-~~ii~iL~K~GFF----------------kR~~~~~~~~   49 (50)
+T 2m3e_A           12 LYLYVLSGIGGLLLL-LLIFIVLYKVGFF----------------KRNLKEKMEA   49 (50)
+T ss_dssp             HHHHHHHHHHHHHHH-HHHHHHHHHHTSG----------------GGSCCCCCCC
+T ss_pred             HHHHHHHHHHHHHHH-HHHHHHHHHcCcc----------------ccCCchhhhc
+Confidence            355555555544433 3334555666776                3443322111
+
+
+No 9  
+>3u48_A JMB19063; TIM barrel, beta-D-glucosidase, hydrolase; HET: BGC; 2.20A {Compost metagenome} PDB: 3u4a_A*
+Probab=38.45  E-value=1.2e+02  Score=29.70  Aligned_cols=200  Identities=17%  Similarity=0.189  Sum_probs=68.9
+
+Q ss_pred             CCceeEEeeeccc---CC-ccccCCc----------------cceEEEeehhhhhcCCCCCC----------------Cc
+Q ArabidopsisHap  231 NDNFLKVNLIGDF---GG-YTSIPSF----------------EDFYLVIPREAAEAGQPGSL----------------GA  274 (670)
+Q Consensus       231 ~~~~l~v~ligdf---~~-~~~~p~l----------------~~~yLliP~~~~~~~~p~~~----------------~~  274 (670)
+                      ...++.+-.+|+.   .+ .....++                ..+.+++=.    .+.|..+                +.
+T Consensus       470 ~~ad~vIv~vg~~~~~~~E~~dr~~l~L~~~q~~li~~v~~~~~~vVvV~~----~g~P~~l~~~~~~v~Ail~a~~~G~  545 (775)
+T 3u48_A          470 NQADVIVAALGESAEMSGEASSRSNIEIPALQRELLQALLKTGKPVVLVLF----TGRPLALTWEHENVPAILNVWFAGT  545 (775)
+T ss_dssp             TTSSEEEEEEECCGGGSSTTCBCSCCSSCHHHHHHHHHHHTTCSCEEEEEE----CSSCCCCHHHHHHCSEEEECCCCCT
+T ss_pred             hcCCEEEEEEecCccccCCCCCcccccCCchHHHHHHHHHHhCCCEEEEEe----CCCcccCchhhhcCceEEEeccccc
+Confidence            1222333334431   11 0111121                112222211    0122221                11
+
+
+Q ss_pred             chhHHHhhhh--hcccccccccccccccce---eccCCCC--CCCCcchhhhhhhcccccccc-ccccccCCcccccccc
+Q ArabidopsisHap  275 NYSMWMLLER--VRFTLDGLECNKIGVGYE---AFNTQPN--FCSSPYWSCLHNQLWNFRESD-INRIDRHQLPLYGLEG  346 (670)
+Q Consensus       275 ~~~~~mll~~--~~v~l~G~eCnKIGVsy~---aF~~Q~~--~C~~~~gSCL~nQl~~f~~~D-~~~i~~g~~~~Y~~~g  346 (670)
+                      ...+.+ .+-  -.+..+|+--..+-.+..   ++.+.+.  .+. +.+        .+++.. ...+.....|.|-+ |
+T Consensus       546 ~~g~Ai-advL~G~~nPsGkLPvt~p~~~~~~p~~~~~~~~~~~~-~e~--------~~~~~~~~~y~d~~~~~~yPF-G  614 (775)
+T 3u48_A          546 EAGDAI-SDALFGVVNPSGKLSATFPRNVGQVPIYYNHKNTGRPL-PEG--------QWFQKFRSNYLDVPNDPLYPF-G  614 (775)
+T ss_dssp             THHHHH-HHHHTTSSCCCCCCSSCBCSSGGGCSCCSSCCCCSSCC-CTT--------CCCCTTSSCBSSSCSSCSBCT-T
+T ss_pred             ccceee-eeccccccCCCCCCceEEeeecccchhhccccccCccc-CCC--------ceeeeeeeeeeccCCCccccc-c
+Confidence            111211 111  112333332222221111   0111100  000 000        000000 00000112233321 0
+
+
+Q ss_pred             cchhcccCCCCCCceeeeeeeeeeccceEEEEecccceeeeecCCCcEEEEeccchHhhhhcccEEEEEecCceeEeEEE
+Q ArabidopsisHap  347 RFERINQHPNAGPHSFSIGVTETLNTNLMIELRADDIEYVFQRSPGKIINIAIPTFEALTQFGVAAVIIKNTGEVEASYS  426 (670)
+Q Consensus       347 ~f~~i~~~~~~~~~~~~i~~~~~~~s~l~iei~AD~i~~v~~~spG~I~s~~~~~fe~~s~~g~l~V~v~N~G~~~a~y~  426 (670)
+                       |.       -.-.+|.+.  .     +  .++           ...+   ..      ...-++.|+|+|+|++.+.-.
+T Consensus       615 -yG-------LSYt~F~y~--~-----~--~~~-----------~~~~---~~------~~~~~vsv~V~N~G~~~g~ev  657 (775)
+T 3u48_A          615 -YG-------LSFTKFTYG--D-----L--KLS-----------STNL---KG------NQTLTASIELTNSGDYDGAEV  657 (775)
+T ss_dssp             -CC-------BCSSCEEEC--C-----C--EES-----------CSEE---ES------SCCEEEEEEEEECSSSCEEEE
+T ss_pred             -cC-------CCCcceeec--c-----c--ccc-----------cccc---cC------CceEEEEEEEecCCCCCccee
+Confidence             00       001122221  1     0  111           1111   10      012258899999998877777
+
+
+Q ss_pred             EEeec---Ccc-----eeeeeeeeeEeecceeeeeeeeeeeCchhhhhHHhhhhcccCCcC-ccccceeeeeee
+Q ArabidopsisHap  427 LTFDC---SKG-----VAFVEEQFFIIKPKAVTTRSFKLYPTKDQAAKYICTAILKDSQFS-EVDRAECQFSTT  491 (670)
+Q Consensus       427 v~v~C---s~~-----v~~i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~C~v~L~ds~~~-~lD~~~~~f~t~  491 (670)
+                      |++.-   ...     ..-.--+++.|+|+++.++.|.+...         ....||..++ +++.-...+.+.
+T Consensus       658 vqlY~~~~~~~~~~p~~~L~gF~kv~l~pges~~v~~~~~~~---------~l~~~d~~~~~~~~~G~y~~~vg  722 (775)
+T 3u48_A          658 VQLYIRDLVGSTTRPVKELKGFQKVFLKKGETKTITFKITPE---------DLKFYNYDLKYDWEPGEFVIMVG  722 (775)
+T ss_dssp             EEEEEEECCCSSCCCSCEEEEEEEEEECTTCEEEEEEEECGG---------GGCEECTTCCEECCSEEEEEEEE
+T ss_pred             EEEEecCCCcCcccchhheeeeeeeccCCCCeEEEEEEEcHH---------HhceEcCCCCEEEeCceEEEEEe
+Confidence            76532   111     22345567799999999999998742         1346776543 334334444331
+
+
+No 10 
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=31.84  E-value=41  Score=21.90  Aligned_cols=34  Identities=24%  Similarity=0.678  Sum_probs=11.9
+
+Q ss_pred             HHHHHHHHHHHHHHHH--HHHHHHhhcCCCCcchhhhhcccCcccccccCCCccc
+Q ArabidopsisHap  560 WMVMFGLLLALFPITC--LLLWLLHQKGLFDPCYDWWEDHFDLDHHRRLLPSRAD  612 (670)
+Q Consensus       560 ~l~~~~lll~l~~~~l--~ll~ll~~~g~~~~~~~~~~~~~~~~~~~r~~~~~~~  612 (670)
+                      |++.++.+++++..++  +++|-+.              +|     +|.++....
+T Consensus        10 wiIi~s~i~GlllL~iii~iL~K~G--------------FF-----kRk~~~~~~   45 (54)
+T 2l8s_A           10 WVILLSAFAGLLLLMLLILALWKIG--------------FF-----KRPLKKKME   45 (54)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHH--------------HT-----TSCCSCCCC
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHHcC--------------CC-----CCCChhhhc
+Confidence            4554444444333222  2333322              33     343331111
+
+
+No 11 
+>4i3g_A Beta-glucosidase; PA14 domain, macrolide antibiotic, antibio activation, extracellular, hydrolase; HET: BGC MPO; 1.40A {Streptomyces venezuelae}
+Probab=16.72  E-value=2.9e+02  Score=26.72  Aligned_cols=204  Identities=15%  Similarity=0.112  Sum_probs=73.2
+
+Q ss_pred             ceeeeEEecCCCccccc--------------------CCceeEEeeecccCCccccCCc--cceEEEeehhhhhcCCCCC
+Q ArabidopsisHap  214 TRVSEVIIGPENRTATA--------------------NDNFLKVNLIGDFGGYTSIPSF--EDFYLVIPREAAEAGQPGS  271 (670)
+Q Consensus       214 ~~~~~~~l~p~~~~~~s--------------------~~~~l~v~ligdf~~~~~~p~l--~~~yLliP~~~~~~~~p~~  271 (670)
+                      ..+-.+.++-.-.+..+                    ..+.+.|-..|.  +. ..|-+  .+-.|..-       .|  
+T Consensus       566 aD~~Vv~~g~~~~Eg~DR~~l~Lp~~Q~~LI~~va~~~~~~VVVl~sG~--pv-~~~~~~~v~AIl~a~-------~p--  633 (829)
+T 4i3g_A          566 ARTAVVFAYDDGTEGVDRPNLSLPGTQDKLISAVADANPNTIVVLNTGS--SV-LMPWLSKTRAVLDMW-------YP--  633 (829)
+T ss_dssp             SSEEEEEEECCCBTTBCCSSSSCSTTHHHHHHHHHHHCSCEEEEEECSS--CC-CCTTGGGCSEEEECC-------SC--
+T ss_pred             CCEEEEEeccCcccccCcccccCchhHHHHHHHHHHhCCCEEEEEccCC--cc-cCchhhhccchhhhc-------cC--
+Confidence            11223334321111111                    123333333321  11 12221  11222221       11  
+
+
+Q ss_pred             CCcchhHHHhhhhhcccccccccccccccceeccCCCCCCCCcchhhhhhhcccccccccc-ccccC------------C
+Q ArabidopsisHap  272 LGANYSMWMLLERVRFTLDGLECNKIGVGYEAFNTQPNFCSSPYWSCLHNQLWNFRESDIN-RIDRH------------Q  338 (670)
+Q Consensus       272 ~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~f~~~D~~-~i~~g------------~  338 (670)
+                       |..-...+  -..++   |.. |-=|--+..|..--+  ..|..    ..+.+|...+.. ....|            .
+T Consensus       634 -GqegG~Ai--AdvL~---G~~-nPSGrLp~T~p~~~~--~~p~~----~~~~~~~~~~~~~~~~e~~~~gYr~~~~~~~  700 (829)
+T 4i3g_A          634 -GQAGAEAT--AALLY---GDV-NPSGKLTQSFPAAEN--QHAVA----GDPTSYPGVDNQQTYREGIHVGYRWFDKENV  700 (829)
+T ss_dssp             -CTTHHHHH--HHHHT---TSS-CCCCCCSSCBCSBTT--BSTTT----TCTTTTTCBTTEEECTTTTCCTHHHHHHHTC
+T ss_pred             -cccCceee--hhccc---Ccc-CCCCCCccccccccc--ccccc----cCcccCCCCCCCcccccccccCccccccCCC
+Confidence             22222322  11111   211 111222222322110  00000    000011110000 00001            1
+
+
+Q ss_pred             cccccccccchhcccCCCCCCceeeeeeeeeeccceEEEEecccceeeeecCCCcEEEEeccchHhhhhcccEEEEEecC
+Q ArabidopsisHap  339 LPLYGLEGRFERINQHPNAGPHSFSIGVTETLNTNLMIELRADDIEYVFQRSPGKIINIAIPTFEALTQFGVAAVIIKNT  418 (670)
+Q Consensus       339 ~~~Y~~~g~f~~i~~~~~~~~~~~~i~~~~~~~s~l~iei~AD~i~~v~~~spG~I~s~~~~~fe~~s~~g~l~V~v~N~  418 (670)
+                      .|.|-+ |       + .=.-.+|.+       +.+++...+          -               ..-+++|+|+|+
+T Consensus       701 ~p~fpF-G-------~-GLSYT~F~y-------s~~~~~~~~----------~---------------~~~~vsv~V~Nt  739 (829)
+T 4i3g_A          701 KPLFPF-G-------H-GLSYTSFTQ-------SAPTVVRTS----------T---------------GGLKVTVTVRNS  739 (829)
+T ss_dssp             CCSBCT-T-------C-CCCSSCEEE-------CCCEEEECT----------T---------------SCEEEEEEEEEC
+T ss_pred             CccccC-C-------C-CcceeeEEe-------ecccccccC----------c---------------ceEEEEEEEEeC
+Confidence            222211 0       0 001123322       122332211          1               123689999999
+
+
+Q ss_pred             ceeEeEEEEEe--ecCc-------ceeeeeeeeeEeecceeeeeeeeeeeCchhhhhHHhhhhcccCCcC--ccccceee
+Q ArabidopsisHap  419 GEVEASYSLTF--DCSK-------GVAFVEEQFFIIKPKAVTTRSFKLYPTKDQAAKYICTAILKDSQFS--EVDRAECQ  487 (670)
+Q Consensus       419 G~~~a~y~v~v--~Cs~-------~v~~i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~C~v~L~ds~~~--~lD~~~~~  487 (670)
+                      |++.+.-.|++  .-..       ...-.--+++.|+|+++.++.|.+...         ....||....  .++.-.+.
+T Consensus       740 G~~~g~evvQlYv~~~~~~~~~~p~k~L~gF~kv~l~pGes~~v~~~l~~~---------~l~~~d~~~~~w~~~~G~y~  810 (829)
+T 4i3g_A          740 GKRAGQEVVQAYLGASPNVTAPQAKKKLVGYTKVSLAAGEAKTVTVNVDRR---------QLQFWDAATDNWKTGTGNRL  810 (829)
+T ss_dssp             SSSCEEEEEEEEEECCTTCCSCCCSEEEEEEEEEEECTTCEEEEEEEECGG---------GGEEEETTTTEEEECCEEEE
+T ss_pred             CCCCccEEEEEEecCCccccccchhhhhccceeeeeCCCCeEEEEEEECHH---------HhcceeccCCeEEecCceEE
+Confidence            99988887765  4322       122344567889999999999988631         2445665432  44444444
+
+
+Q ss_pred             eeeee
+Q ArabidopsisHap  488 FSTTA  492 (670)
+Q Consensus       488 f~t~~  492 (670)
+                      +.+-.
+T Consensus       811 i~vG~  815 (829)
+T 4i3g_A          811 LQTGS  815 (829)
+T ss_dssp             EEEEE
+T ss_pred             EEEeC
+Confidence            44421
+
+
+No 12 
+>4pj0_R Photosystem II protein Y, photosystem II reaction center protein Z; membrane protein, oxidoreductase, ELE transport; HET: OEX LMG CLA BCR PL9 SQD LHG UNL DGD PHO HEM; 2.44A {Thermosynechococcus elongatus}
+Probab=14.43  E-value=90  Score=19.09  Aligned_cols=21  Identities=19%  Similarity=0.499  Sum_probs=12.3
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhhc
+Q ArabidopsisHap  564 FGLLLALFPITCLLLWLLHQK  584 (670)
+Q Consensus       564 ~~lll~l~~~~l~ll~ll~~~  584 (670)
+                      +=+++.++|+++++-|.++..
+T Consensus         3 ~R~liVl~Pi~~A~gWa~fNI   23 (41)
+T 4pj0_R            3 WRVLVVLLPVLLAAGWAVRNI   23 (41)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHHHHHHh
+Confidence            113445667777777777631
+
+
+No 13 
+>4ub6_R Photosystem II protein Y, photosystem II reaction center protein Z; membrane protein, electron transport, photosynthesis; HET: FME CLA PHO BCR SQD LMT OEX PL9 UNL LMG HTG DGD LHG HEM; 1.95A {Thermosynechococcus vulcanus} PDB: 4il6_R* 4ub8_R*
+Probab=13.83  E-value=84  Score=18.44  Aligned_cols=21  Identities=19%  Similarity=0.499  Sum_probs=13.1
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhhc
+Q ArabidopsisHap  564 FGLLLALFPITCLLLWLLHQK  584 (670)
+Q Consensus       564 ~~lll~l~~~~l~ll~ll~~~  584 (670)
+                      +=+++.++|++++.-|.++..
+T Consensus         2 ~R~livl~Pi~~A~gWa~fNI   22 (34)
+T 4ub6_R            2 WRVLVVLLPVLLAAGWAVRNI   22 (34)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cchhhHHHHHHHHHHHHHHHh
+Confidence            123455678888888887631
+
+
+No 14 
+>2ys4_A Hydrocephalus-inducing protein homolog; hydin, PAPD-like, NPPSFA, national project on protein structural and functional analyses; NMR {Homo sapiens}
+Probab=12.63  E-value=1.3e+02  Score=20.68  Aligned_cols=72  Identities=13%  Similarity=0.094  Sum_probs=45.4
+
+Q ss_pred             hcccEEEEEecCceeEeEEEEEeecCcceeeeeeeeeEeecceeeeeeeeeeeCchhhhhHHhhhhcccCCcCcccccee
+Q ArabidopsisHap  407 QFGVAAVIIKNTGEVEASYSLTFDCSKGVAFVEEQFFIIKPKAVTTRSFKLYPTKDQAAKYICTAILKDSQFSEVDRAEC  486 (670)
+Q Consensus       407 ~~g~l~V~v~N~G~~~a~y~v~v~Cs~~v~~i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~C~v~L~ds~~~~lD~~~~  486 (670)
+                      ..-...+.++|.|.....|....  . ....+......|+|+++..+.+.+.+..               .+..-++..+
+T Consensus        41 ~~~~~~~~i~N~g~~~~~~~~~~--~-~~f~i~p~~g~l~~~~~~~i~v~f~p~~---------------~~~~~~~~~~  102 (122)
+T 2ys4_A           41 YSTQKILLVRNIGNKNAVFHIKT--C-RPFSIEPAIGTLNVGESMQLEVEFEPQS---------------VGDHSGRLIV  102 (122)
+T ss_dssp             SCEEEEEEEECCSSSCEEEEEEC--C-TTEEEESSEEEECTTCEEEEEEEECCSS---------------SBCCCCBCEE
+T ss_pred             CEEEEEEEEEeCCCCcEEEEEec--C-CCeEEECCeEEECCCCEEEEEEEEEcCC---------------cCcEEEEEEE
+Confidence            11247889999999999998753  3 3456676788999999999999988742               3333333222
+
+
+Q ss_pred             eeeeeeEEeeCCeeecc
+Q ArabidopsisHap  487 QFSTTATVLDNGTQVTN  503 (670)
+Q Consensus       487 ~f~t~~t~~~ng~q~g~  503 (670)
+                      .  +     .+|.....
+T Consensus       103 ~--~-----~~~~~~~i  112 (122)
+T 2ys4_A          103 C--Y-----DTGEKVFV  112 (122)
+T ss_dssp             E--E-----SSSCEECC
+T ss_pred             E--E-----CCCCEEEE
+Confidence            2  2     22222211
+
+
+No 15 
+>2w0t_A Lethal(3)malignant brain tumor-like 2 protein; zinc, YACG, LMBL2, nucleus, zinc-finger, RNA binding, MBT repeats, PCG proteins, polymorphism; NMR {Homo sapiens}
+Probab=11.54  E-value=1.1e+02  Score=18.57  Aligned_cols=32  Identities=25%  Similarity=0.410  Sum_probs=19.9
+
+Q ss_pred             ccccccccccccccceeccCCCCCCCCcchhhhhh
+Q ArabidopsisHap  287 FTLDGLECNKIGVGYEAFNTQPNFCSSPYWSCLHN  321 (670)
+Q Consensus       287 v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~n  321 (670)
+                      -.+.-.-|.|+|+--..|.....||+.   +|-+.
+T Consensus         5 ~~~kCe~CGk~~~~~~f~~ksKRFCS~---~Cak~   36 (43)
+T 2w0t_A            5 EPAVCEMCGIVGTREAFFSKTKRFCSV---SCSRS   36 (43)
+T ss_dssp             CEEECTTTCCEEETTTSCTTTSSSSSH---HHHHH
+T ss_pred             ccceeccCCCccccccccCCcCCcccc---hhcCc
+Confidence            112234588998877777789999983   33321
+
+
+No 16 
+>3fwy_A Light-independent protochlorophyllide reductase I ATP-binding protein; BCHL, electron donor, DPOR, Fe protein, nitrogenase; HET: ADP; 1.63A {Rhodobacter sphaeroides 2}
+Probab=10.33  E-value=13  Score=32.47  Aligned_cols=22  Identities=23%  Similarity=0.499  Sum_probs=0.0
+
+Q ss_pred             ccccccc-cCCCCCChHHHHHHH
+Q ArabidopsisHap  631 RRTHQRH-KHHHGQDDDVLQKMM  652 (670)
+Q Consensus       631 ~~~~~~~-~~~~~~~~~~~~~~~  652 (670)
+                      +|||||| .|||+|.+++.++-+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~   24 (314)
+T 3fwy_A            2 HHHHHHHGMHHHHHHHGSPKDLT   24 (314)
+T ss_dssp             -----------------------
+T ss_pred             CcccccccccccccccCCccccc
+Confidence            1222222 222221111111111
+
+
+No 17 
+>2jln_A MHP1; hydantoin, transporter, membrane protein, nucleobase-cation-symport-1 family; 2.85A {Microbacterium liquefaciens} PDB: 2x79_A 4d1a_A* 4d1b_A* 4d1c_A* 4d1d_A*
+Probab=9.65  E-value=3.5e+02  Score=23.85  Aligned_cols=41  Identities=17%  Similarity=0.141  Sum_probs=7.3
+
+Q ss_pred             hhHHHHHHHHHH---------HHHHH--HHHHHHHHHhhcC--CCCcchhhhhc
+Q ArabidopsisHap  556 VCLSWMVMFGLL---------LALFP--ITCLLLWLLHQKG--LFDPCYDWWED  596 (670)
+Q Consensus       556 ~C~~~l~~~~ll---------l~l~~--~~l~ll~ll~~~g--~~~~~~~~~~~  596 (670)
+                      .=.++++-++..         .+++.  ++.+++-++.++.  -.+-.-..+++
+T Consensus       411 ai~s~i~G~~~~~~~~~~~~~~g~~vs~v~y~~~s~~~~~~~~~~~~~~~~~~~  464 (501)
+T 2jln_A          411 ALAVYAVALAVSFLTPDLMFVTGLIAALLLHIPAMRWVAKTFPLFSEAESRNED  464 (501)
+T ss_dssp             HHHHHHHHHHHHHTCGGGHHHHHHHHHHHHHHHHHHHHTTTSCSCCGGGGGHHH
+T ss_pred             HHHHHHHHHHHHHhccchHHHHHHHHHHHHHHHHHHHHHhhcccccCccccchH
+Confidence            122222222211         11111  1111122222111  11111111111
+
+
+No 18 
+>1q90_G Cytochrome B6F complex subunit PETG; membrane protein complex, photosynthesis, electron transfer, oxydoreductase, chlorophyll; HET: HEM CLA BCR TDS SQD LFA LMG; 3.10A {Chlamydomonas reinhardtii} SCOP: f.23.26.1
+Probab=9.59  E-value=1.3e+02  Score=17.88  Aligned_cols=25  Identities=32%  Similarity=0.583  Sum_probs=14.4
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH----HHHhhcC
+Q ArabidopsisHap  561 MVMFGLLLALFPITCLLL----WLLHQKG  585 (670)
+Q Consensus       561 l~~~~lll~l~~~~l~ll----~ll~~~g  585 (670)
+                      .+++|++++++|+.++-+    |+=++.|
+T Consensus         4 ~lL~GIvlGli~iTlaGLfvtAY~QYrRg   32 (37)
+T 1q90_G            4 PLLCGIVLGLVPVTIAGLFVTAYLQYLRG   32 (37)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHC--
+T ss_pred             hhHHHHHHHhHHHHHHHHHHHHHHHHhhc
+Confidence            367788888888776543    3333322
+
+
+No 19 
+>4o2x_A MBP, MMBP, maltose-binding periplasmic protein, ATP-dependen protease adaptor protein CLPS containing...; proteolysis, CLP ATPase protease; 2.70A {Escherichia coli}
+Probab=8.95  E-value=16  Score=34.21  Aligned_cols=15  Identities=27%  Similarity=0.062  Sum_probs=4.8
+
+Q ss_pred             HHHHHHHHhhcCCCC
+Q ArabidopsisHap  574 TCLLLWLLHQKGLFD  588 (670)
+Q Consensus       574 ~l~ll~ll~~~g~~~  588 (670)
+                      +..+.-.+...||--
+T Consensus       463 ~~~~~~~~~~~~l~~  477 (507)
+T 4o2x_A          463 AEKYCQELQQNGLTV  477 (507)
+T ss_dssp             HHHHHHHHHHTTCCE
+T ss_pred             HHHHHHHHHhcCCEE
+Confidence            122223334444321
+
+
+No 20 
+>3oka_C N-terminal His-affinity TAG; GT-B fold, alpha-mannosyltransferase, GDP-MAN binding, trans; HET: GDD; 2.20A {Escherichia coli}
+Probab=7.98  E-value=74  Score=16.15  Aligned_cols=6  Identities=17%  Similarity=0.357  Sum_probs=0.7
+
+Q ss_pred             hccccc
+Q ArabidopsisHap  664 HQLHRV  669 (670)
+Q Consensus       664 ~~~~~~  669 (670)
+                      +.-+|.
+T Consensus        12 hssghi   17 (21)
+T 3oka_C           12 HSSGHI   17 (26)
+T ss_pred             cccccc
+Confidence            111111
+
+
+Done!

@@ -1,0 +1,839 @@
+Query         orthobunyavirus2SS
+Match_columns 375
+No_of_seqs    190 out of 263
+Neff          6.2 
+Searched_HMMs 39
+Date          Thu Aug  4 12:32:56 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/orthobunyavirus2SS.a3m.hhm -ohhm ./structurepred/orthobunyavirus2SS.a3m.hhm -o ./structurepred/orthobunyavirus2SS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;   98.0  0.0038 5.7E-07   58.0  73.4  350    1-363    40-432 (432)
+  2 3n44_F E1 envelope glycoprotei  46.3      63  0.0078   28.0  66.5  318    3-357    34-410 (473)
+  3 3n40_F E1 envelope glycoprotei  32.8      96   0.012   26.2  63.9  321    3-357    14-390 (393)
+  4 2yew_B E1 envelope glycoprotei  11.5 2.8E+02   0.035   23.2  60.2  331    1-363     9-386 (427)
+  5 1i9w_A Fusion protein E1; enve   4.8 5.5E+02   0.068   20.9  46.9  334    2-359    11-388 (390)
+  6 3j0c_A E1 envelope glycoprotei   4.3 6.2E+02   0.078   20.9  66.7  337    1-364    10-393 (442)
+  7 3j0f_E E1 envelope glycoprotei   4.2 6.3E+02   0.079   20.8  46.7  339    2-364    11-393 (439)
+  8 3tjq_A Serine protease HTRA1;    2.4 3.1E+02   0.045   18.2   3.6   69   37-124     6-76  (140)
+  9 1ezg_A Thermal hysteresis prot   1.5 7.5E+02   0.095   15.6   6.6   40  269-308     6-58  (84)
+ 10 3muu_A Structural polyprotein;   0.8 2.2E+03    0.28   18.0  65.5  314    1-343   370-734 (750)
+ 11 4il7_A Putative uncharacterize   0.1 6.5E+03    0.77    9.7  18.2  101  244-368    40-146 (166)
+ 12 3bjo_A Uncharacterized ATP-bin   0.0 6.3E+03    0.83    8.7   7.7   29  248-276    26-66  (103)
+ 13 2lgh_A Uncharacterized protein   0.0   6E+03    0.96    5.8  16.6   35    2-46     47-83  (144)
+ 14 4pxd_A Allantoate amidohydrola   0.0 6.2E+03    0.99    6.5  11.0  169  104-298    64-294 (413)
+ 15 4myz_A CURK, CURL fusion prote   0.0 8.4E+03       1    4.4   5.0   17   23-39     53-77  (79)
+ 16 4o9i_X Chromodomain-helicase-D   0.0 6.5E+03       1    3.2  15.5   95  162-271    62-183 (202)
+ 17 3mxt_A Pantothenate synthetase   0.0 6.9E+03       1    3.5  14.0  142   30-194    42-284 (285)
+ 18 4cgu_B Protein interacting wit   0.0 7.3E+03       1    3.2  20.3  131  224-368    13-157 (158)
+ 19 4l8i_A RSV epitope scaffold FF   0.0 8.5E+03       1    3.3   6.1   10   28-38    102-111 (115)
+ 20 2ejc_A Pantoate--beta-alanine    0.0 6.9E+03       1    3.2  13.9   45  140-192   235-280 (280)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=98.00  E-value=0.0038  Score=57.95  Aligned_cols=350  Identities=13%  Similarity=0.085  Sum_probs=0.0
+
+Q ss_pred             CcceeeeeeecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeeecccccccCC-------CCchhh--h-cccc----
+Q orthobunyaviru    1 GLSLGLHLTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK-------CPSSLM--K-TGWL----   66 (375)
+Q Consensus         1 gts~~~~l~~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~~~~~~CTG~-------Cp~~~~--~-~~w~----   66 (375)
+                      |.=+=++|.++++..+-.|.|.+++...+-....+|.|.++. +.+++...|-+.       |.+--+  . .+|.    
+T Consensus        40 ~~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTrd~~-~~~~s~~RC~~~GsC~~~~C~~i~~~~~~pEl~~~~~  118 (432)
+T 4hj1_A           40 GAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFS-PKCLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGE  118 (432)
+T ss_dssp             TSEEEEEEECSSTTCEEEEEEEEEEEEEEEEEEEEEEECCEE-EEEEEEEECTTSTTCSTTTTTTCCTTCCCGGGGGGCC
+T ss_pred             CcEEeEEEECCCCCeEEEEEEEEEeeEEEEecccEEEeccee-EEEeeEeECCCCCccccCcccccCCcCcchhhccccc
+
+
+Q ss_pred             ------ccccccccccccccceeeEeecCccc--cccccccCccceeeccccccCceEEEEecCCcccccccccchhh--
+Q orthobunyaviru   67 ------SFAKEHTSQWGCEEFGCLAINEGCVF--GHCKDIIKPEMTILRKNQEELPVIRICISLPQETFCQPINAFTA--  136 (375)
+Q Consensus        67 ------~F~~e~ts~WGCe~~~ClaIgtGCt~--G~c~Diik~~~~vykk~~~~~~~~~vCi~~~~e~~C~~i~~~~~--  136 (375)
+                            +++.|.--+|||   ||+=...||.|  =.-.-.-+..+.||+ -.+-...+++=|+..+... +.++-+.+  
+T Consensus       119 ~~~~g~t~C~~sCGg~gC---gCF~~~~sClFyR~y~~p~s~~iyeVf~-C~~W~~~v~i~vt~~~~~~-~~~~l~~~~~  193 (432)
+T 4hj1_A          119 STTMRENKCFEQCGGWGC---GCFNVNPSCLFVHTYLQSVRKEALRVFN-CIDWVHKLTLEITDFDGSV-STIDLGASSS  193 (432)
+T ss_dssp             CCBCEEEEEEEECCSGGG---TCSSSSCEEEEEEEEEEESSSCCEEEEE-EEEEEEEEEEEEECTTSCE-EEEEECTTCE
+T ss_pred             cCCCccceeccccCCCCc---CeeCcCcchhEEEEEEEcCCCCEEEEEE-CCCccEEEEEEEEecCCce-EEEEeccCCc
+
+
+Q ss_pred             --heecchhceeeccccCCcC-cccc-ccccceeeeecccchh-hhhcccceeeecc-cccc-cCCCcc-ceeecccccC
+Q orthobunyaviru  137 --IITDKIETQFISNEAGKIP-KLLG-YKSNKIFTGMINDLGT-FSKMCGSVQSING-NVLG-AGTPRF-DYICHAAQRK  208 (375)
+Q Consensus       137 --~~t~~~~v~~~~~~~~~lp-~~ia-v~~~~v~~G~indlg~-~~~~cG~~Q~~~~-~~~g-~~~p~f-dy~C~~a~~k  208 (375)
+                        +..+.+.+.+........| ..++ ..++.+..=+-++.|. ..+.-|.+|=-.. +... .....| .-.|.--...
+T Consensus       194 ~~~~~~~i~itl~~~~~~~~~~~~fi~~~~~~~a~~~~~~~~~p~~g~ig~lqC~t~~~A~~~~~~C~~~~~~c~c~~~~  273 (432)
+T 4hj1_A          194 RFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKPMI  273 (432)
+T ss_dssp             EEETTEEEEEEEECCSCTTGGGCEEEEETTTEEEEESSCCCSSCCTTSTTSEEBSSHHHHHTTBTTSEECTTCEEEEEET
+T ss_pred             eEEeeccEEEEEEeeeecCCCCcEEEEeCCceEEEecccccCCcCcCcccceeeCChHHhHhhcCceeeccccceEEccc
+
+
+Q ss_pred             ceeeeeccchhhhcc---cccccccc---eeecCccceEeeecccccceEEEEEecccchhhhhcCCCCccc-ccccccc
+Q orthobunyaviru  209 DITVSRCFDNFYDSC---QRLDIAEN---IVYDNSIKKVSLLNKNMGELRLKIKLGDINYKLYEKMPSFDFK-GSCVGCT  281 (375)
+Q Consensus       209 ~~~~~~c~~n~y~sc---~~L~~~~~---~~~~~~~~~l~~~~~~lG~i~~~i~l~di~~k~~~~~~~i~~~-~~C~GC~  281 (375)
+                      +-..=.|-..+-...   +.|.....   +....+++++.........+.+.|.+++++......+..=+++ ..-.|||
+T Consensus       274 ~~~~C~c~~~~~~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GCY  353 (432)
+T 4hj1_A          274 DQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCY  353 (432)
+T ss_dssp             TEEEEEECCCCHHHHHHHTBSSEEETTEEEEECSSSCCEEEEECSCCCEEEEEEEEEEEEECCSCCCCCEEEEEEEEEBS
+T ss_pred             ceEEeeCCCCCHHHHhhcCCCceEeCcceEEEecCCCeEEEEeccceEEEEEEEecceEEEEEEeCCcceEEeccceEec
+
+
+Q ss_pred             ceecceeeeeeeecCcceeeEEeccccccccCcccCccccccccccccCcceEEEee---cCC-eeEEEEEEecccceee
+Q orthobunyaviru  282 KCIKGVDCEFDIHSTSESVCMLTSNCDFYHNNLKIDPNVQKYGMKGKCSEEKIWVDL---CGN-KIEIQISIIQPHETIE  357 (375)
+Q Consensus       282 ~C~~G~~C~l~i~s~~~~~c~i~s~C~~~~~~i~i~~g~n~~~ik~~c~~~~i~~~i---C~~-~~~~~~~~~~~~~~~~  357 (375)
+                      +|..|..=.++..|+....-.....|..+.-.+.-.+|..+..+.++-....+....   |+. +..+.+       .=.
+T Consensus       354 sC~~GA~~~i~C~S~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~f~~a~v~~~C~v~CG~~~~~f~i-------~G~  426 (432)
+T 4hj1_A          354 SCNAGARVCLSITSTGTGSLSAHNKDGSLHIVLPSENGTKDQCQILHFTVPEVEEEFMYSCDGDERPLLV-------KGT  426 (432)
+T ss_dssp             SSSSCEEEEEEEEESSCEEEEEEETTSSCEEEEEECBEEEEEEEEECCSSSEEEEEEEEESSSCCEEEEE-------EEE
+T ss_pred             ccccCCEEEEEEEeCCCCeEEEEEcCCCEEEEEecCCCCeeEEEEEEcCCCeEeeEEEEECCCCcEEEEE-------EEE
+
+
+Q ss_pred             ecCccc
+Q orthobunyaviru  358 VGNSDQ  363 (375)
+Q Consensus       358 l~~~d~  363 (375)
+                      |..++.
+T Consensus       427 L~~~~~  432 (432)
+T 4hj1_A          427 LIAIDP  432 (432)
+T ss_dssp             CBCCC-
+T ss_pred             EEecCC
+
+
+No 2  
+>3n44_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG; 2.35A {Chikungunya virus} PDB: 3n41_F* 3n42_F* 3n43_F* 2xfc_A
+Probab=46.33  E-value=63  Score=28.00  Aligned_cols=318  Identities=12%  Similarity=0.131  Sum_probs=0.0
+
+Q ss_pred             ceee-eeeecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeeecccccccCC--CCchhhh-cccccccccccccccc
+Q orthobunyaviru    3 SLGL-HLTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK--CPSSLMK-TGWLSFAKEHTSQWGC   78 (375)
+Q Consensus         3 s~~~-~l~~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~~~~~~CTG~--Cp~~~~~-~~w~~F~~e~ts~WGC   78 (375)
+                      +.-| -|.+..|-.++.|.|.+.+..+.-+.+..|.|=.-.+.---+.-+|=|.  |+..... ..-+.|.-=+-==|  
+T Consensus        34 g~pYkA~V~RpGYaPL~L~i~v~~t~l~PtlnleYiTC~YkTvvpSP~VKCCGs~EC~~~~~pDy~CkVftGVYPFMW--  111 (473)
+T 3n44_F           34 GVPYKTLVNRPGYSPMVLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKDKNLPDYSCKVFTGVYPFMW--  111 (473)
+T ss_dssp             TCCEEEEECCTTBCCEEEEEEEEEEEEECCEEEEEEEECEEEECCCCEEETTSCCCCCCCCSTTCEEEEEESCCCEET--
+T ss_pred             CCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceEecccccccc--
+
+
+Q ss_pred             ccceeeEeecCcccccc--------------ccccC-ccceeeccccccCceEEEEecCCc--ccccccccchhhheecc
+Q orthobunyaviru   79 EEFGCLAINEGCVFGHC--------------KDIIK-PEMTILRKNQEELPVIRICISLPQ--ETFCQPINAFTAIITDK  141 (375)
+Q Consensus        79 e~~~ClaIgtGCt~G~c--------------~Diik-~~~~vykk~~~~~~~~~vCi~~~~--e~~C~~i~~~~~~~t~~  141 (375)
+                                |=.+|.|              .|.=+ .-+.+|| +-.-...+.+=|++++  .+.=--++...|....-
+T Consensus       112 ----------GGAyCFCDsENTQmSeaYV~rS~~C~~dhA~Ayk-aHTAs~kA~l~ItyG~~~~~v~vyVNG~tp~~~~~  180 (473)
+T 3n44_F          112 ----------GGAYCFCDAENTQLSEAHVEKSESCKTEFASAYR-AHTASASAKLRVLYQGNNITVTAYANGDHAVTVKD  180 (473)
+T ss_dssp             ----------TEESCSCSSSCEEEEEEEEEECGGGGTSEEEEEE-ECSCEEEEEEEEEETTEEEEEEEETTSCCEEEETT
+T ss_pred             ----------cceeeeecCcchhhhhhheecCccchhHHHHHHH-hhhheeeEEEEEEEcceeEEEEEEEcCccceecCc
+
+
+Q ss_pred             hhceeec--cccCCcCccccccccceeeeecccchh-hhhcccceeeecccccccCCCccceeecccccCceeeeeccch
+Q orthobunyaviru  142 IETQFIS--NEAGKIPKLLGYKSNKIFTGMINDLGT-FSKMCGSVQSINGNVLGAGTPRFDYICHAAQRKDITVSRCFDN  218 (375)
+Q Consensus       142 ~~v~~~~--~~~~~lp~~iav~~~~v~~G~indlg~-~~~~cG~~Q~~~~~~~g~~~p~fdy~C~~a~~k~~~~~~c~~n  218 (375)
+                      .++-+--  +...-..+.|.+..+.||-=.+-..|. ..+.|||+|..-.+-                 +|+.-+.    
+T Consensus       181 ~K~i~GPiStawsPFD~KIVvyk~eVYNyDfP~YGAG~PG~FGDIQsrt~~s-----------------~DlyAnT----  239 (473)
+T 3n44_F          181 AKFIVGPMSSAWTPFDNKIVVYKGDVYNMDYPPFGAGRPGQFGDIQSRTPES-----------------KDVYANT----  239 (473)
+T ss_dssp             EEEEECCCSCCCCSCCSEEEEETTEEEECCCCCTTCCCTTSTTSEEBSSTTC-----------------SCCEECS----
+T ss_pred             eeEEecccccCcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCCc-----------------cceeecc----
+
+
+Q ss_pred             hhhccccccccccee------------------------ecCccceEee-----ecccccceEEEEEecccchhhhhcCC
+Q orthobunyaviru  219 FYDSCQRLDIAENIV------------------------YDNSIKKVSL-----LNKNMGELRLKIKLGDINYKLYEKMP  269 (375)
+Q Consensus       219 ~y~sc~~L~~~~~~~------------------------~~~~~~~l~~-----~~~~lG~i~~~i~l~di~~k~~~~~~  269 (375)
+                         .-.++.+....+                        .---+=+|..     -+=-+|.|-|-|+++|-.|-...+.|
+T Consensus       240 ---~l~L~RP~ag~iHVPYTQapSGF~~W~k~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiSiDIPDAaFTRv~daP  316 (473)
+T 3n44_F          240 ---QLVLQRPAAGTVHVPYSQAPSGFKYWLKERGASLQHTAPFGCQIATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAP  316 (473)
+T ss_dssp             ---CCEECCCCTTCCCCCEECCCCHHHHHHHHCCCCHHHHCGGGCEEETTTTEEESCCCSEEEEEEECCGGGCCBTTTSC
+T ss_pred             ---CcEEccCCCCceecccccCCcHHHHHhhcCCCcccccCCcccEEecCcchhhcccccceeeeeecCchheeeeccCC
+
+
+Q ss_pred             CCccc-cccccccceec-ceeeeeeeecCcceeeEEe--ccccccccCcccCccccccccccccCcc--eEEEeecCCee
+Q orthobunyaviru  270 SFDFK-GSCVGCTKCIK-GVDCEFDIHSTSESVCMLT--SNCDFYHNNLKIDPNVQKYGMKGKCSEE--KIWVDLCGNKI  343 (375)
+Q Consensus       270 ~i~~~-~~C~GC~~C~~-G~~C~l~i~s~~~~~c~i~--s~C~~~~~~i~i~~g~n~~~ik~~c~~~--~i~~~iC~~~~  343 (375)
+                      .|+.. -.-.-|.-+.. |-.=.|++.++....|.|-  |+-..-.....-.....++.+.+.....  ..++.+|...+
+T Consensus       317 ~vs~l~Ctv~~CtySsDfGGvatl~Y~a~k~GkCaVHs~S~~atl~es~v~v~~~g~~t~hFSTas~~p~F~v~iC~~~v  396 (473)
+T 3n44_F          317 SLTDMSCEVPACTHSSDFGGVAIIKYAASKKGKCAVHSMTNAVTIREAEIEVEGNSQLQISFSTALASAEFRVQVCSTQV  396 (473)
+T ss_dssp             CEEEEEEEEEEEBCSSSCCEEEEEEEEESSCEEEEEEESSTTCEESCSEEEECSSCEEEEEEECSCSEEEEEEEETTEEE
+T ss_pred             ccccceEEeeEEEeccCCCCeEEEEEecCCCcccceecCCCceEeeeeeEEEeccceEEEEEecCCCCCCEEEEeccCcc
+
+
+Q ss_pred             EEEEEEecccceee
+Q orthobunyaviru  344 EIQISIIQPHETIE  357 (375)
+Q Consensus       344 ~~~~~~~~~~~~~~  357 (375)
+                      .....-..-++++.
+T Consensus       397 tC~a~C~PPkDHIV  410 (473)
+T 3n44_F          397 HCAAECHPPKDHIV  410 (473)
+T ss_dssp             EEEEECBCCSCSEE
+T ss_pred             eecCcccCchhhcc
+
+
+No 3  
+>3n40_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG NDG; 2.17A {Chikungunya virus} PDB: 3j2w_A 2xfb_A
+Probab=32.84  E-value=96  Score=26.22  Aligned_cols=321  Identities=12%  Similarity=0.119  Sum_probs=0.0
+
+Q ss_pred             ceee-eeeecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeeecccccccCC--CCchhhh-cccccccccccccccc
+Q orthobunyaviru    3 SLGL-HLTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK--CPSSLMK-TGWLSFAKEHTSQWGC   78 (375)
+Q Consensus         3 s~~~-~l~~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~~~~~~CTG~--Cp~~~~~-~~w~~F~~e~ts~WGC   78 (375)
+                      |.-| -|.+..|-.++.|.|.+.+..+.=+.+..|.|=.-.+.---+.-+|=|.  |+..... ..-+.|.-=+-==|| 
+T Consensus        14 g~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkVftGVYPfMWG-   92 (393)
+T 3n40_F           14 GVPYKTLVNRPGYSPMVLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKDKNLPDYSCKVFTGVYPFMWG-   92 (393)
+T ss_dssp             TCCEEEEECCTTBCCEEEEEEEEEEEEEEEEEEEEEECCEEEECCCCEEETTSCCCCCCCCSTTCEEEEEESCCCEETT-
+T ss_pred             CCchhheecCCCCCceeEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceEeccccccccc-
+
+
+Q ss_pred             ccceeeEeecCccccccccccC------------ccceeeccccccCceEEEEecCCc--ccccccccchhhheecchhc
+Q orthobunyaviru   79 EEFGCLAINEGCVFGHCKDIIK------------PEMTILRKNQEELPVIRICISLPQ--ETFCQPINAFTAIITDKIET  144 (375)
+Q Consensus        79 e~~~ClaIgtGCt~G~c~Diik------------~~~~vykk~~~~~~~~~vCi~~~~--e~~C~~i~~~~~~~t~~~~v  144 (375)
+                              |-=|-|-+=...+.            .-+.+|| +-.-...+.+=|++++  .+.=--++...|...+-.++
+T Consensus        93 --------GAyCFCDsENTQ~SeayV~~s~~C~~dhA~Ayk-aHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K~  163 (393)
+T 3n40_F           93 --------GAYCFCDAENTQLSEAHVEKSESCKTEFASAYR-AHTASASAKLRVLYQGNNITVTAYANGDHAVTVKDAKF  163 (393)
+T ss_dssp             --------EESCSCSSSCEEEEEEEEEECGGGGTSCEEEEE-EEEEEEEEEEEEEETTEEEEEEEETTSCCEEEETTEEE
+T ss_pred             --------ceeeeecCcchhhhhhheecCccchhHHHHHHH-hhhheeEEEEEEEEcceeEEEEEEEcCccceecCceeE
+
+
+Q ss_pred             eeec--cccCCcCccccccccceeeeecccchh-hhhcccceeeecccccccCCCccceeecccccCceeeeeccchhhh
+Q orthobunyaviru  145 QFIS--NEAGKIPKLLGYKSNKIFTGMINDLGT-FSKMCGSVQSINGNVLGAGTPRFDYICHAAQRKDITVSRCFDNFYD  221 (375)
+Q Consensus       145 ~~~~--~~~~~lp~~iav~~~~v~~G~indlg~-~~~~cG~~Q~~~~~~~g~~~p~fdy~C~~a~~k~~~~~~c~~n~y~  221 (375)
+                      -+--  +...-..+.|.+..+.||-=..-..|. ..+.|||+|..-.+-                 +|+.-+.       
+T Consensus       164 i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGag~pG~FGDIQsrt~~s-----------------~DlyAnT-------  219 (393)
+T 3n40_F          164 IVGPMSSAWTPFDNKIVVYKGDVYNMDYPPFGAGRPGQFGDIQSRTPES-----------------KDVYANT-------  219 (393)
+T ss_dssp             EECCCSCCCCSCCSEEEEETTEEEECCCCCTTCCCTTSTTSEEBSSTTC-----------------SSCEECC-------
+T ss_pred             EecccccCcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCc-----------------cceeecc-------
+
+
+Q ss_pred             ccccccccccee------------------------ecCccceEee-----ecccccceEEEEEecccchhhhhcCCCCc
+Q orthobunyaviru  222 SCQRLDIAENIV------------------------YDNSIKKVSL-----LNKNMGELRLKIKLGDINYKLYEKMPSFD  272 (375)
+Q Consensus       222 sc~~L~~~~~~~------------------------~~~~~~~l~~-----~~~~lG~i~~~i~l~di~~k~~~~~~~i~  272 (375)
+                      .-.++.+....+                        .---+=+|..     -+=-+|.|-|-++++|-.|-...+.|.++
+T Consensus       220 ~l~L~rP~~g~iHVPYTQapSGf~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs  299 (393)
+T 3n40_F          220 QLVLQRPAAGTVHVPYSQAPSGFKYWLKERGASLQHTAPFGCQIATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAPSLT  299 (393)
+T ss_dssp             CCEECCCCTTCCCCCEECCCCHHHHHHHHSCSCHHHHCGGGCEEETTTTEEECCCCSEEEEEEEECGGGCCBTTTSCCEE
+T ss_pred             ccEEccCCCCceecccccCCcHHHHHhhcCCCccccCCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccc
+
+
+Q ss_pred             cc-cccccccceec-ceeeeeeeecCcceeeEEe--ccccccccCcccCccccccccccccCcc--eEEEeecCCeeEEE
+Q orthobunyaviru  273 FK-GSCVGCTKCIK-GVDCEFDIHSTSESVCMLT--SNCDFYHNNLKIDPNVQKYGMKGKCSEE--KIWVDLCGNKIEIQ  346 (375)
+Q Consensus       273 ~~-~~C~GC~~C~~-G~~C~l~i~s~~~~~c~i~--s~C~~~~~~i~i~~g~n~~~ik~~c~~~--~i~~~iC~~~~~~~  346 (375)
+                      .. -.-.-|.-+.. |-.=.|++.++....|.|-  |+-..-.....-.....++.+.+.....  ..++.+|...+.-.
+T Consensus       300 ~~~Ctv~~Ct~SsdfGG~a~~~Y~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~  379 (393)
+T 3n40_F          300 DMSCEVPACTHSSDFGGVAIIKYAASKKGKCAVHSMTNAVTIREAEIEVEGNSQLQISFSTALASAEFRVQVCSTQVHCA  379 (393)
+T ss_dssp             EEEEEEEEEBCSSSCCEEEEEEEEESSCEEEEEEESSTTEEESCSEEEECSEEEEEEEEEESCSEEEEEEEETTEEEEEE
+T ss_pred             cceEEeeEEEeccCCCCeEEEEEecCCCccceeecCCCceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCcceec
+
+
+Q ss_pred             EEEecccceee
+Q orthobunyaviru  347 ISIIQPHETIE  357 (375)
+Q Consensus       347 ~~~~~~~~~~~  357 (375)
+                      ..-..-++++.
+T Consensus       380 ~~C~PPkdHIv  390 (393)
+T 3n40_F          380 AECHPPKDHIV  390 (393)
+T ss_dssp             EECBCCSCSEE
+T ss_pred             CcccCchhhcc
+
+
+No 4  
+>2yew_B E1 envelope glycoprotein; alphavirus, molecular dynamics; 5.00A {Barmah forest virus}
+Probab=11.55  E-value=2.8e+02  Score=23.24  Aligned_cols=331  Identities=12%  Similarity=0.136  Sum_probs=175.3
+
+Q ss_pred             Ccceeee-eeecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeeecccccccCC--CCchhhhccccccccccccccc
+Q orthobunyaviru    1 GLSLGLH-LTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK--CPSSLMKTGWLSFAKEHTSQWG   77 (375)
+Q Consensus         1 gts~~~~-l~~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~~~~~~CTG~--Cp~~~~~~~w~~F~~e~ts~WG   77 (375)
+                      --|.-|+ |.+..|-.++.|.|.+.+..+.=+.+..|.|=.-.+.---+.-+|=|.  |++..|-..-+.|.-=+-==||
+T Consensus         9 ~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~eC~~~~~Dy~CkVftGVYPfMWG   88 (427)
+T 2yew_B            9 QVGIPFKALIERPGYAGLPLSLVVIKSELVPSLVQDYITCNYKTVVPSPYIKCCGGAECSKNEADYKCSVFTGVYPFMWG   88 (427)
+T ss_dssp             CBTCCEEECCSSSSCCSSCEEEEEEEEEEECCCEEEEECCCEEEECCCCEEESSSCCCCCCCSSSEEEEEEESCCCCCSS
+T ss_pred             CCCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCccceEeccccccccc
+Confidence            1245664 445567666666666555433211111255555444433445578887  9985552222222111112465
+
+
+Q ss_pred             cccceeeEeecCcccccc--------------ccccCccceeeccccccCceEEEEecCCccc--ccccccchhhheecc
+Q orthobunyaviru   78 CEEFGCLAINEGCVFGHC--------------KDIIKPEMTILRKNQEELPVIRICISLPQET--FCQPINAFTAIITDK  141 (375)
+Q Consensus        78 Ce~~~ClaIgtGCt~G~c--------------~Diik~~~~vykk~~~~~~~~~vCi~~~~e~--~C~~i~~~~~~~t~~  141 (375)
+                               |   .+|.|              .|.=+.++.+|| . .--..+.+=|.+++.+  .=--++...|....-
+T Consensus        89 ---------G---AyCFCdtENTQ~SeayV~~s~~C~~dA~Ayk-~-TAs~ka~l~it~g~~~~tv~~yvNG~t~v~~~~  154 (427)
+T 2yew_B           89 ---------G---AYCFCDTENSQMSEVYVTRGESCEADAIAYQ-V-TASLKAQVMISIGELNQTVDVFVNGDSPARIQQ  154 (427)
+T ss_dssp             ---------S---SSSSCSSSCEEEEEEEEEECSCCSSSCEEEE-C-CCEEEEEEEEECSSCEEEEEEECSSCEEEEETT
+T ss_pred             ---------c---eeeeecCccceeehheeecCccchhhHHHHh-h-hheeEEEEEEEECceeEEEEEEEcCccceecCc
+Confidence                     2   22333              244455599999 6 5558888888888844  222344555555555
+
+
+Q ss_pred             hhceeec--cccCCcCccccccccceeeeecccchh-hhhcccceeeecc---ccc-----ccCCCccceeecccccCce
+Q orthobunyaviru  142 IETQFIS--NEAGKIPKLLGYKSNKIFTGMINDLGT-FSKMCGSVQSING---NVL-----GAGTPRFDYICHAAQRKDI  210 (375)
+Q Consensus       142 ~~v~~~~--~~~~~lp~~iav~~~~v~~G~indlg~-~~~~cG~~Q~~~~---~~~-----g~~~p~fdy~C~~a~~k~~  210 (375)
+                      .++-+--  ....-.. .|.+..++||-=..-..|. ..+.|||+|..-.   |++     -...|.-       +.=-|
+T Consensus       155 ~K~I~GPiStawsPFD-KiVvy~~eVYNyDfP~YGag~pG~FGDIQ~rt~~s~DlyAnT~l~L~rP~~-------g~iHV  226 (427)
+T 2yew_B          155 SKFILGPISSAWSPFD-KVIVYRDEVYNEDYAPYGSGQAGRFGDIQSRTVNSTDVYANTNLKLKRPAS-------GNVHV  226 (427)
+T ss_dssp             EEEEECCCCCCCCCCS-EEEECSSCEEECCCCCTTCCCSSSTTCSEESSSSCSSEECCCCEECCCCCS-------SCC-C
+T ss_pred             eeEEecccccCCCCCc-eEEEecceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCC-------Cceec
+Confidence            5544433  5555666 6777789999999999999 9999999999543   222     1222221       11112
+
+
+Q ss_pred             eeeeccchhhhcccccccccceeec---CccceEee-----ecccccceEEEEEecccchhhhhcCCCCcc-c---cccc
+Q orthobunyaviru  211 TVSRCFDNFYDSCQRLDIAENIVYD---NSIKKVSL-----LNKNMGELRLKIKLGDINYKLYEKMPSFDF-K---GSCV  278 (375)
+Q Consensus       211 ~~~~c~~n~y~sc~~L~~~~~~~~~---~~~~~l~~-----~~~~lG~i~~~i~l~di~~k~~~~~~~i~~-~---~~C~  278 (375)
+                      -|.+.-.. |..-   .+++--.++   --+=+|..     -+=-+|.|-+-++++| -|-...+.|.++. +   .+|.
+T Consensus       227 PYTQapSG-f~~W---~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPD-AFtRv~daP~vs~~~Ctv~~Ct  301 (427)
+T 2yew_B          227 PYTQTPSG-FSYW---KKEKGVPLNRNAPFGCIIKVNPVRAENCVYGNIPISMDIAD-AFTRIDESPSVSLKACEVQSCT  301 (427)
+T ss_dssp             CCEECCCH-HHHH---TTTCCEESTTCSSSCCEEETTTTEEESCCCCEEEEEEECCC-CSSSSCSCCCCEEEEEEECCCC
+T ss_pred             ccccCCcH-HHHH---hhcCCCccccCCCcceEEecCcchhhcccccceeeeecCch-hhhccccCCccccceEEeeEEE
+Confidence            33332211 1110   111111111   33567776     5557899999999999 5999999999843 3   3443
+
+
+Q ss_pred             cccceecceeeeeeeecCcceeeEEeccccc-cccCccc-CccccccccccccCcceEEEeecCCeeEEEEEEeccccee
+Q orthobunyaviru  279 GCTKCIKGVDCEFDIHSTSESVCMLTSNCDF-YHNNLKI-DPNVQKYGMKGKCSEEKIWVDLCGNKIEIQISIIQPHETI  356 (375)
+Q Consensus       279 GC~~C~~G~~C~l~i~s~~~~~c~i~s~C~~-~~~~i~i-~~g~n~~~ik~~c~~~~i~~~iC~~~~~~~~~~~~~~~~~  356 (375)
+                        +...=|-.=.|++.++....|.|-|+-.. ....+-+ ..|.-+.++.--..+...++.+|...+.-   -.=+.||+
+T Consensus       302 --~SsdfGG~a~~~Y~a~k~GkCavHs~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC---~~C~PPkD  376 (427)
+T 2yew_B          302 --YSSDFGGVASISYTSNKVGKCAISSNSATMKDSVQDVQESGALSLFFATSSVEPNFVVQVCNARITC---GKCEPPKD  376 (427)
+T ss_dssp             --SCCSSCCEEEEEEECCCCBCCCCCCSSCCCSCCCCCBCSCCSEEEECCTTSSCSCBCCEETTEECCB---CCCCCCSS
+T ss_pred             --eccCCCCeEEEEEecCCCcccceecCceEeeeeeEEEeecceEEEEEecCCCCCCEEEEecccccee---cCCcChhh
+Confidence              22333445667777777777766643222 2222222 23333444433333336777787754211   22245554
+
+
+Q ss_pred             eec---Cccc
+Q orthobunyaviru  357 EVG---NSDQ  363 (375)
+Q Consensus       357 ~l~---~~d~  363 (375)
+                      .+.   .|++
+T Consensus       377 ~V~~p~~h~~  386 (427)
+T 2yew_B          377 IVPYAAKNDA  386 (427)
+T ss_dssp             CCCCCCCSSC
+T ss_pred             hcCCcccCCc
+Confidence            222   1111
+
+
+No 5  
+>1i9w_A Fusion protein E1; envelope glycoprotein, membrane fusion, viral protein; 3.00A {Semliki forest virus} SCOP: b.1.18.4 f.10.1.1 PDB: 2ala_A 1rer_A
+Probab=4.83  E-value=5.5e+02  Score=20.90  Aligned_cols=334  Identities=11%  Similarity=0.121  Sum_probs=180.3
+
+Q ss_pred             cceee-eeeecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeeecccccccCC--CCchh-hhccccccccccccccc
+Q orthobunyaviru    2 LSLGL-HLTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK--CPSSL-MKTGWLSFAKEHTSQWG   77 (375)
+Q Consensus         2 ts~~~-~l~~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~~~~~~CTG~--Cp~~~-~~~~w~~F~~e~ts~WG   77 (375)
+                      -|.-| -|.+..|-.++.|.|.+.+..+.=+.+..|.|=.-.+.---+.-+|=|.  |+... |-..-+.|.-=+-==||
+T Consensus        11 vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkVftGVYPfMWG   90 (390)
+T 1i9w_A           11 VGFPYKAHIERPGYSPLTLQMQVVETSLEPTLNLEYITCEYKTVVPSPYVKCCGASECSTKEKPDYQCKVYTGVYPFMWG   90 (390)
+T ss_pred             CCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceEeccccccccc
+Confidence            12334 3567778888999999998888777777777654444334456688887  87754 31333333111112365
+
+
+Q ss_pred             cccceeeEeecCccccccccccC--cc-------------ceeeccccccCceEEEEecCCccc--ccccccchhhheec
+Q orthobunyaviru   78 CEEFGCLAINEGCVFGHCKDIIK--PE-------------MTILRKNQEELPVIRICISLPQET--FCQPINAFTAIITD  140 (375)
+Q Consensus        78 Ce~~~ClaIgtGCt~G~c~Diik--~~-------------~~vykk~~~~~~~~~vCi~~~~e~--~C~~i~~~~~~~t~  140 (375)
+                                  =.+|.|.---.  ++             +.+|| +-.-...+.+=|++++-+  .=--++...|...+
+T Consensus        91 ------------GAyCFCDsENTQ~SeayV~~s~~C~~dhA~Ayk-aHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~  157 (390)
+T 1i9w_A           91 ------------GAYCFCDSENTQLSEAYVDRSDVCRHDHASAYK-AHTASLKAKVRVMYGNVNQTVDVYVNGDHAVTIG  157 (390)
+T ss_pred             ------------ceeeeecCcchhhhhhheecCccchhHHHHHHH-hhhheeEEEEEEEEcceeEEEEEEEcCccceecC
+Confidence                        22334421111  11             23455 434446777888777733  23335566666666
+
+
+Q ss_pred             chhceeec--cccCCcCccccccccceeeeecccchh-hhhcccceeeecc---cccc-----cCCCccceeecccccCc
+Q orthobunyaviru  141 KIETQFIS--NEAGKIPKLLGYKSNKIFTGMINDLGT-FSKMCGSVQSING---NVLG-----AGTPRFDYICHAAQRKD  209 (375)
+Q Consensus       141 ~~~v~~~~--~~~~~lp~~iav~~~~v~~G~indlg~-~~~~cG~~Q~~~~---~~~g-----~~~p~fdy~C~~a~~k~  209 (375)
+                      -.++-+--  +...-..+.|.+..+.||-=..-..|. ..+.|||+|..-.   |++.     ...|.-.-+       -
+T Consensus       158 ~~K~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGag~pG~FGDIQart~~s~DlyAnT~l~L~rP~~g~i-------H  230 (390)
+T 1i9w_A          158 GTQFIFGPLSSAWTPFDNKIVVYKDEVFNQDFPPYGSGQPGRFGDIQSRTVESNDLYANTALKLARPSPGMV-------H  230 (390)
+T ss_pred             ceeEEecccccCcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCccceeeccccEEccCCCCce-------e
+Confidence            66655543  555666676777777788777778888 8899999998543   2221     111111000       0
+
+
+Q ss_pred             eeeeeccchhhhcccccccccceeec-CccceEee-e----cccccceEEEEEecccchhhhhcCCCCccc-ccccccc-
+Q orthobunyaviru  210 ITVSRCFDNFYDSCQRLDIAENIVYD-NSIKKVSL-L----NKNMGELRLKIKLGDINYKLYEKMPSFDFK-GSCVGCT-  281 (375)
+Q Consensus       210 ~~~~~c~~n~y~sc~~L~~~~~~~~~-~~~~~l~~-~----~~~lG~i~~~i~l~di~~k~~~~~~~i~~~-~~C~GC~-  281 (375)
+                      |-|.+.-. -|..-.. +.-..+-.. --+=+|.. |    +=-+|.|-|-++++|-.|-...+.|.++.. -.-.-|. 
+T Consensus       231 VPYTQapS-Gf~~W~~-~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~  308 (390)
+T 1i9w_A          231 VPYTQTPS-GFKYWLK-EKGTALNTKAPFGCQIKTNPVRAMNCAVGNIPVSMNLPDSAFTRIVEAPTIIDLTCTVATCTH  308 (390)
+T ss_pred             cccccCCc-HHHHHhh-cCCCccccCCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEEe
+Confidence            11222110 0100000 010111111 33556776 3    336799999999999999999999997543 3333333 
+
+
+Q ss_pred             ceecceeeeeeeecCcceeeEEeccccc---cccCcc-cCccccccccccccCcceEEEeecCCeeEEEEEEecccceee
+Q orthobunyaviru  282 KCIKGVDCEFDIHSTSESVCMLTSNCDF---YHNNLK-IDPNVQKYGMKGKCSEEKIWVDLCGNKIEIQISIIQPHETIE  357 (375)
+Q Consensus       282 ~C~~G~~C~l~i~s~~~~~c~i~s~C~~---~~~~i~-i~~g~n~~~ik~~c~~~~i~~~iC~~~~~~~~~~~~~~~~~~  357 (375)
+                      ...=|-.=.|++.++....|.|-|.-..   ....+- ...|.-+.++.--..+...++.+|...+.-...-  +.||+-
+T Consensus       309 SsdfGG~a~~~Y~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C--~PPkdH  386 (390)
+T 1i9w_A          309 SSDFGGVLTLTYKTNKNGDCSVHSHSNVATLQEATAKVKTAGKVTLHFSTASASPSFVVSLCSARATCSASC--EPPKDH  386 (390)
+T ss_pred             ccCCCCeEEEEEecCCCccceeecCCCceEeeeeeEEEeccceEEEEEecCCCCCCEEEEeccCcceecCcc--cCchhh
+Confidence            2333446678888888888888854322   111111 2233344444333333378888888774433211  222211
+
+
+Q ss_pred             ec
+Q orthobunyaviru  358 VG  359 (375)
+Q Consensus       358 l~  359 (375)
+                      +.
+T Consensus       387 iv  388 (390)
+T 1i9w_A          387 IV  388 (390)
+T ss_pred             cc
+Confidence            11
+
+
+No 6  
+>3j0c_A E1 envelope glycoprotein; alphavirus, bioweapon; 4.80A {Venezuelan equine encephalitis virus}
+Probab=4.30  E-value=6.2e+02  Score=20.85  Aligned_cols=337  Identities=10%  Similarity=0.120  Sum_probs=191.2
+
+Q ss_pred             Ccceeee-eeecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeeecccccccCC--CCchh-hhcccccccccccccc
+Q orthobunyaviru    1 GLSLGLH-LTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK--CPSSL-MKTGWLSFAKEHTSQW   76 (375)
+Q Consensus         1 gts~~~~-l~~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~~~~~~CTG~--Cp~~~-~~~~w~~F~~e~ts~W   76 (375)
+                      --|.-|+ |.+..|-.++.|.|.+.+..+.=+.+..|.|=.-.+.---+.-+|=|.  |+... |-..-+.|.-=+-==|
+T Consensus        10 ~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkVftGVYPfMW   89 (442)
+T 3j0c_A           10 QAGISYNTIVNRAGYAPLPISITPTKIKLIPTVNLEYVTCHYKTGMDSPAIKCCGSQECTPTYRPDEQCKVFTGVYPFMW   89 (442)
+T ss_dssp             CTTCCEEEEECCTTBCCEEEEEEEEEEEEEEEEEEEEEECCEEEEECCCEEETTSCCCCCCCCCTTCEEEEEESCCCEET
+T ss_pred             CCCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceEecccccccc
+Confidence            1255674 455567677888887766543211111255666555544556678887  88754 3122222211111125
+
+
+Q ss_pred             ccccceeeEeecCccccccc--------------cccC-ccceeeccccccCceEEEEecCCccc--ccccccchhhhee
+Q orthobunyaviru   77 GCEEFGCLAINEGCVFGHCK--------------DIIK-PEMTILRKNQEELPVIRICISLPQET--FCQPINAFTAIIT  139 (375)
+Q Consensus        77 GCe~~~ClaIgtGCt~G~c~--------------Diik-~~~~vykk~~~~~~~~~vCi~~~~e~--~C~~i~~~~~~~t  139 (375)
+                      |            =.+|.|.              |.=+ .-+.+|| +-.-...+.+=|++++-+  .=--++...|...
+T Consensus        90 G------------GAyCFCDtENTQ~SeayV~~s~~C~~dhA~Ayk-aHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~  156 (442)
+T 3j0c_A           90 G------------GAYCFCDTENTQVSKAYVMKSDDCLADHAEAYK-AHTASVQAFLNITVGEHSIVTTVYVNGETPVNF  156 (442)
+T ss_dssp             T------------EESCSCSSSCEEEEEEEEEECGGGGTSCEEEEE-EEEEEEEEEEEEEESSCEEEEEEESCTTSCEEE
+T ss_pred             c------------ceeeeecCcchhhhhhheecCccchhHHHHHHH-hhhheeEEEEEEEEcceeEEEEEEEcCccceec
+Confidence            4            2233332              1111 3467788 444446777777777733  3334667777777
+
+
+Q ss_pred             cchhceeec--cccCCcCccccccccceeeeecccchh-hhhcccceeeecc---cccc-----cCCCccceeecccccC
+Q orthobunyaviru  140 DKIETQFIS--NEAGKIPKLLGYKSNKIFTGMINDLGT-FSKMCGSVQSING---NVLG-----AGTPRFDYICHAAQRK  208 (375)
+Q Consensus       140 ~~~~v~~~~--~~~~~lp~~iav~~~~v~~G~indlg~-~~~~cG~~Q~~~~---~~~g-----~~~p~fdy~C~~a~~k  208 (375)
+                      +-.++-+--  +...-..+.|.+..+.||-=..-..|. ..+.|||+|..-.   |++.     ...|.       ++.=
+T Consensus       157 ~~~K~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~-------~g~i  229 (442)
+T 3j0c_A          157 NGVKITAGPLSTAWTPFDRKIVQYAGEIYNYDFPEYGAGQPGAFGDIQSRTVSSSDLYANTNLVLQRPK-------AGAI  229 (442)
+T ss_dssp             TTEEEEECCCSCCCCSSCSEEEEETTEEECCCCCCTTCCCTTSTTSEEESSSSCSCCEECCCCEECCCC-------TTCC
+T ss_pred             CceeEEecccccCcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCC-------CCce
+Confidence            766666544  566666777777788888888889999 9999999999543   2221     11111       1111
+
+
+Q ss_pred             ceeeeeccchh--h--hcccccccccceeecCccceEee-----ecccccceEEEEEecccchhhhhcCCCC-ccccccc
+Q orthobunyaviru  209 DITVSRCFDNF--Y--DSCQRLDIAENIVYDNSIKKVSL-----LNKNMGELRLKIKLGDINYKLYEKMPSF-DFKGSCV  278 (375)
+Q Consensus       209 ~~~~~~c~~n~--y--~sc~~L~~~~~~~~~~~~~~l~~-----~~~~lG~i~~~i~l~di~~k~~~~~~~i-~~~~~C~  278 (375)
+                      -|-|.+.-...  +  ++-.-|+..     ---+=+|..     -+=-+|.|-+-++++|-.|-...+.|.+ +++-.-.
+T Consensus       230 HVPYTQapSGf~~W~~~~g~~L~~t-----APFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~  304 (442)
+T 3j0c_A          230 HVPYTQAPSGFEQWKKDKAPSLKFT-----APFGCEIYTNPIRAENCAVGSIPLAFDIPDALFTRVSETPTLSAAECTLN  304 (442)
+T ss_dssp             CCCEECCCCHHHHHHHHCCSCHHHH-----CSTTCEEETTTTEEECCCCCEEEEEEECCGGGCCBGGGSCCEEEEEEEEE
+T ss_pred             ecccccCCcHHHHHhhcCCCccccC-----CCcccEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEee
+Confidence            23444422110  0  111111110     133556666     5557899999999999999999999996 4442222
+
+
+Q ss_pred             cc-cceecceeeeeeeecCcceeeEEeccccc---cccCcc-cCccccccccccccCcceEEEeecCCeeEEEEEEeccc
+Q orthobunyaviru  279 GC-TKCIKGVDCEFDIHSTSESVCMLTSNCDF---YHNNLK-IDPNVQKYGMKGKCSEEKIWVDLCGNKIEIQISIIQPH  353 (375)
+Q Consensus       279 GC-~~C~~G~~C~l~i~s~~~~~c~i~s~C~~---~~~~i~-i~~g~n~~~ik~~c~~~~i~~~iC~~~~~~~~~~~~~~  353 (375)
+                      -| +...=|-.=.|++.++....|.|-|.-+.   ....+- ...|.-+.++.--..+...++.+|...+.-..  .=+.
+T Consensus       305 ~Ct~SsdfGG~a~~~Y~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~--~C~P  382 (442)
+T 3j0c_A          305 ECVYSSDFGGIATVKYSASKSGKCAVHVPSGTATLKEAAVELTEQGSATIHFSTANIHPEFRLQICTSYVTCKG--DCHP  382 (442)
+T ss_dssp             EEBCSSSCCEEEEEEEEESSCEEEEEECSSTTEEESCSEEEECSSCEEEEEEEESCSSCEEEEEETTEEEEEEC--CCBC
+T ss_pred             EEEeccCCCceEEEEEecCCCcccceecCCCceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCcceecC--cccC
+Confidence            33 33445667889999999999999965432   112221 33444444444344444899999998744433  3445
+
+
+Q ss_pred             ceeeecCccce
+Q orthobunyaviru  354 ETIEVGNSDQT  364 (375)
+Q Consensus       354 ~~~~l~~~d~t  364 (375)
+                      ||+-+....+.
+T Consensus       383 PkdHIV~~p~~  393 (442)
+T 3j0c_A          383 PKDHIVTHPQY  393 (442)
+T ss_dssp             CSCCEESSCCC
+T ss_pred             chhhccCCCcc
+Confidence            55444433221
+
+
+No 7  
+>3j0f_E E1 envelope glycoprotein; alphavirus, virus assembly; 7.00A {Sindbis virus} PDB: 1ld4_M 1z8y_I
+Probab=4.22  E-value=6.3e+02  Score=20.80  Aligned_cols=339  Identities=11%  Similarity=0.148  Sum_probs=184.3
+
+Q ss_pred             cceee-eeeecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeeecccccccCC--CCchh-hhccccccccccccccc
+Q orthobunyaviru    2 LSLGL-HLTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK--CPSSL-MKTGWLSFAKEHTSQWG   77 (375)
+Q Consensus         2 ts~~~-~l~~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~~~~~~CTG~--Cp~~~-~~~~w~~F~~e~ts~WG   77 (375)
+                      -|.-| -|.+..|-.++.|.|.+.+..+.=+.+..|.|=.-.+.---+.-+|=|.  |+... |-..-+.|.-=+-==||
+T Consensus        11 vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkVftGVYPfMWG   90 (439)
+T 3j0f_E           11 PQIPYKALVERAGYAPLNLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAAHADYTCKVFGGVYPFMWG   90 (439)
+T ss_pred             CCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCCCCCCccceEeccccccccc
+Confidence            12334 3566778888999999998888877777777765444444456688887  87754 31333333111112355
+
+
+Q ss_pred             cccceeeEeecCccccccccccC--cc-------------ceeeccccccCceEEEEecCCccc--ccccccchhhheec
+Q orthobunyaviru   78 CEEFGCLAINEGCVFGHCKDIIK--PE-------------MTILRKNQEELPVIRICISLPQET--FCQPINAFTAIITD  140 (375)
+Q Consensus        78 Ce~~~ClaIgtGCt~G~c~Diik--~~-------------~~vykk~~~~~~~~~vCi~~~~e~--~C~~i~~~~~~~t~  140 (375)
+                                  =.+|.|.---.  ++             +.+|| +-.-...+.+=|++++-+  .=--++...|...+
+T Consensus        91 ------------GAyCFCDsENTQ~SeayV~~s~~C~~dhA~Ayk-aHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~  157 (439)
+T 3j0f_E           91 ------------GAQCFCDSENSQMSEAYVELSADCASDHAQAIK-VHTAAMKVGLRIVYGNTTSFLDVYVNGVTPGTSK  157 (439)
+T ss_pred             ------------ceeeeecCcchhhhhhheecCccchhHHHHHHH-hhhheeEEEEEEEEcceeEEEEEEEcCccceecC
+Confidence                        23334421111  11             24455 444446778888777733  22335566666666
+
+
+Q ss_pred             chhceeec--cccCCcCccccccccceeeeecccchh-hhhcccceeeecc---cccc-----cCCCccceeecccccCc
+Q orthobunyaviru  141 KIETQFIS--NEAGKIPKLLGYKSNKIFTGMINDLGT-FSKMCGSVQSING---NVLG-----AGTPRFDYICHAAQRKD  209 (375)
+Q Consensus       141 ~~~v~~~~--~~~~~lp~~iav~~~~v~~G~indlg~-~~~~cG~~Q~~~~---~~~g-----~~~p~fdy~C~~a~~k~  209 (375)
+                      -.++-+--  +...-..+.|.+..++||-=..-..|. ..+.|||+|..-.   |++.     ...|.-.-+       -
+T Consensus       158 ~~K~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGaG~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~g~i-------H  230 (439)
+T 3j0f_E          158 DLKVIAGPISASFTPFDHKVVIHRGLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIASTDIRLLKPSAKNV-------H  230 (439)
+T ss_pred             ceeEEecccccCcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCCCce-------e
+Confidence            66655543  555566666666677777777778888 8899999998543   2221     111111000       0
+
+
+Q ss_pred             eeeeeccchhhhcccccccccceeec-CccceEee-e----cccccceEEEEEecccchhhhhcCCCCccc-ccccccc-
+Q orthobunyaviru  210 ITVSRCFDNFYDSCQRLDIAENIVYD-NSIKKVSL-L----NKNMGELRLKIKLGDINYKLYEKMPSFDFK-GSCVGCT-  281 (375)
+Q Consensus       210 ~~~~~c~~n~y~sc~~L~~~~~~~~~-~~~~~l~~-~----~~~lG~i~~~i~l~di~~k~~~~~~~i~~~-~~C~GC~-  281 (375)
+                      |-|.+.-. -|..-.. +.-..+-.. --+=+|.. |    +=-+|.|-+-++++|-.|-...+.|.++.. -.-.-|. 
+T Consensus       231 VPYTQapS-Gf~~W~~-~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~  308 (439)
+T 3j0f_E          231 VPYTQASS-GFEMWKN-NSGRPLQETAPFGCKIAVNPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVSECTY  308 (439)
+T ss_pred             cccccCCc-HHHHHhh-cCCCccccCCCcceEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEEe
+Confidence            11222111 0100000 010111111 33556776 3    336799999999999999999999997543 3333333 
+
+
+Q ss_pred             ceecceeeeeeeecCcceeeEEeccccc---cccCcc-cCccccccccccccCcceEEEeecCCeeEEEEEEecccceee
+Q orthobunyaviru  282 KCIKGVDCEFDIHSTSESVCMLTSNCDF---YHNNLK-IDPNVQKYGMKGKCSEEKIWVDLCGNKIEIQISIIQPHETIE  357 (375)
+Q Consensus       282 ~C~~G~~C~l~i~s~~~~~c~i~s~C~~---~~~~i~-i~~g~n~~~ik~~c~~~~i~~~iC~~~~~~~~~~~~~~~~~~  357 (375)
+                      ...=|-.=.|++.++....|.|-|.-+.   ....+- ...|.-+.++.--..+...++.+|...+.-...  =+.||+-
+T Consensus       309 SsdfGG~a~~~Y~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~--C~PPkdH  386 (439)
+T 3j0f_E          309 SADFGGMATLQYVSDREGQCPVHSHSSTATLQESTVHVLEKGAVTVHFSTASPQANFIVSLCGKKTTCNAE--CKPPADH  386 (439)
+T ss_pred             ccCCCCeEEEEEecCCCcccceecCCCceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCcceecCc--ccCchhh
+Confidence            2333445678888888888888754322   111111 223444444433333348888888887554432  2344433
+
+
+Q ss_pred             ecCccce
+Q orthobunyaviru  358 VGNSDQT  364 (375)
+Q Consensus       358 l~~~d~t  364 (375)
+                      +....+.
+T Consensus       387 IV~~p~~  393 (439)
+T 3j0f_E          387 IVSTPHK  393 (439)
+T ss_pred             ccCCCcc
+Confidence            3322111
+
+
+No 8  
+>3tjq_A Serine protease HTRA1; hydrolase; 2.00A {Homo sapiens}
+Probab=2.44  E-value=3.1e+02  Score=18.16  Aligned_cols=69  Identities=16%  Similarity=0.161  Sum_probs=16.7
+
+Q ss_pred             hcCCeeeeeecccccccCCCCchhhhccccccccccccccccccceeeEeecCccc-cccccccCccceeeccccccC-c
+Q orthobunyaviru   37 QTGPTIGINVQHDEQCTGKCPSSLMKTGWLSFAKEHTSQWGCEEFGCLAINEGCVF-GHCKDIIKPEMTILRKNQEEL-P  114 (375)
+Q Consensus        37 ~Tg~~~~in~~~~~~CTG~Cp~~~~~~~w~~F~~e~ts~WGCe~~~ClaIgtGCt~-G~c~Diik~~~~vykk~~~~~-~  114 (375)
+                      .-|.  .+.+.+...|-.+|....  ..+        ..=.|.+.   .+..+|.| -.|.....   .+-- ..... -
+T Consensus         6 ~~~~--~~~~~~~~~C~~~C~~~~--Cp~--------~~~~C~~~---~~~~~C~Cc~~C~~~~g---~~Cg-~~~~~C~   66 (140)
+T 3tjq_A            6 HHGE--NLYFQGSAGCPDRCEPAR--CPP--------QPEHCEGG---RARDACGCCEVCGAPEG---AACG-LQEGPCG   66 (140)
+T ss_dssp             --------------CCCSSCCGGG--CCC--------CCSSCTTC---EEECTTSCSEEECBCTT---SEES-TTSCCBC
+T ss_pred             cccc--cccccccCCCCCCCCCCc--CcC--------CCCCCCCC---CcCCCCcCchhhhcccC---CCCC-CCCccCC
+Confidence            1121  223444555555555532  111        00014333   45566665 33322211   1111 00000 0
+
+
+Q ss_pred             eEEEEecCCc
+Q orthobunyaviru  115 VIRICISLPQ  124 (375)
+Q Consensus       115 ~~~vCi~~~~  124 (375)
+                      .-..|.....
+T Consensus        67 ~Gl~C~~~~~   76 (140)
+T 3tjq_A           67 EGLQCVVPFG   76 (140)
+T ss_dssp             TTEEEECCC-
+T ss_pred             CCCEeccCCc
+Confidence            0012221111
+
+
+No 9  
+>1ezg_A Thermal hysteresis protein isoform YL-1; insect antifreeze protein, iodination, right-handed beta-helix, tmafp; 1.40A {Tenebrio molitor} SCOP: b.80.2.1 PDB: 1l1i_A
+Probab=1.53  E-value=7.5e+02  Score=15.62  Aligned_cols=40  Identities=25%  Similarity=0.647  Sum_probs=11.2
+
+Q ss_pred             CC-Cccccccccccceecceeeeeee---------ec---CcceeeEEecccc
+Q orthobunyaviru  269 PS-FDFKGSCVGCTKCIKGVDCEFDI---------HS---TSESVCMLTSNCD  308 (375)
+Q Consensus       269 ~~-i~~~~~C~GC~~C~~G~~C~l~i---------~s---~~~~~c~i~s~C~  308 (375)
+                      .. -+-+..|.||.+|..-..|.=.=         .+   ..-.+|.=+.+|.
+T Consensus         6 ~dc~sct~aCtgC~nCpNa~tCtdS~nC~~a~tCt~st~C~~a~tCt~s~dC~   58 (84)
+T 1ezg_A            6 ADCTSCTGACTGCGNCPNAVTCTNSQHCVKANTCTGSTDCNTAQTCTNSKDCF   58 (84)
+T ss_dssp             SCCTTCCSEEESCSCCTTCSEEESCSCCTTCSEEESCSCCTTCSEEESCSCCT
+T ss_pred             CCcchhhhhccCCCCCCCcCcccCCcccccCccccCcCccccCccccCCcccc
+Confidence            11 12223444444444443333210         00   0112222111111
+
+
+No 10 
+>3muu_A Structural polyprotein; beta barrels, IG-like folds, viral protein; HET: NAG BMA MAN; 3.29A {Sindbis virus} PDB: 3muw_A 3muw_U 1z8y_A 1z8y_B
+Probab=0.84  E-value=2.2e+03  Score=18.04  Aligned_cols=314  Identities=13%  Similarity=0.180  Sum_probs=181.7
+
+Q ss_pred             Ccceee-eeeecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeeecccccccCC--CCchh-hhcccccccccccccc
+Q orthobunyaviru    1 GLSLGL-HLTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK--CPSSL-MKTGWLSFAKEHTSQW   76 (375)
+Q Consensus         1 gts~~~-~l~~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~~~~~~CTG~--Cp~~~-~~~~w~~F~~e~ts~W   76 (375)
+                      --|.-| -|.+..|-.++.|-|.+.+..+.=+.+..|.|=.-.++-=-+.-+|=|+  |+... |-..-+-|.-=+-==|
+T Consensus       370 ~vg~PYkAlV~RpGYaPl~L~i~v~~t~l~PtlnleYiTC~YkTvVpSP~VKCCGs~EC~~~~~pDy~CkVftGVYPFMW  449 (750)
+T 3muu_A          370 VPQIPYKALVERAGYAPLNLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAAHAGYTCKVFGGVYPFMW  449 (750)
+T ss_dssp             CTTCCEEEEECCTTSBCEEEEEEEEEECCEEEEEEEEEECCEEEECCCCEEETTSCCCCCCCCSTTCEEEEEESCCCSTT
+T ss_pred             CCCCchhheecCCCCCceeEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCCCCCCCccceEecccccccc
+Confidence            124557 4556678899999999887754311111144444443333344578777  87754 3122233311111236
+
+
+Q ss_pred             ccccceeeEeecCccccccc--------------cccC-ccceeeccccccCceEEEEecCCcc--cccccccchhhhee
+Q orthobunyaviru   77 GCEEFGCLAINEGCVFGHCK--------------DIIK-PEMTILRKNQEELPVIRICISLPQE--TFCQPINAFTAIIT  139 (375)
+Q Consensus        77 GCe~~~ClaIgtGCt~G~c~--------------Diik-~~~~vykk~~~~~~~~~vCi~~~~e--~~C~~i~~~~~~~t  139 (375)
+                      |            =.+|.|.              |.=+ .-+.+|| +-.--..+.+=|++++-  +.=--++...|...
+T Consensus       450 G------------GAyCFCDtENTQmSeaYV~rS~~C~~DhA~Ayk-aHTas~kA~l~ItyG~~~~~v~vyVNG~tp~~~  516 (750)
+T 3muu_A          450 G------------GAQCFCDSENSQMSEAYVELSADCASDHAQAIK-VHTAAMKVGLRIVYGNTTSFLDVYVNGVTPGTS  516 (750)
+T ss_dssp             T------------TTTCCCSSSCEEEEEEEEEECTTTTTSCEEEEE-EEEEECCEEEEEEETTEEEEEECCBSSSCEEEC
+T ss_pred             c------------ceeeeecCcchhhhhhheecCccchhHHHHHHH-hhhheeEEEEEEEEcceeEEEEEEEcCccceec
+Confidence            5            2233332              2222 3478888 54455788888888883  33445667777777
+
+
+Q ss_pred             cchhceeec--cccCCcCccccccccceeeeecccchh-hhhcccceeeecc---cccc-----cCCCccceeecccccC
+Q orthobunyaviru  140 DKIETQFIS--NEAGKIPKLLGYKSNKIFTGMINDLGT-FSKMCGSVQSING---NVLG-----AGTPRFDYICHAAQRK  208 (375)
+Q Consensus       140 ~~~~v~~~~--~~~~~lp~~iav~~~~v~~G~indlg~-~~~~cG~~Q~~~~---~~~g-----~~~p~fdy~C~~a~~k  208 (375)
+                      +-.++-+--  ....-....|.+..+.||-=.+-..|. -.+.|||+|..-.   |++.     ...|.       ++.=
+T Consensus       517 ~~~K~i~GPlSsawsPFD~KIVvy~~eVYNyDFPeYGAG~pG~FGDIQsrt~~s~DlyAnT~l~L~RP~-------~g~i  589 (750)
+T 3muu_A          517 KDLKVIAGPISASFTPFDHKVVIHRGLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIASTDIRLLKPS-------AKNV  589 (750)
+T ss_dssp             SSCEEEECCCSSCCCSCCSEEEECSSCEEECCCCCTTCCCSSSTTSEEBSSTTTCSCEECCCCEECCCC-------TTSC
+T ss_pred             CceEEEecccccCcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCccceeeccCcEEccCC-------CCce
+Confidence            766666544  666777788888889999999999999 9999999998542   2221     11111       1111
+
+
+Q ss_pred             ceeeeeccchh--h--hcccccccccceeecCccceEee-----ecccccceEEEEEecccchhhhhcCCCCc-cccccc
+Q orthobunyaviru  209 DITVSRCFDNF--Y--DSCQRLDIAENIVYDNSIKKVSL-----LNKNMGELRLKIKLGDINYKLYEKMPSFD-FKGSCV  278 (375)
+Q Consensus       209 ~~~~~~c~~n~--y--~sc~~L~~~~~~~~~~~~~~l~~-----~~~~lG~i~~~i~l~di~~k~~~~~~~i~-~~~~C~  278 (375)
+                      -|-|.+.-...  +  ++-.-|+...     --+=+|..     -+=-+|.|-|-|+++|-.|-...+.|.|+ ++-.-.
+T Consensus       590 HVPYTQapSGf~~W~k~~g~~L~~tA-----PFGC~I~~nPvRA~nCavGnIPiSiDIPDAaFTRvsdaP~vs~l~Ctv~  664 (750)
+T 3muu_A          590 HVPYTQASSGFEMWKNNSGRPLQETA-----PFGCKIAVNPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVS  664 (750)
+T ss_dssp             CCCEECCCCHHHHHHTTCCSCGGGTC-----TTSCEEEETTEEEETCCCSEEEEEEEEEGGGCBCSCCSSCEEEEEEEEE
+T ss_pred             ecccccCCcHHHHHhhcCCCcccccC-----CcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEee
+Confidence            23455432211  1  1222222211     33667777     55678999999999999999999999974 333334
+
+
+Q ss_pred             ccc-ceecceeeeeeeecCcceeeEEeccccccccCcccCcc--------ccccccccccCcceEEEeecCCee
+Q orthobunyaviru  279 GCT-KCIKGVDCEFDIHSTSESVCMLTSNCDFYHNNLKIDPN--------VQKYGMKGKCSEEKIWVDLCGNKI  343 (375)
+Q Consensus       279 GC~-~C~~G~~C~l~i~s~~~~~c~i~s~C~~~~~~i~i~~g--------~n~~~ik~~c~~~~i~~~iC~~~~  343 (375)
+                      .|. ...=|-.=.|++.++....|.|-|.-.    ...|++.        .-++++.--......++.+|...+
+T Consensus       665 ~CtySsDfGGvatl~Y~a~k~GkCavHs~S~----~atl~es~v~v~~~G~~t~hFSTAs~~p~F~v~iC~~~v  734 (750)
+T 3muu_A          665 ECTYSADFGGMATLQYVSDREGQCPVHSHSS----TATLQESTVHVLEKGAVTVHFSTASPQANFIVSLCGKKT  734 (750)
+T ss_dssp             ECCTTSSSCEEEEEEEEESSCCCEECEESST----TCEESCSEECCCSSCEEEEEEECCCSBCCBCEECSSCBC
+T ss_pred             EEEeccCCCCEEEEEEecCCCccceeeccCC----ceEeeeeeEEeecCceEEEEEecCCCCCCEEEEeccCcc
+Confidence            443 444566788999999999999885522    2222222        222222222222245555555431
+
+
+No 11 
+>4il7_A Putative uncharacterized protein; partial jelly roll fold, hypothetical protein, C381 and B345 capsid, viral protein; 1.40A {Sulfolobus turreted icosahedral virus}
+Probab=0.05  E-value=6.5e+03  Score=9.74  Aligned_cols=101  Identities=10%  Similarity=0.103  Sum_probs=31.8
+
+Q ss_pred             ecccccceEEEEEecccchhhhhcCCCCccc-cccccccceecceeeee--eeecCcceeeEEe-ccccccccCcccCcc
+Q orthobunyaviru  244 LNKNMGELRLKIKLGDINYKLYEKMPSFDFK-GSCVGCTKCIKGVDCEF--DIHSTSESVCMLT-SNCDFYHNNLKIDPN  319 (375)
+Q Consensus       244 ~~~~lG~i~~~i~l~di~~k~~~~~~~i~~~-~~C~GC~~C~~G~~C~l--~i~s~~~~~c~i~-s~C~~~~~~i~i~~g  319 (375)
+                      |+. .-.+.-.|.|++.---.|+....++++ ..=.--+-=-+||-=.+  +++-+.....-|+ ++-+           
+T Consensus        40 P~~-~S~~SS~Vq~KG~IHPLFEVP~qi~i~~~Q~~EN~LI~sgfgtslpqtytipangyliisitnts-----------  107 (166)
+T 4il7_A           40 PSN-VSGVSSNVKLKGTIHPLFEVPSQISIENFQPTENYLIYSGFGTSLPQTYTIPANGYLIISITNTS-----------  107 (166)
+T ss_dssp             ------------------------------------CEEEEEEEEEEECSSCEECCSSEEEEEEEECSS-----------
+T ss_pred             CCC-cccceeeEEEeeEEeeceeccceeEeeeccCCccEEEEeccCCCCCceEEecCCcEEEEEEeccC-----------
+Confidence            111 111111222333333333333334444 21112222334454444  3666666555555 3311           
+
+
+Q ss_pred             ccccccccccCcc--eEEEeecCCeeEEEEEEecccceeeecCccceeEee
+Q orthobunyaviru  320 VQKYGMKGKCSEE--KIWVDLCGNKIEIQISIIQPHETIEVGNSDQTYFVK  368 (375)
+Q Consensus       320 ~n~~~ik~~c~~~--~i~~~iC~~~~~~~~~~~~~~~~~~l~~~d~t~~i~  368 (375)
+                                ...  .+.+.|-.  ..+.+++-....|+-+....|-+-..
+T Consensus       108 ----------tgnigqitltigs--ttmtfnlqtgenkipviagtqitnmt  146 (166)
+T 4il7_A          108 ----------TGNIGQITLTIGS--TTMTFNLQTGENKIPVIAGTQITNMT  146 (166)
+T ss_dssp             ----------CSEEEEEEEEETT--EEEEEEEESEEEEEEECTTCEEEEEE
+T ss_pred             ----------CCceeeEEEEecc--eEEEEEeecCCccccEEeeeeEEEEE
+Confidence                      111  45555533  25556666666666666655533221
+
+
+No 12 
+>3bjo_A Uncharacterized ATP-binding protein MJ1010; APC87992.1, structur genomics, PSI-2; 2.05A {Methanocaldococcus jannaschii dsm 2661ORGANISM_TAXID}
+Probab=0.04  E-value=6.3e+03  Score=8.71  Aligned_cols=29  Identities=10%  Similarity=0.209  Sum_probs=14.4
+
+Q ss_pred             ccceEEEEEecccc-----------hhhhhcCCCCccc-cc
+Q orthobunyaviru  248 MGELRLKIKLGDIN-----------YKLYEKMPSFDFK-GS  276 (375)
+Q Consensus       248 lG~i~~~i~l~di~-----------~k~~~~~~~i~~~-~~  276 (375)
+                      +-..+.+|+.||..           ++.|.++..++.. ..
+T Consensus        26 ~~~~~~kv~i~~~~~~~~~e~ii~~Lk~Fkd~~eI~~~~i~   66 (103)
+T 3bjo_A           26 LDYIKPKVNIEEEIIEIRKEDIINALKLFKGKYEIEVDKIP   66 (103)
+T ss_dssp             TTTCCCEEEETTEEEECCHHHHHHHHHGGGSCSSEEGGGSC
+T ss_pred             hhhccccccccchhHHHHHHHHHHHHHHhCccceecccccc
+Confidence            11112244555543           4778888886543 21
+
+
+No 13 
+>2lgh_A Uncharacterized protein; AHSA1, start domain, COG3832, PF08327, HSP90, heat shock, ST genomics, PSI-biology; NMR {Aeromonas hydrophila subsp}
+Probab=0.02  E-value=6e+03  Score=5.75  Aligned_cols=35  Identities=11%  Similarity=0.147  Sum_probs=7.5
+
+Q ss_pred             cceeeeee--ecCCCceeeEEEEEecchhhHHHHHHHhcCCeeeeee
+Q orthobunyaviru    2 LSLGLHLT--TKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINV   46 (375)
+Q Consensus         2 ts~~~~l~--~~~~~~~~~l~i~I~~~~~~~~~~~~Y~Tg~~~~in~   46 (375)
+                      .|..|.+.  .+++...+.+...|...          .-+..+....
+T Consensus        47 ~G~~~~~~~~~~~g~~~~~~~~~v~~~----------~p~~~l~~~~   83 (144)
+T 2lgh_A           47 VGGRFCHHMAAKDGSAGFDFTGTFTRV----------EAPTRLSFVM   83 (144)
+T ss_dssp             TTCEEEEEEEETTSSCEEEEEEEEEEE----------ETTTEEEEEE
+T ss_pred             CCCEEEEEEEeCCCCcEEEeeEEEEEE----------cCCCEEEEEE
+Confidence            12222222  21222122222222221          0022222211
+
+
+No 14 
+>4pxd_A Allantoate amidohydrolase; amidase, hydantoinase, carbarmoylase; HET: 1AL; 2.20A {Escherichia coli} PDB: 1z2l_A* 2imo_A
+Probab=0.01  E-value=6.2e+03  Score=6.52  Aligned_cols=169  Identities=14%  Similarity=0.120  Sum_probs=34.6
+
+Q ss_pred             eeeccccccCc-eEEEEec--CCcccccccccc----------hh------hheecchhceeeccccCC-cCcccccccc
+Q orthobunyaviru  104 TILRKNQEELP-VIRICIS--LPQETFCQPINA----------FT------AIITDKIETQFISNEAGK-IPKLLGYKSN  163 (375)
+Q Consensus       104 ~vykk~~~~~~-~~~vCi~--~~~e~~C~~i~~----------~~------~~~t~~~~v~~~~~~~~~-lp~~iav~~~  163 (375)
+                      -+.+ +..... ...|.+.  +..-..=...+.          ..      .....++.+.|...+..- .|.       
+T Consensus        64 v~~~-~~~~~~~~~~vll~~HlD~vp~~~~~~g~~g~~a~l~al~~l~~~~~~~~~~i~~~~~~~EE~g~~~~-------  135 (413)
+T 4pxd_A           64 LYGR-LNGTEYPQEVVLSGSHIDTVVNGGNLDGQFGALAAWLAIDWLKTQYGAPLRTVEVVAMAEAEGSRFPY-------  135 (413)
+T ss_dssp             EEEE-ECCSSEEEEEEEEEEECCCCTTBCSSTTHHHHHHHHHHHHHHHHHHCSCSEEEEEEEESCSSCCSSSC-------
+T ss_pred             EEEE-ecCCCCCCCeEEEEecccCcCCCCccCcHHHHHHHHHHHHHHHHhCCCCCCceEEEEeccccccccCC-------
+Confidence            1111 111111 2333332  111100000000          00      001111122222211110 000       
+
+
+Q ss_pred             ceeeeecccchhhhhcccceeeec-ccccccCCCcc-------cee--ecc-cccCceeeeeccchhhhcccccccccce
+Q orthobunyaviru  164 KIFTGMINDLGTFSKMCGSVQSIN-GNVLGAGTPRF-------DYI--CHA-AQRKDITVSRCFDNFYDSCQRLDIAENI  232 (375)
+Q Consensus       164 ~v~~G~indlg~~~~~cG~~Q~~~-~~~~g~~~p~f-------dy~--C~~-a~~k~~~~~~c~~n~y~sc~~L~~~~~~  232 (375)
+                             . +-......|..|..+ ...+....|.|       .+.  =-. ....++.+--.          +-...++
+T Consensus       136 -------~-~~g~~~~~g~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~----------~h~~~~~  197 (413)
+T 4pxd_A          136 -------V-FWGSKNIFGLANPDDVRNICDAKGNSFVDAMKACGFTLPNAPLTPRQDIKAFVE----------LHIEQGC  197 (413)
+T ss_dssp             -------C-CHHHHHHTTCCCGGGTTTCBCTTSCBHHHHHHHTTCCCCSSCCCCCCCEEEEEE----------EEECCSS
+T ss_pred             -------C-ccchhHhccCCCHHHHhhccCCCCCcHHHHHHhcCCCcccccccCcccccEEEE----------EEeccCc
+Confidence                   0 000112222222111 01111111110       000  000 00111211100          0000000
+
+
+Q ss_pred             eecCccceEeeecccccceEEEEEecccchhhh--------------------------hcCCCCccc-cccccc--cce
+Q orthobunyaviru  233 VYDNSIKKVSLLNKNMGELRLKIKLGDINYKLY--------------------------EKMPSFDFK-GSCVGC--TKC  283 (375)
+Q Consensus       233 ~~~~~~~~l~~~~~~lG~i~~~i~l~di~~k~~--------------------------~~~~~i~~~-~~C~GC--~~C  283 (375)
+                      .+......+.+.....|.+.+.|.+.+..-+.-                          .......+. ....|-  ...
+T Consensus       198 v~~~~~~~~~i~~~~~G~~~~~i~v~G~~~Hs~~~~~~~~~nai~~l~~~l~~i~~~~~~~~~~~~~~i~~i~~g~~~~n  277 (413)
+T 4pxd_A          198 VLESNGQSIGVVNAIVGQRRYTVTLNGESNHAGTTPMGYRRDTVYAFSRICHQSVEKAKRMGDPLVLTFGKVEPRPNTVN  277 (413)
+T ss_dssp             HHHHTTCSEEEEEEECEEEEEEEEEECBCEETTTSCGGGCBCHHHHHHHHHHHHHHHHHHHCTTCEEECCCEEEESCCTT
+T ss_pred             cccccCCceeEEEeeeeeEEEEEEEEeeCCCCCCCCccccccHHHHHHHHHHHHHHHHHhhCCCcEEEEEEEEecCCCce
+Confidence            000011123343333477788887755321110                          011222222 222210  111
+
+
+Q ss_pred             ecceeeeeeee--cCcc
+Q orthobunyaviru  284 IKGVDCEFDIH--STSE  298 (375)
+Q Consensus       284 ~~G~~C~l~i~--s~~~  298 (375)
+                      ..--.|.+.++  ....
+T Consensus       278 ~iP~~~~~~idiR~~p~  294 (413)
+T 4pxd_A          278 VVPGKTTFTIDCRHTDA  294 (413)
+T ss_dssp             EECSEEEEEEEEEESSH
+T ss_pred             EECCeeEEEEEEeCCCH
+Confidence            11123444322  2211
+
+
+No 15 
+>4myz_A CURK, CURL fusion protein; protein-protein interaction, protein binding; 1.50A {Moorea producens 3L}
+Probab=0.01  E-value=8.4e+03  Score=4.37  Aligned_cols=17  Identities=24%  Similarity=0.137  Sum_probs=5.6
+
+Q ss_pred             EecchhhHHHHHH--------HhcC
+Q orthobunyaviru   23 VKTAHYEAVYDEI--------YQTG   39 (375)
+Q Consensus        23 I~~~~~~~~~~~~--------Y~Tg   39 (375)
+                      -.+|-+.+-+...        |.|-
+T Consensus        53 slsalqralialkdarsklekyetq   77 (79)
+T 4myz_A           53 SLSALQRALIALKDARSKLEKYETQ   77 (79)
+T ss_dssp             CCBHHHHHHHHHHHHHHHHGGGC--
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhhhc
+Confidence            1244455444322        3221
+
+
+No 16 
+>4o9i_X Chromodomain-helicase-DNA-binding protein 4; CHD4 double chromodomains, hydrolase; 2.60A {Homo sapiens}
+Probab=0.01  E-value=6.5e+03  Score=3.20  Aligned_cols=95  Identities=14%  Similarity=0.081  Sum_probs=26.7
+
+Q ss_pred             ccceeeeecccchhhh-hcccceeeec--ccc-------cccCCCc-cceeecccccCceeeeeccch---------hhh
+Q orthobunyaviru  162 SNKIFTGMINDLGTFS-KMCGSVQSIN--GNV-------LGAGTPR-FDYICHAAQRKDITVSRCFDN---------FYD  221 (375)
+Q Consensus       162 ~~~v~~G~indlg~~~-~~cG~~Q~~~--~~~-------~g~~~p~-fdy~C~~a~~k~~~~~~c~~n---------~y~  221 (375)
+                      ...-|.=.-.+....+ .|---..+..  +..       .....+. ..+.            .-...         .+.
+T Consensus        62 ~~~eylVKW~g~s~~~~tW~p~~~l~~~~~~~l~~f~~~~~~~~~~~~~~~------------~~~~~~~~~~~~~~~~~  129 (202)
+T 4o9i_X           62 PERQFFVKWQGMSYWHCSWVSELQLELHCQVMFRNYQRKNDMDEPPSGDFG------------GDEEKSRKRKNKDPKFA  129 (202)
+T ss_dssp             CEEEEEEEETTCCGGGCEEEEHHHHHHHCHHHHHHHHHHSCSSSCCC-----------------CTTHHHHHHTTSHHHH
+T ss_pred             CceEEEEEECCCCCCcccccCHHHHhHHHHHHHHHHHHhhhcccccccccc------------cccccccccccchhhhh
+Confidence            1234444444333211 0100000000  000       0111111 1100            00000         000
+
+
+Q ss_pred             ----cccccccccceeecCccceEee-ecccccceEEEEEecccchhhh--hcCCCC
+Q orthobunyaviru  222 ----SCQRLDIAENIVYDNSIKKVSL-LNKNMGELRLKIKLGDINYKLY--EKMPSF  271 (375)
+Q Consensus       222 ----sc~~L~~~~~~~~~~~~~~l~~-~~~~lG~i~~~i~l~di~~k~~--~~~~~i  271 (375)
+                          .........+.   ..-.++.- .....|...++|.-.+..+...  +....+
+T Consensus       130 ~~~~~~~~~~~~~~~---~~ve~Il~~r~~~~~~~~ylVkW~g~~~~~~tWE~~~~l  183 (202)
+T 4o9i_X          130 EMEERFYRYGIKPEW---MMIHRILNHSVDKKGHVHYLIKWRDLPYDQASWESEDVE  183 (202)
+T ss_dssp             HHHHHTGGGTCCGGG---GSEEEEEEEEECSSCCEEEEEEETTSCGGGCEEEETTCC
+T ss_pred             hhhhhhhhhhcccce---EEEEEEEEEEEcCCCcEEEeEEEcCCChhcCcccChhhh
+Confidence                00000000001   11222222 3323689999999999877542  111111
+
+
+No 17 
+>3mxt_A Pantothenate synthetase; alpha-beta-alpha, structural genomics, center for structural of infectious diseases, csgid, ligase; HET: MSE; 1.85A {Campylobacter jejuni subsp} PDB: 3uy4_A*
+Probab=0.01  E-value=6.9e+03  Score=3.50  Aligned_cols=142  Identities=11%  Similarity=0.116  Sum_probs=45.0
+
+Q ss_pred             HHHHHHHhcCCeeeeeecccccccCCCCchh--h----------h-ccc-cccccccccccccccceeeEeecCcccccc
+Q orthobunyaviru   30 AVYDEIYQTGPTIGINVQHDEQCTGKCPSSL--M----------K-TGW-LSFAKEHTSQWGCEEFGCLAINEGCVFGHC   95 (375)
+Q Consensus        30 ~~~~~~Y~Tg~~~~in~~~~~~CTG~Cp~~~--~----------~-~~w-~~F~~e~ts~WGCe~~~ClaIgtGCt~G~c   95 (375)
+                      +-++.--. ++...+....+-.-.+.=++..  |          . .+. .-|......=|. +++             .
+T Consensus        42 ~Li~~A~~-~~~vvvs~~~nP~qf~~~~d~~~y~~t~e~d~~~l~~~GvD~vf~p~~~ei~p-~~f-------------~  106 (285)
+T 3mxt_A           42 SLVKHAKT-QDKVIVSIFVNPMQFGPNEDFSSYPRDLERDIKMCQDNGVDMVFIPDATQMYL-KNF-------------S  106 (285)
+T ss_dssp             HHHHHHTT-SSEEEEEECCCGGGCCTTSCTTTSCCCHHHHHHHHHHTTCSEEECCCHHHHSC-TTC-------------C
+T ss_pred             HHHHHHHh-CCCEEEEEcCCHHHhcCccccccCCCCHHHHHHHHHhcCCCEEEeCCHHHhCc-ccC-------------c
+Confidence            11111111 3444344433322222222110  0          0 111 001000000000 010             0
+
+
+Q ss_pred             ccccC-------------------------------ccceeec-c-------------ccccCceEEEEecC--Cccccc
+Q orthobunyaviru   96 KDIIK-------------------------------PEMTILR-K-------------NQEELPVIRICISL--PQETFC  128 (375)
+Q Consensus        96 ~Diik-------------------------------~~~~vyk-k-------------~~~~~~~~~vCi~~--~~e~~C  128 (375)
+                      ..+..                               |.-..+= |             .......+..|=..  .++---
+T Consensus       107 ~~i~~~~~~~i~~G~~rp~~f~gv~tvv~kl~~~v~P~~~~FG~kd~~q~~~l~~~~~~l~~~v~iv~~p~vr~~dGlai  186 (285)
+T 3mxt_A          107 TYVDMNTITDKLCGAKRPGHFRGVCTVLTKFFNILNPDIVYMGQKDAQQCVVVRHMVDDLNFDLKIQICPIIREEDGLAK  186 (285)
+T ss_dssp             CCCCCSSSTTSHHHHHSTTHHHHHHHHHHHHHHHHCCSEEEEEGGGHHHHHHHHHHHHHTTCSSEEEEECCCBCTTSCBC
+T ss_pred             eEEecCCcceeeccCCCcchhhhHHHHHHHHHHhhCcceEEECccchhhHHHHHHHHHHcCCcEEEecCCcEecCCcccc
+Confidence            11110                               0011111 0             12345777777332  221111
+
+
+Q ss_pred             c----cccchh----------------h------------------he-ecchhceeec-cccCCcCccccccccceeee
+Q orthobunyaviru  129 Q----PINAFT----------------A------------------II-TDKIETQFIS-NEAGKIPKLLGYKSNKIFTG  168 (375)
+Q Consensus       129 ~----~i~~~~----------------~------------------~~-t~~~~v~~~~-~~~~~lp~~iav~~~~v~~G  168 (375)
+                      .    .++..+                .                  +. ...++++-.. .+...|+..=.....-+...
+T Consensus       187 SSrn~~L~~~~r~~A~~l~~aL~~~~~~~~~g~~~~~~i~~~~~~~l~~~~~~~vdYi~i~d~~tl~~~~~~~~~~~~~~  266 (285)
+T 3mxt_A          187 SSRNVYLSKEERKASLAISQSIFLAEKLVREGEKNTSKIIQAMKDILEKEKLIKIDYIELVDFNTMENIENITDNVLGAV  266 (285)
+T ss_dssp             CGGGGGCCHHHHHHHHHHHHHHHHHHHHHHTTCCBHHHHHHHHHHHHHTCTTEEEEEEEEECTTTCCBCSBCSSCEEEEE
+T ss_pred             eeeeeccCHHHHHHHHHHHHHHHHHHHHHHcCCccHHHHHHHHHHHHHhccCCCccEEEEeccccccCccccCCceEEEE
+Confidence            1    111000                0                  01 2334555555 55555555322323444444
+
+
+Q ss_pred             ecccchhhhhcccceeeecccccccC
+Q orthobunyaviru  169 MINDLGTFSKMCGSVQSINGNVLGAG  194 (375)
+Q Consensus       169 ~indlg~~~~~cG~~Q~~~~~~~g~~  194 (375)
+                      .        -|+|++-.+|.-.+...
+T Consensus       267 A--------~~~g~~RLIDNi~~~~~  284 (285)
+T 3mxt_A          267 A--------AFVGKTRLIDNFLVQGL  284 (285)
+T ss_dssp             E--------EEETTEEEEEEEEECCC
+T ss_pred             E--------EEcCCCCCccCEEEecC
+Confidence            3        36788988876433211
+
+
+No 18 
+>4cgu_B Protein interacting with HSP90 1; chaperone-peptide complex, chaperone, R2TP, TAH1, PIH; HET: MSE; 2.11A {Saccharomyces cerevisiae} PDB: 2mnj_B
+Probab=0.00  E-value=7.3e+03  Score=3.22  Aligned_cols=131  Identities=8%  Similarity=0.058  Sum_probs=29.1
+
+Q ss_pred             cccccccceeecC-ccceEee-ecccccc-e-EEEE-EecccchhhhhcCCC-Cc--cccccccccceecceeeeee-ee
+Q orthobunyaviru  224 QRLDIAENIVYDN-SIKKVSL-LNKNMGE-L-RLKI-KLGDINYKLYEKMPS-FD--FKGSCVGCTKCIKGVDCEFD-IH  294 (375)
+Q Consensus       224 ~~L~~~~~~~~~~-~~~~l~~-~~~~lG~-i-~~~i-~l~di~~k~~~~~~~-i~--~~~~C~GC~~C~~G~~C~l~-i~  294 (375)
+                      .+|+...++.-+. +.+.=+| +-+.... - +.+| ++.+.......+++. +.  ....   ...=...|+=++. +.
+T Consensus        13 ~lle~~r~~~~~~~d~d~~~LPpLfp~~~~~~kpLIEEI~~~~i~~~~~~~~~~~~~~~~~---~~~~~l~y~Vtm~k~~   89 (158)
+T 4cgu_B           13 SILRGRNDDGDDNNDPDDGTLPPLFPIENKISGAKIEEIDKNEIAHRNLKQAPAPAPAPHE---QQEDVPEYEVKMKRFK   89 (158)
+T ss_dssp             --------------------------------------------------------------------CCCEEEEEEECS
+T ss_pred             HHHHHhhcccccccccccCCCCcccccCCCCCCCcEEEeccccccccccccccccccccCc---cccccceEEEEEecCC
+Confidence            1111111110000 0011111 1111100 0 1111 122222222211111 00  0000   0000112322222 11
+
+
+Q ss_pred             -cCcceeeEEeccccccccCcccCccccccccccccCcceEEEeecCCeeEEEEEEec----ccceeeecCccceeEee
+Q orthobunyaviru  295 -STSESVCMLTSNCDFYHNNLKIDPNVQKYGMKGKCSEEKIWVDLCGNKIEIQISIIQ----PHETIEVGNSDQTYFVK  368 (375)
+Q Consensus       295 -s~~~~~c~i~s~C~~~~~~i~i~~g~n~~~ik~~c~~~~i~~~iC~~~~~~~~~~~~----~~~~~~l~~~d~t~~i~  368 (375)
+                       +.-.+...|.++      +  +......|.+...-..+.+-+   .+++++.+-...    ..-+.=....+.+-||-
+T Consensus        90 ~~~ykL~I~i~~s------~--l~s~~~d~~v~Y~~~~n~L~I---~~~L~IPLP~~~~~~~~~~k~F~vk~e~~LyIf  157 (158)
+T 4cgu_B           90 GAAYKLRILIENK------A--PNSKPDRFSPSYNFAENILYI---NGKLSIPLPRDIVVNAADIKIFHIRKERTLYIY  157 (158)
+T ss_dssp             SSSCSEEEEEEEC------C--C-CCCCCCCCEEETTTTEEEC---SSSCEEECCTTSCCCTTTCEEEEETTTTEEEEE
+T ss_pred             CCCeEEEEEEEec------c--cCCcccceeEEEcCCCCEEEe---cCceeccCCchhcCCCcceEEEEEcCCceEEEE
+Confidence             122445555522      1  111134455554444445555   455555552000    12244445555666653
+
+
+No 19 
+>4l8i_A RSV epitope scaffold FFL_005; three-helix bundle, immune system; 2.00A {Synthetic construct}
+Probab=0.00  E-value=8.5e+03  Score=3.25  Aligned_cols=10  Identities=20%  Similarity=0.056  Sum_probs=1.3
+
+Q ss_pred             hhHHHHHHHhc
+Q orthobunyaviru   28 YEAVYDEIYQT   38 (375)
+Q Consensus        28 ~~~~~~~~Y~T   38 (375)
+                      +-+.+.- |.|
+T Consensus       102 iladvea-wft  111 (115)
+T 4l8i_A          102 ILADVEA-WFT  111 (115)
+T ss_dssp             HHHHHHH-HHH
+T ss_pred             HHHHHHH-HHh
+Confidence            1111111 111
+
+
+No 20 
+>2ejc_A Pantoate--beta-alanine ligase; X-RAY diffraction, structural genomics, NPPSFA, national project on protein structural and functional analyses; 2.40A {Thermotoga maritima}
+Probab=0.00  E-value=6.9e+03  Score=3.25  Aligned_cols=45  Identities=16%  Similarity=0.340  Sum_probs=0.0
+
+Q ss_pred             cchhceeec-cccCCcCccccccccceeeeecccchhhhhcccceeeecccccc
+Q orthobunyaviru  140 DKIETQFIS-NEAGKIPKLLGYKSNKIFTGMINDLGTFSKMCGSVQSINGNVLG  192 (375)
+Q Consensus       140 ~~~~v~~~~-~~~~~lp~~iav~~~~v~~G~indlg~~~~~cG~~Q~~~~~~~g  192 (375)
+                      ..++++-.. .+...|+..=.....-+..+.+        ++|.+..+|.-.+|
+T Consensus       235 ~~~~idY~~i~d~~~l~~~~~~~~~~~~~~A~--------~~g~~RLIDN~~~~  280 (280)
+T 2ejc_A          235 DKVKIDYVEIVDEETLEPVEKIDRKVIVAVAA--------WVGNARLIDNTILG  280 (280)
+T ss_dssp             TTEEEEEEEEEETTTCCBCSBCSSCEEEEEEE--------EETTEEEEEEEEEC
+T ss_pred             cCCCceEEEEeccccccCcccCCcceEEEEEE--------EcCCCCCccCEEeC
+
+
+Done!

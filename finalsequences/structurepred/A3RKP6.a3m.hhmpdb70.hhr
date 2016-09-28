@@ -1,0 +1,328 @@
+Query         A3RKP6
+Match_columns 486
+No_of_seqs    66 out of 208
+Neff          3.6 
+Searched_HMMs 229
+Date          Mon Aug 22 17:22:35 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./finalsequences/models/A3RKP6.a3m.hhm -ohhm ./finalsequences/structurepred/A3RKP6.a3m.hhm -o ./finalsequences/structurepred/A3RKP6.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2l2t_A Receptor tyrosine-prote  81.0     1.8 0.00033   25.2  10.2   30  457-486    12-41  (44)
+  2 2l2t_A Receptor tyrosine-prote  74.6       3 0.00054   24.2  15.6   30  457-486    15-44  (44)
+  3 2jwa_A Receptor tyrosine-prote  70.4     3.8 0.00069   23.6   9.6   30  457-486    14-43  (44)
+  4 2klu_A T-cell surface glycopro  69.4     6.7  0.0011   25.8  15.8   34  453-486     6-42  (70)
+  5 2ks1_B Epidermal growth factor  69.2     3.8  0.0007   23.2  13.5   31  455-486    14-44  (44)
+  6 2m20_A Epidermal growth factor  61.9       8  0.0014   24.1  10.7   29  457-486     8-36  (60)
+  7 3wu2_I Photosystem II reaction  56.1      15  0.0019   23.8  15.6   30  457-486     5-36  (38)
+  8 2jwa_A Receptor tyrosine-prote  53.9     8.2  0.0015   21.9  12.5   33  453-486     8-44  (44)
+  9 2l8s_A Integrin alpha-1; trans  50.8      19  0.0027   24.0  17.2   34  453-486     6-45  (54)
+ 10 2klu_A T-cell surface glycopro  33.7      29   0.005   22.1   9.8   30  457-486    16-45  (70)
+ 11 2lk9_A Bone marrow stromal ant  33.0      36  0.0046   21.5  13.0   29  455-485     7-35  (35)
+ 12 2k9y_A Ephrin type-A receptor   30.0      23  0.0041   19.9  15.9   31  453-483    11-41  (41)
+ 13 2knc_A Integrin alpha-IIB; tra  25.3      49  0.0074   21.3  17.1   33  454-486    10-48  (54)
+ 14 1m56_D Cytochrome C oxidase; m  23.6      55   0.008   21.2  10.5   17  456-472    34-50  (51)
+ 15 2rdd_B UPF0092 membrane protei  23.2      37   0.006   19.6  12.0   28  455-483     1-28  (37)
+ 16 2mfr_A Insulin receptor, IR; i  20.9      69  0.0099   21.2  12.2   27  456-485    19-47  (57)
+ 17 1spf_A Pulmonary surfactant-as  20.2      65  0.0084   20.1  12.6   19  457-475    17-35  (35)
+ 18 2zjs_E Preprotein translocase   19.8      60  0.0095   20.6  13.1   38  431-476    12-49  (60)
+ 19 2m7g_A Geopilin domain 1 prote  18.0      36  0.0072   18.5  12.8   19  458-476     6-24  (61)
+ 20 2knc_B Integrin beta-3; transm  14.7      81   0.014   20.2  13.9   24  453-476     7-32  (79)
+
+No 1  
+>2l2t_A Receptor tyrosine-protein kinase ERBB-4; transmembrane dimer, membrane domain, membrane protei; NMR {Homo sapiens} PDB: 2lcx_A
+Probab=81.03  E-value=1.8  Score=25.22  Aligned_cols=30  Identities=23%  Similarity=0.254  Sum_probs=0.0
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHhccCCccccccC
+Q A3RKP6          457 MVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       457 ~v~~vl~~~~~~s~~~~~~~cp~~~~~~~~  486 (486)
+                      ++.+++.+++++.++.+.+++-.|+++++.
+T Consensus        12 i~g~~vg~~~~~~~~~~~~~~~~rrr~~~~   41 (44)
+T 2l2t_A           12 IAAGVIGGLFILVIVGLTFAVYVRRKSIKK   41 (44)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTCSSC
+T ss_pred             EEEehHHHHHHHHHHHHHHHHHhhhhhhhh
+
+
+No 2  
+>2l2t_A Receptor tyrosine-protein kinase ERBB-4; transmembrane dimer, membrane domain, membrane protei; NMR {Homo sapiens} PDB: 2lcx_A
+Probab=74.58  E-value=3  Score=24.16  Aligned_cols=30  Identities=17%  Similarity=0.216  Sum_probs=0.0
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHhccCCccccccC
+Q A3RKP6          457 MVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       457 ~v~~vl~~~~~~s~~~~~~~cp~~~~~~~~  486 (486)
+                      +++.++++++++.++++.+..-.|+.+++.
+T Consensus        15 ~~vg~~~~~~~~~~~~~~~~rrr~~~~~~~   44 (44)
+T 2l2t_A           15 GVIGGLFILVIVGLTFAVYVRRKSIKKKRA   44 (44)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTCSSCCCC
+T ss_pred             ehHHHHHHHHHHHHHHHHHhhhhhhhhccC
+
+
+No 3  
+>2jwa_A Receptor tyrosine-protein kinase ERBB-2; transmembrane helix dimer, protein kinase receptor membrane domain, ATP-binding, glycoprotein; NMR {Homo sapiens} PDB: 2ks1_A
+Probab=70.44  E-value=3.8  Score=23.61  Aligned_cols=30  Identities=20%  Similarity=0.146  Sum_probs=0.0
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHhccCCccccccC
+Q A3RKP6          457 MVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       457 ~v~~vl~~~~~~s~~~~~~~cp~~~~~~~~  486 (486)
+                      ++.+++.+++++.++.+.+++=.|+++++.
+T Consensus        14 i~g~~vg~~~~~~~~~~~~~~~~rrr~~~~   43 (44)
+T 2jwa_A           14 IISAVVGILLVVVLGVVFGILIKRRQQKIR   43 (44)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHCSCCC
+T ss_pred             EEeehHHHHHHHHHHHHHHHHHHHHhhhhc
+
+
+No 4  
+>2klu_A T-cell surface glycoprotein CD4; cell membrane, disulfide bond, HOST- virus interaction, immune response, immunoglobulin domain, lipoprotein; NMR {Homo sapiens}
+Probab=69.44  E-value=6.7  Score=25.76  Aligned_cols=34  Identities=21%  Similarity=0.291  Sum_probs=10.9
+
+Q ss_pred             cCcch--hHHHHHHHHHHHHH-HHHhccCCccccccC
+Q A3RKP6          453 NGNWM--VVAVLIALLILSIF-LFALCCPRRATYKKE  486 (486)
+Q Consensus       453 ~gnw~--v~~vl~~~~~~s~~-~~~~~cp~~~~~~~~  486 (486)
+                      .+-.+  |+.++++++++.++ ++.++.-.|++++.+
+T Consensus         6 ~~~i~g~vvg~~~~~~~i~~~~~~~~~rrrr~~~~~~   42 (70)
+T 2klu_A            6 RGSMALIVLGGVAGLLLFIGLGIFFSVRSRHRRRQAE   42 (70)
+T ss_dssp             CCSSHHHHHHHHHHHHHHHHHHHHHHHHSSCCSSSCT
+T ss_pred             cceEEEEehHHHHHHHHHHHHHHHHHHhhhhhhhccc
+Confidence            12233  33333333333223 333333333333221
+
+
+No 5  
+>2ks1_B Epidermal growth factor receptor; ERBB1, ERBB2, transmembrane, heterodimer, complex, tyrosine receptor, bicelles, transferase; NMR {Homo sapiens} PDB: 2m0b_A
+Probab=69.17  E-value=3.8  Score=23.22  Aligned_cols=31  Identities=23%  Similarity=0.264  Sum_probs=9.7
+
+Q ss_pred             cchhHHHHHHHHHHHHHHHHhccCCccccccC
+Q A3RKP6          455 NWMVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       455 nw~v~~vl~~~~~~s~~~~~~~cp~~~~~~~~  486 (486)
+                      -.+++.+++++ ++.++++.+++-.|++++++
+T Consensus        14 ~~~~v~~~~~~-~~~~~~~~~~~rrr~~~~~~   44 (44)
+T 2ks1_B           14 ATGMVGALLLL-LVVALGIGLFMRRRHIVRKR   44 (44)
+T ss_dssp             THHHHHHHHHH-HHHHHHHHHHHHTTTCCSCC
+T ss_pred             EEeeHHHHHHH-HHHHHHHHHHHHhhhhhccC
+Confidence            12233233222 22223333333333333332
+
+
+No 6  
+>2m20_A Epidermal growth factor receptor; transmembrane, cell signaling, juxtamembrane, signaling PROT; NMR {Homo sapiens}
+Probab=61.93  E-value=8  Score=24.12  Aligned_cols=29  Identities=28%  Similarity=0.363  Sum_probs=6.8
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHhccCCccccccC
+Q A3RKP6          457 MVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       457 ~v~~vl~~~~~~s~~~~~~~cp~~~~~~~~  486 (486)
+                      +|+..+++++++.++++ +++=.|++++++
+T Consensus         8 ~vvg~~~~~~~i~~~~~-~~~rrr~~~~~~   36 (60)
+T 2m20_A            8 GLVGALLLLLVVALGIG-LFIRRRHIVRKR   36 (60)
+T ss_dssp             HHHHHHHHHHHHHHHHH-HHHHTHHHHSCT
+T ss_pred             ehHHHHHHHHHHHHHHH-HHHHHhhhhhhh
+Confidence            12222222222222222 222112111111
+
+
+No 7  
+>3wu2_I Photosystem II reaction center protein I; electron transport, photosynthesis, membr complex, transmembrane alpha-helix; HET: HSK FME OEX CLA PHO BCR SQD LMG PL9 UNL LMT HTG DGD LHG HEM RRX; 1.90A {Thermosynechococcus vulcanus} PDB: 1s5l_I* 3kzi_I* 2axt_I* 4fby_I* 4ixq_I* 4ixr_I* 4pbu_I* 4pj0_I* 4q54_I* 4tnh_I* 4tni_I* 4tnj_I* 4tnk_I* 4ub6_I* 4ub8_I* 4il6_I* 3a0b_I* 3a0h_I*
+Probab=56.05  E-value=15  Score=23.82  Aligned_cols=30  Identities=17%  Similarity=0.510  Sum_probs=22.5
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHhcc--CCccccccC
+Q A3RKP6          457 MVVAVLIALLILSIFLFALCC--PRRATYKKE  486 (486)
+Q Consensus       457 ~v~~vl~~~~~~s~~~~~~~c--p~~~~~~~~  486 (486)
+                      =+++-.+|++++||+.|.|+-  |.|.-.||+
+T Consensus         5 Ki~Vy~vV~ffvsLFiFGFLSnDp~RnP~r~~   36 (38)
+T 3wu2_I            5 KITVYIVVTFFVLLFVFGFLSGDPARNPKRKD   36 (38)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHTTGGGCSSSCCC
+T ss_pred             EeehhhHHHHHHHHHHccccCCCCCCCCCccc
+Confidence            135567788889999999985  778777774
+
+
+No 8  
+>2jwa_A Receptor tyrosine-protein kinase ERBB-2; transmembrane helix dimer, protein kinase receptor membrane domain, ATP-binding, glycoprotein; NMR {Homo sapiens} PDB: 2ks1_A
+Probab=53.93  E-value=8.2  Score=21.90  Aligned_cols=33  Identities=9%  Similarity=0.310  Sum_probs=6.8
+
+Q ss_pred             cCcc-hhHHHHHH--HHHHHHHHHHhccCCcccc-ccC
+Q A3RKP6          453 NGNW-MVVAVLIA--LLILSIFLFALCCPRRATY-KKE  486 (486)
+Q Consensus       453 ~gnw-~v~~vl~~--~~~~s~~~~~~~cp~~~~~-~~~  486 (486)
+                      +.+. .++.+.+.  ++++.++++.+++ .|+++ +++
+T Consensus         8 ~~~~~~i~g~~vg~~~~~~~~~~~~~~~-~rrr~~~~~   44 (44)
+T 2jwa_A            8 ASPLTSIISAVVGILLVVVLGVVFGILI-KRRQQKIRK   44 (44)
+T ss_dssp             CCSHHHHHHHHHHHHHHHHHHHHHHHHH-HHHCSCCCC
+T ss_pred             CCCcceEEeehHHHHHHHHHHHHHHHHH-HHHhhhhcC
+Confidence            1122 22222211  1111111221222 12222 222
+
+
+No 9  
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=50.79  E-value=19  Score=24.01  Aligned_cols=34  Identities=26%  Similarity=0.364  Sum_probs=14.3
+
+Q ss_pred             cCcchhH--HHHHHHHHHHHHHHHh----ccCCccccccC
+Q A3RKP6          453 NGNWMVV--AVLIALLILSIFLFAL----CCPRRATYKKE  486 (486)
+Q Consensus       453 ~gnw~v~--~vl~~~~~~s~~~~~~----~cp~~~~~~~~  486 (486)
+                      .=+|+++  .+++.+++++++.+.+    |..++++++.+
+T Consensus         6 ~~~~wiIi~s~i~GlllL~iii~iL~K~GFFkRk~~~~~~   45 (54)
+T 2l8s_A            6 RVPLWVILLSAFAGLLLLMLLILALWKIGFFKRPLKKKME   45 (54)
+T ss_dssp             CCCTHHHHHHHHHHHHHHHHHHHHHHHHHHTTSCCSCCCC
+T ss_pred             cCcchhhHHHHHHHHHHHHHHHHHHHHcCCCCCCChhhhc
+Confidence            1134433  3444455555544433    44444443332
+
+
+No 10 
+>2klu_A T-cell surface glycoprotein CD4; cell membrane, disulfide bond, HOST- virus interaction, immune response, immunoglobulin domain, lipoprotein; NMR {Homo sapiens}
+Probab=33.69  E-value=29  Score=22.12  Aligned_cols=30  Identities=17%  Similarity=0.105  Sum_probs=10.3
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHhccCCccccccC
+Q A3RKP6          457 MVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       457 ~v~~vl~~~~~~s~~~~~~~cp~~~~~~~~  486 (486)
+                      .+++++++++++-++++---=..++.++.+
+T Consensus        16 ~~~~~~~i~~~~~~~~~rrrr~~~~~~~~~   45 (70)
+T 2klu_A           16 GVAGLLLFIGLGIFFSVRSRHRRRQAERMS   45 (70)
+T ss_dssp             HHHHHHHHHHHHHHHHHHSSCCSSSCTTSS
+T ss_pred             HHHHHHHHHHHHHHHHHhhhhhhhcccccc
+Confidence            122222222333445554444433333321
+
+
+No 11 
+>2lk9_A Bone marrow stromal antigen 2; membrane, micelle, antiviral protein-immune system complex; NMR {Homo sapiens}
+Probab=33.02  E-value=36  Score=21.49  Aligned_cols=29  Identities=24%  Similarity=0.313  Sum_probs=15.2
+
+Q ss_pred             cchhHHHHHHHHHHHHHHHHhccCCcccccc
+Q A3RKP6          455 NWMVVAVLIALLILSIFLFALCCPRRATYKK  485 (486)
+Q Consensus       455 nw~v~~vl~~~~~~s~~~~~~~cp~~~~~~~  485 (486)
+                      -|++++++++++.++..+..|--  |...+|
+T Consensus         7 ~w~~iLL~lvvvgL~ValIifav--kaNSk~   35 (35)
+T 2lk9_A            7 LGIGILVLLIIVILGVPLIIFTI--KKKKKK   35 (35)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHC---------
+T ss_pred             hHHHHHHHHHHHHHHHHhheeee--eccCCC
+Confidence            17777777777777777766642  222111
+
+
+No 12 
+>2k9y_A Ephrin type-A receptor 2; receptor tyrosine kinase, membrane protein, dimeric transmembrane domain, ephrin receptor, ATP-binding, glycoprotein; NMR {Homo sapiens}
+Probab=30.00  E-value=23  Score=19.92  Aligned_cols=31  Identities=10%  Similarity=0.032  Sum_probs=14.0
+
+Q ss_pred             cCcchhHHHHHHHHHHHHHHHHhccCCcccc
+Q A3RKP6          453 NGNWMVVAVLIALLILSIFLFALCCPRRATY  483 (486)
+Q Consensus       453 ~gnw~v~~vl~~~~~~s~~~~~~~cp~~~~~  483 (486)
+                      +..-++.+++..++.+.++.+.+++-.|++|
+T Consensus        11 ~~~~i~g~vvg~~~~~~~i~~~~~~~~rr~~   41 (41)
+T 2k9y_A           11 GNLAVIGGVAVGVVLLLVLAGVGFFIHRRRK   41 (41)
+T ss_dssp             SSTHHHHHHHHHHHHHHHHHHHHHSSSSSCC
+T ss_pred             CcceEEEEEeHHHHHHHHHHHHHHHheeecC
+Confidence            1234444444444444555555555444432
+
+
+No 13 
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=25.27  E-value=49  Score=21.34  Aligned_cols=33  Identities=30%  Similarity=0.284  Sum_probs=11.2
+
+Q ss_pred             CcchhHH--HHHHHHHHHHHHHHh----ccCCccccccC
+Q A3RKP6          454 GNWMVVA--VLIALLILSIFLFAL----CCPRRATYKKE  486 (486)
+Q Consensus       454 gnw~v~~--vl~~~~~~s~~~~~~----~cp~~~~~~~~  486 (486)
+                      =+|++++  +++.++++.++.+.+    |..++++.+.+
+T Consensus        10 ~~~wiii~s~i~GlllL~li~~iL~K~GFFkRk~~~~~~   48 (54)
+T 2knc_A           10 IPIWWVLVGVLGGLLLLTILVLAMWKVGFFKRNRPPLEE   48 (54)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTTCCSCCC
+T ss_pred             CchhHHHHHHHHHHHHHHHHHHHHHHcCCcccCCccccc
+Confidence            1333333  334444444433322    23333332211
+
+
+No 14 
+>1m56_D Cytochrome C oxidase; membrane protein, oxidoreductase; HET: HEA PEH; 2.30A {Rhodobacter sphaeroides} SCOP: f.23.8.1 PDB: 1m57_D*
+Probab=23.64  E-value=55  Score=21.20  Aligned_cols=17  Identities=29%  Similarity=0.667  Sum_probs=6.1
+
+Q ss_pred             chhHHHHHHHHHHHHHH
+Q A3RKP6          456 WMVVAVLIALLILSIFL  472 (486)
+Q Consensus       456 w~v~~vl~~~~~~s~~~  472 (486)
+                      |..+++.++++++.|++
+T Consensus        34 ~g~i~v~~il~~maif~   50 (51)
+T 1m56_D           34 WAAVVIVAALIFLALAN   50 (51)
+T ss_dssp             HHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHHHc
+Confidence            33333333333333331
+
+
+No 15 
+>2rdd_B UPF0092 membrane protein YAJC; drug resistance, multidrug efflux, transporter, antiporter, novel transmembrane helix, ACRB, inner membrane; HET: AIC; 3.50A {Escherichia coli}
+Probab=23.17  E-value=37  Score=19.56  Aligned_cols=28  Identities=14%  Similarity=0.335  Sum_probs=10.6
+
+Q ss_pred             cchhHHHHHHHHHHHHHHHHhccCCcccc
+Q A3RKP6          455 NWMVVAVLIALLILSIFLFALCCPRRATY  483 (486)
+Q Consensus       455 nw~v~~vl~~~~~~s~~~~~~~cp~~~~~  483 (486)
+                      |++..+++++++++-+.+|.+- |-||.+
+T Consensus         1 ~~~~~li~~~~~~~~~~~~~~r-pqkK~~   28 (37)
+T 2rdd_B            1 SPMSLILMLVVFGLIFYFMILR-PQQKRT   28 (37)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHTHH-HHHHHH
+T ss_pred             CchhHHHHHHHHHHHHHHHHHh-HHHHHH
+Confidence            3445554444444444444331 221111
+
+
+No 16 
+>2mfr_A Insulin receptor, IR; insulin recepotr, membrane protein, detergent micelles, TRAN; NMR {Homo sapiens}
+Probab=20.90  E-value=69  Score=21.25  Aligned_cols=27  Identities=7%  Similarity=0.298  Sum_probs=7.1
+
+Q ss_pred             chhHHHHHHHHHHHHH--HHHhccCCcccccc
+Q A3RKP6          456 WMVVAVLIALLILSIF--LFALCCPRRATYKK  485 (486)
+Q Consensus       456 w~v~~vl~~~~~~s~~--~~~~~cp~~~~~~~  485 (486)
+                      |++..|.+++|++.++  ++-|.   ||+..+
+T Consensus        19 iii~pVi~iili~g~i~~ly~~~---kk~~s~   47 (57)
+T 2mfr_A           19 IIIGPLIFVFLFSVVIGSIYLFL---RKRQPD   47 (57)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHH---TSSCCC
+T ss_pred             hHHHHHHHHHHHHHHHHHhhhhh---hhhcCC
+Confidence            2233333333333322  22222   111111
+
+
+No 17 
+>1spf_A Pulmonary surfactant-associated polypeptide C; lipoprotein(surface FILM); NMR {Sus scrofa} SCOP: j.35.1.1
+Probab=20.21  E-value=65  Score=20.15  Aligned_cols=19  Identities=37%  Similarity=0.705  Sum_probs=9.4
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHh
+Q A3RKP6          457 MVVAVLIALLILSIFLFAL  475 (486)
+Q Consensus       457 ~v~~vl~~~~~~s~~~~~~  475 (486)
+                      .|++|++++.|..-+|+++
+T Consensus        17 vvVvVllv~vi~G~llmGl   35 (35)
+T 1spf_A           17 VVVVVLVVVVIVGALLMGL   35 (35)
+T ss_dssp             HHHHHHHHHHHHHHHHHCC
+T ss_pred             EEEeeeeehheeehhhccC
+Confidence            2345555555555555521
+
+
+No 18 
+>2zjs_E Preprotein translocase SECE subunit; translocon, SEC, protein-conducting-channel, membrane, prote transport, translocation, transmembrane, transport; 3.20A {Thermus thermophilus} PDB: 2zqp_E
+Probab=19.83  E-value=60  Score=20.64  Aligned_cols=38  Identities=16%  Similarity=0.086  Sum_probs=15.4
+
+Q ss_pred             CCCcccceeeeeecCeEEEEEecCcchhHHHHHHHHHHHHHHHHhc
+Q A3RKP6          431 GAPECGMSCWFKKSGEWILGVLNGNWMVVAVLIALLILSIFLFALC  476 (486)
+Q Consensus       431 ga~~c~~~cwf~k~~ew~~g~~~gnw~v~~vl~~~~~~s~~~~~~~  476 (486)
+                      =-.|=+-..|=+|.--        ---.++|+++.+++|++++.+=
+T Consensus        12 ~~~E~kkV~WPt~~e~--------~~~t~~Vi~~~~i~~~~~~~~D   49 (60)
+T 2zjs_E           12 ARAELARVTWPTREQV--------VEGTQAILLFTLAFMVILGLYD   49 (60)
+T ss_dssp             CCCCCCCCCCSCSSSH--------HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhccccCcCHHHH--------HhHHHHhhhHHHHHHHHHHHHH
+Confidence            1111111111111100        0134677777777777776541
+
+
+No 19 
+>2m7g_A Geopilin domain 1 protein; PILA, bacterial nanowire, type IVA, cell adhesion, ST protein, electron transport; NMR {Geobacter sulfurreducens}
+Probab=18.01  E-value=36  Score=18.48  Aligned_cols=19  Identities=16%  Similarity=0.209  Sum_probs=4.4
+
+Q ss_pred             hHHHHHHHHHHHHHHHHhc
+Q A3RKP6          458 VVAVLIALLILSIFLFALC  476 (486)
+Q Consensus       458 v~~vl~~~~~~s~~~~~~~  476 (486)
+                      ++++|+++.|+..+.+..+
+T Consensus         6 ~lv~l~i~~i~~~~~~~~~   24 (61)
+T 2m7g_A            6 LLIVVAIIGILAAIAIPQF   24 (61)
+T ss_dssp             HHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+Confidence            1222222222222222111
+
+
+No 20 
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=14.73  E-value=81  Score=20.22  Aligned_cols=24  Identities=21%  Similarity=0.368  Sum_probs=7.6
+
+Q ss_pred             cCcchhHH--HHHHHHHHHHHHHHhc
+Q A3RKP6          453 NGNWMVVA--VLIALLILSIFLFALC  476 (486)
+Q Consensus       453 ~gnw~v~~--vl~~~~~~s~~~~~~~  476 (486)
+                      .-++.+++  |+..++++.++++.+.
+T Consensus         7 ~~~~~~I~~~vi~~iv~l~ll~~~~~   32 (79)
+T 2knc_B            7 GPDILVVLLSVMGAILLIGLAALLIW   32 (79)
+T ss_dssp             SSCSHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCchheehhhHHHHHHHHHHHHHHHH
+Confidence            12444432  3333333333332211
+
+
+Done!

@@ -1,0 +1,18 @@
+# No 1  
+>ss_pred PSIPRED predicted secondary structure
+CCCCCCCCCCCCCCCCCCC
+>ss_conf PSIPRED confidence values
+4357676557999997534
+>Consensus
+xxxxpgxtxCxxxCGgxxC
+>5G47:A|PDBID|CHAIN|SEQUENCE
+DRAGLGFSGCSDGCGGAAC
+>ss_pred PSIPRED predicted secondary structure
+CCCCCEEEEEEECCCCCCC
+>ss_conf PSIPRED confidence values
+0248514999625762224
+>Consensus
+xxxxPGYTGCSESCxxxxx
+>Q85429/41-824
+----LSFDYCVTDF-----
+

@@ -1,0 +1,339 @@
+Query         emaravirusSS
+Match_columns 461
+No_of_seqs    8 out of 13
+Neff          2.9 
+Searched_HMMs 101
+Date          Thu Aug  4 12:31:27 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/emaravirusSS.a3m.hhm -ohhm ./structurepred/emaravirusSS.a3m.hhm -o ./structurepred/emaravirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1c49_A Toxin K-beta; scorpion   33.1      29  0.0042   21.1   6.8   22  256-277     1-22  (35)
+  2 4jtd_Y Potassium channel toxin  29.0      35  0.0051   20.8   6.5   20  258-277     6-25  (37)
+  3 1j5j_A BEKM-1 toxin; alpha-bet  28.2      35  0.0052   20.6   5.9   20  258-277     6-25  (36)
+  4 1wz5_A Potassium channel block  27.6      37  0.0054   20.6   6.1   23  256-278     1-23  (35)
+  5 1tsk_A TS KAPA; scorpion, toxi  27.1      37  0.0055   20.5   5.8   26  253-278     1-26  (35)
+  6 1n8m_A PI4, potassium channel   20.2      41   0.006   20.7   4.7   25  254-278     1-25  (38)
+  7 1quz_A HSTX1 toxin; scorpion t  19.1      56  0.0082   19.6   6.9   22  257-278     1-22  (35)
+  8 1wmt_A ISTX; neurotoxin, potas  13.8      42  0.0062   20.9   3.5   26  253-278     1-26  (41)
+  9 1hly_A Hongotoxin 1; scorpion,  13.7      82   0.012   19.1   8.9   25  253-277     1-25  (39)
+ 10 1m2s_A Toxin BMTX3, neurotoxin  13.5      52  0.0076   20.0   3.9   27  252-278     1-27  (37)
+ 11 1omc_A Omega-conotoxin GVIA; p  12.2      47   0.006   20.1   2.8   23  371-393     4-26  (28)
+ 12 4he8_A NADH-quinone oxidoreduc  11.1 1.3E+02   0.022   20.6   7.3   69   96-185     3-71  (119)
+ 13 1hp2_A Tityustoxin K alpha; K+  10.9      42  0.0063   20.3   2.7   26  253-278     1-26  (37)
+ 14 1qky_A PI7, toxin 7 from pandi  10.7      60  0.0088   19.7   3.5   25  254-278     1-25  (38)
+ 15 1big_A Toxin BMTX1; scorpion,   10.0      41   0.006   20.4   2.4   25  254-278     2-26  (37)
+ 16 1c55_A Butantoxin; structure;    9.8      53  0.0077   20.4   2.9   27  252-278     3-29  (40)
+ 17 2axk_A Discrepin; scorpion tox   8.0      71   0.011   19.3   3.0   25  254-278     3-27  (38)
+ 18 1wt7_A BUTX-MTX; maurotoxin, b   6.5      76   0.011   19.7   2.5   27  252-278     3-29  (41)
+ 19 2mhe_A Uncharacterized protein   5.4   1E+02   0.014   21.5   2.8   22  228-249    52-73  (74)
+ 20 2vnf_A ING 4, P29ING4, inhibit   4.1 1.5E+02   0.029   15.5   3.3   31  142-172    22-52  (60)
+
+No 1  
+>1c49_A Toxin K-beta; scorpion toxin, potassium channels blockers, alpha-K toxin family, neurotoxin, solution structure; NMR {Pandinus imperator} SCOP: g.3.7.2 PDB: 2pta_A
+Probab=33.12  E-value=29  Score=21.06  Aligned_cols=22  Identities=27%  Similarity=0.738  Sum_probs=0.0
+
+Q ss_pred             ccccCCCcchHHhhhhccCCch
+Q emaravirusSS    256 HFSCDGSEGCQKECQARTGFMP  277 (461)
+Q Consensus       256 ~~SCDg~~~C~k~~~~~~~~~~  277 (461)
+                      +-+|.+..+|.+.+++++|...
+T Consensus         1 ~v~C~~s~~C~~~C~~~~g~~~   22 (35)
+T 1c49_A            1 TISCTNEKQCYPHCKKETGYPN   22 (35)
+T ss_dssp             CCCCSSGGGGHHHHHHHTSCCC
+T ss_pred             CceeccccccChhhhhhhCCcC
+
+
+No 2  
+>4jtd_Y Potassium channel toxin alpha-KTX 1.1; pore blocking toxin, protein-protein COMP trans-enhanced dissociation effect; HET: NAP PGW; 2.54A {Leiurus quinquestriatus hebraeus} PDB: 2a9h_E* 2crd_A* 4jta_Y* 4jtc_Y* 1bah_A* 1lir_A* 1cmr_A
+Probab=29.01  E-value=35  Score=20.79  Aligned_cols=20  Identities=30%  Similarity=0.488  Sum_probs=0.0
+
+Q ss_pred             ccCCCcchHHhhhhccCCch
+Q emaravirusSS    258 SCDGSEGCQKECQARTGFMP  277 (461)
+Q Consensus       258 SCDg~~~C~k~~~~~~~~~~  277 (461)
+                      +|.++.+|.+.+++.+|...
+T Consensus         6 ~C~~s~~C~~~C~~~~g~~~   25 (37)
+T 4jtd_Y            6 SCTTSKECWSVCQRLHNTSR   25 (37)
+T ss_dssp             CCSSGGGGGGGTTTTTSCCC
+T ss_pred             ccCCccccChhhhhhhCCcC
+
+
+No 3  
+>1j5j_A BEKM-1 toxin; alpha-beta motif, cysteine-knot motif; NMR {Mesobuthus eupeus} SCOP: g.3.7.2 PDB: 1lgl_A
+Probab=28.22  E-value=35  Score=20.63  Aligned_cols=20  Identities=30%  Similarity=0.577  Sum_probs=0.0
+
+Q ss_pred             ccCCCcchHHhhhhccCCch
+Q emaravirusSS    258 SCDGSEGCQKECQARTGFMP  277 (461)
+Q Consensus       258 SCDg~~~C~k~~~~~~~~~~  277 (461)
+                      +|.++.+|.+.+++.+|...
+T Consensus         6 ~C~~s~~C~~~C~~~~g~~~   25 (36)
+T 1j5j_A            6 KCSESYQCFPVCKSRFGKTN   25 (36)
+T ss_dssp             ECSSGGGHHHHHHHHTCCSC
+T ss_pred             ccCCccccChhhhhhhCCcC
+
+
+No 4  
+>1wz5_A Potassium channel blocking toxin 1; ionic channel inhibitor; HET: ABA; NMR {Pandinus imperator}
+Probab=27.60  E-value=37  Score=20.55  Aligned_cols=23  Identities=30%  Similarity=0.736  Sum_probs=18.7
+
+Q ss_pred             ccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    256 HFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       256 ~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      --+|-+..+|.+.+++.+|....
+T Consensus         1 ~v~C~~s~~C~~~Ck~~~g~~~g   23 (35)
+T 1wz5_A            1 LVKCRGTSDCGRPCQQQTGXPNS   23 (35)
+T ss_dssp             CCSCCTTTTTHHHHHHHSCSSCC
+T ss_pred             CeeecCCcccChhhchhhCCCcc
+Confidence            13799999999999999997641
+
+
+No 5  
+>1tsk_A TS KAPA; scorpion, toxin, potassium channel, neurotoxin; NMR {Tityus serrulatus} SCOP: g.3.7.2
+Probab=27.08  E-value=37  Score=20.47  Aligned_cols=26  Identities=19%  Similarity=0.259  Sum_probs=19.7
+
+Q ss_pred             cccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    253 THEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       253 t~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      +...-+|.+..+|.+.+++.+|....
+T Consensus         1 ~~~~v~C~~s~~C~~~C~~~~g~~~g   26 (35)
+T 1tsk_A            1 VVIGQRCYRSPDCYSACKKLVGKATG   26 (35)
+T ss_dssp             CEECCCCSSSCSSHHHHHHHTSSSCC
+T ss_pred             CeecceeCCchhhhhhhhhhhCCCCC
+Confidence            11235899999999999999987641
+
+
+No 6  
+>1n8m_A PI4, potassium channel blocking toxin 4; potassium channel blocker, disulfide bridge stabilized alpha beta motif; NMR {Synthetic} SCOP: g.3.7.2 PDB: 1v56_A 1txm_A
+Probab=20.19  E-value=41  Score=20.66  Aligned_cols=25  Identities=40%  Similarity=0.761  Sum_probs=19.6
+
+Q ss_pred             ccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    254 HEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       254 ~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      ....+|-+..+|.+.+++++|....
+T Consensus         1 ~~~v~C~~s~~C~~~C~~~~g~~~g   25 (38)
+T 1n8m_A            1 IEAIRCGGSRDCYRPCQKRTGCPNA   25 (38)
+T ss_dssp             CCCCBCSSTHHHHHHHHHHHSSCCE
+T ss_pred             CcccccCCcchhChhhhhhhCCcCC
+Confidence            1235899999999999999887641
+
+
+No 7  
+>1quz_A HSTX1 toxin; scorpion toxin, alpha beta, molecular modeling, potassium channel; NMR {Synthetic} SCOP: k.23.1.1 PDB: 1y2p_A 1wpd_A
+Probab=19.11  E-value=56  Score=19.60  Aligned_cols=22  Identities=27%  Similarity=0.535  Sum_probs=18.4
+
+Q ss_pred             cccCCCcchHHhhhhccCCchh
+Q emaravirusSS    257 FSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       257 ~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      -+|-+..+|.+.+++.+|....
+T Consensus         1 ~~C~~s~~C~~~C~~~~g~~~g   22 (35)
+T 1quz_A            1 ASCRTPKDCADPCRKETGCPYG   22 (35)
+T ss_dssp             CCCSSGGGGHHHHHHHTSSCCE
+T ss_pred             CCCCCcchhChhhhhhhCCcCC
+Confidence            2699999999999999997641
+
+
+No 8  
+>1wmt_A ISTX; neurotoxin, potassium channel blocker, solution structure, alpha-K toxin family, scorpion toxin; NMR {Synthetic} SCOP: g.3.7.2
+Probab=13.85  E-value=42  Score=20.90  Aligned_cols=26  Identities=19%  Similarity=0.635  Sum_probs=19.8
+
+Q ss_pred             cccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    253 THEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       253 t~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      +...-+|.++.+|.+.+++.+|....
+T Consensus         1 ~~~~v~C~~s~~C~~~Ck~~~G~~~g   26 (41)
+T 1wmt_A            1 VHTNIPCRGTSDCYEPCEKKYNCARA   26 (41)
+T ss_dssp             -CCCCBCSCHHHHHHHHHHTTSCCCC
+T ss_pred             CeeccccCCccccChhhhhhhCCcCC
+Confidence            12345899999999999999997641
+
+
+No 9  
+>1hly_A Hongotoxin 1; scorpion, centruroides limbatus HGTX1, potassium channel; NMR {Centruroides limbatus} SCOP: g.3.7.2 PDB: 1mtx_A 1sxm_A
+Probab=13.72  E-value=82  Score=19.06  Aligned_cols=25  Identities=24%  Similarity=0.542  Sum_probs=19.7
+
+Q ss_pred             cccccccCCCcchHHhhhhccCCch
+Q emaravirusSS    253 THEHFSCDGSEGCQKECQARTGFMP  277 (461)
+Q Consensus       253 t~~~~SCDg~~~C~k~~~~~~~~~~  277 (461)
+                      +...-+|.++.+|.+.+++++|...
+T Consensus         1 ~~~~v~C~~s~~C~~~C~~~~g~~~   25 (39)
+T 1hly_A            1 TVIDVKCTSPKQCLPPCKAQFGIRA   25 (39)
+T ss_dssp             CCCCCBCSSSGGGHHHHHHHTCSSC
+T ss_pred             CeeeeecCCccccChhhhhhhCCCC
+Confidence            1234589999999999999988752
+
+
+No 10 
+>1m2s_A Toxin BMTX3, neurotoxin TX3; alpha/beta scaffold; NMR {Mesobuthus martensii} SCOP: g.3.7.2
+Probab=13.47  E-value=52  Score=19.95  Aligned_cols=27  Identities=22%  Similarity=0.305  Sum_probs=20.4
+
+Q ss_pred             ccccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    252 LTHEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       252 it~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      ++...-+|.+..+|.+.+++.+|....
+T Consensus         1 ~~~~~v~C~~s~~C~~~C~~~~g~~~g   27 (37)
+T 1m2s_A            1 FGLIDVKCFASSECWTACKKVTGSGQG   27 (37)
+T ss_dssp             CCCBCSCCSCHHHHHHHHHHHTSCCCE
+T ss_pred             CceeeeeeCCchhhhhhhhhhhCCCCC
+Confidence            133456899999999999999887631
+
+
+No 11 
+>1omc_A Omega-conotoxin GVIA; presynaptic neurotoxin; HET: HYP; NMR {Conus geographus} SCOP: g.3.6.1 PDB: 1ttl_A* 2cco_A* 1tr6_A*
+Probab=12.24  E-value=47  Score=20.06  Aligned_cols=23  Identities=22%  Similarity=0.449  Sum_probs=13.1
+
+Q ss_pred             eeeecCCCcccccCCCcccCCcE
+Q emaravirusSS    371 VGQICNMPSYGCFGPNYKKDNKT  393 (461)
+Q Consensus       371 ~Gq~C~~PS~~CFGpny~KD~~~  393 (461)
+                      .|.-|.+|+++|=-|=---.|+-
+T Consensus         4 ~G~~C~r~~y~CC~SC~~y~gkC   26 (28)
+T 1omc_A            4 PGSSCSPTSYNCCRSCNPYTKRC   26 (28)
+T ss_dssp             TTCBCCTTTTCBSSCEETTTTEE
+T ss_pred             CCCcCcccHHHHhhhhccccCcc
+Confidence            26789999999976411101211
+
+
+No 12 
+>4he8_A NADH-quinone oxidoreductase subunit 7; complex I, PROT membrane protein, menaquinone, cytoplasmic membrane; HET: UMQ; 3.30A {Thermus thermophilus} PDB: 4hea_A*
+Probab=11.09  E-value=1.3e+02  Score=20.62  Aligned_cols=69  Identities=13%  Similarity=0.258  Sum_probs=20.1
+
+Q ss_pred             ehhHHHHhhhhheeehhhHhhHHhhhcceeeeeecchHHHhHHHhhhcccccccccceeeeeecCCCCcceeccccchhH
+Q emaravirusSS     96 TITSIIHRIWKVVITITVWLIFIVLKVPILCLLSVGNQVFNSFMKSKLKECETCKTKYSVSHVDCPTPSFKLRTDYNLFF  175 (461)
+Q Consensus        96 sW~~~l~~l~kfi~~i~vwl~~~~~K~Pil~~~sii~~~~~~~~~k~kK~C~~C~~kY~f~HiDCp~psf~kRtDyN~vf  175 (461)
+                      ....+..-+.-++++  +.+.+.+.             +.++.++++ +     .++.+.+.-+|=-++..+|..+++=|
+T Consensus         3 ~~~~~~~~~~~~~~~--~~~~~~~~-------------~~~~~l~~~-~-----~~~~k~~~yECG~~~~~~~~~f~~~f   61 (119)
+T 4he8_A            3 PIQEYVGTLIYVGVA--LFIGVAAL-------------LVGALLGPK-K-----PGRAKLMPYESGNDPAGEVKRFPVHF   61 (119)
+T ss_dssp             CTHHHHHHHHHHHHH--HHHHHHHH-------------HHHTC------------------------------CCHHHHH
+T ss_pred             cHHHHHHHHHHHHHH--HHHHHHHH-------------HHHHHHccc-C-----CCcccCCCcccCCCCCCCCceechHH
+Confidence            122333322222111  11111110             111111111 1     24567788899888877788999999
+
+
+Q ss_pred             HHHHHHHHhh
+Q emaravirusSS    176 YIFLTLLIFV  185 (461)
+Q Consensus       176 Y~il~l~~~~  185 (461)
+                      |.+.++.+.+
+T Consensus        62 f~iailFliF   71 (119)
+T 4he8_A           62 YVVAMLFILF   71 (119)
+T ss_dssp             HHHHHHHHHH
+T ss_pred             HHHHHHHHHH
+Confidence            9998877652
+
+
+No 13 
+>1hp2_A Tityustoxin K alpha; K+ channel, scorpion toxin, alpha-K toxin,; NMR {Tityus serrulatus} SCOP: g.3.7.2
+Probab=10.92  E-value=42  Score=20.30  Aligned_cols=26  Identities=23%  Similarity=0.470  Sum_probs=19.4
+
+Q ss_pred             cccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    253 THEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       253 t~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      +...-+|.+..+|.+.+++.+|....
+T Consensus         1 ~~~~v~C~~s~~C~~~C~~~~g~~~g   26 (37)
+T 1hp2_A            1 VFINAKCRGSPECLPKCKEAIGKAAG   26 (37)
+T ss_dssp             CEECSCCCCHHHHHHHHHHHTSSCCE
+T ss_pred             CeeccccCCccccChhhhhhhCCcCC
+Confidence            11235799999999999999887641
+
+
+No 14 
+>1qky_A PI7, toxin 7 from pandinus imperator; neurotoxin; NMR {Pandinus imperator} SCOP: g.3.7.2
+Probab=10.74  E-value=60  Score=19.74  Aligned_cols=25  Identities=28%  Similarity=0.642  Sum_probs=19.7
+
+Q ss_pred             ccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    254 HEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       254 ~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      +..-+|.+..+|.+.+++.+|....
+T Consensus         1 ~~~v~C~~s~~C~~~Ck~~~g~~~g   25 (38)
+T 1qky_A            1 DEAIRCTGTKDCYIPCRYITGCFNS   25 (38)
+T ss_dssp             CCSCBCSSHHHHHHHHHHHTCSCCE
+T ss_pred             CccceecCccccChhhhhhhCCcCC
+Confidence            2345899999999999999987641
+
+
+No 15 
+>1big_A Toxin BMTX1; scorpion, neurotoxin, structure, large conductance potassium channel, voltage gated potassium channel; HET: PCA; NMR {Mesobuthus martensii} SCOP: g.3.7.2 PDB: 2bmt_A*
+Probab=10.02  E-value=41  Score=20.44  Aligned_cols=25  Identities=24%  Similarity=0.436  Sum_probs=18.8
+
+Q ss_pred             ccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    254 HEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       254 ~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      ...-+|.++.+|.+.+++.+|....
+T Consensus         2 ~~~v~C~~s~~C~~~C~~~~g~~~g   26 (37)
+T 1big_A            2 FTDVKCTGSKQCWPVCKQMFGKPNG   26 (37)
+T ss_dssp             EEEEECSSHHHHHHHHHHHTSCCCC
+T ss_pred             ccccccCCccccChhhhhhhCCcCC
+Confidence            1124799999999999999887641
+
+
+No 16 
+>1c55_A Butantoxin; structure; NMR {Tityus serrulatus} SCOP: g.3.7.2 PDB: 1c56_A
+Probab=9.83  E-value=53  Score=20.42  Aligned_cols=27  Identities=22%  Similarity=0.338  Sum_probs=20.1
+
+Q ss_pred             ccccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    252 LTHEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       252 it~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      -|...-+|-+..+|.+.+++++|....
+T Consensus         3 ~~~~~vkC~~s~~C~~~Ck~~~G~~~g   29 (40)
+T 1c55_A            3 STCLDLACGASRECYDPCFKAFGRAHG   29 (40)
+T ss_dssp             SSEEEEECSCHHHHHHHHHHHTSSCCE
+T ss_pred             ccccccccCCccccChhhhhhhCCcCC
+Confidence            122345799999999999999997641
+
+
+No 17 
+>2axk_A Discrepin; scorpion toxin, A-current, K+-channel,; HET: PCA; NMR {Synthetic}
+Probab=8.00  E-value=71  Score=19.27  Aligned_cols=25  Identities=28%  Similarity=0.513  Sum_probs=18.8
+
+Q ss_pred             ccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    254 HEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       254 ~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      ...-+|.+..+|.+.+++.+|....
+T Consensus         3 ~~~v~C~~s~~C~~~Ck~~~g~~~g   27 (38)
+T 2axk_A            3 DTNVKCSGSSKCVKICIDRYNTRGA   27 (38)
+T ss_dssp             EEEEECSCHHHHHHHHHHHSSCSCE
+T ss_pred             eeceecCCccccChhhhhhcCCcCC
+Confidence            1124799999999999999886531
+
+
+No 18 
+>1wt7_A BUTX-MTX; maurotoxin, butantoxin, scorpion toxin, K+ channels, molecular contacts, toxin affinity; NMR {Synthetic} SCOP: g.3.7.2 PDB: 2z3s_A
+Probab=6.53  E-value=76  Score=19.71  Aligned_cols=27  Identities=30%  Similarity=0.602  Sum_probs=20.0
+
+Q ss_pred             ccccccccCCCcchHHhhhhccCCchh
+Q emaravirusSS    252 LTHEHFSCDGSEGCQKECQARTGFMPM  278 (461)
+Q Consensus       252 it~~~~SCDg~~~C~k~~~~~~~~~~~  278 (461)
+                      -|-..-+|.+..+|.+.+++.+|....
+T Consensus         3 ~~~~~v~C~~s~~C~~~Ck~~~G~~~g   29 (41)
+T 1wt7_A            3 STCLDLACTGSKDCYAPCRKQTGCPNA   29 (41)
+T ss_dssp             SSCSCCTTSCHHHHHHHHHHHHSCCCE
+T ss_pred             cceeceecCCccccChhhhhhhCCcCC
+Confidence            123345899999999999999887641
+
+
+No 19 
+>2mhe_A Uncharacterized protein; PF13773, PSI-biology, structural genomics, unknown function; NMR {Caulobacter crescentus}
+Probab=5.38  E-value=1e+02  Score=21.47  Aligned_cols=22  Identities=32%  Similarity=0.406  Sum_probs=16.6
+
+Q ss_pred             EEecceeeEEEeeeeeeeeecc
+Q emaravirusSS    228 TVLNSHLEIQTINVSEVLIPTK  249 (461)
+Q Consensus       228 tIenShl~~~~~~~s~Il~p~~  249 (461)
+                      ||+|.|+-|-++..|..+.|-.
+T Consensus        52 TVDnA~~RYfIvh~h~l~~p~~   73 (74)
+T 2mhe_A           52 TVDNAHARYFIIHAHKLLDPSE   73 (74)
+T ss_dssp             TSSCSSCEEEEEECSSCCCTTT
+T ss_pred             hccCcceEEEEEEhhhccCCCC
+Confidence            1468999999999888877632
+
+
+No 20 
+>2vnf_A ING 4, P29ING4, inhibitor of growth protein 4; acetylation, alternative splicing, anti-oncogene, cell cycle, coiled C nucleus, zinc, zinc-finger, ING4; HET: M3L; 1.76A {Homo sapiens} SCOP: g.50.1.2 PDB: 2k1j_A 2m1r_A 2qic_A*
+Probab=4.09  E-value=1.5e+02  Score=15.53  Aligned_cols=31  Identities=16%  Similarity=0.263  Sum_probs=13.4
+
+Q ss_pred             hcccccccccceeeeeecCCCCcceeccccc
+Q emaravirusSS    142 KLKECETCKTKYSVSHVDCPTPSFKLRTDYN  172 (461)
+Q Consensus       142 ~kK~C~~C~~kY~f~HiDCp~psf~kRtDyN  172 (461)
+                      ..-.|..|+-++.-+|..|--..-....++-
+T Consensus        22 ~~i~C~~c~~~~~~~h~~C~~~~~~~~~~w~   52 (60)
+T 2vnf_A           22 EMIGCDNPDCSIEWFHFACVGLTTKPRGKWF   52 (60)
+T ss_dssp             EEEECSCTTCSSCEEETGGGTCSSCCSSCCC
+T ss_pred             CEEEcCCcCCCCceEccccccCCcCCCCCEE
+Confidence            1234666665555667666542211111111
+
+
+Done!

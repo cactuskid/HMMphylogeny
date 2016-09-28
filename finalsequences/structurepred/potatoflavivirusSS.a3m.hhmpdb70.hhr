@@ -1,0 +1,243 @@
+Query         potatoflavivirusSS
+Match_columns 78
+No_of_seqs    6 out of 8
+Neff          1.6 
+Searched_HMMs 14
+Date          Thu Aug  4 01:16:13 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/potatoflavivirusSS.a3m.hhm -ohhm ./structurepred/potatoflavivirusSS.a3m.hhm -o ./structurepred/potatoflavivirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3sri_B Rhoptry NECK protein 2;  41.0     5.7 0.00068   19.5   2.2   12   41-52      3-14  (29)
+  2 3zwz_B RON2, rhoptry NECK prot  34.2       5 0.00059   20.8   1.3   11   41-51      9-19  (39)
+  3 1m5i_A APC protein; coiled-coi   5.0      84   0.012   18.3   1.8   13   60-72     20-32  (125)
+  4 4aog_A NC2; structural protein   1.6 1.5E+02   0.024   14.9   0.4   30   21-52     36-65  (80)
+  5 3bdw_A Natural killer cells an   1.0      78   0.019   12.8  -1.1   53   15-77     10-77  (123)
+  6 4qrl_A Hypothetical protein; l   0.4 9.8E+02    0.16   11.2   1.2   21   42-62     21-41  (116)
+  7 4hkj_D CPXV203 protein; viral    0.3 1.2E+03    0.16   13.7   0.1   20   40-59     41-60  (206)
+  8 1j1v_A Chromosomal replication   0.2 1.3E+03    0.25    8.8   7.0   54    3-66     38-91  (94)
+  9 4kli_A DNA polymerase beta; tr   0.1 2.3E+03    0.45    9.7   5.8   51   19-70     80-132 (335)
+ 10 3oqc_A UFSP2, UFM1-specific pr   0.1 4.6E+03    0.71    9.9   5.8   36   20-60     34-74  (481)
+ 11 4m1g_A A33R; IGG domain, antib   0.0 4.6E+03     0.8    6.2  10.8   52   15-78     15-70  (97)
+ 12 4xc5_A Outer capsid protein si   0.0 6.9E+03    0.88    7.9   2.4   15   41-55    167-182 (218)
+ 13 2kum_A C-C motif chemokine 27;   0.0 5.8E+03       1    3.0   5.3   26   47-72     36-75  (88)
+ 14 2z84_A UFSP1, UFM1-specific pr   0.0 5.8E+03       1    0.1  10.2   59    3-69     50-135 (218)
+
+No 1  
+>3sri_B Rhoptry NECK protein 2; AMA1, RON2, malaria, cell invasion; 1.60A {Plasmodium falciparum}
+Probab=41.01  E-value=5.7  Score=19.48  Aligned_cols=12  Identities=42%  Similarity=0.792  Sum_probs=0.0
+
+Q ss_pred             ccCcchhhhcee
+Q potatoflavivir   41 FGAGAVTACNIL   52 (78)
+Q Consensus        41 ~g~G~vtAC~~L   52 (78)
+                      ||+|-|.+||.-
+T Consensus         3 igagpvascftt   14 (29)
+T 3sri_B            3 IGAGPVASCFTT   14 (29)
+T ss_dssp             TCCCCCCSEEEE
+T ss_pred             ccccchhhhhhc
+
+
+No 2  
+>3zwz_B RON2, rhoptry NECK protein 2; immune system, malaria, moving junction; 2.10A {Plasmodium falciparum}
+Probab=34.19  E-value=5  Score=20.80  Aligned_cols=11  Identities=45%  Similarity=0.903  Sum_probs=0.0
+
+Q ss_pred             ccCcchhhhce
+Q potatoflavivir   41 FGAGAVTACNI   51 (78)
+Q Consensus        41 ~g~G~vtAC~~   51 (78)
+                      ||+|-|.+||.
+T Consensus         9 igagpvascft   19 (39)
+T 3zwz_B            9 IGAGPVASCFT   19 (39)
+T ss_dssp             TTCCCCCSEEE
+T ss_pred             cCCCchHHHHh
+
+
+No 3  
+>1m5i_A APC protein; coiled-coil, antitumor protein; 2.00A {Homo sapiens} SCOP: h.4.13.1
+Probab=4.98  E-value=84  Score=18.31  Aligned_cols=13  Identities=23%  Similarity=0.841  Sum_probs=0.0
+
+Q ss_pred             hhHHHHhhhhccC
+Q potatoflavivir   60 LNEVREQERDLQW   72 (78)
+Q Consensus        60 l~~ire~erd~qw   72 (78)
+                      |.+|-++||++-|
+T Consensus        20 L~EiekEeker~W   32 (125)
+T 1m5i_A           20 LADLDKEEKEKDW   32 (125)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+
+
+No 4  
+>4aog_A NC2; structural protein, surface active protein; NMR {Neurospora crassa} PDB: 4bwh_A
+Probab=1.63  E-value=1.5e+02  Score=14.89  Aligned_cols=30  Identities=27%  Similarity=0.554  Sum_probs=14.4
+
+Q ss_pred             hhhcchhHHhhHhhhhhhhhccCcchhhhcee
+Q potatoflavivir   21 CQKVSSTAELDRSFRRTCFMFGAGAVTACNIL   52 (78)
+Q Consensus        21 cqk~sst~~~~r~~~~~~~~~g~G~vtAC~~L   52 (78)
+                      |...+++.+.-..|+..|+-.|-  ..-|-.|
+T Consensus        36 C~~P~~~p~s~~~F~~~Ca~~G~--~a~CC~l   65 (80)
+T 4aog_A           36 CANPPATLANATHFESTCAAIGQ--RARCCVL   65 (80)
+T ss_dssp             EECCCSCCCSHHHHHHHHHTTTC--EEEEECC
+T ss_pred             CcCCCCCCCCHHHHHHHHHHcCC--CCCceec
+Confidence            33322222334589999988754  2222111
+
+
+No 5  
+>3bdw_A Natural killer cells antigen CD94; NK cells, receptor, glycoprotein, lectin, signal-A transmembrane, immune system receptor; 2.50A {Homo sapiens} SCOP: d.169.1.1 PDB: 3cdg_J 1b6e_A 3cii_G
+Probab=1.01  E-value=78  Score=12.78  Aligned_cols=53  Identities=21%  Similarity=0.340  Sum_probs=9.0
+
+Q ss_pred             chhcchhhhcc----hhHHhhHhhhhhhhhccCcchh-----------hhceeeeehhhhhhHHHHhhhhccCcccCC
+Q potatoflavivir   15 TQIRGYCQKVS----STAELDRSFRRTCFMFGAGAVT-----------ACNILYCTFHTKLNEVREQERDLQWXWENX   77 (78)
+Q Consensus        15 TQlRgycqk~s----st~~~~r~~~~~~~~~g~G~vt-----------AC~~LY~~~~~~l~~ire~erd~qw~w~~~   77 (78)
+                      .++.+.|..++    +=.++.    ..|.-.||-+++           ...--+|+--...      ..+..|.|.+.
+T Consensus        10 ~~~~~~c~~~~~~~~~~~~a~----~~C~~~~~~L~~~~~~~~~~~l~~~~~~~wig~~~~------~~~~~~~w~~~   77 (123)
+T 3bdw_A           10 VGYRCNCYFISSEQKTWNESR----HLCASQKSSLLQLQNTDELDFMSSSQQFYWIGLSYS------EEHTAWLWENG   77 (123)
+T ss_dssp             EEETTEEEEECSSCBCHHHHH----HHHHHTTCEECCCSCGGGGGGGTTCCCCEECSEEEE------TTTTEEEETTS
+T ss_pred             hhhCCEEEEECCCCCCHHHHH----HHHHhcCCceEEECCHHHHHHHHhCCCCEEEEeccc------CCCCCEEeCCC
+Confidence            11222222221    111221    111111211100           0000111110000      00122333321
+
+
+No 6  
+>4qrl_A Hypothetical protein; lipocalin-like protein, structural genomics, joint center FO structural genomics, JCSG; 1.79A {Bacteroides uniformis atcc 8492}
+Probab=0.42  E-value=9.8e+02  Score=11.24  Aligned_cols=21  Identities=10%  Similarity=0.246  Sum_probs=10.6
+
+Q ss_pred             cCcchhhhceeeeehhhhhhH
+Q potatoflavivir   42 GAGAVTACNILYCTFHTKLNE   62 (78)
+Q Consensus        42 g~G~vtAC~~LY~~~~~~l~~   62 (78)
+                      .-|-+..|.-+||-+.-.|++
+T Consensus        21 ~~G~~~~~~~vfwsfQ~~ll~   41 (116)
+T 4qrl_A           21 ADGTSEKVDSVFYNFQKGSFS   41 (116)
+T ss_dssp             TTSCEEEEEEEEEEEETTEEE
+T ss_pred             CCCCEeccCCEEEEEEeeeEE
+Confidence            123334777888876543211
+
+
+No 7  
+>4hkj_D CPXV203 protein; viral immune evasion proteins, antigen presentation, structu genomics, niaid, national institute of allergy and infectio diseases; 3.00A {Cowpox virus}
+Probab=0.27  E-value=1.2e+03  Score=13.70  Aligned_cols=20  Identities=25%  Similarity=0.307  Sum_probs=10.4
+
+Q ss_pred             hccCcchhhhceeeeehhhh
+Q potatoflavivir   40 MFGAGAVTACNILYCTFHTK   59 (78)
+Q Consensus        40 ~~g~G~vtAC~~LY~~~~~~   59 (78)
+                      -.+||+++--|-+=.++|.+
+T Consensus        41 ~gpGGlIteGNGfkIf~HDe   60 (206)
+T 4hkj_D           41 DVGGGLITEGNGYRVVVHDQ   60 (206)
+T ss_dssp             SSSSEEEEEETTEEEEEEES
+T ss_pred             cCCCceEeeCCceEEEEecc
+Confidence            13566666555555555532
+
+
+No 8  
+>1j1v_A Chromosomal replication initiator protein DNAA, 5'-D(*CP*CP*TP*GP*TP*GP*GP*AP*TP*AP*AP*CP*A)-3'; protein-DNA complex; 2.10A {Escherichia coli} SCOP: a.4.12.2
+Probab=0.19  E-value=1.3e+03  Score=8.81  Aligned_cols=54  Identities=7%  Similarity=0.054  Sum_probs=14.9
+
+Q ss_pred             hhhhhhhhccccchhcchhhhcchhHHhhHhhhhhhhhccCcchhhhceeeeehhhhhhHHHHh
+Q potatoflavivir    3 FLFGRALLGASTTQIRGYCQKVSSTAELDRSFRRTCFMFGAGAVTACNILYCTFHTKLNEVREQ   66 (78)
+Q Consensus         3 ~m~GRALLGAstTQlRgycqk~sst~~~~r~~~~~~~~~g~G~vtAC~~LY~~~~~~l~~ire~   66 (78)
+                      ....|=+.|.|..+|=-+-... +.++..+..++...++-..--         +...+.+|+..
+T Consensus        38 ~yl~~~~~~~s~~~Ig~~fg~~-~~stV~~~~~r~~~~~~~~~~---------~~~~~~~i~~~   91 (94)
+T 1j1v_A           38 MALAKELTNHSLPEIGDAFGGR-DHTTVLHACRKIEQLREESHD---------IKEDFSNLIRT   91 (94)
+T ss_dssp             HHHHHHHSCCCHHHHHHHTTSC-CHHHHHHHHHHHHHHHHHCHH---------HHHHHHHHHHH
+T ss_pred             HHHHHHHHCCCHHHHHHHHCCC-CHHHHHHHHHHHHHHHHhCHH---------HHHHHHHHHHH
+Confidence            1112334555544443332212 222223333333322210000         01111222221
+
+
+No 9  
+>4kli_A DNA polymerase beta; transferase, lyase-DNA complex; HET: DNA; 1.60A {Homo sapiens} PDB: 1bpx_A* 1bpz_A* 1mq2_A* 1mq3_A* 1bpy_A* 1tva_A* 1zjm_A* 1zjn_A* 1zqa_A* 1zqb_A* 1zqc_A* 1zqd_A* 1zqe_A* 1zqf_A* 1zqg_A* 1zqh_A* 1zqi_A* 1zqj_A* 1zqk_A* 1zql_A* 1zqm_A* 1zqn_A* 1zqo_A* 1zqp_A* 1zqq_A* 1zqr_A* 1zqs_A* 1zqt_A* 1tv9_A* 2fmq_A* ...
+Probab=0.11  E-value=2.3e+03  Score=9.67  Aligned_cols=51  Identities=20%  Similarity=0.225  Sum_probs=22.6
+
+Q ss_pred             chhhhcchhH--HhhHhhhhhhhhccCcchhhhceeeeehhhhhhHHHHhhhhc
+Q potatoflavivir   19 GYCQKVSSTA--ELDRSFRRTCFMFGAGAVTACNILYCTFHTKLNEVREQERDL   70 (78)
+Q Consensus        19 gycqk~sst~--~~~r~~~~~~~~~g~G~vtAC~~LY~~~~~~l~~ire~erd~   70 (78)
+                      |.|.....-.  +...+........|-|..+|=.+.= .-...|.+|++...-+
+T Consensus        80 G~~~~l~~l~~~~~~~~~~~l~~i~GiG~~~a~~l~~-~G~~sl~~l~~~~~~l  132 (335)
+T 4kli_A           80 GKLRKLEKIRQDDTSSSINFLTRVSGIGPSAARKFVD-EGIKTLEDLRKNEDKL  132 (335)
+T ss_dssp             SSCHHHHHHHHCHHHHHHHHHTTSTTCCHHHHHHHHH-TTCCSHHHHHHTGGGS
+T ss_pred             CCchhhhhhhcCchHHHHHHHHhcCCcCHHHHHHHHH-cCCCcHHHHHhhhccC
+Confidence            1111111111  1234566667778888876522110 1115677887643211
+
+
+No 10 
+>3oqc_A UFSP2, UFM1-specific protease 2; DPH motif Cys protease, hydrolase; 2.60A {Mus musculus}
+Probab=0.06  E-value=4.6e+03  Score=9.91  Aligned_cols=36  Identities=8%  Similarity=0.073  Sum_probs=18.0
+
+Q ss_pred             hhhhcc-----hhHHhhHhhhhhhhhccCcchhhhceeeeehhhhh
+Q potatoflavivir   20 YCQKVS-----STAELDRSFRRTCFMFGAGAVTACNILYCTFHTKL   60 (78)
+Q Consensus        20 ycqk~s-----st~~~~r~~~~~~~~~g~G~vtAC~~LY~~~~~~l   60 (78)
+                      +|+..+     -.+...+++++.++=+..|.+     .|-+-++..
+T Consensus        34 ~~e~~~~~~~~~~~~i~~~~~~Lrk~l~sg~~-----~f~v~~s~v   74 (481)
+T 3oqc_A           34 AFQLAPPKEMFIKNALRQVLSDLTTKLSSDAL-----VLRVCNSSV   74 (481)
+T ss_dssp             EEECCSSHHHHHHHHHHHHHHHHHHHHHSTTE-----EEEESCC--
+T ss_pred             eeecCcccchhHHHHHHHHHHHHHHhhcCCce-----EEEecCCce
+Confidence            222222     234677889999887766643     222222211
+
+
+No 11 
+>4m1g_A A33R; IGG domain, antibody-antigen complex, FV, CH1, IGG2A, antige fragment (FAB), papain digest of the MAB; 1.60A {Vaccinia virus} PDB: 4lu5_A 4lqf_A 3k7b_A
+Probab=0.04  E-value=4.6e+03  Score=6.16  Aligned_cols=52  Identities=8%  Similarity=0.116  Sum_probs=25.8
+
+Q ss_pred             chhcchhhhc----chhHHhhHhhhhhhhhccCcchhhhceeeeehhhhhhHHHHhhhhccCcccCCC
+Q potatoflavivir   15 TQIRGYCQKV----SSTAELDRSFRRTCFMFGAGAVTACNILYCTFHTKLNEVREQERDLQWXWENXF   78 (78)
+Q Consensus        15 TQlRgycqk~----sst~~~~r~~~~~~~~~g~G~vtAC~~LY~~~~~~l~~ire~erd~qw~w~~~~   78 (78)
+                      ....++|-..    .+-.++    +..|.-.||=+++--+.      +. .-|..--+ ..|.|++-.
+T Consensus        15 ~~~~~~CY~~~~~~~sW~eA----~~~C~~~Ga~LasI~s~------e~-~fI~~~l~-~~w~~~~~~   70 (97)
+T 4m1g_A           15 LYYQGSCYILHSDYQMFSDA----AANCTAESSTLPNKSDV------MI-TWLIDYVE-DTWGSDGNP   70 (97)
+T ss_dssp             EEETTEEEEEEEEEECHHHH----HHHHHHTTCBCCCTTTC------CS-HHHHHHHT-TSBCTTSSB
+T ss_pred             ccCCCEEEEEECcccCHHHH----HHHHHhCCcEEeEecCH------HH-HHHHHHHh-hccccCCCc
+Confidence            1112233222    344555    34577788888876664      11 23333333 579997631
+
+
+No 12 
+>4xc5_A Outer capsid protein sigma-1; triple beta-spiral, beta-barrel, beta-spiral repeat, greek K viral attachment protein; 2.20A {Mammalian orthoreovirus 1 lang} PDB: 4gu4_A* 4gu3_A* 4odb_A
+Probab=0.03  E-value=6.9e+03  Score=7.93  Aligned_cols=15  Identities=20%  Similarity=0.397  Sum_probs=3.6
+
+Q ss_pred             ccCcc-hhhhceeeee
+Q potatoflavivir   41 FGAGA-VTACNILYCT   55 (78)
+Q Consensus        41 ~g~G~-vtAC~~LY~~   55 (78)
+                      +-+|. +-||.||-.-
+T Consensus       167 ln~g~~vdafrilgvs  182 (218)
+T 4xc5_A          167 LNNGQRIDAFRIMGVS  182 (218)
+T ss_dssp             EETTEEEEEEEEEEEE
+T ss_pred             ecCCCCcchHHhcchh
+Confidence            11111 2333333211
+
+
+No 13 
+>2kum_A C-C motif chemokine 27; CCL27, ctack, cytokine, disulfide bond, polymorph signaling protein; NMR {Homo sapiens}
+Probab=0.01  E-value=5.8e+03  Score=3.02  Aligned_cols=26  Identities=12%  Similarity=0.067  Sum_probs=6.0
+
+Q ss_pred             hhhc---eeeeehh-------hh---hhHHHHhh-hhccC
+Q potatoflavivir   47 TACN---ILYCTFH-------TK---LNEVREQE-RDLQW   72 (78)
+Q Consensus        47 tAC~---~LY~~~~-------~~---l~~ire~e-rd~qw   72 (78)
+                      +.|.   +.+.+.+       ..   -..|++.+ +..+=
+T Consensus        36 ~~C~~~aVIf~tk~r~iC~dP~~~WVk~~ik~l~~~~~~~   75 (88)
+T 2kum_A           36 GDCHLQAFVLHLAQRSICIHPQNPSLSQWFEHQERKLHGT   75 (88)
+T ss_dssp             TTSSSCEEEEEETTEEEEECSSCHHHHHHHHHHHHCGGGC
+T ss_pred             CCCCCCeEEEEECCCCEeCCCCHHHHHHHHHHHHHhccCC
+Confidence            1231   2233322       11   02222222 11111
+
+
+No 14 
+>2z84_A UFSP1, UFM1-specific protease 1; alpha/beta, papain like fold, hydrolase, thiol protease, UBL conjugation pathway; 1.70A {Mus musculus}
+Probab=0.00  E-value=5.8e+03  Score=0.06  Aligned_cols=59  Identities=7%  Similarity=-0.039  Sum_probs=17.6
+
+Q ss_pred             hhhhhhhhccccchhcchhhhcchhHHhhHhhhh-----------------------hhhhccCcchhhhceeeeehh--
+Q potatoflavivir    3 FLFGRALLGASTTQIRGYCQKVSSTAELDRSFRR-----------------------TCFMFGAGAVTACNILYCTFH--   57 (78)
+Q Consensus         3 ~m~GRALLGAstTQlRgycqk~sst~~~~r~~~~-----------------------~~~~~g~G~vtAC~~LY~~~~--   57 (78)
+                      ..-+..||..--.  +  ..++.+-.+..+.+.+                       .+.+++-    .|-++.+-..  
+T Consensus        50 yRs~QMlls~~l~--~--~~~~P~i~~iq~~l~~~~d~~~~~~g~~~WiGp~ev~~~l~~l~~~----~~~i~~~~~~~~  121 (218)
+T 2z84_A           50 YRTLQTLCSWPGG--Q--SSGVPGLPALQGALEAMGDKPPGFRGSRNWIGCVEASLCLEHFGGP----QGRLCHLPRGVG  121 (218)
+T ss_dssp             HHHHHHHHTTTBT--C--CTTCCCHHHHHHHHHHTTSSCTTCTTCCCCCCHHHHHHHHHHTTCS----EEEEEEECSCST
+T ss_pred             chhHHHHHHHHHh--C--CCCCCCHHHHHHHHHHhccCccccCCCCcEECHHHHHHHHHHHhCC----CcEEEEeCCCcc
+Confidence            1112233321110  1  2223333333333322                       1122221    3556655432  
+
+
+Q ss_pred             --hhhhHHHHhhhh
+Q potatoflavivir   58 --TKLNEVREQERD   69 (78)
+Q Consensus        58 --~~l~~ire~erd   69 (78)
+                        .....|.+--..
+T Consensus       122 ~~~~~~~l~~~F~~  135 (218)
+T 2z84_A          122 LRGEEERLYSHFTT  135 (218)
+T ss_dssp             TTTCHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHccC
+Confidence              223344432111
+
+
+Done!

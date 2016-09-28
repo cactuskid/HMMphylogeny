@@ -1,0 +1,580 @@
+Query         andaluciagodoyiSS
+Match_columns 613
+No_of_seqs    201 out of 245
+Neff          7.1 
+Searched_HMMs 123
+Date          Thu Aug  4 12:33:00 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/andaluciagodoyiSS.a3m.hhm -ohhm ./structurepred/andaluciagodoyiSS.a3m.hhm -o ./structurepred/andaluciagodoyiSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4d0j_A Beta-glucosidase; hydro  54.7      49  0.0069   33.2  16.0   50  482-531   759-813 (857)
+  2 4iib_A Beta-glucosidase 1; TIM  41.3 1.1E+02   0.016   30.1  18.1   50  482-531   745-799 (841)
+  3 2qsv_A Uncharacterized protein  11.1 1.9E+02   0.028   21.9  35.6  103  420-530    68-183 (220)
+  4 1ixl_A Hypothetical protein PH   6.8 2.1E+02   0.032   19.2  26.4   63  444-509    67-129 (131)
+  5 3qga_A UREA2, fusion of urease   2.9 7.4E+02   0.095   19.6  16.6  164  334-542    10-202 (225)
+  6 4c9v_A RNF43; signaling protei   2.9 6.9E+02   0.089   19.1  23.5  141  229-453    11-161 (180)
+  7 2gll_A FABZ, (3R)-hydroxymyris   2.3 5.9E+02   0.088   17.6  30.4  122  286-501    35-165 (171)
+  8 4i83_A 3-hydroxyacyl-[acyl-car   2.1 5.8E+02   0.087   17.1  27.1  120  287-504    22-151 (152)
+  9 1wlu_A PAAI protein, phenylace   1.8 5.8E+02   0.088   16.3  29.9   76  442-521    58-134 (136)
+ 10 1u1z_A (3R)-hydroxymyristoyl-[   1.6 7.6E+02    0.11   16.8  29.0  121  286-502    33-162 (168)
+ 11 4h4g_A (3R)-hydroxymyristoyl-[   1.5 7.4E+02    0.11   16.4  27.9  128  273-508    22-158 (160)
+ 12 4nss_A Mycobacterial protein;    1.3 1.2E+03    0.15   16.9   6.3   68  459-570    68-139 (148)
+ 13 2r7e_A Coagulation factor VIII   1.2 1.5E+03    0.23   19.0   8.1   99  474-589   628-726 (742)
+ 14 4a0z_A Transcription factor FA   1.2 8.9E+02    0.14   16.1  30.5  126  332-506    44-189 (190)
+ 15 3d6x_A (3R)-hydroxymyristoyl-[   1.2 8.2E+02    0.12   15.5  27.9   59  441-502    84-142 (146)
+ 16 3t9w_A Small laccase, multi-co   0.9 1.4E+03    0.21   16.6  25.0  104  439-554    25-155 (299)
+ 17 2q78_A Uncharacterized protein   0.8 1.3E+03    0.18   15.4  31.7   62  439-504    69-130 (153)
+ 18 4ncp_A Uncharacterized protein   0.7 1.4E+03     0.2   14.9  27.8   90  442-552    58-153 (179)
+ 19 2f41_A Transcription factor FA   0.7 1.1E+03    0.17   13.8  26.8   93  313-507    22-120 (121)
+ 20 3rx6_A Polarity suppression pr   0.6 2.2E+03    0.28   15.6   9.5   34  325-360    75-108 (190)
+
+No 1  
+>4d0j_A Beta-glucosidase; hydrolase, glycoside hydrolase; HET: NAG BMA MAN BGC GLC; 2.20A {Rasamsonia emersonii}
+Probab=54.67  E-value=49  Score=33.20  Aligned_cols=50  Identities=20%  Similarity=0.209  Sum_probs=0.0
+
+Q ss_pred             eEEEEecCcceEEee--eEEEeccCCCCchhhh---ccceecccCCcccceeEEE
+Q andaluciagodoy  482 LLVVICSNTGYIVSD--YEVTVDDCSSGILPVL---AKQISIAPQGTAGVDFAIQ  531 (613)
+Q Consensus       482 ~l~V~v~N~G~~~a~--y~v~v~~Cs~~i~~i~---~~~~~i~p~~~~~~~f~i~  531 (613)
+                      ++.|.|+|+|++.+.  ..|-+...+....+.+   .+++.|+|+++..++|.|.
+T Consensus       759 ~vsv~VtNtG~~~G~evvQlY~~~~~~~~p~k~L~gF~kv~l~pGes~~v~~~l~  813 (857)
+T 4d0j_A          759 RVTTIITNTGKVTGDEVPQLYVSLGGPDDAPKVLRGFDRITLAPGQQYLWTTTLT  813 (857)
+T ss_dssp             EEEEEEEECSSSCEEECCEEEEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEE
+T ss_pred             EEEEEEEeCCCCCCceEEEEEeecCCCCcchhhhhceeccccCCCCEEEEEEEEc
+
+
+No 2  
+>4iib_A Beta-glucosidase 1; TIM barrel, hydrolase, high-mannose N-glycosylations, extrac; HET: NAG BMA MAN; 1.80A {Aspergillus aculeatus} PDB: 4iic_A* 4iid_A* 4iie_A* 4iif_A* 4iig_A* 4iih_A*
+Probab=41.26  E-value=1.1e+02  Score=30.08  Aligned_cols=50  Identities=14%  Similarity=0.126  Sum_probs=0.0
+
+Q ss_pred             eEEEEecCcc----eEEeeeEEEeccCCCCch-hhhccceecccCCcccceeEEE
+Q andaluciagodoy  482 LLVVICSNTG----YIVSDYEVTVDDCSSGIL-PVLAKQISIAPQGTAGVDFAIQ  531 (613)
+Q Consensus       482 ~l~V~v~N~G----~~~a~y~v~v~~Cs~~i~-~i~~~~~~i~p~~~~~~~f~i~  531 (613)
+                      ++.|.|+|+|    +-....+++......... -.-.+++.|+|+++..++|.|.
+T Consensus       745 ~vsv~V~NtG~~~g~evvqlY~~~~~~~~p~~~L~gf~kv~l~pge~~~v~~~l~  799 (841)
+T 4iib_A          745 RVSVTVKNTGRVAGDAVPQLYVSLGGPNEPKVVLRKFDRLTLKPSEETVWTTTLT  799 (841)
+T ss_dssp             EEEEEEEECSSSCEEECCEEEEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEE
+T ss_pred             EEEEEEEecCCCCCceeeEEeecCCCCCCChhheeeeeeeecCCCCeEEEEEEEe
+
+
+No 3  
+>2qsv_A Uncharacterized protein; MCSG, structural genomics, porphyromonas gingivalis W83, PSI protein structure initiative; 2.10A {Porphyromonas gingivalis}
+Probab=11.15  E-value=1.9e+02  Score=21.85  Aligned_cols=103  Identities=13%  Similarity=0.130  Sum_probs=0.0
+
+Q ss_pred             cCCCcceeceeEEEeeecccccc---eeEEEEEeecc----------ceeeeeecCCceeEEEEeccccccccCceEEEE
+Q andaluciagodoy  420 SSPPRWHLNSVTVSLFRKQEYTD---TTLIALTIDAA----------SIKYVMNRSNGKIISATIKDFSAFSKNGLLVVI  486 (613)
+Q Consensus       420 ~~~~~~~~~~~~~~l~~~~~~~~---~s~i~ie~~Ad----------~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~  486 (613)
+                      ..+..-....+...+.+......   ...++|.+.|.          ...-....+    ..+.......  ..-...+.
+T Consensus        68 ~p~~~~~~g~~~~~~~~~~~~~~~~~~~~~~l~v~~~v~~~f~~~~~~~~p~~~~~----~~l~fG~~~~--~~~~~~~~  141 (220)
+T 2qsv_A           68 AVPRNMPPGMKDEPLVLEVTSPETGKKAVDSVMVSLPLVDNFPALTAAQTGVMELS----TYLDMGQLDG--ETTKAAIE  141 (220)
+T ss_dssp             CCCTTCCSEEEEEEEEEEEECTTTCCEEEEEEEEEEEECCCGGGCCGGGCCCEECC----CEEEEEECTT--SCEEEEEE
+T ss_pred             cccccccCCeeeeEEEEEEeCCCCCcccceEEEEEEEeccCCCCCccccCCEEEEe----eeEecccCcC--ceeEEEEE
+
+
+Q ss_pred             ecCcceEEeeeEEEeccCCCCchhhhccceecccCCcccceeEE
+Q andaluciagodoy  487 CSNTGYIVSDYEVTVDDCSSGILPVLAKQISIAPQGTAGVDFAI  530 (613)
+Q Consensus       487 v~N~G~~~a~y~v~v~~Cs~~i~~i~~~~~~i~p~~~~~~~f~i  530 (613)
+                      |+|.|.....|. .+ ....+...+......|+|+++..+.+.+
+T Consensus       142 i~N~g~~~l~i~-~i-~~~~~~~~i~~~~~~l~pg~~~~i~v~~  183 (220)
+T 2qsv_A          142 IRNVGAGPLRLH-SV-TTRNPALTAVPDRTEIKPGGSTLLRIAV  183 (220)
+T ss_dssp             EEECSSSCEEEE-EE-EECSTTEEEEESCSEECTTCEEEEEEEE
+T ss_pred             EEECCCCcEEEE-EE-ecCCCCEEEECCCceECCCCEEEEEEEE
+
+
+No 4  
+>1ixl_A Hypothetical protein PH1136; alpha+beta, hot-DOG-fold, structural genomics, unknown funct; 1.94A {Pyrococcus horikoshii} SCOP: d.38.1.5
+Probab=6.77  E-value=2.1e+02  Score=19.15  Aligned_cols=63  Identities=13%  Similarity=0.108  Sum_probs=30.1
+
+Q ss_pred             eEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEeccCCCCch
+Q andaluciagodoy  444 TLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVDDCSSGIL  509 (613)
+Q Consensus       444 s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~i~  509 (613)
+                      ..++.++   ++.|+.+..+|..+.+...--..-.+...+.+.++|.|.+-+...+.+.-......
+T Consensus        67 ~~~~~~~---~~~f~~p~~~g~~l~~~~~v~~~~~~~~~~~v~v~~~g~~v~~~~~~~~~~~~~~~  129 (131)
+T 1ixl_A           67 TVVLGKA---EVRFTKPVKVGDKLVAKAKIIEDLGKKKIVEVKVYREEEVVLEGKFYCYVLEKHVL  129 (131)
+T ss_dssp             TEEEEEE---EEEECSCCBTTCEEEEEEEEEEEETTEEEEEEEEEETTEEEEEEEEEEEECSSCTT
+T ss_pred             ceEEEEE---EEEEecCCCCCCEEEEEEEEEEcCCcEEEEEEEEEECCEEEEEEEEEEEEecceec
+Confidence            1111111   23444445556655553221111123356777887889988777666522332221
+
+
+No 5  
+>3qga_A UREA2, fusion of urease beta and gamma subunits; iron metalloenzyme, alpha-beta barrel, hydrolase; HET: FME KCX; 3.00A {Helicobacter mustelae} PDB: 3qgk_A*
+Probab=2.94  E-value=7.4e+02  Score=19.56  Aligned_cols=164  Identities=13%  Similarity=0.094  Sum_probs=49.9
+
+Q ss_pred             hhhhhhhhhh--hhhhccchhhhccccccceeEEeeccCcccccccccCCcchhhhccchhHhhhhhcccccc-----cc
+Q andaluciagodoy  334 QLEDYHKADL--EKSVKGLVGSYFLSNFGEFSIQAYASSPAAADADKQFPQESAEEHSLDKYAALRHATLSDD-----IS  406 (613)
+Q Consensus       334 Ql~~f~~~d~--~~~~~g~~~~Y~l~~~g~f~~~~~~~~~~~~~~~~~~p~~~~~~~~~l~~~~~~~~~~~~~-----~~  406 (613)
+                      -|.=|.....  +|.++|.+=||-                +              .-..+...+++-+--...     .+
+T Consensus        10 kL~l~~Aa~lA~rR~arGlkLN~p----------------E--------------AvAlIa~~i~E~aRdG~~svaelm~   59 (225)
+T 3qga_A           10 KFLLYYAGEVARKRKEEGLKLNQP----------------E--------------AIAYISAHIMDEARRGKKTVAQLME   59 (225)
+T ss_dssp             HHHHHHHHHHHHHHHHTTCCBCHH----------------H--------------HHHHHHHHHHHHHHHTCSCHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHcCCccCcH----------------H--------------HHHHHHHHHHHHHHcCCCCHHHHHH
+Confidence            1122222222  222333322210                0              000011111000000000     00
+
+
+Q ss_pred             CCCCCCCCCcccccCCCc-ceeceeEEEeeecccccceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEE
+Q andaluciagodoy  407 NSLPPRHPGMRVLSSPPR-WHLNSVTVSLFRKQEYTDTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVV  485 (613)
+Q Consensus       407 ~~~~~~~~~~~~~~~~~~-~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V  485 (613)
+                      .   ..+..-+-+-.+-- -.+....+.-    +=+..|.| +++..- |.- ...-||+|.-..-.+.+-....-.+.+
+T Consensus        60 ~---g~~lL~~~~Vm~GV~eml~~vqVEa----tFpDGtkL-Vtvh~P-I~~-~~~~pGe~~~~~~~~I~lN~gr~~~~l  129 (225)
+T 3qga_A           60 E---CVHFLKKDEVMPGVGNMVPDLGVEA----NFPDGTKL-VTVNWP-IEP-DDFKAGEIKFASDKDIELNAGKEITEL  129 (225)
+T ss_dssp             H---TTTSBCGGGBCTTHHHHCSEEEEEE----EETTEEEE-EEEESC-BCC-CSCCTTCEECSCSCCEETTTTCCCEEE
+T ss_pred             H---HhhhcCHHHcccchHhhhheEEEEE----EecCCCEE-EEecCc-ccC-CCCCccceecCCCCCeEecCCCceEEE
+Confidence            0   01111111111100 0011222221    22345555 444431 000 003588876221122334455678999
+
+
+Q ss_pred             EecCcceEE----eeeEEEeccCCCCch----hhhccceec--------ccCCcccceeEEEee-----ecccccccc
+Q andaluciagodoy  486 ICSNTGYIV----SDYEVTVDDCSSGIL----PVLAKQISI--------APQGTAGVDFAIQAE-----VDTTKLNTC  542 (613)
+Q Consensus       486 ~v~N~G~~~----a~y~v~v~~Cs~~i~----~i~~~~~~i--------~p~~~~~~~f~i~~~-----~~~~~~~~C  542 (613)
+                      .|.|+|+-.    +.|.  +......+.    ..-..++-|        .|+++..  ..+..-     . .+.+.-+
+T Consensus       130 ~V~NtGDRPIQVGSHyH--F~E~N~aL~FDR~~A~G~RLdIPAGTavRFEPG~~k~--V~LV~igG~r~v-~G~ngl~  202 (225)
+T 3qga_A          130 KVTNKGPKSLHVGSHFH--FFEANRALEFDREKAYGKRLDIPSGNTLRIGAGETKT--VHLIPIGGSKKI-IGMNGLL  202 (225)
+T ss_dssp             EEEECSSSCEEEETTSC--GGGSCTTEESCGGGGTTEEECSCTTCEEEECTTCEEE--EEEEECSTTCEE-CSTTSSC
+T ss_pred             EEEeCCCceeeeccccc--ccccCCcceeehhhccccccCCCCCCeEEeCCCCeeE--EEEEecCCceEE-EecCccc
+Confidence            999999843    2222  123333321    122333444        4444332  222221     1 1121111
+
+
+No 6  
+>4c9v_A RNF43; signaling protein, WNT, ZNRF3, RNF43, LGR4, LGR5, LGR6, receptor, MEM signalling; 2.70A {Silurana}
+Probab=2.86  E-value=6.9e+02  Score=19.06  Aligned_cols=141  Identities=11%  Similarity=0.061  Sum_probs=44.4
+
+Q ss_pred             eeeeEEeccccceeecccceeEEEEeecccccccceeecceEEEecC-CCCCCCceeeeecceeee-ecccceeeccccc
+Q andaluciagodoy  229 RKETLVVSPVGTVRSLTDKSIRVRLVGNFESFKSRLSLSGKYYFVPS-SPVSNDRVMYGFKNSMLI-DKSLVSFSGSECN  306 (613)
+Q Consensus       229 ~~~~~~l~ps~~~~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP~-~~~~~~~v~~~~~~~mil-~~~~vdl~G~eCn  306 (613)
+                      ++..+.+=+..+...-....+...|.|.|++.......++++++++. ..-+.++-..-...|+=| +-..-+.+     
+T Consensus        11 ~~AiVeVvl~~~~~~G~~~~~~~~L~G~fs~aG~~~~AEG~L~lv~p~~~c~~~~d~~~~~gWIgVv~le~~~~~-----   85 (180)
+T 4c9v_A           11 VKALIRVTPLQAEESGGVGQGNLTLEGLFARVAEISPAEGRLLQFHPLSLCNTSEDDQTKPGFISIVKLETPDRD-----   85 (180)
+T ss_dssp             CEEEEEEEEC-----------CEEEEEEECTTBCCCCEEEEEEECCTTTSCCC------CSCEEEEEECCCC--------
+T ss_pred             cceEEEEEEeecCCCCccceeeeEEEEEEecccCccccCceEEeecccccCCccccccccCCcEEEEEccccccC-----
+Confidence            12222222222211001112345677888777777789999999963 222211111234556533 32222222     
+
+
+Q ss_pred             ceeeEEEEEEecCCCccccchhhhhhhhhhhhhhhhhhhhhccchhhhccccccceeEEeeccCcccccccccCCcchhh
+Q andaluciagodoy  307 KIGVSFVAFRYDQGNQCYGTVGSCLQNQLEDYHKADLEKSVKGLVGSYFLSNFGEFSIQAYASSPAAADADKQFPQESAE  386 (613)
+Q Consensus       307 KIGVs~~af~~q~~~~C~~~~gSCL~nQl~~f~~~d~~~~~~g~~~~Y~l~~~g~f~~~~~~~~~~~~~~~~~~p~~~~~  386 (613)
+                                   +.+|.+         +   .+.-+.++           ..|.-...-.. ..+         +    
+T Consensus        86 -------------~~~c~s---------v---~~Kak~Al-----------~~GAsAvifd~-~~n---------~----  115 (180)
+T 4c9v_A           86 -------------TQPCLS---------L---ANKARLAG-----------ERGAHAVLFDI-TND---------R----  115 (180)
+T ss_dssp             ----------------CSC---------H---HHHHHHHH-----------HTTEEEEEEEC-TTC---------T----
+T ss_pred             -------------CCccHh---------H---HHHHHHHH-----------hcCCceEEEEe-ecC---------H----
+Confidence                         233422         1   11111111           14544444422 111         1    
+
+
+Q ss_pred             hccchhHhhhhhccccccccCCCCCCCCCcccccCCCcceeceeEEEeee--------cccccceeEEEEEeecc
+Q andaluciagodoy  387 EHSLDKYAALRHATLSDDISNSLPPRHPGMRVLSSPPRWHLNSVTVSLFR--------KQEYTDTTLIALTIDAA  453 (613)
+Q Consensus       387 ~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~--------~~~~~~~s~i~ie~~Ad  453 (613)
+                           +...    .+  +.+      .          .+..+-..  +-.        ..........+|++.+.
+T Consensus       116 -----~a~~----eL--~~~------~----------~l~~PVvl--i~~~~a~kLm~~~~~~~~A~a~I~~~~~  161 (180)
+T 4c9v_A          116 -----GALQ----QL--QQP------A----------GINQPVVL--IWGPDAEKLMDVVNKNKEALVKIEVQEQ  161 (180)
+T ss_dssp             -----HHHH----TT--CSC------C----------CBSSCEEE--ECTHHHHHHHHHHHTTCCEEEEEEC---
+T ss_pred             -----hHHH----Hh--CcC------c----------CccCCEEE--EecCcHHHHhhhhccCcEEEEEEEeCCC
+Confidence                 1111    00  000      0          00000000  000        00223456666665531
+
+
+No 7  
+>2gll_A FABZ, (3R)-hydroxymyristoyl-acyl carrier protein dehydratase; lyase; 2.20A {Helicobacter pylori} PDB: 2glm_A* 2glp_A* 2glv_A 3dp1_A* 3cf8_A* 3cf9_A* 3d04_A* 3doy_A* 3doz_A* 3dp0_A* 3b7j_A* 3dp2_A* 3dp3_A* 3ed0_A*
+Probab=2.30  E-value=5.9e+02  Score=17.64  Aligned_cols=122  Identities=12%  Similarity=0.054  Sum_probs=53.4
+
+Q ss_pred             eecceeeeecccceeecccccceeeEEEEEEecCCCc---------cccchhhhhhhhhhhhhhhhhhhhhccchhhhcc
+Q andaluciagodoy  286 GFKNSMLIDKSLVSFSGSECNKIGVSFVAFRYDQGNQ---------CYGTVGSCLQNQLEDYHKADLEKSVKGLVGSYFL  356 (613)
+Q Consensus       286 ~~~~~mil~~~~vdl~G~eCnKIGVs~~af~~q~~~~---------C~~~~gSCL~nQl~~f~~~d~~~~~~g~~~~Y~l  356 (613)
+                      -...+++||+.. +.+.      |-+..+...-.++-         -..-+|..+-.-+.+.-..-......        
+T Consensus        35 h~~p~llvD~v~-~~~~------~~~i~a~~~i~~~~~~~~ghfp~~~i~PG~lliE~~aQ~~~~~~~~~~~--------   99 (171)
+T 2gll_A           35 HRYPMLLVDRIT-ELQA------NQKIVAYKNITFNEDVFNGHFPNKPIFPGVLIVEGMAQSGGFLAFTSLW--------   99 (171)
+T ss_dssp             CCTTSCCCCEEE-EEET------TTEEEEEEECCSCSTHHHHSCTTSCCCCHHHHHHHHHHHHHHHHHHHHH--------
+T ss_pred             CcccceeeEEEE-EEcC------CCEEEEEEEeCCCCCeEccCCCCCcCCchHHHHHHHHHHHHHHHhhhcc--------
+Confidence            123345555442 2332      12667777762221         11234555433222221110000000        
+
+
+Q ss_pred             ccccceeEEeeccCcccccccccCCcchhhhccchhHhhhhhccccccccCCCCCCCCCcccccCCCcceeceeEEEeee
+Q andaluciagodoy  357 SNFGEFSIQAYASSPAAADADKQFPQESAEEHSLDKYAALRHATLSDDISNSLPPRHPGMRVLSSPPRWHLNSVTVSLFR  436 (613)
+Q Consensus       357 ~~~g~f~~~~~~~~~~~~~~~~~~p~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~  436 (613)
+                       .+            .                   .-..                                         
+T Consensus       100 -~~------------~-------------------~~~~-----------------------------------------  106 (171)
+T 2gll_A          100 -GF------------D-------------------PEIA-----------------------------------------  106 (171)
+T ss_dssp             -CS------------C-------------------HHHH-----------------------------------------
+T ss_pred             -cc------------c-------------------cccc-----------------------------------------
+Confidence             00            0                   0000                                         
+
+
+Q ss_pred             cccccceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEe
+Q andaluciagodoy  437 KQEYTDTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTV  501 (613)
+Q Consensus       437 ~~~~~~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v  501 (613)
+                         . ..  .-.-+...+++|..+.-||..+.+.+.--+.......+.+.+++.|.+-+.-.+.+
+T Consensus       107 ---~-~~--~~~l~~~~~v~f~~~v~pGd~L~i~~~v~~~~~~~~~~~~~i~~~g~~v~~~~~~~  165 (171)
+T 2gll_A          107 ---K-TK--IVYFMTIDKVKFRIPVTPGDRLEYHLEVLKHKGMIWQVGGTAQVDGKVVAEAELKA  165 (171)
+T ss_dssp             ---T-TE--EEEEEEEEEEEECSCCCTTCEEEEEEEEEEESSSEEEEEEEEEETTEEEEEEEEEE
+T ss_pred             ---c-Cc--eeEEeeeeEEEEeeeEcCCCEEEEEEEEEEeeCCEEEEEEEEEECCEEEEEEEEEE
+Confidence               0 11  12223345688888889999888865532221112355667777788766655544
+
+
+No 8  
+>4i83_A 3-hydroxyacyl-[acyl-carrier-protein] dehydratase; FABZ, hot DOG fold, thioesterase, lyase; 2.60A {Neisseria meningitidis}
+Probab=2.10  E-value=5.8e+02  Score=17.07  Aligned_cols=120  Identities=10%  Similarity=0.035  Sum_probs=48.8
+
+Q ss_pred             ecceeeeecccceeecccccceeeEEEEEEecCCC--ccc-------cchhhhhhhhhhhhhhhhhhhhhccchhhhccc
+Q andaluciagodoy  287 FKNSMLIDKSLVSFSGSECNKIGVSFVAFRYDQGN--QCY-------GTVGSCLQNQLEDYHKADLEKSVKGLVGSYFLS  357 (613)
+Q Consensus       287 ~~~~mil~~~~vdl~G~eCnKIGVs~~af~~q~~~--~C~-------~~~gSCL~nQl~~f~~~d~~~~~~g~~~~Y~l~  357 (613)
+                      ...+++|+ ..+.++..      -+..+...=.++  ++.       .-+|.++---+.+.-..-......+.       
+T Consensus        22 ~~~~~~vd-~v~~~~~~------~~~~~~~~i~~~~~~~~~hf~~~~~~pG~~~~e~~~q~~~~~~~~~~~~~-------   87 (152)
+T 4i83_A           22 RYPFLQLD-RITAFEPM------KTLTAIKNVSINEPQFQGHFPDLPVMPGVLIIEAMAQACGTLAILSEGGR-------   87 (152)
+T ss_dssp             CTTSCCCC-EEEEEETT------TEEEEEEECCSSSGGGGTSCTTSCCCCHHHHHHHHHHHHHHHHHHHTTCC-------
+T ss_pred             CCCceEEE-EEEEEcCC------CEEEEEEecCCCcchhcCCCCCCccccHHHHHHHHHHHHHHHHhhccCCC-------
+Confidence            11223333 22333311      156666665122  221       12355554222222211111110000       
+
+
+Q ss_pred             cccceeEEeeccCcccccccccCCcchhhhccchhHhhhhhccccccccCCCCCCCCCcccccCCCcceeceeEEEeeec
+Q andaluciagodoy  358 NFGEFSIQAYASSPAAADADKQFPQESAEEHSLDKYAALRHATLSDDISNSLPPRHPGMRVLSSPPRWHLNSVTVSLFRK  437 (613)
+Q Consensus       358 ~~g~f~~~~~~~~~~~~~~~~~~p~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~  437 (613)
+                                    .                                                                 
+T Consensus        88 --------------~-----------------------------------------------------------------   88 (152)
+T 4i83_A           88 --------------K-----------------------------------------------------------------   88 (152)
+T ss_dssp             --------------T-----------------------------------------------------------------
+T ss_pred             --------------C-----------------------------------------------------------------
+Confidence                          0                                                                 
+
+
+Q ss_pred             ccccceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEec-cC
+Q andaluciagodoy  438 QEYTDTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVD-DC  504 (613)
+Q Consensus       438 ~~~~~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~-~C  504 (613)
+                       .....-..    ...++.|..+..||..+.+...--+.......+.+.++|.|++-+.-...+. .|
+T Consensus        89 -~~~~~~~~----~~~~~~f~~~v~~g~~l~~~~~v~~~~~~~~~~~~~~~~~g~~va~~~~~~~~~~  151 (152)
+T 4i83_A           89 -ENEFFFFA----GIDEARFKRQVIPGDQLVFEVELLTSRRGIGKFNAVAKVDGQVAVEAIIMCAKRV  151 (152)
+T ss_dssp             -TTCCCEEE----EECSEEECSCCCTTCEEEEEEEEEEEETTEEEEEEEEEETTEEEEEEEEEEEC--
+T ss_pred             -CCceEEEe----eeeEEEEcceeCCCCEEEEEEEEEEccCCEEEEEEEEEECCEEEEEEEEEEEEEc
+Confidence             00001111    1257888888888877777443211111224556666667888777665541 11
+
+
+No 9  
+>1wlu_A PAAI protein, phenylacetic acid degradation protein PAAI; thioesterase, hot DOG fold, S genomics; 1.45A {Thermus thermophilus HB8} SCOP: d.38.1.5 PDB: 1j1y_A 1wlv_A* 1wm6_A 1wn3_A* 2dsl_A
+Probab=1.84  E-value=5.8e+02  Score=16.35  Aligned_cols=76  Identities=20%  Similarity=0.172  Sum_probs=37.8
+
+Q ss_pred             ceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEeccCCCCc-hhhhccceeccc
+Q andaluciagodoy  442 DTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVDDCSSGI-LPVLAKQISIAP  520 (613)
+Q Consensus       442 ~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~i-~~i~~~~~~i~p  520 (613)
+                      ....+..++   ++.|..+..+|..+.+...--+.-.+...+.+.+.|.|++-+.-...+ .|...- .+...-.-.++|
+T Consensus        58 ~~~~~~~~~---~i~y~~p~~~g~~~~~~~~v~~~~~~~~~~~~~i~~~~~~~a~~~~~~-~~~~~~~~~~~~~~~~~~~  133 (136)
+T 1wlu_A           58 RGPAVALSC---RMDYFRPLGAGARVEARAVEVNLSRRTATYRVEVVSEGKLVALFTGTV-FRLGGDGDDVPAGTGNLAP  133 (136)
+T ss_dssp             TSCEEEEEE---EEEECSCCCTTCEEEEEEEEEEECSSEEEEEEEEEETTEEEEEEEEEE-EEC----------------
+T ss_pred             CCCeEEEEE---EEEEEcccCCCCEEEEEEEEEECCCcEEEEEEEEEECCEEEEEEEEEE-EEeCCCCCcCccCCCCCCC
+Confidence            113444444   456777778887777755433333334677788888899988888877 444321 111111111111
+
+
+Q ss_pred             C
+Q andaluciagodoy  521 Q  521 (613)
+Q Consensus       521 ~  521 (613)
+                      .
+T Consensus       134 ~  134 (136)
+T 1wlu_A          134 R  134 (136)
+T ss_dssp             -
+T ss_pred             C
+Confidence            1
+
+
+No 10 
+>1u1z_A (3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase; fatty acid biosynthesis, hot DOG fold, lyase; 2.50A {Pseudomonas aeruginosa} SCOP: d.38.1.6
+Probab=1.61  E-value=7.6e+02  Score=16.84  Aligned_cols=121  Identities=11%  Similarity=-0.050  Sum_probs=48.0
+
+Q ss_pred             eecceeeeecccceeecccccceeeEEEEEEecCCC--ccc-------cchhhhhhhhhhhhhhhhhhhhhccchhhhcc
+Q andaluciagodoy  286 GFKNSMLIDKSLVSFSGSECNKIGVSFVAFRYDQGN--QCY-------GTVGSCLQNQLEDYHKADLEKSVKGLVGSYFL  356 (613)
+Q Consensus       286 ~~~~~mil~~~~vdl~G~eCnKIGVs~~af~~q~~~--~C~-------~~~gSCL~nQl~~f~~~d~~~~~~g~~~~Y~l  356 (613)
+                      -...++++|+- ..++... +.   -...+.=. .+  +..       .-+|.++-.-+.+....-......        
+T Consensus        33 h~~p~~lvd~i-~~~~~~g-~~---~~~~~~i~-~d~~f~~~hf~~~~i~pG~~~~E~~aq~~~~~~~~~~~--------   98 (168)
+T 1u1z_A           33 HRYPFLLVDRV-VELDIEG-KR---IRAYKNVS-INEPFFNGHFPEHPIMPGVLIIEAMAQAAGILGFKMLD--------   98 (168)
+T ss_dssp             CCTTSCCCCEE-EEEETTT-TE---EEEEEECC-TTSTTGGGSCTTSCCCCHHHHHHHHHHHHHHHHHHHHT--------
+T ss_pred             CCCCeeEEEEE-EEEecCC-CE---EEEEEeec-CCCCeEcCcCCCCCCCChhHHHHHHHHHHHHHHhhccc--------
+Confidence            11233344432 2233211 11   11122222 22  211       124455552222221111111000        
+
+
+Q ss_pred             ccccceeEEeeccCcccccccccCCcchhhhccchhHhhhhhccccccccCCCCCCCCCcccccCCCcceeceeEEEeee
+Q andaluciagodoy  357 SNFGEFSIQAYASSPAAADADKQFPQESAEEHSLDKYAALRHATLSDDISNSLPPRHPGMRVLSSPPRWHLNSVTVSLFR  436 (613)
+Q Consensus       357 ~~~g~f~~~~~~~~~~~~~~~~~~p~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~  436 (613)
+                        ..         + .                                                                
+T Consensus        99 --~~---------~-~----------------------------------------------------------------  102 (168)
+T 1u1z_A           99 --VK---------P-A----------------------------------------------------------------  102 (168)
+T ss_dssp             --CC---------C------------------------------------------------------------------
+T ss_pred             --cc---------c-C----------------------------------------------------------------
+Confidence              00         0 0                                                                
+
+
+Q ss_pred             cccccceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEec
+Q andaluciagodoy  437 KQEYTDTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVD  502 (613)
+Q Consensus       437 ~~~~~~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~  502 (613)
+                        ..  .....+.  ..++.|....-||.-+.+.+.--........+.+.+.|.|..-+...+.+.
+T Consensus       103 --~g--~~~~~~~--~~~~~f~~~v~pGd~l~~~~~v~~~~~~~~~~~~~v~~~g~~v~~g~~~~~  162 (168)
+T 1u1z_A          103 --DG--TLYYFVG--SDKLRFRQPVLPGDQLQLHAKFISVKRSIWKFDCHATVDDKPVCSAEIICA  162 (168)
+T ss_dssp             ------CEEEEEE--EEEEEECSCCCTTCEEEEEEEEEEEETTEEEEEEEEEETTEEEEEEEEEEE
+T ss_pred             --CC--cEEEeee--eeEEEECCcCcCCCEEEEEEEEEEccCCEEEEEEEEEECCEEEEEEEEEEE
+Confidence              00  1111222  267788888889988888555322221124566666777888766665541
+
+
+No 11 
+>4h4g_A (3R)-hydroxymyristoyl-[acyl-carrier-protein] DEHY; structural genomics, niaid, national institute of allergy AN infectious diseases; 2.65A {Burkholderia thailandensis}
+Probab=1.51  E-value=7.4e+02  Score=16.43  Aligned_cols=128  Identities=13%  Similarity=0.022  Sum_probs=50.9
+
+Q ss_pred             ecCCCCCCCceeeeecceeeeecccceeecccccceeeEEEEEEecCCC--ccc-------cchhhhhhhhhhhhhhhhh
+Q andaluciagodoy  273 VPSSPVSNDRVMYGFKNSMLIDKSLVSFSGSECNKIGVSFVAFRYDQGN--QCY-------GTVGSCLQNQLEDYHKADL  343 (613)
+Q Consensus       273 iP~~~~~~~~v~~~~~~~mil~~~~vdl~G~eCnKIGVs~~af~~q~~~--~C~-------~~~gSCL~nQl~~f~~~d~  343 (613)
+                      +|..+           .+++|++-.. ++..      -+..+...=..+  ++.       .-+|.++-..+.+.-..-.
+T Consensus        22 lph~~-----------~~~~vd~i~~-~~~~------~~~~~~~~v~~d~~~~~~hfp~~~i~pG~~l~e~~~q~~~~~~   83 (160)
+T 4h4g_A           22 LPHRY-----------PILLVDRVLE-LEPH------KSIKALKNVTVNEPFFTGHFPKRPVMPGVLIIEALAQAAALLT   83 (160)
+T ss_dssp             CCCCT-----------TSCCCCEEEE-EETT------TEEEEEEECCTTSGGGGTSCTTSCCCCHHHHHHHHHHHHHHHH
+T ss_pred             CCCCC-----------ceeEEEEEEE-EcCC------CEEEEEEeCCCCcchhcCCCCcCCcCcHHHHHHHHHHHHHHHH
+Confidence            12222           1233322211 2211      155555554133  332       2246666554444433211
+
+
+Q ss_pred             hhhhccchhhhccccccceeEEeeccCcccccccccCCcchhhhccchhHhhhhhccccccccCCCCCCCCCcccccCCC
+Q andaluciagodoy  344 EKSVKGLVGSYFLSNFGEFSIQAYASSPAAADADKQFPQESAEEHSLDKYAALRHATLSDDISNSLPPRHPGMRVLSSPP  423 (613)
+Q Consensus       344 ~~~~~g~~~~Y~l~~~g~f~~~~~~~~~~~~~~~~~~p~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  423 (613)
+                      ..             .+...       +.                                                   
+T Consensus        84 ~~-------------~~~~~-------~~---------------------------------------------------   92 (160)
+T 4h4g_A           84 FA-------------EAEPK-------DP---------------------------------------------------   92 (160)
+T ss_dssp             HT-------------TC---------------------------------------------------------------
+T ss_pred             hh-------------ccccc-------Cc---------------------------------------------------
+Confidence            10             00000       00                                                   
+
+
+Q ss_pred             cceeceeEEEeeecccccceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEecc
+Q andaluciagodoy  424 RWHLNSVTVSLFRKQEYTDTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVDD  503 (613)
+Q Consensus       424 ~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~~  503 (613)
+                                     .....  ....+  .++.|.....||..+.+...--+.-.....+.+.+.|.|.+-+...+.+.-
+T Consensus        93 ---------------~~~~~--~~~~~--~~~~f~~~v~~gd~l~~~~~v~~~~~~~~~~~~~~~~~g~~va~~~~~~~~  153 (160)
+T 4h4g_A           93 ---------------ENTLY--YFVGI--DNARFKRVVEPGDQLILNVTFERYIRGIWKFKAVAEVDGKVAAEAELMCTV  153 (160)
+T ss_dssp             ------------------CE--EEEEE--EEEEECSCCCTTCEEEEEEEEEEEETTEEEEEEEEEETTEEEEEEEEEEEE
+T ss_pred             ---------------cCceE--EEEee--eEEEEccCCCCCCEEEEEEEEEEecCCEEEEEEEEEECCEEEEEEEEEEEE
+Confidence                           00111  11111  347777778888777774432111112245666777778877666665522
+
+
+Q ss_pred             CCCCc
+Q andaluciagodoy  504 CSSGI  508 (613)
+Q Consensus       504 Cs~~i  508 (613)
+                      -....
+T Consensus       154 ~~~~~  158 (160)
+T 4h4g_A          154 KTADA  158 (160)
+T ss_dssp             CC---
+T ss_pred             ecCCC
+Confidence            22111
+
+
+No 12 
+>4nss_A Mycobacterial protein; mycobacterial surviVal, unknown function; 2.40A {Mycobacterium smegmatis}
+Probab=1.26  E-value=1.2e+03  Score=16.90  Aligned_cols=68  Identities=22%  Similarity=0.295  Sum_probs=27.0
+
+Q ss_pred             eecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEeccCCCCchhhhccceecccCCcccceeEEEeeecccc
+Q andaluciagodoy  459 MNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVDDCSSGILPVLAKQISIAPQGTAGVDFAIQAEVDTTK  538 (613)
+Q Consensus       459 ~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~i~~i~~~~~~i~p~~~~~~~f~i~~~~~~~~  538 (613)
+                      ..+.||.-+++.+|.|-|.                         +|-.+            |.++.-.--++. ++|   
+T Consensus        68 a~~aPG~sVEVRVPPf~AV-------------------------Qci~G------------P~HtRGTPPNVV-Etd---  106 (148)
+T 4nss_A           68 AAVAPGASVEVRVPPFVAV-------------------------QCISG------------PKHTRGTPPNVV-ETD---  106 (148)
+T ss_dssp             HHHSCSSSEEEEETTTEEE-------------------------EESCC-----------------CCCSEEE-ECC---
+T ss_pred             HHhCCCCceEEecCCceee-------------------------Eeccc------------CCCCCCCCCCeE-EeC---
+Confidence            1239999999999987632                         34332            222222223443 220   
+
+
+Q ss_pred             cccchhhhHHHHhhhccccc---cccch-hhhhhhc
+Q andaluciagodoy  539 LNTCRLRLWDLLGQILDERK---INFTT-TAVQEDL  570 (613)
+Q Consensus       539 ~~~C~v~L~ds~~~~ld~~~---i~f~t-~~~~~~~  570 (613)
+                         =..=|.=+.|.+-|..-   +..+= .+.++..
+T Consensus       107 ---p~tWL~LAtG~~~w~~a~g~v~ASG~Ra~dls~  139 (148)
+T 4nss_A          107 ---ARTWLLLATGLLDIADAGASVQMSGSRAAEVAH  139 (148)
+T ss_dssp             ---HHHHHHHHHTSSCTTTCGGGSEEESTTGGGGGG
+T ss_pred             ---HHHHHHHHhCcccHHHhcCcceEEecChHHHHH
+Confidence               12223335665544322   11111 1111111
+
+
+No 13 
+>2r7e_A Coagulation factor VIII; ceruloplasmin fold, cupper protein fold, C2 domain fold, ACU blood coagulation, disease mutation, glycoprotein; HET: NAG BMA MAN; 3.70A {Homo sapiens} PDB: 4bdv_A* 3cdz_A* 3j2q_A*
+Probab=1.22  E-value=1.5e+03  Score=19.02  Aligned_cols=99  Identities=11%  Similarity=0.008  Sum_probs=38.1
+
+Q ss_pred             ccccccCceEEEEecCcceEEeeeEEEeccCCCCchhhhccceecccCCcccceeEEEeeecccccccchhhhHHHHhhh
+Q andaluciagodoy  474 FSAFSKNGLLVVICSNTGYIVSDYEVTVDDCSSGILPVLAKQISIAPQGTAGVDFAIQAEVDTTKLNTCRLRLWDLLGQI  553 (613)
+Q Consensus       474 fea~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~i~~i~~~~~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~~  553 (613)
+                      +... .+-.+.+.+.|.|.-.....+.+..=.-.+.+....++.|.|++...+.+  .......-...|.+.-.-..|-.
+T Consensus       628 l~~~-~G~~vr~rliN~g~~~~~h~~hlhG~~~~v~~~~~d~v~l~pg~~~~v~v--~~~~pG~~~~~ch~~~h~~~GM~  704 (742)
+T 2r7e_A          628 LSVC-LHEVAYWYILSIGAQTDFLSVFFSGYTFKHKMVYEDTLTLFPFSGETVFM--SMENPGLWILGCHNSDFRNRGMT  704 (742)
+T ss_dssp             CCCC-SSCCCEEEEEECSSCCCCCCCEESSSCCCCBSSSBCSSCCCCCSSEECCE--ECCCCCCSCCEECCCSTTHHHHS
+T ss_pred             ceec-CCCEEEEEEEeCCCCccceeeEEcCcEEEecCceeeeEEECCCcEEEEEE--ECCCCEEEEEEECCChhhhcCCE
+Confidence            2211 22234555555554323334445444545555556677888888765544  33321222355654321111111
+
+
+Q ss_pred             ccccccccchhhhhhhccccCCCCccccCcccCCCC
+Q andaluciagodoy  554 LDERKINFTTTAVQEDLGAQGGASGTADRSATGSDG  589 (613)
+Q Consensus       554 ld~~~i~f~t~~~~~~~g~q~~~~~~~~~~~~~~~~  589 (613)
+                      .     .|.+       .  ....+.++.+......
+T Consensus       705 ~-----~~~V-------~--~~~~~~~~~~~~~~~~  726 (742)
+T 2r7e_A          705 A-----LLKV-------S--SCDKNTGDYYEDSYED  726 (742)
+T ss_dssp             C-----CCCC-------C--CCCCCCCCCSSSCCCC
+T ss_pred             E-----EEEE-------e--cCCCCccccccccccc
+Confidence            0     0111       0  0111111111111111
+
+
+No 14 
+>4a0z_A Transcription factor FAPR; lipid homeostasis; HET: MLC; 1.90A {Staphylococcus aureus} PDB: 4a0y_A 4a0x_A* 4a12_A
+Probab=1.19  E-value=8.9e+02  Score=16.05  Aligned_cols=126  Identities=10%  Similarity=-0.038  Sum_probs=46.7
+
+Q ss_pred             hhhhhhhhhhh---------hhhhhccchhhhccccccceeEEeeccCcc-c-----cccccc-CC--cchhhhccchhH
+Q andaluciagodoy  332 QNQLEDYHKAD---------LEKSVKGLVGSYFLSNFGEFSIQAYASSPA-A-----ADADKQ-FP--QESAEEHSLDKY  393 (613)
+Q Consensus       332 ~nQl~~f~~~d---------~~~~~~g~~~~Y~l~~~g~f~~~~~~~~~~-~-----~~~~~~-~p--~~~~~~~~~l~~  393 (613)
+                      .+.+..+.+..         ......-..+-|. ...|  ...... ++. .     ...+.. .+  ...++-  .+.+
+T Consensus        44 ~~~l~~l~~~g~i~~~~~~~~~~~~~~~~~~~~-~~~~--~i~~~~-~~~~~~~~~~v~~~~~~~~~g~~~gg~--~~~~  117 (190)
+T 4a0z_A           44 RLDRTYLNIPELRKRIKLVAEKNYDQISSIEEQ-EFIG--DLIQVN-PNVKAQSILDITSDSVFHKTGIARGHV--LFAQ  117 (190)
+T ss_dssp             HHHHHHHTCCCHHHHHHHHHHHHHTTCCSSCGG-GCCS--EEEEEE-TTTEEEEEEECCGGGBCTTTCBBCHHH--HHHH
+T ss_pred             HHHHHHHHhCCCEEEEecCEEEccccccCcchh-hccc--eEEEEe-CCCeEEEEEECCHHHcCCCCCEEehHH--HHHH
+Confidence            11122221111         0110111112222 2345  333333 332 1     111222 11  111110  1111
+
+
+Q ss_pred             hh--hhhccccccccCCCCCCCCCcccccCCCcceeceeEEEeeecccccceeEEEEEeeccceeeeeecCCceeEEEEe
+Q andaluciagodoy  394 AA--LRHATLSDDISNSLPPRHPGMRVLSSPPRWHLNSVTVSLFRKQEYTDTTLIALTIDAASIKYVMNRSNGKIISATI  471 (613)
+Q Consensus       394 ~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~  471 (613)
+                      ..  +.. ..                                     .  ....++.++   ++.|+.+.-+|..+.+..
+T Consensus       118 ~~~~~~~-~~-------------------------------------~--~~~~~~~~~---~~~f~~pv~~g~~l~~~~  154 (190)
+T 4a0z_A          118 ANSLCVA-LI-------------------------------------K--QPTVLTHES---SIQFIEKVKLNDTVRAEA  154 (190)
+T ss_dssp             HHHHHHH-HS-------------------------------------C--SSEEEEEEE---EEEECSCCBTTCEEEEEE
+T ss_pred             HHHHHHH-hc-------------------------------------C--CCcEEEEEE---EEEEecCCCCCCEEEEEE
+Confidence            11  110 00                                     1  224444544   566777778888777754
+
+
+Q ss_pred             ccccccccCceEEEEecCcceEEeeeEEEeccCCC
+Q andaluciagodoy  472 KDFSAFSKNGLLVVICSNTGYIVSDYEVTVDDCSS  506 (613)
+Q Consensus       472 ~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~  506 (613)
+                      .--..-.....+.+.++|.|.+-+.-.+.+.-...
+T Consensus       155 ~v~~~~~~~~~~~~~~~~~~~~va~~~~~~~~~~~  189 (190)
+T 4a0z_A          155 RVVNQTAKHYYVEVKSYVKHTLVFKGNFKMFYDKR  189 (190)
+T ss_dssp             EEEEECSSEEEEEEEEEETTEEEEEEEEEEEEECC
+T ss_pred             EEEEecCCEEEEEEEEEECCEEEEEEEEEEEEcCC
+Confidence            42221112246677777778887666555411111
+
+
+No 15 
+>3d6x_A (3R)-hydroxymyristoyl-[acyl-carrier-protein] DEHY; FABZ, hot DOG fold, dehydratase, lipid biosynthesis, lipid synthesis, lyase; HET: MSE; 2.59A {Campylobacter jejuni subsp}
+Probab=1.17  E-value=8.2e+02  Score=15.50  Aligned_cols=59  Identities=8%  Similarity=0.026  Sum_probs=30.3
+
+Q ss_pred             cceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEec
+Q andaluciagodoy  441 TDTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVD  502 (613)
+Q Consensus       441 ~~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~  502 (613)
+                      .....+...   .++.|..+..+|..+.+...--+.......+.+.+.|.|.+-+.-...+.
+T Consensus        84 ~~~~~~~~~---~~~~f~~p~~~g~~l~~~~~v~~~~~~~~~~~~~~~~~g~~v~~~~~~~~  142 (146)
+T 3d6x_A           84 SKVVYFTGI---DGAKFRNPVRPGDRLDYEMSVVKNRGNMWIFKGQAFVDGNLVAEAELKAM  142 (146)
+T ss_dssp             CSCEEEEEE---EEEEECSCCCTTCEEEEEEEEEEEETTEEEEEEEEEETTEEEEEEEEEEE
+T ss_pred             CccEEEEEe---eeEEEeccCcCCCEEEEEEEEEEccCCEEEEEEEEEECCEEEEEEEEEEE
+Confidence            111222222   25566666777777666443222111224556667777888776665541
+
+
+No 16 
+>3t9w_A Small laccase, multi-copper oxidase; two-domain copper oxidase, Cu-binding, oxidoreducta; 1.50A {Amycolatopsis SP} PDB: 3ta4_F*
+Probab=0.86  E-value=1.4e+03  Score=16.57  Aligned_cols=104  Identities=11%  Similarity=-0.006  Sum_probs=47.5
+
+Q ss_pred             cccceeEEEEEeecc--cee-ee----eecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEeccCCCCchhh
+Q andaluciagodoy  439 EYTDTTLIALTIDAA--SIK-YV----MNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVDDCSSGILPV  511 (613)
+Q Consensus       439 ~~~~~s~i~ie~~Ad--~i~-~i----~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~i~~i  511 (613)
+                      .+.....++|++..-  .+. +.    -...||-.+.+.        ..-.+.|.+.|.+..  ..++.+...... ...
+T Consensus        25 ~~~~~~~~~l~~~~~~~~~~~~~~~~~ng~~pgP~i~v~--------~Gd~v~v~~~N~~~~--~~~ih~hg~~~~-~~~   93 (299)
+T 3t9w_A           25 AQGTTRRITMYAEKISDELYGYGLAPGGATVPGPVLEMW--------EGDTLEIDLVNTTDR--VLSLHPHGVDYD-VNS   93 (299)
+T ss_dssp             --CCEEEEEEEEEEEETTEEEEESSTTCCBSSCCCEEEE--------TTCEEEEEEEECSSS--CBCCEESSSBCC-GGG
+T ss_pred             cCCCceEEEEEEEeeeeccccceeeecCCCccCCeEEEE--------CCCEEEEEEEECCCC--CcceeecccccC-ccC
+Confidence            223344444444431  111 11    234678877773        467899999998853  334445444433 222
+
+
+Q ss_pred             h---ccceecccCCcccceeEEE-----------eeecccccccchh------hhHHHHhhhc
+Q andaluciagodoy  512 L---AKQISIAPQGTAGVDFAIQ-----------AEVDTTKLNTCRL------RLWDLLGQIL  554 (613)
+Q Consensus       512 ~---~~~~~i~p~~~~~~~f~i~-----------~~~~~~~~~~C~v------~L~ds~~~~l  554 (613)
+                      .   .....|.|+++.+..|.+.           ........|.|..      ..--..| +.
+T Consensus        94 DG~~~~~~~i~pG~~~~y~f~~~~~~~~~~~~~~~~~~Gt~~yh~~~~~~~~~~~~~~~G-l~  155 (299)
+T 3t9w_A           94 DGTLMNGSAVMPGQTRRYTWRSHVGYRRADGSWAEGTAGYWHYHDHAMGTEHGTEGVLKG-LY  155 (299)
+T ss_dssp             SCCTTTTCCBCTTCEEEEEEBCCCCEECTTSCEECCCCEEEEEECSSSSSTTCHHHHHHT-CE
+T ss_pred             CCCcccCCcccCCCeEEEEEeCccccCCccccccCCCcEEEEEeecccccccchhhhhcc-ce
+Confidence            1   1345788888765555410           0000111344443      1222233 21
+
+
+No 17 
+>2q78_A Uncharacterized protein; structural genomics, joint center for structural genomics, J protein structure initiative, PSI-2, hydrolase; HET: MSE MLC; 2.20A {Thermotoga maritima MSB8} SCOP: d.38.1.7
+Probab=0.81  E-value=1.3e+03  Score=15.40  Aligned_cols=62  Identities=10%  Similarity=0.027  Sum_probs=35.8
+
+Q ss_pred             cccceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCcceEEeeeEEEeccC
+Q andaluciagodoy  439 EYTDTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGYIVSDYEVTVDDC  504 (613)
+Q Consensus       439 ~~~~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~G~~~a~y~v~v~~C  504 (613)
+                      -......+++++   ++.|+.+..+|.-+.+...--..-.+...+.+.++|.+.+-+.-.... -|
+T Consensus        69 ~~~g~~~vt~~l---~v~f~~Pv~~Gd~I~v~a~v~~~g~~~~~~~~~v~~~~~lva~a~~~~-v~  130 (153)
+T 2q78_A           69 LPNDYTAVVVET---LARHVKAVPTGTRVAVGVRVVGVVGNRVKFRGIVMSGDEKILEAEFVR-AI  130 (153)
+T ss_dssp             SCTTEEEEEEEE---EEEECSCCBSSEEEEEEEEEEEEETTEEEEEEEEEETTEEEEEEEEEE-EE
+T ss_pred             cCCCceEEEEEE---EEEEecCCCCCCEEEEEEEEEEECCcEEEEEEEEEECCEEEEEEEEEE-EE
+Confidence            111346666666   577888888897777744322222334567778887666665554443 11
+
+
+No 18 
+>4ncp_A Uncharacterized protein; thioesterase, hotdog fold, hydrolysis of thioester bond, UNK function; 2.50A {Staphylococcus aureus}
+Probab=0.67  E-value=1.4e+03  Score=14.93  Aligned_cols=90  Identities=11%  Similarity=0.001  Sum_probs=35.8
+
+Q ss_pred             ceeEEEEEeeccceeeeeecCCceeEEEEeccccccccCceEEEEecCc------ceEEeeeEEEeccCCCCchhhhccc
+Q andaluciagodoy  442 DTTLIALTIDAASIKYVMNRSNGKIISATIKDFSAFSKNGLLVVICSNT------GYIVSDYEVTVDDCSSGILPVLAKQ  515 (613)
+Q Consensus       442 ~~s~i~ie~~Ad~i~~i~~~s~G~I~s~~~~~fea~s~~g~l~V~v~N~------G~~~a~y~v~v~~Cs~~i~~i~~~~  515 (613)
+                      +...+++.++  .+.|..+..+|..+.+...--........+.+.+.+.      |.+.+...+.+              
+T Consensus        58 ~~~~v~~~~d--~i~f~~pv~~gd~l~i~a~v~~~~~~~~~v~~~v~~~~~~~~~~~~~a~a~~~~--------------  121 (179)
+T 4ncp_A           58 GAQVVTASTD--SVDFLKPIKTGDILQYVAMVSYAGTSSMEVVVQIRIDDVFNNKHDLAALSYLTF--------------  121 (179)
+T ss_dssp             TSEEEEEEEE--EEEECSCCBTTCEEEEEEEEEEECSSEEEEEEEEEEEETTTTEEEEEEEEEEEE--------------
+T ss_pred             CCceEEEEec--cEEEeCCCCCCCEEEEEEEEEEEcCCEEEEEEEEEEecCCCCceEEEEEEEEEE--------------
+Confidence            1244444443  7788888888887777333111111223444444432      34444444433              
+
+
+Q ss_pred             eecccCCcccceeEEEeeecccccccchhhhHHHHhh
+Q andaluciagodoy  516 ISIAPQGTAGVDFAIQAEVDTTKLNTCRLRLWDLLGQ  552 (613)
+Q Consensus       516 ~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~  552 (613)
+                      +.+.+.......-.+...+    .-.+..-+. ++..
+T Consensus       122 v~~d~~~~~~~ip~~~~~~----~~e~~~~~~-~~~r  153 (179)
+T 4ncp_A          122 VALDDEGKPKHVPGVYPED----DVEKWFYDT-APQR  153 (179)
+T ss_dssp             EEECTTSCBCCCCEEECCS----HHHHHHHHH-HHHH
+T ss_pred             EEeCCCCCcccCCccccCC----HHHHHHHHH-HHHH
+Confidence            2233321111112343222    112222221 1111
+
+
+No 19 
+>2f41_A Transcription factor FAPR; 'HOT-DOG' fold, gene regulation; 2.50A {Bacillus subtilis} SCOP: d.38.1.5
+Probab=0.67  E-value=1.1e+03  Score=13.84  Aligned_cols=93  Identities=14%  Similarity=0.027  Sum_probs=37.4
+
+Q ss_pred             EEEEecCCCcc----ccchhhhhhhhhhhhhhhhhhhhhccchhhhccccccceeEEeeccCcccccccccCCcchhhhc
+Q andaluciagodoy  313 VAFRYDQGNQC----YGTVGSCLQNQLEDYHKADLEKSVKGLVGSYFLSNFGEFSIQAYASSPAAADADKQFPQESAEEH  388 (613)
+Q Consensus       313 ~af~~q~~~~C----~~~~gSCL~nQl~~f~~~d~~~~~~g~~~~Y~l~~~g~f~~~~~~~~~~~~~~~~~~p~~~~~~~  388 (613)
+                      ..|.-. ++.|    ...+|.++-..+...-..    .            .+           .                
+T Consensus        22 ~~~~~~-~~~~~~~~~~~~Gg~~~~~~~~~~~~----~------------~~-----------~----------------   57 (121)
+T 2f41_A           22 SILEIK-QEHVFSRNQIARGHHLFAQANSLAVA----V------------ID-----------D----------------   57 (121)
+T ss_dssp             EEEECC-GGGBCSTTCBBCHHHHHHHHHHHHHH----T------------C-----------------------------
+T ss_pred             EEEEeC-HHHccCCCcEEEeeeHHHHHHHHHHH----h------------cC-----------C----------------
+Confidence            111111 2222    234555654444333211    0            00           0                
+
+
+Q ss_pred             cchhHhhhhhccccccccCCCCCCCCCcccccCCCcceeceeEEEeeecccccceeEEEEEeeccceeeeeecCCceeEE
+Q andaluciagodoy  389 SLDKYAALRHATLSDDISNSLPPRHPGMRVLSSPPRWHLNSVTVSLFRKQEYTDTTLIALTIDAASIKYVMNRSNGKIIS  468 (613)
+Q Consensus       389 ~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~i~~~s~G~I~s  468 (613)
+                                                                        .......+.+       .|..+.-+|.-+.
+T Consensus        58 --------------------------------------------------~~~~~~~~~~-------~f~~p~~~g~~l~   80 (121)
+T 2f41_A           58 --------------------------------------------------ELALTASADI-------RFTRQVKQGERVV   80 (121)
+T ss_dssp             ---------------------------------------------------CCCEEEEEE-------EECSCCBTTCEEE
+T ss_pred             --------------------------------------------------ceEEEEeeEE-------EEcCCCCCCCEEE
+Confidence                                                              0011222222       3334444555444
+
+
+Q ss_pred             EEeccccc--cccCceEEEEecCcceEEeeeEEEeccCCCC
+Q andaluciagodoy  469 ATIKDFSA--FSKNGLLVVICSNTGYIVSDYEVTVDDCSSG  507 (613)
+Q Consensus       469 ~~~~~fea--~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~  507 (613)
+                      +...--+.  -.....+.+.+.|.|.+-+.-...+ -+.+.
+T Consensus        81 ~~~~v~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~-~~~~~  120 (121)
+T 2f41_A           81 AKAKVTAVEKEKGRTVVEVNSYVGEEIVFSGRFDM-YRSKH  120 (121)
+T ss_dssp             EEEEEEEECSSSSCEEEEEEEEETTEEEEEEEEEE-C----
+T ss_pred             EEEEEEEEECCCcEEEEEEEEEECCEEEEEEEEEE-EEecC
+Confidence            43221111  2234567777777788888888877 44321
+
+
+No 20 
+>3rx6_A Polarity suppression protein; all alpha protein, transcription termination inhibitor, RHO capsid decoration protein of bacteriophage P4; 2.04A {Enterobacteria phage P4} PDB: 4dvd_A
+Probab=0.56  E-value=2.2e+03  Score=15.60  Aligned_cols=34  Identities=9%  Similarity=0.221  Sum_probs=25.4
+
+Q ss_pred             cchhhhhhhhhhhhhhhhhhhhhccchhhhcccccc
+Q andaluciagodoy  325 GTVGSCLQNQLEDYHKADLEKSVKGLVGSYFLSNFG  360 (613)
+Q Consensus       325 ~~~gSCL~nQl~~f~~~d~~~~~~g~~~~Y~l~~~g  360 (613)
+                      .....|+.|.|.+|-+........-..|-.+  .++
+T Consensus        75 ~v~~isi~~~l~dFMqq~Ga~L~aaLApeLm--g~~  108 (190)
+T 3rx6_A           75 AVQHISIRDRLNDFMQQHGTALAAALAPELM--GYS  108 (190)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHTHHHHT--TGG
+T ss_pred             HHHHHHHHHHHHHHHHHhhHHHHHHHhHHHh--Ccc
+Confidence            1246899999999999999887776777765  222
+
+
+Done!

@@ -1,0 +1,311 @@
+Query         ./sequences/salmonanemiavirusSS.a3m
+Match_columns 305
+No_of_seqs    2 out of 13
+Neff          1.1 
+Searched_HMMs 43
+Date          Fri Jul 29 14:52:27 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/salmonanemiavirusSS.a3m.hhm -ohhm ./structurepred/salmonanemiavirusSS.a3m.hhm.hhm -o ./structurepred/salmonanemiavirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -local -b 20 -z 20 -B 2000 -Z 2000 -ssm 2 -maxfilt 10000 -norealign -addss -psipred /implacable/software/bin -psipred_data /implacable/software/data 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 6rlx_A Relaxin, A-chain; hormo  23.6     2.4 0.00035   22.9  -1.0    8  199-206    10-17  (24)
+  2 2ml7_A Specific abundant prote  18.0      13  0.0016   21.9   1.2   17  192-208     9-25  (31)
+  3 1gxu_A Hydrogenase maturation    4.4      38  0.0075   19.1   0.5   33   35-67     36-68  (91)
+  4 2vy8_A Polymerase basic protei   4.4      52  0.0067   24.3   0.3   23  227-249    80-102 (157)
+  5 1xfd_A DIP, dipeptidyl aminope   1.7 1.9E+02   0.047   18.7   2.4   43  229-271   499-541 (723)
+  6 2x9a_A Attachment protein G3P;   1.6 1.5E+02    0.02   18.8  -0.1   23   93-115     2-24  (65)
+  7 1wbf_A Protein (agglutinin); l   1.1 1.4E+02   0.029   18.3  -0.1   24  251-274   219-242 (242)
+  8 3wur_A Uncharacterized protein   1.0      83   0.016   19.7  -1.9   16   72-87     59-74  (171)
+  9 2nsc_A Trigger factor, TF; cha   1.0 4.5E+02   0.088   14.0   2.2   53   80-133    47-100 (109)
+ 10 3ffv_A Protein SYD; membrane,    0.9 3.4E+02   0.057   17.7   0.9   45  211-255    35-79  (181)
+ 11 3nrf_A APAG protein; structura   0.9 1.4E+02   0.023   18.8  -1.4   41  234-274    20-60  (106)
+ 12 1jq0_A GP41 envelope protein;    0.9 1.3E+02   0.023   17.8  -1.4   28   67-94     42-69  (84)
+ 13 3p30_A HIV-1 GP41; HIV, GP41,    0.8 1.5E+02   0.025   18.1  -1.3   28   67-94     50-77  (96)
+ 14 1h67_A Calponin alpha; cytoske   0.8 1.7E+02   0.036   15.1  -0.5   40   53-92      4-43  (108)
+ 15 3wkq_A Nitrite reductase; gree   0.6 4.9E+02     0.1   15.9   1.1   19  212-230    69-87  (323)
+ 16 4hzy_A Neuraminidase; hydrolas   0.5 4.1E+02   0.056   20.9  -1.0   24  240-263   300-325 (388)
+ 17 2v0f_A Chromodomain-helicase-D   0.4 2.2E+02   0.034   17.7  -2.3   37   56-92     40-77  (87)
+ 18 2cn3_A Xyloglucanase, beta-1,4   0.4 5.4E+02    0.12   16.9   0.8   17   33-49     35-51  (737)
+ 19 1tv5_A Dhodehase, dihydroorota   0.4 6.3E+02    0.11   17.5   0.6   13   44-56    117-129 (443)
+ 20 4k47_A Leucine--tRNA ligase; l   0.4 2.9E+02   0.061   15.9  -1.1   25  119-143   109-133 (192)
+
+No 1  
+>6rlx_A Relaxin, A-chain; hormone(muscle relaxant); 1.50A {Homo sapiens} SCOP: g.1.1.1 PDB: 2mv1_A*
+Probab=23.60  E-value=2.4  Score=22.91  Aligned_cols=8  Identities=63%  Similarity=1.414  Sum_probs=0.0
+
+Q ss_pred             cccCCccc
+Q tr|Q2TKF4|Q2TK  199 CTQHGCTK  206 (305)
+Q Consensus       199 ctqhgctk  206 (305)
+                      |++.||||
+T Consensus        10 CC~~GCtk   17 (24)
+T 6rlx_A           10 CCHVGCTK   17 (26)
+T ss_dssp             HHHTCEEH
+T ss_pred             HhccCCCH
+
+
+No 2  
+>2ml7_A Specific abundant protein 3; ginsentide, unknown function; NMR {Panax ginseng}
+Probab=18.01  E-value=13  Score=21.88  Aligned_cols=17  Identities=35%  Similarity=0.905  Sum_probs=0.0
+
+Q ss_pred             ccccccccccCCccccc
+Q tr|Q2TKF4|Q2TK  192 KVDLDSCCTQHGCTKGI  208 (305)
+Q Consensus       192 ~~d~~scctqhgctkgi  208 (305)
+                      +.|+.+||-.-||--|+
+T Consensus         9 ~f~p~~CCg~cGCL~g~   25 (31)
+T 2ml7_A            9 GFDPHGCCGNCGCLVGF   25 (31)
+T ss_dssp             SSCTTCBSSSCEESSSB
+T ss_pred             eecccccccCCcceEEE
+
+
+No 3  
+>1gxu_A Hydrogenase maturation protein HYPF; phosphatase, acylphosphatases, hydrogenase maturations, fibril formation, zinc-finger, complete proteome; 1.27A {Escherichia coli} SCOP: d.58.10.1 PDB: 1gxt_A
+Probab=4.44  E-value=38  Score=19.13  Aligned_cols=33  Identities=18%  Similarity=0.071  Sum_probs=0.0
+
+Q ss_pred             ccccccCCCccccccccccCcchhhhhcccccc
+Q tr|Q2TKF4|Q2TK   35 TGYVRSAPGGVLLTETITESPALAEWTTSRSRL   67 (305)
+Q Consensus        35 ~g~vrsapggvlltetite~p~l~ewttsr~~l   67 (305)
+                      +||||..+.||.+.-.-.+..++.+|....|..
+T Consensus        36 ~G~V~N~~dgV~i~~~G~~~~~~~~~l~~gp~~   68 (91)
+T 1gxu_A           36 HGDVCNDGDGVEVRLREDPEVFLVQLYQHCPPL   68 (91)
+T ss_dssp             CEEEEECSSSEEEEESSCCHHHHHHHHHTCCTT
+T ss_pred             eEEEEECCCCcEEEEecCCHHHHHHHHHhCCCc
+
+
+No 4  
+>2vy8_A Polymerase basic protein 2; viral protein, transcription, mRNA capping, mitochondrion, mRNA processing; 1.2A {Influenza a virus} PDB: 2vy7_A*
+Probab=4.39  E-value=52  Score=24.32  Aligned_cols=23  Identities=26%  Similarity=0.501  Sum_probs=0.0
+
+Q ss_pred             eeccccccCCcccccccccchhh
+Q tr|Q2TKF4|Q2TK  227 FRVVPFHSVPDRLGFARTSSFTL  249 (305)
+Q Consensus       227 frvvpfhsvpd~lgfartssftl  249 (305)
+                      .++.||--.|.++|-..-|||||
+T Consensus        80 IKllPF~~~pP~q~~~~fssltl  102 (157)
+T 2vy8_A           80 IKLLPFAAAPPEQSRMQFSSLTV  102 (157)
+T ss_dssp             HHHGGGGCSCCCCCSCCCSEEEE
+T ss_pred             HHhcccccCChhhcccccceeEE
+
+
+No 5  
+>1xfd_A DIP, dipeptidyl aminopeptidase-like protein 6, dipeptidylpeptidase 6; DPPX, DPP6, KV4, KV, KAF, membrane protein; HET: NDG NAG BMA MAN; 3.00A {Homo sapiens} SCOP: b.70.3.1 c.69.1.24
+Probab=1.72  E-value=1.9e+02  Score=18.68  Aligned_cols=43  Identities=12%  Similarity=0.084  Sum_probs=0.0
+
+Q ss_pred             ccccccCCcccccccccchhhhhhhhhccccccccccccCCCc
+Q tr|Q2TKF4|Q2TK  229 VVPFHSVPDRLGFARTSSFTLRANLADQHGWSKYSFNLRAFPG  271 (305)
+Q Consensus       229 vvpfhsvpd~lgfartssftl~an~~~~hgwsky~fnlr~fpg  271 (305)
+                      |+=+|..+........-.+..-+....++|+.-+.+++|+.+.
+T Consensus       499 vi~~hG~~~~~~~~~~~~~~~~~~~l~~~g~~v~~~d~~g~g~  541 (723)
+T 1xfd_A          499 LLVVDGTPGSQSVAEKFEVSWETVMVSSHGAVVVKCDGRGSGF  541 (723)
+T ss_dssp             EEECCCCTTCCCCCCCCCCSHHHHHHHTTCCEEECCCCTTCSS
+T ss_pred             EEEEcCCCCCeeeeeeccchhhhhhhccCCeEEEEEcCCCCCc
+
+
+No 6  
+>2x9a_A Attachment protein G3P; transmembrane, phage infection, phage recognition, HOST-VIRU interaction, virion; 2.47A {Enterobacteria phage IF1} PDB: 2x9b_A
+Probab=1.57  E-value=1.5e+02  Score=18.85  Aligned_cols=23  Identities=26%  Similarity=0.460  Sum_probs=0.0
+
+Q ss_pred             ccccchhhhhhhccccccccccc
+Q tr|Q2TKF4|Q2TK   93 TQMENCAVKAVFDTSFVNLTRHD  115 (305)
+Q Consensus        93 tqmencavkav~dt~fvnlt~~d  115 (305)
+                      +.-|-|-.|-++|-||-|.-|.|
+T Consensus         2 ~t~~~C~aKP~~~~~fsnv~K~~   24 (65)
+T 2x9a_A            2 TTDAECLSKPAFDGTLSNVWKEG   24 (65)
+T ss_dssp             CCHHHHHTSCCEEEEEESCEEET
+T ss_pred             cchhhhhcCCcccCcccceEecC
+
+
+No 7  
+>1wbf_A Protein (agglutinin); lectin (agglutinin), legume lectin, protein crystallography, group specificity, saccharide free form; HET: NAG; 2.30A {Psophocarpus tetragonolobus} SCOP: b.29.1.1 PDB: 2d3s_A* 2dtw_A* 1wbl_A* 2dty_A* 2du0_A* 2du1_A* 2e51_A* 2e53_A* 2zmk_A* 2zml_A* 2zmn_A* 2e7t_A* 2e7q_A*
+Probab=1.13  E-value=1.4e+02  Score=18.26  Aligned_cols=24  Identities=25%  Similarity=0.338  Sum_probs=0.0
+
+Q ss_pred             hhhhhccccccccccccCCCcchh
+Q tr|Q2TKF4|Q2TK  251 ANLADQHGWSKYSFNLRAFPGEEF  274 (305)
+Q Consensus       251 an~~~~hgwsky~fnlr~fpgeef  274 (305)
+                      .++.+.|.-..++|+....|..||
+T Consensus       219 ~~~~~~~~i~sw~f~~~~~~~~~~  242 (242)
+T 1wbf_A          219 RNATETHDILSWSFSASLPGTNEF  242 (242)
+T ss_dssp             TTCCCCCEEEEEEEEEECCC----
+T ss_pred             cccceeeEEEEEEEEccCCCCCCC
+
+
+No 8  
+>3wur_A Uncharacterized protein; helix bundle, DNA mimic, gene regulation; HET: O4B TLA; 1.45A {Neisseria meningitidis} PDB: 3vjz_A
+Probab=1.02  E-value=83  Score=19.68  Aligned_cols=16  Identities=19%  Similarity=0.322  Sum_probs=0.0
+
+Q ss_pred             ccCCcccccchhhHHH
+Q tr|Q2TKF4|Q2TK   72 WRGGEVKSGKVSQTLF   87 (305)
+Q Consensus        72 w~~ge~k~gkvsqtlf   87 (305)
+                      |+.+|+.||-.+|-++
+T Consensus        59 ~l~~eV~NGGf~Qff~   74 (171)
+T 3wur_A           59 YLDSQVEEGGFVQLIA   74 (171)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHCcCHHHHhh
+
+
+No 9  
+>2nsc_A Trigger factor, TF; chaperone; 2.20A {Thermotoga maritima} PDB: 2nsb_A
+Probab=1.02  E-value=4.5e+02  Score=13.98  Aligned_cols=53  Identities=6%  Similarity=0.119  Sum_probs=0.0
+
+Q ss_pred             cchhhHHHHHhhhccccchhhhhhhccccccccccceecccceecCC-CCCcccc
+Q tr|Q2TKF4|Q2TK   80 GKVSQTLFEAIQGTQMENCAVKAVFDTSFVNLTRHDVVLGRVKVSPF-GGEHDIS  133 (305)
+Q Consensus        80 gkvsqtlfeaiqgtqmencavkav~dt~fvnlt~~divlg~ikvs~f-gg~~dis  133 (305)
+                      |||...+.++.-|.+..+=++. +++-+|-.+-+..-++|...+... +.+-.++
+T Consensus        47 GKvP~~ii~~~~g~~v~~~~~~-~~~~~~~~~i~~~~~~~~P~~~~~~~~~~~~~  100 (109)
+T 2nsc_A           47 GRIPKNVLKMKLGEEFQEYTLD-FLMDLIPDTLKDRKLILSPIVTERELKDVTAR  100 (109)
+T ss_dssp             TCCCHHHHHHHHGGGHHHHHHH-HHHTTHHHHTTTSCCSSCCCCCCCCCCCCCCC
+T ss_pred             CcchHHHHHHHHhHHHHHHHHH-HHHHHHHHHHHhCCccCCCeeecCCCCCEEEE
+
+
+No 10 
+>3ffv_A Protein SYD; membrane, translocon, secyeg, nanodisc, cell inner membrane, cell membrane, protein binding; 2.00A {Escherichia coli}
+Probab=0.88  E-value=3.4e+02  Score=17.70  Aligned_cols=45  Identities=18%  Similarity=0.390  Sum_probs=0.0
+
+Q ss_pred             ccCCcceeccccccceeeccccccCCcccccccccchhhhhhhhh
+Q tr|Q2TKF4|Q2TK  211 EVPSPVLVSAKCNEISFRVVPFHSVPDRLGFARTSSFTLRANLAD  255 (305)
+Q Consensus       211 evpspvlvs~kc~ei~frvvpfhsvpd~lgfartssftl~an~~~  255 (305)
+                      ++|||..+...=..|..+-||....-|--.-.+.-.++|...+.+
+T Consensus        35 ~~~Spc~~~~~~~~v~W~Pv~~~~~~df~~vE~aL~i~lh~~ik~   79 (181)
+T 3ffv_A           35 GVPSPCIISTTEDAVYWQPQPFTGEQNVNAVERAFDIVIQPTIHT   79 (181)
+T ss_dssp             TSCCTTEEEECSSCEEECCEECCSCSSCHHHHHHSSCCCCHHHHH
+T ss_pred             CCCCCCEEecCCceEEEEeeecCchhhHHHHHHHhCCccCHHHHH
+
+
+No 11 
+>3nrf_A APAG protein; structural genomics, joint center for structural genomics, J protein structure initiative, PSI-2, unknown function; 1.50A {Pseudomonas aeruginosa} PDB: 3sb3_A
+Probab=0.88  E-value=1.4e+02  Score=18.77  Aligned_cols=41  Identities=15%  Similarity=0.118  Sum_probs=0.0
+
+Q ss_pred             cCCcccccccccchhhhhhhhhccccccccccccCCCcchh
+Q tr|Q2TKF4|Q2TK  234 SVPDRLGFARTSSFTLRANLADQHGWSKYSFNLRAFPGEEF  274 (305)
+Q Consensus       234 svpd~lgfartssftl~an~~~~hgwsky~fnlr~fpgeef  274 (305)
+                      |++++--|..+-.+|++-|--+.--.+++.|.|-.=-|.+|
+T Consensus        20 s~~~k~~y~~~v~VtI~N~s~e~i~~s~~~Fkl~d~dG~~~   60 (106)
+T 3nrf_A           20 SVGDKHFRTQAFKVRLVNAAKSEISLKNSCLVAQSAAGQSF   60 (106)
+T ss_dssp             EETTEEEEEEEEEEEEECCSSSCEECTTCEEEEEETTSCEE
+T ss_pred             ecCCcccceEEEEEEEEeCCCCcEEeCcccEEEECCCCCEE
+
+
+No 12 
+>1jq0_A GP41 envelope protein; SIV, HIV-1, membrane fusion, six-helix bundle, trimer- hairpins, viral protein; 1.70A {Simian immunodeficiency virus} SCOP: h.3.2.1 PDB: 1jpx_A
+Probab=0.88  E-value=1.3e+02  Score=17.76  Aligned_cols=28  Identities=11%  Similarity=0.163  Sum_probs=0.0
+
+Q ss_pred             cccccccCCcccccchhhHHHHHhhhcc
+Q tr|Q2TKF4|Q2TK   67 LEDSTWRGGEVKSGKVSQTLFEAIQGTQ   94 (305)
+Q Consensus        67 le~~~w~~ge~k~gkvsqtlfeaiqgtq   94 (305)
+                      +|..+|...+-|.....+++|..+...|
+T Consensus        42 ~e~mtw~~w~~~i~n~t~~iy~~l~~s~   69 (84)
+T 1jq0_A           42 GGRGGWQEWKRKVDFLEENITALLEEAQ   69 (84)
+T ss_dssp             ---CCHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccCcHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 13 
+>3p30_A HIV-1 GP41; HIV, GP41, cluster 2, 6-helix bundle, immune system; 3.30A {Human immunodeficiency virus 1}
+Probab=0.84  E-value=1.5e+02  Score=18.07  Aligned_cols=28  Identities=14%  Similarity=0.273  Sum_probs=0.0
+
+Q ss_pred             cccccccCCcccccchhhHHHHHhhhcc
+Q tr|Q2TKF4|Q2TK   67 LEDSTWRGGEVKSGKVSQTLFEAIQGTQ   94 (305)
+Q Consensus        67 le~~~w~~ge~k~gkvsqtlfeaiqgtq   94 (305)
+                      +|..+|..++-|....+++.|..++..|
+T Consensus        50 iE~mTW~~w~kki~n~t~~iy~ll~~s~   77 (96)
+T 3p30_A           50 GGRGGWLQWDKEISNYTHIIYELIEESQ   77 (96)
+T ss_dssp             -----CHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hccccHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 14 
+>1h67_A Calponin alpha; cytoskeleton, calponin homology domain, actin binding,; NMR {Gallus gallus} SCOP: a.40.1.1
+Probab=0.81  E-value=1.7e+02  Score=15.09  Aligned_cols=40  Identities=15%  Similarity=0.139  Sum_probs=0.0
+
+Q ss_pred             cCcchhhhhccccccccccccCCcccccchhhHHHHHhhh
+Q tr|Q2TKF4|Q2TK   53 ESPALAEWTTSRSRLEDSTWRGGEVKSGKVSQTLFEAIQG   92 (305)
+Q Consensus        53 e~p~l~ewttsr~~le~~~w~~ge~k~gkvsqtlfeaiqg   92 (305)
+                      +..++.+|-.+.-..+-..=.-.+.++|.+-..|++++.+
+T Consensus         4 ~~~~~~~Win~~l~~~~~~~l~~~L~dG~~Lc~l~~~l~~   43 (108)
+T 1h67_A            4 TERQLRVWIEGATGRRIGDNFMDGLKDGVILCELINKLQP   43 (108)
+T ss_dssp             SSHHHHHHHHHHHSCCCCSCHHHHHHHCSHHHHHHHHHST
+T ss_pred             HHHHHHHHHHHHhCCCccHHHHHHCcCHHHHHHHHHHHCC
+
+
+No 15 
+>3wkq_A Nitrite reductase; greek KEY beta barrel, oxidoreductase; HET: MPD; 1.15A {Geobacillus thermodenitrificans} PDB: 3wni_A 3wnj_A* 4zk8_A 3wkp_A* 3x1n_A 3wi9_A 3wia_A
+Probab=0.56  E-value=4.9e+02  Score=15.92  Aligned_cols=19  Identities=26%  Similarity=0.587  Sum_probs=0.0
+
+Q ss_pred             cCCcceeccccccceeecc
+Q tr|Q2TKF4|Q2TK  212 VPSPVLVSAKCNEISFRVV  230 (305)
+Q Consensus       212 vpspvlvs~kc~ei~frvv  230 (305)
+                      +|.|.|.-..-..|.+++.
+T Consensus        69 ~pgp~i~v~~Gd~v~v~v~   87 (323)
+T 3wkq_A           69 APGPLVVVNEGDTIHFTLK   87 (323)
+T ss_dssp             SSCCCEEEETTEEEEEEEE
+T ss_pred             cCCCCEEEeCCCEEEEEEE
+
+
+No 16 
+>4hzy_A Neuraminidase; hydrolase; HET: NAG FUC; 1.60A {Influenza a virus} PDB: 4i00_A* 4hzw_A* 4hzv_A* 4hzx_A* 4hzz_A*
+Probab=0.49  E-value=4.1e+02  Score=20.88  Aligned_cols=24  Identities=25%  Similarity=0.598  Sum_probs=0.0
+
+Q ss_pred             ccccc--cchhhhhhhhhcccccccc
+Q tr|Q2TKF4|Q2TK  240 GFART--SSFTLRANLADQHGWSKYS  263 (305)
+Q Consensus       240 gfart--ssftl~an~~~~hgwsky~  263 (305)
+                      |...+  +++..+.-+++...||-|+
+T Consensus       300 Gwt~~~s~~~~~~q~iV~n~nWsGYS  325 (388)
+T 4hzy_A          300 GWINSPNHVKSITQTLVSNNDWSGYS  325 (388)
+T ss_dssp             TTSCCSCCEEEEEEEEEEEEEECCCE
+T ss_pred             CCcCCCccccceeEEEEeCCCCccce
+
+
+No 17 
+>2v0f_A Chromodomain-helicase-DNA-binding protein 7; nucleotide-binding, chromatin regulator, charge syndrome, phosphorylation, disease mutation; NMR {Homo sapiens} SCOP: d.76.2.1
+Probab=0.45  E-value=2.2e+02  Score=17.67  Aligned_cols=37  Identities=16%  Similarity=0.283  Sum_probs=0.0
+
+Q ss_pred             chhhhhccccccccccccCCccccc-chhhHHHHHhhh
+Q tr|Q2TKF4|Q2TK   56 ALAEWTTSRSRLEDSTWRGGEVKSG-KVSQTLFEAIQG   92 (305)
+Q Consensus        56 ~l~ewttsr~~le~~~w~~ge~k~g-kvsqtlfeaiqg   92 (305)
+                      +|..|-..-|..|-..|.+-.+|+. .....+|.-|..
+T Consensus        40 ~L~~WL~~nP~yev~~~~~~~~~~~g~lp~~~~~r~~~   77 (87)
+T 2v0f_A           40 DLPRWLEENPEFAVAPDWTDIVKQSGFVPESMFDRLLT   77 (87)
+T ss_dssp             GHHHHHHHCTTEEECHHHHHHHHHHSSSCGGGGGGSCC
+T ss_pred             hHHHHHHHCCCcccCchHHHHHhccCCCchhhccccCC
+
+
+No 18 
+>2cn3_A Xyloglucanase, beta-1,4-xyloglucan hydrolase; glycosylhydrolase, family GH74; HET: GLC BGC GAL; 1.95A {Clostridium thermocellum} PDB: 2cn2_A*
+Probab=0.42  E-value=5.4e+02  Score=16.86  Aligned_cols=17  Identities=29%  Similarity=0.337  Sum_probs=0.0
+
+Q ss_pred             ccccccccCCCcccccc
+Q tr|Q2TKF4|Q2TK   33 PRTGYVRSAPGGVLLTE   49 (305)
+Q Consensus        33 p~~g~vrsapggvllte   49 (305)
+                      |...|+....||++.+.
+T Consensus        35 ~~~~~~~~~~ggi~~S~   51 (737)
+T 2cn3_A           35 KDLIYARAAIGGAYRWD   51 (737)
+T ss_dssp             TTCEEEECSSSCEEEEE
+T ss_pred             CCeEEEEeCCccEEEec
+
+
+No 19 
+>1tv5_A Dhodehase, dihydroorotate dehydrogenase homolog, mitochondri, dihydroorotate; alpha-beta barrel, TIM barrel, oxidoreductase; HET: A26 FMN ORO N8E; 2.40A {Plasmodium falciparum} SCOP: c.1.4.1
+Probab=0.41  E-value=6.3e+02  Score=17.50  Aligned_cols=13  Identities=23%  Similarity=0.146  Sum_probs=0.0
+
+Q ss_pred             ccccccccccCcc
+Q tr|Q2TKF4|Q2TK   44 GVLLTETITESPA   56 (305)
+Q Consensus        44 gvlltetite~p~   56 (305)
+                      |.+.++|||.+||
+T Consensus       117 G~ve~gtvt~~p~  129 (443)
+T 1tv5_A          117 SFIEIGTITPRGQ  129 (443)
+T ss_dssp             SEEEEEEECSSCB
+T ss_pred             CeEEECCcccCCC
+
+
+No 20 
+>4k47_A Leucine--tRNA ligase; leucyl-tRNA synthetase, benzoxaboroles, antibacterial, ligas inhibitor complex; HET: WMP; 2.02A {Streptococcus pneumoniae} PDB: 4k48_A
+Probab=0.41  E-value=2.9e+02  Score=15.93  Aligned_cols=25  Identities=20%  Similarity=0.235  Sum_probs=0.0
+
+Q ss_pred             ccceecCCCCCccccccccCCceee
+Q tr|Q2TKF4|Q2TK  119 GRVKVSPFGGEHDISKCGRKGLKVF  143 (305)
+Q Consensus       119 g~ikvs~fgg~~diskcgrkglkvf  143 (305)
+                      |-|...|--|..|..-|-+.|+.+.
+T Consensus       109 G~V~~~P~h~~~D~~~~~k~~l~~~  133 (192)
+T 4k47_A          109 GAVMAVPAHDQRDWEFAKQFDLPIV  133 (192)
+T ss_dssp             SEEEECTTTCHHHHHHHHHHTCCCC
+T ss_pred             CeEEEccCCCcchHHHHHhcCCCeE
+
+
+Done!

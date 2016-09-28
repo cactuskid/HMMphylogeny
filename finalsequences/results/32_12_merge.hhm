@@ -1,0 +1,26 @@
+Query         H2AM12
+Match_columns 937
+No_of_seqs    227 out of 297
+Neff          6.7 
+Searched_HMMs 1
+Date          Mon Aug 22 14:39:12 2016
+Command       hhalign -i ./models/H2AM12.a3m.hhm -t ./models/D0A4L4.a3m.hhm -o ./results/32_12_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 D0A4L4                           0.1    0.62    0.62   15.0   1.6   32  576-608   174-205 (558)
+
+No 1  
+>D0A4L4
+Probab=0.08  E-value=0.62  Score=15.03  Aligned_cols=32  Identities=16%  Similarity=0.021  Sum_probs=19.7
+
+Q ss_pred             CccccccccccccccceeccccccccceeEEEe
+Q H2AM12          576 GCLYGSCQDIIRPEYKIYKKSSIEQKDVEVCIT  608 (937)
+Q Consensus       576 GC~~G~C~dvik~~~~VyKk~~~~~~~v~vCI~  608 (937)
+                      ...--||.-+-.+-+.||+ +........|=|+
+T Consensus       174 ~~~sahCLrf~~~wY~vy~-I~~~~~~~~i~V~  205 (558)
+T D0A4L4          174 DTGMASCLRFSDLWYGGYT-IGRGVVWYELQVK  205 (558)
+T ss_pred             CCCcceeeeccccccccee-eeeeEEEEEEEEE
+Confidence            3444667777667778999 7766644444333
+
+
+Done!

@@ -1,0 +1,26 @@
+Query         marinevirusSS
+Match_columns 96
+No_of_seqs    1 out of 6
+Neff          1.0 
+Searched_HMMs 1
+Date          Thu Aug  4 01:17:41 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/marinevirusSS.a3m.hhm -ohhm ./structurepred/marinevirusSS.a3m.hhm -o ./structurepred/marinevirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3s98_A Interferon alpha/beta r   0.0 4.2E+03    0.99    4.2  14.6   26   59-84    166-195 (306)
+
+No 1  
+>3s98_A Interferon alpha/beta receptor 1; human, type I interferons, receptor chain, ifnar1, fibronect III, type I interferon receptor chain; HET: NAG; 1.90A {Homo sapiens}
+Probab=0.01  E-value=4.2e+03  Score=4.22  Aligned_cols=26  Identities=15%  Similarity=0.342  Sum_probs=0.0
+
+Q ss_pred             cccceeeeeeeeeee----eecceeeeeee
+Q marinevirusSS    59 LGSRHAWVFRSVAVI----STARVSSLVCC   84 (96)
+Q Consensus        59 lgsrhawvfrsvavi----starvsslvcc   84 (96)
+                      |..-..+.|+-.|+.    .....|..+|+
+T Consensus       166 L~~~t~Y~v~V~a~~~~~~g~g~~s~~~~~  195 (306)
+T 3s98_A          166 LSPETTYCLKVKAALLTSWKIGVYSPVHCI  195 (306)
+T ss_dssp             CCTTCEEEEEEEEEEGGGTEECCCCCCEEE
+T ss_pred             CCCCCcEeEEEEEEeccCCCcCCCCHHHHh
+
+
+Done!

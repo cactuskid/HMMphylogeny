@@ -1,0 +1,474 @@
+Query         RhabdovirusSS
+Match_columns 509
+No_of_seqs    178 out of 268
+Neff          7.8 
+Searched_HMMs 177
+Date          Fri Jul 29 17:17:11 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/RhabdovirusSS.a3m.hhm -ohhm ./structurepred/RhabdovirusSS.a3m.hhm.hhm -o ./structurepred/RhabdovirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -local -b 20 -z 20 -B 2000 -Z 2000 -ssm 2 -addss -psipred /implacable/software/bin -psipred_data /implacable/software/data 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2cmz_A Spike glycoprotein; mem 100.0  2E-100  2E-104  800.0  21.0  414   18-434     1-415 (423)
+  2 4d6w_A Glycoprotein G; viral p 100.0 1.3E-99  2E-103  792.7  23.9  412   19-434     2-419 (419)
+  3 2gum_A Glycoprotein B; envelop  88.3   0.046 6.1E-06   54.6   2.3  159   37-206    26-274 (628)
+  4 3fvc_A GP115, glycoprotein GP1  73.0     0.3 3.9E-05   48.6   1.6   82   36-121    40-130 (663)
+  5 2l8s_A Integrin alpha-1; trans  58.4     2.9 0.00038   26.8   3.8   10  487-496    32-41  (54)
+  6 2knc_A Integrin alpha-IIB; tra  53.6       4 0.00053   25.9   4.0   19  486-504    34-52  (54)
+  7 2m3e_A Integrin alpha-L; integ  47.3     6.5 0.00085   24.4   4.2   26  472-497    20-45  (50)
+  8 2jrw_A Cyclic extended PEP.1;   44.9       3 0.00035   21.1   1.4   11  122-132    13-23  (23)
+  9 2l8s_A Integrin alpha-1; trans  27.5      18  0.0023   22.6   3.8   19  478-496    26-44  (54)
+ 10 2knc_A Integrin alpha-IIB; tra  24.2      28  0.0036   21.4   4.4   26  476-501    27-52  (54)
+ 11 1zza_A Stannin, AG8_1; helix,   22.7      31  0.0037   23.0   4.2   16  470-485    19-34  (90)
+ 12 2jo1_A Phospholemman; FXYD1, N  22.2      29  0.0036   23.0   4.1   12  464-475    15-26  (72)
+ 13 3wgu_G Na+/K+ ATPase gamma sub  18.3      25  0.0031   22.9   3.0   13  463-475    24-36  (65)
+ 14 2k9y_A Ephrin type-A receptor   15.6      31  0.0044   18.7   3.1   27  471-497    15-41  (41)
+ 15 2mkv_A Sodium/potassium-transp  15.0      63  0.0079   20.7   4.4   43  463-505    22-64  (64)
+ 16 2k9j_B Integrin beta-3; transm  13.8      21  0.0029   19.8   1.8   37  462-498     6-42  (43)
+ 17 1afo_A Glycophorin A; integral  13.4      35  0.0046   19.2   2.7   27  469-495    14-40  (40)
+ 18 2jp3_A FXYD domain-containing   13.0      79    0.01   20.3   4.6   57  449-505     2-58  (67)
+ 19 2mfr_A Insulin receptor, IR; i  12.8      43  0.0055   20.9   3.0   30  470-499    19-48  (57)
+ 20 2zxe_G FXYD10, phospholemman-l  12.4      46  0.0058   22.0   3.1   33  467-499    18-51  (74)
+
+No 1  
+>2cmz_A Spike glycoprotein; membrane, lipoprotein, transmembrane, envelope protein, membrane protein; HET: PE4; 2.40A {Vesicular stomatitis indiana virus} SCOP: e.76.1.2 PDB: 2j6j_A*
+Probab=100.00  E-value=1.6e-100  Score=800.01  Aligned_cols=414  Identities=30%  Similarity=0.629  Sum_probs=375.6
+
+Q ss_pred             CcceeecCCCCCCCccccCCCcccCCCCCCCCCccCccccceeeccCCcccCCccccceeecceeeecccccccccccee
+Q RhabdovirusSS    18 GIPIFVPSGRNISWQPVIQPFDYRCPIHGNLPNTMGLSATKLTIKSPSVFSTDKVSGWICHAAEWKTTCDYRWYGPQYIT   97 (509)
+Q Consensus        18 ~~~i~~P~~~~~~W~pv~~~~~l~CP~~~~~~~~~~~~~~~~~~~~p~~~~~~~v~GylC~k~~w~ttC~e~wygs~tit   97 (509)
+                      ++.++||+++.++|+||+. ++|+||.+.....++....+.+.+++|......+|+||+|||++|+|+|+|+|||++|||
+T Consensus         1 ~~~i~~P~~~~~~W~pv~~-~~l~CP~~~~~~~~~~~~~~~~~~~~P~~~~~~~v~GylC~k~~w~t~C~~~wygs~tit   79 (423)
+T 2cmz_A            1 KFTIVFPHNQKGNWKNVPS-NYHYCPSSSDLNWHNDLIGTAIQVKMPKSHKAIQADGWMCHASKWVTTCDFRWYGPKYIT   79 (423)
+T ss_dssp             CEEEEEECSCCCCCEECCT-TCCCCGGGGCTTTCCSCEEEEEEEEEECCCSCCEECEEEEEEEEEEEEEEECTTSCEEEE
+T ss_pred             CCeEEecCCCCCCCeECCC-CCccCcCCCCcCcccccceeeEEEEecCCCCCcccccEEEeeeEEEEEEEeEEeeEEEEE
+Confidence            4679999999999999987 778999998877777766778999999999999999999999999999999999999999
+
+
+Q ss_pred             eeecccCCChhHHHHHHHHhhcCCCCCCCCCCCCccCcccccccccceEEeccccccccCCCccccccccCCcccccccc
+Q RhabdovirusSS    98 HSIHPISPTIDECKRIISRIASGTDEDLGFPPQSCGWASVTTVSNTNYKVVPHSVHLEPYGGHWIDHEFNGGECREKVCE  177 (509)
+Q Consensus        98 ~~I~~~~~t~~eC~~ai~~~~~G~~~~p~fPp~~C~W~s~~~~~~~~i~i~~h~V~~DpY~~~~~D~~F~~G~C~~~~C~  177 (509)
+                      |+|++++||++||++|++++++|+++.|+||||+|+||++++++++|++|+||+|.+|||+++++||+|++|+|+..+|+
+T Consensus        80 ~~i~~~~~t~~eC~~ai~~~~~G~~~~p~fPp~~C~W~s~~~~~~~~i~i~~h~V~~DpY~~~~~D~~F~~g~C~~~~C~  159 (423)
+T 2cmz_A           80 QSIRSFTPSVEQCKESIEQTKQGTWLNPGFPPQSCGYATVTDAEAVIVQVTPHHVLVDEYTGEWVDSQFINGKCSNYICP  159 (423)
+T ss_dssp             EEEEEECCCHHHHHHHHHHHHTTCCCCCCSCCCCCCTTSEEEEEEEEEEEEECCEEEETTTTEEECTTBGGGEECSSEEE
+T ss_pred             EEEEeeCCCHHHHHHHHHHHHCCCccCCCCCCccCCccccceeEEEEEEEEecCCcccCCCCceECCcCCCCCCCCCccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ccCCcceeeeccccccccccccceeceeeecCCCCCCccccccceeec-ccccccccCcccccccccccccccCCccccc
+Q RhabdovirusSS   178 MKGNHSIWITDETVQHECKKHIEEVEGIMYGNAPRGDAMYINNFIIDK-HHRVYRFRGSCRVKFCDKDGIKFTRGDWVEK  256 (509)
+Q Consensus       178 T~h~~~~Wi~~~~~~~~C~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s-~~~~~~l~~aC~~~fCG~~Gir~~~G~W~~i  256 (509)
+                      |+|++++||++++..+.|+..+++.+.+++.+.+.......+..+++| +|+.++++|||+|+|||+.||||+||+||++
+T Consensus       160 T~~~~~~Wi~~~~~~~~C~~~~~~~~~~~~~~~~~~~~~~~~~~~i~s~~~~~~~l~~aC~~~fCG~~Gir~~~G~W~~i  239 (423)
+T 2cmz_A          160 TVHNSTTWHSDYKVKGLCDSNLISMDITFFSEDGELSSLGKEGTGFRSNYFAYETGGKACKMQYCKHWGVRLPSGVWFEM  239 (423)
+T ss_dssp             BSSSSCEEEESSCHHHHHGGGEEEEEEEEEESSCCGGGTTCSSCEEEETTEEEEECTTCEEEEETTEEEEECTTSBEEEE
+T ss_pred             ccCCCCEEeeCCCccccCCCCceEeeEEEeccCCccccccccccEEEcCCccccccCCccceeECCCCCeECCCCeEEEe
+Confidence            999999999999766789986667777777544333333456678999 9999999999999999999999999999999
+
+
+Q ss_pred             ccchhhhhcccCCCCCCCccccccCCCCcchhhhhhhhhHHHHHHHHHHHHhhhcccCCccccccccccCCCCCcceeee
+Q RhabdovirusSS   257 TAETLTKIYENIPECADGTLVSGHRPGLDLIDTVFNLENVVEYALREGTKRKINKQEKLTSVDLSYLAPRIGGFGSVFRV  336 (509)
+Q Consensus       257 ~~~~~~~~~~~l~~C~~~~~I~~~~~~~~~~~~~~~~~~~~~~~~Cl~~l~ki~~~~~is~~dLsyL~P~~PG~G~aYri  336 (509)
+                      ..... .....+|+|+++++|++++.+.++.++++++++++++++|+++++||+++++||++|||||+|++||+|+||||
+T Consensus       240 ~~~~~-~~~~~l~~C~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~C~~~l~ki~~~~~is~~dLs~L~P~~pG~G~aYri  318 (423)
+T 2cmz_A          240 ADKDL-FAAARFPECPEGSSISAPSQTSVDVSLIQDVERILDYSLCQETWSKIRAGLPISPVDLSYLAPKNPGTGPAFTI  318 (423)
+T ss_dssp             SCHHH-HHHTTCCBCCTTCCCEECCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTCCCCHHHHHTTSCCSSEEEEEEEE
+T ss_pred             ecccc-cccccCCCCcCCCEEeecCCccchHHHHHHHHHHHHHHHhHHHHHHHHCCCCCCHHHHhhhCCCCCCCccEEEE
+Confidence            97542 34678999999999999999999888999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecCcccccceeeeeEeecCCcccCCCccCCCCCCccccccccccCCCccccccceeecCCceeeecccccccccchhhhh
+Q RhabdovirusSS   337 RNGTLERGSTTYIRIEVEGPVVDSLTGIDPRTNASRVFWDDWELDGNIYQGFNGVYKGKDGKIHIPLNMIESGIIDDELQ  416 (509)
+Q Consensus       337 ~ng~L~~~~~~Y~~v~~~~~~~~~~~g~~~~~~~~~~~w~~w~~~~~~~~g~NGi~~~~~~~i~~P~~~~~~~~~~~~l~  416 (509)
+                      +||+|++++++|++++++.+++++..|+..++..+++.|.+|+++++..+|||||++.++ ++++|.++++++.++++++
+T Consensus       319 ~n~~L~~~~~~Y~~v~~~~~~~~~~~~~~~~~~~~~v~w~~w~~~~~~~~g~NGi~~~~~-~i~~P~~~~~~~~~~~~~~  397 (423)
+T 2cmz_A          319 INGTLKYFETRYIRVDIAAPILSRMVGMISGTTTERELWDDWAPYEDVEIGPNGVLRTSS-GYKFPLYMIGHGMLDSDLH  397 (423)
+T ss_dssp             ETTEEEEEEEEEEEEEESSSEESSSEEEETTSCCEEECCCCCEEETTEEECGGGCEEETT-EEECCHHHHHHHHHHHHHH
+T ss_pred             ECCcEEEEEEEEEEEEeCCCCcccccccccCCCcceEeeCCCEECCCeEECcceEEEECC-EEECcchHhccCcCChhHh
+Confidence            999999999999999998776655455544567889999999999999999999999999 5999999999999999999
+
+
+Q ss_pred             hhhcccccCCCCCCCCCC
+Q RhabdovirusSS   417 HAFQADIIPHPHYDDDEI  434 (509)
+Q Consensus       417 ~~~~v~~i~HP~~~~~~~  434 (509)
+                      +++++.+++||++..++.
+T Consensus       398 ~~~~~~~i~HP~~~~~~~  415 (423)
+T 2cmz_A          398 LSSKAQVFEHPHIQDAAS  415 (423)
+T ss_dssp             HHCCCEECCCCC------
+T ss_pred             hcccccccCCCccccccc
+Confidence            999999999999999875
+
+
+No 2  
+>4d6w_A Glycoprotein G; viral protein, rhabdovirus, viral entry, membrane fusion; HET: NAG FUC; 3.60A {Chandipura virus}
+Probab=100.00  E-value=1.3e-99  Score=792.72  Aligned_cols=412  Identities=32%  Similarity=0.649  Sum_probs=364.9
+
+Q ss_pred             cceeecCCCCCCCccccCCCcccCCCCCCCCCccCccccceeeccCCcccCCccccceeecceeeeccccccccccceee
+Q RhabdovirusSS    19 IPIFVPSGRNISWQPVIQPFDYRCPIHGNLPNTMGLSATKLTIKSPSVFSTDKVSGWICHAAEWKTTCDYRWYGPQYITH   98 (509)
+Q Consensus        19 ~~i~~P~~~~~~W~pv~~~~~l~CP~~~~~~~~~~~~~~~~~~~~p~~~~~~~v~GylC~k~~w~ttC~e~wygs~tit~   98 (509)
+                      ++++||+++..+|+||++ ++|+||...+...++....+.+.+++|......+|+||+|||++|+|+|+|+|||++||||
+T Consensus         2 ~~i~~P~~~~~~W~pv~~-~~l~CP~~~~~~~~~~~~~~~~~~~~p~~~~~~~v~GylC~k~~w~t~C~~~wygs~tit~   80 (419)
+T 4d6w_A            2 LSIAFPENTKLDWKPVTK-NTRYCPMGGEWFLEPGLQEESFLSSTPIGATPSKSDGFLCHAAKWVTTCDFRWYGPKYITH   80 (419)
+T ss_dssp             CCEEEESSSCCCCEECCT-TCCCCC--------CCEEEEEEEEEEEEEECGGGSCEEEEEEEEEEEEEECCSSSSCEEEE
+T ss_pred             ceEEeCCCCCCCceECCc-ccccCcCCcccCCCCCceeeeEEEEecCCCCCcccccEEEeeeEEEEEEEeEEEeeEEEEE
+Confidence            579999999999999999 9999999998777777777889999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCChhHHHHHHHHhhcCCCCCCCCCCCCccCcccccccccceEEeccccccccCCCccccccccCCccccccccc
+Q RhabdovirusSS    99 SIHPISPTIDECKRIISRIASGTDEDLGFPPQSCGWASVTTVSNTNYKVVPHSVHLEPYGGHWIDHEFNGGECREKVCEM  178 (509)
+Q Consensus        99 ~I~~~~~t~~eC~~ai~~~~~G~~~~p~fPp~~C~W~s~~~~~~~~i~i~~h~V~~DpY~~~~~D~~F~~G~C~~~~C~T  178 (509)
+                      +|++++|+++||++||+++++|+++.|+||||+|+||++++++++|++|+||+|.+|||+++++||+|++|+|+.++|+|
+T Consensus        81 ~i~~~~~t~~eC~~ai~~~~~G~~~~p~fPp~~C~W~s~~~~~~~~i~i~~h~V~~DpY~~~~~D~~F~~G~C~~~~C~T  160 (419)
+T 4d6w_A           81 SIHNIKPTRSDCDTALASYKSGTLVSLGFPPESCGYASVTDSEFLVIMITPHHVGVDDYRGHWVDPLFVGGECDQSYCDT  160 (419)
+T ss_dssp             EEEECCCCHHHHHHHHHHHTTTCCCCCCSCCCCCCSSSCEEEEEEEEEEEECCCEEETTTTEEECTTBSTTEECSSSEEB
+T ss_pred             EEEecCCCHHHHHHHHHHHHCCCcCCCCCCCcCCcceecceEEEEEEEEEecCCcCcCCCCeeeCCcCCCCccCCCeeec
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             cCCcceeeecccc-ccccccccceeceeeecCCCCCCccccccceeec-ccccccccCcccccccccccccccCCccccc
+Q RhabdovirusSS   179 KGNHSIWITDETV-QHECKKHIEEVEGIMYGNAPRGDAMYINNFIIDK-HHRVYRFRGSCRVKFCDKDGIKFTRGDWVEK  256 (509)
+Q Consensus       179 ~h~~~~Wi~~~~~-~~~C~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s-~~~~~~l~~aC~~~fCG~~Gir~~~G~W~~i  256 (509)
+                      +|++++||++++. .+.|+..+++....++....  ........++++ +++.+.+++||+|+|||+.||||+||+||++
+T Consensus       161 ~~~~~~Wi~~~~~~~~~C~~~~~~~~~~~~~~~~--~~~~~~~~~~~s~~~~~~~~~~aC~~~fCG~~Gir~~~G~W~~i  238 (419)
+T 4d6w_A          161 IHNSSVWIPADQTKKNICGQSFTPLTVTVAYDKT--KEIAAGGIVFKSKYHSHMEGARTCRLSYCGRNGIKFPNGEWVSL  238 (419)
+T ss_dssp             SSTTEEEEESCSSCCSCCSEEEEEEEEEEEEESS--SCCCSTTCEEEETTEEEEESTTCEEEEETTEEEEECTTSBEEEC
+T ss_pred             cCCCCEEEeCCCCCccccCCceEEeeeEEeeccC--cccccCceEEecCCcccccCCCceeeeECCCCCeECCCCeEEEe
+Confidence            9999999999865 57899866566554442221  123355678888 8899999999999999999999999999999
+
+
+Q ss_pred             ccchhh---hhcccCCCCCCCccccccCCCCcchhhhhhhhhHHHHHHHHHHHHhhhcccCCccccccccccCCCCCcce
+Q RhabdovirusSS   257 TAETLT---KIYENIPECADGTLVSGHRPGLDLIDTVFNLENVVEYALREGTKRKINKQEKLTSVDLSYLAPRIGGFGSV  333 (509)
+Q Consensus       257 ~~~~~~---~~~~~l~~C~~~~~I~~~~~~~~~~~~~~~~~~~~~~~~Cl~~l~ki~~~~~is~~dLsyL~P~~PG~G~a  333 (509)
+                      +.....   .....+|+|++++.|+++..+.+...++.++++++++++|+++++||+++++||++|||||+|++||+|+|
+T Consensus       239 ~~~~~~~~~~~~~~l~~C~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~C~~~l~ki~~~~~is~~dLs~L~P~~pG~G~a  318 (419)
+T 4d6w_A          239 DVKTRIQEKHLLPLFKECPAGTEVRSTLQSDGAQVLTSEIQRILDYSLCQNTWDKVERKEPLSPLDLSYLASKSPGKGLA  318 (419)
+T ss_dssp             CTTCEETTEESGGGSCBCCTTCCCBCCCGGGHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCCCHHHHHTTSCCSSEEEEE
+T ss_pred             eccccccccchhhcCCCCCCCCEEccccCcCchhhHHHHHHHHHHHHHHHHHHHHHHCCCCcCHHHHhhhCCCCCCCccE
+Confidence            875310   13567899999999998877776667788899999999999999999999999999999999999999999
+
+
+Q ss_pred             eeeecCcccccceeeeeEeecCCcccCCCccC-CCCCCccccccccccCCCccccccceeecCCceeeecccccccccch
+Q RhabdovirusSS   334 FRVRNGTLERGSTTYIRIEVEGPVVDSLTGID-PRTNASRVFWDDWELDGNIYQGFNGVYKGKDGKIHIPLNMIESGIID  412 (509)
+Q Consensus       334 Yri~ng~L~~~~~~Y~~v~~~~~~~~~~~g~~-~~~~~~~~~w~~w~~~~~~~~g~NGi~~~~~~~i~~P~~~~~~~~~~  412 (509)
+                      |||+||+|++++++|++++++.+...+.+|+. .++..+++.|.+|++++++.+|||||++++| +++||+++++++++|
+T Consensus       319 Yri~ng~L~~~~~~Y~~~~~~~~~~~~~~G~~~~~~~~~~~~w~~w~~~~~~~~g~NGi~~~~~-~i~~P~~~~~~~~~~  397 (419)
+T 4d6w_A          319 YTVINGTLSFAHTRYVRMWIDGPVLKEPKGKRESPSGISSDIWTQWFKYGDMEIGPNGLLKTAG-GYKFPWHLIGMGIVD  397 (419)
+T ss_dssp             EEEETTEEEEEEEEEEEEBCSSSEESSSEEESSSTTSCEEESCCCCEEETTEEECGGGCEEBTT-BEECCHHHHHHHHHH
+T ss_pred             EEEECCceEEEEEEEEEEEcCCCCcccccceecCCCCceEEEccCCEEcCCeEEccceEEEeCC-EEECchHHhcccccC
+Confidence            99999999999999999999876555545654 4567889999999999999999999999999 999999999999999
+
+
+Q ss_pred             hhhhhhhcccccCCCCCCCCCC
+Q RhabdovirusSS   413 DELQHAFQADIIPHPHYDDDEI  434 (509)
+Q Consensus       413 ~~l~~~~~v~~i~HP~~~~~~~  434 (509)
+                      +++++++++++|+||++.++++
+T Consensus       398 ~~~~~~~~~~~i~HP~~~~~~~  419 (419)
+T 4d6w_A          398 NELHELSEANPLDHPQLPHAQS  419 (419)
+T ss_dssp             HHHHHTTTCSCBCCCCCC----
+T ss_pred             hhHhccccCcccCCCcccccCC
+Confidence            9999999999999999988753
+
+
+No 3  
+>2gum_A Glycoprotein B; envelope glycoprotein, membrane fusion, viral protein; 2.10A {Human herpesvirus 1} SCOP: e.76.1.1 PDB: 4bom_A
+Probab=88.35  E-value=0.046  Score=54.61  Aligned_cols=159  Identities=8%  Similarity=0.062  Sum_probs=0.0
+
+Q ss_pred             CCcccCCCCCCCCCccCccccceeeccCCcccCCccccceeecceeeeccccccccccceeeeecccCCChhH-------
+Q RhabdovirusSS    37 PFDYRCPIHGNLPNTMGLSATKLTIKSPSVFSTDKVSGWICHAAEWKTTCDYRWYGPQYITHSIHPISPTIDE-------  109 (509)
+Q Consensus        37 ~~~l~CP~~~~~~~~~~~~~~~~~~~~p~~~~~~~v~GylC~k~~w~ttC~e~wygs~tit~~I~~~~~t~~e-------  109 (509)
+                      +..+.||...............++...    .....+++.|.|....++-+-.|+.+..........+++.+|       
+T Consensus        26 p~~~~C~~~~~~~~~~egi~~Vyk~Ni----~py~f~a~~c~K~v~~~~t~s~~~~~~~t~~~~~~~~V~~~Ei~~~id~  101 (628)
+T 2gum_A           26 EQPRRCPTRPEGQNYTEGIAVVFKENI----APYKFKATMYYKDVTVSQVWFGHRYSQFMGIFEDRAPVPFEEVIDKINA  101 (628)
+T ss_dssp             CCCCCCCCCCCCCCCBCEEEEEEEECC----SCEEEEEEEEEEEEEEEEEEECSSCEEEEEEEEEEEECCHHHHHTTHHH
+T ss_pred             CCCcCCCCCCCCccceEEEEEEEecCC----CceEeEEEEEEEEEEEEEEEccEEEEEEecceeEEecCCHHHhhhhccc
+
+
+Q ss_pred             ---HHHHHHHhhcCCCCCCCCC----------------------------CCCccCccc-------ccc----------c
+Q RhabdovirusSS   110 ---CKRIISRIASGTDEDLGFP----------------------------PQSCGWASV-------TTV----------S  141 (509)
+Q Consensus       110 ---C~~ai~~~~~G~~~~p~fP----------------------------p~~C~W~s~-------~~~----------~  141 (509)
+                         |+.|++....|....-+.|                            -+.-+|...       |-.          .
+T Consensus       102 ~~~C~s~~~~~~~g~~l~~~~~d~~~~~~~L~p~~~~~~~~~~y~T~~e~~~~~g~~g~yr~~ttvNC~v~~~~arS~~p  181 (628)
+T 2gum_A          102 KGVCRSTAKYVRNNLETTAFHRDDHETDMELKPANAATRTSRGWHTTDLKYNPSRVEAFHRYGTTVNCIVEEVDARSVYP  181 (628)
+T ss_dssp             HSEEESEEEEESSSSEEEEEGGGCCCCEEECEECCCCTTCCCEEESCCSCCCCCCCTTSEEEEEEEEEEEEEEEEEECTT
+T ss_pred             hhhhhHHHHheECCeEEEEEcCccccceeeccccccCCCCcceEEeCCCCCcCCCcceEEEeeeeeeEEEEEeeeccccc
+
+
+Q ss_pred             ccceEEeccccccccCCCccccccccCC-------------ccc--c-------------------ccccccCCcceeee
+Q RhabdovirusSS   142 NTNYKVVPHSVHLEPYGGHWIDHEFNGG-------------ECR--E-------------------KVCEMKGNHSIWIT  187 (509)
+Q Consensus       142 ~~~i~i~~h~V~~DpY~~~~~D~~F~~G-------------~C~--~-------------------~~C~T~h~~~~Wi~  187 (509)
+                      -.++.+.--.|..       ++|.|.+.             +|.  .                   .+|.+.+-.++|-+
+T Consensus       182 y~~F~l~~Gdiv~-------iSPf~g~~~~~~~~~~~~~~~~c~~~~~y~~~~~~~~~~~~~~~~~gfc~~~~~tv~W~~  254 (628)
+T 2gum_A          182 YDEFVLATGDFVY-------MSPFYGYREGSHTEHTTYAADRFKQVDGFYARDLTTKARATAPTTRNLLTTPKFTVAWDW  254 (628)
+T ss_dssp             CSCEEETTSCEEC-------BCTTCCSSTTGGGSCBCSCGGGEEEEEEECCCCC-------CCEEEEEEECSSCEEEEEC
+T ss_pred             cceeEeccCcEEE-------ccccCCCCCcccccccccCCCceEEEecceeeecccccccCCcceeEEEecCCEEEEecc
+
+
+Q ss_pred             cccccccccc-ccceeceee
+Q RhabdovirusSS   188 DETVQHECKK-HIEEVEGIM  206 (509)
+Q Consensus       188 ~~~~~~~C~~-~~~~~~~~~  206 (509)
+                      .......|.- .|.+....+
+T Consensus       255 ~~~~~~~C~~~~w~t~~~~I  274 (628)
+T 2gum_A          255 VPKRPSVCTMTKWQEVDEML  274 (628)
+T ss_dssp             CCSTTTCCSEEEEEEESCEE
+T ss_pred             CCCCCCccccEEehhhHHHH
+
+
+No 4  
+>3fvc_A GP115, glycoprotein GP110; viral fusion protein, PH domains, fusion loops, glycoprotein protein, membrane, transmembrane, viral protein; HET: NAG; 3.20A {Human herpesvirus 4}
+Probab=73.02  E-value=0.3  Score=48.60  Aligned_cols=82  Identities=12%  Similarity=0.053  Sum_probs=56.5
+
+Q ss_pred             CCCcccCCCCCCCCCccCccccceeeccCCcccCCccccceeecceeeeccccccccccceeeeecccCCChhH------
+Q RhabdovirusSS    36 QPFDYRCPIHGNLPNTMGLSATKLTIKSPSVFSTDKVSGWICHAAEWKTTCDYRWYGPQYITHSIHPISPTIDE------  109 (509)
+Q Consensus        36 ~~~~l~CP~~~~~~~~~~~~~~~~~~~~p~~~~~~~v~GylC~k~~w~ttC~e~wygs~tit~~I~~~~~t~~e------  109 (509)
+                      .|..+.||.......   ....+..+.+++. ...+.+++.|.|....++-.-.|+.+..........+++.+|      
+T Consensus        40 ~p~~~~C~~~~~~~~---~~egi~~Vyk~Ni-~py~f~a~~c~K~v~~~~t~s~~~~~~~t~~~~~~~~V~~~E~~~id~  115 (663)
+T 3fvc_A           40 FSSDIQCPSFGTREN---HTEGLLMVFKDNI-IPYSFKVRSYTKIVTNILIYNGHRADSVTNRHEEKFSVDSYETDQMDT  115 (663)
+T ss_dssp             CCSSCCCCCC---CC---EEEEEEEEEEECC-SCEEEEEEEEEEEEEEEEEEECSSCEEEEEEEEEEECCCHHHHHHHTT
+T ss_pred             CCCCccCCCCCCCcc---ceEEEEEEEecCC-CceEeEEEEEEEEEEEEEEEccEEEEEEecceeEEecCCHHHHhhccc
+Confidence            346788998754221   1122344444433 457889999999988877777777777777779999999999      
+
+
+Q ss_pred             ---HHHHHHHhhcCC
+Q RhabdovirusSS   110 ---CKRIISRIASGT  121 (509)
+Q Consensus       110 ---C~~ai~~~~~G~  121 (509)
+                         |+.|++....|.
+T Consensus       116 ~~~C~sa~~~~~~g~  130 (663)
+T 3fvc_A          116 IYQCYNAVKMTKDGL  130 (663)
+T ss_dssp             TCEEESEEEEEETTE
+T ss_pred             cccchhhhheEECCe
+Confidence               999887665555
+
+
+No 5  
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=58.37  E-value=2.9  Score=26.77  Aligned_cols=10  Identities=10%  Similarity=0.212  Sum_probs=4.7
+
+Q ss_pred             hhccccccCC
+Q RhabdovirusSS   487 ACTYLMKKSK  496 (509)
+Q Consensus       487 ~~~~~~~~~~  496 (509)
+                      -|.+.-+|.+
+T Consensus        32 K~GFFkRk~~   41 (54)
+T 2l8s_A           32 KIGFFKRPLK   41 (54)
+T ss_dssp             HHHHTTSCCS
+T ss_pred             HcCCCCCCCh
+Confidence            4455544444
+
+
+No 6  
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=53.58  E-value=4  Score=25.92  Aligned_cols=19  Identities=5%  Similarity=0.146  Sum_probs=10.9
+
+Q ss_pred             hhhccccccCCCCcccccc
+Q RhabdovirusSS   486 VACTYLMKKSKRPATESHE  504 (509)
+Q Consensus       486 ~~~~~~~~~~~~~~~~~~e  504 (509)
+                      .-|.++-+|.++...++-|
+T Consensus        34 ~K~GFFkRk~~~~~~~~~~   52 (54)
+T 2knc_A           34 WKVGFFKRNRPPLEEDDEE   52 (54)
+T ss_dssp             HHHHHTTTTCCSCCCCSSS
+T ss_pred             HHcCCcccCCccccccccc
+Confidence            4456666666665555444
+
+
+No 7  
+>2m3e_A Integrin alpha-L; integrin alpah L TM domain, polar interaction, membrane PROT; NMR {Homo sapiens}
+Probab=47.27  E-value=6.5  Score=24.43  Aligned_cols=26  Identities=15%  Similarity=0.355  Sum_probs=11.6
+
+Q ss_pred             HHHHHHHHHHHHHhhhhccccccCCC
+Q RhabdovirusSS   472 LVALILIFLLIRCCVACTYLMKKSKR  497 (509)
+Q Consensus       472 i~~ii~~~~~~~~~~~~~~~~~~~~~  497 (509)
+                      ++++++..+++-+-.-|.+.-+|.+.
+T Consensus        20 i~GlllL~~ii~iL~K~GFFkR~~~~   45 (50)
+T 2m3e_A           20 IGGLLLLLLIFIVLYKVGFFKRNLKE   45 (50)
+T ss_dssp             HHHHHHHHHHHHHHHHHTSGGGSCCC
+T ss_pred             HHHHHHHHHHHHHHHHcCccccCCch
+Confidence            33333333333333445665555444
+
+
+No 8  
+>2jrw_A Cyclic extended PEP.1; acetylcholine receptor, phage display, peptide cyclization, immune system; NMR {Synthetic}
+Probab=44.89  E-value=3  Score=21.07  Aligned_cols=11  Identities=36%  Similarity=0.736  Sum_probs=9.1
+
+Q ss_pred             CCCCCCCCCCc...
+Q RhabdovirusSS   122 DEDLGFPPQSC...  132 (509)
+Q Consensus       122 ~~~p~fPp~~C...  132 (509)
+                      .+.|++|||-|   
+T Consensus        13 serpyhppppc...   23 (23)
+T 2jrw_A           13 SERPYHPPPPCxxx   26 (26)
+T ss_dssp             CSSSCCSCSCC...
+T ss_pred             ccCCCCCCCCC...
+Confidence            37899999987   
+
+
+No 9  
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=27.55  E-value=18  Score=22.59  Aligned_cols=19  Identities=16%  Similarity=0.027  Sum_probs=10.0
+
+Q ss_pred             HHHHHHHhhhhccccccCC
+Q RhabdovirusSS   478 IFLLIRCCVACTYLMKKSK  496 (509)
+Q Consensus       478 ~~~~~~~~~~~~~~~~~~~  496 (509)
+                      +.++.-.|..+..-.++..
+T Consensus        26 ii~iL~K~GFFkRk~~~~~   44 (54)
+T 2l8s_A           26 LILALWKIGFFKRPLKKKM   44 (54)
+T ss_dssp             HHHHHHHHHHTTSCCSCCC
+T ss_pred             HHHHHHHcCCCCCCChhhh
+Confidence            3334456666665555444
+
+
+No 10 
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=24.17  E-value=28  Score=21.44  Aligned_cols=26  Identities=8%  Similarity=-0.074  Sum_probs=14.1
+
+Q ss_pred             HHHHHHHHHhhhhccccccCCCCccc
+Q RhabdovirusSS   476 ILIFLLIRCCVACTYLMKKSKRPATE  501 (509)
+Q Consensus       476 i~~~~~~~~~~~~~~~~~~~~~~~~~  501 (509)
+                      +++.++.-.|..+..-.+.....+.|
+T Consensus        27 ~li~~iL~K~GFFkRk~~~~~~~~~~   52 (54)
+T 2knc_A           27 TILVLAMWKVGFFKRNRPPLEEDDEE   52 (54)
+T ss_dssp             HHHHHHHHHHHHTTTTCCSCCCCSSS
+T ss_pred             HHHHHHHHHcCCcccCCccccccccc
+Confidence            33344445666666666655555544
+
+
+No 11 
+>1zza_A Stannin, AG8_1; helix, membrane protein; NMR {Homo sapiens}
+Probab=22.75  E-value=31  Score=22.98  Aligned_cols=16  Identities=31%  Similarity=0.480  Sum_probs=6.9
+
+Q ss_pred             hHHHHHHHHHHHHHHh
+Q RhabdovirusSS   470 MTLVALILIFLLIRCC  485 (509)
+Q Consensus       470 ~ii~~ii~~~~~~~~~  485 (509)
+                      ..|+|+..+-.||--|
+T Consensus        19 ViLIAvAALgaLI~gC   34 (90)
+T 1zza_A           19 VILIAIAALGALILGC   34 (90)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHH
+Confidence            3444444334455444
+
+
+No 12 
+>2jo1_A Phospholemman; FXYD1, Na,K-ATPase, micelle, hydrolase regulator; NMR {Homo sapiens}
+Probab=22.24  E-value=29  Score=23.01  Aligned_cols=12  Identities=25%  Similarity=0.531  Sum_probs=6.9
+
+Q ss_pred             hhhhhhhHHHHH
+Q RhabdovirusSS   464 SLKFFGMTLVAL  475 (509)
+Q Consensus       464 ~~~~~~~ii~~i  475 (509)
+                      +|..-|++++++
+T Consensus        15 tLRigGLi~A~v   26 (72)
+T 2jo1_A           15 SLQIGGLVIAGI   26 (72)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HhhcccchhhhH
+Confidence            566666665443
+
+
+No 13 
+>3wgu_G Na+/K+ ATPase gamma subunit transcript variant A; membrane protein, ION pump, Na+ binding, haloacid dehydrogenease superfamily, phosphate analogue; HET: ADP CLR PC1 NAG; 2.80A {Sus scrofa} PDB: 3wgv_G* 4hyt_G* 4res_G* 4ret_G* 4hqj_G* 3n23_G* 3b8e_G* 3kdp_G*
+Probab=18.31  E-value=25  Score=22.88  Aligned_cols=13  Identities=23%  Similarity=0.383  Sum_probs=8.2
+
+Q ss_pred             hhhhhhhhHHHHH
+Q RhabdovirusSS   463 TSLKFFGMTLVAL  475 (509)
+Q Consensus       463 ~~~~~~~~ii~~i  475 (509)
+                      .+|..-|++++++
+T Consensus        24 ~tLRigGLi~A~v   36 (65)
+T 3wgu_G           24 ETVRNGGLIFAAL   36 (65)
+T ss_dssp             HHHHHHHHHHHHH
+T ss_pred             HHHhhccchhhhH
+Confidence            3677777775544
+
+
+No 14 
+>2k9y_A Ephrin type-A receptor 2; receptor tyrosine kinase, membrane protein, dimeric transmembrane domain, ephrin receptor, ATP-binding, glycoprotein; NMR {Homo sapiens}
+Probab=15.60  E-value=31  Score=18.73  Aligned_cols=27  Identities=4%  Similarity=0.260  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHHhhhhccccccCCC
+Q RhabdovirusSS   471 TLVALILIFLLIRCCVACTYLMKKSKR  497 (509)
+Q Consensus       471 ii~~ii~~~~~~~~~~~~~~~~~~~~~  497 (509)
+                      ++++++...++..++.....+++|+++
+T Consensus        15 i~g~vvg~~~~~~~i~~~~~~~~rr~~   41 (41)
+T 2k9y_A           15 VIGGVAVGVVLLLVLAGVGFFIHRRRK   41 (41)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHSSSSSCC
+T ss_pred             EEEEEeHHHHHHHHHHHHHHHheeecC
+
+
+No 15 
+>2mkv_A Sodium/potassium-transporting ATPase subunit GAMM; FXYD2B, Na,K-ATPase, FXYD, micelle, transport protein; NMR {Homo sapiens}
+Probab=15.04  E-value=63  Score=20.66  Aligned_cols=43  Identities=16%  Similarity=0.084  Sum_probs=0.0
+
+Q ss_pred             hhhhhhhhHHHHHHHHHHHHHHhhhhccccccCCCCccccccc
+Q RhabdovirusSS   463 TSLKFFGMTLVALILIFLLIRCCVACTYLMKKSKRPATESHEM  505 (509)
+Q Consensus       463 ~~~~~~~~ii~~ii~~~~~~~~~~~~~~~~~~~~~~~~~~~e~  505 (509)
+                      .++.-.++++.+++.++-++.+..-.|+|+.++|.+...+.|.
+T Consensus        22 ~tLRiGGLi~A~vLfi~GIliils~kcrCk~~qk~~~~~~~~p   64 (64)
+T 2mkv_A           22 ETVRNGGLIFAGLAFIVGLLILLSRRFRSGGNKKRRQINEDEP   64 (64)
+T ss_dssp             TTHHHHHHHHHHHHHHHHHHHHHHHHHHSSSSCCSCCCCCCCC
+T ss_pred             HHHhhccchhhhHHHHHHHHHHHccccccCCCCCCCCCCCCCC
+
+
+No 16 
+>2k9j_B Integrin beta-3; transmembrane complex, cell adhesion, cleavage on basic residues, disease mutation, glycoprotein, pyrrolidone carboxylic acid; NMR {Homo sapiens} PDB: 2rmz_A 2rn0_A 2l91_A
+Probab=13.78  E-value=21  Score=19.81  Aligned_cols=37  Identities=11%  Similarity=0.175  Sum_probs=0.0
+
+Q ss_pred             chhhhhhhhHHHHHHHHHHHHHHhhhhccccccCCCC
+Q RhabdovirusSS   462 GTSLKFFGMTLVALILIFLLIRCCVACTYLMKKSKRP  498 (509)
+Q Consensus       462 ~~~~~~~~~ii~~ii~~~~~~~~~~~~~~~~~~~~~~  498 (509)
+                      ......++.++++.++++.++.+..+.+.++++++++
+T Consensus         6 ~~~~~~i~~~vvg~~~~~~li~~~~~~~~~~~~~~~~   42 (43)
+T 2k9j_B            6 GPDILVVLLSVMGAILLIGLAALLIWKLLITIHDRKE   42 (43)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             CCChhhHhHHHHHHHHHHHHHHHHHHHHHHHhhhccC
+
+
+No 17 
+>1afo_A Glycophorin A; integral membrane protein, transmembrane helix interactions, membrane protein folding; NMR {Homo sapiens} SCOP: j.35.1.1 PDB: 2kpf_A
+Probab=13.41  E-value=35  Score=19.21  Aligned_cols=27  Identities=7%  Similarity=-0.173  Sum_probs=0.0
+
+Q ss_pred             hhHHHHHHHHHHHHHHhhhhccccccC
+Q RhabdovirusSS   469 GMTLVALILIFLLIRCCVACTYLMKKS  495 (509)
+Q Consensus       469 ~~ii~~ii~~~~~~~~~~~~~~~~~~~  495 (509)
+                      ..+++.++++.++.-+..+++++++++
+T Consensus        14 G~vvG~vv~~~~l~~~~~~~~rrrr~~   40 (40)
+T 1afo_A           14 LIIFGVMAGVIGTILLISYGIRRLIKK   40 (40)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHSCC
+T ss_pred             EEehHHHHHHHHHHHHHHHHHhhhhcC
+
+
+No 18 
+>2jp3_A FXYD domain-containing ION transport regulator 4; protein, transcription; NMR {Rattus norvegicus}
+Probab=13.04  E-value=79  Score=20.31  Aligned_cols=57  Identities=12%  Similarity=0.023  Sum_probs=0.0
+
+Q ss_pred             CccchhhhhccccchhhhhhhhHHHHHHHHHHHHHHhhhhccccccCCCCccccccc
+Q RhabdovirusSS   449 NPVDAVVEWVSGWGTSLKFFGMTLVALILIFLLIRCCVACTYLMKKSKRPATESHEM  505 (509)
+Q Consensus       449 n~v~~i~~w~s~w~~~~~~~~~ii~~ii~~~~~~~~~~~~~~~~~~~~~~~~~~~e~  505 (509)
+                      .+.+....+.-+|.+.=.+-..+.+++.++.+++.+...|+++++++++...++.++
+T Consensus         2 ~~~~~~~pF~YDY~tLRiGGLi~A~vLfi~Giliils~kckC~~~qk~~~~~~~~~~   58 (67)
+T 2jp3_A            2 GPVDKGSPFYYDWESLQLGGLIFGGLLCIAGIALALSGKCKCRRNHTPSSLPEKVTP   58 (67)
+T ss_dssp             CTTSTTSGGGGGGHHHHHHHHHHHHHHHHHHHHHHHTTHHHHHHTCCTTTSTTTSHH
+T ss_pred             CccccCCCCcCChHHHhhcceehhhHHHHHHHHHHHcCccccCCCCCCCCCccccCc
+
+
+No 19 
+>2mfr_A Insulin receptor, IR; insulin recepotr, membrane protein, detergent micelles, TRAN; NMR {Homo sapiens}
+Probab=12.76  E-value=43  Score=20.92  Aligned_cols=30  Identities=17%  Similarity=0.319  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHHHHHHHHHhhhhccccccCCCCc
+Q RhabdovirusSS   470 MTLVALILIFLLIRCCVACTYLMKKSKRPA  499 (509)
+Q Consensus       470 ~ii~~ii~~~~~~~~~~~~~~~~~~~~~~~  499 (509)
+                      ++++.+++++++.-....+....||+.+++
+T Consensus        19 iii~pVi~iili~g~i~~ly~~~kk~~s~~   48 (57)
+T 2mfr_A           19 IIIGPLIFVFLFSVVIGSIYLFLRKRQPDG   48 (57)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHTSSCCCC
+T ss_pred             hHHHHHHHHHHHHHHHHHhhhhhhhhcCCc
+
+
+No 20 
+>2zxe_G FXYD10, phospholemman-like protein; membrane protein, ION pump, ATPase, K+ binding, haloacid dehydrogenease superfamily, phosphate analogue; HET: CLR NAG NDG; 2.40A {Squalus acanthias} PDB: 3a3y_G*
+Probab=12.40  E-value=46  Score=22.03  Aligned_cols=33  Identities=6%  Similarity=-0.060  Sum_probs=0.0
+
+Q ss_pred             hh-hhHHHHHHHHHHHHHHhhhhccccccCCCCc
+Q RhabdovirusSS   467 FF-GMTLVALILIFLLIRCCVACTYLMKKSKRPA  499 (509)
+Q Consensus       467 ~~-~~ii~~ii~~~~~~~~~~~~~~~~~~~~~~~  499 (509)
+                      ++ ++.+++.+++|++-+++....+|+.+.+.++
+T Consensus        18 tLRiGGLi~A~vLfi~GI~iils~kcrck~~qk~   51 (74)
+T 2zxe_G           18 RLRVVGLIVAAVLCVIGIIILLAGKCRCKFNQNK   51 (74)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTTTC---------
+T ss_pred             HhhhcceehhhHHHHHHHHHHHccccccccCCcC
+
+
+Done!

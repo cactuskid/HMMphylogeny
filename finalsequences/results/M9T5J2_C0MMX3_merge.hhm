@@ -1,0 +1,26 @@
+Query         M9T5J2
+Match_columns 445
+No_of_seqs    367 out of 460
+Neff          7.7 
+Searched_HMMs 1
+Date          Tue Aug 23 14:46:58 2016
+Command       hhalign -i ./finalsequences/models/M9T5J2.a3m.hhm -t ./finalsequences/models/C0MMX3.a3m.hhm -o ./finalsequences/results/M9T5J2_C0MMX3_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 C0MMX3                           0.1    0.65    0.65   13.2   3.5   41  364-404   294-337 (461)
+
+No 1  
+>C0MMX3
+Probab=0.13  E-value=0.65  Score=13.24  Aligned_cols=41  Identities=10%  Similarity=0.033  Sum_probs=20.7
+
+Q ss_pred             CcEEEEEEeccCCceeeE---EecCCcceeeeeeeeeeeEEEEe
+Q M9T5J2          364 GAKVSIKLHSSKNSTAHV---RCKGDETAFSVLEGVHSYTVSLS  404 (445)
+Q Consensus       364 GA~~~i~C~S~~~t~a~i---~C~~~~f~i~c~~~g~~~~~~~~  404 (445)
+                      -|.++-.|+|.....|+.   .=-.-..-+....+.+...+.+.
+T Consensus       294 tAtiCg~C~s~~~~ig~~~tv~~vkPyIdi~i~~gnKt~~I~Ir  337 (461)
+T C0MMX3          294 SATLCGLCKSEMKTIGYKVTTTKVSPYIDIEVVHGNKTEMIKIR  337 (461)
+T ss_pred             cccccccccccceeeeeEEEeeeecceeeEEEEecCceeeEEee
+Confidence            366777777776444433   11122234455555554555554
+
+
+Done!

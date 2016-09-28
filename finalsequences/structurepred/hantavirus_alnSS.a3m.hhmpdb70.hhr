@@ -1,0 +1,322 @@
+Query         hantavirus_alnSS
+Match_columns 486
+No_of_seqs    53 out of 198
+Neff          2.6 
+Searched_HMMs 266
+Date          Fri Jul 29 17:46:20 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/hantavirus_alnSS.a3m.hhm -ohhm ./structurepred/hantavirus_alnSS.a3m.hhm.hhm -o ./structurepred/hantavirus_alnSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -local -b 20 -z 20 -B 2000 -Z 2000 -ssm 2 -addss -psipred /implacable/software/bin -psipred_data /implacable/software/data 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2klu_A T-cell surface glycopro  59.0     1.6 0.00029   28.7   3.5   31  456-486    11-41  (70)
+  2 2l2t_A Receptor tyrosine-prote  57.5     2.1 0.00041   24.3   3.7   31  456-486    14-44  (44)
+  3 2l2t_A Receptor tyrosine-prote  57.2     1.5 0.00028   25.1   2.8   30  457-486    12-41  (44)
+  4 2rdd_B UPF0092 membrane protei  53.4    0.75 0.00013   27.9   0.6    7  478-484    23-29  (37)
+  5 2k9j_B Integrin beta-3; transm  35.9     3.3 0.00062   23.8   1.9   13  473-485    29-41  (43)
+  6 1q55_A EP-cadherin, C-cadherin  27.6     2.1 0.00044   38.5   0.0   10  304-313   543-552 (880)
+  7 4rng_A MTN3/saliva family; sem  27.4     9.5  0.0017   25.6   3.4   40  440-479    47-87  (94)
+  8 3lb6_C IL-13, interleukin-13 r  24.2     2.6 0.00055   32.9   0.0   19  402-420   294-312 (380)
+  9 2knc_B Integrin beta-3; transm  21.6       5 0.00089   26.7   0.7    9  475-483    32-40  (79)
+ 10 4x5m_A Uncharacterized protein  17.9      11  0.0021   24.7   2.2   27  449-475    53-79  (100)
+ 11 1afo_A Glycophorin A; integral  17.6      14  0.0023   22.2   2.0    9  475-483    31-39  (40)
+ 12 2g1e_A Hypothetical protein TA  17.1      10   0.002   24.4   1.8   17  190-206    74-90  (90)
+ 13 3wu2_I Photosystem II reaction  17.0      38  0.0049   21.9   3.7   26  460-485     8-35  (38)
+ 14 3dwg_C 9.5 kDa culture filtrat  16.3      11   0.002   24.4   1.7   17  190-206    77-93  (93)
+ 15 2lk9_A Bone marrow stromal ant  16.2      32  0.0042   21.9   3.1   28  456-483     8-35  (35)
+ 16 1qle_D Cytochrome AA3, ccytoch  15.4      18  0.0026   23.0   2.0   17  456-472    26-42  (43)
+ 17 4ccf_A RSV F, fusion glycoprot  14.7     8.4  0.0012   36.7   0.0   45  440-484   505-556 (574)
+ 18 3gce_A Ferredoxin component of  14.7      18  0.0033   24.6   2.6   56  185-243    14-80  (121)
+ 19 3jxo_A TRKA-N domain protein;   14.4      11  0.0022   22.8   1.3   17  189-205    59-75  (86)
+ 20 4qnc_A Chemical transport prot  14.3      23  0.0046   22.0   3.1   39  448-486    50-88  (93)
+
+No 1  
+>2klu_A T-cell surface glycoprotein CD4; cell membrane, disulfide bond, HOST- virus interaction, immune response, immunoglobulin domain, lipoprotein; NMR {Homo sapiens}
+Probab=58.95  E-value=1.6  Score=28.68  Aligned_cols=31  Identities=13%  Similarity=0.170  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhhhccccccccCC
+Q hantavirus_aln  456 WMVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       456 W~V~~vlv~~li~Si~l~s~~CP~r~~k~~~  486 (486)
+                      .+|+.++++++++.++++.+++=.|++++++
+T Consensus        11 g~vvg~~~~~~~i~~~~~~~~~rrrr~~~~~   41 (70)
+T 2klu_A           11 LIVLGGVAGLLLFIGLGIFFSVRSRHRRRQA   41 (70)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHSSCCSSSC
+T ss_pred             EEehHHHHHHHHHHHHHHHHHHhhhhhhhcc
+
+
+No 2  
+>2l2t_A Receptor tyrosine-protein kinase ERBB-4; transmembrane dimer, membrane domain, membrane protei; NMR {Homo sapiens} PDB: 2lcx_A
+Probab=57.54  E-value=2.1  Score=24.29  Aligned_cols=31  Identities=16%  Similarity=0.171  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhhhccccccccCC
+Q hantavirus_aln  456 WMVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       456 W~V~~vlv~~li~Si~l~s~~CP~r~~k~~~  486 (486)
+                      .+++.++++++++.++++.+..-.|+.+++.
+T Consensus        14 g~~vg~~~~~~~~~~~~~~~~rrr~~~~~~~   44 (44)
+T 2l2t_A           14 AGVIGGLFILVIVGLTFAVYVRRKSIKKKRA   44 (44)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTCSSCCCC
+T ss_pred             EehHHHHHHHHHHHHHHHHHhhhhhhhhccC
+
+
+No 3  
+>2l2t_A Receptor tyrosine-protein kinase ERBB-4; transmembrane dimer, membrane domain, membrane protei; NMR {Homo sapiens} PDB: 2lcx_A
+Probab=57.16  E-value=1.5  Score=25.12  Aligned_cols=30  Identities=23%  Similarity=0.254  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhhhccccccccCC
+Q hantavirus_aln  457 MVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       457 ~V~~vlv~~li~Si~l~s~~CP~r~~k~~~  486 (486)
+                      ++.+++.+++++.++.+.+++-.|++|++.
+T Consensus        12 i~g~~vg~~~~~~~~~~~~~~~~rrr~~~~   41 (44)
+T 2l2t_A           12 IAAGVIGGLFILVIVGLTFAVYVRRKSIKK   41 (44)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHTTCSSC
+T ss_pred             EEEehHHHHHHHHHHHHHHHHHhhhhhhhh
+
+
+No 4  
+>2rdd_B UPF0092 membrane protein YAJC; drug resistance, multidrug efflux, transporter, antiporter, novel transmembrane helix, ACRB, inner membrane; HET: AIC; 3.50A {Escherichia coli}
+Probab=53.45  E-value=0.75  Score=27.94  Aligned_cols=7  Identities=29%  Similarity=0.539  Sum_probs=4.2
+
+Q ss_pred             ccccccc
+Q hantavirus_aln  478 PRRATYK  484 (486)
+Q Consensus       478 P~r~~k~  484 (486)
+                      |-||.+|
+T Consensus        23 pqkK~~k   29 (37)
+T 2rdd_B           23 PQQKRTK   29 (37)
+T ss_dssp             HHHHHHH
+T ss_pred             HHHHHHH
+Confidence            7666554
+
+
+No 5  
+>2k9j_B Integrin beta-3; transmembrane complex, cell adhesion, cleavage on basic residues, disease mutation, glycoprotein, pyrrolidone carboxylic acid; NMR {Homo sapiens} PDB: 2rmz_A 2rn0_A 2l91_A
+Probab=35.89  E-value=3.3  Score=23.85  Aligned_cols=13  Identities=8%  Similarity=-0.169  Sum_probs=7.0
+
+Q ss_pred             HhhhccccccccC
+Q hantavirus_aln  473 FALCCPRRATYKK  485 (486)
+Q Consensus       473 ~s~~CP~r~~k~~  485 (486)
+                      +.+.+-+|+++++
+T Consensus        29 ~~~~~~~~~~~~~   41 (43)
+T 2k9j_B           29 LIWKLLITIHDRK   41 (43)
+T ss_dssp             HHHHHHHHHHHHT
+T ss_pred             HHHHHHHHhhhcc
+Confidence            3455556665554
+
+
+No 6  
+>1q55_A EP-cadherin, C-cadherin; trans interaction, desmosome, junction, adhesion, structural protein; HET: NAG NDG; 30.00A {Mus musculus} SCOP: i.20.1.1 PDB: 1q5a_A* 1q5b_A* 1q5c_A*
+Probab=27.59  E-value=2.1  Score=38.50  Aligned_cols=10  Identities=20%  Similarity=0.139  Sum_probs=4.7
+
+Q ss_pred             eeeccccccc
+Q hantavirus_aln  304 VIVGRDLSFQ  313 (486)
+Q Consensus       304 i~v~rdi~F~  313 (486)
+                      |.+++.+|+|
+T Consensus       543 i~~~~~ld~e  552 (880)
+T 1q55_A          543 VTGNGNLDRE  552 (880)
+T ss_dssp             EEECSCCCTT
+T ss_pred             EEeecccCcc
+Confidence            3344455554
+
+
+No 7  
+>4rng_A MTN3/saliva family; semisweet, sugar transporter, sugar binding protein; HET: OLC; 2.40A {Thermodesulfovibrio yellowstonii}
+Probab=27.39  E-value=9.5  Score=25.57  Aligned_cols=40  Identities=20%  Similarity=0.210  Sum_probs=27.8
+
+Q ss_pred             ccccccchhh-hhccchhHHHHHHHHHHHHHHHHHhhhccc
+Q hantavirus_aln  440 WFKKSGEWIL-GVLNGNWMVVAVLIALLILSIFLFALCCPR  479 (486)
+Q Consensus       440 wf~KsgEWl~-Gi~~GNW~V~~vlv~~li~Si~l~s~~CP~  479 (486)
+                      ++.-+--|+. |++.+||.++++=++-++++++.+.++...
+T Consensus        47 ~~~~~~~w~~Yg~~~~d~~i~~~n~~g~~~~~~~l~~~~~~   87 (94)
+T 4rng_A           47 MAIGITLWFFYGVLIKEIPVILANLISLILIFLIIFMKIRY   87 (94)
+T ss_dssp             HHHHHHHHHHHHHHTTCHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHHHHHhcCHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            3334445665 999999988887777777777766665433
+
+
+No 8  
+>3lb6_C IL-13, interleukin-13 receptor subunit alpha-2; cytokine, decoy, decoy receptor, glycoprotein; HET: MLY NAG; 3.05A {Homo sapiens} PDB: 3lb6_D*
+Probab=24.23  E-value=2.6  Score=32.92  Aligned_cols=19  Identities=5%  Similarity=-0.228  Sum_probs=3.8
+
+Q ss_pred             ccccccccccccccccccc
+Q hantavirus_aln  402 SSSGLTAAAPHLDRVTGYN  420 (486)
+Q Consensus       402 s~~gl~a~aPHL~rv~g~~  420 (486)
+                      .-.+|....-+.-||...+
+T Consensus       294 ~~~~L~p~~~Y~~~Vra~~  312 (380)
+T 3lb6_C          294 TLKTTNETRQLCFVVRSKV  312 (380)
+T ss_dssp             ------------CCEEEEE
+T ss_pred             EEecCCCCcEEEEEEEEEE
+Confidence            3445555555555565554
+
+
+No 9  
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=21.61  E-value=5  Score=26.71  Aligned_cols=9  Identities=0%  Similarity=-0.507  Sum_probs=3.6
+
+Q ss_pred             hhccccccc
+Q hantavirus_aln  475 LCCPRRATY  483 (486)
+Q Consensus       475 ~~CP~r~~k  483 (486)
+                      +.|-.++++
+T Consensus        32 ~~~~~~~r~   40 (79)
+T 2knc_B           32 WKLLITIHD   40 (79)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHHHhhc
+Confidence            334444433
+
+
+No 10 
+>4x5m_A Uncharacterized protein; sweet, PQLC, membrane protein, sugar transporter, transport; HET: OLA OLB OLC; 2.00A {Escherichia coli umea 3162-1} PDB: 4x5n_A
+Probab=17.91  E-value=11  Score=24.67  Aligned_cols=27  Identities=19%  Similarity=0.431  Sum_probs=19.4
+
+Q ss_pred             hhhccchhHHHHHHHHHHHHHHHHHhh
+Q hantavirus_aln  449 LGVLNGNWMVVAVLIALLILSIFLFAL  475 (486)
+Q Consensus       449 ~Gi~~GNW~V~~vlv~~li~Si~l~s~  475 (486)
+                      .|++.+||.+++.-++-++++++.+..
+T Consensus        53 y~~~~~~~~~~~~~~~~~~~~~~~l~~   79 (100)
+T 4x5m_A           53 YGIMRSDFAVLIANIVTLFLAAPVLVI   79 (100)
+T ss_dssp             HHHHHTCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhhcHHHHHHHHHHHHHHHHHHHH
+Confidence            677889998888777777666665543
+
+
+No 11 
+>1afo_A Glycophorin A; integral membrane protein, transmembrane helix interactions, membrane protein folding; NMR {Homo sapiens} SCOP: j.35.1.1 PDB: 2kpf_A
+Probab=17.63  E-value=14  Score=22.19  Aligned_cols=9  Identities=22%  Similarity=-0.060  Sum_probs=3.9
+
+Q ss_pred             hhccccccc
+Q hantavirus_aln  475 LCCPRRATY  483 (486)
+Q Consensus       475 ~~CP~r~~k  483 (486)
+                      +++-+|++|
+T Consensus        31 ~~~~rrrr~   39 (40)
+T 1afo_A           31 SYGIRRLIK   39 (40)
+T ss_dssp             HHHHHHHSC
+T ss_pred             HHHHhhhhc
+Confidence            344444443
+
+
+No 12 
+>2g1e_A Hypothetical protein TA0895; MOAD, molybdopterin, transferase; NMR {Thermoplasma acidophilum} PDB: 2k22_A
+Probab=17.10  E-value=10  Score=24.36  Aligned_cols=17  Identities=18%  Similarity=0.481  Sum_probs=14.6
+
+Q ss_pred             cccCCceeeeccccccc
+Q hantavirus_aln  190 KFQPSDTLLFLGPLEQG  206 (486)
+Q Consensus       190 k~q~gdTLlflgPle~G  206 (486)
+                      .+++||+|.++.|+.||
+T Consensus        74 ~l~~gdeI~iip~v~GG   90 (90)
+T 2g1e_A           74 EIKDDDKIDLFPPVAGG   90 (90)
+T ss_dssp             BCCTTCEEEEECCTTCC
+T ss_pred             ccCCCCEEEEecCcCCC
+Confidence            46789999999999886
+
+
+No 13 
+>3wu2_I Photosystem II reaction center protein I; electron transport, photosynthesis, membr complex, transmembrane alpha-helix; HET: HSK FME OEX CLA PHO BCR SQD LMG PL9 UNL LMT HTG DGD LHG HEM RRX; 1.90A {Thermosynechococcus vulcanus} PDB: 1s5l_I* 3kzi_I* 2axt_I* 4fby_I* 4ixq_I* 4ixr_I* 4pbu_I* 4pj0_I* 4q54_I* 4tnh_I* 4tni_I* 4tnj_I* 4tnk_I* 4ub6_I* 4ub8_I* 4il6_I* 3a0b_I* 3a0h_I*
+Probab=17.02  E-value=38  Score=21.89  Aligned_cols=26  Identities=19%  Similarity=0.531  Sum_probs=18.2
+
+Q ss_pred             HHHHHHHHHHHHHHhhhc--cccccccC
+Q hantavirus_aln  460 AVLIALLILSIFLFALCC--PRRATYKK  485 (486)
+Q Consensus       460 ~vlv~~li~Si~l~s~~C--P~r~~k~~  485 (486)
+                      +-.+|++++|++.|-|+-  |.|.-.||
+T Consensus         8 Vy~vV~ffvsLFiFGFLSnDp~RnP~r~   35 (38)
+T 3wu2_I            8 VYIVVTFFVLLFVFGFLSGDPARNPKRK   35 (38)
+T ss_dssp             HHHHHHHHHHHHHHHHHTTGGGCSSSCC
+T ss_pred             hhhHHHHHHHHHHccccCCCCCCCCCcc
+Confidence            345677788888888875  67766655
+
+
+No 14 
+>3dwg_C 9.5 kDa culture filtrate antigen CFP10A; sulfur carrier protein complex, beta-grAsp fold, amino-acid biosynthesis; HET: PLP; 1.53A {Mycobacterium tuberculosis} PDB: 3dwm_A
+Probab=16.34  E-value=11  Score=24.37  Aligned_cols=17  Identities=18%  Similarity=0.352  Sum_probs=14.4
+
+Q ss_pred             cccCCceeeeccccccc
+Q hantavirus_aln  190 KFQPSDTLLFLGPLEQG  206 (486)
+Q Consensus       190 k~q~gdTLlflgPle~G  206 (486)
+                      .+++||+|.|+-|+.||
+T Consensus        77 ~l~~gd~i~i~p~i~GG   93 (93)
+T 3dwg_C           77 AIADGDSVTILPAVAGG   93 (93)
+T ss_dssp             BCCTTCEEEEEECCTTC
+T ss_pred             ccCCCCEEEEeccccCC
+Confidence            46789999999988876
+
+
+No 15 
+>2lk9_A Bone marrow stromal antigen 2; membrane, micelle, antiviral protein-immune system complex; NMR {Homo sapiens}
+Probab=16.23  E-value=32  Score=21.91  Aligned_cols=28  Identities=18%  Similarity=0.309  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhhhccccccc
+Q hantavirus_aln  456 WMVVAVLIALLILSIFLFALCCPRRATY  483 (486)
+Q Consensus       456 W~V~~vlv~~li~Si~l~s~~CP~r~~k  483 (486)
+                      |++++++++++.++..+..|---+.+.|
+T Consensus         8 w~~iLL~lvvvgL~ValIifavkaNSk~   35 (35)
+T 2lk9_A            8 GIGILVLLIIVILGVPLIIFTIKKKKKK   35 (35)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHC-------
+T ss_pred             HHHHHHHHHHHHHHHHhheeeeeccCCC
+
+
+No 16 
+>1qle_D Cytochrome AA3, ccytochrome C oxidase; oxidoreductase/immune system, complex (oxidoreductase/antibody), electron transport; HET: HEA PC1; 3.0A {Paracoccus denitrificans} SCOP: f.23.8.1
+Probab=15.42  E-value=18  Score=23.04  Aligned_cols=17  Identities=18%  Similarity=0.534  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHHHHHHHHHHH
+Q hantavirus_aln  456 WMVVAVLIALLILSIFL  472 (486)
+Q Consensus       456 W~V~~vlv~~li~Si~l  472 (486)
+                      |..+++.++++++.|++
+T Consensus        26 ~gti~v~~il~~maif~   42 (43)
+T 1qle_D           26 WVSILSIAVLVFLALAN   42 (43)
+T ss_dssp             HHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHc
+
+
+No 17 
+>4ccf_A RSV F, fusion glycoprotein F0; viral protein; 2.65A {Respiratory syncytial virus} PDB: 3rki_A* 4jhw_F 4zyp_A
+Probab=14.74  E-value=8.4  Score=36.70  Aligned_cols=45  Identities=22%  Similarity=0.400  Sum_probs=0.0
+
+Q ss_pred             ccccccchh----hhhccchhHHHH--HHHHHHHHHHHHHh-hhcccccccc
+Q hantavirus_aln  440 WFKKSGEWI----LGVLNGNWMVVA--VLIALLILSIFLFA-LCCPRRATYK  484 (486)
+Q Consensus       440 wf~KsgEWl----~Gi~~GNW~V~~--vlv~~li~Si~l~s-~~CP~r~~k~  484 (486)
+                      |+.||-+||    .+..++..++++  ++++.++|+|++.. ++|=+|+.+|
+T Consensus       505 ~I~~Sn~iL~sv~~~~~s~~~iI~liVi~vv~~~l~li~~~~i~~~~k~~~~  556 (574)
+T 4ccf_A          505 FIRKSDELLHNVNAGKSTTNIMITTIIIVIIVILLSLIAVGLLLYCKARSTP  556 (574)
+T ss_dssp             ----------------------------------------------------
+T ss_pred             HHHHHHHHHHHhcccCcCchhhHHHHHHHHHHHHHHHHHHHHHHhhhhhccc
+
+
+No 18 
+>3gce_A Ferredoxin component of carbazole 1,9A- dioxygenase; rieske ferredoxin, 2Fe-2S, electron transfer, oxidoreductase; 2.00A {Nocardioides aromaticivorans}
+Probab=14.73  E-value=18  Score=24.55  Aligned_cols=56  Identities=16%  Similarity=0.470  Sum_probs=0.0
+
+Q ss_pred             eeccccccCCceeeeccccccccce----------eeeccc-ccccCCCCcccccCCCCccCCCCccccc
+Q hantavirus_aln  185 IGTISKFQPSDTLLFLGPLEQGGLI----------FKQWCT-TTCQFGDPGDIMSTPIGMKCPELNGSFR  243 (486)
+Q Consensus       185 igTvSk~q~gdTLlflgPle~Gg~i----------~kqwCt-tsC~fGdPGDim~~~~~~~cP~~~gsf~  243 (486)
+                      |+.++++.+|.-..|  .+++..++          +.+.|| ..|.... |.+......+.||-+...|+
+T Consensus        14 v~~~~~l~~g~~~~~--~~~g~~v~v~r~~g~~~a~~~~CpH~g~~l~~-g~~~~~~~~i~Cp~Hg~~fd   80 (121)
+T 3gce_A           14 VATLDQLKPGVPTAF--DVDGDEVMVVRDGDSVYAISNLCSHAEAYLDM-GVFHAESLEIECPLHVGRFD   80 (121)
+T ss_dssp             EEEGGGSCTTCCEEE--EETTEEEEEEEETTEEEEEESBCSSSSCBGGG-SEEETTTTEEECTTTCCEEE
+T ss_pred             EEEHHHCCCCCEEEE--EECCeEEEEEEECCEEEEEeCcCCCCCCCCCc-CEEcCCCCEEEcCCCCCEEe
+
+
+No 19 
+>3jxo_A TRKA-N domain protein; TRKA K+ channel component, structural genomics, PSI-2-2, Pro structure initiative, joint center for structural genomics; 1.55A {Thermotoga SP}
+Probab=14.40  E-value=11  Score=22.85  Aligned_cols=17  Identities=18%  Similarity=0.274  Sum_probs=0.0
+
+Q ss_pred             ccccCCceeeecccccc
+Q hantavirus_aln  189 SKFQPSDTLLFLGPLEQ  205 (486)
+Q Consensus       189 Sk~q~gdTLlflgPle~  205 (486)
+                      ..+++||.|+++|+.++
+T Consensus        59 ~~l~~gD~l~~~g~~~~   75 (86)
+T 3jxo_A           59 TEILSGDKLYVIVSAEA   75 (86)
+T ss_dssp             CBCCTTCEEEEEEETTT
+T ss_pred             cEEcCCCEEEEEECHHH
+
+
+No 20 
+>4qnc_A Chemical transport protein; membrane protein, transporter; HET: OLC MYS; 2.39A {Leptospira biflexa serovar patoc}
+Probab=14.26  E-value=23  Score=21.99  Aligned_cols=39  Identities=8%  Similarity=0.163  Sum_probs=0.0
+
+Q ss_pred             hhhhccchhHHHHHHHHHHHHHHHHHhhhccccccccCC
+Q hantavirus_aln  448 ILGVLNGNWMVVAVLIALLILSIFLFALCCPRRATYKKE  486 (486)
+Q Consensus       448 l~Gi~~GNW~V~~vlv~~li~Si~l~s~~CP~r~~k~~~  486 (486)
+                      +.|++.++|.+++.=++-++++++.+...==.++++|+.
+T Consensus        50 ~y~~~~~~~~~~~~n~~~~~~~~~~l~~~~~y~~~~~~~   88 (93)
+T 4qnc_A           50 VYGILRSDLPIILANVVTLFFVTIILYYKLTEGNQTGSL   88 (93)
+T ss_dssp             HHHHHHTCHHHHHHHHHHHHHHHHHHHHHHTC-------
+T ss_pred             HHHHHHccHHHHHHHHHHHHHHHHHHHHhheecCcchHH
+
+
+Done!

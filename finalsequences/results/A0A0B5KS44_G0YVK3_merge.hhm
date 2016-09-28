@@ -1,0 +1,26 @@
+Query         A0A0B5KS44
+Match_columns 426
+No_of_seqs    340 out of 391
+Neff          8.0 
+Searched_HMMs 1
+Date          Tue Aug 23 14:47:17 2016
+Command       hhalign -i ./finalsequences/models/A0A0B5KS44.a3m.hhm -t ./finalsequences/models/G0YVK3.a3m.hhm -o ./finalsequences/results/A0A0B5KS44_G0YVK3_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 G0YVK3                           7.8  0.0066  0.0066   29.0   2.6   41   27-80     67-107 (499)
+
+No 1  
+>G0YVK3
+Probab=7.84  E-value=0.0066  Score=28.98  Aligned_cols=41  Identities=17%  Similarity=0.278  Sum_probs=24.6
+
+Q ss_pred             EeeeecCCCCCccccCCccccccccchhhhhcccceeeecccCCCCCCccceee
+Q A0A0B5KS44       27 KTSYTSNCKGSGSCWSGGCRDIGVHPRLRAIANSSIMGYGCETDNLGCDDWCFM   80 (426)
+Q Consensus        27 ~~~s~~RC~~~GsC~~~~C~~~~~~~El~~~pg~t~C~~sC~~Gg~~Cg~~Cf~   80 (426)
+                      ...+.-|||.+|+=.         +||-.  -...-|..+=+.-|||-|  ||+
+T Consensus        67 ~~~s~~~CPt~gea~---------l~e~~--~~~~vCkr~~~DRGWGNG--Cgl  107 (499)
+T G0YVK3           67 DVTTESRCPTMGEAH---------NPKAT--YAEYICKKDFVDRGWGNG--CGL  107 (499)
+T ss_pred             ccccccCCCCccccC---------CCccc--hhhhhhcccccccCCCCc--ccc
+Confidence            345788999998832         22222  122345554445788888  887
+
+
+Done!

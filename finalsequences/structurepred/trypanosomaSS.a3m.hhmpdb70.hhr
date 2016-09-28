@@ -1,0 +1,656 @@
+Query         trypanosomaSS
+Match_columns 558
+No_of_seqs    196 out of 243
+Neff          7.5 
+Searched_HMMs 124
+Date          Thu Aug  4 12:33:39 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/trypanosomaSS.a3m.hhm -ohhm ./structurepred/trypanosomaSS.a3m.hhm -o ./structurepred/trypanosomaSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4iib_A Beta-glucosidase 1; TIM  74.7      29  0.0041   34.4  26.3   49  416-465   745-799 (841)
+  2 3vta_A Cucumisin; subtilisin-l  10.7 3.2E+02   0.046   24.1  40.9   92  404-497   523-621 (621)
+  3 3idu_A Uncharacterized protein   7.4 2.1E+02    0.03   19.3  45.6   91  397-495    20-118 (127)
+  4 2w0t_A Lethal(3)malignant brai   1.7   5E+02   0.065   14.4   7.8   31  290-323     5-35  (43)
+  5 4i83_A 3-hydroxyacyl-[acyl-car   1.2 8.6E+02    0.13   15.5  27.3  122  249-436    18-148 (152)
+  6 4d0j_A Beta-glucosidase; hydro   0.6 2.5E+03    0.34   17.8  46.0  241  220-504   492-845 (857)
+  7 4i3g_A Beta-glucosidase; PA14    0.6 2.4E+03    0.34   17.6  51.4  193  238-501   565-817 (829)
+  8 3zyz_A Beta-D-glucoside glucoh   0.5 2.5E+03    0.36   16.9  61.8  187  279-501   473-701 (713)
+  9 4c9v_A RNF43; signaling protei   0.3 2.7E+03    0.35   14.3  13.6  132  199-384    12-160 (180)
+ 10 3ncx_A Intimin, intimin adhere   0.3 2.7E+03    0.38   13.4  22.6   90  351-480    26-117 (189)
+ 11 2v1o_A Cytosolic acyl coenzyme   0.3 2.1E+03    0.32   12.2  32.7   61  377-440    46-112 (151)
+ 12 2cc0_A Acetyl-xylan esterase;    0.2 2.6E+03    0.39   12.1  10.0   83   36-154     1-107 (195)
+ 13 2qwz_A Phenylacetic acid degra   0.1 3.4E+03     0.5   10.8  26.9   52  449-500   105-158 (159)
+ 14 2qsv_A Uncharacterized protein   0.1 4.5E+03    0.66   10.2  65.3  178  278-501    20-220 (220)
+ 15 3b6n_A 2-C-methyl-D-erythritol   0.1 5.7E+03    0.75   10.9  12.1  142  187-384     1-186 (187)
+ 16 2qvk_A CBD2, sodium/calcium ex   0.1 5.2E+03    0.73   10.0  40.0   86  392-483     2-97  (192)
+ 17 1of9_A Pore-forming peptide am   0.1 4.2E+03    0.63    7.6   3.4   10  534-543    68-77  (77)
+ 18 4ae8_A Thioesterase superfamil   0.0   6E+03    0.85    9.0  36.9  178  201-439     9-204 (211)
+ 19 1v1h_A Fibritin, fiber protein   0.0 6.5E+03    0.86    8.4  16.5   87  186-284     4-98  (103)
+ 20 4zv3_A Cytosolic acyl coenzyme   0.0 6.1E+03    0.91    8.4  32.7   61  377-440    50-116 (318)
+
+No 1  
+>4iib_A Beta-glucosidase 1; TIM barrel, hydrolase, high-mannose N-glycosylations, extrac; HET: NAG BMA MAN; 1.80A {Aspergillus aculeatus} PDB: 4iic_A* 4iid_A* 4iie_A* 4iif_A* 4iig_A* 4iih_A*
+Probab=74.75  E-value=29  Score=34.40  Aligned_cols=49  Identities=20%  Similarity=0.214  Sum_probs=0.0
+
+Q ss_pred             eEEEEEeecCceeeEEEEEEeEEEe------eeeeeeeeEEEeCCCCCcceeEEEE
+Q trypanosomaSS   416 TITVTVLNTGDIEAQYTVVVGECTV------NVQPMVAQTVYIPPKGSAQRRFTLI  465 (558)
+Q Consensus       416 ~l~V~v~N~G~~~a~y~v~v~~Cs~------~i~~i~~~~~~i~p~~~~~~~f~l~  465 (558)
+                      +++|+|+|+|++.+...+++ .=+.      ...-.--+++.|+|+++.+++|.|.
+T Consensus       745 ~vsv~V~NtG~~~g~evvql-Y~~~~~~~~p~~~L~gf~kv~l~pge~~~v~~~l~  799 (841)
+T 4iib_A          745 RVSVTVKNTGRVAGDAVPQL-YVSLGGPNEPKVVLRKFDRLTLKPSEETVWTTTLT  799 (841)
+T ss_dssp             EEEEEEEECSSSCEEECCEE-EEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEE
+T ss_pred             EEEEEEEecCCCCCceeeEE-eecCCCCCCChhheeeeeeeecCCCCeEEEEEEEe
+
+
+No 2  
+>3vta_A Cucumisin; subtilisin-like fold, serine protease, hydrolase; HET: DFP NAG FUC BMA MAN; 2.75A {Cucumis melo}
+Probab=10.75  E-value=3.2e+02  Score=24.10  Aligned_cols=92  Identities=8%  Similarity=-0.050  Sum_probs=0.0
+
+Q ss_pred             eeeEEEEeecCc-----eEEEEEeecCceeeEEEEEEeEEEeeee-eeeeeEEEeCC-CCCcceeEEEEEeecccccccc
+Q trypanosomaSS   404 SGKVVHSYSRGS-----TITVTVLNTGDIEAQYTVVVGECTVNVQ-PMVAQTVYIPP-KGSAQRRFTLIVQDSIEGEAKC  476 (558)
+Q Consensus       404 ~~~~fe~~s~~g-----~l~V~v~N~G~~~a~y~v~v~~Cs~~i~-~i~~~~~~i~p-~~~~~~~f~l~~~~~~~~~~~C  476 (558)
+                      +-+.|.......     +++.+|+|.|.-.+.|++.+ ....++. .+....+++.+ ++...|++.+.. ........=
+T Consensus       523 n~ps~~~~~~~~~~~~~~~~rtvtnv~~~~~~y~~~~-~~~~~~~~~v~p~~~~~~~~~~~~~~~v~~~~-~~~~~~~~g  600 (621)
+T 3vta_A          523 NYPSFGLSVSPSQTFNQYFNRTLTSVAPQASTYRAMI-SAPQGLTISVNPNVLSFNGLGDRKSFTLTVRG-SIKGFVVSA  600 (621)
+T ss_dssp             CCSSEEEECCSSCCEEEEEEEEEEECSSSCEEEEEEE-ECCSSEEEEEESSEEEECSTTCEEEEEEEEEE-CCCSSEEEE
+T ss_pred             CccceEeeccCCCceeEEEEEEEEecCCCCcEEEEEE-EecCCcEEEeccceEEeccCCcEEEEEEEEEE-eecCCeeEE
+
+
+Q ss_pred             ccccccccCceeeeceeeeee
+Q trypanosomaSS   477 NATLRNARGDVVDTRAISFGV  497 (558)
+Q Consensus       477 ~v~L~ds~~~~ld~~~v~f~t  497 (558)
+                      .+...|....+--.-.+.+.+
+T Consensus       601 ~~~w~~~~~~v~~p~~~~~~~  621 (621)
+T 3vta_A          601 SLVWSDGVHYVRSPITITSLV  621 (621)
+T ss_dssp             EEEEECSSCCCEEEEEEECC-
+T ss_pred             EEEEECCCEEEeeeEEEeeeC
+
+
+No 3  
+>3idu_A Uncharacterized protein; all beta-protein, structural genomics, PSI-2, protein structure initiative; 1.70A {Pyrococcus furiosus} PDB: 2kl6_A 2m8x_A
+Probab=7.36  E-value=2.1e+02  Score=19.32  Aligned_cols=91  Identities=25%  Similarity=0.227  Sum_probs=0.0
+
+Q ss_pred             eEEeeEEeeeEEEEeecCceEEEEEeecCcee-eEEEEEEeEEEeeeeeeeeeEEEeCCCCCcceeEEEEEeeccccccc
+Q trypanosomaSS   397 VIVGATVSGKVVHSYSRGSTITVTVLNTGDIE-AQYTVVVGECTVNVQPMVAQTVYIPPKGSAQRRFTLIVQDSIEGEAK  475 (558)
+Q Consensus       397 ~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~-a~y~v~v~~Cs~~i~~i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~  475 (558)
+                      .|. +  ..+.+-...+.-.++|.|.|.|... ..+.+.+   ..+=..+..+.+.|+|++.  ..+.+.......+.+.
+T Consensus        20 ~v~-v--~~p~~~~~g~~~~i~v~V~N~G~~~~~~~~v~l---~~~~~~~~~~~v~l~~g~~--~tv~f~~~~~~~G~~~   91 (127)
+T 3idu_A           20 TVE-I--KGPDVVGVNKLAEYEVHVKNLGGIGVPSTKVRV---YINGTLYKNWTVSLGPKEE--KVLTFNWTPTQEGMYR   91 (127)
+T ss_dssp             EEE-E--ESCSEECTTCCEEEEEEEEECSSSCEEEEEEEE---EETTEEEEEEEEEECTTCE--EEEEEEECCSSCEEEE
+T ss_pred             EEE-E--eCCCcccCCCEEEEEEEEEECCCCCCCCEEEEE---EECCEEEEEEEEEECCCCE--EEEEEEEEcCCCeEEE
+
+
+Q ss_pred             ccccccccc-------Cceeeeceeee
+Q trypanosomaSS   476 CNATLRNAR-------GDVVDTRAISF  495 (558)
+Q Consensus       476 C~v~L~ds~-------~~~ld~~~v~f  495 (558)
+                      ..|.+-..+       .+-...+.+..
+T Consensus        92 ~~~~v~~~~~~~e~n~~NN~~~~~v~~  118 (127)
+T 3idu_A           92 INATVDEENTVVELNENNNVATFDVSV  118 (127)
+T ss_dssp             EEEEESTTCCSCCSCSSSSEEEEEEEE
+T ss_pred             EEEEECCCCceecccCCCCceeEEEEE
+
+
+No 4  
+>2w0t_A Lethal(3)malignant brain tumor-like 2 protein; zinc, YACG, LMBL2, nucleus, zinc-finger, RNA binding, MBT repeats, PCG proteins, polymorphism; NMR {Homo sapiens}
+Probab=1.74  E-value=5e+02  Score=14.44  Aligned_cols=31  Identities=19%  Similarity=0.313  Sum_probs=19.5
+
+Q ss_pred             eEEeccccceeeeeeeeccccccccCCCCcchhh
+Q trypanosomaSS   290 VSIRGTECNKVGVSYEGFATQGSRCDAYPGACLA  323 (558)
+Q Consensus       290 v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~  323 (558)
+                      -.+.=.-|.|+|+-...|.....||+.   +|-+
+T Consensus         5 ~~~kCe~CGk~~~~~~f~~ksKRFCS~---~Cak   35 (43)
+T 2w0t_A            5 EPAVCEMCGIVGTREAFFSKTKRFCSV---SCSR   35 (43)
+T ss_dssp             CEEECTTTCCEEETTTSCTTTSSSSSH---HHHH
+T ss_pred             ccceeccCCCccccccccCCcCCcccc---hhcC
+Confidence            123456789998766667788899972   1111
+
+
+No 5  
+>4i83_A 3-hydroxyacyl-[acyl-carrier-protein] dehydratase; FABZ, hot DOG fold, thioesterase, lyase; 2.60A {Neisseria meningitidis}
+Probab=1.16  E-value=8.6e+02  Score=15.54  Aligned_cols=122  Identities=11%  Similarity=0.116  Sum_probs=36.0
+
+Q ss_pred             CCCCCCcccCCcceEeecCCCCccccccCccceEEEEeeeeeEEeccccceeeeeeeeccccc--cccCCCCcchhh---
+Q trypanosomaSS   249 FAPPEMPLDLSGKMLFIPSEPRGHERVGAGYNEWIIVDTHLVSIRGTECNKVGVSYEGFATQG--SRCDAYPGACLA---  323 (558)
+Q Consensus       249 ~~~~~~~~~l~~~yL~iP~~~~~~~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~--~~C~~~~gSCL~---  323 (558)
+                      ..+...+--+-+..+-+..            ..++.....             +.-..|.-+.  +.-..-+|.++-   
+T Consensus        18 ~l~~~~~~~~vd~v~~~~~------------~~~~~~~~~-------------i~~~~~~~~~hf~~~~~~pG~~~~e~~   72 (152)
+T 4i83_A           18 LIPHRYPFLQLDRITAFEP------------MKTLTAIKN-------------VSINEPQFQGHFPDLPVMPGVLIIEAM   72 (152)
+T ss_dssp             HCCCCTTSCCCCEEEEEET------------TTEEEEEEE-------------CCSSSGGGGTSCTTSCCCCHHHHHHHH
+T ss_pred             hCCCCCCceEEEEEEEEcC------------CCEEEEEEe-------------cCCCcchhcCCCCCCccccHHHHHHHH
+Confidence            1122222233344443331            112222221             2222222221  222344555653   
+
+
+Q ss_pred             hhhcccccccchhhccc--c-ccceeeeec-cccCCCcccCCCCCceeEeecceeeeEEEEEEeccceeEEEEeeeeeEE
+Q trypanosomaSS   324 NQLEDYRDRDLEAETKG--E-RGKYMARFF-APLGFDPLANASAPAVSYQASGTLSTIVTITISADKLNFVLSVSSGVIV  399 (558)
+Q Consensus       324 nQl~~~~~~D~~~~~~g--~-~~~Y~~~~~-G~~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~  399 (558)
+                      .|+.-.+-.   ....+  . ...+..... -.|.+.-..           .    ..|+++..              |+
+T Consensus        73 ~q~~~~~~~---~~~~~~~~~~~~~~~~~~~~~f~~~v~~-----------g----~~l~~~~~--------------v~  120 (152)
+T 4i83_A           73 AQACGTLAI---LSEGGRKENEFFFFAGIDEARFKRQVIP-----------G----DQLVFEVE--------------LL  120 (152)
+T ss_dssp             HHHHHHHHH---HHTTCCTTTCCCEEEEECSEEECSCCCT-----------T----CEEEEEEE--------------EE
+T ss_pred             HHHHHHHHh---hccCCCCCCceEEEeeeeEEEEcceeCC-----------C----CEEEEEEE--------------EE
+Confidence            233222100   00011  1 123333221 011211110           1    12333322              11
+
+
+Q ss_pred             eeEEeeeEEEEeecCceEEEEEeecCceeeEEEEEEe
+Q trypanosomaSS   400 GATVSGKVVHSYSRGSTITVTVLNTGDIEAQYTVVVG  436 (558)
+Q Consensus       400 ~~~~~~~~fe~~s~~g~l~V~v~N~G~~~a~y~v~v~  436 (558)
+                      +.        . .....+.+.++|.|++-+.-...+.
+T Consensus       121 ~~--------~-~~~~~~~~~~~~~g~~va~~~~~~~  148 (152)
+T 4i83_A          121 TS--------R-RGIGKFNAVAKVDGQVAVEAIIMCA  148 (152)
+T ss_dssp             EE--------E-TTEEEEEEEEEETTEEEEEEEEEEE
+T ss_pred             Ec--------c-CCEEEEEEEEEECCEEEEEEEEEEE
+Confidence            11        0 1112334566676665555444331
+
+
+No 6  
+>4d0j_A Beta-glucosidase; hydrolase, glycoside hydrolase; HET: NAG BMA MAN BGC GLC; 2.20A {Rasamsonia emersonii}
+Probab=0.64  E-value=2.5e+03  Score=17.76  Aligned_cols=241  Identities=10%  Similarity=-0.002  Sum_probs=73.5
+
+Q ss_pred             ceeEEeeeCCCcceeeccccccccc-ccccCCCCCCccc----------CCcceE-ee-cCCCCccccccC-ccceEEEE
+Q trypanosomaSS   220 SKEFTMSLGPDKLTATSTEFGASAR-LIGDFAPPEMPLD----------LSGKML-FI-PSEPRGHERVGA-GYNEWIIV  285 (558)
+Q Consensus       220 ~~~~~~~l~p~~~~~~~~~~~v~v~-l~gd~~~~~~~~~----------l~~~yL-~i-P~~~~~~~~~~~-~~~~~mll  285 (558)
+                      .....+.++....+.     ..... --+|.....-+..          ...+.+ ++ =..|..-..... .....+|.
+T Consensus       492 AD~vIv~vg~~~~e~-----~~~~~ge~~Dr~~l~Lp~~q~~li~~v~~~~~~~VVVl~~g~P~~l~~~~~~~~v~AIL~  566 (857)
+T 4d0j_A          492 ADTCLVFANADSGEG-----YITVDGNEGDRKNLTLWQGADQVIHNVSANCNNTVVVLHTVGPVLIDDWYDHPNVTAILW  566 (857)
+T ss_dssp             CSEEEEEEEECCBCT-----TSEETTEESSCSCSSCSTTHHHHHHHHHHHCSSEEEEEEESSCCCCTTTTTCTTEEEEEE
+T ss_pred             CCEEEEEEecCcccc-----ccccccccccccccccCcchhHHHHHHHHhCCCeEEEEecCcceecchhhhccccceEEE
+Confidence            123333333111100     00000 0022222211110          022333 22 122222111212 12222222
+
+
+Q ss_pred             eeeeeEEecccc------------ceeeeeeeeccccccccCCCCcchhhhhh-cccccccchhhccccccceeeeeccc
+Q trypanosomaSS   286 DTHLVSIRGTEC------------NKVGVSYEGFATQGSRCDAYPGACLANQL-EDYRDRDLEAETKGERGKYMARFFAP  352 (558)
+Q Consensus       286 ~~~~v~l~G~eC------------nKIGVsy~aF~~Q~~~C~~~~gSCL~nQl-~~~~~~D~~~~~~g~~~~Y~~~~~G~  352 (558)
+                       .-   .-|.+.            |- |-=+-.|...           .. |+ ..+...     .....+.+.. .|..
+T Consensus       567 -a~---~pGqegG~AiAdVLfG~~nP-GrLP~T~p~~-----------~~-~~~~~~~~~-----~~~~~~~~~~-~y~e  623 (857)
+T 4d0j_A          567 -AG---LPGQESGNSLVDVLYGRVNP-GKTPFTWGRA-----------RD-DYGAPLIVK-----PNNGKGAPQQ-DFTE  623 (857)
+T ss_dssp             -CC---CCGGGHHHHHHHHHTTSSCC-CCCSSCBCSS-----------GG-GGCCCCCCS-----CSSTTSCCEE-ECTT
+T ss_pred             -ec---CCChhHHHHHHHHHccCCCC-CCCceecccc-----------hh-hcCcccccc-----CCCCCCCCcc-cccc
+Confidence             10   112221            21 2222222111           11 11 000000     0000111111 2211
+
+
+Q ss_pred             --------------cCCCcccCCCCCceeEeecceeeeEEEEEEeccceeEEEEee--eee-EEee--------------
+Q trypanosomaSS   353 --------------LGFDPLANASAPAVSYQASGTLSTIVTITISADKLNFVLSVS--SGV-IVGA--------------  401 (558)
+Q Consensus       353 --------------~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s--~G~-I~~~--------------  401 (558)
+                                    -+..++    .|.|+|  +.=.-+.+++.-........ ..+  .+. .-++              
+T Consensus       624 ~~~~~Yr~yd~~~~~plypF----G~GLSY--TtF~ys~~~i~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~  696 (857)
+T 4d0j_A          624 GIFIDYRRFDKYNITPIYEF----GFGLSY--TTFEFSQLNVQPINAPPYTP-ASGFTKAAQSFGQPSNASDNLYPSDIE  696 (857)
+T ss_dssp             TTCCHHHHHHHTTCCCSBCT----TCCCCS--SCEEEEEEEEEECCCCCCCC-CCSBCCCCCCCSCCCCGGGSBCCTTCC
+T ss_pred             cccccccccccCCCCccccC----CCCcCC--cceeecceeeeccccccccc-ccccccccccccccccccccccccccc
+Confidence                          011111    122332  44444566665321000000 000  000 0000              
+
+
+Q ss_pred             --------EEeee--------------------------EEEEeec------------C--ceEEEEEeecCceeeEEEE
+Q trypanosomaSS   402 --------TVSGK--------------------------VVHSYSR------------G--STITVTVLNTGDIEAQYTV  433 (558)
+Q Consensus       402 --------~~~~~--------------------------~fe~~s~------------~--g~l~V~v~N~G~~~a~y~v  433 (558)
+                              +++.+                          .-.....            .  -+++|.|+|+|++.+...|
+T Consensus       697 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~vsv~VtNtG~~~G~evv  776 (857)
+T 4d0j_A          697 RVPLYIYPWLNSTDLKASANDPDYGLPTEKYVPPNATNGDPQPIDPAGGAPGGNPSLYEPVARVTTIITNTGKVTGDEVP  776 (857)
+T ss_dssp             CCTTCCCSCBSSSCHHHHHTCTTTTCCGGGTSCTTTTCCSCCBCCTTCSSTTSCGGGGCEEEEEEEEEEECSSSCEEECC
+T ss_pred             ccccccccccccccccccccccccccccccccccccccccccccccccccCCCCcccccceEEEEEEEEeCCCCCCceEE
+Confidence                    00000                          0000000            0  0467899999999999866
+
+
+Q ss_pred             EEeEEEeee-ee----eeeeEEEeCCCCCcceeEEEEEeeccccccccccccccccCc--eeeeceeeeeeeeecCCC
+Q trypanosomaSS   434 VVGECTVNV-QP----MVAQTVYIPPKGSAQRRFTLIVQDSIEGEAKCNATLRNARGD--VVDTRAISFGVKALKPSN  504 (558)
+Q Consensus       434 ~v~~Cs~~i-~~----i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~C~v~L~ds~~~--~ld~~~v~f~t~~~~~~~  504 (558)
+                      ++.--...+ .|    .--+++.|+|+++++++|.|..         -....||....  .++.-...+.......+.
+T Consensus       777 QlY~~~~~~~~p~k~L~gF~kv~l~pGes~~v~~~l~~---------~~ls~~d~~~~~~~~~~G~y~i~vg~ss~~~  845 (857)
+T 4d0j_A          777 QLYVSLGGPDDAPKVLRGFDRITLAPGQQYLWTTTLTR---------RDISNWDPVTQNWVVTNYTKTIYVGNSSRNL  845 (857)
+T ss_dssp             EEEEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEET---------GGGCEEETTTTEEECCSSCCEEEEESSSSCC
+T ss_pred             EEEeecCCCCcchhhhhceeccccCCCCEEEEEEEEch---------HHeeeEECCCCeEEEecCEEEEEEeCCCCCc
+Confidence            663222111 12    2445678999998888887651         12334554432  233333444443222111
+
+
+No 7  
+>4i3g_A Beta-glucosidase; PA14 domain, macrolide antibiotic, antibio activation, extracellular, hydrolase; HET: BGC MPO; 1.40A {Streptomyces venezuelae}
+Probab=0.62  E-value=2.4e+03  Score=17.59  Aligned_cols=193  Identities=13%  Similarity=0.065  Sum_probs=68.5
+
+Q ss_pred             cccccccccccCC---CCCCcccC--------------CcceEeecCCCC--ccccccCccceEEEEeeeeeEEeccccc
+Q trypanosomaSS   238 EFGASARLIGDFA---PPEMPLDL--------------SGKMLFIPSEPR--GHERVGAGYNEWIIVDTHLVSIRGTECN  298 (558)
+Q Consensus       238 ~~~v~v~l~gd~~---~~~~~~~l--------------~~~yL~iP~~~~--~~~~~~~~~~~~mll~~~~v~l~G~eCn  298 (558)
+                      .-++-+-++|+..   .+.....|              ..+.++|=..+.  ..++.                      +
+T Consensus       565 ~aD~~Vv~~g~~~~Eg~DR~~l~Lp~~Q~~LI~~va~~~~~~VVVl~sG~pv~~~~~----------------------~  622 (829)
+T 4i3g_A          565 KARTAVVFAYDDGTEGVDRPNLSLPGTQDKLISAVADANPNTIVVLNTGSSVLMPWL----------------------S  622 (829)
+T ss_dssp             HSSEEEEEEECCCBTTBCCSSSSCSTTHHHHHHHHHHHCSCEEEEEECSSCCCCTTG----------------------G
+T ss_pred             hCCEEEEEeccCcccccCcccccCchhHHHHHHHHHHhCCCEEEEEccCCcccCchh----------------------h
+Confidence            1222222233211   11111111              122222211111  11111                      1
+
+
+Q ss_pred             eeeeeeeeccc-cc-------------cccCCCCcchhh--hhhcccccccchhhccccccceeeeecc-----------
+Q trypanosomaSS   299 KVGVSYEGFAT-QG-------------SRCDAYPGACLA--NQLEDYRDRDLEAETKGERGKYMARFFA-----------  351 (558)
+Q Consensus       299 KIGVsy~aF~~-Q~-------------~~C~~~~gSCL~--nQl~~~~~~D~~~~~~g~~~~Y~~~~~G-----------  351 (558)
+                      ++.-=..+|+- |.             +.=.+.+-|--+  .|+--+...  .  .........  .|.           
+T Consensus       623 ~v~AIl~a~~pGqegG~AiAdvL~G~~nPSGrLp~T~p~~~~~~p~~~~~--~--~~~~~~~~~--~~~e~~~~gYr~~~  696 (829)
+T 4i3g_A          623 KTRAVLDMWYPGQAGAEATAALLYGDVNPSGKLTQSFPAAENQHAVAGDP--T--SYPGVDNQQ--TYREGIHVGYRWFD  696 (829)
+T ss_dssp             GCSEEEECCSCCTTHHHHHHHHHTTSSCCCCCCSSCBCSBTTBSTTTTCT--T--TTTCBTTEE--ECTTTTCCTHHHHH
+T ss_pred             hccchhhhccCcccCceeehhcccCccCCCCCCcccccccccccccccCc--c--cCCCCCCCc--ccccccccCccccc
+Confidence            12112224432 21             111111111110  011000000  0  000000111  111           
+
+
+Q ss_pred             ---ccCCCcccCCCCCceeEeecceeeeEEEEEEeccceeEEEEeeeeeEEeeEEeeeEEEEeecCceEEEEEeecCcee
+Q trypanosomaSS   352 ---PLGFDPLANASAPAVSYQASGTLSTIVTITISADKLNFVLSVSSGVIVGATVSGKVVHSYSRGSTITVTVLNTGDIE  428 (558)
+Q Consensus       352 ---~~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~  428 (558)
+                         ..+..+.+ -+-.|=.|.+....     +...+                           ...-+++|+|+|+|++.
+T Consensus       697 ~~~~~p~fpFG-~GLSYT~F~ys~~~-----~~~~~---------------------------~~~~~vsv~V~NtG~~~  743 (829)
+T 4i3g_A          697 KENVKPLFPFG-HGLSYTSFTQSAPT-----VVRTS---------------------------TGGLKVTVTVRNSGKRA  743 (829)
+T ss_dssp             HHTCCCSBCTT-CCCCSSCEEECCCE-----EEECT---------------------------TSCEEEEEEEEECSSSC
+T ss_pred             cCCCCccccCC-CCcceeeEEeeccc-----ccccC---------------------------cceEEEEEEEEeCCCCC
+Confidence               01111111 12222222223322     11110                           12235778999999999
+
+
+Q ss_pred             eEEEEEEeEEEee----e-ee----eeeeEEEeCCCCCcceeEEEEEeeccccccccccccccccCc--eeeeceeeeee
+Q trypanosomaSS   429 AQYTVVVGECTVN----V-QP----MVAQTVYIPPKGSAQRRFTLIVQDSIEGEAKCNATLRNARGD--VVDTRAISFGV  497 (558)
+Q Consensus       429 a~y~v~v~~Cs~~----i-~~----i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~C~v~L~ds~~~--~ld~~~v~f~t  497 (558)
+                      +.-.|++ .=+..    + .|    .--+++.|+|+++.++.|.+.         .-....||....  .++.-...+..
+T Consensus       744 g~evvQl-Yv~~~~~~~~~~p~k~L~gF~kv~l~pGes~~v~~~l~---------~~~l~~~d~~~~~w~~~~G~y~i~v  813 (829)
+T 4i3g_A          744 GQEVVQA-YLGASPNVTAPQAKKKLVGYTKVSLAAGEAKTVTVNVD---------RRQLQFWDAATDNWKTGTGNRLLQT  813 (829)
+T ss_dssp             EEEEEEE-EEECCTTCCSCCCSEEEEEEEEEEECTTCEEEEEEEEC---------GGGGEEEETTTTEEEECCEEEEEEE
+T ss_pred             ccEEEEE-EecCCccccccchhhhhccceeeeeCCCCeEEEEEEEC---------HHHhcceeccCCeEEecCceEEEEE
+Confidence            9999888 55531    1 12    355678899998777666542         123455665432  33334455554
+
+
+Q ss_pred             eeec
+Q trypanosomaSS   498 KALK  501 (558)
+Q Consensus       498 ~~~~  501 (558)
+                      ....
+T Consensus       814 G~sS  817 (829)
+T 4i3g_A          814 GSSS  817 (829)
+T ss_dssp             EEET
+T ss_pred             eCCC
+Confidence            3322
+
+
+No 8  
+>3zyz_A Beta-D-glucoside glucohydrolase; HET: NAG BGC; 2.10A {Hypocrea jecorina} PDB: 3zz1_A* 4i8d_A*
+Probab=0.53  E-value=2.5e+03  Score=16.89  Aligned_cols=187  Identities=16%  Similarity=0.118  Sum_probs=75.3
+
+Q ss_pred             cceEEEEe-e-eeeEEeccc-cceeeeeeeeccc-cc-------------cccCCCCcchhhhhhcccccccchhhcccc
+Q trypanosomaSS   279 YNEWIIVD-T-HLVSIRGTE-CNKVGVSYEGFAT-QG-------------SRCDAYPGACLANQLEDYRDRDLEAETKGE  341 (558)
+Q Consensus       279 ~~~~mll~-~-~~v~l~G~e-CnKIGVsy~aF~~-Q~-------------~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~  341 (558)
+                      ..+-.+|= . .-+.+.... -+++.-=..+|+. |.             +...+.+-+--+. +.++-..       ..
+T Consensus       473 ~~~vIvVv~~g~p~~l~~~~~~~~v~AIl~a~~~g~~gg~AiadvL~G~~~PsGrLP~t~p~~-~~~~~~~-------~~  544 (713)
+T 3zyz_A          473 NSNVIVVVHSVGAIILEQILALPQVKAVVWAGLPSQESGNALVDVLWGDVSPSGKLVYTIAKS-PNDYNTR-------IV  544 (713)
+T ss_dssp             CSCEEEEEEESSCCCCHHHHTCTTEEEEEECCCCGGGHHHHHHHHHTTSSCCCCCCSSCBCSC-GGGSSCC-------CC
+T ss_pred             CCCeEEEEecCCccccchhhhccCcceEEEeccCCCccceEhHHhhcCCCCCCCCCceeeecc-hhhCCcc-------cc
+Confidence            12222221 0 000000000 1233333344443 21             2222222221111 1111000       00
+
+
+Q ss_pred             ccceeeeeccccC-----------CCcccCCCCCceeEeecceeeeEEEEEEeccceeEEEEeeeeeEEeeEEeeeEEEE
+Q trypanosomaSS   342 RGKYMARFFAPLG-----------FDPLANASAPAVSYQASGTLSTIVTITISADKLNFVLSVSSGVIVGATVSGKVVHS  410 (558)
+Q Consensus       342 ~~~Y~~~~~G~~~-----------~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~  410 (558)
+                      ....  ..|+.-.           .... -.=.|.|+  ++.-.-+.+++......-.     ........        .
+T Consensus       545 ~~~~--~~~~e~~~~~yr~~~~~~~~~~-ypFG~GLS--Yt~F~~~~~~~~~~~~~~~-----~~~~~~~~--------~  606 (713)
+T 3zyz_A          545 SGGS--DSFSEGLFIDYKHFDDANITPR-YEFGYGLS--YTKFNYSRLSVLSTAKSGP-----ATGAVVPG--------G  606 (713)
+T ss_dssp             CSSE--ECCTTTTCCHHHHHHHTTCCCS-BCTTCCBC--SSCEEEEEEEEEECCCCEE-----CCSCEETT--------E
+T ss_pred             cCCC--cccCCCccccceeeccCCCcee-eeCCCCCc--cCcceeeeccccccccccc-----ccccccCC--------C
+Confidence            0001  1121100           0000 01123343  3666666777665432111     11111111        0
+
+
+Q ss_pred             eecC----ceEEEEEeecCceeeEEEEEEeEEEee---e-ee----eeeeEEEeCCCCCcceeEEEEEeecccccccccc
+Q trypanosomaSS   411 YSRG----STITVTVLNTGDIEAQYTVVVGECTVN---V-QP----MVAQTVYIPPKGSAQRRFTLIVQDSIEGEAKCNA  478 (558)
+Q Consensus       411 ~s~~----g~l~V~v~N~G~~~a~y~v~v~~Cs~~---i-~~----i~~~~~~i~p~~~~~~~f~l~~~~~~~~~~~C~v  478 (558)
+                      .+..    -++.|.|+|+|.+.+.-.|++ .=...   + .|    .--+++.|+|+++.+++|.|.         ....
+T Consensus       607 ~~~~~~~~~~vsv~V~NtG~~~g~evvql-Y~~~~~~~~~~p~k~L~gF~kv~L~pGe~~~v~~~~~---------~~~l  676 (713)
+T 3zyz_A          607 PSDLFQNVATVTVDIANSGQVTGAEVAQL-YITYPSSAPRTPPKQLRGFAKLNLTPGQSGTATFNIR---------RRDL  676 (713)
+T ss_dssp             ETTTTSEEEEEEEEEEECSSSCEEEEEEE-EEECCTTSSSCCSCEEEEEEEEEECTTCEEEEEEEEE---------GGGG
+T ss_pred             ccccccceEEEEEEEEecCcccceeeEEE-EeccCCCCcccchHHHHhhhhhccCCCceEEEEEEEc---------HHHe
+Confidence            0110    147789999999999999988 44421   1 12    456788999999888888776         2234
+
+
+Q ss_pred             ccccccCc--eeeeceeeeeeeeec
+Q trypanosomaSS   479 TLRNARGD--VVDTRAISFGVKALK  501 (558)
+Q Consensus       479 ~L~ds~~~--~ld~~~v~f~t~~~~  501 (558)
+                      ..||..+.  .++.-...|......
+T Consensus       677 ~~~d~~~~~~~~~~G~y~~~vg~ss  701 (713)
+T 3zyz_A          677 SYWDTASQKWVVPSGSFGISVGASS  701 (713)
+T ss_dssp             CEEETTTTEEEECCEEEEEEEESSS
+T ss_pred             eEEecCCCeEEEeCcEEEEEEECCC
+Confidence            55676553  333334444442111
+
+
+No 9  
+>4c9v_A RNF43; signaling protein, WNT, ZNRF3, RNF43, LGR4, LGR5, LGR6, receptor, MEM signalling; 2.70A {Silurana}
+Probab=0.34  E-value=2.7e+03  Score=14.25  Aligned_cols=132  Identities=17%  Similarity=0.120  Sum_probs=36.5
+
+Q ss_pred             EEEEEEEeeCCCCCCCCCcccceeEEeeeCCCcceeecccccccccccccCCCCCCcccCCcceEeecCCCC-ccccccC
+Q trypanosomaSS   199 WYELQVKLSSGNNSTGGGSTGSKEFTMSLGPDKLTATSTEFGASARLIGDFAPPEMPLDLSGKMLFIPSEPR-GHERVGA  277 (558)
+Q Consensus       199 ~~~i~V~i~~~~~~~~~~~~~~~~~~~~l~p~~~~~~~~~~~v~v~l~gd~~~~~~~~~l~~~yL~iP~~~~-~~~~~~~  277 (558)
+                      .=-|+|-.+....+ +.  .                    ..+...|.|.|++.......++++++++.... +.+.-..
+T Consensus        12 ~AiVeVvl~~~~~~-G~--~--------------------~~~~~~L~G~fs~aG~~~~AEG~L~lv~p~~~c~~~~d~~   68 (180)
+T 4c9v_A           12 KALIRVTPLQAEES-GG--V--------------------GQGNLTLEGLFARVAEISPAEGRLLQFHPLSLCNTSEDDQ   68 (180)
+T ss_dssp             EEEEEEEEC----------------------------------CEEEEEEECTTBCCCCEEEEEEECCTTTSCCC-----
+T ss_pred             ceEEEEEEeecCCC-Cc--c--------------------ceeeeEEEEEEecccCccccCceEEeecccccCCcccccc
+Confidence            12244444433322 10  0                    01122333333333333467788888863221 1110012
+
+
+Q ss_pred             ccceEEEEeeeeeEEeccccceeeeeeeeccccccccCCCCcchhhhhhcccccccchhhccccccceeeeeccc-----
+Q trypanosomaSS   278 GYNEWIIVDTHLVSIRGTECNKVGVSYEGFATQGSRCDAYPGACLANQLEDYRDRDLEAETKGERGKYMARFFAP-----  352 (558)
+Q Consensus       278 ~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~~~~~G~-----  352 (558)
+                      -...|+=|=+.            +-   .+ ..+.+|.+     +-++.+       .++.+|-..  .+...-.     
+T Consensus        69 ~~~gWIgVv~l------------e~---~~-~~~~~c~s-----v~~Kak-------~Al~~GAsA--vifd~~~n~~a~  118 (180)
+T 4c9v_A           69 TKPGFISIVKL------------ET---PD-RDTQPCLS-----LANKAR-------LAGERGAHA--VLFDITNDRGAL  118 (180)
+T ss_dssp             -CSCEEEEEEC------------CC---C-------CSC-----HHHHHH-------HHHHTTEEE--EEEECTTCTHHH
+T ss_pred             ccCCcEEEEEc------------cc---cc-cCCCccHh-----HHHHHH-------HHHhcCCce--EEEEeecCHhHH
+Confidence            35567655332            10   00 12333421     122211       112222111  1111100     
+
+
+Q ss_pred             -cCCCcccCCCCCceeEee----------cceeeeEEEEEEec
+Q trypanosomaSS   353 -LGFDPLANASAPAVSYQA----------SGTLSTIVTITISA  384 (558)
+Q Consensus       353 -~~~~~~~~~~~~~l~~~~----------~~~~~s~i~ie~~A  384 (558)
+                       -..... .-..+.+-..-          ........+|++.+
+T Consensus       119 ~eL~~~~-~l~~PVvli~~~~a~kLm~~~~~~~~A~a~I~~~~  160 (180)
+T 4c9v_A          119 QQLQQPA-GINQPVVLIWGPDAEKLMDVVNKNKEALVKIEVQE  160 (180)
+T ss_dssp             HTTCSCC-CBSSCEEEECTHHHHHHHHHHHTTCCEEEEEEC--
+T ss_pred             HHhCcCc-CccCCEEEEecCcHHHHhhhhccCcEEEEEEEeCC
+Confidence             000000 01233333211          22334456666542
+
+
+No 10 
+>3ncx_A Intimin, intimin adherence protein; intimin TIR, cell adhesion; 2.60A {Escherichia coli O157} PDB: 2zqk_A 3ncw_A 2zwk_A
+Probab=0.27  E-value=2.7e+03  Score=13.36  Aligned_cols=90  Identities=8%  Similarity=0.020  Sum_probs=26.6
+
+Q ss_pred             cccCCCcccCCCCCceeEeecceeeeEEEEEEeccceeEEEEeeeeeEEeeEEeeeEEEEeecCceEEEEEeecCceeeE
+Q trypanosomaSS   351 APLGFDPLANASAPAVSYQASGTLSTIVTITISADKLNFVLSVSSGVIVGATVSGKVVHSYSRGSTITVTVLNTGDIEAQ  430 (558)
+Q Consensus       351 G~~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~a~  430 (558)
+                      .+|+.....   ...            .+|.++-..=.|.-..+...+.++  +...--.....|..+|++.-...-.+ 
+T Consensus        26 ~~fPttg~~---ga~------------f~L~~~g~~~~ytWsSs~~~~atV--d~~G~Vt~~~~G~~~Itatd~~~~~~-   87 (189)
+T 3ncx_A           26 GELPNIWLQ---YGQ------------FKLKASGGDGTYSWYSENTSIATV--DASGKVTLNGKGSVVIKATSGDKQTV-   87 (189)
+T ss_dssp             ESCCSSEET---TCE------------EECCEESTTSCEEEEESCTTTEEE--CTTSEEEECSSSCEEEEEEETTSCEE-
+T ss_pred             CCCCCcCcC---CcE------------EEEEEcCCCccEEEEECCCcEEEE--ECCceEEEEecCeEEEEEEECCCCEE-
+Confidence            233332211   111            222233221112222221111111  10000011134555555555432223 
+
+
+Q ss_pred             EEEEEeEEEeeeeeeeeeEEEeCCCCCcceeEEEEEe--ecccccccccccc
+Q trypanosomaSS   431 YTVVVGECTVNVQPMVAQTVYIPPKGSAQRRFTLIVQ--DSIEGEAKCNATL  480 (558)
+Q Consensus       431 y~v~v~~Cs~~i~~i~~~~~~i~p~~~~~~~f~l~~~--~~~~~~~~C~v~L  480 (558)
+                                        ...+..+.-    |.....  +.......|.-.|
+T Consensus        88 ------------------sy~ftv~~w----f~~~~~~~~~~~A~~~C~~~l  117 (189)
+T 3ncx_A           88 ------------------SYTIKAPSY----MIKVDKQAYYADAMSICKNLL  117 (189)
+T ss_dssp             ------------------EEEECCCSC----EEEEEEECCHHHHHHHTTTCC
+T ss_pred             ------------------EEEEEeceE----EEECCCccCHHHHHHHHHhhC
+Confidence                              333444332    222221  3333445665321
+
+
+No 11 
+>2v1o_A Cytosolic acyl coenzyme A thioester hydrolase; acyl-COA thioesterase 7, serine esterase, protein structure, domain duplication, ACOT7, macrophage; HET: COA; 1.78A {Mus musculus}
+Probab=0.27  E-value=2.1e+03  Score=12.23  Aligned_cols=61  Identities=10%  Similarity=0.131  Sum_probs=21.0
+
+Q ss_pred             EEEEEEeccceeEEEEeeeeeEEeeEEeeeEEEEeecCceEEEEEeecC------ceeeEEEEEEeEEEe
+Q trypanosomaSS   377 IVTITISADKLNFVLSVSSGVIVGATVSGKVVHSYSRGSTITVTVLNTG------DIEAQYTVVVGECTV  440 (558)
+Q Consensus       377 ~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G------~~~a~y~v~v~~Cs~  440 (558)
+                      .+.+.++.+++.|..+..+|..+.+...+  -........+.+.+.+.+      .+.+...... -+-+
+T Consensus        46 ~~~v~~~~~~~~f~~pv~~gd~i~i~~~v--~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~-~~~~  112 (151)
+T 2v1o_A           46 CVAALARVERTDFLSPMCIGEVAHVSAEI--TYTSKHSVEVQVHVMSENILTGTKKLTNKATLWY-VPLS  112 (151)
+T ss_dssp             EEEEEEEECCEECCSCCBTTCEEEEEEEE--EEECSSCEEEEEEEEEECTTTCCEEEEEEEEEEE-EEEE
+T ss_pred             ceEEEEEEccEEEECCcCCCCEEEEEEEE--EEecCCEEEEEEEEEEecCCCCceEEEEEEEEEE-EEec
+Confidence            12222332334442222334455442211  122233445666666654      2222222211 1111
+
+
+No 12 
+>2cc0_A Acetyl-xylan esterase; hydrolase, carbohydrate esterase; 1.6A {Streptomyces lividans} SCOP: c.6.2.3
+Probab=0.21  E-value=2.6e+03  Score=12.14  Aligned_cols=83  Identities=10%  Similarity=0.035  Sum_probs=26.0
+
+Q ss_pred             ccccEEEEEEecCccccC-------------ceeEeeehhHhhcc-------CccCcceeEeeeeeeeecc-CCeeeeee
+Q trypanosomaSS    36 CEKKMVVTLSVGGGQKAG-------------VEEVVLLREAVDKT-------GDEKGKRVEFEPVRMVTTE-SPVRYRYP   94 (558)
+Q Consensus        36 C~~Klvv~l~V~~g~~~~-------------~~~~v~~~~~~d~~-------~~~~~~~~~~~p~~I~i~K-s~v~~~Yp   94 (558)
+                      |..+-.|.|+++.+....             ...+-+....++..       ...|. .       |-.+- +..  .+ 
+T Consensus         1 ~~~~~~i~ltfDd~~~~~~~~l~~~l~~~~~~~tff~~~~~~~~~~~~~~~l~~~G~-e-------ig~H~~~h~--~~-   69 (195)
+T 2cc0_A            1 AACNGYVGLTFDDGPSGSTQSLLNALRQNGLRATMFNQGQYAAQNPSLVRAQVDAGM-W-------VANHSYTHP--HM-   69 (195)
+T ss_dssp             CCCSEEEEEEEESCCSTTHHHHHHHHHHTTCCCEEEECHHHHHHCHHHHHHHHHTTC-E-------EEECCSSCC--CG-
+T ss_pred             CCCCCEEEEEEeCCCchhHHHHHHHHHHCCCCEEEEechHhhhHCHHHHHHHHHcCC-E-------EEECCCCCc--Cc-
+Confidence            667788888888886542             12333333333210       00121 1       11110 000  00 
+
+
+Q ss_pred             eEEEecCCCchhhhh---hcccccccccCCCCCCcccccccccCCCCceecCCceeecccccc
+Q trypanosomaSS    95 IYYIRNFNAKPYEQR---LRTSASSWCDDSSNPGSATCGVARDRRGDVIPYSQGFCCLCGACA  154 (558)
+Q Consensus        95 L~Y~~~v~~~p~E~~---i~~~~~~~C~~~~~~~~~tCg~~~~~~g~~i~~sqgfCC~C~~~~  154 (558)
+                          ...   +.|.+   +....               .+.....|.   ...+|+.+.+...
+T Consensus        70 ----~~~---~~~~~~~~i~~~~---------------~~l~~~~g~---~~~~~r~p~~~~~  107 (195)
+T 2cc0_A           70 ----TQL---GQAQMDSEISRTQ---------------QAIAGAGGG---TPKLFRPPYGETN  107 (195)
+T ss_dssp             ----GGS---CHHHHHHHHHHHH---------------HHHHHTTSC---CCSEECCGGGCCC
+T ss_pred             ----ccC---CHHHHHHHHHHHH---------------HHHHHhhCC---CCCEEeCCCCCcC
+Confidence                011   12211   10000               000000111   1234444444321
+
+
+No 13 
+>2qwz_A Phenylacetic acid degradation-related protein; putative thioesterase, structural genomics, joint center for structural genomics, JCSG; HET: MSE; 2.15A {Silicibacter SP}
+Probab=0.12  E-value=3.4e+03  Score=10.79  Aligned_cols=52  Identities=8%  Similarity=-0.051  Sum_probs=15.8
+
+Q ss_pred             EEEeCCCCCc-ceeEEEEEeecccccccccccccccc-Cceeeeceeeeeeeee
+Q trypanosomaSS   449 TVYIPPKGSA-QRRFTLIVQDSIEGEAKCNATLRNAR-GDVVDTRAISFGVKAL  500 (558)
+Q Consensus       449 ~~~i~p~~~~-~~~f~l~~~~~~~~~~~C~v~L~ds~-~~~ld~~~v~f~t~~~  500 (558)
+                      .-.+.|-... .+.+...+...........+.+++.+ |+++.+....|.....
+T Consensus       105 i~fl~pv~~gd~l~v~~~v~~~~~~~~~~~~~i~~~~~g~lva~~~~~~~~~~~  158 (159)
+T 2qwz_A          105 LDFMRKPESGRDLLGQARLLKLGRTLAVGDILLFSEGMEAPVARSTMTYSIPPK  158 (159)
+T ss_dssp             EEECSCCCTTSCEEEEEEEEEECSSEEEEEEEEEETTCSSCSEEEEEEEECCC-
+T ss_pred             EEeccCCCCCCEEEEEEEEEEcCCCEEEEEEEEEECCCCcEEEEEEEEEEEeCC
+Confidence            1112222111 22222222211112222222333333 5555555555543211
+
+
+No 14 
+>2qsv_A Uncharacterized protein; MCSG, structural genomics, porphyromonas gingivalis W83, PSI protein structure initiative; 2.10A {Porphyromonas gingivalis}
+Probab=0.08  E-value=4.5e+03  Score=10.24  Aligned_cols=178  Identities=10%  Similarity=0.037  Sum_probs=74.8
+
+Q ss_pred             ccceEEEEeeeeeEEeccccceeeeeeeeccccccccCCCCcchhhhhhcccccccchhhccccccceeeeeccccCCCc
+Q trypanosomaSS   278 GYNEWIIVDTHLVSIRGTECNKVGVSYEGFATQGSRCDAYPGACLANQLEDYRDRDLEAETKGERGKYMARFFAPLGFDP  357 (558)
+Q Consensus       278 ~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~~~~~G~~~~~~  357 (558)
+                      .....+.|..     .|.    .-+.+. |..-   |     .|+.     + +.....++-|......+..-.      
+T Consensus        20 ~~~~~v~l~N-----~g~----~~~~~~-~~~~---~-----~~~~-----~-~~~~~~l~pg~~~~i~v~~~p------   69 (220)
+T 2qsv_A           20 EGVVRLVVNN-----TDE----SDLQVA-VVSL---P-----SFVS-----L-DDRAFRLQAREPRELNLSLAV------   69 (220)
+T ss_dssp             CCEEEEEEEE-----CSS----SCEEEE-EEEC---C-----TTEE-----C-SCCEEEECSSSCEEEEEEECC------
+T ss_pred             eeeEEEEEEe-----CCC----CCEEEE-eecC---C-----CceE-----E-EeCcceECCCCceEEEEEEcc------
+Confidence            1112222211     121    112222 1110   1     1111     0 001112222333222222210      
+
+
+Q ss_pred             ccCCCCCceeEeecceeeeEEEEEEeccc---eeEEEEeeeeeE--------------EeeEEeeeEEEEeec-CceEEE
+Q trypanosomaSS   358 LANASAPAVSYQASGTLSTIVTITISADK---LNFVLSVSSGVI--------------VGATVSGKVVHSYSR-GSTITV  419 (558)
+Q Consensus       358 ~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~---i~~v~~~s~G~I--------------~~~~~~~~~fe~~s~-~g~l~V  419 (558)
+                         ...+.     .+.....+.++++..+   -.-+.-.-.|.+              +++. ..-.|-.... .-...+
+T Consensus        70 ---~~~~~-----~g~~~~~~~~~~~~~~~~~~~~~~l~v~~~v~~~f~~~~~~~~p~~~~~-~~l~fG~~~~~~~~~~~  140 (220)
+T 2qsv_A           70 ---PRNMP-----PGMKDEPLVLEVTSPETGKKAVDSVMVSLPLVDNFPALTAAQTGVMELS-TYLDMGQLDGETTKAAI  140 (220)
+T ss_dssp             ---CTTCC-----SEEEEEEEEEEEECTTTCCEEEEEEEEEEEECCCGGGCCGGGCCCEECC-CEEEEEECTTSCEEEEE
+T ss_pred             ---ccccc-----CCeeeeEEEEEEeCCCCCcccceEEEEEEEeccCCCCCccccCCEEEEe-eeEecccCcCceeEEEE
+Confidence               01011     1235788999999776   222222233333              2221 2234544443 116789
+
+
+Q ss_pred             EEeecCceeeEEEEEEeEEEeeeeeeeeeEEEeCCCCCcceeEEEEEe-ecc---cc-ccccccccccccCceeeeceee
+Q trypanosomaSS   420 TVLNTGDIEAQYTVVVGECTVNVQPMVAQTVYIPPKGSAQRRFTLIVQ-DSI---EG-EAKCNATLRNARGDVVDTRAIS  494 (558)
+Q Consensus       420 ~v~N~G~~~a~y~v~v~~Cs~~i~~i~~~~~~i~p~~~~~~~f~l~~~-~~~---~~-~~~C~v~L~ds~~~~ld~~~v~  494 (558)
+                      .++|.|.....|.. + ....+...+......|+|+++  ..+.+... ...   .. .+.|.+.+.-.+-..   -.+.
+T Consensus       141 ~i~N~g~~~l~i~~-i-~~~~~~~~i~~~~~~l~pg~~--~~i~v~~~p~~~~~~~~~~~~~~l~~~~nd~~~---p~~~  213 (220)
+T 2qsv_A          141 EIRNVGAGPLRLHS-V-TTRNPALTAVPDRTEIKPGGS--TLLRIAVDPQVMKAEGWQSIAADISIICNDPQA---PLRR  213 (220)
+T ss_dssp             EEEECSSSCEEEEE-E-EECSTTEEEEESCSEECTTCE--EEEEEEECHHHHHHTTCSEEEEEEEEEESCTTC---SEEE
+T ss_pred             EEEECCCCcEEEEE-E-ecCCCCEEEECCCceECCCCE--EEEEEEEEcCccccCCccceeeEEEEEECCCCC---CEEE
+Confidence            99999999999984 5 333222223323346888764  45555554 211   22 777877775443321   1244
+
+
+Q ss_pred             eeeeeec
+Q trypanosomaSS   495 FGVKALK  501 (558)
+Q Consensus       495 f~t~~~~  501 (558)
+                      +..++.-
+T Consensus       214 i~v~~~~  220 (220)
+T 2qsv_A          214 IKVKAEL  220 (220)
+T ss_dssp             EEEEEEC
+T ss_pred             EEEEEEC
+Confidence            4444431
+
+
+No 15 
+>3b6n_A 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; malaria isoprenoid biosynthesis and prenylation pathways ISPF; 2.26A {Plasmodium vivax sai-1}
+Probab=0.07  E-value=5.7e+03  Score=10.85  Aligned_cols=142  Identities=11%  Similarity=0.086  Sum_probs=43.4
+
+Q ss_pred             cccceeeeeeEEEEEEEEEeeCCCCC------CCC-Ccc----cceeEEeeeCCCcce----eecccccccc--------
+Q trypanosomaSS   187 WYGGYTIGRGVVWYELQVKLSSGNNS------TGG-GST----GSKEFTMSLGPDKLT----ATSTEFGASA--------  243 (558)
+Q Consensus       187 wY~vy~I~~~~~~~~i~V~i~~~~~~------~~~-~~~----~~~~~~~~l~p~~~~----~~~~~~~v~v--------  243 (558)
+                      -|..|.||...=.|.+   .......      .+. .+.    ......+.|+=-.-.    .--+|.||..        
+T Consensus         1 ~~~~~riG~G~D~Hr~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~r~l~LgGv~i~~~gl~gHSDgDVl~HAl~DAlL   77 (187)
+T 3b6n_A            1 GYDGVRIGQGYDIHQI---RVGPPEDIVADTTADTAANTADPNKQSFKRLTIGGVPVETISVLSHSDGDVIFHALVDALL   77 (187)
+T ss_dssp             ---CEEEEEEEEEEEE---ESSCCC------------------CCEEEEEEETTEEEEEEEEEESSCCCHHHHHHHHHHH
+T ss_pred             CCCCcEEEeeeeeeee---ccCCccccccccccccccccccccccCCCCEEEeeEEeCCCCcccccchhHHHHHHHHHHH
+Confidence            1678888865444443   3321100      000 000    123467777732110    0112333321        
+
+
+Q ss_pred             --cccccCCCCCCcccCCcceEeecCCCCcccccc--Cc------------cceEEEEeeeeeEEeccccceeeeeeeec
+Q trypanosomaSS   244 --RLIGDFAPPEMPLDLSGKMLFIPSEPRGHERVG--AG------------YNEWIIVDTHLVSIRGTECNKVGVSYEGF  307 (558)
+Q Consensus       244 --~l~gd~~~~~~~~~l~~~yL~iP~~~~~~~~~~--~~------------~~~~mll~~~~v~l~G~eCnKIGVsy~aF  307 (558)
+                        -=.||         +-.  +| |.   +++..+  +.            ...|-+..-+..-                
+T Consensus        78 GA~glgD---------IG~--~F-pd---~d~~~k~~~S~~lL~~v~~~l~~~g~~I~NiD~tI----------------  126 (187)
+T 3b6n_A           78 GGMSCSD---------LGT--LF-PD---GSPKYKNKNSLSFLRYARLLLYKRNYAIANVDIIV----------------  126 (187)
+T ss_dssp             HHTTCC------------------------------CCTHHHHHHHHHHHHHTTEEEEEEEEEE----------------
+T ss_pred             HhccCCc---------ccc--cC-CC---cCcccCCCCHHHHHHHHHHHHHHCCcEEEEEEEEE----------------
+Confidence              11222         211  11 21   111111  11            2478887766442                
+
+
+Q ss_pred             cccccccCCCCcchhhhhh----cccccccchhhccccccceeeeeccccCCCc-ccCCCCCceeEeecceeeeEEEEEE
+Q trypanosomaSS   308 ATQGSRCDAYPGACLANQL----EDYRDRDLEAETKGERGKYMARFFAPLGFDP-LANASAPAVSYQASGTLSTIVTITI  382 (558)
+Q Consensus       308 ~~Q~~~C~~~~gSCL~nQl----~~~~~~D~~~~~~g~~~~Y~~~~~G~~~~~~-~~~~~~~~l~~~~~~~~~s~i~ie~  382 (558)
+                           -|..|+=.-...++    .+....+..+        --++.--. +... +.  ....+.-      ...++++-
+T Consensus       127 -----i~e~PKl~p~~~~m~~~La~lL~i~~~~--------V~IKAtT~-E~lG~iG--r~egIaa------~avvll~~  184 (187)
+T 3b6n_A          127 -----IAEVPKISPIREEIVRNISSALGISESQ--------VSLKGKTH-EQLGPVG--QKKAIEC------FANALLIR  184 (187)
+T ss_dssp             -----ECSSSCSHHHHHHHHHHHHHHHTCCGGG--------EEEEEECC-TTCHHHH--TTSEEEE------EEEEEEEE
+T ss_pred             -----EeCCccchHHHHHHHHHHHHHhCCCCce--------EEEEEecC-CCCCccc--CCcEEEE------EEEEEEEe
+Confidence                 25566655544433    2222222222        22332200 0000 00  1122321      12233322
+
+
+Q ss_pred             ec
+Q trypanosomaSS   383 SA  384 (558)
+Q Consensus       383 ~A  384 (558)
+                      ..
+T Consensus       185 ~~  186 (187)
+T 3b6n_A          185 KQ  186 (187)
+T ss_dssp             CC
+T ss_pred             cC
+Confidence            11
+
+
+No 16 
+>2qvk_A CBD2, sodium/calcium exchanger 1; calcium binding domain, metal binding protein; 1.45A {Canis lupus familiaris} PDB: 2qvm_A 2fwu_A 2kls_A
+Probab=0.06  E-value=5.2e+03  Score=9.97  Aligned_cols=86  Identities=13%  Similarity=0.103  Sum_probs=40.9
+
+Q ss_pred             EeeeeeEEeeEEeeeEEEEeecCceEEEEEeecCceeeEEEEEEeEEEee--------eeeeeeeEEEeCCCCCcceeEE
+Q trypanosomaSS   392 SVSSGVIVGATVSGKVVHSYSRGSTITVTVLNTGDIEAQYTVVVGECTVN--------VQPMVAQTVYIPPKGSAQRRFT  463 (558)
+Q Consensus       392 ~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~--------i~~i~~~~~~i~p~~~~~~~f~  463 (558)
+                      +..+|.| ++  ..+.+......|.+.|.|.-.|...+..+|...- ..+        ..+ ....+...++++. ..+.
+T Consensus         2 dd~~g~~-~F--~~~~~~v~E~~g~~~v~V~R~~g~~g~v~V~~~t-~dgtA~~~g~Dy~~-~~g~l~F~~get~-~~i~   75 (192)
+T 2qvk_A            2 PGHAGIF-TF--EEPVTHVSESIGIMEVKVLRTSGARGNVIVPYKT-IEGTARGGGEDFED-TCGELEFQNDEIV-KTIS   75 (192)
+T ss_dssp             --CCCEE-EE--SCSEEEEETTCCEEEEEEEEESCCCSCEEEEEEE-EESSSCTTTTSBCC-CEEEEEECTTCCE-EEEE
+T ss_pred             CCCCeEE-EE--eCCeEEEecCCcEEEEEEEEecCCCCcEEEEEEE-cCCcccccCccccc-ccceEEECCCCEE-EEEE
+Confidence            1234443 23  4556677777889999888766555444443311 121        112 2578888888773 3455
+
+
+Q ss_pred             EEEeeccc--cccccccccccc
+Q trypanosomaSS   464 LIVQDSIE--GEAKCNATLRNA  483 (558)
+Q Consensus       464 l~~~~~~~--~~~~C~v~L~ds  483 (558)
+                      |.+..+..  ..-.-.+.|.+.
+T Consensus        76 I~I~dD~~~E~~e~F~v~L~~p   97 (192)
+T 2qvk_A           76 VKVIDDEEYEKNKTFFLEIGEP   97 (192)
+T ss_dssp             EEBCCCSSCCSSEEEEEEECCC
+T ss_pred             EEecCCCCccCceEEEEEEeCC
+Confidence            44321110  011111112111
+
+
+No 17 
+>1of9_A Pore-forming peptide ameobapore A; toxin, saplip, amoebapore A; NMR {Entamoeba histolytica} SCOP: a.64.1.4
+Probab=0.05  E-value=4.2e+03  Score=7.56  Aligned_cols=10  Identities=40%  Similarity=0.899  Sum_probs=1.7
+
+Q ss_pred             hhhhhhhccc
+Q trypanosomaSS   534 NLLCFLRHRC  543 (558)
+Q Consensus       534 ~~~C~~~~~C  543 (558)
+                      +..|...+.|
+T Consensus        68 ~~iC~~~~~C   77 (77)
+T 1of9_A           68 NAICAKIHAC   77 (77)
+T ss_dssp             HHHHHHHSCC
+T ss_pred             HHHHhHcCCC
+Confidence            1112111111
+
+
+No 18 
+>4ae8_A Thioesterase superfamily member 4; hydrolase, hotdog-fold; 1.59A {Homo sapiens} PDB: 4gah_A*
+Probab=0.04  E-value=6e+03  Score=8.98  Aligned_cols=178  Identities=9%  Similarity=-0.018  Sum_probs=41.5
+
+Q ss_pred             EEEEEeeCCCCCCCCCc---------------ccceeEEeeeCCCcceeecccccccccccccCCCCCCcccCCcceEee
+Q trypanosomaSS   201 ELQVKLSSGNNSTGGGS---------------TGSKEFTMSLGPDKLTATSTEFGASARLIGDFAPPEMPLDLSGKMLFI  265 (558)
+Q Consensus       201 ~i~V~i~~~~~~~~~~~---------------~~~~~~~~~l~p~~~~~~~~~~~v~v~l~gd~~~~~~~~~l~~~yL~i  265 (558)
+                      .-.+..+....+|++|+               .....+.-......+.          .+.| +.-..-+|.+.... -+
+T Consensus         9 ~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~W~~~~~~~~~~~~----------~~~~-~~~~~~~~~~~~~~-~~   76 (211)
+T 4ae8_A            9 SEEVILKDCSVPNPSWNKDLRLLFDQFMKKCEDGSWKRLPSYKRTPTE----------WIQD-FKTHFLDPKLMKEE-QM   76 (211)
+T ss_dssp             ----CCCBCSSCCTTCCHHHHHHHHHHHHHTTTSSEEEECCBC-------------------------------------
+T ss_pred             chhcccccccCCCCccCHHHHHHHHHHHhcccCCCeeECcccccCccc----------cccc-cccccCCccccccc-cc
+Confidence            11222334445555421               2233321111100000          0000 00000000000000 00
+
+
+Q ss_pred             cCCCCccccccCccce-EEEEeeeeeEEeccccceeeeeeeeccccccccCCCCcchhhhhhcccccccchhhccccccc
+Q trypanosomaSS   266 PSEPRGHERVGAGYNE-WIIVDTHLVSIRGTECNKVGVSYEGFATQGSRCDAYPGACLANQLEDYRDRDLEAETKGERGK  344 (558)
+Q Consensus       266 P~~~~~~~~~~~~~~~-~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~  344 (558)
+                      .........+.....- ...+..      . +-++.=.   .|.-.+..|+.+ |.=-..-+.-+.+.-.......    
+T Consensus        77 ~~~~l~~~~~~~~~g~~~~~~~~------~-~~~~~~~---~~~v~~~~~~~~-G~vhGG~latl~D~~~~~~~~~----  141 (211)
+T 4ae8_A           77 SQAQLFTRSFDDGLGFEYVMFYN------D-IEKRMVC---LFQGGPYLEGPP-GFIHGGAIATMIDATVGMCAMM----  141 (211)
+T ss_dssp             -CCCBGGGCSCTTTSEEEEEEEE------T-TTTEEEE---EEEECGGGBSST-TBBCHHHHHHHHHHHHHHHHHH----
+T ss_pred             cCceeccCCccccccceEEEEEe------C-CCCEEEE---EEECCHHHcCCC-CcCHHHHHHHHHHHHHHHHHHh----
+Confidence            0000000112222222 222221      0 0011111   111122222221 2110000000000000000000    
+
+
+Q ss_pred             eeeeeccccCCCcccCCCCCceeEeecceeeeEEEEEEeccceeEEEEeeeeeEEeeEEeeeEEEEeecCceEEEEEee-
+Q trypanosomaSS   345 YMARFFAPLGFDPLANASAPAVSYQASGTLSTIVTITISADKLNFVLSVSSGVIVGATVSGKVVHSYSRGSTITVTVLN-  423 (558)
+Q Consensus       345 Y~~~~~G~~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N-  423 (558)
+                           .                   -.......++|++.+-       ..+|..+.+  .+.-.+.-.+...+.+.+.+ 
+T Consensus       142 -----~-------------------~~~~vt~~l~I~f~~p-------v~~g~~l~v--~~~v~~~g~r~~~v~~~i~~~  188 (211)
+T 4ae8_A          142 -----A-------------------GGIVMTANLNINYKRP-------IPLCSVVMI--NSQLDKVEGRKFFVSCNVQSV  188 (211)
+T ss_dssp             -----H-------------------HSCEEEEEEEEEECSC-------CBTTCEEEE--EEEEEEEETTEEEEEEEEEET
+T ss_pred             -----c-------------------CCceEEEEEEEEEccc-------cCCCCEEEE--EEEEEEeCCcEEEEEEEEEEC
+Confidence                 0                   0122233445554432       111223333  11122232333567778889 
+
+
+Q ss_pred             -cCceeeEEEEEEeEEE
+Q trypanosomaSS   424 -TGDIEAQYTVVVGECT  439 (558)
+Q Consensus       424 -~G~~~a~y~v~v~~Cs  439 (558)
+                       .|.+-|.-+... -..
+T Consensus       189 d~g~lva~a~~~~-~~~  204 (211)
+T 4ae8_A          189 DEKTLYSEATSLF-IKL  204 (211)
+T ss_dssp             TSCCEEEEEEEEE-EEC
+T ss_pred             CCCEEEEEEEEEE-EEe
+Confidence             466666555533 111
+
+
+No 19 
+>1v1h_A Fibritin, fiber protein; chimera; 1.9A {Human adenovirus type 2} SCOP: b.83.1.1 h.1.17.1 PDB: 1v1i_A
+Probab=0.03  E-value=6.5e+03  Score=8.42  Aligned_cols=87  Identities=11%  Similarity=0.121  Sum_probs=27.5
+
+Q ss_pred             ccccceeeeeeEEEEEEEEEe------eCCCCCCCCCcccceeEEeeeCCCcceeeccccccccccccc--CCCCCCccc
+Q trypanosomaSS   186 LWYGGYTIGRGVVWYELQVKL------SSGNNSTGGGSTGSKEFTMSLGPDKLTATSTEFGASARLIGD--FAPPEMPLD  257 (558)
+Q Consensus       186 ~wY~vy~I~~~~~~~~i~V~i------~~~~~~~~~~~~~~~~~~~~l~p~~~~~~~~~~~v~v~l~gd--~~~~~~~~~  257 (558)
+                      -+=.++.+....    |.+.+      ......    .....  .+.+..-+-...++...|.+|+=+.  |.....+-.
+T Consensus         4 ~~~~Gl~~~~~~----l~l~~G~GL~v~~~~~~----~l~~~--~l~v~~G~Gl~~~~~g~i~VklG~GLsfD~~G~i~~   73 (103)
+T 1v1h_A            4 KKSSGLNFDNTA----IAINAGKGLEFDTNTSE----SPDIN--PIKTKIGSGIDYNENGAMITKLGAGLSFDNSGAITI   73 (103)
+T ss_dssp             CGGGTEEEETTE----EEECBCTTEEECTTSTT----TTTSC--CEEECBCTTEEECTTSCEEECBCTTCEECTTSCEES
+T ss_pred             ccCCCeEEcCCe----EEEeeCCCeEEcCCcce----ecccC--cEEEecCCceEEcCCCcEEEecCCCcEEcCCCcEEE
+Confidence            113455555553    22221      211110    01111  2334444444444455666664322  222222111
+
+
+Q ss_pred             CCcceEeecCCCCccccccCccceEEE
+Q trypanosomaSS   258 LSGKMLFIPSEPRGHERVGAGYNEWII  284 (558)
+Q Consensus       258 l~~~yL~iP~~~~~~~~~~~~~~~~ml  284 (558)
+                      -..++  .|..+++-........+|-+
+T Consensus        74 ~~~~~--~p~~~pNc~i~~~~D~~l~L   98 (103)
+T 1v1h_A           74 GGSGY--IPEAPRDGQAYVRKDGEWVL   98 (103)
+T ss_dssp             TTSSC--CBCCCCSSCEEEEETTEEEE
+T ss_pred             ecccC--CCCCCCCEEEEecCCcEEEE
+Confidence            11111  15433321100011223322
+
+
+No 20 
+>4zv3_A Cytosolic acyl coenzyme A thioester hydrolase; thioesterase, double hotdog, inflammation; HET: COA; 3.10A {Mus musculus}
+Probab=0.03  E-value=6.1e+03  Score=8.43  Aligned_cols=61  Identities=10%  Similarity=0.180  Sum_probs=20.7
+
+Q ss_pred             EEEEEEeccceeEEEEeeeeeEEeeEEeeeEEEEeecCceEEEEEeecC------ceeeEEEEEEeEEEe
+Q trypanosomaSS   377 IVTITISADKLNFVLSVSSGVIVGATVSGKVVHSYSRGSTITVTVLNTG------DIEAQYTVVVGECTV  440 (558)
+Q Consensus       377 ~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G------~~~a~y~v~v~~Cs~  440 (558)
+                      .+.+.++.+.+.|....-.|..+.++  ..-.........+.+.+.+.+      .+-+.-.... -+-+
+T Consensus        50 ~~~~~~~~~~i~~~~~~~~~~~l~i~--~~v~~~~~~~~~~~~~i~~~~~~~~~~~~~a~~~~~~-v~~d  116 (318)
+T 4zv3_A           50 CVAALARVERTDFLSPMCIGEVAHVS--AEITYTSKHSVEVQVHVMSENILTGTKKLTNKATLWY-VPLS  116 (318)
+T ss_dssp             EEEEEEEECCEECCSCCBTTCEEEEE--EEEEEECSSCEEEEEEEEEECTTTCCEEEEEEEEEEE-EEEE
+T ss_pred             ceEEEEEEeeeEeeCcccCCcEEEEE--EEEEEecCCcEEEEEEEEEecCCCCceEEEEEEEEEE-EEec
+Confidence            12222222233332111233444442  111222223345566666533      3334433322 2222
+
+
+Done!

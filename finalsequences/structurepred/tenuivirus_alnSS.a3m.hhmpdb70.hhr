@@ -1,0 +1,636 @@
+Query         tenuivirus_alnSS
+Match_columns 784
+No_of_seqs    323 out of 463
+Neff          6.6 
+Searched_HMMs 420
+Date          Fri Jul 29 17:47:03 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/tenuivirus_alnSS.a3m.hhm -ohhm ./structurepred/tenuivirus_alnSS.a3m.hhm.hhm -o ./structurepred/tenuivirus_alnSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -local -b 20 -z 20 -B 2000 -Z 2000 -ssm 2 -addss -psipred /implacable/software/bin -psipred_data /implacable/software/data 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;  100.0 1.2E-74 1.8E-78  648.5  27.1  381  340-731     2-428 (432)
+  2 3j0f_E E1 envelope glycoprotei  79.3      20  0.0025   34.3  21.2  318  385-724    28-378 (439)
+  3 3j0c_A E1 envelope glycoprotei  75.0      26  0.0033   33.4  25.4  318  385-728    28-382 (442)
+  4 3n44_F E1 envelope glycoprotei  32.4 1.4E+02   0.017   28.0  23.3  322  385-729    50-405 (473)
+  5 1i9w_A Fusion protein E1; enve  21.0 2.1E+02   0.026   26.2  18.0  314  385-720    28-374 (390)
+  6 3muu_A Structural polyprotein;  14.2 3.9E+02   0.049   26.4  23.0  314  385-719   388-734 (750)
+  7 3n40_F E1 envelope glycoprotei   8.3 4.7E+02   0.058   23.6  23.3  316  385-724    30-380 (393)
+  8 1svb_A TICK-borne encephalitis   3.3   2E+02   0.027   26.7   3.9   53  373-425    25-80  (395)
+  9 4gsx_A Envelope protein E; vir   3.3   2E+02   0.026   27.0   3.8   53  373-425    41-96  (427)
+ 10 4fg0_A Polyprotein; viral enve   3.3 1.8E+02   0.024   27.1   3.5   53  373-425    25-80  (407)
+ 11 1ok8_A Major envelope protein    3.0 2.2E+02   0.029   26.4   3.8   53  373-425    25-80  (394)
+ 12 3p54_A Envelope glycoprotein;    2.8 2.1E+02   0.028   26.6   3.5   53  373-425    25-80  (406)
+ 13 3uaj_B Envelope protein; dengu   2.8 2.1E+02   0.027   27.0   3.2   53  373-425    25-80  (433)
+ 14 4cbf_A Envelope protein E; fla   2.5 2.2E+02   0.029   27.3   3.0   54  373-426    25-81  (495)
+ 15 3j27_A Envelope protein E; fla   2.4 2.5E+02   0.032   26.8   3.3   53  373-425    25-80  (495)
+ 16 4cct_A Dengue virus 1 E protei   2.4 2.3E+02    0.03   27.1   3.0   54  373-426    25-81  (495)
+ 17 2kog_A Vesicle-associated memb   0.9 9.4E+02    0.13   16.7   3.6   13  213-225    87-99  (119)
+ 18 4wl1_A Lipopolysaccharide bios   0.9 2.7E+02   0.042   23.4   0.0   19  751-770    25-43  (356)
+ 19 3d0f_A Penicillin-binding 1 tr   0.5 1.3E+03    0.19   14.5   2.8   71  482-553    35-106 (106)
+ 20 3hd7_A Vesicle-associated memb   0.5 1.1E+03    0.16   14.7   2.1   25  218-242    64-88  (91)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=100.00  E-value=1.2e-74  Score=648.51  Aligned_cols=381  Identities=14%  Similarity=0.133  Sum_probs=332.4
+
+Q ss_pred             cccccccccccccccccC----cccccceeeeeeccCCCccccccccCc------eeEEEEccceeecccccceecccce
+Q tenuivirus_aln  340 ESCQDLVSSISNIERCTN----NSCDFISKMKLTLLNTPQDFCFKTSTD------VYKIRFNSVRVMCLSVPLYYTNSFK  409 (784)
+Q Consensus       340 ~~Cq~~~~~~s~~~~C~~----~~C~~~~~~~l~l~~~gqE~Cl~l~~~------~ikIk~~~i~l~C~k~~~yfTrd~~  409 (784)
+                      ++|||++++++++++|++    +.|++++.++|+|+|+|||+||+|+++      .||||+++++|+|+|+++|||||++
+T Consensus         2 ~~C~~~~~~~s~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTrd~~   81 (432)
+T 4hj1_A            2 PGCSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFS   81 (432)
+T ss_dssp             BCEEEEEECCGGGEEEEESSSCEEEEEEEEEEEECCCBTSEEEEEEECSSTTCEEEEEEEEEEEEEEEEEEEEEEECCEE
+T ss_pred             CCCCceeEEEecccEEeCCCCCCEEEEeEEEEEEeecCCcEEeEEEECCCCCeEEEEEEEEEeeEEEEecccEEEeccee
+Confidence            689999999999999984    799999999999999999999999975      9999999999999999999999999
+
+
+Q ss_pred             eeeeeccccccCCCCCCCCCCCccccCccc-----------ccccccccccccccc-CCCc--ccceeeeeeccCCCcce
+Q tenuivirus_aln  410 RVISREEWKCFEGEGCRTDGTHSIWGESTS-----------LSFDYCVTDFHIFSY-CPAY--HYNWKRIEYEPTSSRAC  475 (784)
+Q Consensus       410 ~~v~ss~~RC~~~GsC~~~~C~~i~~~~~~-----------pG~t~C~esCGg~gC-cc~~--~ClFyRiy~~P~s~~iy  475 (784)
+                      ++++|+ |||++||||++++|+++++++.+           ||+++|+++|||+|| |||+  +|||||+|++|+++++|
+T Consensus        82 ~~~~s~-~RC~~~GsC~~~~C~~i~~~~~~pEl~~~~~~~~~g~t~C~~sCGg~gCgCF~~~~sClFyR~y~~p~s~~iy  160 (432)
+T 4hj1_A           82 PKCLSS-RRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEAL  160 (432)
+T ss_dssp             EEEEEE-EECTTSTTCSTTTTTTCCTTCCCGGGGGGCCCCBCEEEEEEEECCSGGGTCSSSSCEEEEEEEEEEESSSCCE
+T ss_pred             EEEeeE-eECCCCCccccCcccccCCcCcchhhccccccCCCccceeccccCCCCcCeeCcCcchhEEEEEEEcCCCCEE
+Confidence            999998 99999999999999999998766           589999999999999 6666  99999999999999999
+
+
+Q ss_pred             eeeeeccceeeEEEEEEeccc---eeeeccccccccCCCceEEEEeecccCCCc-ccee-ccCCceeeecccccCccccc
+Q tenuivirus_aln  476 TIMKCMDTKFEIVGYIQKNGH---VLKELGGITSKYDSPLVSISLSNYNSARMP-REYA-ECDGKAYLRTANDLGSFDKE  550 (784)
+Q Consensus       476 eVf~C~~W~~~v~l~vt~~~~---~~~l~~~~t~~~~~~~isltl~s~~~p~~P-~l~~-~~~~~~Fi~~~n~~~~~~~g  550 (784)
+                      |||+|++|+++++++|+.++.   ++.+........+|++++|+++++++|++| .-|+ ..++.+++.+.+.+++|.+|
+T Consensus       161 eVf~C~~W~~~v~i~vt~~~~~~~~~~l~~~~~~~~~~~~i~itl~~~~~~~~~~~~fi~~~~~~~a~~~~~~~~~p~~g  240 (432)
+T 4hj1_A          161 RVFNCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQG  240 (432)
+T ss_dssp             EEEEEEEEEEEEEEEEECTTSCEEEEEECTTCEEEETTEEEEEEEECCSCTTGGGCEEEEETTTEEEEESSCCCSSCCTT
+T ss_pred             EEEECCCccEEEEEEEEecCCceEEEEeccCCceEEeeccEEEEEEeeeecCCCCcEEEEeCCceEEEecccccCCcCcC
+Confidence            999999999999999997442   334433233334556699999999998766 3355 46678888999999999999
+
+
+Q ss_pred             ccccccCCChhhhhhhccccccc------------ccc-cCCcccceeeccccccccccccCCCccceeec--Ccceeee
+Q tenuivirus_aln  551 LLGNIQCPTKEDAVVLSSKCKTK------------ILS-NEDLPVIRYIERDGVDMLEHVKSEPLKDVLVS--SSGISLS  615 (784)
+Q Consensus       551 ~iGelQC~t~~~A~~~~~~C~~~------------~~C-C~~~~i~~~~~~~c~~~LP~~~~~~l~~~~~~--~~~V~A~  615 (784)
+                      ++|+|||+++++|++++++|.++            ++| |++.++.+.+.   .++||...+  .+.|..+  +++|+|.
+T Consensus       241 ~ig~lqC~t~~~A~~~~~~C~~~~~~c~c~~~~~~~~C~c~~~~~~~~~~---~~~LP~~~~--~~~~~~~~~~~~V~a~  315 (432)
+T 4hj1_A          241 FLGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFE---RGSLPQTRN--DKTFAASKGNRGVQAF  315 (432)
+T ss_dssp             STTSEEBSSHHHHHTTBTTSEECTTCEEEEEETTEEEEEECCCCHHHHHH---HTBSSEEET--TEEEEECSSSCCEEEE
+T ss_pred             cccceeeCChHHhHhhcCceeeccccceEEcccceEEeeCCCCCHHHHhh---cCCCceEeC--cceEEEecCCCeEEEE
+Confidence            99999999999999877899883            567 77777766654   489999887  6667644  6789999
+
+
+Q ss_pred             eccccceEEEEeeecceeeeeeecccccccccccccccccCCcceeEEEeecccccc--eeeeccCCcccceeeccCCCc
+Q tenuivirus_aln  616 TLDLFPVELNLQFKEAITSIITSKISLNGTSCKITGIERKFKKTTVSIESSNKVYLS--DILACEGLAVCPMILNNIKKG  693 (784)
+Q Consensus       616 ~~~~~~a~l~I~~~~~~vs~~~~~~~C~i~~~~ltGCYsC~~GA~v~i~C~S~~~t~--a~i~C~~~~~~~~~c~~~~~~  693 (784)
+                      ++.+++++|+|+++++.+++++++++|++++.+++|||||.+||+|+|+|+|+.+++  +++.|++ ++|++.+.++  +
+T Consensus       316 ~~~~~~~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~C~S~~~~~~~~~~~~~~-~~~~~~~~~g--~  392 (432)
+T 4hj1_A          316 SKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDGS-LHIVLPSENG--T  392 (432)
+T ss_dssp             ECSCCCEEEEEEEEEEEEECCSCCCCCEEEEEEEEEBSSSSSCEEEEEEEEESSCEEEEEEETTSS-CEEEEEECBE--E
+T ss_pred             eccceEEEEEEEecceEEEEEEeCCcceEEeccceEecccccCCEEEEEEEeCCCCeEEEEEcCCC-EEEEEecCCC--C
+Confidence            999999999999999779999999999999999999999999999999999998544  6667776 6777777666  6
+
+
+Q ss_pred             ceeEEEEeeecccceeeeeeeecCCcceeeeeecCCcc
+Q tenuivirus_aln  694 TCITTTYYSVTVGSMIKCKFIYSGDTLMCKYDVSPLEI  731 (784)
+Q Consensus       694 ~~~~~~lhf~~a~V~e~C~v~CGg~~~~~~~~vs~~~~  731 (784)
+                      ..++++|||++|+|+++|+++||++++.  +.++|.+.
+T Consensus       393 ~~~~~~~~f~~a~v~~~C~v~CG~~~~~--f~i~G~L~  428 (432)
+T 4hj1_A          393 KDQCQILHFTVPEVEEEFMYSCDGDERP--LLVKGTLI  428 (432)
+T ss_dssp             EEEEEEECCSSSEEEEEEEEESSSCCEE--EEEEEECB
+T ss_pred             eeEEEEEEcCCCeEeeEEEEECCCCcEE--EEEEEEEE
+Confidence            6777999999999999999999999875  67777444
+
+
+No 2  
+>3j0f_E E1 envelope glycoprotein; alphavirus, virus assembly; 7.00A {Sindbis virus} PDB: 1ld4_M 1z8y_I
+Probab=79.28  E-value=20  Score=34.25  Aligned_cols=318  Identities=10%  Similarity=0.070  Sum_probs=166.7
+
+Q ss_pred             eeEEEEccceeecccccceecccceeeeeeccccccCCCCCCCCCCCccccCccccccccccc-ccccccc-CCCcccce
+Q tenuivirus_aln  385 VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGCRTDGTHSIWGESTSLSFDYCVT-DFHIFSY-CPAYHYNW  462 (784)
+Q Consensus       385 ~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC~~~~C~~i~~~~~~pG~t~C~e-sCGg~gC-cc~~~ClF  462 (784)
+                      .|+|++.+.+|.=.-..+|+|=+++..+-|-+-.|=+.-+|....=.+.+=    --+++=+. =-||+-| |=---=..
+T Consensus        28 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~C----kVftGVYPfMWGGAyCFCDsENTQ~  103 (439)
+T 3j0f_E           28 NLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAAHADYTC----KVFGGVYPFMWGGAQCFCDSENSQM  103 (439)
+T ss_pred             eEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCCCCCCccc----eEecccccccccceeeeecCcchhh
+Confidence            899999999999999999999999999999755888888885421111000    00111110 1245554 22101112
+
+
+Q ss_pred             eeeeeccCC------CcceeeeeeccceeeEEEEEEeccc--eeeec-cc-cccccCCCceEEEEeecccCCCc--ccee
+Q tenuivirus_aln  463 KRIEYEPTS------SRACTIMKCMDTKFEIVGYIQKNGH--VLKEL-GG-ITSKYDSPLVSISLSNYNSARMP--REYA  530 (784)
+Q Consensus       463 yRiy~~P~s------~~iyeVf~C~~W~~~v~l~vt~~~~--~~~l~-~~-~t~~~~~~~isltl~s~~~p~~P--~l~~  530 (784)
+                      ...|..=..      -.+|++-   +=..+++|.|+..+.  .+..- -| .+...++  +++.+--+++.-+|  ...+
+T Consensus       104 SeayV~~s~~C~~dhA~AykaH---Tas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~--~K~i~GPiStawsPFD~KiV  178 (439)
+T 3j0f_E          104 SEAYVELSADCASDHAQAIKVH---TAAMKVGLRIVYGNTTSFLDVYVNGVTPGTSKD--LKVIAGPISASFTPFDHKVV  178 (439)
+T ss_pred             hhhheecCccchhHHHHHHHhh---hheeEEEEEEEEcceeEEEEEEEcCccceecCc--eeEEecccccCcCCCCceEE
+Confidence            222222111      1334432   234566777775332  22222 22 2333344  77776666666666  2345
+
+
+Q ss_pred             ccCCceeeecccccCcccccccccccCCChhhhhhh-cccccc-cccccCCcccceeeccccccccccccC----CC--c
+Q tenuivirus_aln  531 ECDGKAYLRTANDLGSFDKELLGNIQCPTKEDAVVL-SSKCKT-KILSNEDLPVIRYIERDGVDMLEHVKS----EP--L  602 (784)
+Q Consensus       531 ~~~~~~Fi~~~n~~~~~~~g~iGelQC~t~~~A~~~-~~~C~~-~~~CC~~~~i~~~~~~~c~~~LP~~~~----~~--l  602 (784)
+                      .-.+..|-.|-.+-|.-++|..|+||=.+-++..-. +.+=.. ++.-      . ..... -+.-|.-+.    ++  -
+T Consensus       179 vyk~eVYNyDfP~YGaG~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~------g-~iHVP-YTQapSGf~~W~~~~g~~  250 (439)
+T 3j0f_E          179 IHRGLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIASTDIRLLKPSA------K-NVHVP-YTQASSGFEMWKNNSGRP  250 (439)
+T ss_pred             EEcceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCC------C-ceecc-cccCCcHHHHHhhcCCCc
+Confidence            566778888888889999999999998887543210 000000 0000      0 00000 011111110    00  0
+
+
+Q ss_pred             cc----e--eecCcceeeeeccccceEEEEeeecceeeeeeecccccccccccccc-cccCCcceeEEEeecccccceee
+Q tenuivirus_aln  603 KD----V--LVSSSGISLSTLDLFPVELNLQFKEAITSIITSKISLNGTSCKITGI-ERKFKKTTVSIESSNKVYLSDIL  675 (784)
+Q Consensus       603 ~~----~--~~~~~~V~A~~~~~~~a~l~I~~~~~~vs~~~~~~~C~i~~~~ltGC-YsC~~GA~v~i~C~S~~~t~a~i  675 (784)
+                      .+    |  ...-+-|.|..=....+-|.|++.|..-.++.+...-+...+.+.-| ||=.-|..+.|+-++++.+.--+
+T Consensus       251 L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y~a~k~GkCav  330 (439)
+T 3j0f_E          251 LQETAPFGCKIAVNPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVSECTYSADFGGMATLQYVSDREGQCPV  330 (439)
+T ss_pred             cccCCCcceEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEEeccCCCCeEEEEEecCCCcccce
+Confidence            00    1  01123355555555566677777776533333333333333333333 78889999999999998766444
+
+
+Q ss_pred             eccCC----cccceeeccCCCcceeEEEEeeecccceeeeeeeecCCcceeee
+Q tenuivirus_aln  676 ACEGL----AVCPMILNNIKKGTCITTTYYSVTVGSMIKCKFIYSGDTLMCKY  724 (784)
+Q Consensus       676 ~C~~~----~~~~~~c~~~~~~~~~~~~lhf~~a~V~e~C~v~CGg~~~~~~~  724 (784)
+                      +-.+.    ..-.+.+...     -.+++||++|..+-+-.++=-+..+.|+-
+T Consensus       331 Hs~S~~atl~es~v~v~~~-----g~~t~hFSTas~~~~F~v~iC~~~vtC~~  378 (439)
+T 3j0f_E          331 HSHSSTATLQESTVHVLEK-----GAVTVHFSTASPQANFIVSLCGKKTTCNA  378 (439)
+T ss_pred             ecCCCceEeeeeeEEEeec-----ceEEEEEecCCCCCCEEEEeccCcceecC
+Confidence            44442    1111223222     35789999999988887764344443443
+
+
+No 3  
+>3j0c_A E1 envelope glycoprotein; alphavirus, bioweapon; 4.80A {Venezuelan equine encephalitis virus}
+Probab=75.01  E-value=26  Score=33.40  Aligned_cols=318  Identities=13%  Similarity=0.083  Sum_probs=174.1
+
+Q ss_pred             eeEEEEccceeecccccceecccceeeeeeccccccCCCCCCCCCCCccccCccccccccccc-cccccccCCCc-ccce
+Q tenuivirus_aln  385 VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGCRTDGTHSIWGESTSLSFDYCVT-DFHIFSYCPAY-HYNW  462 (784)
+Q Consensus       385 ~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC~~~~C~~i~~~~~~pG~t~C~e-sCGg~gCcc~~-~ClF  462 (784)
+                      .|+|++.+.+|.=.-..+|+|=+++..+-|-+-.|=+.-+|....    .++-.=--+++=+. =-||+-|=|-. -=..
+T Consensus        28 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~----~pDy~CkVftGVYPfMWGGAyCFCDtENTQ~  103 (442)
+T 3j0c_A           28 PISITPTKIKLIPTVNLEYVTCHYKTGMDSPAIKCCGSQECTPTY----RPDEQCKVFTGVYPFMWGGAYCFCDTENTQV  103 (442)
+T ss_dssp             EEEEEEEEEEEEEEEEEEEEECCEEEEECCCEEETTSCCCCCCCC----CTTCEEEEEESCCCEETTEESCSCSSSCEEE
+T ss_pred             eEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcC----CCCccceEecccccccccceeeeecCcchhh
+Confidence            899999999999999999999999999999755998888885421    11100000111110 13566652211 2233
+
+
+Q ss_pred             eeeeeccCC------CcceeeeeeccceeeEEEEEEeccc--eeeec-cc-cccccCCCceEEEEeecccCCCc--ccee
+Q tenuivirus_aln  463 KRIEYEPTS------SRACTIMKCMDTKFEIVGYIQKNGH--VLKEL-GG-ITSKYDSPLVSISLSNYNSARMP--REYA  530 (784)
+Q Consensus       463 yRiy~~P~s------~~iyeVf~C~~W~~~v~l~vt~~~~--~~~l~-~~-~t~~~~~~~isltl~s~~~p~~P--~l~~  530 (784)
+                      ...|..=..      -.+|++-   +=..+++|.|+..+.  ++..- -| .+...++  +++.+--+++.-+|  ...+
+T Consensus       104 SeayV~~s~~C~~dhA~AykaH---Tas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~--~K~i~GPiStawsPFD~KiV  178 (442)
+T 3j0c_A          104 SKAYVMKSDDCLADHAEAYKAH---TASVQAFLNITVGEHSIVTTVYVNGETPVNFNG--VKITAGPLSTAWTPFDRKIV  178 (442)
+T ss_dssp             EEEEEEECGGGGTSCEEEEEEE---EEEEEEEEEEEESSCEEEEEEESCTTSCEEETT--EEEEECCCSCCCCSSCSEEE
+T ss_pred             hhhheecCccchhHHHHHHHhh---hheeEEEEEEEEcceeEEEEEEEcCccceecCc--eeEEecccccCcCCCCceEE
+Confidence            333332211      1344443   334466677775332  22222 22 2334444  77777666666666  3345
+
+
+Q ss_pred             ccCCceeeecccccCcccccccccccCCChhhhhhh-cccccc-cccccCCcccceeeccccccccccccC------CCc
+Q tenuivirus_aln  531 ECDGKAYLRTANDLGSFDKELLGNIQCPTKEDAVVL-SSKCKT-KILSNEDLPVIRYIERDGVDMLEHVKS------EPL  602 (784)
+Q Consensus       531 ~~~~~~Fi~~~n~~~~~~~g~iGelQC~t~~~A~~~-~~~C~~-~~~CC~~~~i~~~~~~~c~~~LP~~~~------~~l  602 (784)
+                      .-.+..|-.|-.+-|.-++|..|+||=.+-++..-. +.+=.. ++.-      .. .... -+.-|.-+.      ++-
+T Consensus       179 vyk~eVYNyDfP~YGAG~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~------g~-iHVP-YTQapSGf~~W~~~~g~~  250 (442)
+T 3j0c_A          179 QYAGEIYNYDFPEYGAGQPGAFGDIQSRTVSSSDLYANTNLVLQRPKA------GA-IHVP-YTQAPSGFEQWKKDKAPS  250 (442)
+T ss_dssp             EETTEEECCCCCCTTCCCTTSTTSEEESSSSCSCCEECCCCEECCCCT------TC-CCCC-EECCCCHHHHHHHHCCSC
+T ss_pred             EEcceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCC------Cc-eecc-cccCCcHHHHHhhcCCCc
+Confidence            566778888888889999999999998876543210 000000 0000      00 0000 011111110      000
+
+
+Q ss_pred             cc----e--eecCcceeeeeccccceEEEEeeecceeee-----eeecccccccccccccccccCCcceeEEEeeccccc
+Q tenuivirus_aln  603 KD----V--LVSSSGISLSTLDLFPVELNLQFKEAITSI-----ITSKISLNGTSCKITGIERKFKKTTVSIESSNKVYL  671 (784)
+Q Consensus       603 ~~----~--~~~~~~V~A~~~~~~~a~l~I~~~~~~vs~-----~~~~~~C~i~~~~ltGCYsC~~GA~v~i~C~S~~~t  671 (784)
+                      .+    |  ...-+-|.|..=....+-|.|++.|..-.+     .++.-+|++..+.    ||=.-|..+.|+-++++.+
+T Consensus       251 L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct----~SsdfGG~a~~~Y~a~k~G  326 (442)
+T 3j0c_A          251 LKFTAPFGCEIYTNPIRAENCAVGSIPLAFDIPDALFTRVSETPTLSAAECTLNECV----YSSDFGGIATVKYSASKSG  326 (442)
+T ss_dssp             HHHHCSTTCEEETTTTEEECCCCCEEEEEEECCGGGCCBGGGSCCEEEEEEEEEEEB----CSSSCCEEEEEEEEESSCE
+T ss_pred             cccCCCcccEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEE----eccCCCceEEEEEecCCCc
+Confidence            00    1  111234667666666677777777765222     3344556655543    7888999999999999877
+
+
+Q ss_pred             ceeeeccCC----cccceeeccCCCcceeEEEEeeecccceeeeeeeecCCcceeeeeecC
+Q tenuivirus_aln  672 SDILACEGL----AVCPMILNNIKKGTCITTTYYSVTVGSMIKCKFIYSGDTLMCKYDVSP  728 (784)
+Q Consensus       672 ~a~i~C~~~----~~~~~~c~~~~~~~~~~~~lhf~~a~V~e~C~v~CGg~~~~~~~~vs~  728 (784)
+                      .--++-.+.    ..-.+.+...     -.+++||++|..+-+-.++=-+..+.|+-.-.+
+T Consensus       327 kCavHs~S~~atl~es~v~v~~~-----g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~P  382 (442)
+T 3j0c_A          327 KCAVHVPSGTATLKEAAVELTEQ-----GSATIHFSTANIHPEFRLQICTSYVTCKGDCHP  382 (442)
+T ss_dssp             EEEEECSSTTEEESCSEEEECSS-----CEEEEEEEESCSSCEEEEEETTEEEEEECCCBC
+T ss_pred             ccceecCCCceEeeeeeEEEeec-----ceEEEEEecCCCCCCEEEEeccCcceecCcccC
+Confidence            655555442    1112233333     357899999998888777644444444433333
+
+
+No 4  
+>3n44_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG; 2.35A {Chikungunya virus} PDB: 3n41_F* 3n42_F* 3n43_F* 2xfc_A
+Probab=32.40  E-value=1.4e+02  Score=27.99  Aligned_cols=322  Identities=11%  Similarity=0.060  Sum_probs=175.1
+
+Q ss_pred             eeEEEEccceeecccccceecccceeeeeeccccccCCCCCCCCCCCccccCccccccccccc-cccccccCCCc-ccce
+Q tenuivirus_aln  385 VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGCRTDGTHSIWGESTSLSFDYCVT-DFHIFSYCPAY-HYNW  462 (784)
+Q Consensus       385 ~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC~~~~C~~i~~~~~~pG~t~C~e-sCGg~gCcc~~-~ClF  462 (784)
+                      .|+|++.+.+|.=.-..+|+|=+++..+-|-+-.|=+.-+|....=    ++-.=--+++=+. =-||+-|=|-. -=..
+T Consensus        50 ~L~i~v~~t~l~PtlnleYiTC~YkTvvpSP~VKCCGs~EC~~~~~----pDy~CkVftGVYPFMWGGAyCFCDsENTQm  125 (473)
+T 3n44_F           50 VLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKDKNL----PDYSCKVFTGVYPFMWGGAYCFCDAENTQL  125 (473)
+T ss_dssp             EEEEEEEEEEEECCEEEEEEEECEEEECCCCEEETTSCCCCCCCCS----TTCEEEEEESCCCEETTEESCSCSSSCEEE
+T ss_pred             eEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCC----CCccceEecccccccccceeeeecCcchhh
+Confidence            8999999999999999999999999999997558988888854211    1100000111100 12566652211 2233
+
+
+Q ss_pred             eeeeeccCCC---cceeeeeeccceeeEEEEEEeccc--eeeec-cc-cccccCCCceEEEEeecccCCCc--cceeccC
+Q tenuivirus_aln  463 KRIEYEPTSS---RACTIMKCMDTKFEIVGYIQKNGH--VLKEL-GG-ITSKYDSPLVSISLSNYNSARMP--REYAECD  533 (784)
+Q Consensus       463 yRiy~~P~s~---~iyeVf~C~~W~~~v~l~vt~~~~--~~~l~-~~-~t~~~~~~~isltl~s~~~p~~P--~l~~~~~  533 (784)
+                      ...|..=...   +-=+.|+=-+=..+++|.|+..+.  ++..- -| .+..+++  +++.+--+++.-+|  ...+.-.
+T Consensus       126 SeaYV~rS~~C~~dhA~AykaHTAs~kA~l~ItyG~~~~~v~vyVNG~tp~~~~~--~K~i~GPiStawsPFD~KIVvyk  203 (473)
+T 3n44_F          126 SEAHVEKSESCKTEFASAYRAHTASASAKLRVLYQGNNITVTAYANGDHAVTVKD--AKFIVGPMSSAWTPFDNKIVVYK  203 (473)
+T ss_dssp             EEEEEEECGGGGTSEEEEEEECSCEEEEEEEEEETTEEEEEEEETTSCCEEEETT--EEEEECCCSCCCCSCCSEEEEET
+T ss_pred             hhhheecCccchhHHHHHHHhhhheeeEEEEEEEcceeEEEEEEEcCccceecCc--eeEEecccccCcCCCCceEEEEc
+Confidence            3333322111   111222223445677777776332  22222 22 2333444  77776666666566  3345566
+
+
+Q ss_pred             CceeeecccccCcccccccccccCCChhhhhhh-cccccc-cccccCCcccceeeccccccccccccC------CCccc-
+Q tenuivirus_aln  534 GKAYLRTANDLGSFDKELLGNIQCPTKEDAVVL-SSKCKT-KILSNEDLPVIRYIERDGVDMLEHVKS------EPLKD-  604 (784)
+Q Consensus       534 ~~~Fi~~~n~~~~~~~g~iGelQC~t~~~A~~~-~~~C~~-~~~CC~~~~i~~~~~~~c~~~LP~~~~------~~l~~-  604 (784)
+                      +..|-.|-.+-|.-++|..|+||=.+-++..-. +.+=.. ++.-      . ...+. -+.-|.-+.      ++-.+ 
+T Consensus       204 ~eVYNyDfP~YGAG~PG~FGDIQsrt~~s~DlyAnT~l~L~RP~a------g-~iHVP-YTQapSGF~~W~k~~g~~L~~  275 (473)
+T 3n44_F          204 GDVYNMDYPPFGAGRPGQFGDIQSRTPESKDVYANTQLVLQRPAA------G-TVHVP-YSQAPSGFKYWLKERGASLQH  275 (473)
+T ss_dssp             TEEEECCCCCTTCCCTTSTTSEEBSSTTCSCCEECSCCEECCCCT------T-CCCCC-EECCCCHHHHHHHHCCCCHHH
+T ss_pred             ceeeccCCCCccCCCCccccccccccCCccceeeccCcEEccCCC------C-ceecc-cccCCcHHHHHhhcCCCcccc
+Confidence            788888888889999999999998887543210 000000 0000      0 00000 011111110      00000 
+
+
+Q ss_pred             ---e--eecCcceeeeeccccceEEEEeeecceeee-----eeecccccccccccccccccCCcceeEEEeeccccccee
+Q tenuivirus_aln  605 ---V--LVSSSGISLSTLDLFPVELNLQFKEAITSI-----ITSKISLNGTSCKITGIERKFKKTTVSIESSNKVYLSDI  674 (784)
+Q Consensus       605 ---~--~~~~~~V~A~~~~~~~a~l~I~~~~~~vs~-----~~~~~~C~i~~~~ltGCYsC~~GA~v~i~C~S~~~t~a~  674 (784)
+                         |  ...-+-|.|..=....+-|.|++.|..-.+     .++.-.|++..|.    ||=.-|..+.|+-++++...--
+T Consensus       276 tAPFGC~I~~nPvRA~nCavG~IPiSiDIPDAaFTRv~daP~vs~l~Ctv~~Ct----ySsDfGGvatl~Y~a~k~GkCa  351 (473)
+T 3n44_F          276 TAPFGCQIATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAPSLTDMSCEVPACT----HSSDFGGVAIIKYAASKKGKCA  351 (473)
+T ss_dssp             HCGGGCEEETTTTEEESCCCSEEEEEEECCGGGCCBTTTSCCEEEEEEEEEEEB----CSSSCCEEEEEEEEESSCEEEE
+T ss_pred             cCCcccEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEE----eccCCCCeEEEEEecCCCcccc
+Confidence               1  111234667666666677777777765222     3445556665543    7888899999999999876654
+
+
+Q ss_pred             eeccCC----cccceeeccCCCcceeEEEEeeecccceeeeeeeecCCcceeeeeecCC
+Q tenuivirus_aln  675 LACEGL----AVCPMILNNIKKGTCITTTYYSVTVGSMIKCKFIYSGDTLMCKYDVSPL  729 (784)
+Q Consensus       675 i~C~~~----~~~~~~c~~~~~~~~~~~~lhf~~a~V~e~C~v~CGg~~~~~~~~vs~~  729 (784)
+                      |+-.+.    ..-.+.+...     -.+++||++|..+-+-.++=-+..+.|+-.-.+.
+T Consensus       352 VHs~S~~atl~es~v~v~~~-----g~~t~hFSTas~~p~F~v~iC~~~vtC~a~C~PP  405 (473)
+T 3n44_F          352 VHSMTNAVTIREAEIEVEGN-----SQLQISFSTALASAEFRVQVCSTQVHCAAECHPP  405 (473)
+T ss_dssp             EEESSTTCEESCSEEEECSS-----CEEEEEEECSCSEEEEEEEETTEEEEEEEECBCC
+T ss_pred             eecCCCceEeeeeeEEEecc-----ceEEEEEecCCCCCCEEEEeccCcceecCcccCc
+Confidence            554442    1112333333     3578999999998887776444454455443343
+
+
+No 5  
+>1i9w_A Fusion protein E1; envelope glycoprotein, membrane fusion, viral protein; 3.00A {Semliki forest virus} SCOP: b.1.18.4 f.10.1.1 PDB: 2ala_A 1rer_A
+Probab=21.03  E-value=2.1e+02  Score=26.17  Aligned_cols=314  Identities=9%  Similarity=0.040  Sum_probs=164.5
+
+Q ss_pred             eeEEEEccceeecccccceecccceeeeeeccccccCCCCCCCCCCCccccCccccccccccc-ccccccc-CCCcccce
+Q tenuivirus_aln  385 VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGCRTDGTHSIWGESTSLSFDYCVT-DFHIFSY-CPAYHYNW  462 (784)
+Q Consensus       385 ~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC~~~~C~~i~~~~~~pG~t~C~e-sCGg~gC-cc~~~ClF  462 (784)
+                      .|+|++.+.+|.=.-..+|+|=+++..+-|-+-.|=+.-+|....=.+.+=    --+++=.. =-||+-| |=---=..
+T Consensus        28 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~C----kVftGVYPfMWGGAyCFCDsENTQ~  103 (390)
+T 1i9w_A           28 TLQMQVVETSLEPTLNLEYITCEYKTVVPSPYVKCCGASECSTKEKPDYQC----KVYTGVYPFMWGGAYCFCDSENTQL  103 (390)
+T ss_pred             eEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccc----eEecccccccccceeeeecCcchhh
+Confidence            899999999999999999999999999999755888888885421111000    00111110 1245554 22101112
+
+
+Q ss_pred             eeeeeccCC------CcceeeeeeccceeeEEEEEEeccc--eeeec-cc-cccccCCCceEEEEeecccCCCc--ccee
+Q tenuivirus_aln  463 KRIEYEPTS------SRACTIMKCMDTKFEIVGYIQKNGH--VLKEL-GG-ITSKYDSPLVSISLSNYNSARMP--REYA  530 (784)
+Q Consensus       463 yRiy~~P~s------~~iyeVf~C~~W~~~v~l~vt~~~~--~~~l~-~~-~t~~~~~~~isltl~s~~~p~~P--~l~~  530 (784)
+                      ...|..=..      -.+|++-   +=..+++|.|+..+.  ++..- -| .+..+++  +++.+--+++.-+|  ...+
+T Consensus       104 SeayV~~s~~C~~dhA~AykaH---Tas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~--~K~i~GPiStawsPFD~KiV  178 (390)
+T 1i9w_A          104 SEAYVDRSDVCRHDHASAYKAH---TASLKAKVRVMYGNVNQTVDVYVNGDHAVTIGG--TQFIFGPLSSAWTPFDNKIV  178 (390)
+T ss_pred             hhhheecCccchhHHHHHHHhh---hheeEEEEEEEEcceeEEEEEEEcCccceecCc--eeEEecccccCcCCCCceEE
+Confidence            222222111      1334432   234566777775332  22222 22 2333343  77776666666666  2345
+
+
+Q ss_pred             ccCCceeeecccccCcccccccccccCCChhhhhhh-cccccc-cccccCCcccceeeccccccccccccC----CC--c
+Q tenuivirus_aln  531 ECDGKAYLRTANDLGSFDKELLGNIQCPTKEDAVVL-SSKCKT-KILSNEDLPVIRYIERDGVDMLEHVKS----EP--L  602 (784)
+Q Consensus       531 ~~~~~~Fi~~~n~~~~~~~g~iGelQC~t~~~A~~~-~~~C~~-~~~CC~~~~i~~~~~~~c~~~LP~~~~----~~--l  602 (784)
+                      .-.+..|-.|-.+-|.-++|..|+||=.+-++..-. +.+=.. ++.-      . ...+. -+.-|.-+.    ++  -
+T Consensus       179 vyk~eVYNyDfP~YGag~pG~FGDIQart~~s~DlyAnT~l~L~rP~~------g-~iHVP-YTQapSGf~~W~~~~g~~  250 (390)
+T 1i9w_A          179 VYKDEVFNQDFPPYGSGQPGRFGDIQSRTVESNDLYANTALKLARPSP------G-MVHVP-YTQTPSGFKYWLKEKGTA  250 (390)
+T ss_pred             EEcceeeccCCCcccCCCCccccccccccCCccceeeccccEEccCCC------C-ceecc-cccCCcHHHHHhhcCCCc
+Confidence            556778888888889999999999998887543210 000000 0000      0 00000 011111110    00  0
+
+
+Q ss_pred             cc----e--eecCcceeeeeccccceEEEEeeecceeeeeeecccccccccccccc-cccCCcceeEEEeecccccceee
+Q tenuivirus_aln  603 KD----V--LVSSSGISLSTLDLFPVELNLQFKEAITSIITSKISLNGTSCKITGI-ERKFKKTTVSIESSNKVYLSDIL  675 (784)
+Q Consensus       603 ~~----~--~~~~~~V~A~~~~~~~a~l~I~~~~~~vs~~~~~~~C~i~~~~ltGC-YsC~~GA~v~i~C~S~~~t~a~i  675 (784)
+                      .+    |  ...-+-|.|..=....+-|.|++.|..-.++.+...-+...+.+.-| ||=.-|..+.|+-++++.+.--|
+T Consensus       251 L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y~a~k~GkCav  330 (390)
+T 1i9w_A          251 LNTKAPFGCQIKTNPVRAMNCAVGNIPVSMNLPDSAFTRIVEAPTIIDLTCTVATCTHSSDFGGVLTLTYKTNKNGDCSV  330 (390)
+T ss_pred             cccCCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEEeccCCCCeEEEEEecCCCcccee
+Confidence            00    1  01123355655555566677777776533333323222333333333 78888999999999998766444
+
+
+Q ss_pred             eccCC----cccceeeccCCCcceeEEEEeeecccceeeeeeeecCCcc
+Q tenuivirus_aln  676 ACEGL----AVCPMILNNIKKGTCITTTYYSVTVGSMIKCKFIYSGDTL  720 (784)
+Q Consensus       676 ~C~~~----~~~~~~c~~~~~~~~~~~~lhf~~a~V~e~C~v~CGg~~~  720 (784)
+                      +-.+.    ..-.+.+...     -.+++||++|..+-+-.++=-+..+
+T Consensus       331 Hs~S~~atl~es~v~v~~~-----g~~t~hFSTas~~~~F~v~iC~~~v  374 (390)
+T 1i9w_A          331 HSHSNVATLQEATAKVKTA-----GKVTLHFSTASASPSFVVSLCSARA  374 (390)
+T ss_pred             ecCCCceEeeeeeEEEecc-----ceEEEEEecCCCCCCEEEEeccCcc
+Confidence            44442    1111223222     3578999999988887776333333
+
+
+No 6  
+>3muu_A Structural polyprotein; beta barrels, IG-like folds, viral protein; HET: NAG BMA MAN; 3.29A {Sindbis virus} PDB: 3muw_A 3muw_U 1z8y_A 1z8y_B
+Probab=14.18  E-value=3.9e+02  Score=26.37  Aligned_cols=314  Identities=11%  Similarity=0.047  Sum_probs=171.8
+
+Q ss_pred             eeEEEEccceeecccccceecccceeeeeeccccccCCCCCCCCCCCccccCccc-cccccccc-cccccccCCCc-ccc
+Q tenuivirus_aln  385 VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGCRTDGTHSIWGESTS-LSFDYCVT-DFHIFSYCPAY-HYN  461 (784)
+Q Consensus       385 ~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC~~~~C~~i~~~~~~-pG~t~C~e-sCGg~gCcc~~-~Cl  461 (784)
+                      .|+|++.+..|.=.-..+|+|=+|+..+-|-.-.|=++-+|....     .-+.- --+++=+. =-||+-|=|-. -=.
+T Consensus       388 ~L~i~v~~t~l~PtlnleYiTC~YkTvVpSP~VKCCGs~EC~~~~-----~pDy~CkVftGVYPFMWGGAyCFCDtENTQ  462 (750)
+T 3muu_A          388 NLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAA-----HAGYTCKVFGGVYPFMWGGAQCFCDSENSQ  462 (750)
+T ss_dssp             EEEEEEEEECCEEEEEEEEEECCEEEECCCCEEETTSCCCCCCCC-----STTCEEEEEESCCCSTTTTTTCCCSSSCEE
+T ss_pred             eEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCCCC-----CCCccceEecccccccccceeeeecCcchh
+Confidence            899999999999999999999999999999755898888885411     11100 00111110 12566652211 223
+
+
+Q ss_pred             eeeeeeccCC------CcceeeeeeccceeeEEEEEEeccc--eeeec-cc-cccccCCCceEEEEeecccCCCc--cce
+Q tenuivirus_aln  462 WKRIEYEPTS------SRACTIMKCMDTKFEIVGYIQKNGH--VLKEL-GG-ITSKYDSPLVSISLSNYNSARMP--REY  529 (784)
+Q Consensus       462 FyRiy~~P~s------~~iyeVf~C~~W~~~v~l~vt~~~~--~~~l~-~~-~t~~~~~~~isltl~s~~~p~~P--~l~  529 (784)
+                      ....|..=..      -.+|++-.   =..+++|.|+..+.  ++..- -| .+..+++  +++.+--+++.-+|  ...
+T Consensus       463 mSeaYV~rS~~C~~DhA~AykaHT---as~kA~l~ItyG~~~~~v~vyVNG~tp~~~~~--~K~i~GPlSsawsPFD~KI  537 (750)
+T 3muu_A          463 MSEAYVELSADCASDHAQAIKVHT---AAMKVGLRIVYGNTTSFLDVYVNGVTPGTSKD--LKVIAGPISASFTPFDHKV  537 (750)
+T ss_dssp             EEEEEEEECTTTTTSCEEEEEEEE---EECCEEEEEEETTEEEEEECCBSSSCEEECSS--CEEEECCCSSCCCSCCSEE
+T ss_pred             hhhhheecCccchhHHHHHHHhhh---heeEEEEEEEEcceeEEEEEEEcCccceecCc--eEEEecccccCcCCCCceE
+Confidence            3333333211      14455532   33466777775332  22222 22 2333444  77777666666666  335
+
+
+Q ss_pred             eccCCceeeecccccCcccccccccccCCChhhhhh-hcccccc-cccc--cCCccc------ceeeccccccccccccC
+Q tenuivirus_aln  530 AECDGKAYLRTANDLGSFDKELLGNIQCPTKEDAVV-LSSKCKT-KILS--NEDLPV------IRYIERDGVDMLEHVKS  599 (784)
+Q Consensus       530 ~~~~~~~Fi~~~n~~~~~~~g~iGelQC~t~~~A~~-~~~~C~~-~~~C--C~~~~i------~~~~~~~c~~~LP~~~~  599 (784)
+                      +.-.+..|-.|-.+-|.-.+|..|+||=.|-++..- ++.+=.. ++.-  +..++-      .++.++. -..|-+..+
+T Consensus       538 Vvy~~eVYNyDFPeYGAG~pG~FGDIQsrt~~s~DlyAnT~l~L~RP~~g~iHVPYTQapSGf~~W~k~~-g~~L~~tAP  616 (750)
+T 3muu_A          538 VIHRGLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIASTDIRLLKPSAKNVHVPYTQASSGFEMWKNNS-GRPLQETAP  616 (750)
+T ss_dssp             EECSSCEEECCCCCTTCCCSSSTTSEEBSSTTTCSCEECCCCEECCCCTTSCCCCEECCCCHHHHHHTTC-CSCGGGTCT
+T ss_pred             EEEcceeeccCCCcccCCCCccccccccccCCccceeeccCcEEccCCCCceecccccCCcHHHHHhhcC-CCcccccCC
+Confidence            566788888888899999999999999888754321 0000000 0000  000000      0000000 000110000
+
+
+Q ss_pred             CCccceeecCcceeeeeccccceEEEEeeecceeeee-----eecccccccccccccccccCCcceeEEEeeccccccee
+Q tenuivirus_aln  600 EPLKDVLVSSSGISLSTLDLFPVELNLQFKEAITSII-----TSKISLNGTSCKITGIERKFKKTTVSIESSNKVYLSDI  674 (784)
+Q Consensus       600 ~~l~~~~~~~~~V~A~~~~~~~a~l~I~~~~~~vs~~-----~~~~~C~i~~~~ltGCYsC~~GA~v~i~C~S~~~t~a~  674 (784)
+                        . +=...-+-|.|..=....+=|.|++-|..-.++     ++.-.|++..|.    ||=.-|..+.|+-++++.+.--
+T Consensus       617 --F-GC~I~~nPvRA~nCavGnIPiSiDIPDAaFTRvsdaP~vs~l~Ctv~~Ct----ySsDfGGvatl~Y~a~k~GkCa  689 (750)
+T 3muu_A          617 --F-GCKIAVNPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVSECT----YSADFGGMATLQYVSDREGQCP  689 (750)
+T ss_dssp             --T-SCEEEETTEEEETCCCSEEEEEEEEEGGGCBCSCCSSCEEEEEEEEEECC----TTSSSCEEEEEEEEESSCCCEE
+T ss_pred             --c-ceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEE----eccCCCCEEEEEEecCCCccce
+Confidence              0 000112336676666667778888878653333     344455555433    8888999999999999977644
+
+
+Q ss_pred             eeccCCcccceeeccC--CCcceeEEEEeeecccceeeeeee-ecCCc
+Q tenuivirus_aln  675 LACEGLAVCPMILNNI--KKGTCITTTYYSVTVGSMIKCKFI-YSGDT  719 (784)
+Q Consensus       675 i~C~~~~~~~~~c~~~--~~~~~~~~~lhf~~a~V~e~C~v~-CGg~~  719 (784)
+                      |+-.+. .  .++...  .-...-.+++||++|.++-+-.++ |+...
+T Consensus       690 vHs~S~-~--atl~es~v~v~~~G~~t~hFSTAs~~p~F~v~iC~~~v  734 (750)
+T 3muu_A          690 VHSHSS-T--ATLQESTVHVLEKGAVTVHFSTASPQANFIVSLCGKKT  734 (750)
+T ss_dssp             CEESST-T--CEESCSEECCCSSCEEEEEEECCCSBCCBCEECSSCBC
+T ss_pred             eeccCC-c--eEeeeeeEEeecCceEEEEEecCCCCCCEEEEeccCcc
+Confidence            544442 1  112211  111233578999999998887776 44443
+
+
+No 7  
+>3n40_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG NDG; 2.17A {Chikungunya virus} PDB: 3j2w_A 2xfb_A
+Probab=8.34  E-value=4.7e+02  Score=23.57  Aligned_cols=316  Identities=11%  Similarity=0.055  Sum_probs=173.3
+
+Q ss_pred             eeEEEEccceeecccccceecccceeeeeeccccccCCCCCCCCCCCccccCccccccccccc-cccccccCCCc-ccce
+Q tenuivirus_aln  385 VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGCRTDGTHSIWGESTSLSFDYCVT-DFHIFSYCPAY-HYNW  462 (784)
+Q Consensus       385 ~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC~~~~C~~i~~~~~~pG~t~C~e-sCGg~gCcc~~-~ClF  462 (784)
+                      .|+|++.+.+|.=.-..+|+|=+++..+-|-+-.|=+.-+|....=    ++-.=--+++=.. =-||+-|=|-. -=..
+T Consensus        30 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~----pDy~CkVftGVYPfMWGGAyCFCDsENTQ~  105 (393)
+T 3n40_F           30 VLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKDKNL----PDYSCKVFTGVYPFMWGGAYCFCDAENTQL  105 (393)
+T ss_dssp             EEEEEEEEEEEEEEEEEEEEECCEEEECCCCEEETTSCCCCCCCCS----TTCEEEEEESCCCEETTEESCSCSSSCEEE
+T ss_pred             eEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCCcCC----CCccceEecccccccccceeeeecCcchhh
+Confidence            8999999999999999999999999999997558988888854211    1100000111110 13566652211 2233
+
+
+Q ss_pred             eeeeeccCC------CcceeeeeeccceeeEEEEEEeccc--eeeec-cc-cccccCCCceEEEEeecccCCCc--ccee
+Q tenuivirus_aln  463 KRIEYEPTS------SRACTIMKCMDTKFEIVGYIQKNGH--VLKEL-GG-ITSKYDSPLVSISLSNYNSARMP--REYA  530 (784)
+Q Consensus       463 yRiy~~P~s------~~iyeVf~C~~W~~~v~l~vt~~~~--~~~l~-~~-~t~~~~~~~isltl~s~~~p~~P--~l~~  530 (784)
+                      ...|..=..      -.+|++-   +=..+++|.|+..+.  ++..- -| .+..+++  +++.+--+++.-+|  ...+
+T Consensus       106 SeayV~~s~~C~~dhA~AykaH---Tas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~--~K~i~GPiStawsPFD~KiV  180 (393)
+T 3n40_F          106 SEAHVEKSESCKTEFASAYRAH---TASASAKLRVLYQGNNITVTAYANGDHAVTVKD--AKFIVGPMSSAWTPFDNKIV  180 (393)
+T ss_dssp             EEEEEEECGGGGTSCEEEEEEE---EEEEEEEEEEEETTEEEEEEEETTSCCEEEETT--EEEEECCCSCCCCSCCSEEE
+T ss_pred             hhhheecCccchhHHHHHHHhh---hheeEEEEEEEEcceeEEEEEEEcCccceecCc--eeEEecccccCcCCCCceEE
+Confidence            333332211      1344443   334566677775332  22222 22 2333444  77776666666666  3345
+
+
+Q ss_pred             ccCCceeeecccccCcccccccccccCCChhhhhhh-cccccc-cccccCCcccceeeccccccccccccC------CCc
+Q tenuivirus_aln  531 ECDGKAYLRTANDLGSFDKELLGNIQCPTKEDAVVL-SSKCKT-KILSNEDLPVIRYIERDGVDMLEHVKS------EPL  602 (784)
+Q Consensus       531 ~~~~~~Fi~~~n~~~~~~~g~iGelQC~t~~~A~~~-~~~C~~-~~~CC~~~~i~~~~~~~c~~~LP~~~~------~~l  602 (784)
+                      .-.+..|-.|-.+-|.-++|..|+||=.+-++..-. +.+=.. ++.-      .. ..+. -+.-|.-+.      ++-
+T Consensus       181 vyk~eVYNyDfP~YGag~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~------g~-iHVP-YTQapSGf~~W~~~~g~~  252 (393)
+T 3n40_F          181 VYKGDVYNMDYPPFGAGRPGQFGDIQSRTPESKDVYANTQLVLQRPAA------GT-VHVP-YSQAPSGFKYWLKERGAS  252 (393)
+T ss_dssp             EETTEEEECCCCCTTCCCTTSTTSEEBSSTTCSSCEECCCCEECCCCT------TC-CCCC-EECCCCHHHHHHHHSCSC
+T ss_pred             EEcceeeccCCCcccCCCCccccccccccCCccceeeccccEEccCCC------Cc-eecc-cccCCcHHHHHhhcCCCc
+Confidence            666788888888899999999999998887543210 000000 0000      00 0000 011111110      000
+
+
+Q ss_pred             cc----e--eecCcceeeeeccccceEEEEeeecceeee-----eeecccccccccccccccccCCcceeEEEeeccccc
+Q tenuivirus_aln  603 KD----V--LVSSSGISLSTLDLFPVELNLQFKEAITSI-----ITSKISLNGTSCKITGIERKFKKTTVSIESSNKVYL  671 (784)
+Q Consensus       603 ~~----~--~~~~~~V~A~~~~~~~a~l~I~~~~~~vs~-----~~~~~~C~i~~~~ltGCYsC~~GA~v~i~C~S~~~t  671 (784)
+                      .+    |  ...-+-|.|..=....+-|.|++.|..-.+     .++.-+|++..+.    ||=.-|..+.|+-++++.+
+T Consensus       253 L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct----~SsdfGG~a~~~Y~a~k~G  328 (393)
+T 3n40_F          253 LQHTAPFGCQIATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAPSLTDMSCEVPACT----HSSDFGGVAIIKYAASKKG  328 (393)
+T ss_dssp             HHHHCGGGCEEETTTTEEECCCCSEEEEEEEECGGGCCBTTTSCCEEEEEEEEEEEB----CSSSCCEEEEEEEEESSCE
+T ss_pred             cccCCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEE----eccCCCCeEEEEEecCCCc
+Confidence            00    1  111234667666666677778877765222     3445556655543    7888899999999999877
+
+
+Q ss_pred             ceeeeccCCcccceeeccC--CCcceeEEEEeeecccceeeeeeeecCCcceeee
+Q tenuivirus_aln  672 SDILACEGLAVCPMILNNI--KKGTCITTTYYSVTVGSMIKCKFIYSGDTLMCKY  724 (784)
+Q Consensus       672 ~a~i~C~~~~~~~~~c~~~--~~~~~~~~~lhf~~a~V~e~C~v~CGg~~~~~~~  724 (784)
+                      .--|+-.+.   ..++...  .-...-.+++||++|..+-+-.++=-+..+.|+-
+T Consensus       329 kCavHs~S~---~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~  380 (393)
+T 3n40_F          329 KCAVHSMTN---AVTIREAEIEVEGNSQLQISFSTALASAEFRVQVCSTQVHCAA  380 (393)
+T ss_dssp             EEEEEESST---TEEESCSEEEECSEEEEEEEEEESCSEEEEEEEETTEEEEEEE
+T ss_pred             cceeecCCC---ceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCcceecC
+Confidence            655555442   1222222  0112346789999999988877764444444443
+
+
+No 8  
+>1svb_A TICK-borne encephalitis virus glycoprotein; viral protein; HET: NAG; 1.90A {Tick-borne encephalitis virus} SCOP: b.1.18.4 f.10.1.1 PDB: 1k4r_A 1na4_A 1n6g_A* 1urz_A 1z3r_A 2gg1_A 1z66_A
+Probab=3.31  E-value=2e+02  Score=26.68  Aligned_cols=53  Identities=8%  Similarity=-0.001  Sum_probs=35.6
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGC  425 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC  425 (784)
+                      .-.++|..+.  ++ .|.|++..++..=-...-=|=-+.++.-.++.-|||.+|+=
+T Consensus        25 Le~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea   80 (395)
+T 1svb_A           25 LELGGCVTITAEGKPSMDVWLDAIYQENPAKTREYCLHAKLSDTKVAARCPTMGPA   80 (395)
+T ss_dssp             EETTCCEEEEETTEEEEEEEEEEEEEESCEEEEEEESSEEEEEEEEEECCTTSCCC
+T ss_pred             ecCCcEEEEEcCCCceEEEEEeeEEEeCcHHhhhheeeeEEeccEEcccCCCCCcc
+Confidence            3468999998  43 88999888887655544444444454433333699999974
+
+
+No 9  
+>4gsx_A Envelope protein E; viral fusion protein, viral protein; HET: NAG; 1.90A {Dengue virus 1} PDB: 4gt0_A* 3g7t_A 3j05_A 4cau_A 1uzg_A*
+Probab=3.26  E-value=2e+02  Score=27.00  Aligned_cols=53  Identities=13%  Similarity=0.074  Sum_probs=35.7
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGC  425 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC  425 (784)
+                      ...++|..+.  ++ .|.|++..++..=....--|=-+.++.-.++.-|||.+|+=
+T Consensus        41 Le~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea   96 (427)
+T 4gsx_A           41 LEHGSCVTTMAKDKPTLDIELLKTEVTNPAVLRKLCIEAKISNTTTDSRCPTQGEA   96 (427)
+T ss_dssp             EESSCCEEECBTTSCCEEEEEEEEEEESCEEEEEEEEEEEEEEEEEEECCTTSCCC
+T ss_pred             EcCCcEEEEEcCCCCeEEEEEEEEEEecchHhhheeeeeEEeccEEcccCCCCCcc
+Confidence            4578999999  43 88888888887655544444444444433333699999964
+
+
+No 10 
+>4fg0_A Polyprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 3.90A {St}
+Probab=3.26  E-value=1.8e+02  Score=27.13  Aligned_cols=53  Identities=8%  Similarity=0.019  Sum_probs=35.5
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGC  425 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC  425 (784)
+                      ...++|..+.  ++ .|.|++..++..=-...--|=-+.++.-.++.-|||.+|+=
+T Consensus        25 Le~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~~~~~CPt~Gea   80 (407)
+T 4fg0_A           25 LEGGSCVTVMAPEKPTLDFKVMKMEAAELATVREYCYEATLDTLSTVARCPTTGEA   80 (407)
+T ss_dssp             EESSCCEEEEETTEEEEEEEEEEEEECCCEEEEEEEEEEEEEEEEEEECCSSSCCC
+T ss_pred             ecCCcEEEEEcCCCCeEEEEEEEEEEeCcHHhhhheeeeEEeccEecccCCCCCcc
+Confidence            4468999999  43 88888888887655444444444444444433599999975
+
+
+No 11 
+>1ok8_A Major envelope protein E; viral protein, membrane fusion, flavivirus, fusion peptide, low-PH conformational change, class 2 fusion protein,; HET: NAG; 2.0A {Dengue virus type 2} SCOP: b.1.18.4 f.10.1.1 PDB: 1oan_A* 1oke_A* 2b6b_A 3j8d_G 1tge_A 1tg8_A* 1thd_A 3c5x_A* 3c6e_A* 3c6d_A 3c6r_A 3ixy_A 3iya_A 3j35_A 4uta_A* 4ut9_A* 4utc_A* 4utb_A* 4ut6_A* 2r6p_A 3j42_A 2jsf_A 2r29_A 2r69_A
+Probab=2.99  E-value=2.2e+02  Score=26.39  Aligned_cols=53  Identities=11%  Similarity=0.048  Sum_probs=32.5
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGC  425 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC  425 (784)
+                      ...++|..+.  ++ .|.|++..++..=-...-=|=-+.++.-.++.-|||.+|+=
+T Consensus        25 Le~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea   80 (394)
+T 1ok8_A           25 LEHGSCVTTMAKNKPTLDFELIKTEAKQPATLRKYCIEAKLTNTTTESRCPTQGEP   80 (394)
+T ss_dssp             EETTCCEEEEBTTSCEEEEEEEEEEEESCEEEEEEEEEEEEEEEEEEECCTTSCCC
+T ss_pred             ecCCcEEEEEcCCCCeEEEEEEEEEEecchhhhheeeeeEEeccEEcccCCCCCcc
+Confidence            4468999998  33 88888888877543333223333333322322699999964
+
+
+No 12 
+>3p54_A Envelope glycoprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 2.10A {Japanese encephalitis virus} PDB: 2i69_A* 3i50_E 3iyw_A* 3j0b_A 2of6_A 3ixx_A 2hg0_A* 1pjw_A 1s6n_A 2p5p_A 1ztx_E
+Probab=2.83  E-value=2.1e+02  Score=26.59  Aligned_cols=53  Identities=11%  Similarity=0.093  Sum_probs=33.0
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGC  425 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC  425 (784)
+                      ...++|..+.  ++ .|.|++..++..=-...--|=-+.++.-.++.-|||.+|+=
+T Consensus        25 Le~~gCVTi~a~~kPtlDv~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea   80 (406)
+T 3p54_A           25 LEGDSCLTIMANDKPTLDVRMINIEASQLAEVRSYCYHASVTDISTVARCPTTGEA   80 (406)
+T ss_dssp             EESSCEEEEECTTSCCEEEEEEEEEECCCEEEEEEEEEEEEEEEEEEECCTTSCCC
+T ss_pred             ecCCcEEEEEcCCCceEEEEEEEEEEeCcHHhhhheeccEEeccEEcccCCCCCcc
+Confidence            3468999998  33 88888888877633333233333333333333599999974
+
+
+No 13 
+>3uaj_B Envelope protein; dengue antibody membrane fusion, viral protein-immune system; HET: NAG; 3.23A {Dengue virus 4}
+Probab=2.81  E-value=2.1e+02  Score=26.98  Aligned_cols=53  Identities=8%  Similarity=0.003  Sum_probs=35.2
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGC  425 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC  425 (784)
+                      ...++|..+.  ++ .|.|++..++..=....--|=-+.++.-.++.-|||.+|+=
+T Consensus        25 LE~ggCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yC~~a~vs~t~s~~rCPt~GeA   80 (433)
+T 3uaj_B           25 LEHGGCVTTMAQGKPTLDFELTKTTAKEVALLRTYCIEASISNITTATRCPTQGEP   80 (433)
+T ss_dssp             ECTTCEEEEEETTEEEEEEEEEEEECCSCEEEEEEEEEEEEEEEEEEECCTTSCCC
+T ss_pred             ecCCcEEEEEcCCCCeEEEEEEEEEEecchHhhhheeeeEEeccEEcccCCCCCcc
+Confidence            4568999999  43 88898888877655444444444444433333699999974
+
+
+No 14 
+>4cbf_A Envelope protein E; flavivirus; 4.10A {Dengue virus 2}
+Probab=2.46  E-value=2.2e+02  Score=27.26  Aligned_cols=54  Identities=7%  Similarity=-0.008  Sum_probs=36.4
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGCR  426 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC~  426 (784)
+                      ..+++|..+.  ++ .|.|++..++..=....--|=-+.++.-.++.-|||.+|+=.
+T Consensus        25 Le~~gCVTi~a~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~   81 (495)
+T 4cbf_A           25 LEHGGCVTTMAQGKPTLDFELTKTTAKEVALLRTYCIEASISNITTATRCPTQGEPY   81 (495)
+T ss_pred             EcCCcEEEEEcCCCCeEEEEEEEEEEeccHHhhhheeeeEEeccEecccCCCCCccC
+Confidence            4578999999  43 999999888877555444444444544333336999999753
+
+
+No 15 
+>3j27_A Envelope protein E; flavivirus, fusion protein, protein complex, membrane, chape virus; HET: NAG; 3.60A {Dengue virus 2} PDB: 3j2p_A* 4uih_A 1p58_A 3zko_A 4uif_A 5a1z_A
+Probab=2.42  E-value=2.5e+02  Score=26.84  Aligned_cols=53  Identities=9%  Similarity=0.043  Sum_probs=33.3
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGC  425 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC  425 (784)
+                      ..+++|..+.  ++ .|.|++..++..=....-=|=-+.++.-.++.-|||.+|+=
+T Consensus        25 Le~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea   80 (495)
+T 3j27_A           25 LEHGSCVTTMAKNKPTLDFELIETEAKQPATLRKYCIEAKLTNTTTDSRCPTQGEP   80 (495)
+T ss_dssp             CCSSCEEEEECSSSCCEEEEEEEECCCSEECCCCBEEEEEEEEEEEEECCSSSCCC
+T ss_pred             ecCCcEEEEEcCCCceEEEEEeeEEEeccHHhhheeeeeEEeccEEcccCCCCCcc
+Confidence            4578999998  43 88888888876544433333333333322322699999974
+
+
+No 16 
+>4cct_A Dengue virus 1 E protein; flavivirus; 4.50A {Dengue virus 1} PDB: 4b03_A 4c2i_A* 3j6s_A 3j6t_A 3j6u_A
+Probab=2.38  E-value=2.3e+02  Score=27.12  Aligned_cols=54  Identities=11%  Similarity=0.070  Sum_probs=35.7
+
+Q ss_pred             CCcccccccc--Cc-eeEEEEccceeecccccceecccceeeeeeccccccCCCCCC
+Q tenuivirus_aln  373 TPQDFCFKTS--TD-VYKIRFNSVRVMCLSVPLYYTNSFKRVISREEWKCFEGEGCR  426 (784)
+Q Consensus       373 ~gqE~Cl~l~--~~-~ikIk~~~i~l~C~k~~~yfTrd~~~~v~ss~~RC~~~GsC~  426 (784)
+                      ..+++|..+.  ++ .|.|++..++..=....--|=-+.++.-.++.-|||.+|+=.
+T Consensus        25 Le~~gCVTi~a~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~   81 (495)
+T 4cct_A           25 LEHGSCVTTMAKDKPTLDIELLKTEVTNPAILRKLCIEAKISNTTTDSRCPTQGEAT   81 (495)
+T ss_pred             EcCCcEEEEEcCCCCeEEEEEEEEEEeccHHhhhheeeeEEeccEEcccCCCCCccC
+Confidence            4578999999  43 899999888876555444444444444333336999999753
+
+
+No 17 
+>2kog_A Vesicle-associated membrane protein 2; synaptobrevin, VAMP2, DPC micelle, snare, coiled coil, membrane fusion, transmembrane; NMR {Rattus norvegicus}
+Probab=0.87  E-value=9.4e+02  Score=16.67  Aligned_cols=13  Identities=8%  Similarity=-0.072  Sum_probs=6.2
+
+Q ss_pred             cccccccchhhhh
+Q tenuivirus_aln  213 IKNYQCSHIYRYS  225 (784)
+Q Consensus       213 l~Np~C~p~~ail  225 (784)
+                      +..-.+|-...+.
+T Consensus        87 lkr~~~~r~~k~~   99 (119)
+T 2kog_A           87 LKRKYWWKNLKMM   99 (119)
+T ss_dssp             HHHHHSCHHHHHH
+T ss_pred             HHHHHHHHHHHHH
+Confidence            3334455555544
+
+
+No 18 
+>4wl1_A Lipopolysaccharide biosynthesis protein WZZE; ECA, enterobacterial common antigen, chain length regulator, polysaccharide CO-polymerase; 5.99A {Escherichia coli}
+Probab=0.86  E-value=2.7e+02  Score=23.44  Aligned_cols=19  Identities=5%  Similarity=-0.183  Sum_probs=0.0
+
+Q ss_pred             hhhhHHHHhhhcccchhHHH
+Q tenuivirus_aln  751 TNWMELLAGIVKDNPKLSLV  770 (784)
+Q Consensus       751 ~~~~~~i~~~i~~~~k~~~~  770 (784)
+                      .++.. ++..++.+|++.++
+T Consensus        25 i~l~~-l~~~l~r~~~~il~   43 (356)
+T 4wl1_A           25 LDIRG-LFRTLWAGKLWIIG   43 (356)
+T ss_dssp             --------------------
+T ss_pred             ccHHH-HHHHHHhhhHHHHH
+Confidence            33333 44455555555443
+
+
+No 19 
+>3d0f_A Penicillin-binding 1 transmembrane protein MRCA; BIG_1156.2, STR genomics, PSI-2, protein structure initiative; 1.64A {Nitrosomonas europaea atcc 19718}
+Probab=0.49  E-value=1.3e+03  Score=14.51  Aligned_cols=71  Identities=10%  Similarity=0.003  Sum_probs=0.0
+
+Q ss_pred             cceeeEEEEEEeccceeeeccccccccCCCceEEEEeecc-cCCCccceeccCCceeeecccccCcccccccc
+Q tenuivirus_aln  482 DTKFEIVGYIQKNGHVLKELGGITSKYDSPLVSISLSNYN-SARMPREYAECDGKAYLRTANDLGSFDKELLG  553 (784)
+Q Consensus       482 ~W~~~v~l~vt~~~~~~~l~~~~t~~~~~~~isltl~s~~-~p~~P~l~~~~~~~~Fi~~~n~~~~~~~g~iG  553 (784)
+                      .|.+.+.++++-.+-.+.+..|.+..+++..+.-.--..+ .|..+.-....|.-.++.... .+.|....+|
+T Consensus        35 ~~~~AvV~~v~~~~a~v~~~~g~~~~i~~~~~~war~~~~~~p~~~~~~l~~GdvI~v~~~~-~~~~~l~q~P  106 (106)
+T 3d0f_A           35 DILAAVVLSATPGAVEAFRKNGETIRITGDGLKAAHRFLSNDPKIGEKRIRPGALIRVKKTE-KGSWQIVQLP  106 (106)
+T ss_dssp             TCEEEEEEEEETTEEEEEETTSCEEEECGGGGSTTGGGTTTCTTTGGGSCCTTEEEEEEECT-TSCEEEECCC
+T ss_pred             CeeEEEEEEecCCceEEEecCCCEEEEcchhccccccccccCccCHhHcCCCCCEEEEEECC-CCCEEEEeCC
+
+
+No 20 
+>3hd7_A Vesicle-associated membrane protein 2; membrane protein, coiled-coil, 4-helical bundle, cell juncti cytoplasmic vesicle, membrane, phosphoprotein; HET: GGG; 3.40A {Rattus norvegicus} PDB: 3ipd_A
+Probab=0.49  E-value=1.1e+03  Score=14.72  Aligned_cols=25  Identities=8%  Similarity=0.140  Sum_probs=0.0
+
+Q ss_pred             ccchhhhhHHHHHHHHHHHHHHHHH
+Q tenuivirus_aln  218 CSHIYRYSLYSIILFFVIVIVFTLI  242 (784)
+Q Consensus       218 C~p~~aili~~ii~~ll~~~l~~l~  242 (784)
+                      +|-...+.++..++.++.+.+.+++
+T Consensus        64 ~~~~~k~~~ii~~i~~~l~~~~~~~   88 (91)
+T 3hd7_A           64 WWKNLKMMIILGVICAIILIIIIVY   88 (91)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHhHHHHHHHHHHHHHHHHHHH
+
+
+Done!

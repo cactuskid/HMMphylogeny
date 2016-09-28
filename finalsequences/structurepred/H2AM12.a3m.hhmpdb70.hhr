@@ -1,0 +1,511 @@
+Query         H2AM12
+Match_columns 937
+No_of_seqs    227 out of 297
+Neff          6.7 
+Searched_HMMs 638
+Date          Mon Aug 22 17:24:26 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./finalsequences/models/H2AM12.a3m.hhm -ohhm ./finalsequences/structurepred/H2AM12.a3m.hhm -o ./finalsequences/structurepred/H2AM12.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;   99.9 1.3E-14 1.9E-18  162.2 102.3  362  461-858     7-430 (432)
+  2 2yew_B E1 envelope glycoprotei  93.3     3.1 0.00039   41.1 105.5  380  479-921     3-427 (427)
+  3 3j0f_E E1 envelope glycoprotei  92.6     3.9 0.00048   40.4  88.2  380  479-918     4-436 (439)
+  4 2knc_B Integrin beta-3; transm  77.7     7.2  0.0011   29.1  21.4   45  889-933     8-54  (79)
+  5 2l8s_A Integrin alpha-1; trans  77.3     6.6 0.00088   28.0  14.0   35  889-924     7-41  (54)
+  6 2knc_A Integrin alpha-IIB; tra  67.9      11  0.0015   26.5  15.4   35  889-923    10-44  (54)
+  7 2k1a_A Integrin alpha-IIB; sin  53.6      17  0.0023   24.0  13.0   32  889-921     8-39  (42)
+  8 4hw9_A Mechanosensitive channe  51.3      59  0.0086   29.9  17.6   63  867-932    18-80  (309)
+  9 2knc_B Integrin beta-3; transm  42.5      35   0.005   24.7  23.0   47  887-933     9-59  (79)
+ 10 2k9j_B Integrin beta-3; transm  39.7      23  0.0034   22.0  18.3   32  892-923     9-41  (43)
+ 11 2m3e_A Integrin alpha-L; integ  36.8      37  0.0051   23.1  15.8   34  889-922    10-43  (50)
+ 12 2mv6_A EPO-R, erythropoietin r  34.6      44  0.0055   22.9  18.6   45  882-929     3-47  (49)
+ 13 2m20_A Epidermal growth factor  32.7      39  0.0058   22.6  16.8   40  893-932     3-49  (60)
+ 14 1p3q_Q VPS9P, vacuolar protein  32.2      40  0.0058   22.4  11.1   41  155-196     9-49  (54)
+ 15 1otr_A Protein CUE2; protein-p  31.4      37  0.0054   21.8  13.3   43  155-197     1-46  (49)
+ 16 2mof_A Lysosome-associated mem  28.6      45  0.0061   21.5  13.9   34  889-923     6-39  (42)
+ 17 2k9j_B Integrin beta-3; transm  28.1      37  0.0055   20.9  18.0   29  893-921     7-35  (43)
+ 18 4xtr_G PEP12P; membrane protei  23.3      57  0.0068   20.3  14.0   22  891-912    13-34  (37)
+ 19 2m20_A Epidermal growth factor  22.9      59  0.0088   21.4  17.5   28  897-924     4-34  (60)
+ 20 2mfr_A Insulin receptor, IR; i  19.4      91   0.012   21.6  16.2   36  885-920     9-45  (57)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=99.91  E-value=1.3e-14  Score=162.21  Aligned_cols=362  Identities=14%  Similarity=0.171  Sum_probs=248.6
+
+Q ss_pred             eeEecCc----ccccccccchh--hccccccc-cccceeeeeccCCCcceeeeeehhhhhcccceeeeeccCCccccccc
+Q H2AM12          461 TMTLNGD----KVSNGIRNSYI--ESHIPAIN-GLSAGINIAMPNGESLFSIIIYVRRVINKASYRFLYETGPTIGINAK  533 (937)
+Q Consensus       461 siti~G~----~t~~gi~~~~i--e~~l~l~s-Gts~~~~L~~~~~~~~~~l~I~Ik~a~i~~~~~~lY~Tg~~i~in~~  533 (937)
+                      ...++..    ...+|...+.+  +.+|+|.+ |+.++++|.++++..+..|.|+++++.+++....+|+|.++ .+.++
+T Consensus         7 ~~~~~s~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTrd~-~~~~~   85 (432)
+T 4hj1_A            7 LIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSF-SPKCL   85 (432)
+T ss_dssp             EEECCGGGEEEEESSSCEEEEEEEEEEEECCCBTSEEEEEEECSSTTCEEEEEEEEEEEEEEEEEEEEEEECCE-EEEEE
+T ss_pred             eeEEEecccEEeCCCCCCEEEEeEEEEEEeecCCcEEeEEEECCCCCeEEEEEEEEEeeEEEEecccEEEecce-eEEEe
+Confidence            1111111    22345667776  88899998 99999999999999999999999999999999999999999 68888
+
+
+Q ss_pred             ccccccCC--CC-----CCCC----------CCCc--eEEEeecccCCcccccceeeEecCCccccccccccc---cccc
+Q H2AM12          534 HEEVCTGK--CP-----SPIP----------HQDG--WVTFSKERSSNWGCEEWGCLAINDGCLYGSCQDIIR---PEYK  591 (937)
+Q Consensus       534 h~~~CTG~--Cp-----~~~~----------~~~~--w~~F~~e~TS~WGCee~gClaI~tGC~~G~C~dvik---~~~~  591 (937)
+                      +..+|-+.  |-     +-.+          ....  =-+++.|.--.|||   |||-..+||+|.+ -....   ..+.
+T Consensus        86 s~~RC~~~GsC~~~~C~~i~~~~~~pEl~~~~~~~~~g~t~C~~sCGg~gC---gCF~~~~sClFyR-~y~~p~s~~iye  161 (432)
+T 4hj1_A           86 SSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGC---GCFNVNPSCLFVH-TYLQSVRKEALR  161 (432)
+T ss_dssp             EEEECTTSTTCSTTTTTTCCTTCCCGGGGGGCCCCBCEEEEEEEECCSGGG---TCSSSSCEEEEEE-EEEEESSSCCEE
+T ss_pred             eEeECCCCCccccCcccccCCcCcchhhccccccCCCccceeccccCCCCc---CeeCcCcchhEEE-EEEEcCCCCEEE
+Confidence            77777655  44     3322          0111  35889998899999   5999999999966 22222   3568
+
+
+Q ss_pred             eeccccccccceeEEEeeccccc-cchhhh--cccccccceeeeeeeeecCCCC----cEEEEec-CeEEEeeccccccc
+Q H2AM12          592 IYKKSSIEQKDVEVCITMAHESF-CSTVDV--LQPLISDRIQLDIQTIQMDSMP----NIIAVKN-GKVYVGDINDLGST  663 (937)
+Q Consensus       592 VyKk~~~~~~~v~vCI~~~~e~~-C~~i~~--~~p~~t~~v~v~~~~~~s~~lP----~~iav~~-~ki~~G~Indlg~~  663 (937)
+                      ||+ +.+|...+++-|+.++... =..+..  ..+...+.+.+.+   ++..+|    ..++..+ +..+.-..++.|..
+T Consensus       162 Vf~-C~~W~~~v~i~vt~~~~~~~~~~l~~~~~~~~~~~~i~itl---~~~~~~~~~~~~fi~~~~~~~a~~~~~~~~~p  237 (432)
+T 4hj1_A          162 VFN-CIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSL---DAEGISGSNSFSFIESPGKGYAIVDEPFSEIP  237 (432)
+T ss_dssp             EEE-EEEEEEEEEEEEECTTSCEEEEEECTTCEEEETTEEEEEEE---ECCSCTTGGGCEEEEETTTEEEEESSCCCSSC
+T ss_pred             EEE-CCCccEEEEEEEEecCCceEEEEeccCCceEEeeccEEEEE---EeeeecCCCCcEEEEeCCceEEEecccccCCc
+Confidence            888 9999999999999876431 112222  1223444555555   444443    6666665 78888899999997
+
+
+Q ss_pred             cc-ccceeEeeecc-c--ccCCC---CCcceeeccccccceeeeeccccccceeE-------------eEee-cCeeEEe
+Q H2AM12          664 AK-KCGSVQLYSEG-I--IGSGT---PKFDYVCHAFNRKDVILRRCFDNSYQSCL-------------LLEQ-DNTLTIA  722 (937)
+Q Consensus       664 ~~-~cG~vQ~~~~~-~--~g~g~---p~fdy~C~~a~~k~v~~~~c~~n~y~s~~-------------~L~~-~~~~~~~  722 (937)
+                      .+ ..|++|+.+.. .  ....+   |+ .-.|.++..            ...|.             .||. .+++.+.
+T Consensus       238 ~~g~ig~lqC~t~~~A~~~~~~C~~~~~-~c~c~~~~~------------~~~C~c~~~~~~~~~~~~~LP~~~~~~~~~  304 (432)
+T 4hj1_A          238 RQGFLGEIRCNSESSVLSAHESCLRAPN-LISYKPMID------------QLECTTNLIDPFVVFERGSLPQTRNDKTFA  304 (432)
+T ss_dssp             CTTSTTSEEBSSHHHHHTTBTTSEECTT-CEEEEEETT------------EEEEEECCCCHHHHHHHTBSSEEETTEEEE
+T ss_pred             CcCcccceeeCChHHhHhhcCceeeccc-cceEEcccc------------eEEeeCCCCCHHHHhhcCCCceEeCcceEE
+Confidence            76 77999998742 1  11111   11 233444331            12333             2222 2334454
+
+
+Q ss_pred             e--cc-ceEEeeeecceeeeeEEEEeecccccccceeeeEEEeeeEecCcccCcccceeeeeecccceeceeeecCCcce
+Q H2AM12          723 S--TS-HMEVHKKVSSVGTINYKIMLGDFDYNAYSTQATVTIDEIRCGGCYGCPEGMACALKLSTNTIGSCSIKSNCDTY  799 (937)
+Q Consensus       723 ~--~~-~l~~~~~~~~lG~i~~~i~l~di~~k~~s~~~~~~~~~~~C~GC~~C~~G~~C~l~i~s~~~~~c~I~s~C~~~  799 (937)
+                      .  ++ +|.+..+..  ..+.+.|.+++++......+..+++++....|||+|..|+.-.++.+|+..........|..+
+T Consensus       305 ~~~~~~~V~a~~~~~--~~~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~C~S~~~~~~~~~~~~~~~  382 (432)
+T 4hj1_A          305 ASKGNRGVQAFSKGS--VQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDGSL  382 (432)
+T ss_dssp             ECSSSCCEEEEECSC--CCEEEEEEEEEEEEECCSCCCCCEEEEEEEEEBSSSSSCEEEEEEEEESSCEEEEEEETTSSC
+T ss_pred             EecCCCeEEEEeccc--eEEEEEEEecceEEEEEEeCCcceEEeccceEecccccCCEEEEEEEeCCCCeEEEEEcCCCE
+Confidence            3  35 888866655  355555556666667788888899999999999999999999999999975444344459988
+
+
+Q ss_pred             EEEEEeCCCCcceeeEecCcccce-eEEEEEeecccccCCCcCCCCCcEEeecCCccchh
+Q H2AM12          800 IKIIAVDPMQSEYSIKLNCPLATE-TVSVSVCSASAYTKPSISKNQPKIVLNSLDETSYI  858 (937)
+Q Consensus       800 ~t~i~i~~g~n~~~ik~~c~~~~~-~~~~~iC~~~~~~~~~i~~~~p~~ev~~~dq~t~i  858 (937)
+                      ...+...+|..+..+.++...+.+ ..|-.-|+..          ...++|.  |.+.|+
+T Consensus       383 ~~~~~~~~g~~~~~~~~~f~~a~v~~~C~v~CG~~----------~~~f~i~--G~L~~~  430 (432)
+T 4hj1_A          383 HIVLPSENGTKDQCQILHFTVPEVEEEFMYSCDGD----------ERPLLVK--GTLIAI  430 (432)
+T ss_dssp             EEEEEECBEEEEEEEEECCSSSEEEEEEEEESSSC----------CEEEEEE--EECBCC
+T ss_pred             EEEEecCCCCeeEEEEEEcCCCeEeeEEEEECCCC----------cEEEEEE--EEEEec
+Confidence            888998887777779999999977 8888889887          1122322  222221
+
+
+No 2  
+>2yew_B E1 envelope glycoprotein; alphavirus, molecular dynamics; 5.00A {Barmah forest virus}
+Probab=93.26  E-value=3.1  Score=41.06  Aligned_cols=380  Identities=16%  Similarity=0.212  Sum_probs=231.2
+
+Q ss_pred             hccccccccccceee-eeccCCCcceeeeeehhhhhcccceeeeeccCCcccccccccccccCC--CCCCCCCCCceEEE
+Q H2AM12          479 ESHIPAINGLSAGIN-IAMPNGESLFSIIIYVRRVINKASYRFLYETGPTIGINAKHEEVCTGK--CPSPIPHQDGWVTF  555 (937)
+Q Consensus       479 e~~l~l~sGts~~~~-L~~~~~~~~~~l~I~Ik~a~i~~~~~~lY~Tg~~i~in~~h~~~CTG~--Cp~~~~~~~~w~~F  555 (937)
+                      ...||-..|  .-|+ +.+..|-..+.|.|.+.+..+.=+.+..|.|=.-.+.---..-+|=|.  |++.. ..+.|..|
+T Consensus         3 ~~~~PN~vg--~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~eC~~~~-~Dy~CkVf   79 (427)
+T 2yew_B            3 STTMPNQVG--IPFKALIERPGYAGLPLSLVVIKSELVPSLVQDYITCNYKTVVPSPYIKCCGGAECSKNE-ADYKCSVF   79 (427)
+T ss_dssp             CEEEECCBT--CCEEECCSSSSCCSSCEEEEEEEEEEECCCEEEEECCCEEEECCCCEEESSSCCCCCCCS-SSEEEEEE
+T ss_pred             ceecCCCCC--CchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcC-CCccceEe
+Confidence            112333333  3566 677788888899999999999999999999999887777788899998  99744 44789999
+
+
+Q ss_pred             eecccCCcccccceeeEecCCcccccc-----------ccccccccceeccccccccceeEEEeeccc--cccchhhhcc
+Q H2AM12          556 SKERSSNWGCEEWGCLAINDGCLYGSC-----------QDIIRPEYKIYKKSSIEQKDVEVCITMAHE--SFCSTVDVLQ  622 (937)
+Q Consensus       556 ~~e~TS~WGCee~gClaI~tGC~~G~C-----------~dvik~~~~VyKk~~~~~~~v~vCI~~~~e--~~C~~i~~~~  622 (937)
+                      .-=.-==||-         -=|+|-.=           .+.=+.++.+|| . .-...+++=|+.++.  +.=.-++...
+T Consensus        80 tGVYPfMWGG---------AyCFCdtENTQ~SeayV~~s~~C~~dA~Ayk-~-TAs~ka~l~it~g~~~~tv~~yvNG~t  148 (427)
+T 2yew_B           80 TGVYPFMWGG---------AYCFCDTENSQMSEVYVTRGESCEADAIAYQ-V-TASLKAQVMISIGELNQTVDVFVNGDS  148 (427)
+T ss_dssp             ESCCCCCSSS---------SSSSCSSSCEEEEEEEEEECSCCSSSCEEEE-C-CCEEEEEEEEECSSCEEEEEEECSSCE
+T ss_pred             cccccccccc---------eeeeecCccceeehheeecCccchhhHHHHh-h-hheeEEEEEEEECceeEEEEEEEcCcc
+Confidence            8655567883         33333210           122234588999 5 667888888888864  3444677778
+
+
+Q ss_pred             cccccceeeeeee--eecCCCCcEEEEecCeEEEeecccccccc-cccceeEeeecc---ccc----------CCCCCcc
+Q H2AM12          623 PLISDRIQLDIQT--IQMDSMPNIIAVKNGKVYVGDINDLGSTA-KKCGSVQLYSEG---IIG----------SGTPKFD  686 (937)
+Q Consensus       623 p~~t~~v~v~~~~--~~s~~lP~~iav~~~ki~~G~Indlg~~~-~~cG~vQ~~~~~---~~g----------~g~p~fd  686 (937)
+                      |...+..++-+--  ...--.. .|.+..|++|-=..-..|.-. ..|||||....+   ++.          .|..++-
+T Consensus       149 ~v~~~~~K~I~GPiStawsPFD-KiVvy~~eVYNyDfP~YGag~pG~FGDIQ~rt~~s~DlyAnT~l~L~rP~~g~iHVP  227 (427)
+T 2yew_B          149 PARIQQSKFILGPISSAWSPFD-KVIVYRDEVYNEDYAPYGSGQAGRFGDIQSRTVNSTDVYANTNLKLKRPASGNVHVP  227 (427)
+T ss_dssp             EEEETTEEEEECCCCCCCCCCS-EEEECSSCEEECCCCCTTCCCSSSTTCSEESSSSCSSEECCCCEECCCCCSSCC-CC
+T ss_pred             ceecCceeEEecccccCCCCCc-eEEEecceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCCCceecc
+Confidence            8888888776633  4444555 666777999988887777744 388999986521   111          2333344
+
+
+Q ss_pred             eeecccc---ccceeeeeccccccceeEeEee---cCeeEEeeccceEEeeeecceeeeeEEEEeecccccccceeeeEE
+Q H2AM12          687 YVCHAFN---RKDVILRRCFDNSYQSCLLLEQ---DNTLTIASTSHMEVHKKVSSVGTINYKIMLGDFDYNAYSTQATVT  760 (937)
+Q Consensus       687 y~C~~a~---~k~v~~~~c~~n~y~s~~~L~~---~~~~~~~~~~~l~~~~~~~~lG~i~~~i~l~di~~k~~s~~~~~~  760 (937)
+                      |+=..-+   |+.           ++=..|+.   .+=.+  ..+-|.+  -+=-+|.|-+-++++| -|-..+|.|.++
+T Consensus       228 YTQapSGf~~W~~-----------~~g~~L~~tAPFGC~I--~~nPvRA--~nCavG~IPiS~DIPD-AFtRv~daP~vs  291 (427)
+T 2yew_B          228 YTQTPSGFSYWKK-----------EKGVPLNRNAPFGCII--KVNPVRA--ENCVYGNIPISMDIAD-AFTRIDESPSVS  291 (427)
+T ss_dssp             CEECCCHHHHHTT-----------TCCEESTTCSSSCCEE--ETTTTEE--ESCCCCEEEEEEECCC-CSSSSCSCCCCE
+T ss_pred             cccCCcHHHHHhh-----------cCCCccccCCCcceEE--ecCcchh--hcccccceeeeecCch-hhhccccCCccc
+Confidence            4433311   111           22234443   22234  4553344  3444599999999999 599999999977
+
+
+Q ss_pred             EeeeEecCccc-CcccceeeeeecccceeceeeecCCcc-eEEEEEeCCCCcceeeEecCcccce-eEEEEEeecccccC
+Q H2AM12          761 IDEIRCGGCYG-CPEGMACALKLSTNTIGSCSIKSNCDT-YIKIIAVDPMQSEYSIKLNCPLATE-TVSVSVCSASAYTK  837 (937)
+Q Consensus       761 ~~~~~C~GC~~-C~~G~~C~l~i~s~~~~~c~I~s~C~~-~~t~i~i~~g~n~~~ik~~c~~~~~-~~~~~iC~~~~~~~  837 (937)
+                      .-.-.-.-|.- ..=|-.-.|++.++....|.|-|+-.. ....+.+ ....++.+.+..... . ...+.+|+..+.. 
+T Consensus       292 ~~~Ctv~~Ct~SsdfGG~a~~~Y~a~k~GkCavHs~~atl~es~v~v-~~~g~~t~hFSTas~-~~~F~v~iC~~~vtC-  368 (427)
+T 2yew_B          292 LKACEVQSCTYSSDFGGVASISYTSNKVGKCAISSNSATMKDSVQDV-QESGALSLFFATSSV-EPNFVVQVCNARITC-  368 (427)
+T ss_dssp             EEEEEECCCCSCCSSCCEEEEEEECCCCBCCCCCCSSCCCSCCCCCB-CSCCSEEEECCTTSS-CSCBCCEETTEECCB-
+T ss_pred             cceEEeeEEEeccCCCCeEEEEEecCCCcccceecCceEeeeeeEEE-eecceEEEEEecCCC-CCCEEEEecccccee-
+Confidence            55588888854 556889999999999999999863321 1100001 223444444433333 4 7777888777454 
+
+
+Q ss_pred             CCcCCCCCcEEeecCCccchhhhcccccceeeeeeeecceeEEeeccccCee----eeehhhHHHHHHHHHHHHHHHHHH
+Q H2AM12          838 PSISKNQPKIVLNSLDETSYIEQHDKKCSTWLCRVYKEGISVIFQPLFGNLS----FYWRLTIYIIISLIMLILFLYILI  913 (937)
+Q Consensus       838 ~~i~~~~p~~ev~~~dq~t~i~~~D~~C~tw~c~v~degi~~i~~~l~~~fg----~~~~ii~~vil~ii~l~l~iyil~  913 (937)
+                      .+=.  .|+      |--.    +..+++.                ++.-++    +|..-+ ..+.+++++.++++++.
+T Consensus       369 ~~C~--PPk------D~V~----~p~~h~~----------------~~~~iS~TAwsWl~~l-GG~~~~i~ialivlv~v  419 (427)
+T 2yew_B          369 GKCE--PPK------DIVP----YAAKNDA----------------EFPSISTTAWQWLATT-SGPLTILVVAIIVVVVV  419 (427)
+T ss_dssp             CCCC--CCS------SCCC----CCCCSSC----------------CSSCSSHHHHHHHGGG-HHHHHHHHHHHHHHHHH
+T ss_pred             cCCc--Chh------hhcC----CcccCCc----------------cccccchhHHHHHHHh-cCchHHHHHHHHHHHHH
+Confidence            4432  333      2111    1111111                112232    444444 55555556555555544
+
+
+Q ss_pred             Hhhhhhhh
+Q H2AM12          914 PLCKRLKG  921 (937)
+Q Consensus       914 p~c~k~k~  921 (937)
+                      -++-..|.
+T Consensus       420 ~cv~~~r~  427 (427)
+T 2yew_B          420 SIVVCARH  427 (427)
+T ss_dssp             HHHHHHC-
+T ss_pred             hheeeecC
+Confidence            44332221
+
+
+No 3  
+>3j0f_E E1 envelope glycoprotein; alphavirus, virus assembly; 7.00A {Sindbis virus} PDB: 1ld4_M 1z8y_I
+Probab=92.62  E-value=3.9  Score=40.41  Aligned_cols=380  Identities=16%  Similarity=0.192  Sum_probs=225.4
+
+Q ss_pred             hccccccccccceee-eeccCCCcceeeeeehhhhhcccceeeeeccCCcccccccccccccCC--CCCCCCCCCceEEE
+Q H2AM12          479 ESHIPAINGLSAGIN-IAMPNGESLFSIIIYVRRVINKASYRFLYETGPTIGINAKHEEVCTGK--CPSPIPHQDGWVTF  555 (937)
+Q Consensus       479 e~~l~l~sGts~~~~-L~~~~~~~~~~l~I~Ik~a~i~~~~~~lY~Tg~~i~in~~h~~~CTG~--Cp~~~~~~~~w~~F  555 (937)
+                      ...||-..|.  -|+ +.+..|-..+.|.|.+.+..+.=+.+..|.|=...+.---..-+|=|.  |+..-...+.|..|
+T Consensus         4 ~~~~PN~vg~--pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkVf   81 (439)
+T 3j0f_E            4 ATTVPNVPQI--PYKALVERAGYAPLNLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAAHADYTCKVF   81 (439)
+T ss_pred             ccccCCCCCC--chhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCCCCCCccceEe
+Confidence            1245555555  454 667788889999999999998888888888876655555666799998  99877666999999
+
+
+Q ss_pred             eecccCCcccccceeeEecCCccccccccccccc------cceeccccccccceeEEEeeccc--cccchhhhccccccc
+Q H2AM12          556 SKERSSNWGCEEWGCLAINDGCLYGSCQDIIRPE------YKIYKKSSIEQKDVEVCITMAHE--SFCSTVDVLQPLISD  627 (937)
+Q Consensus       556 ~~e~TS~WGCee~gClaI~tGC~~G~C~dvik~~------~~VyKk~~~~~~~v~vCI~~~~e--~~C~~i~~~~p~~t~  627 (937)
+                      .-=.-==||--  .||-=.+-=- .+=..|.+.+      +.+|| .-.-...+.+=|+.++.  +.=.-++...|...+
+T Consensus        82 tGVYPfMWGGA--yCFCDsENTQ-~SeayV~~s~~C~~dhA~Ayk-aHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~  157 (439)
+T 3j0f_E           82 GGVYPFMWGGA--QCFCDSENSQ-MSEAYVELSADCASDHAQAIK-VHTAAMKVGLRIVYGNTTSFLDVYVNGVTPGTSK  157 (439)
+T ss_pred             cccccccccce--eeeecCcchh-hhhhheecCccchhHHHHHHH-hhhheeEEEEEEEEcceeEEEEEEEcCccceecC
+Confidence            75444567743  5551111000 0001122211      34556 44555788888988865  444567888888888
+
+
+Q ss_pred             ceeeeeee--eecCCCCcEEEEecCeEEEeecccccccc-cccceeEeeecccccCCCCCcceeeccccccceeeeeccc
+Q H2AM12          628 RIQLDIQT--IQMDSMPNIIAVKNGKVYVGDINDLGSTA-KKCGSVQLYSEGIIGSGTPKFDYVCHAFNRKDVILRRCFD  704 (937)
+Q Consensus       628 ~v~v~~~~--~~s~~lP~~iav~~~ki~~G~Indlg~~~-~~cG~vQ~~~~~~~g~g~p~fdy~C~~a~~k~v~~~~c~~  704 (937)
+                      ..++-+--  ...--..+.|.+..|++|-=..-..|.-. ..|||||....+                 .+|+..+.   
+T Consensus       158 ~~K~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGaG~pG~FGDIQsrt~~-----------------s~DlyAnT---  217 (439)
+T 3j0f_E          158 DLKVIAGPISASFTPFDHKVVIHRGLVYNYDFPEYGAMKPGAFGDIQATSLT-----------------SKDLIAST---  217 (439)
+T ss_pred             ceeEEecccccCcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCC-----------------ccceeecc---
+Confidence            88887744  55555667777777999977666666633 388999986521                 11111100   
+
+
+Q ss_pred             cccceeEeEeecCeeEE----------------------ee--cc-ceEEeee----ecceeeeeEEEEeecccccccce
+Q H2AM12          705 NSYQSCLLLEQDNTLTI----------------------AS--TS-HMEVHKK----VSSVGTINYKIMLGDFDYNAYST  755 (937)
+Q Consensus       705 n~y~s~~~L~~~~~~~~----------------------~~--~~-~l~~~~~----~~~lG~i~~~i~l~di~~k~~s~  755 (937)
+                          .-.++.+....++                      +.  -+ .|.. +|    +=-+|.|-+-++++|-.|-..+|
+T Consensus       218 ----~l~L~rP~~g~iHVPYTQapSGf~~W~~~~g~~L~~tAPFGC~I~~-nPvRA~nCavG~IPiS~DIPDA~FTRv~d  292 (439)
+T 3j0f_E          218 ----DIRLLKPSAKNVHVPYTQASSGFEMWKNNSGRPLQETAPFGCKIAV-NPLRAVDCSYGNIPISIDIPNAAFIRTSD  292 (439)
+T ss_pred             ----ccEEccCCCCceecccccCCcHHHHHhhcCCCccccCCCcceEEec-CcchhhcccccceeeeeecCchheeeecc
+Confidence                0122222221221                      00  12 2222 22    23369999999999999999999
+
+
+Q ss_pred             eeeE---EEeeeEecCcccCcccceeeeeecccceeceeeecCCcc---eEEEEEeCCCCcceeeEecCcccce-eEEEE
+Q H2AM12          756 QATV---TIDEIRCGGCYGCPEGMACALKLSTNTIGSCSIKSNCDT---YIKIIAVDPMQSEYSIKLNCPLATE-TVSVS  828 (937)
+Q Consensus       756 ~~~~---~~~~~~C~GC~~C~~G~~C~l~i~s~~~~~c~I~s~C~~---~~t~i~i~~g~n~~~ik~~c~~~~~-~~~~~  828 (937)
+                      .|.+   +-+..+|+  ++..=|-.-.|++.++....|.|-|.-+.   ....+.+.. ..++.+.+..... . ...+.
+T Consensus       293 aP~vs~~~Ctv~~Ct--~SsdfGG~a~~~Y~a~k~GkCavHs~S~~atl~es~v~v~~-~g~~t~hFSTas~-~~~F~v~  368 (439)
+T 3j0f_E          293 APLVSTVKCEVSECT--YSADFGGMATLQYVSDREGQCPVHSHSSTATLQESTVHVLE-KGAVTVHFSTASP-QANFIVS  368 (439)
+T ss_pred             CCccccceEEeeEEE--eccCCCCeEEEEEecCCCcccceecCCCceEeeeeeEEEee-cceEEEEEecCCC-CCCEEEE
+Confidence            8885   45556776  67778889999999999999999855443   445555544 5556666665554 4 99999
+
+
+Q ss_pred             EeecccccCCCcCCCCCcEEeecCCccchhhhcccccceeeeeeeecceeEEeeccccCeeeeehhhHH---HHHHHHHH
+Q H2AM12          829 VCSASAYTKPSISKNQPKIVLNSLDETSYIEQHDKKCSTWLCRVYKEGISVIFQPLFGNLSFYWRLTIY---IIISLIML  905 (937)
+Q Consensus       829 iC~~~~~~~~~i~~~~p~~ev~~~dq~t~i~~~D~~C~tw~c~v~degi~~i~~~l~~~fg~~~~ii~~---vil~ii~l  905 (937)
+                      +|+..+....+-.  .|+.-|....         .+++.       +..+       ++=+.-|.|+.-   .+.+++++
+T Consensus       369 iC~~~vtC~~~C~--PPkdHIV~~p---------~~h~~-------~~~~-------~iS~Ta~~W~~~l~Gg~~~~~~~  423 (439)
+T 3j0f_E          369 LCGKKTTCNAECK--PPADHIVSTP---------HKNDQ-------EFQA-------AISKTSWSWLFALFGGASSLLII  423 (439)
+T ss_pred             eccCcceecCccc--CchhhccCCC---------cccCc-------cccc-------ccchhHHHHHHHHhCCchHHHHH
+Confidence            9999977777653  3442122111         12221       0100       111112333322   11222333
+
+
+Q ss_pred             HHHHHHHHHhhhh
+Q H2AM12          906 ILFLYILIPLCKR  918 (937)
+Q Consensus       906 ~l~iyil~p~c~k  918 (937)
+                      .++++++.-+.-.
+T Consensus       424 ~~~v~~~v~~v~~  436 (439)
+T 3j0f_E          424 GLMIFACSMMLTS  436 (439)
+T ss_pred             HHHHHHHHhheee
+Confidence            3333333222111
+
+
+No 4  
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=77.74  E-value=7.2  Score=29.08  Aligned_cols=45  Identities=7%  Similarity=-0.010  Sum_probs=16.3
+
+Q ss_pred             eeeehhhHHHHHHHHHHHHHHHHHHHhhhhhhhhh--hhhHHHHhhh
+Q H2AM12          889 SFYWRLTIYIIISLIMLILFLYILIPLCKRLKGLL--EYNERIYQME  933 (937)
+Q Consensus       889 g~~~~ii~~vil~ii~l~l~iyil~p~c~k~k~~l--k~ne~~y~~~  933 (937)
+                      .+++.++..++.++++++++++++..+.++.|+..  .+-|.+.+..
+T Consensus         8 ~~~~~I~~~vi~~iv~l~ll~~~~~~~~~~~r~~~e~~~~~~~~~~~   54 (79)
+T 2knc_B            8 PDILVVLLSVMGAILLIGLAALLIWKLLITIHDRKEFAKFEEERARA   54 (79)
+T ss_dssp             SCSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CchheehhhHHHHHHHHHHHHHHHHHHHHHhhcchhHHHHHHHHhhc
+Confidence            12333444444444444444444444333333222  2222222211
+
+
+No 5  
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=77.30  E-value=6.6  Score=27.96  Aligned_cols=35  Identities=20%  Similarity=0.391  Sum_probs=18.0
+
+Q ss_pred             eeeehhhHHHHHHHHHHHHHHHHHHHhhhhhhhhhh
+Q H2AM12          889 SFYWRLTIYIIISLIMLILFLYILIPLCKRLKGLLE  924 (937)
+Q Consensus       889 g~~~~ii~~vil~ii~l~l~iyil~p~c~k~k~~lk  924 (937)
+                      -.||.+++.+++++++++++++++..+ .-.|...+
+T Consensus         7 ~~~wiIi~s~i~GlllL~iii~iL~K~-GFFkRk~~   41 (54)
+T 2l8s_A            7 VPLWVILLSAFAGLLLLMLLILALWKI-GFFKRPLK   41 (54)
+T ss_dssp             CCTHHHHHHHHHHHHHHHHHHHHHHHH-HHTTSCCS
+T ss_pred             CcchhhHHHHHHHHHHHHHHHHHHHHc-CCCCCCCh
+Confidence            123445555777777777777777544 22221111
+
+
+No 6  
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=67.93  E-value=11  Score=26.51  Aligned_cols=35  Identities=9%  Similarity=0.161  Sum_probs=17.2
+
+Q ss_pred             eeeehhhHHHHHHHHHHHHHHHHHHHhhhhhhhhh
+Q H2AM12          889 SFYWRLTIYIIISLIMLILFLYILIPLCKRLKGLL  923 (937)
+Q Consensus       889 g~~~~ii~~vil~ii~l~l~iyil~p~c~k~k~~l  923 (937)
+                      -.+|.++..+++++++++++++++.++-.-.|..-
+T Consensus        10 ~~~wiii~s~i~GlllL~li~~iL~K~GFFkRk~~   44 (54)
+T 2knc_A           10 IPIWWVLVGVLGGLLLLTILVLAMWKVGFFKRNRP   44 (54)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTTCC
+T ss_pred             CchhHHHHHHHHHHHHHHHHHHHHHHcCCcccCCc
+Confidence            12344555566666666777777654432222111
+
+
+No 7  
+>2k1a_A Integrin alpha-IIB; single-PASS transmembrane segment, alternative splicing, calcium, cell adhesion, cleavage on PAIR of basic residues; NMR {Homo sapiens} PDB: 2k9j_A
+Probab=53.58  E-value=17  Score=24.05  Aligned_cols=32  Identities=13%  Similarity=0.299  Sum_probs=13.1
+
+Q ss_pred             eeeehhhHHHHHHHHHHHHHHHHHHHhhhhhhh
+Q H2AM12          889 SFYWRLTIYIIISLIMLILFLYILIPLCKRLKG  921 (937)
+Q Consensus       889 g~~~~ii~~vil~ii~l~l~iyil~p~c~k~k~  921 (937)
+                      -.||.++..++.++++++++++++..+ .-.|.
+T Consensus         8 ~~~wiii~s~i~GlllL~li~~iL~K~-GFFkR   39 (42)
+T 2k1a_A            8 IPIWWVLVGVLGGLLLLTILVLAMWKV-GFFKR   39 (42)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHT-TTTCC
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHHHHHHc-CcCCC
+Confidence            112333444555555555555555433 11111
+
+
+No 8  
+>4hw9_A Mechanosensitive channel MSCS; membrane, membrane protein; 4.14A {Helicobacter pylori}
+Probab=51.30  E-value=59  Score=29.88  Aligned_cols=63  Identities=16%  Similarity=0.123  Sum_probs=12.4
+
+Q ss_pred             eeeeeeeecceeEEeeccccCeeeeehhhHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhhHHHHhh
+Q H2AM12          867 TWLCRVYKEGISVIFQPLFGNLSFYWRLTIYIIISLIMLILFLYILIPLCKRLKGLLEYNERIYQM  932 (937)
+Q Consensus       867 tw~c~v~degi~~i~~~l~~~fg~~~~ii~~vil~ii~l~l~iyil~p~c~k~k~~lk~ne~~y~~  932 (937)
+                      .|+...-   ...+++++.+||.....+...++.+++++++++++...+-+..+..++..+....+
+T Consensus        18 ~~~~~~~---~~~~~~~l~~~~~~~~~~~~~~~~~i~i~~i~~~l~~~~~~~~~~~~~~~~~~~~~   80 (309)
+T 4hw9_A           18 GSHTLIN---MDEIKTLLVDFFPQAKHFGIILIKAVIVFCIGFYFSFFLRNKTMKLLSKKDEILAN   80 (309)
+T ss_dssp             ---------------------------CHHHHHHHHHHHHHHHHHHHHHHTTHHHHTCSSCHHHHH
+T ss_pred             chhhhcc---HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhcchHHHH
+Confidence            1332221   22334455566655444555444444444333333322222223332211111111
+
+
+No 9  
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=42.53  E-value=35  Score=24.71  Aligned_cols=47  Identities=9%  Similarity=0.088  Sum_probs=17.5
+
+Q ss_pred             CeeeeehhhHHHHHHHHHHHHHHHHHHHh--hhhhhhhhhhh-H-HHHhhh
+Q H2AM12          887 NLSFYWRLTIYIIISLIMLILFLYILIPL--CKRLKGLLEYN-E-RIYQME  933 (937)
+Q Consensus       887 ~fg~~~~ii~~vil~ii~l~l~iyil~p~--c~k~k~~lk~n-e-~~y~~~  933 (937)
+                      ..+-....++..++++.+++++++.+...  .++-...+++. + ..+.++
+T Consensus         9 ~~~~I~~~vi~~iv~l~ll~~~~~~~~~~~r~~~e~~~~~~~~~~~~~~~~   59 (79)
+T 2knc_B            9 DILVVLLSVMGAILLIGLAALLIWKLLITIHDRKEFAKFEEERARAKWDTA   59 (79)
+T ss_dssp             CSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTT
+T ss_pred             chheehhhHHHHHHHHHHHHHHHHHHHHHhhcchhHHHHHHHHhhcccccc
+Confidence            11111244555555555555555544322  22322333332 2 223221
+
+
+No 10 
+>2k9j_B Integrin beta-3; transmembrane complex, cell adhesion, cleavage on basic residues, disease mutation, glycoprotein, pyrrolidone carboxylic acid; NMR {Homo sapiens} PDB: 2rmz_A 2rn0_A 2l91_A
+Probab=39.74  E-value=23  Score=22.01  Aligned_cols=32  Identities=6%  Similarity=0.133  Sum_probs=10.0
+
+Q ss_pred             ehhhHH-HHHHHHHHHHHHHHHHHhhhhhhhhh
+Q H2AM12          892 WRLTIY-IIISLIMLILFLYILIPLCKRLKGLL  923 (937)
+Q Consensus       892 ~~ii~~-vil~ii~l~l~iyil~p~c~k~k~~l  923 (937)
+                      ...+.. ++.+++++++++.++..+.++.|+..
+T Consensus         9 ~~~i~~~vvg~~~~~~li~~~~~~~~~~~~~~~   41 (43)
+T 2k9j_B            9 ILVVLLSVMGAILLIGLAALLIWKLLITIHDRK   41 (43)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             hhhHhHHHHHHHHHHHHHHHHHHHHHHHhhhcc
+Confidence            112222 33333333333333333333333211
+
+
+No 11 
+>2m3e_A Integrin alpha-L; integrin alpah L TM domain, polar interaction, membrane PROT; NMR {Homo sapiens}
+Probab=36.79  E-value=37  Score=23.07  Aligned_cols=34  Identities=18%  Similarity=0.264  Sum_probs=16.7
+
+Q ss_pred             eeeehhhHHHHHHHHHHHHHHHHHHHhhhhhhhh
+Q H2AM12          889 SFYWRLTIYIIISLIMLILFLYILIPLCKRLKGL  922 (937)
+Q Consensus       889 g~~~~ii~~vil~ii~l~l~iyil~p~c~k~k~~  922 (937)
+                      -.+|.++..+++++++++++++++.++-.-.|.+
+T Consensus        10 ~~~wiii~s~i~GlllL~~ii~iL~K~GFFkR~~   43 (50)
+T 2m3e_A           10 QMLYLYVLSGIGGLLLLLLIFIVLYKVGFFKRNL   43 (50)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHTSGGGSC
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHHHHHHcCccccCC
+Confidence            1223445556666666777777775552111111
+
+
+No 12 
+>2mv6_A EPO-R, erythropoietin receptor; micelles, transmembrane domain, MEM protein; NMR {Homo sapiens}
+Probab=34.64  E-value=44  Score=22.90  Aligned_cols=45  Identities=9%  Similarity=0.104  Sum_probs=16.9
+
+Q ss_pred             eccccCeeeeehhhHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhhHHH
+Q H2AM12          882 QPLFGNLSFYWRLTIYIIISLIMLILFLYILIPLCKRLKGLLEYNERI  929 (937)
+Q Consensus       882 ~~l~~~fg~~~~ii~~vil~ii~l~l~iyil~p~c~k~k~~lk~ne~~  929 (937)
+                      +|+....-+=++-.+....+|+++ +++.+.+.....+|.+|++  +.
+T Consensus         3 ~Pv~~~~p~dlDpLIl~L~lii~~-Il~lL~~~~llshrRfL~k--Ki   47 (49)
+T 2mv6_A            3 EPVSLLTPSDLDPLILTLSLILVV-ILVLLTVLALLSHRRALKQ--KI   47 (49)
+T ss_dssp             CGGGGCCTTTCCHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHH--HH
+T ss_pred             CCeeecCccccchHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHH--hc
+Confidence            222222111123334333333333 3333333455677777772  21
+
+
+No 13 
+>2m20_A Epidermal growth factor receptor; transmembrane, cell signaling, juxtamembrane, signaling PROT; NMR {Homo sapiens}
+Probab=32.73  E-value=39  Score=22.55  Aligned_cols=40  Identities=15%  Similarity=0.100  Sum_probs=8.6
+
+Q ss_pred             hhhHHHHHHHHHH----HHHHHHHHHhhhhhh-hhhh-h-hHHHHhh
+Q H2AM12          893 RLTIYIIISLIML----ILFLYILIPLCKRLK-GLLE-Y-NERIYQM  932 (937)
+Q Consensus       893 ~ii~~vil~ii~l----~l~iyil~p~c~k~k-~~lk-~-ne~~y~~  932 (937)
+                      ..+..++++.+++    +++++++....++.+ ...+ + ++.+...
+T Consensus         3 ~~i~g~vvg~~~~~~~i~~~~~~~~rrr~~~~~~~~~~~~~~~~~~~   49 (60)
+T 2m20_A            3 PSIATGLVGALLLLLVVALGIGLFIRRRHIVRKRTLRRLLQERELVE   49 (60)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHTHHHHSCTTTTTTTTHHHHCC
+T ss_pred             ceEEEehHHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhhccccccCC
+Confidence            1223222222222    222222222211111 1111 1 1222111
+
+
+No 14 
+>1p3q_Q VPS9P, vacuolar protein sorting-associated protein VPS9; trafficking, post translational modification, mono- ubiquitination; 1.70A {Saccharomyces cerevisiae} SCOP: a.5.2.4 PDB: 1mn3_A
+Probab=32.22  E-value=40  Score=22.37  Aligned_cols=41  Identities=17%  Similarity=0.295  Sum_probs=26.4
+
+Q ss_pred             chhHHHHHHHHhhhccCchhHHHHhhhccchhHHHHhhcccc
+Q H2AM12          155 EHDMKIILNIMRYIVPGLGRVLLDQIKQTKDYQALRHIQGKL  196 (937)
+Q Consensus       155 ~~d~~~~~~~~~~af~G~~~~~~~~~~~~~~~~~~~~~l~~~  196 (937)
+                      ..+..-.+..+..+||++....|..++.+.+.+ +....+.|
+T Consensus         9 ~~~~~~~v~~L~~mFP~~~~~~I~~~L~~~~gd-~~~ai~~L   49 (54)
+T 1p3q_Q            9 ENERKDTLNTLQNMFPDMDPSLIEDVCIAAASR-IGPCVDAL   49 (54)
+T ss_dssp             HHHHHHHHHHHHHHSTTSCHHHHHHHHHHSCC---CGGGC--
+T ss_pred             hhhhHHHHHHHHHHcCCCCHHHHHHHHHHcCCC-HHHHHHHH
+Confidence            135678899999999999999888877765433 11111111
+
+
+No 15 
+>1otr_A Protein CUE2; protein-protein complex, cell cycle; NMR {Saccharomyces cerevisiae} SCOP: a.5.2.4
+Probab=31.42  E-value=37  Score=21.83  Aligned_cols=43  Identities=12%  Similarity=0.119  Sum_probs=28.7
+
+Q ss_pred             chhHHHHHHHHhhhccCchhHHHHhhhccchh--HHHHhh-ccccC
+Q H2AM12          155 EHDMKIILNIMRYIVPGLGRVLLDQIKQTKDY--QALRHI-QGKLS  197 (937)
+Q Consensus       155 ~~d~~~~~~~~~~af~G~~~~~~~~~~~~~~~--~~~~~~-l~~~~  197 (937)
+                      +.+..-.++.|..+||+.....+..++.+.+.  +..... |+.-.
+T Consensus         1 ~~~~~~~v~~L~~mFP~~~~~~l~~~L~~~~gdv~~ai~~Ll~~~~   46 (49)
+T 1otr_A            1 NDDHESKLSILMDMFPAISKSKLQVHLLENNNDLDLTIGLLLKEND   46 (49)
+T ss_dssp             CCSHHHHHHHHHHHCSSSCHHHHHHHHHHTTTCSHHHHHHHHHHTT
+T ss_pred             CCChHHHHHHHHHHCCCCCHHHHHHHHHHcCCCHHHHHHHHHcCCC
+Confidence            34678899999999999999988877766542  333332 21111
+
+
+No 16 
+>2mof_A Lysosome-associated membrane glycoprotein 2; membrane protein; NMR {Homo sapiens} PDB: 2mom_A
+Probab=28.56  E-value=45  Score=21.54  Aligned_cols=34  Identities=15%  Similarity=0.278  Sum_probs=14.1
+
+Q ss_pred             eeeehhhHHHHHHHHHHHHHHHHHHHhhhhhhhhh
+Q H2AM12          889 SFYWRLTIYIIISLIMLILFLYILIPLCKRLKGLL  923 (937)
+Q Consensus       889 g~~~~ii~~vil~ii~l~l~iyil~p~c~k~k~~l  923 (937)
+                      |....+++.++++.++++.+++++... ||.+..+
+T Consensus         6 gaivgI~VG~~v~~l~i~~~~~~~~~r-rr~~~~y   39 (42)
+T 2mof_A            6 NFLVPIAVGAALAGVLILVLLAYFIGL-KHHHAGY   39 (42)
+T ss_dssp             SSSSCTHHHHHHHHHHHHHHHHHHHHH-CCCCTTS
+T ss_pred             CcEEEEEEehHHHHHHHHHHHHHHhee-eeccCcc
+Confidence            223456666655555544444443222 2221111
+
+
+No 17 
+>2k9j_B Integrin beta-3; transmembrane complex, cell adhesion, cleavage on basic residues, disease mutation, glycoprotein, pyrrolidone carboxylic acid; NMR {Homo sapiens} PDB: 2rmz_A 2rn0_A 2l91_A
+Probab=28.12  E-value=37  Score=20.85  Aligned_cols=29  Identities=17%  Similarity=0.157  Sum_probs=8.9
+
+Q ss_pred             hhhHHHHHHHHHHHHHHHHHHHhhhhhhh
+Q H2AM12          893 RLTIYIIISLIMLILFLYILIPLCKRLKG  921 (937)
+Q Consensus       893 ~ii~~vil~ii~l~l~iyil~p~c~k~k~  921 (937)
+                      .....++.+++..++++.++.-+..+...
+T Consensus         7 ~~~~~i~~~vvg~~~~~~li~~~~~~~~~   35 (43)
+T 2k9j_B            7 PDILVVLLSVMGAILLIGLAALLIWKLLI   35 (43)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CChhhHhHHHHHHHHHHHHHHHHHHHHHH
+Confidence            12333333333333333333222222111
+
+
+No 18 
+>4xtr_G PEP12P; membrane protein targeting complex, hydrolase-transport PROT complex; HET: ADP ATP; 2.05A {Saccharomyces cerevisiae}
+Probab=23.34  E-value=57  Score=20.28  Aligned_cols=22  Identities=27%  Similarity=0.857  Sum_probs=7.3
+
+Q ss_pred             eehhhHHHHHHHHHHHHHHHHH
+Q H2AM12          891 YWRLTIYIIISLIMLILFLYIL  912 (937)
+Q Consensus       891 ~~~ii~~vil~ii~l~l~iyil  912 (937)
+                      --+|-+|.++++++.+++||++
+T Consensus        13 tsrwrvyllivllvml~fifli   34 (37)
+T 4xtr_G           13 TSRWRVYLLIVLLVMLLFIFLI   34 (37)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHH
+Confidence            1234444433333333333332
+
+
+No 19 
+>2m20_A Epidermal growth factor receptor; transmembrane, cell signaling, juxtamembrane, signaling PROT; NMR {Homo sapiens}
+Probab=22.93  E-value=59  Score=21.43  Aligned_cols=28  Identities=18%  Similarity=0.243  Sum_probs=9.1
+
+Q ss_pred             HHHHHHHHHHHHHHHHH-H-h-hhhhhhhhh
+Q H2AM12          897 YIIISLIMLILFLYILI-P-L-CKRLKGLLE  924 (937)
+Q Consensus       897 ~vil~ii~l~l~iyil~-p-~-c~k~k~~lk  924 (937)
+                      .++.+++..++++.++. . + +++.|.-.+
+T Consensus         4 ~i~g~vvg~~~~~~~i~~~~~~~~rrr~~~~   34 (60)
+T 2m20_A            4 SIATGLVGALLLLLVVALGIGLFIRRRHIVR   34 (60)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHTHHHHS
+T ss_pred             eEEEehHHHHHHHHHHHHHHHHHHHHhhhhh
+Confidence            24444444555544331 1 1 121111111
+
+
+No 20 
+>2mfr_A Insulin receptor, IR; insulin recepotr, membrane protein, detergent micelles, TRAN; NMR {Homo sapiens}
+Probab=19.39  E-value=91  Score=21.63  Aligned_cols=36  Identities=6%  Similarity=0.111  Sum_probs=11.1
+
+Q ss_pred             ccCeeeeeh-hhHHHHHHHHHHHHHHHHHHHhhhhhh
+Q H2AM12          885 FGNLSFYWR-LTIYIIISLIMLILFLYILIPLCKRLK  920 (937)
+Q Consensus       885 ~~~fg~~~~-ii~~vil~ii~l~l~iyil~p~c~k~k  920 (937)
+                      ..++++.+. ++++.|+.++++..++..+..+-||..
+T Consensus         9 ~~~~~~~~~liii~pVi~iili~g~i~~ly~~~kk~~   45 (57)
+T 2mfr_A            9 YLDVPSNIAKIIIGPLIFVFLFSVVIGSIYLFLRKRQ   45 (57)
+T ss_dssp             TTCCCTHHHHHHHHHHHHHHHHHHHHHHHHHHHTSSC
+T ss_pred             CCccccccchhHHHHHHHHHHHHHHHHHhhhhhhhhc
+Confidence            112222111 333333333333334444433322211
+
+
+Done!

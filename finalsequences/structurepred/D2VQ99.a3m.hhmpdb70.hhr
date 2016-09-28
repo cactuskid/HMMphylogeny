@@ -1,0 +1,493 @@
+Query         D2VQ99
+Match_columns 610
+No_of_seqs    4 out of 7
+Neff          1.9 
+Searched_HMMs 55
+Date          Mon Aug 22 17:21:49 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./finalsequences/models/D2VQ99.a3m.hhm -ohhm ./finalsequences/structurepred/D2VQ99.a3m.hhm -o ./finalsequences/structurepred/D2VQ99.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2y3w_A SAS6, spindle assembly    7.0 2.3E+02   0.041   20.6  19.3   63  176-245     1-66  (182)
+  2 2kkr_A Ataxin-7; structural ge   5.7 1.1E+02   0.016   21.4   3.4   29  380-408     4-32  (74)
+  3 2y3v_A SAS6, spindle assembly    3.6 3.7E+02   0.065   18.9  19.9   60  179-245     4-66  (159)
+  4 3iij_A Coilin-interacting nucl   0.6 8.7E+02    0.19   14.0   5.7   17  314-330     7-23  (180)
+  5 1pcp_A Porcine spasmolytic pro   0.2 2.3E+03    0.38   12.7  10.8   93   23-154     3-96  (106)
+  6 4iu0_A Arginase; hydrolase-hyd   0.2 2.5E+03    0.48   13.7   5.8   99  238-392   106-250 (330)
+  7 1zfu_A Plectasin; defensin,ant   0.1 3.4E+03    0.52   10.2   5.1   21  394-414    17-40  (40)
+  8 1gdh_A D-glycerate dehydrogena   0.1 4.1E+03    0.83   10.4   9.2  163    2-207   102-288 (320)
+  9 3dha_A N-acyl homoserine lacto   0.0 4.2E+03    0.86    9.6  17.2  141   41-218     2-200 (254)
+ 10 2wzm_A Aldo-keto reductase; ox   0.0 4.5E+03    0.92    8.9  12.1  105  239-373    11-175 (283)
+ 11 4au1_A Precorrin-8X methylmuta   0.0 6.3E+03    0.97    9.2   5.3   69  267-341    65-182 (229)
+ 12 4tn5_A Fructose-like phosphotr   0.0   5E+03    0.95    7.4  15.1   60  529-596     1-80  (113)
+ 13 1fjn_A Defensin MGD-1; cystine   0.0 6.2E+03    0.95    6.9   5.7   19  111-129    19-39  (39)
+ 14 4j32_A TAE4, putative cytoplas   0.0 5.9E+03    0.97    8.4  13.9   91    2-117    55-171 (174)
+ 15 3a38_A Hipip, high-potential i   0.0 6.2E+03    0.97    7.5   9.2   32  235-266    47-83  (83)
+ 16 2kyr_A Fructose-like phosphotr   0.0 5.5E+03    0.99    6.3  15.1   27  553-579    38-73  (111)
+ 17 4fhq_A Tumor necrosis factor r   0.0 5.6E+03       1    6.0  18.4   87  100-186    14-122 (134)
+ 18 4eqp_A Thermonuclease; staphyl   0.0   5E+03       1    5.2  21.9   39  551-594     6-44  (143)
+ 19 2ln3_A De novo designed protei   0.0 8.4E+03       1    6.1  10.2   14  515-528    64-78  (83)
+ 20 4n72_A Pyruvate dehydrogenase    0.0 5.2E+03       1    5.6  32.9  105  446-609    89-224 (249)
+
+No 1  
+>2y3w_A SAS6, spindle assembly abnormal protein 6 homolog; structural protein, cytoskeleton, basal BODY, centriole, CAR cartwheel HUB; 1.98A {Danio rerio}
+Probab=6.97  E-value=2.3e+02  Score=20.61  Aligned_cols=63  Identities=16%  Similarity=0.236  Sum_probs=0.0
+
+Q ss_pred             ceEEEeeecCCccceEEeeeccccceecCCcc---EEEEecccccCChhheeeeeeccCCCcceeeeeeeeee
+Q D2VQ99          176 SIMMKVSTSQNSIPFYVNYTKDVNQYTNSDGS---ITVSVDNVKTTDPEVKQFIAYDSANPTDFFYLPFHLVN  245 (610)
+Q Consensus       176 ~~v~~I~T~qesIPi~~nY~~~Vk~~~~s~~s---ln~~Vd~vsttdP~~~~Fv~yd~a~ptDFyyLP~~~vN  245 (610)
+                      |-+|+-.-..+.||+.+..       ...+..   |+|.|-...+.-+-..+-+-+.++.++|.|||=.+.++
+T Consensus         1 ~~~~~~~lf~~~i~v~~k~-------~~~~~~~~~l~~~i~~~~~~~~~~~~~l~ieltd~~D~fFly~~~i~   66 (182)
+T 2y3w_A            1 GPHMTELLFNKRLQVLVKS-------KDTDERRSVIRVSIELQLPSSPVHRKDLVVRLTDDTDLYFLYNLIIS   66 (182)
+T ss_dssp             -CCEEEEEEEEEEEEEEEC-------TTCCCEEEEEEEEEEEEEC------CEEEEEEEETTEEEEEEEEEEE
+T ss_pred             CCCcceeeeccceeEEEec-------CCCCCcceEEEEEEEEccCCCCCCCCeEEEEEccCcchhhHhheecC
+
+
+No 2  
+>2kkr_A Ataxin-7; structural genomics, structural proteomics in europe, zinc F spine, transcription, protein binding; NMR {Homo sapiens}
+Probab=5.69  E-value=1.1e+02  Score=21.44  Aligned_cols=29  Identities=28%  Similarity=0.374  Sum_probs=0.0
+
+Q ss_pred             ecccceeeeeccccccceeeecCCCCeee
+Q D2VQ99          380 KTNRGLVETFTSPVAHCDYVYTPEGGACT  408 (610)
+Q Consensus       380 ~tn~~~~et~s~~~ahCd~i~~~ek~~ct  408 (610)
+                      ..|....+.--+.-.||++|..+.|.-||
+T Consensus         4 ~~~k~~~~~~~d~d~~CGVi~~~~~~pCt   32 (74)
+T 2kkr_A            4 FLNKRLSEREFDPDIHCGVIDLDTKKPCT   32 (74)
+T ss_dssp             --------CCCCTTTSCCSCCTTTSSCCC
+T ss_pred             cccccccccccCCCCcCCeecCCCCCcCC
+
+
+No 3  
+>2y3v_A SAS6, spindle assembly abnormal protein 6 homolog; structural protein, cytoskeleton, basal BODY, centriole, CAR cartwheel HUB; 1.92A {Danio rerio}
+Probab=3.63  E-value=3.7e+02  Score=18.86  Aligned_cols=60  Identities=17%  Similarity=0.267  Sum_probs=0.0
+
+Q ss_pred             EEeeecCCccceEEeeeccccceecCCcc---EEEEecccccCChhheeeeeeccCCCcceeeeeeeeee
+Q D2VQ99          179 MKVSTSQNSIPFYVNYTKDVNQYTNSDGS---ITVSVDNVKTTDPEVKQFIAYDSANPTDFFYLPFHLVN  245 (610)
+Q Consensus       179 ~~I~T~qesIPi~~nY~~~Vk~~~~s~~s---ln~~Vd~vsttdP~~~~Fv~yd~a~ptDFyyLP~~~vN  245 (610)
+                      |+-.-..+.||+.+..       ...+..   |+|.|-...+.-+...+-+-+.++.++|.|+|=.+.++
+T Consensus         4 ~~~~lf~~~i~v~~k~-------~~~~~~~~~l~v~i~~~~~~~~~~~~~l~ielTde~D~fFly~~~i~   66 (159)
+T 2y3v_A            4 MTELLFNKRLQVLVKS-------KDTDERRSVIRVSIELQLPSSPVHRKDLVVRLTDDTDLYFLYNLIIS   66 (159)
+T ss_dssp             CEEEEEEEEEEEEEEC-------SSSCCEEEEEEEEEEEECCSSTTSCCEEEEEEEETTEEEEEEEEEEC
+T ss_pred             cceeeeccceeEEEeC-------CCCccceeEEEEEEEEccCCCCCCcceEEEEECcCcchhhheeeecC
+
+
+No 4  
+>3iij_A Coilin-interacting nuclear ATPase protein; alpha and beta proteins (A/B), protein binding, transferase, phosphotransferase; HET: ADP; 1.76A {Homo sapiens} PDB: 3iik_A 3iil_A* 3iim_A* 1rkb_A
+Probab=0.60  E-value=8.7e+02  Score=13.98  Aligned_cols=17  Identities=24%  Similarity=0.409  Sum_probs=11.5
+
+Q ss_pred             cccccceeeecCCCCCC
+Q D2VQ99          314 QDAEYNTLQLSNFPGLG  330 (610)
+Q Consensus       314 ~~~~y~~~~~s~~~~~g  330 (610)
+                      ......-..+.|.+|+|
+T Consensus         7 ~~~~~~~i~l~G~~gsG   23 (180)
+T 3iij_A            7 EFMLLPNILLTGTPGVG   23 (180)
+T ss_dssp             TTCCCCCEEEECSTTSS
+T ss_pred             hHhcCCeEEEECCCCCC
+Confidence            11123457999999999
+
+
+No 5  
+>1pcp_A Porcine spasmolytic protein; growth factor; NMR {Sus scrofa} SCOP: g.16.1.1 g.16.1.1 PDB: 1pos_A 1psp_A 2psp_A
+Probab=0.24  E-value=2.3e+03  Score=12.70  Aligned_cols=93  Identities=19%  Similarity=0.360  Sum_probs=33.7
+
+Q ss_pred             cccccccCCCccccccccccceeeeecccceecccchhhhhhhhccccCccEEEEEEeeEEeEeEeeeccCCcccccccc
+Q D2VQ99           23 STLSSTSGDSSSLSSLCTQIPISITNIGECVETECKATISTLTKTLSSKSNCFLLTVENQIVGQINIDMQNGFKTQQSNE  102 (610)
+Q Consensus        23 ~~~sst~~~~~~~~~~C~~~pIs~t~i~~Cv~t~C~anI~ta~~T~s~~~~Cf~Lt~d~~~~g~vNI~l~d~fk~qsS~~  102 (610)
+                      -+.............+|...-|        .+.+|.           .+.=||    |.+              +.....
+T Consensus         3 ~~~~~C~~v~~~~R~dCg~~gi--------s~~~C~-----------~rgCC~----~~~--------------~~~~p~   45 (106)
+T 1pcp_A            3 PAACRCSRQDPKNRVNCGFPGI--------TSDQCF-----------TSGCCF----DSQ--------------VPGVPW   45 (106)
+T ss_dssp             CCSTTTTTSCSCCCCCSSCTTC--------CSHHHH-----------TTTCEE----CCC--------------SSSSCS
+T ss_pred             CcccccccCCccccccCCCCCC--------CHHHHc-----------cCcCcc----cCC--------------CCCCcc
+Confidence            1111111122223333432211        112222           245566    222              124578
+
+
+Q ss_pred             eeeccccceeeeeeeccccceeecCCCCCCCC-CCcccceeccccccccccce
+Q D2VQ99          103 CYYSDDYAFNTTIKCSRSSRLTCSNCPGFSSN-NPYSKCVFGRGIENQSWCGY  154 (610)
+Q Consensus       103 CYYTdDy~~~~T~~Cs~s~~l~Cs~cP~fssn-yP~s~~~ft~s~~Nqs~~cy  154 (610)
+                      |||......+..+.=...+|.-|++ |+.+.. --.--++|.++.++.-| ||
+T Consensus        46 Cf~~~~~~~~~~C~v~~~~R~~Cg~-~gis~~~C~~rgCC~~~~~~~~p~-Cf   96 (106)
+T 1pcp_A           46 CFKPLPAQESEECVMQVSARKNCGY-PGISPEDCAARNCCFSDTIPEVPW-CF   96 (106)
+T ss_dssp             EECCCCCSSSTTCCCCTTTTTTCSC-TTCCTTHHHHHSCEECTTSSSSCS-EE
+T ss_pred             CcccCccccccccCCCCCccccCCC-CCCCHHHHhhcCCcCCCCCCCCcc-cc
+Confidence            9998875422222112345555666 555431 00001344433332111 11
+
+
+No 6  
+>4iu0_A Arginase; hydrolase-hydrolase inhibitor complex; HET: ABH; 1.77A {Leishmania mexicana} PDB: 4ity_A* 4iu1_A* 4iu4_A* 4iu5_A
+Probab=0.21  E-value=2.5e+03  Score=13.66  Aligned_cols=99  Identities=14%  Similarity=0.174  Sum_probs=31.3
+
+Q ss_pred             eeeeeeeecCCccc----------ccceeceeccCCCCCCCCCCCCCCeeEeeeeeccceeeeeeeeccccccccccccc
+Q D2VQ99          238 YLPFHLVNMGNEFN----------YSKLGWVKSFPKPSIGHPDYPPTNFMTIGCETQNGIATTSAVYNSDILTSSYAASK  307 (610)
+Q Consensus       238 yLP~~~vN~~ne~n----------ysrIGWvKs~~~~sgf~~d~P~~~~m~f~Ce~n~g~rt~saVYss~~L~~sy~ASK  307 (610)
+                      -+|..+- +.-..-          +.++|=|-.   ||-+++.-|+...                   +.+.-       
+T Consensus       106 ~~pivlG-Gdhsis~~~~~al~~~~~~igvI~i---DAH~D~~~~~~~~-------------------~g~~~-------  155 (330)
+T 4iu0_A          106 RFPLTIG-GDHSIALGTVAGVLSVHPDAGVIWV---DAHADINTMSGTV-------------------SGNLH-------  155 (330)
+T ss_dssp             CEEEEEC-SSGGGHHHHHHHHHHHSTTCEEEEE---CSSCCCCCTTTCS-------------------SCCGG-------
+T ss_pred             CeeEEEC-CCcchhHHHHHHHHHhcCCeEEEEe---cCCcCccCCCCCC-------------------Ccccc-------
+Confidence            1233332 221110          135553333   3333444433311                   00110       
+
+
+Q ss_pred             ccCccccc------cccceeeecCCCCCCCCCccceeeccceeEEEeeCCceEEEEEeCCCc------------eEeecc
+Q D2VQ99          308 IGGMSLQD------AEYNTLQLSNFPGLGYNYQPYHYIKDGIMSIFYKTPSRVTFIGITPDL------------HIVPMQ  369 (610)
+Q Consensus       308 ~~~m~l~~------~~y~~~~~s~~~~~g~~y~Pyh~ig~G~ms~~~~~~s~v~fIG~ti~~------------~ivp~~  369 (610)
+                        ||+++.      ++..    +.++......+                ++++..||+.-..            +++++-
+T Consensus       156 --g~~~~~ll~~~~~~~~----~~~~~~~~~~~----------------~~~vv~iGir~~~~~e~~~~~~~gi~~~~~~  213 (330)
+T 4iu0_A          156 --GCPLSILLGLDRENIP----ECFSWVPQVLK----------------PNKIAYIGLRAVDDEEKKILHDLNIAAFSMH  213 (330)
+T ss_dssp             --GCHHHHHTTTTGGGSC----GGGTTCCCCCC----------------GGGEEEEEECCCCHHHHHHHHHHTCEEEEHH
+T ss_pred             --chHHHHHhCCCccccc----cccccccCCCC----------------hhhEEEEeCCCCCHHHHHHHHHcCcEEEeHH
+Confidence              222111      0100    01111111112                3689999997644            566641
+
+
+Q ss_pred             ----c-------------c-cccceeEeecccceeeeeccc
+Q D2VQ99          370 ----Y-------------N-AIPASVNIKTNRGLVETFTSP  392 (610)
+Q Consensus       370 ----y-------------n-~Ip~~vt~~tn~~~~et~s~~  392 (610)
+                          .             . .-..+|=+    +.-..+-++
+T Consensus       214 ~i~~~~~~~~~~~~~~~l~~~~~~~vyl----siDlDvldp  250 (330)
+T 4iu0_A          214 HVDRYGIDKVVSMAIEAVSPKGTEPVMV----SYDVDTIDP  250 (330)
+T ss_dssp             HHHHHCHHHHHHHHHHHHCCSSSCCEEE----EEEGGGBCT
+T ss_pred             HHHhcCHHHHHHHHHHHHhhcCCceEEE----EeecCccCh
+Confidence                0             0 11233333    111111111
+
+
+No 7  
+>1zfu_A Plectasin; defensin,antimicrobial peptide,cysteine stabilized alpha- beta motif, antimicrobial protein; NMR {Pseudoplectania nigrella} PDB: 3e7r_L 3e7u_X
+Probab=0.10  E-value=3.4e+03  Score=10.17  Aligned_cols=21  Identities=33%  Similarity=0.702  Sum_probs=9.9
+
+Q ss_pred             ccceeeecCCCCeee---eEEEEe
+Q D2VQ99          394 AHCDYVYTPEGGACT---QVCLIR  414 (610)
+Q Consensus       394 ahCd~i~~~ek~~ct---q~c~I~  414 (610)
+                      +||-.+.+..+++|.   ++|.=.
+T Consensus        17 ~HC~s~~G~rGGyC~g~~~~C~C~   40 (40)
+T 1zfu_A           17 NHCKSIKGYKGGYCAKGGFVCKCY   40 (40)
+T ss_dssp             HHHHHSTTCCCEEEETTTTEEEEC
+T ss_pred             HHhhccCCCCCeEeCCCCCEEEeC
+Confidence            123222235677777   377631
+
+
+No 8  
+>1gdh_A D-glycerate dehydrogenase; oxidoreductase(CHOH (D)-NAD(P)+ (A)); 2.40A {Hyphomicrobium methylovorum} SCOP: c.2.1.4 c.23.12.1
+Probab=0.05  E-value=4.1e+03  Score=10.39  Aligned_cols=163  Identities=11%  Similarity=0.067  Sum_probs=46.3
+
+Q ss_pred             hhHHHHHHHHHHhhhheeee-----ecccccccCCCccccccccccceeeeecccceecccchhhhhhhhccccCccEEE
+Q D2VQ99            2 NTIQKLIFVLLLGLLVSVVY-----SSTLSSTSGDSSSLSSLCTQIPISITNIGECVETECKATISTLTKTLSSKSNCFL   76 (610)
+Q Consensus         2 ~~~~~~~~vlll~llvsv~~-----~~~~sst~~~~~~~~~~C~~~pIs~t~i~~Cv~t~C~anI~ta~~T~s~~~~Cf~   76 (610)
+                      ..+...++-++|+++=-+..     ....-..-............-.|.+---|.-     -..+.-...   .-.+  +
+T Consensus       102 ~~vAE~al~~~l~~~r~~~~~~~~~~~~~w~~~~~~~~~~~~l~~~~vgiiG~G~i-----G~~ia~~l~---~~g~--~  171 (320)
+T 1gdh_A          102 VATAEIAMLLLLGSARRAGEGEKMIRTRSWPGWEPLELVGEKLDNKTLGIYGFGSI-----GQALAKRAQ---GFDM--D  171 (320)
+T ss_dssp             HHHHHHHHHHHHHHHTTHHHHHHHHHTTCCCCCCTTTTCBCCCTTCEEEEECCSHH-----HHHHHHHHH---TTTC--E
+T ss_pred             HHHHHHHHHHHHHHHhCHHHHHHHHHcCCCcccccccccccCCCCCEEEEECcCHH-----HHHHHHHHH---hCCC--E
+Confidence            23556677777766410000     0000001011111223344555555443321     111222222   1223  2
+
+
+Q ss_pred             EEEeeEEeEeEeeeccCCcccc--cccceeeccccceeeeeeeccccceeecCCCCCCCCCCcccceeccccccccccce
+Q D2VQ99           77 LTVENQIVGQINIDMQNGFKTQ--QSNECYYSDDYAFNTTIKCSRSSRLTCSNCPGFSSNNPYSKCVFGRGIENQSWCGY  154 (610)
+Q Consensus        77 Lt~d~~~~g~vNI~l~d~fk~q--sS~~CYYTdDy~~~~T~~Cs~s~~l~Cs~cP~fssnyP~s~~~ft~s~~Nqs~~cy  154 (610)
+                      +..       .  +.... +.+  ...++...++..-    ... ...+++.-||.-..    +...+....-..-.-..
+T Consensus       172 V~~-------~--~~~~~-~~~~~~~~~~~~~~~l~~----~l~-~aDvV~~~~p~~~~----t~~~i~~~~l~~~k~~~  232 (320)
+T 1gdh_A          172 IDY-------F--DTHRA-SSSDEASYQATFHDSLDS----LLS-VSQFFSLNAPSTPE----TRYFFNKATIKSLPQGA  232 (320)
+T ss_dssp             EEE-------E--CSSCC-CHHHHHHHTCEECSSHHH----HHH-HCSEEEECCCCCTT----TTTCBSHHHHTTSCTTE
+T ss_pred             EEE-------E--CCCCc-hhhhhhhcCceeeCCHHH----HHh-hCCEEEEeCCCChh----hhhccCHHHHhhCCCCe
+Confidence            221       1  11111 111  0001222222000    000 12356666676543    22333221101111122
+
+
+Q ss_pred             eeEeecc---------------eeeeEeecC--CCCCCceEEEeeecCCccceEEeeeccccceecCCcc
+Q D2VQ99          155 TTYFMGN---------------LRYKVCHLS--EPSPPSIMMKVSTSQNSIPFYVNYTKDVNQYTNSDGS  207 (610)
+Q Consensus       155 ~v~f~g~---------------~ryKVCkL~--~Pt~~~~v~~I~T~qesIPi~~nY~~~Vk~~~~s~~s  207 (610)
+                      .+.-.+.               ++-+.+.|+  +|.+..       ....       .+..+...+|..+
+T Consensus       233 ~lin~s~~~~vd~~~L~~~l~~~~i~~~~lDv~~~ep~~-------~~~l-------~~~~nv~~tph~a  288 (320)
+T 1gdh_A          233 IVVNTARGDLVDNELVVAALEAGRLAYAGFDVFAGEPNI-------NEGY-------YDLPNTFLFPHIG  288 (320)
+T ss_dssp             EEEECSCGGGBCHHHHHHHHHHTSEEEEEESCCTTTTSC-------CTTG-------GGCTTEEECSSCT
+T ss_pred             EEEECCCCcccCHHHHHHHHHcCCeeEEEeCCCCCCCCC-------chhH-------hcCCCEEEcCcCC
+Confidence            2222221               124444444  222210       0111       1222222333211
+
+
+No 9  
+>3dha_A N-acyl homoserine lactone hydrolase; zinc bimetallohydrolase, quorum quenching; HET: C6L GOL; 0.95A {Bacillus thuringiensis serovar kurstakorganism_taxid} PDB: 3dhb_A* 3dhc_A* 4j5h_A* 4j5f_A* 2a7m_A* 2br6_A 2btn_A
+Probab=0.04  E-value=4.2e+03  Score=9.61  Aligned_cols=141  Identities=16%  Similarity=0.141  Sum_probs=42.2
+
+Q ss_pred             ccceeeeecccceecccchhhh-hhhhccc-----cCccEEEEEEeeEEeEeEeeeccCCccccc---------------
+Q D2VQ99           41 QIPISITNIGECVETECKATIS-TLTKTLS-----SKSNCFLLTVENQIVGQINIDMQNGFKTQQ---------------   99 (610)
+Q Consensus        41 ~~pIs~t~i~~Cv~t~C~anI~-ta~~T~s-----~~~~Cf~Lt~d~~~~g~vNI~l~d~fk~qs---------------   99 (610)
+                      .+|.+..++.-+-+..|+.-=. .++....     -..+||.+..++   |.+=||.+.+.....               
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lI~~~~---~~iliD~G~~~~~~~~~~~~~~~~~~~~~~   78 (254)
+T 3dha_A            2 RISMTVKKLYFIPAGRCMLDHSSVNSALTPGKLLNLPVWCYLLETEE---GPILVDTGMPESAVNNEGLFNGTFVEGQIL   78 (254)
+T ss_dssp             CCCCCBSEEEEEEEEEEEEEGGGTSTTSCSCCEEEEEEEEEEEEETT---EEEEECCCCCGGGBTCTTTTTTSTTTTTEE
+T ss_pred             cccccceEEEEEeCeeEEEchhhcccCCCCCceEEEeEEEEEEEcCC---ccEEEECCCCccccccccccCccccccccc
+Confidence            1233333444444555543322 2222111     124677777665   478999998876521               
+
+
+Q ss_pred             ----------------------ccceeeccc---------cceeeeeeeccccc--eeecCCCCCCCCCCcccceecccc
+Q D2VQ99          100 ----------------------SNECYYSDD---------YAFNTTIKCSRSSR--LTCSNCPGFSSNNPYSKCVFGRGI  146 (610)
+Q Consensus       100 ----------------------S~~CYYTdD---------y~~~~T~~Cs~s~~--l~Cs~cP~fssnyP~s~~~ft~s~  146 (610)
+                                            -.....|--         ..++.+..|+..+.  +..  -..    |....     ..
+T Consensus        79 ~~~~~~~~~~~~l~~~~~~~~~i~~Ii~TH~H~DH~gg~~~~~~~~i~~~~~~~~~~~~--~~~----~~~~~-----~~  147 (254)
+T 3dha_A           79 PKMTEEDRIVNILKRVGYEPDDLLYIISSHLHFDHAGGNGAFTNTPIIVQRTEYEAALH--REE----YMKEC-----IL  147 (254)
+T ss_dssp             EEBCGGGSHHHHHHHHTCCGGGCSEEECSCCSHHHHTTGGGCSSSCEEEEHHHHHHHHH--CTT----SCGGG-----SC
+T ss_pred             ccccccCCHHHHHHHcCCCHHHCCEEEECCCchhhCCChhHCCCCEEEEcHHHHHHhhc--cch----hhhhh-----cc
+Confidence                                  112222210         11111111111000  000  000    00000     00
+
+
+Q ss_pred             ccccccceeeEeeccee----eeEeecCCCCCCceEEEeeecCCccceEEeeeccccceecCCccEEEEecccccC
+Q D2VQ99          147 ENQSWCGYTTYFMGNLR----YKVCHLSEPSPPSIMMKVSTSQNSIPFYVNYTKDVNQYTNSDGSITVSVDNVKTT  218 (610)
+Q Consensus       147 ~Nqs~~cy~v~f~g~~r----yKVCkL~~Pt~~~~v~~I~T~qesIPi~~nY~~~Vk~~~~s~~sln~~Vd~vstt  218 (610)
+                      +   ..-+ ..+.+...    ..+=+..--++-+++           +.++.        ..++.+-|+=|..-..
+T Consensus       148 ~---~~~~-~~~~~~~~~~g~i~v~~~pGHt~g~~~-----------~~i~~--------~~~~~~lf~GD~~~~~  200 (254)
+T 3dha_A          148 P---HLNY-KIIEGDYEVVPGVQLLYTPGHSPGHQS-----------LFIET--------EQSGSVLLTIDASYTK  200 (254)
+T ss_dssp             T---TSCE-EEECSSEEEETTEEEEECCSSSTTCEE-----------EEEEE--------TTTEEEEEEETTCSSH
+T ss_pred             c---ccee-eecCCCceeeCCEEEEEcCCCCCCcEE-----------EEEEc--------CCCceEEEEecccccH
+Confidence            0   0001 11222110    111111111112222           22221        0012333444433211
+
+
+No 10 
+>2wzm_A Aldo-keto reductase; oxidoreductase; HET: NA7; 1.64A {Mycobacterium smegmatis} PDB: 2wzt_A
+Probab=0.03  E-value=4.5e+03  Score=8.95  Aligned_cols=105  Identities=14%  Similarity=0.167  Sum_probs=33.1
+
+Q ss_pred             eeeeeeecCCcccccceeceeccCCCC-------------CCCCCCCCCCeeEeeeeecccee-------eeeeeecccc
+Q D2VQ99          239 LPFHLVNMGNEFNYSKLGWVKSFPKPS-------------IGHPDYPPTNFMTIGCETQNGIA-------TTSAVYNSDI  298 (610)
+Q Consensus       239 LP~~~vN~~ne~nysrIGWvKs~~~~s-------------gf~~d~P~~~~m~f~Ce~n~g~r-------t~saVYss~~  298 (610)
+                      .|+  +=.+|...+|+||-=-.. .+.             |         +.+|-+..+-+..       ..    ....
+T Consensus        11 ~~~--~~lg~g~~vs~lg~G~~~-~~~~~~~~~l~~a~~~G---------i~~fDtA~~Yg~E~~lg~~l~~----~~~~   74 (283)
+T 2wzm_A           11 IPT--VTLNDDNTLPVVGIGVGE-LSDSEAERSVSAALEAG---------YRLIDTAAAYGNEAAVGRAIAA----SGIP   74 (283)
+T ss_dssp             CCE--EECTTSCEEESEEEECTT-CCHHHHHHHHHHHHHHT---------CCEEECCGGGTCHHHHHHHHHH----TCCC
+T ss_pred             Cce--EEcCCCCccCCeeEECCC-CChHHHHHHHHHHHHhC---------CCEEECccccCCHHHHHHHHHH----cCCC
+Confidence            111  122356666676643210 000             2         2344433321100       00    0000
+
+
+Q ss_pred             cccccccccccCcc----------------ccccccceeeecCCCCCCCCCccce---------eeccceeEEEeeCCce
+Q D2VQ99          299 LTSSYAASKIGGMS----------------LQDAEYNTLQLSNFPGLGYNYQPYH---------YIKDGIMSIFYKTPSR  353 (610)
+Q Consensus       299 L~~sy~ASK~~~m~----------------l~~~~y~~~~~s~~~~~g~~y~Pyh---------~ig~G~ms~~~~~~s~  353 (610)
+                      =..=+.++|.....                ++ ..|=..++-..|..   ..+..         ...          ..+
+T Consensus        75 R~~~~i~tK~~~~~~~~~~~~~~~~~sL~~L~-~~~iD~~~lh~~~~---~~~~~~~~~~~l~~l~~----------~G~  140 (283)
+T 2wzm_A           75 RDEIYVTTKLATPDQGFTSSQAAARASLERLG-LDYVDLYLIHWPGG---DTSKYVDSWGGLMKVKE----------DGI  140 (283)
+T ss_dssp             GGGCEEEEEECGGGCSHHHHHHHHHHHHHHHT-CSCEEEEEECCCTT---CHHHHHHHHHHHHHHHH----------TTS
+T ss_pred             hhHeEEEEeeCCCcCCHHHHHHHHHHHHHHhC-CCccccceecCCCC---CcchHHHHHHHHHHHHH----------CCC
+Confidence            01112333333111                01 12333333333321   00000         000          238
+
+
+Q ss_pred             EEEEEe---------------CCCceEeecccccc
+Q D2VQ99          354 VTFIGI---------------TPDLHIVPMQYNAI  373 (610)
+Q Consensus       354 v~fIG~---------------ti~~~ivp~~yn~I  373 (610)
+                      |-.||+               .++..++...||..
+T Consensus       141 ir~iG~s~~~~~~l~~~~~~~~~~~~~~~~~~~~~  175 (283)
+T 2wzm_A          141 ARSIGVCNFGAEDLETIVSLTYFTPAVNQIELHPL  175 (283)
+T ss_dssp             EEEEEEESCCHHHHHHHHHHHCCCCSEEEEECBTT
+T ss_pred             eeEEeeccCCHHHHHHHHHhCCCCCceeeecccCc
+Confidence            999998               23333333333321
+
+
+No 11 
+>4au1_A Precorrin-8X methylmutase; isomerase, HBA; HET: P8X; 1.45A {Rhodobacter capsulatus} PDB: 4fdv_A*
+Probab=0.02  E-value=6.3e+03  Score=9.16  Aligned_cols=69  Identities=17%  Similarity=0.073  Sum_probs=19.9
+
+Q ss_pred             CCCCCCCCCeeEee------------------eeecc---cee-----eeeeeeccccc------------ccccccccc
+Q D2VQ99          267 GHPDYPPTNFMTIG------------------CETQN---GIA-----TTSAVYNSDIL------------TSSYAASKI  308 (610)
+Q Consensus       267 f~~d~P~~~~m~f~------------------Ce~n~---g~r-----t~saVYss~~L------------~~sy~ASK~  308 (610)
+                      ++||+  .+.+.|+                  |..+|   |++     ....|+.-.+-            +.+.+|-+.
+T Consensus        65 gDfd~--~~~i~fs~~av~~g~~AL~~g~~IvtDv~MV~aGI~~~~l~~g~~v~c~i~d~~v~~~Ak~~g~TRs~a~~~~  142 (229)
+T 4au1_A           65 GMVGL--ENHVRFAPGMAIAARAALEAGAPILCDARMVSEGITRARLPAKNEVICTLQDPRVPALAQEMGNTRSAAALEL  142 (229)
+T ss_dssp             TCTTG--GGGEEECTTHHHHHHHHHHTTCCEEESSHHHHHHSCGGGCSSCCCEECCTTCTTHHHHHHHHTSCHHHHHGGG
+T ss_pred             cCHhh--HhheeECccHHHHHHHHHHCCCcEEEcHHHHHHHhCHHhhhcCCceEEECCCcchhhhhhhcCCcHHHHHHHH
+Confidence            11111  1222222                  22210   111     01123332111            112222111
+
+
+Q ss_pred             cCccccccccceeeecCCC-----------CCCCCCccceeecc
+Q D2VQ99          309 GGMSLQDAEYNTLQLSNFP-----------GLGYNYQPYHYIKD  341 (610)
+Q Consensus       309 ~~m~l~~~~y~~~~~s~~~-----------~~g~~y~Pyh~ig~  341 (610)
+                      -   .+. .=+..+.-|=+           .-|...+|--.||-
+T Consensus       143 a---~~~-~~~aIvvIGNAPTAL~~lleli~~~~~~~PalVIg~  182 (229)
+T 4au1_A          143 W---RPK-LEGAVVAIGNAPTALFHLLNMLEDPACPRPAAIIGC  182 (229)
+T ss_dssp             G---HHH-HTTCEEEECSCHHHHHHHHHHTTSTTSCCCSEEEEC
+T ss_pred             H---HHh-CCCCEEEEcCCHHHHHHHHHHHHhCCCCCCcEEEEe
+Confidence            1   000 01334443332           34445677766652
+
+
+No 12 
+>4tn5_A Fructose-like phosphotransferase enzyme IIB compo; EIIB(FRUC), alpha/beta, phosphoryl group transferase, E EIIC; 2.29A {Escherichia coli K12}
+Probab=0.02  E-value=5e+03  Score=7.36  Aligned_cols=60  Identities=7%  Similarity=-0.033  Sum_probs=27.5
+
+Q ss_pred             CceEEEEeccCCCCCCCce-----------eeecccceEEEeeccceee---------ccEEEEEecCCeeeeEEEEeec
+Q D2VQ99          529 PGKILVYFSDSNIPSLSPV-----------VGLIPSVSTVQLTDSQVKT---------QDLVVIARNGDYQSTCIISMKG  588 (610)
+Q Consensus       529 ~gkilvyfs~~~ips~~p~-----------igli~~~~~~~~~~s~~k~---------~~~vi~~~ngdy~~~c~is~~~  588 (610)
+                      --|||+...-++=-+.+..           -|+  ...-.....+++++         +|+|+++-.=.|+      ..-
+T Consensus         1 m~kil~v~~C~~G~~tS~m~a~~l~~~a~~~g~--~i~v~~~~~~~~~~~l~~~~~~~aD~Ill~~q~~~~------~~~   72 (113)
+T 4tn5_A            1 MAYLVAVTACVSGVAHTYMAAERLEKLCLLEKW--GVSIETQGALGTENRLADEDIRRADVALLITDIELA------GAE   72 (113)
+T ss_dssp             CCEEEEEEECSSTTTTTHHHHHHHHHHHHHTTC--EEEEEEEETTEEESCCCHHHHHHCSEEEEEESSCCT------TGG
+T ss_pred             CccEEEEEeCCCcccHHHHHHHHHHHHHHHCCC--CEEEEEeccccccccCCHHHHhcCCEEEEecCCCcc------hhh
+Confidence            1266665544443333310           011  11234445566766         8999999876552      001
+
+
+Q ss_pred             cccccccc
+Q D2VQ99          589 VLSTEPFV  596 (610)
+Q Consensus       589 ~~s~~p~v  596 (610)
+                      .+.-.|++
+T Consensus        73 ~~~~~~v~   80 (113)
+T 4tn5_A           73 RFEHCRYV   80 (113)
+T ss_dssp             GGTTSCEE
+T ss_pred             hhcCceEE
+Confidence            11112322
+
+
+No 13 
+>1fjn_A Defensin MGD-1; cystine stabilized alpha-beta motif, antibacterial, disulfide bond, synthesis, antimicrobial protein; NMR {Synthetic} SCOP: g.3.7.3
+Probab=0.02  E-value=6.2e+03  Score=6.90  Aligned_cols=19  Identities=32%  Similarity=0.445  Sum_probs=7.4
+
+Q ss_pred             eeeeeeeccccce--eecCCC
+Q D2VQ99          111 FNTTIKCSRSSRL--TCSNCP  129 (610)
+Q Consensus       111 ~~~T~~Cs~s~~l--~Cs~cP  129 (610)
+                      -+..-.|...-++  +|-.|-
+T Consensus        19 g~rGGyC~g~~~~~C~C~~c~   39 (39)
+T 1fjn_A           19 GRCGGYCGGWHRLRCTCYRCG   39 (39)
+T ss_dssp             TCCEEEECSSTTCSEEEECCC
+T ss_pred             CCCceEcCCCCCCEEEeeeCC
+Confidence            1334556655322  333331
+
+
+No 14 
+>4j32_A TAE4, putative cytoplasmic protein; N1PC/P60 papain like cysteine peptidase TAE4, peptidoglycan hydrolase, immunity protein TAI4; HET: FLC; 1.80A {Salmonella enterica subsp} PDB: 4j30_A* 4jur_A 4hff_A
+Probab=0.02  E-value=5.9e+03  Score=8.38  Aligned_cols=91  Identities=15%  Similarity=0.098  Sum_probs=28.6
+
+Q ss_pred             hhHHHHHHHHHHhhhheeeeecccccccCCCccccccc------------------cccceeeeecccceecccchhhhh
+Q D2VQ99            2 NTIQKLIFVLLLGLLVSVVYSSTLSSTSGDSSSLSSLC------------------TQIPISITNIGECVETECKATIST   63 (610)
+Q Consensus         2 ~~~~~~~~vlll~llvsv~~~~~~sst~~~~~~~~~~C------------------~~~pIs~t~i~~Cv~t~C~anI~t   63 (610)
+                      ||-.--+-+.|.---+.+      +...+... .+-..                  ...|.-++...             
+T Consensus        55 NtCAIRmS~ALn~sG~~i------~~~~~~~~-~~G~dg~~y~~ra~~l~~~L~~~~G~p~~~~~~~-------------  114 (174)
+T 4j32_A           55 NACPIRMSYVLNATGFPI------ARNSPYAK-VSGADNKFYIYRVNDMIDYLTHTMGKPDLIVNNP-------------  114 (174)
+T ss_dssp             CCHHHHHHHHHHHTTCCC------CTTSSSCE-EECTTSCEEECCHHHHHHHHHHHSCSCSEEEESC-------------
+T ss_pred             chhHHHHHHHHHhCCCCC------ccccCccc-ccCCCCCEEEecHHHHHHHHHHhhCCcceecCcc-------------
+Confidence            222222223333222222      21111000 00000                  11232223211             
+
+
+Q ss_pred             hhhccccCccEEEEEEee---EEeEeEeeeccCCcccccccceeecccc-----ceeeeeee
+Q D2VQ99           64 LTKTLSSKSNCFLLTVEN---QIVGQINIDMQNGFKTQQSNECYYSDDY-----AFNTTIKC  117 (610)
+Q Consensus        64 a~~T~s~~~~Cf~Lt~d~---~~~g~vNI~l~d~fk~qsS~~CYYTdDy-----~~~~T~~C  117 (610)
+                      ......+++ ---.+.+.   .--|  -|||-|+-.  -.+.||+.+|+     ..+..-+=
+T Consensus       115 ~~~~~~gkk-GII~f~~~g~~~a~G--HidLWng~~--~~~~~~~~~~~~~~~~~~~~~~FW  171 (174)
+T 4j32_A          115 KQSDFIGKK-GIIVVKGHGWSNARG--HVTLWNGSI--CSDQCHLLNDPDNGPFVPEVGTLW  171 (174)
+T ss_dssp             CGGGGTTCC-EEEEEEEESCSSCSE--EEEEECSSS--BTTTTTCCC---CCSCEEEEEEEE
+T ss_pred             ccccccCCc-eEEEEEeecCCCCCC--CEEEECCCc--ccccccccccccccccccCEEEee
+Confidence            012334444 44444431   1134  567766653  34778776442     12222211
+
+
+No 15 
+>3a38_A Hipip, high-potential iron-sulfur protein; iron-sulfur cluster, electron transport, binding, transport; 0.70A {Thermochromatium tepidum} PDB: 1eyt_A 2ams_A 2fla_A* 1iua_A 3a39_A* 1cku_A 1hrq_A 1hrr_A 1neh_A 1js2_A 1hip_A 1b0y_A 3hip_A
+Probab=0.02  E-value=6.2e+03  Score=7.54  Aligned_cols=32  Identities=13%  Similarity=0.085  Sum_probs=18.1
+
+Q ss_pred             ceeeeee-----eeeecCCcccccceeceeccCCCCC
+Q D2VQ99          235 DFFYLPF-----HLVNMGNEFNYSKLGWVKSFPKPSI  266 (610)
+Q Consensus       235 DFyyLP~-----~~vN~~ne~nysrIGWvKs~~~~sg  266 (610)
+                      -||.=|.     ----.+.-.-++.=||=.++..+++
+T Consensus        47 ~~y~~~~~~~~~g~C~lf~G~~V~~~GWC~aw~~k~a   83 (83)
+T 3a38_A           47 QFMQANVGEGDWKGCQLFPGKLINVNGWCASWTLKAG   83 (83)
+T ss_dssp             TTEEEEEEETTEEEETTSTTCBEETTCBCTTCCBCCC
+T ss_pred             cCcccCCCCCCcCCCccccCCeECCCeeeHhhccccC
+Confidence            1343332     3444555555777888888876642
+
+
+No 16 
+>2kyr_A Fructose-like phosphotransferase enzyme IIB compo; ALP protein, structural genomics, PSI-2; NMR {Escherichia coli}
+Probab=0.01  E-value=5.5e+03  Score=6.28  Aligned_cols=27  Identities=4%  Similarity=0.046  Sum_probs=13.8
+
+Q ss_pred             cceEEEeeccceee---------ccEEEEEecCCee
+Q D2VQ99          553 SVSTVQLTDSQVKT---------QDLVVIARNGDYQ  579 (610)
+Q Consensus       553 ~~~~~~~~~s~~k~---------~~~vi~~~ngdy~  579 (610)
+                      .+.-..-+-+.+++         +|+|+++-.=.|+
+T Consensus        38 ~v~Ve~~~~~~~~~~l~~~~i~~aD~vl~~~q~~~~   73 (111)
+T 2kyr_A           38 EVKIETQGADGIQNRLTAQDIAEATIIIHSVAVTPE   73 (111)
+T ss_dssp             EEEEEEEETTEEESCCCHHHHHHCSEEEEEESSCCT
+T ss_pred             eEEEEEeccccccccCChhHhccCCEEEEecCcccc
+Confidence            11223333445554         8999997553331
+
+
+No 17 
+>4fhq_A Tumor necrosis factor receptor superfamily member; cysteine rich domain, TNF receptor, structural genomics, PSI protein structure initiative; 2.25A {Homo sapiens} PDB: 4rsu_D* 2aw2_B*
+Probab=0.01  E-value=5.6e+03  Score=5.98  Aligned_cols=87  Identities=14%  Similarity=0.163  Sum_probs=26.0
+
+Q ss_pred             ccceeeccccceeeeeeeccccceeecCCCCCCC-CCCc-ccceec--------------cccccccccce--eeEeec-
+Q D2VQ99          100 SNECYYSDDYAFNTTIKCSRSSRLTCSNCPGFSS-NNPY-SKCVFG--------------RGIENQSWCGY--TTYFMG-  160 (610)
+Q Consensus       100 S~~CYYTdDy~~~~T~~Cs~s~~l~Cs~cP~fss-nyP~-s~~~ft--------------~s~~Nqs~~cy--~v~f~g-  160 (610)
+                      ...|=-.=-|-+.-...|.....-+|.+||..+- ..++ ...+..              +.-+.+-+.|-  .-+|.. 
+T Consensus        14 ~~~cC~~CppG~~~~~~C~~~~~t~C~pC~~gty~~~~n~~~~C~~C~~C~~~~~~~~~~~Ct~t~d~~C~C~~G~y~~~   93 (134)
+T 4fhq_A           14 GSECCPKCSPGYRVKEACGELTGTVCEPCPPGTYIAHLNGLSKCLQCQMCDPAMGLRASRNCSRTENAVCGCSPGHFCIV   93 (134)
+T ss_dssp             TTEEEECBCTTEEEEECCC--CCCEEEECCTTEECCSCBCCSSCEECCCCCGGGTEEEEECCCSSSCCEEEECTTEEEEE
+T ss_pred             CCCCCCCCCCCCeECccCCCCCCCcccCCcCCceeCCCCCCCcCCCcCccCCCCCceEEcCCCCCCCCEeeCCCCCEeCC
+Confidence            1222223335566666776665668888886411 1111 111111              11111222221  011111 
+
+
+Q ss_pred             --ceeeeEeecCCCCCCceEE-EeeecCC
+Q D2VQ99          161 --NLRYKVCHLSEPSPPSIMM-KVSTSQN  186 (610)
+Q Consensus       161 --~~ryKVCkL~~Pt~~~~v~-~I~T~qe  186 (610)
+                        ...-..|+...+=++|..+ +--|+.+
+T Consensus        94 ~~~~~C~~C~~~~~C~~G~~v~~~~t~~~  122 (134)
+T 4fhq_A           94 QDGDHCAACRAYATSSPGQRVQKGGTESQ  122 (134)
+T ss_dssp             EETTEEEEEEEC-----------------
+T ss_pred             CCCCCCCCCCCCCcCCCCCeEeeCCCCCc
+Confidence              2223455554444444431 1111111
+
+
+No 18 
+>4eqp_A Thermonuclease; staphylococcal nuclease, hyperstable, PDTP, ionizable group, hydrolase; HET: THP; 1.35A {Staphylococcus aureus} PDB: 3ero_A* 5c3x_A* 2rbm_A* 4pny_A* 3d8g_A* 3bdc_A* 4f8m_A* 4zuj_A* 3lx0_A* 3nqt_A* 3nk9_A* 3pmf_A* 3sr1_A* 3t13_A* 3mxp_A* 3r3o_A* 4kta_A* 4kv6_A* 4df7_A* 4khv_A* 4zq3_A* 3np8_A* 3nxw_A* 4trd_A* 4pmc_A* 3oso_A* 3mz5_A* 3mhb_A* 3dhq_A* 3d4w_A ...
+Probab=0.01  E-value=5e+03  Score=5.21  Aligned_cols=39  Identities=15%  Similarity=0.049  Sum_probs=17.7
+
+Q ss_pred             cccceEEEeeccceeeccEEEEEecCCeeeeEEEEeeccccccc
+Q D2VQ99          551 IPSVSTVQLTDSQVKTQDLVVIARNGDYQSTCIISMKGVLSTEP  594 (610)
+Q Consensus       551 i~~~~~~~~~~s~~k~~~~vi~~~ngdy~~~c~is~~~~~s~~p  594 (610)
+                      -+..+...+.  .+...|.+++...|   ....|.+.|.-.-++
+T Consensus         6 ~~~~~~~~V~--~V~~gd~l~i~~~~---~~~~v~L~gI~~p~~   44 (143)
+T 4eqp_A            6 KLHKEPATLI--KAIDGDTVKLMYKG---QPMTFRLLLVDTPEF   44 (143)
+T ss_dssp             -CCEEEEEEE--EECSSSEEEEEETT---EEEEEEETTEECCCT
+T ss_pred             CCCceEEEEE--EEecCCEEEEEECC---EEEEEEEEEEeCCCC
+Confidence            1122333332  24445666665555   345666666544322
+
+
+No 19 
+>2ln3_A De novo designed protein OR135; structural genomics, northeast structural genomics consortiu PSI-biology, protein structure initiative; NMR {Artificial gene}
+Probab=0.01  E-value=8.4e+03  Score=6.15  Aligned_cols=14  Identities=43%  Similarity=0.584  Sum_probs=5.4
+
+Q ss_pred             cCceeEEEee-cccc
+Q D2VQ99          515 DGNQLSFTLG-SLSY  528 (610)
+Q Consensus       515 ~~nq~~~~l~-slsy  528 (610)
+                      .||.+...|| ||.-
+T Consensus        64 qgnklrirlkgsleh   78 (83)
+T 2ln3_A           64 QGNKLRIRLKGSLEH   78 (83)
+T ss_dssp             ETTEEEEEEESSCCS
+T ss_pred             cCCeEEEEeccchhh
+Confidence            1445554443 2221
+
+
+No 20 
+>4n72_A Pyruvate dehydrogenase (dihydrolipoyltransacetyla component); dihydrolipoamide acetyltransferase catalytic domain, pyruvat dehydrogenase; 2.25A {Escherichia coli}
+Probab=0.01  E-value=5.2e+03  Score=5.63  Aligned_cols=105  Identities=12%  Similarity=0.278  Sum_probs=40.5
+
+Q ss_pred             eeccccceeeEEEEEecc--cc--eeeecCCcceeEEEEeeEEEEEeEEEEEeeeEEEeeeccccccccccc--------
+Q D2VQ99          446 TAMKWPEMQWYSYTFKKN--IT--STRVNTPSLVSSVTINSLTVSLNYQLTLRNFTISFKSSSIIPTIGNCT--------  513 (610)
+Q Consensus       446 i~mk~P~f~wy~y~~~~~--~~--s~~i~t~s~~~sv~i~s~t~~~~~~lt~~nfti~fks~si~p~i~nc~--------  513 (610)
+                      ..+++|+|+.+   +.+.  ++  .++|+       +.++                |.-......|.|.++.        
+T Consensus        89 al~~~P~ln~~---~~~~~~~i~~~~~v~-------i~~a----------------v~~~~gl~~~vi~~~~~~s~~ei~  142 (249)
+T 4n72_A           89 ALEQMPRFNSS---LSEDGQRLTLKKYIN-------IGVA----------------VDTPNGLVVPVFKDVNKKGIIELS  142 (249)
+T ss_dssp             HHHHCGGGSEE---ECTTSSEEEEESSCC-------EEEC----------------EEETTEEECCEESCGGGCCHHHHH
+T ss_pred             HHHhChHhhee---eeccCCEEEECCCce-------EEEE----------------EecCCceEeeEEccCCCCCHHHHH
+Confidence            12356777765   2221  11  11111       1111                1111123345555553        
+
+
+Q ss_pred             -------------------ccCceeEEEeeccccCceEEEEeccCCCCCCCceeeecccceEEEeeccceeeccEEEEEe
+Q D2VQ99          514 -------------------QDGNQLSFTLGSLSYPGKILVYFSDSNIPSLSPVVGLIPSVSTVQLTDSQVKTQDLVVIAR  574 (610)
+Q Consensus       514 -------------------q~~nq~~~~l~slsy~gkilvyfs~~~ips~~p~igli~~~~~~~~~~s~~k~~~~vi~~~  574 (610)
+                                         ..++.  |.+-++..-|-  -.|....-|...+.+++=.-.-..              ++.
+T Consensus       143 ~~~~~~~~~~~~~~l~~~~~~~~t--~~iSn~g~~g~--~~~~~~~~~~~~~~l~~G~~~~~~--------------~~~  204 (249)
+T 4n72_A          143 RELMTISKKARDGKLTAGEMQGGC--FTISSIGGLGT--THFAPIVNAPEVAILGVSKSAMEP--------------VWN  204 (249)
+T ss_dssp             HHHHHHHHHHHHTCCCGGGGCCCS--EEEEECTTTCC--SEEECCCCTTCSEEEEECCCEEEE--------------EEC
+T ss_pred             HHHHHHHHHHHcCCCChhhcCCCe--EEEEecCCccc--eeeEeccCCCcceEEEeecceeee--------------eee
+Confidence                               22333  34445554442  126666556556666652221111              134
+
+
+Q ss_pred             cCCeeeeEEEEeeccccccccccceeeeeeecccc
+Q D2VQ99          575 NGDYQSTCIISMKGVLSTEPFVSRQYCKLRVNHKF  609 (610)
+Q Consensus       575 ngdy~~~c~is~~~~~s~~p~v~~~~~~l~~~~~f  609 (610)
+                      +|+-...-.+.+               .|+|.|.+
+T Consensus       205 ~~~~~~~~~~~l---------------slt~DHrv  224 (249)
+T 4n72_A          205 GKEFVPRLMLPI---------------SLSFDHRV  224 (249)
+T ss_dssp             SSSEEEEEEEEE---------------EEEEETTT
+T ss_pred             CCeEEEEEEEEE---------------EEEccCCc
+Confidence            555443222221               23444432
+
+
+Done!

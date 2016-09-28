@@ -1,0 +1,1231 @@
+Query         HERV.fasta
+Match_columns 610
+No_of_seqs    1656 out of 5658
+Neff          4.3 
+Searched_HMMs 188
+Date          Tue Aug  2 18:48:45 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/HERVSS.a3m.hhm -qhhm ./structurepred/HERVSS.a3m.hhm -o ./structurepred/HERVSS.a3m.hhmpdb70.hhr -n 2 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -ssm 2 -ssw .5 -global 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4r4h_A HIV-1 ENV GP120; HIV-1  100.0 1.7E-88 2.5E-92  505.2  33.7  174  158-376     1-433 (433)
+  2 4tvp_G Envelope glycoprotein G 100.0 5.8E-81 8.5E-85  463.9  42.8  151  203-376     1-481 (481)
+  3 4jzz_A HIV-1 YU2 GP120 glycopr 100.0 3.3E-71 4.7E-75  410.5  26.7  143  158-341     1-376 (376)
+  4 3lqa_G Envelope glycoprotein G 100.0 1.8E-56 2.6E-60  329.6  28.7  132  237-385     1-332 (332)
+  5 2cmr_A GP41, transmembrane gly 100.0 1.4E-51   2E-55  302.9  54.7  133  409-610     1-138 (226)
+  6 3o3x_A GP41-5; helix bundle, v 100.0   1E-48 1.5E-52  287.1  65.4  157  413-610     1-170 (198)
+  7 2bf1_A SIV GP120, exterior mem 100.0 7.4E-55 1.1E-58  320.7  22.3   97  235-341     1-316 (316)
+  8 2cmr_A GP41, transmembrane gly 100.0 2.5E-40 3.6E-44  241.2  82.7  178  360-602     1-226 (226)
+  9 1qbz_A Protein (SIV GP41 ectod 100.0 1.4E-44 2.1E-48  264.4  45.0  113  406-527     1-123 (123)
+ 10 3o3x_A GP41-5; helix bundle, v 100.0 2.1E-37 3.1E-41  225.0  79.0  160  358-589     1-198 (198)
+ 11 4tvp_B Envelope glycoprotein G 100.0   5E-45 7.4E-49  266.9  14.5  138  376-519     1-153 (153)
+ 12 1env_A HIV-1 envelope protein  100.0 2.7E-36 3.9E-40  219.1  59.8  119  367-527     1-123 (123)
+ 13 3p30_A HIV-1 GP41; HIV, GP41,  100.0 4.5E-33 6.7E-37  201.3  36.6   93  401-531     1-96  (96)
+ 14 3k9a_A HIV glycoprotein GP41;  100.0 7.2E-35   1E-38  211.3  26.3  105  399-551     1-108 (108)
+ 15 4r61_A GP41-based construct co 100.0   3E-32 4.2E-36  196.9  30.1  154  407-605     1-175 (175)
+ 16 4r61_A GP41-based construct co 100.0 5.9E-25 8.4E-29  156.9  51.6  115  350-469     1-175 (175)
+ 17 1jq0_A GP41 envelope protein;  100.0 1.2E-28 1.8E-32  177.1  30.8   81  409-527     1-84  (84)
+ 18 1df4_A HIV-1 envelope glycopro  99.9 3.4E-23 5.2E-27  147.1  19.1   65  413-510     1-68  (68)
+ 19 3vh7_A Envelope glycoprotein G  99.8 3.6E-18 4.9E-22  119.8  29.7   55  394-456     1-58  (58)
+ 20 2x7r_B Transmembrane protein G  99.8 2.3E-20 3.5E-24  131.6  13.9   63  474-545     1-63  (63)
+ 21 2zfc_A HIV-1 GP41; peptide, vi  99.7 9.3E-17 1.3E-20  112.0  23.6   46  407-452     1-49  (49)
+ 22 3w19_C Transmembrane protein G  99.7 1.9E-16 2.7E-20  110.3  23.7   40  416-455     1-40  (40)
+ 23 2x7r_A Transmembrane protein G  99.5 1.3E-14 1.8E-18  100.2  17.6   59  379-445     1-62  (62)
+ 24 3o3y_A Chimeric alpha+alpha/be  99.3 8.4E-14 1.3E-17   95.5  11.1   40  480-526     1-40  (40)
+ 25 3mgn_A IQN17; IQN17, HIV, heli  99.3 1.6E-11 2.4E-15   83.2  22.9   44  403-446     1-47  (47)
+ 26 3gwo_A Envelope glycoprotein G  99.3 6.8E-15 1.1E-18  101.4   4.1   54  485-545     1-54  (54)
+ 27 4i2l_D Inhibitor MTSFT; 6-heli  99.3 7.7E-13 1.2E-16   90.3  13.5   38  480-517     1-38  (38)
+ 28 4kht_A GP41 helix; GP41 FAB im  99.1 7.7E-11   1E-14   79.7  18.2   51  394-445     1-67  (67)
+ 29 2z2t_D Fusion inhibitor peptid  99.1 1.8E-11 2.8E-15   82.8  12.8   36  482-517     1-36  (36)
+ 30 1jek_B ENV polyprotein; envelo  98.9 1.9E-10 2.8E-14   77.3  12.8   36  482-523     1-36  (36)
+ 31 3drq_C GP41 peptide epitope; H  98.6 7.1E-09 1.1E-12   68.6  12.5   35  492-533     1-35  (35)
+ 32 3vgx_D Envelope glycoprotein G  98.4 2.8E-09 4.4E-13   70.7   5.2   32  474-507     1-32  (32)
+ 33 3vh7_B CP32M; 6-helix bundle,   98.4 6.7E-09 1.1E-12   68.7   6.2   34  472-507     1-34  (34)
+ 34 3w19_D Fusion inhibitor CP32M-  98.1 3.2E-08 5.1E-12   64.9   5.7   29  476-506     1-29  (29)
+ 35 3vu6_B MTSC22; 6-helix bundle,  97.8 1.4E-07 2.2E-11   61.4   3.0   25  480-504     1-25  (25)
+ 36 2lp7_A Envelope glycoprotein;   97.5 2.5E-08 3.5E-12   65.8  -4.4   59  467-545     1-59  (59)
+ 37 3g9r_A Fusion complex of HIV-1  96.0   0.001 1.2E-07   40.9   9.5   42  524-574     1-42  (42)
+ 38 3u2s_G Envelope glycoprotein G  87.4 1.5E-05 2.2E-09   50.5 -12.5   87  227-346     1-124 (124)
+ 39 3vu5_B SC22; 6-helix bundle, c  85.0   0.015 1.8E-06   34.5   2.2   23  482-504     1-23  (23)
+ 40 2mg2_A Transmembrane protein G  56.5    0.13 1.9E-05   28.9   0.5   28  530-557     1-28  (28)
+ 41 3vu5_B SC22; 6-helix bundle, c  40.5     5.1  0.0006   20.7   7.7   23  564-591     1-23  (23)
+ 42 2ari_A Envelope polyprotein GP  32.2       5 0.00068   20.4   4.9   39  353-416     1-39  (39)
+ 43 3wmi_B EIAV GP45 wild type; al  28.7     8.9  0.0011   19.3  14.7   37  481-517     1-37  (37)
+ 44 1jek_A ENV polyprotein; envelo  27.4     9.4  0.0011   19.1  23.5   42  406-450     1-42  (42)
+
+No 1  
+>4r4h_A HIV-1 ENV GP120; HIV-1 attachment glycoprotein GP120, viral protein-immune SY inhibitor complex; HET: NAG; 4.28A {Human immunodeficiency virus 1}
+Probab=100.00  E-value=1.7e-88  Score=505.22  Aligned_cols=174  Identities=14%  Similarity=0.133  Sum_probs=56.8
+
+Q ss_pred             ccccchhcccCCcceeeecC----CC-CCCCCCCCCCCCCCCCCCCCCCcccccccccccc---ccccccCCC-CC--cc
+Q HERV.fasta      158 VANSAVILQNNEFGTIIDWA----PR-GQFYHNCSGQTQSCPSAQVSPAVDSDLTESLDKH---KHKKLQSFY-PW--EW  226 (610)
+Q Consensus       158 ~~~~~~~~~~~~~~~~~~~~----~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t~~~~---~~~~~~~~f-~~--~~  226 (610)
+                      |.-.. ..+     ..+-|+    -- ....-.|...+..              +-.++++   |.....++. +.  +-
+T Consensus         1 M~v~~-~~~-----~~w~~g~~~~~lil~~~~ic~~~~~l--------------wvTVyyGvPvwk~a~~~lFCas~~~~   60 (433)
+T 4r4h_A            1 MRVKE-KYQ-----HLWRWGWRWGTMLLGMLMICSATEKL--------------WVTVYYGVPVWREATTTLFCASDAKA   60 (433)
+T ss_dssp             ------------------------------------------------------------------CCCCCCBCCCCCCT
+T ss_pred             Ccccc-cch-----hhhhhhHHHHHHHHHHHHhhccccCC--------------eeEEEeecceeecccceeEEeccccc
+Confidence            11100 011     111111    00 0000011110110              0011111   111111110 00  01
+
+
+Q ss_pred             Ccc---------ccCCC--CCc-ccCCCCC----CC--------cchhhhhhhc-ccceeeeccccccccccCCCCcccc
+Q HERV.fasta      227 GEK---------RISTP--RPK-IVSPVSG----PE--------HPELWRLTVA-SHHIRIWSGNQTLETRDRKPFYTVD  281 (610)
+Q Consensus       227 ~~~---------~c~p~--~p~-~~~~n~~----~~--------~~~~~~l~~~-~kpc~~~t~~~~i~q~c~k~~~~~~  281 (610)
+                      ++.         .=+|.  .|. +.-....    .+        |.|++-|+.. ..|=-..++..+..-...|    +.
+T Consensus        61 ~~~e~hnvWat~aCvPtdp~p~e~~l~nvte~Fn~w~n~mv~qm~~diisl~dqslkPCvkltpts~itQaCpK----~s  136 (433)
+T 4r4h_A           61 YDTEVHNVWATHACVPTDPNPQEVVLGNVTENFNMWKNNMVDQMHEDIISLWDESLKPCVKLTGGSVITQACPK----VS  136 (433)
+T ss_dssp             TCCSHHHHHHHHHCCCCCCCSCCEECTTCCEEEEGGGCHHHHHHHHHHHHHHHHSSCCSEEESSSCEEECCCCC----CC
+T ss_pred             cccccCcceEEccccCCCCCCcEEeccceEEECccCchhHHHHHHHHHHHHHhhccCCeEeccCCccccCcCCc----cc
+Confidence            110         00111  111 1111221    11        1344556654 4555555553322222222    33
+
+
+Q ss_pred             cCCCCCcCcccccCCCceeeeeccccCCCCCccccccccccccccccccc------------------------------
+Q HERV.fasta      282 LNSSLTLPLQSCVKPPYMLVVGNIVIKPDSQTITCENCRLLTCIDSTFNW------------------------------  331 (610)
+Q Consensus       282 ~~~~~~~pi~~Cap~g~ail~cn~~~~~~~gtg~C~nvs~v~Ct~~i~~~------------------------------  331 (610)
+                         ...+||++|.|+.||+|.+|++..+  +...|+|..-.||.++..++                              
+T Consensus       137 ---fepipihyCAPaGfAiLkCndk~fn--G~g~C~nVs~vqCThgIkpvVSTqLlLNGSLAEeeiiIrseNitnNaKtI  211 (433)
+T 4r4h_A          137 ---FQPIPIHYCVPAGFAILKCNNKTFN--GSGPCTNVSTVQCTHGIRPVVSTQLLLNGSLAEEDIVIRSEDFTDNVKTI  211 (433)
+T ss_dssp             ---CCCCCBCCBCCTTCCEEEECCSSCC--SEEEESSEEEESBCCCBCCCCBSSEEESCCCCSSSCEEECSCSSCTTSEE
+T ss_pred             ---ccCcceeEecCCcceEEEEcCcCCC--CcccccceeeeeCCCCccchhhcceeEeeeccCCcEEEEecCCCCCcccE
+Confidence               3589999999999999999987665  56778888888887765110                              
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q HERV.fasta      332 --------------------------------------------------------------------------------  331 (610)
+Q Consensus       332 --------------------------------------------------------------------------------  331 (610)
+                                                                                                      
+T Consensus       212 IVqLn~sV~InCtRP~NNTRksI~IGPGq~FYatg~IiGdIRqA~Cnis~t~Wn~tL~qVa~kL~~~f~nktI~f~~ssG  291 (433)
+T 4r4h_A          212 IVQLNESVVINCTRPNNNTRERLSIGPGRAFYARRNIIGDIRQAHCNISRAKWNNTLQQIVIKLREKFRNKTIAFNQSSG  291 (433)
+T ss_dssp             EEEEEEEEEEEEEECC------------------------CCEEEEEEEHHHHHHHHHHHHHHHHHHTSSCCEEECCCCS
+T ss_pred             EEEeCCcEEEEEECCCCceeeeEecCCCcceEecCCcCCceeEEEEEEcHHHHHHHHHHHHHHHHHHCCCCEEEECCCCC
+Confidence                                                                                            
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q HERV.fasta      332 --------------------------------------------------------------------------------  331 (610)
+Q Consensus       332 --------------------------------------------------------------------------------  331 (610)
+                                                                                                      
+T Consensus       292 GD~EitthsFNCgGEFFYCNTS~LFN~t~~~~~~~~~~~~~~~itlpCrIkQIvnmWq~vg~amYaPPi~G~i~C~SnIT  371 (433)
+T 4r4h_A          292 GDPEIVMHSFNCGGEFFYCNTAQLFNSTWNVAGGTNGTEGNDIITLQCRIKQIINMWQKVGKAMYAPPITGQIRCSSNIT  371 (433)
+T ss_dssp             BCHHHHTEEEESSSCEEEECCTTTSCCEECC---CCCCCCSSEEEEEEEBCSEEECSSSSCEEECCCCCSSCEEEEEEEE
+T ss_pred             CCchhhccceeECCeEeeeeCcHhhccCCCCCccccCCCCCCcEEEeccchheeecchhccccccCCCCCCCeEEEEEeh
+Confidence                                                                                            
+
+
+Q ss_pred             ---------------------------------cceeeEeeecccccccccCCCCCCCchhHHHHHHHhhhhcccchh
+Q HERV.fasta      332 ---------------------------------QHRILLVRAREGVWIPVSMDRPWEASPSVHILTEVLKGVLNRSKR  376 (610)
+Q Consensus       332 ---------------------------------~~~yk~v~~~~~~~apt~~~R~llgi~~Vqqqs~lLrq~l~~qkr  376 (610)
+                                                       -.|||||||+|+|+|||+++||+++                ||||
+T Consensus       372 gllltrdgg~~~~~~~etfrP~ggdmrdnWrselykYKvV~i~PlgvAPT~~kR~~~~----------------reKr  433 (433)
+T 4r4h_A          372 GLLLTRDGGNSTETETEIFRPGGGDMRDNWRSELYKYKVVRIEPIGVAPTRAKRRTVQ----------------REKR  433 (433)
+T ss_dssp             EEEEEECCCSSSCCSCEEEEECCCCTHHHHHTTSSSEEC---------------------------------------
+T ss_pred             heEEEeecCCCCCCCeEEEcCCCcchhhhhhhhhhceeEEEEeeCccCCCCCcCCCCC----------------CcCC
+Confidence                                             0599999999999999999999995                7899
+
+
+No 2  
+>4tvp_G Envelope glycoprotein GP160; HIV-1 envelope trimer, GP120, GP41, membrane fusion, viral E viral protein-immune system complex; HET: NAG BMA MAN; 3.10A {Human immunodeficiency virus 1} PDB: 4zmj_G* 4nco_A* 3j5m_A* 1ce4_A 1meq_A
+Probab=100.00  E-value=5.8e-81  Score=463.92  Aligned_cols=151  Identities=12%  Similarity=0.070  Sum_probs=137.6
+
+Q ss_pred             ccccccccccc---ccccccCCC-CC--ccCcc---------ccCCC--CCc-ccCCCCC----CC--------cchhhh
+Q HERV.fasta      203 DSDLTESLDKH---KHKKLQSFY-PW--EWGEK---------RISTP--RPK-IVSPVSG----PE--------HPELWR  252 (610)
+Q Consensus       203 ~~~~~~t~~~~---~~~~~~~~f-~~--~~~~~---------~c~p~--~p~-~~~~n~~----~~--------~~~~~~  252 (610)
+                      -.++|||||||   ||||.++|| ||  |+|++         |||||  +|+ |+|+|||    ||        ||||||
+T Consensus         1 ~~~~wvTVyyGvPvW~~a~~~lfCasda~~~~~e~hn~Wat~aCvPtdp~p~e~~l~nvte~Fn~w~n~mv~qm~edi~s   80 (481)
+T 4tvp_G            1 AENLWVTVYYGVPVWKDAETTLFCASDAKAYETEKHNVWATHACVPTDPNPQEIHLENVTEEFNMWKNNMVEQMHTDIIS   80 (481)
+T ss_dssp             CCSCEEEEEESCCCEEECCCCCBCCCCSSSGGGCTTTCTTCSSCCCCCSSCCCEECTTCCEEEETTSCHHHHHHHHHHHH
+T ss_pred             CCceEEEEEEeeeEeecCCCceEEEcCcccccccccccccccccCCcCCCCcEEEccccceECcCccchhHHHHHHHHHH
+Confidence            24569999999   999999999 99  78887         99999  788 9999999    99        999999
+
+
+Q ss_pred             hhhc-ccceeeecc------------------------------------------------------------------
+Q HERV.fasta      253 LTVA-SHHIRIWSG------------------------------------------------------------------  265 (610)
+Q Consensus       253 l~~~-~kpc~~~t~------------------------------------------------------------------  265 (610)
+                      |||| |||||||||                                                                  
+T Consensus        81 l~dqslKPCVKLTPLCVtLnCT~~~~~~t~~~~~emkNCSFNvTT~irDKkkk~yALFYklDvv~i~n~~~~~~~~n~~~  160 (481)
+T 4tvp_G           81 LWDQSLKPCVKLTPLCVTLQCTNVTNNITDDMRGELKNCSFNMTTELRDKKQKVYSLFYRLDVVQINENQGNRSNNSNKE  160 (481)
+T ss_dssp             HHHHTTSSSCBCGGGCSCEECCBCSCCCCTTSCCCEEEEEEECCCSSSSSCCEEEEEEETTTEEECC---------CCCE
+T ss_pred             HhhcccCCccccccceeCEECcCCCccCCCCCcceeEeeeEEeccCccccceeEeeccccccEEecCCCCccccCCCCce
+Confidence            9999 999999999                                                                  
+
+
+Q ss_pred             -------ccccccccCCCCcccccCCCCCcCcccccCCCceeeeeccccCCCCCccccccccccccccccccc-------
+Q HERV.fasta      266 -------NQTLETRDRKPFYTVDLNSSLTLPLQSCVKPPYMLVVGNIVIKPDSQTITCENCRLLTCIDSTFNW-------  331 (610)
+Q Consensus       266 -------~~~i~q~c~k~~~~~~~~~~~~~pi~~Cap~g~ail~cn~~~~~~~gtg~C~nvs~v~Ct~~i~~~-------  331 (610)
+                             +|+|||||||    ++   ||||||||||||||||||||||+||  |+|+|+|||+|||||||+|+       
+T Consensus       161 YrLinCNts~itqaCpk----~s---fepipihyCAPaG~ailkCndk~fn--G~g~C~nVs~vqCThgI~pvVSTqLlL  231 (481)
+T 4tvp_G          161 YRLINCNTSAITQACPK----VS---FEPIPIHYCAPAGFAILKCKDKKFN--GTGPCPSVSTVQCTHGIKPVVSTQLLL  231 (481)
+T ss_dssp             EEETTTTTCEEEECCSS----SC---CCCCCBCCBCCTTEEEEEECCSCCC--SEEEESSEEEESBCCCBCCCCCSSEEE
+T ss_pred             EEEEeCcCCCCCCCCCc----ee---eccccceeccccccceEEEcCccCC--CCcceeecceeecCCCccceeeecccc
+Confidence                   4899999999    99   9999999999999999999999999  99999999999999999999       
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q HERV.fasta      332 --------------------------------------------------------------------------------  331 (610)
+Q Consensus       332 --------------------------------------------------------------------------------  331 (610)
+                                                                                                      
+T Consensus       232 NGSLAE~eiiIrs~NitnnaktIIVqLn~sV~InCtRP~NnTrksi~iGPGq~fYatg~IiGdIRqA~C~is~t~W~~tL  311 (481)
+T 4tvp_G          232 NGSLAEEEVMIRSENITNNAKNILVQFNTPVQINCTRPNNNTRKSIRIGPGQAFYATGDIIGDIRQAHCNVSKATWNETL  311 (481)
+T ss_dssp             SCCCCSSSCEEEESCSSCTTSCEEEEEEEEEEEEEEECCBCCEEEECCSSSCCEEEECCCBSCCCCEEEEEEHHHHHHHH
+T ss_pred             ceeccCCeEEEEeecCCCCceeEEEEcCCcEEEEEECCCCceEEEEEcCCCceEEEcCcccCceeEEEEEEeHHHHHHHH
+Confidence                                                                                            
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q HERV.fasta      332 --------------------------------------------------------------------------------  331 (610)
+Q Consensus       332 --------------------------------------------------------------------------------  331 (610)
+                                                                                                      
+T Consensus       312 ~~V~~kL~~~f~~~~~i~f~~ssGGD~Eit~h~FnC~GEFFYCNtS~LFN~t~~~~~~~~~~~~~~~~~~i~lpCrIkQi  391 (481)
+T 4tvp_G          312 GKVVKQLRKHFGNNTIIRFANSSGGDLEVTTHSFNCGGEFFYCNTSGLFNSTWISNTSVQGSNSTGSNDSITLPCRIKQI  391 (481)
+T ss_dssp             HHHHHHHTTTSCSSCEEEECCCCCCCHHHHEEEEEETTEEEEEECTTTSCEEECCC-----------CCEEEEEEEEESE
+T ss_pred             HHHHHHHHHHcCCCcEEEeCCCCCCCcceeeEeeEECCeEEeeeCcHhHhcccCCCCccccccCCCCCccEEeechhhhe
+Confidence                                                                                            
+
+
+Q ss_pred             -----------------------------------------------------------cceeeEeeecccccccccCCC
+Q HERV.fasta      332 -----------------------------------------------------------QHRILLVRAREGVWIPVSMDR  352 (610)
+Q Consensus       332 -----------------------------------------------------------~~~yk~v~~~~~~~apt~~~R  352 (610)
+                                                                                 |||||||||+|||||||+++|
+T Consensus       392 vn~W~~vg~a~YaPPi~G~i~C~SnITglllt~dg~~~~~~~~tfrP~ggdm~d~wrseLykYKvV~I~PlgvAPT~~kR  471 (481)
+T 4tvp_G          392 INMWQRIGQAMYAPPIQGVIRCVSNITGLILTRDGGSTNSTTETFRPGGGDMRDNWRSELYKYKVVKIEPLGVAPTRCKR  471 (481)
+T ss_dssp             ECCTTCSSEEEECCCCCSCEEEEEEEEEEEEEECCCCCTTTEEEEEECCCCTHHHHHTTSTTEEEEEECCEEEEEESCCC
+T ss_pred             ehhhhhcCCcccCCCCCCCeeEEEEeeEEEEEeecCCCCCCeEEEcCCCCchhhhhhhhhcceeEEEEeeCCcCCCCCcc
+Confidence                                                                       999999999999999999999
+
+
+Q ss_pred             CCCCchhHHHHHHHhhhhcccchh
+Q HERV.fasta      353 PWEASPSVHILTEVLKGVLNRSKR  376 (610)
+Q Consensus       353 ~llgi~~Vqqqs~lLrq~l~~qkr  376 (610)
+                      ++++.              ++.+|
+T Consensus       472 ~~v~~--------------~k~~r  481 (481)
+T 4tvp_G          472 RVVGR--------------RRRRR  481 (481)
+T ss_dssp             CC----------------------
+T ss_pred             ccCCc--------------cccCC
+Confidence            99953              12334
+
+
+No 3  
+>4jzz_A HIV-1 YU2 GP120 glycoprotein; HIV-1 attachment protein GP120, HIV-1 envelope, viral protei inhibitor complex; HET: U2X NAG FLC; 1.49A {Human immunodeficiency virus 1} PDB: 4jzw_A* 4k0a_A* 4ka2_A* 4laj_J* 4r4f_A* 4rwy_A* 3tgq_A* 4dvr_G* 4xvs_G* 4ye4_G* 2qad_A* 3hi1_G* 3jwd_A* 3jwo_A* 1yym_G* 1rzk_G* 1g9n_G* 1yyl_G* 2i5y_G* 2i60_G* 4rqs_G* 5a7x_A* 5a8h_A* 4xmp_G* 4rx4_G* 4xny_G* 4r4n_A* 4j6r_G* 4ydi_G* 3rjq_A* ...
+Probab=100.00  E-value=3.3e-71  Score=410.50  Aligned_cols=143  Identities=10%  Similarity=0.028  Sum_probs=117.1
+
+Q ss_pred             ccccchhcccCCcceeeecCCC-CCCCCCCCCCCCCCCCCCCCCCccccccccccccccccccCCC-CC--ccCcc----
+Q HERV.fasta      158 VANSAVILQNNEFGTIIDWAPR-GQFYHNCSGQTQSCPSAQVSPAVDSDLTESLDKHKHKKLQSFY-PW--EWGEK----  229 (610)
+Q Consensus       158 ~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~~~~f-~~--~~~~~----  229 (610)
+                      |-     +.    +..|.|+++ ++++++| |                      -=-||||.++|| ||  |+|++    
+T Consensus         1 ~~-----~~----~~~w~~~~~~l~~~~i~-g----------------------vPvWk~a~~~lfCasda~~~~~e~hn   48 (376)
+T 4jzz_A            1 MP-----MG----SLQPLATLYLLGMLVAS-V----------------------LAVWKEATTTLFCASDAKAYDTEVHN   48 (376)
+T ss_dssp             --------------------------------------------------------CCEECCCCCEEEECCCTTCCSHHH
+T ss_pred             CC-----cc----cchHHHHHHHHHHHhEe-e----------------------eeeeeeCCCcEEEecCchhhcccccc
+Confidence            22     22    234788865 7888887 1                      012999999999 77  99999    
+
+
+Q ss_pred             -----ccCCC--CCc-ccCCCCC----CC--------cchhhhhhhc-ccceeeeccccccccccCCCCcccccCCCCCc
+Q HERV.fasta      230 -----RISTP--RPK-IVSPVSG----PE--------HPELWRLTVA-SHHIRIWSGNQTLETRDRKPFYTVDLNSSLTL  288 (610)
+Q Consensus       230 -----~c~p~--~p~-~~~~n~~----~~--------~~~~~~l~~~-~kpc~~~t~~~~i~q~c~k~~~~~~~~~~~~~  288 (610)
+                           |||||  +|+ |+|+|||    ||        |+|||||||| |||||||||+|+|||||||    ++   ||||
+T Consensus        49 ~Wat~aCvPtdp~p~e~~l~nvte~Fn~w~n~mv~qm~~di~sl~dqslKPCVkltpts~itQaCpK----~s---fepi  121 (376)
+T 4jzz_A           49 VWATHACVPTDPNPQEVKLENVTENFNMWKNNMVEQMHEDIISLWDQSLKPCVKLTGGSVITQACPK----VS---FEPI  121 (376)
+T ss_dssp             HHHHHHEEECCSSCCEEECTTCCEEEETTSCHHHHHHHHHHHHHHHHHCCCSEEEETTEEEECCCCC----CC---CCCC
+T ss_pred             cceecCcCCcCCCCcEEeccceeEEccccccHHHHHHHHHHHHHhhhccCCeEeccCCccccCcCCc----cc---cccc
+Confidence                 99999  788 9999999    99        9999999999 9999999999999999999    99   9999
+
+
+Q ss_pred             CcccccCCCceeeeeccccCCCCCccccccccccccccccccc-------------------------------------
+Q HERV.fasta      289 PLQSCVKPPYMLVVGNIVIKPDSQTITCENCRLLTCIDSTFNW-------------------------------------  331 (610)
+Q Consensus       289 pi~~Cap~g~ail~cn~~~~~~~gtg~C~nvs~v~Ct~~i~~~-------------------------------------  331 (610)
+                      ||||||||||||||||||+||  |||+|+|||+|||||||+|+                                     
+T Consensus       122 pihyCAPaGfaiLkCndk~fn--G~g~C~nVstvqCThgIkpvVSTqLlLNGSLAEeeiiIrs~NitnNaKtIIVqLn~s  199 (376)
+T 4jzz_A          122 PIHYCAPAGFAILKCNDKKFN--GTGPCTNVSTVQCTHGIRPVVSTQLLLNGSLAEEEIVIRSENFTNNAKTIIVQLNES  199 (376)
+T ss_dssp             CBEEECCTTEEEEEECCTTCC--SEEEESSEEEESBCCCBCCCCBSSEEESCCCCSSSCEEECSCTTCTTSCEEEEEEEE
+T ss_pred             cccccCChhhEEEEECCccCc--CCCCccceeeeeCCCCCCcceecceeEeeeccCCeEEEEEecCCCCceeEEEEcCCc
+Confidence            999999999999999999999  99999999999999999999                                     
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q HERV.fasta      332 --------------------------------------------------------------------------------  331 (610)
+Q Consensus       332 --------------------------------------------------------------------------------  331 (610)
+                                                                                                      
+T Consensus       200 V~InCtRPgNNTrg~iGdIRqA~Cnis~t~Wn~tL~~V~~kL~k~f~~n~ti~f~~ssGGD~Eit~hsFNC~GEFFYCNt  279 (376)
+T 4jzz_A          200 VVINCTRPNNGGSGSGGDIRQAHCNLSKTQWENTLEQIAIKLKEQFGNNKTIIFNPSSGGDPEIVTHSFNCGGEFFYCNS  279 (376)
+T ss_dssp             EEEEEEECCC-------CTTEEEEEEEHHHHHHHHHHHHHHHHHHHCTTCEEEECCCCCBSHHHHTEEEEETTEEEEECC
+T ss_pred             EEEEEECCCCCcCCcCCCceeEEEEEehHHhhhHHHHHHHHHHHHcCCCceEEeCCCCCCCCceeeeEeeeCCeEEeEEC
+Confidence                                                                                            
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q HERV.fasta      332 --------------------------------------------------------------------------------  331 (610)
+Q Consensus       332 --------------------------------------------------------------------------------  331 (610)
+                                                                                                      
+T Consensus       280 S~LF~~~~~~~~~~~~~~itlpCrIkQIVn~Wq~vg~a~YaPPi~G~i~C~SnITglllt~dg~~~~~~~~tfrP~ggdm  359 (376)
+T 4jzz_A          280 TQLFTWNDTRKLNNTGRNITLPCRIKQIINMWQEVGKAMYAPPIRGQIRCSSNITGLLLTRDGGKDTNGTEIFRPGGGDM  359 (376)
+T ss_dssp             GGGSCBCCC------CCEEEEEEEEESEEECSSSSSEEECCCCCSSCEEEEEEEEEEEEEECCC---CCEEEEEECCCCH
+T ss_pred             cHhcCcCCCCCccCCCCcEEEechhhheehhhhhcCCcccCCCCCCCeEEEEEeeeEEEEeecCCCCCCeEEEcCCCCch
+Confidence                                                                                            
+
+
+Q ss_pred             -------cceeeEeeec
+Q HERV.fasta      332 -------QHRILLVRAR  341 (610)
+Q Consensus       332 -------~~~yk~v~~~  341 (610)
+                             |||||||||+
+T Consensus       360 ~d~wrseL~kYKvV~I~  376 (376)
+T 4jzz_A          360 RDNWRSELYKYKVVKIE  376 (376)
+T ss_dssp             HHHHHHHHTTEEEEECC
+T ss_pred             hhhhhhhhhceEEEEEC
+Confidence                   9999999999
+
+
+No 4  
+>3lqa_G Envelope glycoprotein GP160; complex, poly reactivity, immune system; HET: NAG; 3.40A {Hiv-1}
+Probab=100.00  E-value=1.8e-56  Score=329.64  Aligned_cols=132  Identities=17%  Similarity=0.129  Sum_probs=89.1
+
+Q ss_pred             cccCCCCC----CC--------cchhhhhhhc-ccceeeecc---------ccccccccCCCCcccccCCCCCcCccccc
+Q HERV.fasta      237 KIVSPVSG----PE--------HPELWRLTVA-SHHIRIWSG---------NQTLETRDRKPFYTVDLNSSLTLPLQSCV  294 (610)
+Q Consensus       237 ~~~~~n~~----~~--------~~~~~~l~~~-~kpc~~~t~---------~~~i~q~c~k~~~~~~~~~~~~~pi~~Ca  294 (610)
+                      .|+|+|||    ||        |+||+||||| |||||||||         +|+|||||||    ++   ||||||||||
+T Consensus         1 Ev~l~nvte~Fn~w~n~mv~qm~~di~sl~dqslKPCVkLtplCv~~~~Cnts~itqaC~k----~~---fepipi~yCa   73 (332)
+T 3lqa_G            1 EIVLENVIENFNMWKNDMVDQMHQDIISLWDQSLKPCVKLTPLCVGAGNCNTSTIAQACPK----VS---FDPIPIHYCA   73 (332)
+T ss_dssp             ---CCCCCEEEESTTCHHHHHHHHHHHHHHHHHSCCSEECCC--------CCCCEECCCCC----CC---CCCCCBCCBC
+T ss_pred             CeecccceeeccCcccHHHHHHHHHHHHHhhhhcCCccccccEEEeecccccccccccCCc----cc---ccccceeccC
+Confidence            89999999    99        9999999999 999999999         8999999999    99   9999999999
+
+
+Q ss_pred             CCCceeeeeccccCCCCCccccccccccccccccccc-------------------------------------------
+Q HERV.fasta      295 KPPYMLVVGNIVIKPDSQTITCENCRLLTCIDSTFNW-------------------------------------------  331 (610)
+Q Consensus       295 p~g~ail~cn~~~~~~~gtg~C~nvs~v~Ct~~i~~~-------------------------------------------  331 (610)
+                      ||||||||||||+|+  |+|+|+|||+|||||||+|+                                           
+T Consensus        74 PaGfaiLkCndk~fn--G~g~C~NVstvqCThgI~pvVSTqLlLNGSlAE~~iiIrs~NitnnaktIIVqLn~sV~InCi  151 (332)
+T 3lqa_G           74 PAGYAILKCNDKTFN--GIGPCNNVSTVQCTHGIKPVVSTQLLLNGSLAEEEVVIRSENISNNVKTIIVHLTESVNITCI  151 (332)
+T ss_dssp             CSSCEEEEECSSSCC--SEEEESCEEEESBCCCBCCCCBSSEEESCCCCSSSCBCCCSSSSCSSCCBCCEEEEEEEEEEE
+T ss_pred             CchhEEEEecCcCCC--CCcccceeeeeECCCCcCChhccceeEeccccCCeEEEEEecCCCCcEeEEEEcCCCEEEecc
+Confidence            999999999999999  99999999999999999999                                           
+
+
+Q ss_pred             --------------------------------------------------------------cce---------------
+Q HERV.fasta      332 --------------------------------------------------------------QHR---------------  334 (610)
+Q Consensus       332 --------------------------------------------------------------~~~---------------  334 (610)
+                                                                                    |..               
+T Consensus       152 gpAhCnis~t~W~~tL~~V~~kL~~~f~n~ti~f~~ssGGD~Eit~h~FnC~GEFFYCNTS~LFN~t~~~~~~~~~~~~~  231 (332)
+T 3lqa_G          152 GAGHCNINEKAWNETLKKVVEKLVKYFPNKTIEFAPPVGGDLEITTHSFNCGGEFFYCNTTKLFNSIHNSTDSTVNSTDS  231 (332)
+T ss_dssp             C-CEEEECHHHHHHHHHHHHHHHHHHSCSCEEEECCCCSSCHHHHTTCEESSSCEEEECCTTTCCCEECC----------
+T ss_pred             CCcCEEEeHHHHHHHHHHHHHHHHHHCCCceEEECCCCCCCchhheeeeeeCCeEeeeeCcHhhccccCCCCCccccccc
+Confidence                                                                          100               
+
+
+Q ss_pred             ------------eeEeeeccc----------ccccccC------------------CC------------CCCCchhHHH
+Q HERV.fasta      335 ------------ILLVRAREG----------VWIPVSM------------------DR------------PWEASPSVHI  362 (610)
+Q Consensus       335 ------------yk~v~~~~~----------~~apt~~------------------~R------------~llgi~~Vqq  362 (610)
+                                  +.--||+-+          -.||-..                  -.            |.-|.  ++-
+T Consensus       232 ~~~~~~~~~~~itlpCrIkQIVn~W~~vgk~~YaPPi~G~i~C~SnITglllt~dgg~~~~~~~~~etfrP~ggd--m~d  309 (332)
+T 3lqa_G          232 TAETGNSTNTNITLPCRIRQIINMWQEVGRAMYAPPSKGNITCISDITGLLLTRDGGENKTENNDTEIFRPGGGD--MKD  309 (332)
+T ss_dssp             -----------CEECEEEESEEECSSSSSEEECCCCCCSCCEEEEEEEEECEEECCCCCTTCCCCEEEEEECCCC--HHH
+T ss_pred             ccccCCCCCCcEEEeccchheeecccccCCeecCCCCCCCeEEEEEeeeeEEEEECCCCCCCCCCeEEEcCCCcc--hhh
+Confidence                        111222221          1233211                  00            00121  321
+
+
+Q ss_pred             H--HHHhhhh---ccc-chhhHHHHHHHH
+Q HERV.fasta      363 L--TEVLKGV---LNR-SKRFIFTLIAVI  385 (610)
+Q Consensus       363 q--s~lLrq~---l~~-qkrlIealvLGl  385 (610)
+                      .  ++|.+.=   ++. +++      .+.
+T Consensus       310 ~WrseL~kYKvV~i~~~~~~------~~~  332 (332)
+T 3lqa_G          310 NWRSELYKYKVVEIKSGHHH------HHH  332 (332)
+T ss_dssp             HHHHHHSSCEEECC---------------
+T ss_pred             hhhhhhhceeEEEEecCCCC------CCC
+Confidence            1  2222110   000 000      000
+
+
+No 5  
+>2cmr_A GP41, transmembrane glycoprotein; immune system, immunoglobulin complex, neutralization, immunoglobulin, envelope protein, HIV; 2.0A {Human immunodeficiency virus 1} PDB: 2xra_A 3cp1_A 3cyo_A
+Probab=100.00  E-value=1.4e-51  Score=302.92  Aligned_cols=133  Identities=15%  Similarity=0.092  Sum_probs=80.8
+
+Q ss_pred             hHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCcccccccccCcchhhHH
+Q HERV.fasta      409 VNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYNDSEHHWDM  485 (610)
+Q Consensus       409 vnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~w~~~NmTW~q  485 (610)
+                      -++|+||   |+||++|||+|||++++++||||+||+||+|              ||++              .+|||++
+T Consensus         1 ~~ll~givqqq~~ll~~ie~qq~ll~ltvwGiKqLqaRvla--------------gcs~--------------~nmTW~q   52 (226)
+T 2cmr_A            1 MQLLSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARILA--------------GGSG--------------GHTTWME   52 (226)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-----------------------------------CHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHHHHhhcccccchhhhhc--------------ccCC--------------CCCCHHH
+Confidence            6788999   7999999999999999999999999999996              8988              2699999
+
+
+Q ss_pred             HHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHhHHHHH-HHH-HHHHHHHHHH
+Q HERV.fasta      486 VRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIGSTTII-NLI-LILVCLFCLL  563 (610)
+Q Consensus       486 WdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIgaqq~l-LqG-iKqLQaRvsm  563 (610)
+                      ||++|+|||++||.+||++|+|+||||++++      + ||+|.++|      +|+.--..-++- +.. =.++.+    
+T Consensus        53 W~~ei~n~t~~Iy~lLe~sq~qQekNek~Ll------~-Ld~W~sL~------sgivqqq~~ll~~ieaqq~ll~l----  115 (226)
+T 2cmr_A           53 WDREINNYTSLIHSLIEESQNQQEKNEQELL------E-GSSGGQLL------SGIVQQQNNLLRAIEAQQHLLQL----  115 (226)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC------------CHHH------HHHHHHHHHHHHHHHHHHHHHHH----
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhhHHHHHHHHH------h-ccccchhh------hHHHHHHHHHHHHHHHHHHHHHH----
+Confidence            9999999999999999999999999999999      6 89997754      233222211111 111 111111    
+
+
+Q ss_pred             HHHHHhHHHHHhhhhHHHHHHHHHHhhhccCCCCCCCCccccccccC
+Q HERV.fasta      564 LVCRCTQQLRRDSDHRERAMMTMAVLSKRKGGNVGKSKRDQIVTVSV  610 (610)
+Q Consensus       564 TW~qWdKeI~n~Tq~Iy~LLeQ~QqeKNEk~L~l~ld~~~~~~~~~~  610 (610)
+                      .|.           |-..+  |--+++   | |.|  +     +..-
+T Consensus       116 tvw-----------GiKqL--qaRvla---g-cs~--~-----nmTW  138 (226)
+T 2cmr_A          116 TVW-----------GIKQL--QARILA---G-GSG--G-----HTTW  138 (226)
+T ss_dssp             HHH-----------HHHHH--HHHTC--------------------C
+T ss_pred             hhh-----------hhccc--chHHHh---h-ccC--C-----CCCH
+Confidence            111           22222  332332   2 322  0     1222
+
+
+No 6  
+>3o3x_A GP41-5; helix bundle, viral protein; HET: MPD IPA; 1.45A {Artificial gene} PDB: 3o40_A* 3o42_A* 3o43_A* 4dzu_A 4dzv_A* 3ma9_A 3mac_A 1f23_A 3wfv_A 2kp8_A* 3vtp_D 1aik_C 2zzo_C 3vtq_E 3f50_A* 3o3z_A* 3f4y_A 3aha_A 2z2t_A 3aha_B
+Probab=100.00  E-value=1e-48  Score=287.06  Aligned_cols=157  Identities=11%  Similarity=0.012  Sum_probs=87.6
+
+Q ss_pred             hhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCcccccccccCcchhhHHHHhh
+Q HERV.fasta      413 NDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYNDSEHHWDMVRRH  489 (610)
+Q Consensus       413 n~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~w~~~NmTW~qWdke  489 (610)
+                      +||   ++||++++|+||+++++++||||+||+||++              ||+                 |||++||++
+T Consensus         1 ~giv~q~~~ll~~i~~~q~ll~~tvwGikqLqaR~la--------------gcs-----------------~TW~~W~~~   49 (198)
+T 3o3x_A            1 SGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARILS--------------GGS-----------------GGWMEWDRE   49 (198)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCC--------------SSS-----------------TTHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHHhcchhcchhHHHHH--------------hhC-----------------CCHHHHHHH
+Confidence            777   7999999999999999999999999999872              553                 799999999
+
+
+Q ss_pred             hcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHhHHHHHHH----HHHHHHHHH----
+Q HERV.fasta      490 LQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIGSTTIINL----ILILVCLFC----  561 (610)
+Q Consensus       490 I~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIgaqq~lLq----GiKqLQaRv----  561 (610)
+                      |+|||++||.+|+++|+|+||||++++++..+..+...-.         +-++.+.---...-    |+==|.-+.    
+T Consensus        50 i~n~t~~iy~ll~~aq~qqekN~k~Ll~l~~~~giv~q~~---------~ll~~ie~qq~ll~~tvwGikqlq~Rvlagc  120 (198)
+T 3o3x_A           50 INNYTSLIHSLIEESQNQQEKNEQELLGGSGGSGIVQQQN---------NLLRAIEAQQHLLQLTVWGIKQLQARILSGG  120 (198)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHTTCCCTHHHHHHH---------HHHHHHHHHHHHHHHHHHHHHHHHHHHSCTT
+T ss_pred             HHHHHHHHHHHHHHHHHhHHHHHHHHHhhcccchhhHHHH---------HHHHHHHHHHHHHHHhhhhhcccccchhccc
+Confidence            9999999999999999999999999885544444333221         34444433221111    111110000    
+
+
+Q ss_pred             HHHHHHHhHHHHHhhhhHHHHHH--HHHHhhhccCCCCCCCCccccccccC
+Q HERV.fasta      562 LLLVCRCTQQLRRDSDHRERAMM--TMAVLSKRKGGNVGKSKRDQIVTVSV  610 (610)
+Q Consensus       562 smTW~qWdKeI~n~Tq~Iy~LLe--Q~QqeKNEk~L~l~ld~~~~~~~~~~  610 (610)
+                      -.+-...-+++...-.-+..+-.  |--.-++++.= -.-.+.+.||.-.-
+T Consensus       121 s~tw~~w~~~i~n~t~~iy~lle~sq~qqeknek~l-l~l~~~sgi~~q~~  170 (198)
+T 3o3x_A          121 SGGWMEWDREINNYTSLIHSLIEESQNQQEKNEQEL-LGGSGGSGIVQQQN  170 (198)
+T ss_dssp             GGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCS-CTTTTCSHHHHHHH
+T ss_pred             ccCHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHH-HhCccHhHHHHHHH
+Confidence            01111222222211111111101  11112333321 11122222211000
+
+
+No 7  
+>2bf1_A SIV GP120, exterior membrane glycoprotein GP120; virus protein, envelope glycoprotein, AIDS, coat protein; HET: NAG BMA NDG FUC MAN; 4.0A {Simian immunodeficiency virus} PDB: 3fus_A*
+Probab=100.00  E-value=7.4e-55  Score=320.70  Aligned_cols=97  Identities=14%  Similarity=0.125  Sum_probs=78.5
+
+Q ss_pred             CCcccCCCCC----CC--------cchhhhhhhc-ccceeeecc---------ccccccccCCCCcccccCCCCCcCccc
+Q HERV.fasta      235 RPKIVSPVSG----PE--------HPELWRLTVA-SHHIRIWSG---------NQTLETRDRKPFYTVDLNSSLTLPLQS  292 (610)
+Q Consensus       235 ~p~~~~~n~~----~~--------~~~~~~l~~~-~kpc~~~t~---------~~~i~q~c~k~~~~~~~~~~~~~pi~~  292 (610)
+                      .-++++ |||    ||        ||||+||||| |||||||||         ||+|||||||    ++   ||||||||
+T Consensus         1 ~~e~~~-nvte~Fn~w~n~mv~qm~~di~sl~dqslkPCvkltp~Cv~~~~cnts~itqac~k----~~---f~pipi~y   72 (316)
+T 2bf1_A            1 HMELAL-NVTESFDAWENTVTEQAIEDVWQLFETSIKPCVKLSPLCIGAGHCNTSIIQESCDK----HY---WDTIRFRY   72 (316)
+T ss_dssp             CCCCCC-CCCCCSCSSSCCHHHHHHHHHHHHHHTTCCSSCEECCCCSSSSSCCCCEECCCC----------------CCC
+T ss_pred             Cceecc-cceEeccCcccHHHHHHHHHHHHHhhhccCCcccccceEEeccccCCceEcccCCc----cc---ccccccce
+Confidence            333765 888    99        9999999999 999999999         7999999999    99   99999999
+
+
+Q ss_pred             ccCCCceeeeeccccCCCCCccc-cccccccccccccccc----------------------------------------
+Q HERV.fasta      293 CVKPPYMLVVGNIVIKPDSQTIT-CENCRLLTCIDSTFNW----------------------------------------  331 (610)
+Q Consensus       293 Cap~g~ail~cn~~~~~~~gtg~-C~nvs~v~Ct~~i~~~----------------------------------------  331 (610)
+                      ||||||||||||||+||  |||+ |+|||+|||||||+|+                                        
+T Consensus        73 CaPaG~aiLkCndk~fn--GtG~~C~nVstVqCThgI~pvVSTqLlLNGSLAee~iiIrs~n~~N~iIVqLn~sv~Itr~  150 (316)
+T 2bf1_A           73 CAPPGYALLRCNDTNYS--GFMPKCSKVVVSSCTRMMETQTSTWFGFNGTRAENRTYIYWHGRDNRTIISLNKYYNLTMK  150 (316)
+T ss_dssp             CSCTTCCBCCCCSSSCC--CSSCCCCCCCCBCCCCGGGSEEESSEESCCSSCCSSCCCCCBCCTTBCBEEEECCSCEEEE
+T ss_pred             eCChhhEEEEecCcccc--CCCCCcccCCeEeCCCCCCCEEeeeccCceeccCCcEEEEeeCCCCcEEEEeCCceeeeEe
+Confidence            99999999999999999  9998 9999999999999998                                        
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q HERV.fasta      332 --------------------------------------------------------------------------------  331 (610)
+Q Consensus       332 --------------------------------------------------------------------------------  331 (610)
+                                                                                                      
+T Consensus       151 ~iGPG~~~y~t~W~~tLqqV~~kL~k~~~~~~~~~nktI~F~~ssGGD~Eit~hsFnCgGEFFYCntS~LFn~t~~~~~~  230 (316)
+T 2bf1_A          151 CRGAGWCWFGGNWKDAIKEMKQTIVKHPRYTGTNNTDKINLTAPRGGDPEVTFMWTNCRGEFLYCKMNWFLNWVEDRDVT  230 (316)
+T ss_dssp             EETTTEEEEEECHHHHHHHHHHHTTSSSCCCSSCCCCCCEECCCCSSCCCCCEEEEEESSCEEEEECCSTTCCCCCSSCC
+T ss_pred             eeeceeeeehHHHHHHHHHHHHHHHHHhhhhccCCcceEEECCCCCCCchhheEeEEECCeEeeeecchhcccccCCCcc
+Confidence                                                                                            
+
+
+Q ss_pred             ----------------------------------------------------------------------------ccee
+Q HERV.fasta      332 ----------------------------------------------------------------------------QHRI  335 (610)
+Q Consensus       332 ----------------------------------------------------------------------------~~~y  335 (610)
+                                                                                                  ||||
+T Consensus       231 ~~~~~~~~~~itlpCrIkQivnmWq~VGka~yaPPi~G~i~C~SnITglll~~dgg~~~~~~~~~~~~~~d~wr~el~kY  310 (316)
+T 2bf1_A          231 NQRPKERHRRNYVPCHIRQIINTWHKVGKNVYLPPREGDLTCNSTVTSLIANIDWTDGNQTNITMSAEVAELYRLELGDY  310 (316)
+T ss_dssp             CSSSCCCCCCCCCCBCCCSSBCCSSSSCCBCCCCCCCSSCCCCCBCCEEEECCBCCSSSCCEECCCCCHHHHHHHHSSSC
+T ss_pred             ccCCCCCCCCEEeccccceEeehhhhcCCcccCCCCCCCeeEEEEeeeEEEEeecCCCCCceeeCCCChhhcccccCCce
+Confidence                                                                                        6666
+
+
+Q ss_pred             eEeeec
+Q HERV.fasta      336 LLVRAR  341 (610)
+Q Consensus       336 k~v~~~  341 (610)
+                      |||||+
+T Consensus       311 KvV~I~  316 (316)
+T 2bf1_A          311 KLVEIT  316 (316)
+T ss_dssp             CBC---
+T ss_pred             EEEEEC
+Confidence            666666
+
+
+No 8  
+>2cmr_A GP41, transmembrane glycoprotein; immune system, immunoglobulin complex, neutralization, immunoglobulin, envelope protein, HIV; 2.0A {Human immunodeficiency virus 1} PDB: 2xra_A 3cp1_A 3cyo_A
+Probab=100.00  E-value=2.5e-40  Score=241.17  Aligned_cols=178  Identities=15%  Similarity=0.107  Sum_probs=95.4
+
+Q ss_pred             HHHHHHHhhhhcccch---hhHHH----HHHHHHHHHHHHHHHHH--------------------HHHH-Hhhhhhhh--
+Q HERV.fasta      360 VHILTEVLKGVLNRSK---RFIFT----LIAVIMGLIAVTATAAV--------------------AGVA-LHSSVQSV--  409 (610)
+Q Consensus       360 Vqqqs~lLrq~l~~qk---rlIea----lvLGl~glKqLQAr~t~--------------------~~ia-LhsSVQSv--  409 (610)
+                      +++|.-+++.    ++   |++.+    +-+-+.|.=-.-|.+++                    +... +-...|..  
+T Consensus         1 ~~ll~givqq----q~~ll~~ie~qq~ll~ltvwGiKqLqaRvlagcs~~nmTW~qW~~ei~n~t~~Iy~lLe~sq~qQe   76 (226)
+T 2cmr_A            1 MQLLSGIVQQ----QNNLLRAIEAQQHLLQLTVWGIKQLQARILAGGSGGHTTWMEWDREINNYTSLIHSLIEESQNQQE   76 (226)
+T ss_dssp             CHHHHHHHHH----HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-------CHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHH----HHHHHHHHHHHHHHHHHhhcccccchhhhhcccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHhhHH
+Confidence            5666655543    22   34432    33333443333333321                    1111 11112221  
+
+
+Q ss_pred             -------------Hhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCccccc
+Q HERV.fasta      410 -------------NFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITP  473 (610)
+Q Consensus       410 -------------nfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts  473 (610)
+                                   .+++||   |+||++|||+|||++++++||||+||+||+|              ||+|         
+T Consensus        77 kNek~Ll~Ld~W~sL~sgivqqq~~ll~~ieaqq~ll~ltvwGiKqLqaRvla--------------gcs~---------  133 (226)
+T 2cmr_A           77 KNEQELLEGSSGGQLLSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARILA--------------GGSG---------  133 (226)
+T ss_dssp             HHHHHHC-----CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTC----------------------------
+T ss_pred             HHHHHHHhccccchhhhHHHHHHHHHHHHHHHHHHHHHHhhhhhcccchHHHh--------------hccC---------
+Confidence                         688999   7999999999999999999999999999987              8988         
+
+
+Q ss_pred             ccccCcchhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhh-hhHhHHHHHHH
+Q HERV.fasta      474 QIYNDSEHHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWV-KTIGSTTIINL  552 (610)
+Q Consensus       474 ~~w~~~NmTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl-~yIgaqq~lLq  552 (610)
+                           .+|||++||++|+|||++||.+||++|+|+||||++++      + ||+|+++|      +|+ .--+-+..++.
+T Consensus       134 -----~nmTW~~W~~~i~n~t~~iy~lle~sq~qqekNek~Ll------~-Ld~w~~L~------sgivqQ~~~ll~~i~  195 (226)
+T 2cmr_A          134 -----GHTTWMEWDREINNYTSLIHSLIEESQNQQEKNEQELL------E-GSSGGQLL------SGIVQQQNNLLRAIE  195 (226)
+T ss_dssp             ---------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------C-C---TTHH------HHHHHHHHHHHHHHH
+T ss_pred             -----CCCCHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHH------h-ccchhHHH------HHHHHHHHHHHHHHH
+Confidence                 26999999999999999999999999999999999999      4 68887654      222 11112222221
+
+
+Q ss_pred             H-HHHHHHHHHHHHHHHhHHHHHhhhhHHHHHHHHHHhhhccCCCCCCCCc
+Q HERV.fasta      553 I-LILVCLFCLLLVCRCTQQLRRDSDHRERAMMTMAVLSKRKGGNVGKSKR  602 (610)
+Q Consensus       553 G-iKqLQaRvsmTW~qWdKeI~n~Tq~Iy~LLeQ~QqeKNEk~L~l~ld~~  602 (610)
+                      . =-++.+    +|.           |-..  +|-.+++.++--..   ++
+T Consensus       196 ~~q~ll~l----tvw-----------gik~--lq~r~~~~~~~~~~---~~  226 (226)
+T 2cmr_A          196 AQQHLLQL----TVW-----------GIKQ--LQARILAGGHHHHH---HG  226 (226)
+T ss_dssp             HHHHHHHH----HHH-----------HHHH--HHHHHC-------------
+T ss_pred             HHHHHHHH----HHh-----------hhcc--hhhHHHhhhhhhcc---CC
+Confidence            1 011110    111           2222  24445555421111   11
+
+
+No 9  
+>1qbz_A Protein (SIV GP41 ectodomain); HIV, membrane fusion, peptide inhibitor, coiled coil, SIV envelope glycoprotein GP41; 1.47A {Simian immunodeficiency virus} SCOP: h.3.2.1 PDB: 1qce_A 2ezo_A 2ezp_A 2ezq_A 2ezr_A 2ezs_A 2siv_B 2siv_A
+Probab=100.00  E-value=1.4e-44  Score=264.42  Aligned_cols=113  Identities=12%  Similarity=0.086  Sum_probs=91.2
+
+Q ss_pred             hhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCcccccccccCcc--
+Q HERV.fasta      406 VQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYNDSE--  480 (610)
+Q Consensus       406 VQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~w~~~N--  480 (610)
+                      ||+|++|+||   |+|++++||+|||++++++||||+||+||+++|+|++||+++++|||++  |+||+|+||||+.+  
+T Consensus         1 ~q~~~ll~gi~~q~~~ll~~ieaqq~ll~ltv~GikqLqaRvla~e~ylkdq~ll~~wgcs~--k~ic~t~vpW~~~~~~   78 (123)
+T 1qbz_A            1 AQSRTLLAGIVQQQQQLLDVVKRQQELLRLTVWGTKNLQTRVTAIEKYLKDQAQLNAWGAAF--RQVAHTTVPWPNASLT   78 (123)
+T ss_dssp             -CTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC--------------------C
+T ss_pred             CchhHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhccchhhHHHHHHhccccHHHHHHHhcC--CCeecCcCCccccccc
+Confidence            9999999999   7999999999999999999999999999999999999999999999999  99999999999854  
+
+
+Q ss_pred             -----hhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhh
+Q HERV.fasta      481 -----HHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAG  527 (610)
+Q Consensus       481 -----mTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~  527 (610)
+                           |||++||++|+|||++||.+|||+|+|+||||++++      + ||+
+T Consensus        79 ~~w~nmTw~~w~k~i~n~t~~iy~ll~~sq~qqeknek~ll------~-L~~  123 (123)
+T 1qbz_A           79 PKWNNETWQEWERKVDFLEENITALLEEAQIQQEKNMYELQ------K-LNS  123 (123)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------H-C--
+T ss_pred             hhhccCcHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHH------h-ccC
+Confidence                 999999999999999999999999999999999988      5 555
+
+
+No 10 
+>3o3x_A GP41-5; helix bundle, viral protein; HET: MPD IPA; 1.45A {Artificial gene} PDB: 3o40_A* 3o42_A* 3o43_A* 4dzu_A 4dzv_A* 3ma9_A 3mac_A 1f23_A 3wfv_A 2kp8_A* 3vtp_D 1aik_C 2zzo_C 3vtq_E 3f50_A* 3o3z_A* 3f4y_A 3aha_A 2z2t_A 3aha_B
+Probab=100.00  E-value=2.1e-37  Score=225.05  Aligned_cols=160  Identities=18%  Similarity=0.132  Sum_probs=93.9
+
+Q ss_pred             hhH-HHHHHHhhhhcccchhhHHH----HHHHHHHHHHHHHH-----------------HHHHHH-HHhhhhhhh-----
+Q HERV.fasta      358 PSV-HILTEVLKGVLNRSKRFIFT----LIAVIMGLIAVTAT-----------------AAVAGV-ALHSSVQSV-----  409 (610)
+Q Consensus       358 ~~V-qqqs~lLrq~l~~qkrlIea----lvLGl~glKqLQAr-----------------~t~~~i-aLhsSVQSv-----  409 (610)
+                      .|+ +.-.+++        |++++    +-+.+.|.=-.-|.                 ...+.. .+....|..     
+T Consensus         1 ~giv~q~~~ll--------~~i~~~q~ll~~tvwGikqLqaR~lagcs~TW~~W~~~i~n~t~~iy~ll~~aq~qqekN~   72 (198)
+T 3o3x_A            1 SGIVQQQNNLL--------RAIEAQQHLLQLTVWGIKQLQARILSGGSGGWMEWDREINNYTSLIHSLIEESQNQQEKNE   72 (198)
+T ss_dssp             CCHHHHHHHHH--------HHHHHHHHHHHHHHHHHHHHHHHHCCSSSTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHH--------HHHHHHHHHHHHhcchhcchhHHHHHhhCCCHHHHHHHHHHHHHHHHHHHHHHHHhHHHHH
+Confidence            344 3323322        23322    12223333222221                 111111 111112221     
+
+
+Q ss_pred             -Hhh-----hhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCcccccccccCcc
+Q HERV.fasta      410 -NFV-----NDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYNDSE  480 (610)
+Q Consensus       410 -nfv-----n~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~w~~~N  480 (610)
+                       .++     +||   ++||++++|+|++++++++||||+||+||+|              ||+                 
+T Consensus        73 k~Ll~l~~~~giv~q~~~ll~~ie~qq~ll~~tvwGikqlq~Rvla--------------gcs-----------------  121 (198)
+T 3o3x_A           73 QELLGGSGGSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARILS--------------GGS-----------------  121 (198)
+T ss_dssp             HHHHTTCCCTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSC--------------TTG-----------------
+T ss_pred             HHHHhhcccchhhHHHHHHHHHHHHHHHHHHHhhhhhcccccchhc--------------ccc-----------------
+Confidence             333     456   7999999999999999999999999999875              664                 
+
+
+Q ss_pred             hhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHhHHHHHHHH-HHHHHH
+Q HERV.fasta      481 HHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIGSTTIINLI-LILVCL  559 (610)
+Q Consensus       481 mTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIgaqq~lLqG-iKqLQa  559 (610)
+                      |||++||++|+|||++||.+||++|+|+||||++++      + ||+|.         .-+.--.-++.++.+ =.++..
+T Consensus       122 ~tw~~w~~~i~n~t~~iy~lle~sq~qqeknek~ll------~-l~~~s---------gi~~q~~~ll~~~~~~~~ll~~  185 (198)
+T 3o3x_A          122 GGWMEWDREINNYTSLIHSLIEESQNQQEKNEQELL------G-GSGGS---------GIVQQQNNLLRAIEAQQHLLQL  185 (198)
+T ss_dssp             GGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCSC------T-TTTCS---------HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cCHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHH------h-CccHh---------HHHHHHHHHHHHHHHHHHHHHH
+Confidence            899999999999999999999999999999999977      4 55542         234444444444433 112211
+
+
+Q ss_pred             HHHHHHHHHhHHHHHhhhhHHHHHHHHHHh
+Q HERV.fasta      560 FCLLLVCRCTQQLRRDSDHRERAMMTMAVL  589 (610)
+Q Consensus       560 RvsmTW~qWdKeI~n~Tq~Iy~LLeQ~Qqe  589 (610)
+                          ++. -++.++            ..++
+T Consensus       186 ----~~~-g~k~lq------------~Rvl  198 (198)
+T 3o3x_A          186 ----TVW-GIKQLQ------------ARIL  198 (198)
+T ss_dssp             ----HHH-HHHHHH------------HHHC
+T ss_pred             ----hcc-cccCcC------------cCcC
+Confidence                222 122233            2233
+
+
+No 11 
+>4tvp_B Envelope glycoprotein GP160; HIV-1 envelope trimer, GP120, GP41, membrane fusion, viral E viral protein-immune system complex; HET: NAG BMA MAN; 3.10A {Human immunodeficiency virus 1} PDB: 4zmj_B* 2jnr_B
+Probab=100.00  E-value=5e-45  Score=266.86  Aligned_cols=138  Identities=17%  Similarity=0.113  Sum_probs=106.0
+
+Q ss_pred             h-hHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q HERV.fasta      376 R-FIFTLIAVIMGLIAVTATAAVAGVALHSSVQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRL  451 (610)
+Q Consensus       376 r-lIealvLGl~glKqLQAr~t~~~iaLhsSVQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYL  451 (610)
+                      + ++|++|+|||++    ||+||||||+++|||+|++|+||   |+|+++++|+|||++++++||||+||+||+++|+|+
+T Consensus         1 ~~~~~~~~lgfl~a----ag~~mg~a~~~lt~q~~~ll~gi~~qq~~ll~~ie~qq~ll~ltvwGikqLqaRv~aiE~yl   76 (153)
+T 4tvp_B            1 AVGIGAVFLGFLGA----AGSTMGAASMTLTVQARNLLSGIVQQQSNLLRAPEAQQHLLKLTVWGIKQLQARVLAVERYL   76 (153)
+T ss_dssp             ------CCCCTTGG----GSSBHHHHTTSHHHHTGGGTCC---------------------CTTSHHHHHHHHHHHHHHH
+T ss_pred             CcceeehHHHHHHh----chhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhHHHhcchhhHHHHhhhh
+Confidence            1 122223335555    67789999999999999999999   799999999999999999999999999999999999
+
+
+Q ss_pred             HhhhhhhccccCCCCCCcccccccccCcc-----------hhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCC
+Q HERV.fasta      452 MSLEHRFQLQCDWNTSDFCITPQIYNDSE-----------HHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLV  519 (610)
+Q Consensus       452 KDQqLLgiWGCSgk~~~~~~ts~~w~~~N-----------mTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld  519 (610)
+                      +||+++++|||++  |+||+|+||||++|           |||++|||+++||+++||.+|||+|+||||||||++++.
+T Consensus        77 kdq~lL~~wgCs~--k~iC~t~vpWn~sw~~~~~~~~w~n~Tw~~W~~~i~n~t~~iy~ll~~sq~qqeknek~Ll~Ld  153 (153)
+T 4tvp_B           77 RDQQLLGIWGCSG--KLICCTNVPWNSSWSNRNLSEIWDNMTWLQWDKEISNYTQIIYGLLEESQNQQEKNEQDLLALD  153 (153)
+T ss_dssp             HHHHHHHHSSCCS--CSEEEEEEECCTTTTCCCHHHHTTTCBHHHHHHHHTTTHHHHHHHHHTTTTTTHHHHHHHHSCC
+T ss_pred             hhHHHHHHhhcCC--CCeecCCCCCccccccCCcccccCCCCHHHHHHHHHHhHHHHHHHHHHHHHhHHHHHHHHhccC
+Confidence            9999999999999  99999999999965           899999999999999999999999999999999999652
+
+
+No 12 
+>1env_A HIV-1 envelope protein chimera consisting of A FR GCN4 zipper cloned N-terminal TO...; viral fusion, coat protein, viral protein; 2.60A {Saccharomyces cerevisiae} SCOP: h.3.2.1 PDB: 1fav_A*
+Probab=100.00  E-value=2.7e-36  Score=219.08  Aligned_cols=119  Identities=15%  Similarity=0.134  Sum_probs=89.8
+
+Q ss_pred             hhhhcccchhhHHHHHHHHHHHHHHHHHHHHHHHHH-hhhhhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHH
+Q HERV.fasta      367 LKGVLNRSKRFIFTLIAVIMGLIAVTATAAVAGVAL-HSSVQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQ  442 (610)
+Q Consensus       367 Lrq~l~~qkrlIealvLGl~glKqLQAr~t~~~iaL-hsSVQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQA  442 (610)
+                      |+..   |++     +--+++.-   ..-.+-.+.| .++||||++|+||   |+|+++++++|||++++++||||+||+
+T Consensus         1 m~~l---e~k-----v~~l~~~~---~~l~~~v~~l~~ltvqa~~llsgivqqq~~ll~~ieaqq~llqltvwGiKqLqa   69 (123)
+T 1env_A            1 MKQI---EDK-----IEEILSKI---YHIENEIARIKKLIGEARQLLSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQA   69 (123)
+T ss_dssp             --CH---HHH-----HHHHHHHH---HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CcHH---HHH-----HHHHHHHh---HHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhHHcchhh
+Confidence            2211   122     11223332   1122222222 4589999999999   799999999999999999999999999
+
+
+Q ss_pred             HHHHHHHHHHhhhhhhccccCCCCCCcccccccccCcchhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcch
+Q HERV.fasta      443 TVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYNDSEHHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGT  522 (610)
+Q Consensus       443 RVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~w~~~NmTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s  522 (610)
+                      ||+|+|+|++||                        .+|||++|+++|+|||++||.+++++|+|+||||++++      
+T Consensus        70 Rvla~Erylkdq------------------------~nmTw~qW~kei~n~t~~Iy~lleesq~qqekNek~Ll------  119 (123)
+T 1env_A           70 RILAVERYLKDQ------------------------NNMTWMEWDREINNYTSLIHSLIEESQNQQEKNEQELL------  119 (123)
+T ss_dssp             HHHHHHHHHC------------------------------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------
+T ss_pred             hHHHHHHHhccc------------------------cCCCHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHH------
+Confidence            999999999997                        36999999999999999999999999999999999977      
+
+
+Q ss_pred             hhhhh
+Q HERV.fasta      523 EAIAG  527 (610)
+Q Consensus       523 ~iLd~  527 (610)
+                      + ||+
+T Consensus       120 ~-Ld~  123 (123)
+T 1env_A          120 E-LDK  123 (123)
+T ss_dssp             H-HTC
+T ss_pred             h-ccC
+Confidence            6 665
+
+
+No 13 
+>3p30_A HIV-1 GP41; HIV, GP41, cluster 2, 6-helix bundle, immune system; 3.30A {Human immunodeficiency virus 1}
+Probab=100.00  E-value=4.5e-33  Score=201.33  Aligned_cols=93  Identities=17%  Similarity=0.130  Sum_probs=79.5
+
+Q ss_pred             HHhhhhhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCccccccccc
+Q HERV.fasta      401 ALHSSVQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYN  477 (610)
+Q Consensus       401 aLhsSVQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~w~  477 (610)
+                      |+++|||+|++|+||   |+|+++++|+|||++++++||||+||+||+|+|+                            
+T Consensus         1 ~~~lt~q~~~ll~gi~~q~~~ll~~ie~qq~ll~ltvwGikqLqaRvlaiE~----------------------------   52 (96)
+T 3p30_A            1 SITLTVQVRKLLSGIVQQQSNLLRAIEAQQHLLKLTVWGIKQLQARVLSGGR----------------------------   52 (96)
+T ss_dssp             ----CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC---------------------------------
+T ss_pred             CcchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhchhcccchhhhhhcc----------------------------
+Confidence            889999999999999   7999999999999999999999999999999986                            
+
+
+Q ss_pred             CcchhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhc
+Q HERV.fasta      478 DSEHHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADG  531 (610)
+Q Consensus       478 ~~NmTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dg  531 (610)
+                         |||++|+++++||+++||.+++++++|+||||++++      + ||+|+++
+T Consensus        53 ---mTW~~w~kki~n~t~~iy~ll~~s~~qqekn~k~Ll------~-L~~w~~l   96 (96)
+T 3p30_A           53 ---GGWLQWDKEISNYTHIIYELIEESQKQQEKNEQELL------E-LDKWANL   96 (96)
+T ss_dssp             -----CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------H-HHHHHC-
+T ss_pred             ---ccHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHH------h-hcccccC
+Confidence               899999999999999999999999999999999998      8 9999876
+
+
+No 14 
+>3k9a_A HIV glycoprotein GP41; membrane proximal external region, MPER, viral PR; 2.10A {Human immunodeficiency virus 1}
+Probab=100.00  E-value=7.2e-35  Score=211.27  Aligned_cols=105  Identities=14%  Similarity=0.015  Sum_probs=76.7
+
+Q ss_pred             HHHHhhhhhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCccccccc
+Q HERV.fasta      399 GVALHSSVQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQI  475 (610)
+Q Consensus       399 ~iaLhsSVQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~  475 (610)
+                      -||+++||| +++|+||   |+||++++|+|||++++++|||||||+                                 
+T Consensus         1 ~~~~~~~~q-~~~lsgivqqq~~ll~~ie~qq~ll~ltvwGiKqLqa---------------------------------   46 (108)
+T 3k9a_A            1 MASMTGGQQ-MGRGSGIVQQQSNLLRAIEAQQHLLQLTVWGIKQGGG---------------------------------   46 (108)
+T ss_dssp             -------------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTSC---------------------------------
+T ss_pred             CcchHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHhcccccCCCC---------------------------------
+Confidence            346777899 9999999   799999999999999999999999995                                 
+
+
+Q ss_pred             ccCcchhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHhHHHHHH
+Q HERV.fasta      476 YNDSEHHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIGSTTIIN  551 (610)
+Q Consensus       476 w~~~NmTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIgaqq~lL  551 (610)
+                             |++|||+++|||++||.+|||+|+|+||||++++      + ||+|.++|+|||+++|+|||.-.----
+T Consensus        47 -------~~qWdrei~nyT~~Iy~lLeesq~qQeKNek~Ll------~-Ld~w~~lwnWfdit~wl~~~~~~~~~~  108 (108)
+T 3k9a_A           47 -------GSEWEREISNYTDIIYRLIEESQNQQEKNEQELL------A-LDKWASLWNWFDITNWLWYIQHHHHHH  108 (108)
+T ss_dssp             -------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------H-HHHHHHHHHHTCC--------------
+T ss_pred             -------cchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------h-hccccceehhcchHHHHHHHHhhccCC
+Confidence                   3899999999999999999999999999999999      8 999999999999999999997544222
+
+
+No 15 
+>4r61_A GP41-based construct covnhr3-ABC; coiled-coil, viral protein; 3.10A {Human immunodeficiency virus 1}
+Probab=100.00  E-value=3e-32  Score=196.92  Aligned_cols=154  Identities=13%  Similarity=0.027  Sum_probs=70.6
+
+Q ss_pred             hhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhh-ccccCCCCCCcccccccccCcc--
+Q HERV.fasta      407 QSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRF-QLQCDWNTSDFCITPQIYNDSE--  480 (610)
+Q Consensus       407 QSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLg-iWGCSgk~~~~~~ts~~w~~~N--  480 (610)
+                      |||++|+||   |+||+|++|+|||++++++||+|++++|++++|+|++|+++++ +|||++  |.+      ||.+|  
+T Consensus         1 ~a~~llsgivqqq~~llr~ieaqq~ll~~tvwGikqlq~r~~a~ekylkdQ~l~~~~~gcs~--kl~------~~~~w~~   72 (175)
+T 4r61_A            1 MARQELSGIEQKQNNLLRQIEAQQHLLQLTVSKIKQLQARILAVERYLKDQQLGKGNQPQQD--KLY------REVALIR   72 (175)
+T ss_dssp             -------CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC-----CHHHH--HHH------HHHHHHH
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHHHHHhccccccCCCccccccccccccccccchhhcccc--cee------hhhhhhh
+Confidence            999999999   7999999999999999999999999999999999999999999 999988  544      43321  
+
+
+Q ss_pred             ---------h-----hhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHhH
+Q HERV.fasta      481 ---------H-----HWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIGS  546 (610)
+Q Consensus       481 ---------m-----TW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIga  546 (610)
+                               |     ||++|||||+|||++||.+|||+|                    .+ -.++++  |   +.=-.-
+T Consensus        73 ~~~~~iw~~~~~~~~tw~~wekeI~nyt~~Iy~Liees~--------------------~~-~~llsg--i---vqqq~~  126 (175)
+T 4r61_A           73 AQLQKIESETLQLLHQQAEIERELNNQEQEIGSLKQRGL--------------------ID-GPLLSG--I---DQRQNN  126 (175)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTTSCCC--------------------------------C---HHHHHH
+T ss_pred             hhhHHHHhhcccccccHHHHHHHHHHHHHHHHHHHHhcc--------------------CC-chhhhH--H---HHHHHH
+Confidence                     2     566666666666555554321111                    00 011111  1   111111
+
+
+Q ss_pred             HHHHHHH-HHHHHHHHHHHHHHHhHHHHHhhhhHHHHHHHHHHhhhccCCCCCCCCcccc
+Q HERV.fasta      547 TTIINLI-LILVCLFCLLLVCRCTQQLRRDSDHRERAMMTMAVLSKRKGGNVGKSKRDQI  605 (610)
+Q Consensus       547 qq~lLqG-iKqLQaRvsmTW~qWdKeI~n~Tq~Iy~LLeQ~QqeKNEk~L~l~ld~~~~~  605 (610)
+                      +.-.+.. =.++.+    +++-+     +.+|.+..+ +. -.|+...-=++|+-+..--
+T Consensus       127 llr~ie~qq~ll~~----~~wGi-----kqlqaRvla-~e-rylkdqqll~~~~~~~~~~  175 (175)
+T 4r61_A          127 LKRAIEAQKHLLQL----TVWGI-----KQLQARILA-VE-RYLKDQQLGGGGSHHHHHH  175 (175)
+T ss_dssp             HHHHHHHHHHHHHH----HHHHH-----HHHHHHHHH-HH-HHHTC--------------
+T ss_pred             HHHHHHHHHHHHHh----ccccc-----cCcccchhh-hh-hhhhhhhhhcCCcccccCC
+Confidence            2211111 112211    22221     222333333 11 1222222112222221111
+
+
+No 16 
+>4r61_A GP41-based construct covnhr3-ABC; coiled-coil, viral protein; 3.10A {Human immunodeficiency virus 1}
+Probab=99.96  E-value=5.9e-25  Score=156.93  Aligned_cols=115  Identities=13%  Similarity=0.066  Sum_probs=45.2
+
+Q ss_pred             CCCCCC-CchhHHHHHHHhhhhcccchhhHHHHHHHHHHHHH----------------------------------H--H
+Q HERV.fasta      350 MDRPWE-ASPSVHILTEVLKGVLNRSKRFIFTLIAVIMGLIA----------------------------------V--T  392 (610)
+Q Consensus       350 ~~R~ll-gi~~Vqqqs~lLrq~l~~qkrlIealvLGl~glKq----------------------------------L--Q  392 (610)
+                      ..|... .-  ++.=+.+++. ..++--.+..-..|+-.+=+                                  .  -
+T Consensus         1 ~a~~llsgi--vqqq~~llr~-ieaqq~ll~~tvwGikqlq~r~~a~ekylkdQ~l~~~~~gcs~kl~~~~~w~~~~~~~   77 (175)
+T 4r61_A            1 MARQELSGI--EQKQNNLLRQ-IEAQQHLLQLTVSKIKQLQARILAVERYLKDQQLGKGNQPQQDKLYREVALIRAQLQK   77 (175)
+T ss_dssp             -------CC--HHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC-----CHHHHHHHHHHHHHHHHHHH
+T ss_pred             CchHHHHHH--HHHHHHHHHH-HHHHHHHHHhccccccCCCccccccccccccccccchhhccccceehhhhhhhhhhHH
+Confidence            233333 21  2222222110 00000001111122211110                                  0  0
+
+
+Q ss_pred             HHHHH-----HHHHHhh--hhhh-------------hHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q HERV.fasta      393 ATAAV-----AGVALHS--SVQS-------------VNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGD  449 (610)
+Q Consensus       393 Ar~t~-----~~iaLhs--SVQS-------------vnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiEr  449 (610)
+                      ...+|     --+.---  .-++             .++|+||   ++|++|+||+|||++++++||+|+||+||+|+||
+T Consensus        78 iw~~~~~~~~tw~~wekeI~nyt~~Iy~Liees~~~~~llsgivqqq~~llr~ie~qq~ll~~~~wGikqlqaRvla~er  157 (175)
+T 4r61_A           78 IESETLQLLHQQAEIERELNNQEQEIGSLKQRGLIDGPLLSGIDQRQNNLKRAIEAQKHLLQLTVWGIKQLQARILAVER  157 (175)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHTTSCCC---------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHhhcccccccHHHHHHHHHHHHHHHHHHHHhccCCchhhhHHHHHHHHHHHHHHHHHHHHHhccccccCcccchhhhhh
+Confidence            01111     0000000  0111             1456666   7999999999999999999999999999999999
+
+
+Q ss_pred             HHHhhhhhhccccCCCCCCc
+Q HERV.fasta      450 RLMSLEHRFQLQCDWNTSDF  469 (610)
+Q Consensus       450 YLKDQqLLgiWGCSgk~~~~  469 (610)
+                      |++||++|++-.-+.  ++.
+T Consensus       158 ylkdqqll~~~~~~~--~~~  175 (175)
+T 4r61_A          158 YLKDQQLGGGGSHHH--HHH  175 (175)
+T ss_dssp             HHTC----------------
+T ss_pred             hhhhhhhhcCCcccc--cCC
+Confidence            999999988744322  111
+
+
+No 17 
+>1jq0_A GP41 envelope protein; SIV, HIV-1, membrane fusion, six-helix bundle, trimer- hairpins, viral protein; 1.70A {Simian immunodeficiency virus} SCOP: h.3.2.1 PDB: 1jpx_A
+Probab=99.96  E-value=1.2e-28  Score=177.10  Aligned_cols=81  Identities=16%  Similarity=0.101  Sum_probs=65.4
+
+Q ss_pred             hHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCcccccccccCcchhhHH
+Q HERV.fasta      409 VNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYNDSEHHWDM  485 (610)
+Q Consensus       409 vnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~w~~~NmTW~q  485 (610)
+                      |++++||   ++++++++++|||++++++||||+||+||+|+|                               +|||++
+T Consensus         1 ~~~~~~~vqq~~~ll~~ie~qq~ll~lt~~Gikqlqarvla~e-------------------------------~mtw~~   49 (84)
+T 1jq0_A            1 RTSLAGIVQQQQQLLDLVTRQQELLRLTVWGIKNLQTRVTSGG-------------------------------RGGWQE   49 (84)
+T ss_dssp             ---CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC--------------------------------------CCHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHHHhhhHHHhcccccccccc-------------------------------cCcHHH
+Confidence            7777887   689999999999999999999999999999987                               389999
+
+
+Q ss_pred             HHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhh
+Q HERV.fasta      486 VRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAG  527 (610)
+Q Consensus       486 WdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~  527 (610)
+                      ||++++||+++||.+++++|+|+||||+++++       ||+
+T Consensus        50 w~~~i~n~t~~iy~~l~~s~~qqekn~~~l~~-------l~~   84 (84)
+T 1jq0_A           50 WKRKVDFLEENITALLEEAQIQQEKNMYELQK-------LNS   84 (84)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC----------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHhHHHHHHHHHh-------ccC
+Confidence            99999999999999999999999999999883       455
+
+
+No 18 
+>1df4_A HIV-1 envelope glycoprotein GP41; membrane fusion, protein-detergent interaction; 1.45A {Human immunodeficiency virus 1} SCOP: h.3.2.1 PDB: 1df5_A 1szt_A 2mk3_A 2ot5_A 1i5y_A 1qr9_A 1k34_A 1k33_A 1i5x_A 1dlb_A 1qr8_A 3g7a_A* 3vie_A 2zzo_N 1aik_N
+Probab=99.87  E-value=3.4e-23  Score=147.09  Aligned_cols=65  Identities=17%  Similarity=0.056  Sum_probs=52.5
+
+Q ss_pred             hhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhccccCCCCCCcccccccccCcchhhHHHHhh
+Q HERV.fasta      413 NDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEHRFQLQCDWNTSDFCITPQIYNDSEHHWDMVRRH  489 (610)
+Q Consensus       413 n~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqLLgiWGCSgk~~~~~~ts~~w~~~NmTW~qWdke  489 (610)
+                      +||   ++|+++++|+|||++++++||+|+||+||++                                 +|||++||++
+T Consensus         1 ~gi~~q~~~ll~~ie~~q~ll~~t~~GikqLq~rv~~---------------------------------n~tw~~w~~k   47 (68)
+T 1df4_A            1 SGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARSGG---------------------------------RGGWMEWDRE   47 (68)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC--------------------------------------CCCHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHHHHHhHHhhhhhhcC---------------------------------CccHHHHHHH
+Confidence            666   7999999999999999999999999999962                                 4789999999
+
+
+Q ss_pred             hcccchhhhHHHHHHHHHHHH
+Q HERV.fasta      490 LQGREDNLTLDISKLKEQIFE  510 (610)
+Q Consensus       490 I~NyT~~IY~LLEeSQnQQEK  510 (610)
+                      +++|+++||.+|+++|+|+||
+T Consensus        48 i~n~t~~iy~ll~~sq~qqek   68 (68)
+T 1df4_A           48 INNYTSLIHSLIEESQNQQEK   68 (68)
+T ss_dssp             HHHHHHHHHHHHHHHHC----
+T ss_pred             HHHhHHHHHHHHHHHHhcccC
+Confidence            999999999999999999998
+
+
+No 19 
+>3vh7_A Envelope glycoprotein GP160; 6-helix bundle, membrane fusion inhibition, membrane protein inhibitor complex; 2.02A {Human immunodeficiency virus type 1} PDB: 3vgy_C 3p7k_A
+Probab=99.79  E-value=3.6e-18  Score=119.83  Aligned_cols=55  Identities=18%  Similarity=0.059  Sum_probs=47.7
+
+Q ss_pred             HHHHHHHHHhhhhhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhh
+Q HERV.fasta      394 TAAVAGVALHSSVQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLEH  456 (610)
+Q Consensus       394 r~t~~~iaLhsSVQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQqL  456 (610)
+                      |++|        .|++++|+||   ++|++++||+|||++++++||||+||+||+++|+|++||+.
+T Consensus         1 ~~~~--------~~~~~llsgivqQq~nllraieaqq~ll~ltvwGiKqLqaRvlAiEryLkDq~~   58 (58)
+T 3vh7_A            1 GSAM--------ADIGSEFSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARILAVERYLKSGGR   58 (58)
+T ss_dssp             ------------CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC--
+T ss_pred             CchH--------HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHccccccCccchhhHhHhhhhhccC
+Confidence            3433        5899999999   79999999999999999999999999999999999999987
+
+
+No 20 
+>2x7r_B Transmembrane protein GP41; envelope glycoprotein, membrane anchored fusion protein, viral protein; 2.00A {Human immunodeficiency virus type 1LW12}
+Probab=99.76  E-value=2.3e-20  Score=131.57  Aligned_cols=63  Identities=16%  Similarity=0.088  Sum_probs=40.7
+
+Q ss_pred             ccccCcchhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHh
+Q HERV.fasta      474 QIYNDSEHHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIG  545 (610)
+Q Consensus       474 ~~w~~~NmTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIg  545 (610)
+                      -||++  |||++|+|+|++|+++||.+|+++|+|+|+|+++++      + |++|+++|+|||+++|++|||
+T Consensus         1 ~~~~n--~tw~~w~k~i~~~t~~iy~ll~~s~~qqekn~k~l~------~-l~~w~~l~~wfdis~wl~yiK   63 (63)
+T 2x7r_B            1 GAMDD--DDKMEWDREINNYTSLIHSLIEESQNQQEKNEQELL------E-LDKWASLWNWFNITNWLWYIK   63 (63)
+T ss_dssp             --CHH--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------H-HHC------------------
+T ss_pred             CCCcc--ccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------h-hHHHHHHhHHhchhheeeeeC
+Confidence            45643  999999999999999999999999999999999988      8 999999999999999999999
+
+
+No 21 
+>2zfc_A HIV-1 GP41; peptide, viral protein; 1.50A {Synthetic} PDB: 3uia_A 3vtp_C
+Probab=99.69  E-value=9.3e-17  Score=112.02  Aligned_cols=46  Identities=20%  Similarity=0.186  Sum_probs=40.4
+
+Q ss_pred             hhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q HERV.fasta      407 QSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLM  452 (610)
+Q Consensus       407 QSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLK  452 (610)
+                      |++++|+||   ++|+++++|+|||++++++||+|+||+||+|+|+|++
+T Consensus         1 qa~~llsgivqqq~~ll~~ie~qq~ll~ltvwGiKqLqaRvla~Erylk   49 (49)
+T 2zfc_A            1 QARQLVSGLVQQQNNILRALEATQHAVQALVWGVKQLQARVLALERYIK   49 (49)
+T ss_dssp             -----CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             CcchHHHHHHHHHHHHHHHHHHHHHHHHHccccccccchhhhhhHhhcC
+Confidence            999999999   7999999999999999999999999999999999998
+
+
+No 22 
+>3w19_C Transmembrane protein GP41; 6-helix-bundle, MT-HOOK, inhibit HIV membrane fusion, membra protein-inhibitor complex; 1.28A {Human immunodeficiency virus type 1} PDB: 3vgx_C 3vu5_A 3vu6_A 4i2l_C 3u91_A* 4hlr_A
+Probab=99.67  E-value=1.9e-16  Score=110.28  Aligned_cols=40  Identities=18%  Similarity=0.127  Sum_probs=37.9
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhh
+Q HERV.fasta      416 QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDRLMSLE  455 (610)
+Q Consensus       416 QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErYLKDQq  455 (610)
+                      ++|++++||+|||++++++||||+||+||+++|+|++||+
+T Consensus         1 ~~~llr~ieaqq~ll~~tvwGikqlqaRvla~erylkdqq   40 (40)
+T 3w19_C            1 XNNLLRAIEAQQHLLQLTVWGIKQLQARILAVERYLKDQX   40 (40)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             CcHHHHHHHHHHHHHHHhcchhcCcccceehhhhccccCC
+Confidence            9999999999999999999999999999999999999999
+
+
+No 23 
+>2x7r_A Transmembrane protein GP41; envelope glycoprotein, membrane anchored fusion protein, viral protein; 2.00A {Human immunodeficiency virus type 1LW12}
+Probab=99.49  E-value=1.3e-14  Score=100.24  Aligned_cols=59  Identities=15%  Similarity=0.143  Sum_probs=35.5
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhhhhhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q HERV.fasta      379 FTLIAVIMGLIAVTATAAVAGVALHSSVQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVI  445 (610)
+Q Consensus       379 ealvLGl~glKqLQAr~t~~~iaLhsSVQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVL  445 (610)
+                      |+    .||+    ||+||||+++++|||+|++|+||   |+|++|+||+|||++++++||||+||+||+
+T Consensus         1 ~~----~~~a----ags~mgaas~~ltvqa~~llsgivqQq~~llr~ie~qq~ll~ltvwGiKqLqaRvL   62 (62)
+T 2x7r_A            1 GA----MDDD----DKSTMGAASMTLTVQARQLLSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARIL   62 (62)
+T ss_dssp             ------------------------------CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             Cc----hhhc----chhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccccCcccccC
+Confidence            22    2555    89999999999999999999999   799999999999999999999999999999
+
+
+No 24 
+>3o3y_A Chimeric alpha+alpha/beta peptide based on the CH sequence of GP41; HIV fusion inhibitor, HIV GP41, mixed alpha-residue / beta-R backbone; HET: XPC B3E XCP; 1.35A {Synthetic} PDB: 3f4y_D 3g7a_B* 4dzu_B 4dzv_B* 3o42_B* 3o3z_B* 3f4z_A* 3f50_B* 3o43_B* 3o40_B*
+Probab=99.31  E-value=8.4e-14  Score=95.54  Aligned_cols=40  Identities=13%  Similarity=0.186  Sum_probs=35.6
+
+Q ss_pred             chhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhh
+Q HERV.fasta      480 EHHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIA  526 (610)
+Q Consensus       480 NmTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd  526 (610)
+                      +|||++|+++|++|+++||.+|+++|+|+|||+++++++       +
+T Consensus         1 nmtw~~w~~~i~~~t~~iy~ll~~s~~qqekn~~~l~~l-------~   40 (40)
+T 3o3y_A            1 XTTWEAWDXAIAXYAXRIEXLIXAAQXQQXKNEXALXEL-------X   40 (40)
+T ss_dssp             --CTTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCC--------
+T ss_pred             CCcHHHHHHHHhHHHHHHHHHHHHHHhHHhccHHHHHhc-------C
+Confidence            789999999999999999999999999999999999955       2
+
+
+No 25 
+>3mgn_A IQN17; IQN17, HIV, helix, coiled-coil, protein-viral protein inhibitor complex; HET: DPN DTR DAR; 1.40A {Synthetic} PDB: 2r5b_A* 2r3c_A* 2r5d_A* 3l35_A* 3l37_A* 3l36_A* 1czq_A* 1gzl_A 2q3i_A* 2q5u_A 2q7c_A
+Probab=99.30  E-value=1.6e-11  Score=83.17  Aligned_cols=44  Identities=14%  Similarity=0.021  Sum_probs=37.7
+
+Q ss_pred             hhhhhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q HERV.fasta      403 HSSVQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVIW  446 (610)
+Q Consensus       403 hsSVQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVLA  446 (610)
+                      ----|-.+.|++|   ++||++++++|++++++++||||+||+||+|
+T Consensus         1 ~rm~qle~~v~~l~~q~~~Ll~~Ve~lq~LL~~~~~g~k~lq~r~la   47 (47)
+T 3mgn_A            1 XRMKQIEDKIEEIESKQKKIENEIARIKKLLQLTVWGIKQLQARILX   47 (47)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             CcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHccccccCccccccC
+Confidence            2234777888888   7999999999999999999999999999999
+
+
+No 26 
+>3gwo_A Envelope glycoprotein GP160; viral membrane fusion, HIV-1, envelope protein, neutra antibodies, AIDS, apoptosis; HET: JEF; 1.65A {Human immunodeficiency virus type 1 lwisolate} PDB: 3h01_A 3h00_A 1fav_C* 4g6f_P 2m8m_A 2m8o_A 2me1_A 2pv6_A 2me3_A 2me4_A 2me2_A 3mnw_P 3mnz_P
+Probab=99.29  E-value=6.8e-15  Score=101.41  Aligned_cols=54  Identities=17%  Similarity=0.107  Sum_probs=51.6
+
+Q ss_pred             HHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHh
+Q HERV.fasta      485 MVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIG  545 (610)
+Q Consensus       485 qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIg  545 (610)
+                      +|++++++|+++||.+++++++|+|+|+++++      + +++|.++|+||++++|++|||
+T Consensus         1 ~w~~~i~~~t~~i~~~l~~~~~~~ekn~~~l~------~-l~~w~~~~~W~~~~~w~~yik   54 (54)
+T 3gwo_A            1 EWDREINNYTSLIHSLIEESQNQQEKNEQELL------E-LDKWASLWNWFNITNWLWYIK   54 (54)
+T ss_dssp             -CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------H-HHHHHHHHHHHHHHHHHHHHC
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHhHHHHHHHHHH------H-HhhHHhhhHHhchhheeeeeC
+Confidence            89999999999999999999999999999988      7 999999999999999999999
+
+
+No 27 
+>4i2l_D Inhibitor MTSFT; 6-helix bundle, coiled-coil, membrane, fusion inhibitor, M-T helix-bundle, tryptophan-methionine; 1.43A {Human immunodeficiency virus type 1} PDB: 3vtq_D 3vie_B
+Probab=99.26  E-value=7.7e-13  Score=90.25  Aligned_cols=38  Identities=16%  Similarity=0.239  Sum_probs=35.5
+
+Q ss_pred             chhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhcc
+Q HERV.fasta      480 EHHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLN  517 (610)
+Q Consensus       480 NmTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~  517 (610)
+                      +|||++|+++|++|+++||.+|+++|+|+|||++++++
+T Consensus         1 nmtw~~w~~~i~~~t~~iy~~l~~s~~qqekn~~~ll~   38 (38)
+T 4i2l_D            1 XMTWETWEREIENYTKQIYKILEESQEQQDRNEKDLLE   38 (38)
+T ss_dssp             -CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             CCcHHHHHHHHHHHHHHHHHHHHHHHHhHHHHHHHHhC
+Confidence            78999999999999999999999999999999999983
+
+
+No 28 
+>4kht_A GP41 helix; GP41 FAB immune system, immune system; 2.82A {Human immunodeficiency virus 1} PDB: 4khx_A
+Probab=99.13  E-value=7.7e-11  Score=79.71  Aligned_cols=51  Identities=16%  Similarity=0.112  Sum_probs=35.9
+
+Q ss_pred             HHHHHHHHHhh-h------------hhhhHhhhhh---hhHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q HERV.fasta      394 TAAVAGVALHS-S------------VQSVNFVNDG---QKNSTRLWNSQSSIDQKLANQINDLRQTVI  445 (610)
+Q Consensus       394 r~t~~~iaLhs-S------------VQSvnfvn~I---QsnLLraIEAQQhLLQLTVWGIKQLQARVL  445 (610)
+                      |- -|.+---. .            ---|++|+||   |+|+++++|+|||++++++||+|+||+||+
+T Consensus         1 ~~-~~~~~~~~~~~~~~~~~~~~~~~~~r~LLSGIVqQq~nLLraIEaqQhLLqlTvwGIKQLQARVL   67 (67)
+T 4kht_A            1 GC-CGGIKKEIEAIKKEQEAIKKKIEAIEKELSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQLQARIL   67 (67)
+T ss_dssp             -C-TTSHHHHTTTTTTTTTSSTTTSTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCC
+T ss_pred             CC-cchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccccccccccC
+Confidence            10 00000000 0            1235777888   799999999999999999999999999988
+
+
+No 29 
+>2z2t_D Fusion inhibitor peptide SC34EK; coiled-coil, viral protein/inhibitor complex; 2.10A {Synthetic}
+Probab=99.07  E-value=1.8e-11  Score=82.82  Aligned_cols=36  Identities=19%  Similarity=0.150  Sum_probs=33.5
+
+Q ss_pred             hhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhcc
+Q HERV.fasta      482 HWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLN  517 (610)
+Q Consensus       482 TW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~  517 (610)
+                      ||++|++++++|+++||.+|+++|+|+|+|+++++.
+T Consensus         1 tw~~w~~~i~~~t~~iy~~l~~a~~qqekn~k~l~~   36 (36)
+T 2z2t_D            1 XWLEWDRKIEEYTKKIEELIKKSQEQQEKNEKELKX   36 (36)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             CcchHHHHHHHHHHHHHHHHHHHHHhHHHHHHHhcC
+Confidence            999999999999999999999999999999999883
+
+
+No 30 
+>1jek_B ENV polyprotein; envelope glycoprotein, retrovirus, HIV, SIV, GP41, viral Pro; 1.50A {Synthetic} SCOP: h.3.2.1
+Probab=98.92  E-value=1.9e-10  Score=77.30  Aligned_cols=36  Identities=19%  Similarity=0.315  Sum_probs=32.5
+
+Q ss_pred             hhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchh
+Q HERV.fasta      482 HWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTE  523 (610)
+Q Consensus       482 TW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~  523 (610)
+                      ||++|+++|++|+++||.+|+++|+|+|||+++--      .
+T Consensus         1 TW~qW~~~i~n~t~~iy~lL~~a~~qqekN~~~~~------~   36 (36)
+T 1jek_B            1 XWQQWEEEIEQHEGNLSLLLREAALQVHIAQRDAR------X   36 (36)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC-------
+T ss_pred             CccHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhhc------C
+Confidence            99999999999999999999999999999999844      1
+
+
+No 31 
+>3drq_C GP41 peptide epitope; HIV-1, 2F5, NMAB, immune system; 2.00A {Homo sapiens} PDB: 3d0l_C 3drt_C 3egs_C
+Probab=98.62  E-value=7.1e-09  Score=68.55  Aligned_cols=35  Identities=11%  Similarity=-0.027  Sum_probs=33.9
+
+Q ss_pred             ccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhccc
+Q HERV.fasta      492 GREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLA  533 (610)
+Q Consensus       492 NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~  533 (610)
+                      ||+++||.+|+++|+|+|||+++++      + |++|.++|+
+T Consensus         1 ~~t~~iy~ll~~aq~qqekn~~~ll------~-l~~w~~lw~   35 (35)
+T 3drq_C            1 GIGALFLGFLGAAGSKKXKNEQELL------E-LDKWASLWN   35 (35)
+T ss_pred             CchHHHHHHHHHHHhhHhhhHHHHH------h-hchHhhhcC
+Confidence            9999999999999999999999988      7 999999999
+
+
+No 32 
+>3vgx_D Envelope glycoprotein GP160; 6-helix bundle, membrane fusion, membrane protein; HET: GOL; 1.74A {Human immunodeficiency virus type 1}
+Probab=98.41  E-value=2.8e-09  Score=70.74  Aligned_cols=32  Identities=22%  Similarity=0.323  Sum_probs=26.7
+
+Q ss_pred             ccccCcchhhHHHHhhhcccchhhhHHHHHHHHH
+Q HERV.fasta      474 QIYNDSEHHWDMVRRHLQGREDNLTLDISKLKEQ  507 (610)
+Q Consensus       474 ~~w~~~NmTW~qWdkeI~NyT~~IY~LLEeSQnQ  507 (610)
+                      .-|++  |||++|+|++++|+++||.+|+++|+|
+T Consensus         1 ~~w~n--~tw~~w~~~i~~~t~~iy~ll~~sq~q   32 (32)
+T 3vgx_D            1 QIWNN--MTWMEWDREINNYTSLIHSLIEESQNQ   32 (32)
+T ss_dssp             ---CC--CCHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             CCccc--CcHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            44655  899999999999999999999999998
+
+
+No 33 
+>3vh7_B CP32M; 6-helix bundle, membrane fusion inhibition, membrane protein inhibitor complex; 2.02A {Human immunodeficiency virus type 1} PDB: 3vgy_D
+Probab=98.36  E-value=6.7e-09  Score=68.65  Aligned_cols=34  Identities=15%  Similarity=0.194  Sum_probs=28.1
+
+Q ss_pred             ccccccCcchhhHHHHhhhcccchhhhHHHHHHHHH
+Q HERV.fasta      472 TPQIYNDSEHHWDMVRRHLQGREDNLTLDISKLKEQ  507 (610)
+Q Consensus       472 ts~~w~~~NmTW~qWdkeI~NyT~~IY~LLEeSQnQ  507 (610)
+                      -...|++  |||++|++++++|+++||.+|+++|+|
+T Consensus         1 ~~~~w~n--~tw~~w~~~i~~~t~~i~~~l~~aq~q   34 (34)
+T 3vh7_B            1 GGVEWNE--MTWMEWEREIENYTKLIYKILEESQEQ   34 (34)
+T ss_dssp             ---CCCS--CCHHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             CCCccCC--CcHHHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            2335765  899999999999999999999999998
+
+
+No 34 
+>3w19_D Fusion inhibitor CP32M-2; 6-helix-bundle, MT-HOOK, inhibit HIV membrane fusion, membra protein-inhibitor complex; 1.28A {Human immunodeficiency virus type 1}
+Probab=98.15  E-value=3.2e-08  Score=64.91  Aligned_cols=29  Identities=14%  Similarity=0.275  Sum_probs=27.5
+
+Q ss_pred             ccCcchhhHHHHhhhcccchhhhHHHHHHHH
+Q HERV.fasta      476 YNDSEHHWDMVRRHLQGREDNLTLDISKLKE  506 (610)
+Q Consensus       476 w~~~NmTW~qWdkeI~NyT~~IY~LLEeSQn  506 (610)
+                      |++  |||++|++++++|+++||.+|+++|+
+T Consensus         1 w~n--~tw~~w~~~i~~~t~~iy~~l~~s~~   29 (29)
+T 3w19_D            1 WNE--MTWMEWEREIENYTKLIYKILEESQE   29 (29)
+T ss_dssp             CTT--CCHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             CCC--CcHHHHHHHHHHHHHHHHHHHHHHcC
+Confidence            765  89999999999999999999999999
+
+
+No 35 
+>3vu6_B MTSC22; 6-helix bundle, coiled-coil, membrane, fusion inhibitor, M-T HIV entry, membrane protein-inhibitor complex; 2.32A {Human immunodeficiency virus 1}
+Probab=97.76  E-value=1.4e-07  Score=61.43  Aligned_cols=25  Identities=12%  Similarity=0.247  Sum_probs=23.6
+
+Q ss_pred             chhhHHHHhhhcccchhhhHHHHHH.
+Q HERV.fasta      480 EHHWDMVRRHLQGREDNLTLDISKL.  504 (610)
+Q Consensus       480 NmTW~qWdkeI~NyT~~IY~LLEeS.  504 (610)
+                      +|||++|+|+|++|+++||.+|+++ 
+T Consensus         1 n~Tw~~w~k~i~~~t~~i~~ll~~s.   25 (25)
+T 3vu6_B            1 XMTWEEWDKKIEEYTKKIEELIKKSx   26 (26)
+T ss_dssp             -CCHHHHHHHHHHHHHHHHHHHHHC.
+T ss_pred             CCcHHHHHHHHHHHHHHHHHHHHhC.
+Confidence            7899999999999999999999999 
+
+
+No 36 
+>2lp7_A Envelope glycoprotein; GP41, viral protein; NMR {Human immunodeficiency virus 1} PDB: 2m7w_A
+Probab=97.53  E-value=2.5e-08  Score=65.80  Aligned_cols=59  Identities=14%  Similarity=-0.013  Sum_probs=40.5
+
+Q ss_pred             CCcccccccccCcchhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHh
+Q HERV.fasta      467 SDFCITPQIYNDSEHHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIG  545 (610)
+Q Consensus       467 ~~~~~ts~~w~~~NmTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIg  545 (610)
+                      +.|=.  -|=.---+-      ..+|-+-.||++++     |||||++++      + |++|+++||||++++|+||||
+T Consensus         1 ~~~~~--~~~dg~~y~------~~d~~wv~l~~~l~-----qEKNeqdLl------~-Ld~W~~lwnWfdis~Wl~yIK   59 (59)
+T 2lp7_A            1 GYIPE--APRDGQAYV------RKDGEWVLLSTFLG-----SSGNEQELL------E-LDKWASLWNWFNITNWLWYIK   59 (59)
+T ss_dssp             CCCCC--CCCSSCEEE------EETTEEEETHHHHT-----TTSSHHHHH------H-HHHHHHHHHHTHHHHHHHHHC
+T ss_pred             CCCCc--CCCCCceeE------EecCceeehhhhch-----hhhhHHHHH------h-hhhhhheeeeecceeEEEEeC
+Confidence            12211  111111011      22344567888888     778999988      8 999999999999999999999
+
+
+No 37 
+>3g9r_A Fusion complex of HIV-1 envelope glycoprotein and saccharomyces cerevisiae general...; GP41, MPER, membrane fusion, AIDS; 2.00A {Human immunodeficiency virus 1}
+Probab=96.01  E-value=0.001  Score=40.91  Aligned_cols=42  Identities=12%  Similarity=0.122  Sum_probs=28.2
+
+Q ss_pred             hhhhhhhcccCCCchhhhhhHhHHHHHHHHHHHHHHHHHHHHHHHhHHHHH
+Q HERV.fasta      524 AIAGVADGLANLNPVTWVKTIGSTTIINLILILVCLFCLLLVCRCTQQLRR  574 (610)
+Q Consensus       524 iLd~w~dgw~w~~~~kWl~yIgaqq~lLqGiKqLQaRvsmTW~qWdKeI~n  574 (610)
+                      -||+|+++||||++++|||||+|--+-.-+         --|-+-++|+.+
+T Consensus         1 eldkwaslwnwfnitnwlwyikieelkski---------krieneikrikk   42 (42)
+T 3g9r_A            1 ELDKWASLWNWFNITNWLWYIKIEELKSKI---------KRIENEIKRIKK   42 (42)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHH---------HHHHHHHHHHHC
+T ss_pred             CchHHHHHHHHHhhhhHHHHhhHHHHHHHH---------HHHHHHHHHhcC
+Confidence            189999999999999999999976532110         123344444442
+
+
+No 38 
+>3u2s_G Envelope glycoprotein GP120; greek KEY, immunoglobulin, immune recognition, immune system; HET: PCA TYS BU3 NAG BMA MAN; 1.80A {Human immunodeficiency virus 1} PDB: 4dqo_C* 4ywg_G* 3u4e_G*
+Probab=87.39  E-value=1.5e-05  Score=50.48  Aligned_cols=87  Identities=10%  Similarity=0.032  Sum_probs=37.7
+
+Q ss_pred             Ccc---------ccCCCCCcccCCCCC------------CC-----------cchhhhhhhc-----ccceeeecccccc
+Q HERV.fasta      227 GEK---------RISTPRPKIVSPVSG------------PE-----------HPELWRLTVA-----SHHIRIWSGNQTL  269 (610)
+Q Consensus       227 ~~~---------~c~p~~p~~~~~n~~------------~~-----------~~~~~~l~~~-----~kpc~~~t~~~~i  269 (610)
+                      -.+         .|.-.  .......+            ..           ..||..+-+.     ..-++..+=++++
+T Consensus         1 ~~~~~tPLCVTLnCT~~--~~~~~~~~emkNCSFNiTT~irDKkkk~yALFY~lDVvpi~~~~~~s~~t~YrLInCNTSv   78 (124)
+T 3u2s_G            1 MTTFKLAACVTLACTSP--AAHAESETRVKHCSFNITTDVKDRKQKVNATFYDLDIVPLSSSDASSASSLYRLISCQTTT   78 (124)
+T ss_dssp             --CEEEEEEEEEEEC------------CEEEEEEEEECSSTTEEEEEEEEEECC----------------EEEEEEEEEE
+T ss_pred             CCcCCCCcEeeEECcCC--CccCCCceeeEEEEEEeeccccccceEEEEecceeeEEEcCCCCCCCCccEEEEEcCCCcc
+Confidence            111         22211  10000000            11           5566555431     1223333333344
+
+
+Q ss_pred             ccccCCCCcccccCCCCCcCcccccCCCceeeeeccccCCCCCccccccccccccccccccccceeeEeeecccccc
+Q HERV.fasta      270 ETRDRKPFYTVDLNSSLTLPLQSCVKPPYMLVVGNIVIKPDSQTITCENCRLLTCIDSTFNWQHRILLVRAREGVWI  346 (610)
+Q Consensus       270 ~q~c~k~~~~~~~~~~~~~pi~~Cap~g~ail~cn~~~~~~~gtg~C~nvs~v~Ct~~i~~~~~~yk~v~~~~~~~a  346 (610)
+                      +|||||    ++   |||+|+|||||||          +.  |-++|.-+.            .-|-+-|--+.-+-
+T Consensus        79 iQaC~K----~~---~~~~~~~~~~p~g----------~~--~~~~~~~~~------------~~~~~~~~~~~~~~  124 (124)
+T 3u2s_G           79 TEAVDA----AT---AAKVFKQYANDNG----------ID--GEWTYDDAT------------KTFTVTEGLEVLFQ  124 (124)
+T ss_dssp             ECCSCH----HH---HHHHHHHHHHHHT----------CC--SEEEEETTT------------TEEEEEEC------
+T ss_pred             eecCCc----cc---cccceeEEeCCCC----------cc--ceeeecceE------------EEEEEeecceeecC
+Confidence            999999    99   9999999999999          44  767777665            45555554443333
+
+
+No 39 
+>3vu5_B SC22; 6-helix bundle, coiled-coil, membrane, fusion inhibitor, HIV membrane protein-inhibitor complex; 2.09A {Human immunodeficiency virus 1}
+Probab=85.01  E-value=0.015  Score=34.51  Aligned_cols=23  Identities=13%  Similarity=0.273  Sum_probs=19.1
+
+Q ss_pred             hhHHHHhhhcccchhhhHHHHHH...
+Q HERV.fasta      482 HWDMVRRHLQGREDNLTLDISKL...  504 (610)
+Q Consensus       482 TW~qWdkeI~NyT~~IY~LLEeS...  504 (610)
+                      .|.+||++|..||..|-.++.+|   
+T Consensus         1 ~weewdkkieeytkkieelikks...   23 (23)
+T 3vu5_B            1 XWEEWDKKIEEYTKKIEELIKKSxxx   26 (26)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHHC...
+T ss_pred             CHHHHHHHHHHHHHHHHHHHhcC...
+Confidence            79999999988888888887776   
+
+
+No 40 
+>2mg2_A Transmembrane protein GP41; HIV-1 GP41 protein, neutralizing epitope, peptide vaccine, M viral protein; NMR {Human immunodeficiency virus 1} PDB: 2mg3_A
+Probab=56.46  E-value=0.13  Score=28.85  Aligned_cols=28  Identities=14%  Similarity=0.036  Sum_probs=25.4
+
+Q ss_pred             hcccCCCchhhhhhHhHHHHHHHHHHHH
+Q HERV.fasta      530 DGLANLNPVTWVKTIGSTTIINLILILV  557 (610)
+Q Consensus       530 dgw~w~~~~kWl~yIgaqq~lLqGiKqL  557 (610)
+                      .+|||||+++|++||++|+|+++||++-
+T Consensus         1 ~~~nWf~it~wl~yIki~i~ivggli~~   28 (28)
+T 2mg2_A            1 KKKNWFDITNWLWYIKLFIMIVGGLVKK   28 (28)
+T ss_dssp             CCCCHHHHHHHHHHHHHHHHHHHHHTTC
+T ss_pred             CceEEEehhHhheeEEEEEEEEEEEecC
+Confidence            8889999999999999999999987554
+
+
+No 41 
+>3vu5_B SC22; 6-helix bundle, coiled-coil, membrane, fusion inhibitor, HIV membrane protein-inhibitor complex; 2.09A {Human immunodeficiency virus 1}
+Probab=40.49  E-value=5.1  Score=20.66  Aligned_cols=23  Identities=4%  Similarity=0.024  Sum_probs=17.7
+
+Q ss_pred             HHHHHhHHHHHhhhhHHHHHHHHHHhhh...
+Q HERV.fasta      564 LVCRCTQQLRRDSDHRERAMMTMAVLSK...  591 (610)
+Q Consensus       564 TW~qWdKeI~n~Tq~Iy~LLeQ~QqeKN...  591 (610)
+                      .|-+|++++..|+.-|..++..     .   
+T Consensus         1 ~weewdkkieeytkkieelikk-----s...   23 (23)
+T 3vu5_B            1 XWEEWDKKIEEYTKKIEELIKK-----Sxxx   26 (26)
+T ss_dssp             -CHHHHHHHHHHHHHHHHHHHH-----C...
+T ss_pred             CHHHHHHHHHHHHHHHHHHHhc-----C...
+Confidence            7889999999999888887433     1   
+
+
+No 42 
+>2ari_A Envelope polyprotein GP160; HIV, fusion, peptide, domain, membrane, micelle, viral protein; NMR {Human immunodeficiency virus 1}
+Probab=32.20  E-value=5  Score=20.36  Aligned_cols=39  Identities=21%  Similarity=0.172  Sum_probs=26.6
+
+Q ss_pred             CCCCchhHHHHHHHhhhhcccchhhHHHHHHHHHHHHHHHHHHHHHHHHHhhhhhhhHhhhhhh
+Q HERV.fasta      353 PWEASPSVHILTEVLKGVLNRSKRFIFTLIAVIMGLIAVTATAAVAGVALHSSVQSVNFVNDGQ  416 (610)
+Q Consensus       353 ~llgi~~Vqqqs~lLrq~l~~qkrlIealvLGl~glKqLQAr~t~~~iaLhsSVQSvnfvn~IQ  416 (610)
+                      |-+                     ++|++|||||++    ||+||||+|+++|||+|++|+.=.
+T Consensus         1 ~av---------------------g~ga~FLGfLga----agstMGaas~tLTvQar~Ll~~~~   39 (39)
+T 2ari_A            1 PAV---------------------GIGALFLGFLGA----AGSTMGAASMTLTVQADYKDDDDK   39 (39)
+T ss_dssp             -CC---------------------STHHHHHHHHHH----HHHHHTTTSCSSSCCC--------
+T ss_pred             Ccc---------------------eEEEEeeEeecc----ccccchhhhhhheeeehehhcCCC
+Confidence            112                     268999999999    899999999999999999996543
+
+
+No 43 
+>3wmi_B EIAV GP45 wild type; alpha-helix, virus fusion, viral protein; 1.90A {Equine} PDB: 3wmj_B
+Probab=28.73  E-value=8.9  Score=19.29  Aligned_cols=37  Identities=5%  Similarity=0.190  Sum_probs=31.8
+
+Q ss_pred             hhhHHHHhhhcccchhhhHHHHHHHHHHHHHHhhhcc
+Q HERV.fasta      481 HHWDMVRRHLQGREDNLTLDISKLKEQIFEASKAHLN  517 (610)
+Q Consensus       481 mTW~qWdkeI~NyT~~IY~LLEeSQnQQEKNekeLL~  517 (610)
+                      ..|.+|-.+.++|.+.|.+-|..++|.-|+-+-..--
+T Consensus         1 tqwd~wv~~me~~n~dilttlh~arnnl~qsmitfnt   37 (37)
+T 3wmi_B            1 TQWDDWVDKMENLNHDILTTLHTARNNLEQSMITFNT   37 (37)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTC
+T ss_pred             CcHHHHHHHHHhhhHHHHHHHHHHHhhHHHHhhcccC
+Confidence            6899999999999999999999999988877655441
+
+
+No 44 
+>1jek_A ENV polyprotein; envelope glycoprotein, retrovirus, HIV, SIV, GP41, viral Pro; 1.50A {Synthetic} SCOP: h.3.2.1
+Probab=27.39  E-value=9.4  Score=19.12  Aligned_cols=42  Identities=19%  Similarity=0.150  Sum_probs=29.2
+
+Q ss_pred             hhhhHhhhhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q HERV.fasta      406 VQSVNFVNDGQKNSTRLWNSQSSIDQKLANQINDLRQTVIWMGDR  450 (610)
+Q Consensus       406 VQSvnfvn~IQsnLLraIEAQQhLLQLTVWGIKQLQARVLAiErY  450 (610)
+                      +|+.---+.+|++.+|+-   ..+.|...-|++-|.||+.-+|..
+T Consensus         1 vqsL~~A~AvQQ~~~~a~---ya~Vq~~A~~~~iLEA~~A~ve~~   42 (42)
+T 1jek_A            1 XQSLANATAAQQEVLEAS---YAMVQHIAKGIRILEARVARVEAX   42 (42)
+T ss_dssp             -CHHHHHHHHHHHHHHHH---HHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             CcchhHHHHHHHHHHHHH---HHHHHHHHHHHHHHHHHHHHHhcC
+Confidence            777655555688888653   344455556999999999999987
+
+
+Done!

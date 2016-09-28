@@ -1,0 +1,682 @@
+Query         togavirusSS
+Match_columns 439
+No_of_seqs    33 out of 105
+Neff          2.7 
+Searched_HMMs 179
+Date          Thu Aug  4 12:32:04 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/togavirusSS.a3m.hhm -ohhm ./structurepred/togavirusSS.a3m.hhm -o ./structurepred/togavirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3j0f_E E1 envelope glycoprotei 100.0  5E-249  6E-253 1811.5 126.6  439    1-439     1-439 (439)
+  2 3j0c_A E1 envelope glycoprotei 100.0  2E-248  2E-252 1808.8  67.8  439    1-439     1-439 (442)
+  3 3n44_F E1 envelope glycoprotei 100.0  5E-240  6E-244 1753.4  87.7  414    1-414    23-436 (473)
+  4 1i9w_A Fusion protein E1; enve 100.0  1E-232  2E-236 1676.8 124.5  390    1-390     1-390 (390)
+  5 2yew_B E1 envelope glycoprotei 100.0  3E-236  4E-240 1717.9  76.7  427    1-439     1-427 (427)
+  6 3n40_F E1 envelope glycoprotei 100.0  5E-233  6E-237 1681.4  83.1  391    1-391     3-393 (393)
+  7 3muu_A Structural polyprotein; 100.0  3E-223  4E-227 1703.7  89.3  388    1-388   361-748 (750)
+  8 2v33_A E1 envelope glycoprotei 100.0 1.4E-45 1.9E-49  302.6  24.3   91  292-382     1-91  (91)
+  9 3j2w_E Glycoprotein E1; E1-E2   99.2 3.3E-17 4.6E-21  118.8 -22.1   46  394-439     1-46  (46)
+ 10 1c4e_A Protein (gurmarin); swe  78.8     3.4  0.0004   26.4   7.3   25   55-79     10-34  (35)
+ 11 1sbw_I Protein (MUNG bean inhi  20.1      51  0.0076   19.6   7.3   24   57-81      1-24  (35)
+ 12 3myw_I Bowman-BIRK type trypsi   6.6 2.1E+02   0.031   18.9   7.8   55   54-115     5-63  (72)
+ 13 2g81_I BTCI, bowman-BIRK type    6.0 2.5E+02   0.036   19.0   8.3   57   53-116    10-70  (83)
+ 14 1mvz_A MSTI, bowman-BIRK type    4.9 2.5E+02   0.037   17.9   7.0   55   55-116     2-59  (62)
+ 15 2llm_A Amyloid beta A4 protein   4.1 2.4E+02   0.037   16.6   5.6   41  392-439     2-43  (43)
+ 16 2lk9_A Bone marrow stromal ant   3.4 2.7E+02   0.035   16.9   3.2   27  404-436     5-31  (35)
+ 17 2e2s_A Agelenin; cystine knot,   2.8 3.5E+02   0.049   15.8   4.3   24   56-79     12-35  (36)
+ 18 4wwe_5 50S ribosomal protein L   2.5 2.6E+02   0.043   14.4  11.3   27  344-373     3-30  (30)
+ 19 3s3x_D Psalmotoxin-1; acid-sen   2.4 4.8E+02   0.057   15.7   9.9   30   54-83      8-37  (37)
+ 20 2m3e_A Integrin alpha-L; integ   2.0      49  0.0074   20.8  -1.7   34  403-439     9-42  (50)
+
+No 1  
+>3j0f_E E1 envelope glycoprotein; alphavirus, virus assembly; 7.00A {Sindbis virus} PDB: 1ld4_M 1z8y_I
+Probab=100.00  E-value=4.6e-249  Score=1811.55  Aligned_cols=439  Identities=77%  Similarity=1.330  Sum_probs=438.5
+
+Q ss_pred             CCccccCCCCCCCchHHHHhhhCcccceeEEEEEeeecccCCCcceEEEEeeeeecCCCcccccceeeccccCCceeeee
+Q togavirusSS       1 FEHATTVPNVPGIPYKALVERAGYAPLNLEITVVSSELTPSTNKEYVTCRFHTVIPSPQVKCCGSLECKASSKADYTCRV   80 (439)
+Q Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~VkCCGs~EC~~~~~pDy~CkV   80 (439)
+                      |||+++|||+||+|||||||||||+||+|||+|++++|+||||||||||+||||||||+|||||++||+++++|||||||
+T Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkV   80 (439)
+T 3j0f_E            1 YEHATTVPNVPQIPYKALVERAGYAPLNLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAAHADYTCKV   80 (439)
+T ss_pred             CCcccccCCCCCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCCCCCCccceE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eccccceeecceeeeccCCcccccceeeecCCCCcchheehhheecceeeeeeEEEEcccceeecceecccCCCCcccce
+Q togavirusSS      81 FGGVYPFMWGGAQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLK  160 (439)
+Q Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+                      ||||||||||||||||||||||||||||||||+|++|||+|||+|||||||+|||||||+++++++|||||||++++|+|
+T Consensus        81 ftGVYPfMWGGAyCFCDsENTQ~SeayV~~s~~C~~dhA~AykaHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+T 3j0f_E           81 FGGVYPFMWGGAQCFCDSENSQMSEAYVELSADCASDHAQAIKVHTAAMKVGLRIVYGNTTSFLDVYVNGVTPGTSKDLK  160 (439)
+T ss_pred             ecccccccccceeeeecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCccceecCcee
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeecccccccCCCCceEEEEeeeeeecCCCCcCCCCCCcccccccccCCccceeeeccceecCccceeeeecceecccce
+Q togavirusSS     161 VIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGY  240 (439)
+Q Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQart~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGf  240 (439)
+                      ||+||||+||||||||||+|||||||||||||||||||+|||||+||++|+||||||+|+|+||++|+||||||||||||
+T Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGaG~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf  240 (439)
+T 3j0f_E          161 VIAGPISASFTPFDHKVVIHRGLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIASTDIRLLKPSAKNVHVPYTQASSGF  240 (439)
+T ss_pred             EEecccccCcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCCCceecccccCCcHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCCCCccccCCCceeeeeeeccccCccccceeeeeecCCcceeecCCCCeEEEEEeeeeeeeeeccCCcceEEEe
+Q togavirusSS     241 EMWKNNSGRPLQETAPFGCKIEVEPLRASNCAYGHIPISIDIPDAAFVRSSESPTILEVSCTVADCIYSADFGGSLTLQY  320 (439)
+Q Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y  320 (439)
+                      +|||||+|+|||+||||||+|++||||||||||||||||||||||+|||++|+|++|+|+|++++|+|||||||+|+|+|
+T Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y  320 (439)
+T 3j0f_E          241 EMWKNNSGRPLQETAPFGCKIAVNPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVSECTYSADFGGMATLQY  320 (439)
+T ss_pred             HHHhhcCCCccccCCCcceEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEEeccCCCCeEEEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeeccCccccccccCCCCCcccCCCccccHHHHH
+Q togavirusSS     321 KADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGEPHKVDQEFQA  400 (439)
+Q Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkDHIV~~p~~h~~~~~~  400 (439)
+                      ++||+|||+|||||++|+|||++|+|+++|++|+|||||++||+|+||||++++||+++|+|||||||++|++|+++|++
+T Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkdHIV~~p~~h~~~~~~  400 (439)
+T 3j0f_E          321 VSDREGQCPVHSHSSTATLQESTVHVLEKGAVTVHFSTASPQANFIVSLCGKKTTCNAECKPPADHIVSTPHKNDQEFQA  400 (439)
+T ss_pred             ecCCCcccceecCCCceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCcceecCcccCchhhccCCCcccCccccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhHHHHHHHHcCcceeeeehhhhhhhccccccccC
+Q togavirusSS     401 AVSKTSWNWLLALFGGASSLIVVGLIVLVCSSMLINTRR  439 (439)
+Q Consensus       401 ~iS~TA~~Wl~~l~Gg~~~~i~i~l~i~~~v~~~~~~r~  439 (439)
+                      +||+|||+||++|+||.++++++||+|++||+|++++||
+T Consensus       401 ~iS~Ta~~W~~~l~Gg~~~~~~~~~~v~~~v~~v~~~r~  439 (439)
+T 3j0f_E          401 AISKTSWSWLFALFGGASSLLIIGLMIFACSMMLTSTRR  439 (439)
+T ss_pred             ccchhHHHHHHHHhCCchHHHHHHHHHHHHHhheeeecC
+Confidence            999999999999999999999999999999999999998
+
+
+No 2  
+>3j0c_A E1 envelope glycoprotein; alphavirus, bioweapon; 4.80A {Venezuelan equine encephalitis virus}
+Probab=100.00  E-value=1.5e-248  Score=1808.81  Aligned_cols=439  Identities=50%  Similarity=0.936  Sum_probs=437.1
+
+Q ss_pred             CCccccCCCCCCCchHHHHhhhCcccceeEEEEEeeecccCCCcceEEEEeeeeecCCCcccccceeeccccCCceeeee
+Q togavirusSS       1 FEHATTVPNVPGIPYKALVERAGYAPLNLEITVVSSELTPSTNKEYVTCRFHTVIPSPQVKCCGSLECKASSKADYTCRV   80 (439)
+Q Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~VkCCGs~EC~~~~~pDy~CkV   80 (439)
+                      |||+++|||+||+|||||||||||+||+|||+|++++|+||||||||||+||||||||+|||||++||+++++|||||||
+T Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkV   80 (442)
+T 3j0c_A            1 YEHATTMPSQAGISYNTIVNRAGYAPLPISITPTKIKLIPTVNLEYVTCHYKTGMDSPAIKCCGSQECTPTYRPDEQCKV   80 (442)
+T ss_dssp             CEEEEEEESCTTCCEEEEECCTTBCCEEEEEEEEEEEEEEEEEEEEEECCEEEEECCCEEETTSCCCCCCCCCTTCEEEE
+T ss_pred             CCcccccCCCCCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eccccceeecceeeeccCCcccccceeeecCCCCcchheehhheecceeeeeeEEEEcccceeecceecccCCCCcccce
+Q togavirusSS      81 FGGVYPFMWGGAQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLK  160 (439)
+Q Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+                      ||||||||||||||||||||||||||||||||+|++|||+|||+|||||||+|||||||+++++++|||||||++++|+|
+T Consensus        81 ftGVYPfMWGGAyCFCDtENTQ~SeayV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (442)
+T 3j0c_A           81 FTGVYPFMWGGAYCFCDTENTQVSKAYVMKSDDCLADHAEAYKAHTASVQAFLNITVGEHSIVTTVYVNGETPVNFNGVK  160 (442)
+T ss_dssp             EESCCCEETTEESCSCSSSCEEEEEEEEEECGGGGTSCEEEEEEEEEEEEEEEEEEESSCEEEEEEESCTTSCEEETTEE
+T ss_pred             ecccccccccceeeeecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCccceecCcee
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeecccccccCCCCceEEEEeeeeeecCCCCcCCCCCCcccccccccCCccceeeeccceecCccceeeeecceecccce
+Q togavirusSS     161 VIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGY  240 (439)
+Q Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQart~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGf  240 (439)
+                      ||+||||+||||||||||+|||||||||||||||||||+|||||+||++|+||||||+|+|+||++|+||||||||||||
+T Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf  240 (442)
+T 3j0c_A          161 ITAGPLSTAWTPFDRKIVQYAGEIYNYDFPEYGAGQPGAFGDIQSRTVSSSDLYANTNLVLQRPKAGAIHVPYTQAPSGF  240 (442)
+T ss_dssp             EEECCCSCCCCSSCSEEEEETTEEECCCCCCTTCCCTTSTTSEEESSSSCSCCEECCCCEECCCCTTCCCCCEECCCCHH
+T ss_pred             EEecccccCcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCCCceecccccCCcHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCCCCccccCCCceeeeeeeccccCccccceeeeeecCCcceeecCCCCeEEEEEeeeeeeeeeccCCcceEEEe
+Q togavirusSS     241 EMWKNNSGRPLQETAPFGCKIEVEPLRASNCAYGHIPISIDIPDAAFVRSSESPTILEVSCTVADCIYSADFGGSLTLQY  320 (439)
+Q Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y  320 (439)
+                      +|||||+|+|||+||||||+|++|||||+||||||||||||||||+|||++|+|++|+|+|++++|+|||||||+|+|+|
+T Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y  320 (442)
+T 3j0c_A          241 EQWKKDKAPSLKFTAPFGCEIYTNPIRAENCAVGSIPLAFDIPDALFTRVSETPTLSAAECTLNECVYSSDFGGIATVKY  320 (442)
+T ss_dssp             HHHHHHCCSCHHHHCSTTCEEETTTTEEECCCCCEEEEEEECCGGGCCBGGGSCCEEEEEEEEEEEBCSSSCCEEEEEEE
+T ss_pred             HHHhhcCCCccccCCCcccEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEEeccCCCceEEEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeeccCccccccccCCCCCcccCCCccccHHHHH
+Q togavirusSS     321 KADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGEPHKVDQEFQA  400 (439)
+Q Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkDHIV~~p~~h~~~~~~  400 (439)
+                      ++||+|||+|||||++|+|||++|+|+++|++|+|||||++||+|+||||++++||+++|+|||||||+||++|+++|++
+T Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkdHIV~~p~~h~~~~~~  400 (442)
+T 3j0c_A          321 SASKSGKCAVHVPSGTATLKEAAVELTEQGSATIHFSTANIHPEFRLQICTSYVTCKGDCHPPKDHIVTHPQYHAQTFTA  400 (442)
+T ss_dssp             EESSCEEEEEECSSTTEEESCSEEEECSSCEEEEEEEESCSSCEEEEEETTEEEEEECCCBCCSCCEESSCCCCCCCCSC
+T ss_pred             ecCCCcccceecCCCceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCcceecCcccCchhhccCCCcccCccccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhHHHHHHHHcCcceeeeehhhhhhhccccccccC
+Q togavirusSS     401 AVSKTSWNWLLALFGGASSLIVVGLIVLVCSSMLINTRR  439 (439)
+Q Consensus       401 ~iS~TA~~Wl~~l~Gg~~~~i~i~l~i~~~v~~~~~~r~  439 (439)
+                      |||+|||+||++|+||+|+++++||+||+||+|++++||
+T Consensus       401 ~iS~Ta~~W~~~l~GG~~~~~~i~~~v~~~v~~v~~~r~  439 (442)
+T 3j0c_A          401 AVSKTAWTWLTSLLGGSAVIIIIGLVLATIVAMYVLTNQ  439 (442)
+T ss_dssp             CCCHHHHHHHHTTSSHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ccchhHHHHHHHHhCCchHHHHHHHHHHHHHHHhhhhhh
+Confidence            999999999999999999999999999999999998763
+
+
+No 3  
+>3n44_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG; 2.35A {Chikungunya virus} PDB: 3n41_F* 3n42_F* 3n43_F* 2xfc_A
+Probab=100.00  E-value=4.6e-240  Score=1753.42  Aligned_cols=414  Identities=45%  Similarity=0.896  Sum_probs=390.8
+
+Q ss_pred             CCccccCCCCCCCchHHHHhhhCcccceeEEEEEeeecccCCCcceEEEEeeeeecCCCcccccceeeccccCCceeeee
+Q togavirusSS       1 FEHATTVPNVPGIPYKALVERAGYAPLNLEITVVSSELTPSTNKEYVTCRFHTVIPSPQVKCCGSLECKASSKADYTCRV   80 (439)
+Q Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~VkCCGs~EC~~~~~pDy~CkV   80 (439)
+                      |||++||||+||+|||||||||||+||+|||+|++++|+||||||||||+||||||||+|||||++||+++++|||||||
+T Consensus        23 YEHa~t~PN~vg~pYkA~V~RpGYaPL~L~i~v~~t~l~PtlnleYiTC~YkTvvpSP~VKCCGs~EC~~~~~pDy~CkV  102 (473)
+T 3n44_F           23 YEHVTVIPNTVGVPYKTLVNRPGYSPMVLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKDKNLPDYSCKV  102 (473)
+T ss_dssp             CEEEEEEESCTTCCEEEEECCTTBCCEEEEEEEEEEEEECCEEEEEEEECEEEECCCCEEETTSCCCCCCCCSTTCEEEE
+T ss_pred             eeeeeecCCCCCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eccccceeecceeeeccCCcccccceeeecCCCCcchheehhheecceeeeeeEEEEcccceeecceecccCCCCcccce
+Q togavirusSS      81 FGGVYPFMWGGAQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLK  160 (439)
+Q Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+                      ||||||||||||||||||||||||||||||||+|++|||+|||+|||||||+|||||||+++++++|||||||++++|+|
+T Consensus       103 ftGVYPFMWGGAyCFCDsENTQmSeaYV~rS~~C~~dhA~AykaHTAs~kA~l~ItyG~~~~~v~vyVNG~tp~~~~~~K  182 (473)
+T 3n44_F          103 FTGVYPFMWGGAYCFCDAENTQLSEAHVEKSESCKTEFASAYRAHTASASAKLRVLYQGNNITVTAYANGDHAVTVKDAK  182 (473)
+T ss_dssp             EESCCCEETTEESCSCSSSCEEEEEEEEEECGGGGTSEEEEEEECSCEEEEEEEEEETTEEEEEEEETTSCCEEEETTEE
+T ss_pred             ecccccccccceeeeecCcchhhhhhheecCccchhHHHHHHHhhhheeeEEEEEEEcceeEEEEEEEcCccceecCcee
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeecccccccCCCCceEEEEeeeeeecCCCCcCCCCCCcccccccccCCccceeeeccceecCccceeeeecceecccce
+Q togavirusSS     161 VIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGY  240 (439)
+Q Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQart~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGf  240 (439)
+                      ||+||||+||||||||||+|||||||||||||||||||+|||||+||++|+||||||+|+|+||++|+||||||||||||
+T Consensus       183 ~i~GPiStawsPFD~KIVvyk~eVYNyDfP~YGAG~PG~FGDIQsrt~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGF  262 (473)
+T 3n44_F          183 FIVGPMSSAWTPFDNKIVVYKGDVYNMDYPPFGAGRPGQFGDIQSRTPESKDVYANTQLVLQRPAAGTVHVPYSQAPSGF  262 (473)
+T ss_dssp             EEECCCSCCCCSCCSEEEEETTEEEECCCCCTTCCCTTSTTSEEBSSTTCSCCEECSCCEECCCCTTCCCCCEECCCCHH
+T ss_pred             EEecccccCcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCCccceeeccCcEEccCCCCceecccccCCcHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCCCCccccCCCceeeeeeeccccCccccceeeeeecCCcceeecCCCCeEEEEEeeeeeeeeeccCCcceEEEe
+Q togavirusSS     241 EMWKNNSGRPLQETAPFGCKIEVEPLRASNCAYGHIPISIDIPDAAFVRSSESPTILEVSCTVADCIYSADFGGSLTLQY  320 (439)
+Q Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y  320 (439)
+                      +|||||+|+|||+||||||+|++|||||+||||||||||||||||+|||++|+|++|+|+|++++|+||+||||+|+|+|
+T Consensus       263 ~~W~k~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiSiDIPDAaFTRv~daP~vs~l~Ctv~~CtySsDfGGvatl~Y  342 (473)
+T 3n44_F          263 KYWLKERGASLQHTAPFGCQIATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAPSLTDMSCEVPACTHSSDFGGVAIIKY  342 (473)
+T ss_dssp             HHHHHHCCCCHHHHCGGGCEEETTTTEEESCCCSEEEEEEECCGGGCCBTTTSCCEEEEEEEEEEEBCSSSCCEEEEEEE
+T ss_pred             HHHhhcCCCcccccCCcccEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEEeccCCCCeEEEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeeccCccccccccCCCCCcccCCCccccHHHHH
+Q togavirusSS     321 KADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGEPHKVDQEFQA  400 (439)
+Q Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkDHIV~~p~~h~~~~~~  400 (439)
+                      ++||+|||+|||||++|+|||++|+|+++|++|+|||||++||+|+||||++++||+++|+|||||||+||++|+++|++
+T Consensus       343 ~a~k~GkCaVHs~S~~atl~es~v~v~~~g~~t~hFSTas~~p~F~v~iC~~~vtC~a~C~PPkDHIV~~p~~h~~~~~~  422 (473)
+T 3n44_F          343 AASKKGKCAVHSMTNAVTIREAEIEVEGNSQLQISFSTALASAEFRVQVCSTQVHCAAECHPPKDHIVNYPASHTTLGVQ  422 (473)
+T ss_dssp             EESSCEEEEEEESSTTCEESCSEEEECSSCEEEEEEECSCSEEEEEEEETTEEEEEEEECBCCSCSEESCC---------
+T ss_pred             ecCCCcccceecCCCceEeeeeeEEEeccceEEEEEecCCCCCCEEEEeccCcceecCcccCchhhccCCCcccCccccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhHHHHHHHH
+Q togavirusSS     401 AVSKTSWNWLLALF  414 (439)
+Q Consensus       401 ~iS~TA~~Wl~~l~  414 (439)
+                      |||+|||+||+++-
+T Consensus       423 ~iS~Ta~~W~~~~~  436 (473)
+T 3n44_F          423 DISATAMSWVQKGP  436 (473)
+T ss_dssp             --------------
+T ss_pred             ccchhhHHHHhhCC
+Confidence            99999999999872
+
+
+No 4  
+>1i9w_A Fusion protein E1; envelope glycoprotein, membrane fusion, viral protein; 3.00A {Semliki forest virus} SCOP: b.1.18.4 f.10.1.1 PDB: 2ala_A 1rer_A
+Probab=100.00  E-value=1.5e-232  Score=1676.81  Aligned_cols=390  Identities=53%  Similarity=1.017  Sum_probs=389.6
+
+Q ss_pred             CCccccCCCCCCCchHHHHhhhCcccceeEEEEEeeecccCCCcceEEEEeeeeecCCCcccccceeeccccCCceeeee
+Q togavirusSS       1 FEHATTVPNVPGIPYKALVERAGYAPLNLEITVVSSELTPSTNKEYVTCRFHTVIPSPQVKCCGSLECKASSKADYTCRV   80 (439)
+Q Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~VkCCGs~EC~~~~~pDy~CkV   80 (439)
+                      |||+++|||+||+|||||||||||+||+|||+|++++|+||||||||||+||||||||+|||||++||+++++|||||||
+T Consensus         1 yEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkV   80 (390)
+T 1i9w_A            1 YEHSTVMPNVVGFPYKAHIERPGYSPLTLQMQVVETSLEPTLNLEYITCEYKTVVPSPYVKCCGASECSTKEKPDYQCKV   80 (390)
+T ss_pred             CCcccccCCCCCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eccccceeecceeeeccCCcccccceeeecCCCCcchheehhheecceeeeeeEEEEcccceeecceecccCCCCcccce
+Q togavirusSS      81 FGGVYPFMWGGAQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLK  160 (439)
+Q Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+                      ||||||||||||||||||||||||||||||||+|++|||+|||+|||||||+|||||||+++++++|||||||++++|+|
+T Consensus        81 ftGVYPfMWGGAyCFCDsENTQ~SeayV~~s~~C~~dhA~AykaHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (390)
+T 1i9w_A           81 YTGVYPFMWGGAYCFCDSENTQLSEAYVDRSDVCRHDHASAYKAHTASLKAKVRVMYGNVNQTVDVYVNGDHAVTIGGTQ  160 (390)
+T ss_pred             ecccccccccceeeeecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCccceecCcee
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeecccccccCCCCceEEEEeeeeeecCCCCcCCCCCCcccccccccCCccceeeeccceecCccceeeeecceecccce
+Q togavirusSS     161 VIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGY  240 (439)
+Q Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQart~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGf  240 (439)
+                      ||+||||+||||||||||+|||||||||||||||||||+|||||+||++|+||||||+|+|+||++|+||||||||||||
+T Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGag~pG~FGDIQart~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf  240 (390)
+T 1i9w_A          161 FIFGPLSSAWTPFDNKIVVYKDEVFNQDFPPYGSGQPGRFGDIQSRTVESNDLYANTALKLARPSPGMVHVPYTQTPSGF  240 (390)
+T ss_pred             EEecccccCcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCccceeeccccEEccCCCCceecccccCCcHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCCCCccccCCCceeeeeeeccccCccccceeeeeecCCcceeecCCCCeEEEEEeeeeeeeeeccCCcceEEEe
+Q togavirusSS     241 EMWKNNSGRPLQETAPFGCKIEVEPLRASNCAYGHIPISIDIPDAAFVRSSESPTILEVSCTVADCIYSADFGGSLTLQY  320 (439)
+Q Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y  320 (439)
+                      +|||||+|+|||+||||||+|++|||||+||||||||||||||||+|||++|+|++|+|+|++++|+|||||||+|+|+|
+T Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y  320 (390)
+T 1i9w_A          241 KYWLKEKGTALNTKAPFGCQIKTNPVRAMNCAVGNIPVSMNLPDSAFTRIVEAPTIIDLTCTVATCTHSSDFGGVLTLTY  320 (390)
+T ss_pred             HHHhhcCCCccccCCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEEeccCCCCeEEEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeeccCccccccccCCCCCcccCC
+Q togavirusSS     321 KADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGE  390 (439)
+Q Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkDHIV~~  390 (439)
+                      ++||+|||+|||||++|+|||++|+|+++|++|+|||||++||+|+||||++++||+++|+|||||||+|
+T Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkdHiv~~  390 (390)
+T 1i9w_A          321 KTNKNGDCSVHSHSNVATLQEATAKVKTAGKVTLHFSTASASPSFVVSLCSARATCSASCEPPKDHIVPY  390 (390)
+T ss_pred             ecCCCccceeecCCCceEeeeeeEEEeccceEEEEEecCCCCCCEEEEeccCcceecCcccCchhhccCC
+Confidence            9999999999999999999999999999999999999999999999999999999999999999999997
+
+
+No 5  
+>2yew_B E1 envelope glycoprotein; alphavirus, molecular dynamics; 5.00A {Barmah forest virus}
+Probab=100.00  E-value=3.4e-236  Score=1717.89  Aligned_cols=427  Identities=47%  Similarity=0.940  Sum_probs=421.4
+
+Q ss_pred             CCccccCCCCCCCchHHHHhhhCcccceeEEEEEeeecccCCCcceEEEEeeeeecCCCcccccceeeccccCCceeeee
+Q togavirusSS       1 FEHATTVPNVPGIPYKALVERAGYAPLNLEITVVSSELTPSTNKEYVTCRFHTVIPSPQVKCCGSLECKASSKADYTCRV   80 (439)
+Q Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~VkCCGs~EC~~~~~pDy~CkV   80 (439)
+                      || +++|||+||+|||||||||||+||+|||+|++++|+||||||||||+||||||||+|||||++||+. ++|||||||
+T Consensus         1 ~~-~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~eC~~-~~~Dy~CkV   78 (427)
+T 2yew_B            1 YE-STTMPNQVGIPFKALIERPGYAGLPLSLVVIKSELVPSLVQDYITCNYKTVVPSPYIKCCGGAECSK-NEADYKCSV   78 (427)
+T ss_dssp             CC-CEEEECCBTCCEEECCSSSSCCSSCEEEEEEEEEEECCCEEEEECCCEEEECCCCEEESSSCCCCCC-CSSSEEEEE
+T ss_pred             Cc-ceecCCCCCCchhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCC-cCCCccceE
+Confidence            44 7899999999999999999999999999999999999999999999999999999999999999995 999999999
+
+
+Q ss_pred             eccccceeecceeeeccCCcccccceeeecCCCCcchheehhheecceeeeeeEEEEcccceeecceecccCCCCcccce
+Q togavirusSS      81 FGGVYPFMWGGAQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLK  160 (439)
+Q Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+                      ||||||||||||||||||||||||||||||||+|++| |+|||+ |||+||+|||+|||+++++++|||||||++++|+|
+T Consensus        79 ftGVYPfMWGGAyCFCdtENTQ~SeayV~~s~~C~~d-A~Ayk~-TAs~ka~l~it~g~~~~tv~~yvNG~t~v~~~~~K  156 (427)
+T 2yew_B           79 FTGVYPFMWGGAYCFCDTENSQMSEVYVTRGESCEAD-AIAYQV-TASLKAQVMISIGELNQTVDVFVNGDSPARIQQSK  156 (427)
+T ss_dssp             EESCCCCCSSSSSSSCSSSCEEEEEEEEEECSCCSSS-CEEEEC-CCEEEEEEEEECSSCEEEEEEECSSCEEEEETTEE
+T ss_pred             ecccccccccceeeeecCccceeehheeecCccchhh-HHHHhh-hheeEEEEEEEECceeEEEEEEEcCccceecCcee
+Confidence            9999999999999999999999999999999999999 999999 99999999999999999999999999999999999
+
+
+Q ss_pred             EeecccccccCCCCceEEEEeeeeeecCCCCcCCCCCCcccccccccCCccceeeeccceecCccceeeeecceecccce
+Q togavirusSS     161 VIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGY  240 (439)
+Q Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQart~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGf  240 (439)
+                      ||+||||+|||||| |||+|||||||||||||||||||+|||||+||++|+||||||+|+|+||++|+||||||||||||
+T Consensus       157 ~I~GPiStawsPFD-KiVvy~~eVYNyDfP~YGag~pG~FGDIQ~rt~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf  235 (427)
+T 2yew_B          157 FILGPISSAWSPFD-KVIVYRDEVYNEDYAPYGSGQAGRFGDIQSRTVNSTDVYANTNLKLKRPASGNVHVPYTQTPSGF  235 (427)
+T ss_dssp             EEECCCCCCCCCCS-EEEECSSCEEECCCCCTTCCCSSSTTCSEESSSSCSSEECCCCEECCCCCSSCC-CCCEECCCHH
+T ss_pred             EEecccccCCCCCc-eEEEecceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCCCceecccccCCcHH
+Confidence            99999999999999 99999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCCCCccccCCCceeeeeeeccccCccccceeeeeecCCcceeecCCCCeEEEEEeeeeeeeeeccCCcceEEEe
+Q togavirusSS     241 EMWKNNSGRPLQETAPFGCKIEVEPLRASNCAYGHIPISIDIPDAAFVRSSESPTILEVSCTVADCIYSADFGGSLTLQY  320 (439)
+Q Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y  320 (439)
+                      +|||||+|+|||+||||||+|++|||||+|||||||||||||||| |||++|+|++|+|+|++++|+|||||||+|+|+|
+T Consensus       236 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA-FtRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y  314 (427)
+T 2yew_B          236 SYWKKEKGVPLNRNAPFGCIIKVNPVRAENCVYGNIPISMDIADA-FTRIDESPSVSLKACEVQSCTYSSDFGGVASISY  314 (427)
+T ss_dssp             HHHTTTCCEESTTCSSSCCEEETTTTEEESCCCCEEEEEEECCCC-SSSSCSCCCCEEEEEEECCCCSCCSSCCEEEEEE
+T ss_pred             HHHhhcCCCccccCCCcceEEecCcchhhcccccceeeeecCchh-hhccccCCccccceEEeeEEEeccCCCCeEEEEE
+Confidence            999999999999999999999999999999999999999999996 9999999999999999999999999999999999
+
+
+Q ss_pred             ecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeeccCccccccccCCCCCcccCCCccccHHHHH
+Q togavirusSS     321 KADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGEPHKVDQEFQA  400 (439)
+Q Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkDHIV~~p~~h~~~~~~  400 (439)
+                      ++||+|||+|||  ++|+|||++|+|+++|++|+|||||++||+|+||||++++|| ++|+|||| ||+||++|++ +++
+T Consensus       315 ~a~k~GkCavHs--~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC-~~C~PPkD-~V~~p~~h~~-~~~  389 (427)
+T 2yew_B          315 TSNKVGKCAISS--NSATMKDSVQDVQESGALSLFFATSSVEPNFVVQVCNARITC-GKCEPPKD-IVPYAAKNDA-EFP  389 (427)
+T ss_dssp             ECCCCBCCCCCC--SSCCCSCCCCCBCSCCSEEEECCTTSSCSCBCCEETTEECCB-CCCCCCSS-CCCCCCCSSC-CSS
+T ss_pred             ecCCCcccceec--CceEeeeeeEEEeecceEEEEEecCCCCCCEEEEecccccee-cCCcChhh-hcCCcccCCc-ccc
+Confidence            999999999999  999999999999999999999999999999999999999999 99999999 8999999999 889
+
+
+Q ss_pred             hhhhhhHHHHHHHHcCcceeeeehhhhhhhccccccccC
+Q togavirusSS     401 AVSKTSWNWLLALFGGASSLIVVGLIVLVCSSMLINTRR  439 (439)
+Q Consensus       401 ~iS~TA~~Wl~~l~Gg~~~~i~i~l~i~~~v~~~~~~r~  439 (439)
+                      +||+|||+||++| ||++++++|||+||+||+|++++||
+T Consensus       390 ~iS~TAwsWl~~l-GG~~~~i~ialivlv~v~cv~~~r~  427 (427)
+T 2yew_B          390 SISTTAWQWLATT-SGPLTILVVAIIVVVVVSIVVCARH  427 (427)
+T ss_dssp             CSSHHHHHHHGGG-HHHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             ccchhHHHHHHHh-cCchHHHHHHHHHHHHHhheeeecC
+Confidence            9999999999999 9999999999999999999999998
+
+
+No 6  
+>3n40_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG NDG; 2.17A {Chikungunya virus} PDB: 3j2w_A 2xfb_A
+Probab=100.00  E-value=4.7e-233  Score=1681.45  Aligned_cols=391  Identities=47%  Similarity=0.948  Sum_probs=390.3
+
+Q ss_pred             CCccccCCCCCCCchHHHHhhhCcccceeEEEEEeeecccCCCcceEEEEeeeeecCCCcccccceeeccccCCceeeee
+Q togavirusSS       1 FEHATTVPNVPGIPYKALVERAGYAPLNLEITVVSSELTPSTNKEYVTCRFHTVIPSPQVKCCGSLECKASSKADYTCRV   80 (439)
+Q Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~VkCCGs~EC~~~~~pDy~CkV   80 (439)
+                      |||+++|||+||+|||||||||||+||+|||+|++++|+||||||||||+||||||||+|||||++||+++++|||||||
+T Consensus         3 yEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkV   82 (393)
+T 3n40_F            3 YEHVTVIPNTVGVPYKTLVNRPGYSPMVLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKDKNLPDYSCKV   82 (393)
+T ss_dssp             EEEEEEEESCTTCCEEEEECCTTBCCEEEEEEEEEEEEEEEEEEEEEECCEEEECCCCEEETTSCCCCCCCCSTTCEEEE
+T ss_pred             cccceecCCCCCCchhheecCCCCCceeEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceE
+Confidence            69999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eccccceeecceeeeccCCcccccceeeecCCCCcchheehhheecceeeeeeEEEEcccceeecceecccCCCCcccce
+Q togavirusSS      81 FGGVYPFMWGGAQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLK  160 (439)
+Q Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+                      ||||||||||||||||||||||||||||||||+|++|||+|||+|||||||+|||||||+++++++|||||||++++|+|
+T Consensus        83 ftGVYPfMWGGAyCFCDsENTQ~SeayV~~s~~C~~dhA~AykaHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K  162 (393)
+T 3n40_F           83 FTGVYPFMWGGAYCFCDAENTQLSEAHVEKSESCKTEFASAYRAHTASASAKLRVLYQGNNITVTAYANGDHAVTVKDAK  162 (393)
+T ss_dssp             EESCCCEETTEESCSCSSSCEEEEEEEEEECGGGGTSCEEEEEEEEEEEEEEEEEEETTEEEEEEEETTSCCEEEETTEE
+T ss_pred             ecccccccccceeeeecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCccceecCcee
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeecccccccCCCCceEEEEeeeeeecCCCCcCCCCCCcccccccccCCccceeeeccceecCccceeeeecceecccce
+Q togavirusSS     161 VIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGY  240 (439)
+Q Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQart~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGf  240 (439)
+                      ||+||||+||||||||||+|||||||||||||||||||+|||||+||++|+||||||+|+|+||++|+||||||||||||
+T Consensus       163 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGag~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf  242 (393)
+T 3n40_F          163 FIVGPMSSAWTPFDNKIVVYKGDVYNMDYPPFGAGRPGQFGDIQSRTPESKDVYANTQLVLQRPAAGTVHVPYSQAPSGF  242 (393)
+T ss_dssp             EEECCCSCCCCSCCSEEEEETTEEEECCCCCTTCCCTTSTTSEEBSSTTCSSCEECCCCEECCCCTTCCCCCEECCCCHH
+T ss_pred             EEecccccCcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCccceeeccccEEccCCCCceecccccCCcHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCCCCccccCCCceeeeeeeccccCccccceeeeeecCCcceeecCCCCeEEEEEeeeeeeeeeccCCcceEEEe
+Q togavirusSS     241 EMWKNNSGRPLQETAPFGCKIEVEPLRASNCAYGHIPISIDIPDAAFVRSSESPTILEVSCTVADCIYSADFGGSLTLQY  320 (439)
+Q Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y  320 (439)
+                      +|||||+|+|||+||||||+|++|||||+||||||||||||||||+|||++|+|++|+|+|++++|+|||||||+|+|+|
+T Consensus       243 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y  322 (393)
+T 3n40_F          243 KYWLKERGASLQHTAPFGCQIATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAPSLTDMSCEVPACTHSSDFGGVAIIKY  322 (393)
+T ss_dssp             HHHHHHSCSCHHHHCGGGCEEETTTTEEECCCCSEEEEEEEECGGGCCBTTTSCCEEEEEEEEEEEBCSSSCCEEEEEEE
+T ss_pred             HHHhhcCCCccccCCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEEeccCCCCeEEEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeeccCccccccccCCCCCcccCCC
+Q togavirusSS     321 KADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGEP  391 (439)
+Q Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkDHIV~~p  391 (439)
+                      ++||+|||+|||||++|+|||++|+|+++|++|+|||||++||+|+||||++++||+++|+|||||||+||
+T Consensus       323 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkdHIv~~p  393 (393)
+T 3n40_F          323 AASKKGKCAVHSMTNAVTIREAEIEVEGNSQLQISFSTALASAEFRVQVCSTQVHCAAECHPPKDHIVNYP  393 (393)
+T ss_dssp             EESSCEEEEEEESSTTEEESCSEEEECSEEEEEEEEEESCSEEEEEEEETTEEEEEEEECBCCSCSEESCC
+T ss_pred             ecCCCccceeecCCCceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCcceecCcccCchhhccCCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999998
+
+
+No 7  
+>3muu_A Structural polyprotein; beta barrels, IG-like folds, viral protein; HET: NAG BMA MAN; 3.29A {Sindbis virus} PDB: 3muw_A 3muw_U 1z8y_A 1z8y_B
+Probab=100.00  E-value=3e-223  Score=1703.71  Aligned_cols=388  Identities=77%  Similarity=1.327  Sum_probs=379.6
+
+Q ss_pred             CCccccCCCCCCCchHHHHhhhCcccceeEEEEEeeecccCCCcceEEEEeeeeecCCCcccccceeeccccCCceeeee
+Q togavirusSS       1 FEHATTVPNVPGIPYKALVERAGYAPLNLEITVVSSELTPSTNKEYVTCRFHTVIPSPQVKCCGSLECKASSKADYTCRV   80 (439)
+Q Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~VkCCGs~EC~~~~~pDy~CkV   80 (439)
+                      |||+++|||+||+||||||||||||||+|||+|++++|+||||||||||+||||||||+|||||++||+++++|||||||
+T Consensus       361 YEH~~t~PN~vg~PYkAlV~RpGYaPl~L~i~v~~t~l~PtlnleYiTC~YkTvVpSP~VKCCGs~EC~~~~~pDy~CkV  440 (750)
+T 3muu_A          361 YEHATTVPNVPQIPYKALVERAGYAPLNLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAAHAGYTCKV  440 (750)
+T ss_dssp             EEEEEEEECCTTCCEEEEECCTTSBCEEEEEEEEEECCEEEEEEEEEECCEEEECCCCEEETTSCCCCCCCCSTTCEEEE
+T ss_pred             eeeeeecCCCCCCchhheecCCCCCceeEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCCCCCCCccceE
+Confidence            79999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eccccceeecceeeeccCCcccccceeeecCCCCcchheehhheecceeeeeeEEEEcccceeecceecccCCCCcccce
+Q togavirusSS      81 FGGVYPFMWGGAQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLK  160 (439)
+Q Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+                      ||||||||||||||||||||||||||||||||+|++|||+|||||||||||+|||||||++++++||||||||++++|+|
+T Consensus       441 ftGVYPFMWGGAyCFCDtENTQmSeaYV~rS~~C~~DhA~AykaHTas~kA~l~ItyG~~~~~v~vyVNG~tp~~~~~~K  520 (750)
+T 3muu_A          441 FGGVYPFMWGGAQCFCDSENSQMSEAYVELSADCASDHAQAIKVHTAAMKVGLRIVYGNTTSFLDVYVNGVTPGTSKDLK  520 (750)
+T ss_dssp             EESCCCSTTTTTTCCCSSSCEEEEEEEEEECTTTTTSCEEEEEEEEEECCEEEEEEETTEEEEEECCBSSSCEEECSSCE
+T ss_pred             ecccccccccceeeeecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCccceecCceE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeecccccccCCCCceEEEEeeeeeecCCCCcCCCCCCcccccccccCCccceeeeccceecCccceeeeecceecccce
+Q togavirusSS     161 VIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGY  240 (439)
+Q Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQart~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGf  240 (439)
+                      ||+||||+||||||||||+|||||||||||||||||||+||||||||++|+||||||||+|+||++|+||||||||||||
+T Consensus       521 ~i~GPlSsawsPFD~KIVvy~~eVYNyDFPeYGAG~pG~FGDIQsrt~~s~DlyAnT~l~L~RP~~g~iHVPYTQapSGf  600 (750)
+T 3muu_A          521 VIAGPISASFTPFDHKVVIHRGLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIASTDIRLLKPSAKNVHVPYTQASSGF  600 (750)
+T ss_dssp             EEECCCSSCCCSCCSEEEECSSCEEECCCCCTTCCCSSSTTSEEBSSTTTCSCEECCCCEECCCCTTSCCCCEECCCCHH
+T ss_pred             EEecccccCcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCccceeeccCcEEccCCCCceecccccCCcHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCCCCccccCCCceeeeeeeccccCccccceeeeeecCCcceeecCCCCeEEEEEeeeeeeeeeccCCcceEEEe
+Q togavirusSS     241 EMWKNNSGRPLQETAPFGCKIEVEPLRASNCAYGHIPISIDIPDAAFVRSSESPTILEVSCTVADCIYSADFGGSLTLQY  320 (439)
+Q Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y  320 (439)
+                      +|||||+|+|||+||||||+|++|||||+||||||||||||||||+|||++|+|++|+|+|+|++|+|||||||+|+|+|
+T Consensus       601 ~~W~k~~g~~L~~tAPFGC~I~~nPvRA~nCavGnIPiSiDIPDAaFTRvsdaP~vs~l~Ctv~~CtySsDfGGvatl~Y  680 (750)
+T 3muu_A          601 EMWKNNSGRPLQETAPFGCKIAVNPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVSECTYSADFGGMATLQY  680 (750)
+T ss_dssp             HHHHTTCCSCGGGTCTTSCEEEETTEEEETCCCSEEEEEEEEEGGGCBCSCCSSCEEEEEEEEEECCTTSSSCEEEEEEE
+T ss_pred             HHHhhcCCCcccccCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEEeccCCCCEEEEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeeccCccccccccCCCCCccc
+Q togavirusSS     321 KADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHII  388 (439)
+Q Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkDHIV  388 (439)
+                      ++||+|||+|||||++|+|||++|+|+++|++||||||||+||+|+||||++++||+++|+||..|--
+T Consensus       681 ~a~k~GkCavHs~S~~atl~es~v~v~~~G~~t~hFSTAs~~p~F~v~iC~~~vtC~~~C~~~~~~~~  748 (750)
+T 3muu_A          681 VSDREGQCPVHSHSSTATLQESTVHVLEKGAVTVHFSTASPQANFIVSLCGKKTTCNAECKPPAHHHH  748 (750)
+T ss_dssp             EESSCCCEECEESSTTCEESCSEECCCSSCEEEEEEECCCSBCCBCEECSSCBCCBCCBC--------
+T ss_pred             ecCCCccceeeccCCceEeeeeeEEeecCceEEEEEecCCCCCCEEEEeccCcceecCccCCcccccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999998731
+
+
+No 8  
+>2v33_A E1 envelope glycoprotein; transmembrane, viral protein; 1.55A {Semliki forest virus} SCOP: b.1.18.4
+Probab=100.00  E-value=1.4e-45  Score=302.56  Aligned_cols=91  Identities=55%  Similarity=1.037  Sum_probs=90.6
+
+Q ss_pred             CCCeEEEEEeeeeeeeeeccCCcceEEEeecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeecc
+Q togavirusSS     292 ESPTILEVSCTVADCIYSADFGGSLTLQYKADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCG  371 (439)
+Q Consensus       292 d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~  371 (439)
+                      |+|+||+|+|++++|+|||||||+|+|+|++||+|||+|||||++|+|||++|+|+++|++|||||||++||+|+||||+
+T Consensus         1 daP~vs~l~Ctv~~CtySsDfGGvatl~Y~a~k~GkCavHs~S~~atl~e~~v~v~~~G~~t~hFSTAs~~p~F~v~vC~   80 (91)
+T 2v33_A            1 EAPTIIDLTCTVATCTHSSDFGGVLTLTYKTNKNGDCSVHSHSNVATLQEATAKVKTAGKVTLHFSTASASPSFVVSLCS   80 (91)
+T ss_dssp             CCCCEEEEEEEEEEEBCEEEEEEEEEEEEEESSCEEEEEECCCSSEEESBSEEEECTTCEEEEEEEESCSSCEEEEEETT
+T ss_pred             CCCcccccEEEeeEEEeccCCCCEEEEEEecCCCeeceEEccCCcEEEEeeeEEeeccceEEEEEecCCCCCCEEEEecc
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CccccccccCC
+Q togavirusSS     372 KKTTCNAECKP  382 (439)
+Q Consensus       372 ~~vtC~~~C~P  382 (439)
+                      +++||+++|+|
+T Consensus        81 ~~vtC~~~C~P   91 (91)
+T 2v33_A           81 ARATCSASCEP   91 (91)
+T ss_dssp             EEEEEECCCBC
+T ss_pred             CcceEcceecC
+Confidence            99999999999
+
+
+No 9  
+>3j2w_E Glycoprotein E1; E1-E2 glycoprotein, transmembrane HELI; 5.00A {Chikungunya virus}
+Probab=99.19  E-value=3.3e-17  Score=118.76  Aligned_cols=46  Identities=17%  Similarity=0.324  Sum_probs=43.2
+
+Q ss_pred             ccHHHHHhhhhhhHHHHHHHHcCcceeeeehhhhhhhccccccccC
+Q togavirusSS     394 VDQEFQAAVSKTSWNWLLALFGGASSLIVVGLIVLVCSSMLINTRR  439 (439)
+Q Consensus       394 h~~~~~~~iS~TA~~Wl~~l~Gg~~~~i~i~l~i~~~v~~~~~~r~  439 (439)
+                      ||++|++|||+|||+|+++++||+++++++|++|+++|+|++++||
+T Consensus         1 h~~~~~~~iS~TA~sWl~~l~GG~~~li~i~livlvvv~cv~~~rr   46 (46)
+T 3j2w_E            1 HTTLGVQDISTTAMSWVQKITGGVGLIVAVAALILIVVLCVSFSRH   46 (46)
+T ss_dssp             CCCCCCCCCCSHHHHHHHTTSSHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             CCccccccchhHHHHHHHHHhCCcHHHHHHHHHHHHHHHHHHhccC
+Confidence            5666678999999999999999999999999999999999999998
+
+
+No 10 
+>1c4e_A Protein (gurmarin); sweet taste suppression, cystine knot, sweet taste transduction, plant protein; HET: PCA; NMR {Gymnema sylvestre} SCOP: g.3.4.1 PDB: 1gur_A*
+Probab=78.81  E-value=3.4  Score=26.41  Aligned_cols=25  Identities=32%  Similarity=0.577  Sum_probs=20.6
+
+Q ss_pred             ecCCCcccccceeeccccCCceeee
+Q togavirusSS      55 IPSPQVKCCGSLECKASSKADYTCR   79 (439)
+Q Consensus        55 vpSP~VkCCGs~EC~~~~~pDy~Ck   79 (439)
+                      --.=++.||.++||+..+-=|-.|-
+T Consensus        10 cipyyldccepleckkvnwwdhkci   34 (35)
+T 1c4e_A           10 CIPYYLDCCEPLECKKVNWWDHKCI   34 (35)
+T ss_dssp             CCTTTCCCSSSCCEEESSSSCEEEC
+T ss_pred             ecchhhcccChhhcccccccccccc
+Confidence            1234789999999999999999993
+
+
+No 11 
+>1sbw_I Protein (MUNG bean inhibitor lysin active frament); complex(proteinase/inhibitor), hydrolase/hydrolase inhibitor complex; 1.80A {Vigna radiata} PDB: 1g9i_I 1smf_I
+Probab=20.14  E-value=51  Score=19.60  Aligned_cols=24  Identities=29%  Similarity=0.681  Sum_probs=17.2
+
+Q ss_pred             CCCcccccceeeccccCCceeeeee
+Q togavirusSS      57 SPQVKCCGSLECKASSKADYTCRVF   81 (439)
+Q Consensus        57 SP~VkCCGs~EC~~~~~pDy~CkVf   81 (439)
+                      ||- +||...+|....-|-++|.=.
+T Consensus         1 ~~w-~CCd~~~Ctrs~pp~c~C~D~   24 (35)
+T 1sbw_I            1 SSE-PCCDSCRCTKSIPPQCHCANI   24 (35)
+T ss_pred             CCc-CccCcCeECCCcCCCcEECCC
+Confidence            455 899999997777777776311
+
+
+No 12 
+>3myw_I Bowman-BIRK type trypsin inhibitor; serine proteinase, bowman-BIRK-type inhibitor, hydrolase-HYD inhibitor complex; 2.50A {Vigna radiata var}
+Probab=6.60  E-value=2.1e+02  Score=18.86  Aligned_cols=55  Identities=18%  Similarity=0.419  Sum_probs=20.5
+
+Q ss_pred             eecCCCcccccceeeccccCCceeeee--eccccceeecceeeeccCCcccccceeeec--CCCCc
+Q togavirusSS      54 VIPSPQVKCCGSLECKASSKADYTCRV--FGGVYPFMWGGAQCFCDSENTQLSEAYVEF--APDCT  115 (439)
+Q Consensus        54 vvpSP~VkCCGs~EC~~~~~pDy~CkV--ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~--s~~C~  115 (439)
+                      --++|- +||....|....-|-.+|.=  ..+--|   .-..|.|...+   ...|+=.  ..+|.
+T Consensus         5 ~~~~pw-~CCD~c~CtrS~PP~C~C~D~~~~~C~~---aCk~C~~~~s~---p~~~~C~D~~~~c~   63 (72)
+T 3myw_I            5 PSESSE-PCCDSCDCTKSKPPQCHCANIRLNSCHS---ACKSCICTRSM---PGKCRCLDTDDFCY   63 (72)
+T ss_dssp             --------CCSCEEEESSSSCCEEECCCEESCCCS---SCSCEEEESSS---SCEEEECCCBSSCC
+T ss_pred             CCCCCc-ccCCCCccCCccCCCceEeCCCcCccCc---ccCCCcCCccC---CCCeEecCCCCCcC
+Confidence            112333 99999999877777777742  222211   11222222110   1111111  11111
+
+
+No 13 
+>2g81_I BTCI, bowman-BIRK type SEED trypsin and chymotrypsin inhibitor; proteinase inhibitor, protein structure, bowman-BIRK inhibitor; HET: P6G PGE; 1.55A {Vigna unguiculata} SCOP: g.3.13.1 PDB: 1h34_A 1tab_I 3ru4_B 2r33_A 1bbi_A 2bbi_A 1d6r_I 1k9b_A 1pi2_A
+Probab=5.98  E-value=2.5e+02  Score=19.02  Aligned_cols=57  Identities=18%  Similarity=0.355  Sum_probs=24.7
+
+Q ss_pred             eeecCCCcccccceeeccccCCceeeee--eccccceeecceeeeccCCcccccceeee--cCCCCcc
+Q togavirusSS      53 TVIPSPQVKCCGSLECKASSKADYTCRV--FGGVYPFMWGGAQCFCDSENTQLSEAYVE--FAPDCTI  116 (439)
+Q Consensus        53 TvvpSP~VkCCGs~EC~~~~~pDy~CkV--ftGVYPfMWGGAyCFCdtENTQ~SeaYV~--~s~~C~~  116 (439)
+                      --.+.|- +||....|....-|-.+|.=  ..+-=|   +-..|.+...+   ...|+=  .-.+|..
+T Consensus        10 ~~~~rpw-~CCD~c~Ctrs~PP~C~C~D~~v~~C~~---aCk~C~~~~s~---p~~~~C~D~~~fC~~   70 (83)
+T 2g81_I           10 EASESSK-PCCDRCECTKSIPPQCRCSDVRLNSCHS---ACKSCACTFSI---PAQCFCGDINDFCYK   70 (83)
+T ss_dssp             --------CBCSSEEEESSSSCCEEECCEEESCCCT---TCSCEEECSSS---SCEEEECCCBSSCCB
+T ss_pred             cCCCCCC-ccCCCCccCCccCCCceEeCCCcCccCc---ccCCCCccccC---CCCeEECCCCCCcCc
+Confidence            1123444 99999999988888888853  233321   22334442211   012221  1122211
+
+
+No 14 
+>1mvz_A MSTI, bowman-BIRK type protease inhibitor, (MSTI); serine protease inhibitor, three stranded beta-sheet, VIB type turn, hydrolase inhibitor; NMR {Medicago scutellata} SCOP: g.3.13.1 PDB: 2iln_I
+Probab=4.93  E-value=2.5e+02  Score=17.89  Aligned_cols=55  Identities=16%  Similarity=0.334  Sum_probs=29.3
+
+Q ss_pred             ecCCCcccccceeeccccCCceeee-eeccccceeecceeeeccCCcccccceeee--cCCCCcc
+Q togavirusSS      55 IPSPQVKCCGSLECKASSKADYTCR-VFGGVYPFMWGGAQCFCDSENTQLSEAYVE--FAPDCTI  116 (439)
+Q Consensus        55 vpSP~VkCCGs~EC~~~~~pDy~Ck-VftGVYPfMWGGAyCFCdtENTQ~SeaYV~--~s~~C~~  116 (439)
+                      -+.| -+||....|+...-|-.+|. +..+-=|   .-..|.|...+   ...|+=  .-++|..
+T Consensus         2 ~~~~-w~CCD~~~Ctrs~PP~C~C~D~v~~C~~---aCk~C~~~~s~---p~~~~C~D~~~fC~~   59 (62)
+T 1mvz_A            2 KSTT-TACCDFCPCTRSIPPQCQCTDVREKCHS---ACKSCLCTRSF---PPQCRCYDITDFCYP   59 (62)
+T ss_dssp             CCCC-CSCBSSCCBCCSSSCCBCCCCEESSCCS---SCSSEEECSSS---SCCEEECCCBSSCCC
+T ss_pred             CCCC-CCcCCCCccCCccCCCceEccCCCCccc---ccCCCcccccC---CCCeEECCCCccccc
+Confidence            1334 49999999988888877773 3344433   44455554421   112332  2333421
+
+
+No 15 
+>2llm_A Amyloid beta A4 protein; alzheimer'S disease, protein fibril; NMR {Homo sapiens} PDB: 2loh_A 2lz3_A 2lz4_A
+Probab=4.07  E-value=2.4e+02  Score=16.61  Aligned_cols=41  Identities=12%  Similarity=0.220  Sum_probs=19.1
+
+Q ss_pred             ccccHHHHHhh-hhhhHHHHHHHHcCcceeeeehhhhhhhccccccccC
+Q togavirusSS     392 HKVDQEFQAAV-SKTSWNWLLALFGGASSLIVVGLIVLVCSSMLINTRR  439 (439)
+Q Consensus       392 ~~h~~~~~~~i-S~TA~~Wl~~l~Gg~~~~i~i~l~i~~~v~~~~~~r~  439 (439)
+                      ++ .+.+.+.. +.+.-.-+.=++||      ++++.++++..+..||+
+T Consensus         2 ~~-~~~~~~~~~~~~~~a~igL~v~~------v~i~~iivval~~~Rr~   43 (43)
+T 2llm_A            2 SQ-KLVFFAEDVGSNKGAIIGLMVGG------VVIATVIVITLVMLKKK   43 (43)
+T ss_dssp             CS-SHHHHHHHTTTSHHHHHHHHHHH------HHHHHHHHHHHHHHHCC
+T ss_pred             cc-chhhhhhhcCccchHHHHHHHHH------HHHHHHHHHHHHHhccC
+Confidence            12 34455554 44444555555454      34444444444454443
+
+
+No 16 
+>2lk9_A Bone marrow stromal antigen 2; membrane, micelle, antiviral protein-immune system complex; NMR {Homo sapiens}
+Probab=3.36  E-value=2.7e+02  Score=16.86  Aligned_cols=27  Identities=22%  Similarity=0.005  Sum_probs=11.1
+
+Q ss_pred             hhhHHHHHHHHcCcceeeeehhhhhhhcccccc
+Q togavirusSS     404 KTSWNWLLALFGGASSLIVVGLIVLVCSSMLIN  436 (439)
+Q Consensus       404 ~TA~~Wl~~l~Gg~~~~i~i~l~i~~~v~~~~~  436 (439)
+                      -+-|-|+.-+.      +++|+.|.+|+.-+-.
+T Consensus         5 lp~w~~iLL~l------vvvgL~ValIifavka   31 (35)
+T 2lk9_A            5 LLLGIGILVLL------IIVILGVPLIIFTIKK   31 (35)
+T ss_dssp             CHHHHHHHHHH------HHHHHHHHHHHHC---
+T ss_pred             chhHHHHHHHH------HHHHHHHHhheeeeec
+Confidence            14567754432      2335555554432211
+
+
+No 17 
+>2e2s_A Agelenin; cystine knot, presynaptic calcium channel inhibitor, toxin; NMR {Allagelena opulenta}
+Probab=2.79  E-value=3.5e+02  Score=15.83  Aligned_cols=24  Identities=33%  Similarity=0.674  Sum_probs=15.4
+
+Q ss_pred             cCCCcccccceeeccccCCceeee
+Q togavirusSS      56 PSPQVKCCGSLECKASSKADYTCR   79 (439)
+Q Consensus        56 pSP~VkCCGs~EC~~~~~pDy~Ck   79 (439)
+                      ++--=.||+..-|+....++-.|+
+T Consensus        12 ~~~Gp~CC~g~~C~~~~~~~c~Cr   35 (36)
+T 2e2s_A           12 ALSGPRCCSGLKCKELSIWDSRCL   35 (36)
+T ss_dssp             SSSSCCBCTTCCEEEEETTEEEEC
+T ss_pred             CcCCCcccCCCEEecCCCcCceec
+Confidence            111125899888888777766664
+
+
+No 18 
+>4wwe_5 50S ribosomal protein L31, 50S ribosomal protein L25; ribosome; HET: 3V6; 3.40A {Thermus thermophilus} PDB: 4wwt_5*
+Probab=2.47  E-value=2.6e+02  Score=14.41  Aligned_cols=27  Identities=22%  Similarity=0.514  Sum_probs=15.0
+
+Q ss_pred             eeEEE-eeeEEEEeecCCCcccEEEeeccCc
+Q togavirusSS     344 THVTA-VGSITLHFSTSSPQANFIVSLCGKK  373 (439)
+Q Consensus       344 v~v~~-~g~~t~hFSTas~~~~F~v~iC~~~  373 (439)
+                      +.+.- .|..-...||   .|+++|.+|++-
+T Consensus         3 v~~~c~cg~~f~~~ST---~~~~~vdicS~c   30 (30)
+T 4wwe_5            3 ARIICGCGNVIETYST---KPEIYVEVCSKC   30 (30)
+T ss_dssp             EEEEETTSCEEEEECS---SSEEEESCCSCC
+T ss_pred             EEEEECCCCEEEEccC---CCCEEEEecCCC
+Confidence            11111 2333333455   799999999862
+
+
+No 19 
+>3s3x_D Psalmotoxin-1; acid-sensing, ION channel, membrane protein, sodium channel, membrane, glycoprotein, ION transport, membrane; HET: NAG; 2.99A {Psalmopoeus cambridgei} PDB: 2kni_A 1lmm_A 4fz0_M* 4fz1_D*
+Probab=2.40  E-value=4.8e+02  Score=15.68  Aligned_cols=30  Identities=20%  Similarity=0.312  Sum_probs=21.9
+
+Q ss_pred             eecCCCcccccceeeccccCCceeeeeecc
+Q togavirusSS      54 VIPSPQVKCCGSLECKASSKADYTCRVFGG   83 (439)
+Q Consensus        54 vvpSP~VkCCGs~EC~~~~~pDy~CkVftG   83 (439)
+                      .--.-+=.||..+||-...+.-+-|---|-
+T Consensus         8 gcvnrhgdcceglecwkrrrsfevcvpktp   37 (37)
+T 3s3x_D            8 GCVNRHGDCCEGLECWKRRRSFEVCVPKTP   37 (37)
+T ss_dssp             BCTTCTTCBCTTEEEECCSSSCCEEEECCC
+T ss_pred             chhccccchhhhHHHHHhccceeeecCCCC
+Confidence            112345579999999999999999976441
+
+
+No 20 
+>2m3e_A Integrin alpha-L; integrin alpah L TM domain, polar interaction, membrane PROT; NMR {Homo sapiens}
+Probab=2.02  E-value=49  Score=20.78  Aligned_cols=34  Identities=21%  Similarity=0.323  Sum_probs=10.6
+
+Q ss_pred             hhhhHHHHHHHHcCcceeeeehhhhhhhccccccccC
+Q togavirusSS     403 SKTSWNWLLALFGGASSLIVVGLIVLVCSSMLINTRR  439 (439)
+Q Consensus       403 S~TA~~Wl~~l~Gg~~~~i~i~l~i~~~v~~~~~~r~  439 (439)
+                      .-+-|-.+..+.||.   ++++++++++-=|=.|+|+
+T Consensus         9 ~~~~wiii~s~i~Gl---llL~~ii~iL~K~GFFkR~   42 (50)
+T 2m3e_A            9 KQMLYLYVLSGIGGL---LLLLLIFIVLYKVGFFKRN   42 (50)
+T ss_dssp             CCCHHHHHHHHHHHH---HHHHHHHHHHHHHTSGGGS
+T ss_pred             cccHHHHHHHHHHHH---HHHHHHHHHHHHcCccccC
+Confidence            112344444444321   1122222222222333332
+
+
+Done!

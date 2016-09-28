@@ -1,0 +1,56 @@
+Query         D1FNM3
+Match_columns 300
+No_of_seqs    90 out of 308
+Neff          4.4 
+Searched_HMMs 1
+Date          Tue Aug 23 14:46:43 2016
+Command       hhalign -i ./finalsequences/models/D1FNM3.a3m.hhm -t ./finalsequences/models/P29990.a3m.hhm -o ./finalsequences/results/D1FNM3_P29990_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 P29990                         100.0  1E-132  1E-132  955.3  16.6  291    1-300     2-296 (495)
+
+No 1  
+>P29990
+Probab=100.00  E-value=9.8e-133  Score=955.25  Aligned_cols=291  Identities=41%  Similarity=0.787  Sum_probs=283.8
+
+Q ss_pred             CccccCCCcceeccccceEEEEEEEeCceEEEeecCCccceehhhhhhhcCcccccceeeeccccccceeccCCCCCcch
+Q D1FNM3            1 RCTHLENRDFVTGTQGTTRVTLVLELGGCVTITAEGKPSMDVWLDSIYQENPAKTREYCLHAKLSDTKVAARCPTMGPAT   80 (300)
+Q Consensus         1 ~C~~venRDfv~G~~G~TwvdvvLe~g~CVTi~a~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~   80 (300)
+                      ||+++||||||||+||+||||+|||+|+||||||+|||+|||||++++|++||.+|+||++|+|||+++++|||||||||
+T Consensus         2 ~C~~ve~rDfv~G~~G~Twv~vvLe~g~CvTi~a~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~gea~   81 (495)
+T P29990            2 RCIGMSNRDFVEGVSGGSWVDIVLEHGSCVTTMAKNKPTLDFELIKTEAKQPATLRKYCIEAKLTNTTTESRCPTQGEPS   81 (495)
+T ss_pred             eeecCCCccccccccCCceeEEEeecCceeeeeccCCCccceeeeeccccCchhhhhheeeeeecccccccCCCCCCCCC
+Confidence            79999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhccccceecccCCCCCCccccccccCCcEEEEEEeeeccccccccceeeccceEEEEEeecCCCCeeec-ccccccc
+Q D1FNM3           81 LAEEHQSGTVCKRDQSDRGWGNHCGLFGKGSIVTCVKVACEAKKKATGHVYDANKIVYTVKVEPHTGDYVAA-NETHSGR  159 (300)
+Q Consensus        81 l~e~~~~~~vCkr~~~DRGWGNGCgLFGKGsI~tCakftC~~~~~~~g~~i~~enI~y~V~v~vH~~~~~~~-~~~~~~~  159 (300)
+                      |+||++++|||||+||||||||||||||||||+|||||+|++ + +++++||+|||+|+|+++||++++.++ +++++++
+T Consensus        82 l~e~~~~~~vCkr~~~DRGWGNGCglFGkGsivtCakftC~~-~-~~g~~i~~enI~y~V~v~vH~~~~~~~~~~t~~~~  159 (495)
+T P29990           82 LNEEQDKRFVCKHSMVDRGWGNGCGLFGKGGIVTCAMFRCKK-N-MEGKVVQPENLEYTIVITPHSGEEHAVGNDTGKHG  159 (495)
+T ss_pred             CCccccceeeeecceecccccCccccccCCceEEEEeeeeec-c-CCcccccCCCeeEEEEEccCCCCcccccCCCCCCC
+Confidence            999999999999999999999999999999999999999999 5 999999999999999999999995444 4478899
+
+
+Q ss_pred             eeeeEEeeccceeecccCcCCeeeEEeeecCCcchheeeeecccccccCcchhhhhhhhhccccccccccCC---cCCcc
+Q D1FNM3          160 KTASFTVSSEKTILNMGDYGDVSLLCRVASGVDLAQTVILELDKTLEHLPTAWQVHRDWFNDLALPWKHEGG---QHWNN  236 (300)
+Q Consensus       160 ~~~~~tp~s~~~t~~lgdyG~vtl~C~~~sg~d~~~~y~~~~~~~~~~~~k~wlVhR~Wf~DL~LPW~~~~~---~~W~~  236 (300)
+                      ++++|||+|++++++|||||+++|+||++|++||+|||++++++      |+||||||||+||||||+++++   +.|||
+T Consensus       160 ~~~~~t~~s~~~t~~~gdyG~vt~~C~~~sg~d~~~~y~v~~~~------k~wlV~R~W~~DL~LPW~~~~~~~~~~W~~  233 (495)
+T P29990          160 KEIKITPQSSTTEAELTGYGTVTMECSPRTGLDFNEMVLLQMEN------KAWLVHRQWFLDLPLPWLPGADTQGSNWIQ  233 (495)
+T ss_pred             ceeEEecCCCcceeEEeeeeeEEEEeccCCCCCccceeeeeecc------ceeEEEeeecccCCCCCCCCCCCCCCccee
+Confidence            99999999999999999999999999999999999999999994      6999999999999999999986   99999
+
+
+Q ss_pred             chhhhhcCCcceeeeeeeecCcchhhhhhhccCCceeeeecceeeeccceeEeeecceecccCC
+Q D1FNM3          237 AERLVEFGAPHAVKMDVYNLGDQTGVLLKSLAGVPVAHIAGTKYHLKSGHVTCEVGLEKLKMKG  300 (300)
+Q Consensus       237 ~e~LV~F~~pHA~k~~V~~lG~Qegal~~aL~gA~~i~~~~~~~~l~~Ghl~Crv~l~kLklkG  300 (300)
+                      +|+||||++||||||+|++|||||||||+||+|||+++|++ +++|++|||+|||+||||||||
+T Consensus       234 ~e~LV~F~~pHA~k~~V~~lg~Qegal~~aL~ga~~i~~~~-~~~l~~Ghl~Cri~l~kLklkG  296 (495)
+T P29990          234 KETLVTFKNPHAKKQDVVVLGSQEGAMHTALTGATEIQMSS-GNLLFTGHLKCRLRMDKLQLKG  296 (495)
+T ss_pred             eeeeeeecCCCCCcccEEEeeccccchhhhcccceeEEeec-cceEEeeeeeeeeecccceecc
+Confidence            99999999999999999999999999999999999999987 9999999999999999999997
+
+
+Done!

@@ -1,0 +1,628 @@
+Query         wuhanmosquitoSS
+Match_columns 426
+No_of_seqs    340 out of 391
+Neff          8.0 
+Searched_HMMs 142
+Date          Thu Aug  4 12:31:08 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/wuhanmosquitoSS.a3m.hhm -ohhm ./structurepred/wuhanmosquitoSS.a3m.hhm -o ./structurepred/wuhanmosquitoSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;  100.0 5.1E-75   7E-79  589.7 117.6  342    1-363    57-432 (432)
+  2 1pvz_A K+ toxin-like peptide;   11.0      73  0.0095   16.2   4.0   17   32-48     15-31  (31)
+  3 3j0f_E E1 envelope glycoprotei   8.2 3.6E+02   0.044   22.1  84.7  372    1-413    28-434 (439)
+  4 1y0h_A Hypothetical protein RV   3.4 2.9E+02   0.041   16.1  11.9   57   81-153    36-101 (102)
+  5 1i9w_A Fusion protein E1; enve   1.2 1.4E+03    0.17   17.6  77.2  328    1-365    28-387 (390)
+  6 3n40_F E1 envelope glycoprotei   1.2 1.4E+03    0.18   17.5 120.0  326    1-364    30-388 (393)
+  7 3n44_F E1 envelope glycoprotei   0.8 1.9E+03    0.23   17.0 121.5  323    2-364    51-408 (473)
+  8 3muu_A Structural polyprotein;   0.6 2.7E+03    0.33   17.1 108.7  315    2-361   389-743 (750)
+  9 2c60_A Human mitogen-activated   0.5 1.7E+03    0.22   13.2  11.3   93   94-240    16-111 (111)
+ 10 4y5o_B Mitogen-activated prote   0.4 1.9E+03    0.24   13.3  11.3   82  105-240    42-126 (126)
+ 11 3j2w_E Glycoprotein E1; E1-E2    0.4 1.6E+03     0.2   11.5   9.3   38  360-414     4-42  (46)
+ 12 1m56_D Cytochrome C oxidase; m   0.4 1.6E+03     0.2   11.5   9.6   43  356-412     5-50  (51)
+ 13 2f95_B Sensory rhodopsin II tr   0.4 1.6E+03    0.24   12.2   6.0   20  404-423    69-90  (163)
+ 14 2k9j_B Integrin beta-3; transm   0.3 1.3E+03    0.18    9.9  13.1   24  398-422    19-42  (43)
+ 15 2m20_A Epidermal growth factor   0.3 1.5E+03    0.21   10.6  12.6   21  399-419    12-33  (60)
+ 16 1jjd_A Metallothionein, SMTA;    0.3 1.8E+03    0.24   11.1   8.6   38   30-79      4-54  (55)
+ 17 4xtr_G PEP12P; membrane protei   0.3 1.9E+03    0.22   10.4  10.5   20  397-416    16-37  (37)
+ 18 4gyc_B Sensory rhodopsin II tr   0.3 1.8E+03    0.26   11.1   9.2   45  378-423    48-93  (135)
+ 19 4cq4_A Engineered version of t   0.2 2.8E+03     0.4   13.0  14.2   22  402-423   237-258 (309)
+ 20 2mv6_A EPO-R, erythropoietin r   0.2 2.4E+03     0.3   10.8  14.0   26  398-423    21-46  (49)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=100.00  E-value=5.1e-75  Score=589.74  Aligned_cols=342  Identities=13%  Similarity=0.187  Sum_probs=298.2
+
+Q ss_pred             CceeeeeeeEEEeeeEEE----EEeeeeEEEeeeecCCCCCccccCCccccc---cccchhhhh-----cccceeeeccc
+Q wuhanmosquitoS    1 MMRFKIDAAYIRTRYHLV----YYTSEYEIKTSYTSNCKGSGSCWSGGCRDI---GVHPRLRAI-----ANSSIMGYGCE   68 (426)
+Q Consensus         1 ~i~i~~~~i~~~t~~~C~----~~T~~~~~~~~s~~RC~~~GsC~~~~C~~~---~~~~El~~~-----pg~t~C~~sC~   68 (426)
+                      .||||+++|    .|+|+    |||||++++++|+|||++||||++++|++|   +.+|||+..     ||+++|++|| 
+T Consensus        57 ~i~I~~~~i----~l~C~k~~~yfTrd~~~~~~s~~RC~~~GsC~~~~C~~i~~~~~~pEl~~~~~~~~~g~t~C~~sC-  131 (432)
+T 4hj1_A           57 FLKIKTVSS----ELSCREGQSYWTGSFSPKCLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQC-  131 (432)
+T ss_dssp             EEEEEEEEE----EEEEEEEEEEEECCEEEEEEEEEECTTSTTCSTTTTTTCCTTCCCGGGGGGCCCCBCEEEEEEEEC-
+T ss_pred             EEEEEEEee----EEEEecccEEEecceeEEEeeEeECCCCCccccCcccccCCcCcchhhccccccCCCccceecccc-
+Confidence            178899999    88888    999999999999999999999999999999   789999954     6999999999 
+
+
+Q ss_pred             CCCCCCccceee-ecceeeEEeeecc-cceeeeeeeeccceeEEEEEEeecccc-eeeeeeccCCcccccccccCccEEE
+Q wuhanmosquitoS   69 TDNLGCDDWCFM-KTSCTWYKWDIKS-KGVYGKVYEKSSEIWEVILRIDYQNVT-TRHKVNVNNPRVNLDGLMDGIPIYI  145 (426)
+Q Consensus        69 ~Gg~~Cg~~Cf~-~~~ClFyr~y~~p-~~~~yeVf~C~~W~~~v~~~vt~~~~~-~~~~L~~~~p~~~~~~~~~~~~itl  145 (426)
+                       ||+|||  ||| +|||||||+||+| ++++||||+|++|+++|+++|++.+.+ .++.|. ..|..++. | ++++|+|
+T Consensus       132 -Gg~gCg--CF~~~~sClFyR~y~~p~s~~iyeVf~C~~W~~~v~i~vt~~~~~~~~~~l~-~~~~~~~~-~-~~i~itl  205 (432)
+T 4hj1_A          132 -GGWGCG--CFNVNPSCLFVHTYLQSVRKEALRVFNCIDWVHKLTLEITDFDGSVSTIDLG-ASSSRFTN-W-GSVSLSL  205 (432)
+T ss_dssp             -CSGGGT--CSSSSCEEEEEEEEEEESSSCCEEEEEEEEEEEEEEEEEECTTSCEEEEEEC-TTCEEEET-T-EEEEEEE
+T ss_pred             -CCCCcC--eeCcCcchhEEEEEEEcCCCCEEEEEECCCccEEEEEEEEecCCceEEEEec-cCCceEEe-e-ccEEEEE
+Confidence             999999  999 9999999999999 999999999999999999999998753 344443 22344466 7 6899999
+
+
+Q ss_pred             EeeccccCCCccchhhhcc-cce-eeeccccCCCCccccceeeeeeccceee--eec----ccceeccccccccccCCCc
+Q wuhanmosquitoS  146 TSISSETDNVPNGILEYLG-TGY-AVKASQMNMPETDIIGDYQISLDKETYA--FNM----HNVKCETESCRAFCNAPEP  217 (426)
+Q Consensus       146 ~si~~p~~p~l~~~Fi~~g-~~~-~~~~a~~~~~~~~~~g~lqC~s~~~A~~--~~C----~~C~C~p~e~~~~C~C~~~  217 (426)
+                      +++..|+.|  +.+|++.+ +.+ +++++.+|+|.+|++|+|||+++++|++  ++|    ++|+|.|++++++|.|++.
+T Consensus       206 ~~~~~~~~~--~~~fi~~~~~~~a~~~~~~~~~p~~g~ig~lqC~t~~~A~~~~~~C~~~~~~c~c~~~~~~~~C~c~~~  283 (432)
+T 4hj1_A          206 DAEGISGSN--SFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLI  283 (432)
+T ss_dssp             ECCSCTTGG--GCEEEEETTTEEEEESSCCCSSCCTTSTTSEEBSSHHHHHTTBTTSEECTTCEEEEEETTEEEEEECCC
+T ss_pred             EeeeecCCC--CcEEEEeCCceEEEecccccCCcCcCcccceeeCChHHhHhhcCceeeccccceEEcccceEEeeCCCC
+Confidence            998888654  78999643 444 5678999999999999999999988753  467    8999999999999999999
+
+
+Q ss_pred             hhHHHHHH--Hh-hcCeeEEEeecccceEeecce--eeeEEEEEEeeeecccceeeecccceeeeeeeeeccCCCCcEEE
+Q wuhanmosquitoS  218 KMTRFIRM--IK-RMNEVEIMNIGSGHVIETNRQ--ISAIVGVLVGNVNLKNLQVEKAQCSLEQIGTYSCTGCAEEPYVI  292 (426)
+Q Consensus       218 ~i~~~~~~--lp-~~~~~~~~~~~~~~~V~a~~~--~~~~i~l~i~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~  292 (426)
+                      |+.+++++  || ..+...|+...++++|+|.++  ..++++|++++++++.+ +++++|+|++++++|||+|++||+|.
+T Consensus       284 ~~~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~~~~~-~~~~~C~i~~~~l~GCYsC~~GA~~~  362 (432)
+T 4hj1_A          284 DPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFV-GAAVSCDAAFLNLTGCYSCNAGARVC  362 (432)
+T ss_dssp             CHHHHHHHTBSSEEETTEEEEECSSSCCEEEEECSCCCEEEEEEEEEEEEECC-SCCCCCEEEEEEEEEBSSSSSCEEEE
+T ss_pred             CHHHHhhcCCCceEeCcceEEEecCCCeEEEEeccceEEEEEEEecceEEEEE-EeCCcceEEeccceEecccccCCEEE
+Confidence            99999876  66 555667887777888999665  45688888889998877 99999999999999999999999999
+
+
+Q ss_pred             EEecccCcCceeeeccCccccccceeeccCCc--ceeeecccc----eeEEEEecccceEEEeeeeeeeccCCCCCC
+Q wuhanmosquitoS  293 LQAHDIKSEGILPIESNCTFAKDYISCSLDPY--PLYLRDTKR----SCYIHIQGLNHTMYLNFDFTFKGSLDPSKP  363 (426)
+Q Consensus       293 i~c~S~~~~~~~~a~i~C~~~~~~i~C~~~~~--~i~~~~~~a----~C~v~Cg~~n~~~~~~~~~~i~G~L~y~~~  363 (426)
+                      |+|+|+ .++++.|++.|+++.|.+.|.+++.  .++|||++|    +|+++||+      .++.|+|+|+|+|+++
+T Consensus       363 i~C~S~-~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~f~~a~v~~~C~v~CG~------~~~~f~i~G~L~~~~~  432 (432)
+T 4hj1_A          363 LSITST-GTGSLSAHNKDGSLHIVLPSENGTKDQCQILHFTVPEVEEEFMYSCDG------DERPLLVKGTLIAIDP  432 (432)
+T ss_dssp             EEEEES-SCEEEEEEETTSSCEEEEEECBEEEEEEEEECCSSSEEEEEEEEESSS------CCEEEEEEEECBCCC-
+T ss_pred             EEEEeC-CCCeEEEEEcCCCEEEEEecCCCCeeEEEEEEcCCCeEeeEEEEECCC------CcEEEEEEEEEEecCC
+Confidence            999998 6667779999999999999876545  589999999    99999999      9999999999999964
+
+
+No 2  
+>1pvz_A K+ toxin-like peptide; alpha/beta scaffold; NMR {Mesobuthus martensii} SCOP: g.3.7.2
+Probab=10.97  E-value=73  Score=16.25  Aligned_cols=17  Identities=29%  Similarity=0.727  Sum_probs=11.9
+
+Q ss_pred             cCCCCCccccCCccccc
+Q wuhanmosquitoS   32 SNCKGSGSCWSGGCRDI   48 (426)
+Q Consensus        32 ~RC~~~GsC~~~~C~~~   48 (426)
+                      .-|+..|.|.+++|.=.
+T Consensus        15 ~~C~~~~kC~Ng~C~Cy   31 (31)
+T 1pvz_A           15 RKCPGNPPCRNGFCACT   31 (31)
+T ss_dssp             HHSSSCCCEETTEESCC
+T ss_pred             hhcccCCcccCCccccC
+Confidence            12888899999988521
+
+
+No 3  
+>3j0f_E E1 envelope glycoprotein; alphavirus, virus assembly; 7.00A {Sindbis virus} PDB: 1ld4_M 1z8y_I
+Probab=8.24  E-value=3.6e+02  Score=22.09  Aligned_cols=372  Identities=12%  Similarity=0.077  Sum_probs=185.5
+
+Q ss_pred             CceeeeeeeEEEeeeEEEEEeeeeEEEeeee-cCCCCCccccCCccccccccchhhhhcccceeee-cccCCCCCCccce
+Q wuhanmosquitoS    1 MMRFKIDAAYIRTRYHLVYYTSEYEIKTSYT-SNCKGSGSCWSGGCRDIGVHPRLRAIANSSIMGY-GCETDNLGCDDWC   78 (426)
+Q Consensus         1 ~i~i~~~~i~~~t~~~C~~~T~~~~~~~~s~-~RC~~~GsC~~~~C~~~~~~~El~~~pg~t~C~~-sC~~Gg~~Cg~~C   78 (426)
+                      .|+|++....|.--+.=+|+|=+++..+.|- -.|=+.-+|...      ..|+..-- =+++-.. =.  ||+-    |
+T Consensus        28 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~------~~pDy~Ck-VftGVYPfMW--GGAy----C   94 (439)
+T 3j0f_E           28 NLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPA------AHADYTCK-VFGGVYPFMW--GGAQ----C   94 (439)
+T ss_pred             eEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCC------CCCCccce-Eecccccccc--ccee----e
+Confidence            1445555554444444449999888888752 245555566532      11222100 0000000 01  4433    6
+
+
+Q ss_pred             ee-ecceeeEEeeecccc-------eeeeeeeeccceeEEEEEEeecccceeeeeeccCCcccccccccCccEEEEeecc
+Q wuhanmosquitoS   79 FM-KTSCTWYKWDIKSKG-------VYGKVYEKSSEIWEVILRIDYQNVTTRHKVNVNNPRVNLDGLMDGIPIYITSISS  150 (426)
+Q Consensus        79 f~-~~~ClFyr~y~~p~~-------~~yeVf~C~~W~~~v~~~vt~~~~~~~~~L~~~~p~~~~~~~~~~~~itl~si~~  150 (426)
+                      |- +.-=.....|..-++       .+|++   -.=..+++|.|++.+.+.++..-.+.-+ +.. . +++++.+=-|++
+T Consensus        95 FCDsENTQ~SeayV~~s~~C~~dhA~Ayka---HTas~~a~l~it~G~~~~~v~~yVNG~t-~~~-~-~~~K~i~GPiSt  168 (439)
+T 3j0f_E           95 FCDSENSQMSEAYVELSADCASDHAQAIKV---HTAAMKVGLRIVYGNTTSFLDVYVNGVT-PGT-S-KDLKVIAGPISA  168 (439)
+T ss_pred             eecCcchhhhhhheecCccchhHHHHHHHh---hhheeEEEEEEEEcceeEEEEEEEcCcc-cee-c-CceeEEeccccc
+Confidence            65 332233333332211       11111   2346899999999998776666655523 555 5 689999888888
+
+
+Q ss_pred             ccCCCccchhhhcccceeeeccccCCCCccccceeeeeeccceeee-ecccceeccccccccccC-CCch-hHHHHHHHh
+Q wuhanmosquitoS  151 ETDNVPNGILEYLGTGYAVKASQMNMPETDIIGDYQISLDKETYAF-NMHNVKCETESCRAFCNA-PEPK-MTRFIRMIK  227 (426)
+Q Consensus       151 p~~p~l~~~Fi~~g~~~~~~~a~~~~~~~~~~g~lqC~s~~~A~~~-~C~~C~C~p~e~~~~C~C-~~~~-i~~~~~~lp  227 (426)
+                      .-.|.=++.-+-.|.-.-.|-+.-|.-++|..|++|=.+-.+..-+ |-++--=+|....++=-- .-++ +..++++-+
+T Consensus       169 awsPFD~KiVvyk~eVYNyDfP~YGaG~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf~~W~~~~g  248 (439)
+T 3j0f_E          169 SFTPFDHKVVIHRGLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIASTDIRLLKPSAKNVHVPYTQASSGFEMWKNNSG  248 (439)
+T ss_pred             CcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCCccceeeccccEEccCCCCceecccccCCcHHHHHhhcCC
+Confidence            8888766655555555566778889999999999999988776654 665555667655554333 2223 665655411
+
+
+Q ss_pred             -hcCee---EEEeecccceEeecceeeeEEEEEEe--eeecccc----eeeecccceeeeeeeeeccCCCCcEEEEEecc
+Q wuhanmosquitoS  228 -RMNEV---EIMNIGSGHVIETNRQISAIVGVLVG--NVNLKNL----QVEKAQCSLEQIGTYSCTGCAEEPYVILQAHD  297 (426)
+Q Consensus       228 -~~~~~---~~~~~~~~~~V~a~~~~~~~i~l~i~--~~~~~~~----~~~~~~C~i~~~~l~GCYsC~~GA~~~i~c~S  297 (426)
+                       |++..   .=.+..+  -|.|.-=.-+.|-|.++  |...+++    .++...|++.    +==||=.-|..+.++=++
+T Consensus       249 ~~L~~tAPFGC~I~~n--PvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~----~Ct~SsdfGG~a~~~Y~a  322 (439)
+T 3j0f_E          249 RPLQETAPFGCKIAVN--PLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVS----ECTYSADFGGMATLQYVS  322 (439)
+T ss_pred             CccccCCCcceEEecC--cchhhcccccceeeeeecCchheeeeccCCccccceEEee----EEEeccCCCCeEEEEEec
+Confidence             22210   0011111  12221112224555555  3222222    2556666553    233889999999999999
+
+
+Q ss_pred             cCcCceeeeccCccc---cccceeeccCCcceeeecccc----eeEEE-EecccceEEEeeeeeeeccCCCCCCcc-Cch
+Q wuhanmosquitoS  298 IKSEGILPIESNCTF---AKDYISCSLDPYPLYLRDTKR----SCYIH-IQGLNHTMYLNFDFTFKGSLDPSKPIY-NQE  368 (426)
+Q Consensus       298 ~~~~~~~~a~i~C~~---~~~~i~C~~~~~~i~~~~~~a----~C~v~-Cg~~n~~~~~~~~~~i~G~L~y~~~~~-~~~  368 (426)
+                      + +.|.=..+..=+.   +.-.+.-...| .+++||.+|    .-.++ |+.         ..+-+|.-..-.+.. ...
+T Consensus       323 ~-k~GkCavHs~S~~atl~es~v~v~~~g-~~t~hFSTas~~~~F~v~iC~~---------~vtC~~~C~PPkdHIV~~p  391 (439)
+T 3j0f_E          323 D-REGQCPVHSHSSTATLQESTVHVLEKG-AVTVHFSTASPQANFIVSLCGK---------KTTCNAECKPPADHIVSTP  391 (439)
+T ss_pred             C-CCcccceecCCCceEeeeeeEEEeecc-eEEEEEecCCCCCCEEEEeccC---------cceecCcccCchhhccCCC
+Confidence            8 6665222222211   22344455555 555666555    66665 666         455566655442110 000
+
+
+Q ss_pred             hhHHHhhhhccccceeh-hhhh-heecceeehhhHHH-HHHHHHHHhh
+Q wuhanmosquitoS  369 SEMEMIKGMVSSSMFIT-GLIS-TVSMFGMVSISLSM-ILRIIRMYEI  413 (426)
+Q Consensus       369 s~~~~~~~~~d~~~~~~-~~~~-i~~~~~~~~i~i~~-i~~~l~~~~~  413 (426)
+                      ..     ...++..-++ ..|+ +..++|..+.++++ ++.+++..++
+T Consensus       392 ~~-----h~~~~~~~iS~Ta~~W~~~l~Gg~~~~~~~~~~v~~~v~~v  434 (439)
+T 3j0f_E          392 HK-----NDQEFQAAISKTSWSWLFALFGGASSLLIIGLMIFACSMML  434 (439)
+T ss_pred             cc-----cCcccccccchhHHHHHHHHhCCchHHHHHHHHHHHHHhhe
+Confidence            00     0011111111 2233 22234444333322 2222211111
+
+
+No 4  
+>1y0h_A Hypothetical protein RV0793; ferredoxin-like fold, alpha+beta sandwich with antiparallel sheet, structural genomics, PSI; 1.60A {Mycobacterium tuberculosis} SCOP: d.58.4.11
+Probab=3.38  E-value=2.9e+02  Score=16.05  Aligned_cols=57  Identities=12%  Similarity=0.108  Sum_probs=23.5
+
+Q ss_pred             ecceeeEEeeecccceeeeeeeeccceeEEEEEEeeccc-------ce--eeeeeccCCcccccccccCccEEEEeeccc
+Q wuhanmosquitoS   81 KTSCTWYKWDIKSKGVYGKVYEKSSEIWEVILRIDYQNV-------TT--RHKVNVNNPRVNLDGLMDGIPIYITSISSE  151 (426)
+Q Consensus        81 ~~~ClFyr~y~~p~~~~yeVf~C~~W~~~v~~~vt~~~~-------~~--~~~L~~~~p~~~~~~~~~~~~itl~si~~p  151 (426)
+                      .|||+-|+++..+.+..|-+            -....+.       ..  -..+....  .++  +.+...++.-....|
+T Consensus        36 ~pG~l~~~~~~~~d~~~~~~------------~~~w~~~~a~~~~~~~~~~~~~~~~~--~~~--~~~~~~~~~~~~~~~   99 (102)
+T 1y0h_A           36 EDGCRSYDLYESADGGELVL------------FERYRSRIALDEHRGSPHYLNYRAQV--GEL--LTRPVAVTVLAPLDE   99 (102)
+T ss_dssp             STTEEEEEEEEETTSSCEEE------------EEEESSHHHHHHHHTSHHHHHHHTTS--GGG--BSSCCEEEEEEEEEC
+T ss_pred             CCCceEEEEEEcCCCCEEEE------------EEEECCHHHHHHHhcCHHHHHHHHHH--HHH--hcCCceEEEEEecCC
+Confidence            37888888887663333222            2233332       00  00000111  022  213456665554444
+
+
+Q ss_pred             cC
+Q wuhanmosquitoS  152 TD  153 (426)
+Q Consensus       152 ~~  153 (426)
+                      ..
+T Consensus       100 ~~  101 (102)
+T 1y0h_A          100 AS  101 (102)
+T ss_dssp             CC
+T ss_pred             CC
+Confidence            21
+
+
+No 5  
+>1i9w_A Fusion protein E1; envelope glycoprotein, membrane fusion, viral protein; 3.00A {Semliki forest virus} SCOP: b.1.18.4 f.10.1.1 PDB: 2ala_A 1rer_A
+Probab=1.23  E-value=1.4e+03  Score=17.56  Aligned_cols=328  Identities=13%  Similarity=0.138  Sum_probs=174.2
+
+Q ss_pred             CceeeeeeeEEEeeeEEEEEeeeeEEEeeee-cCCCCCccccCCccccccccchhhhhcccceeee-cccCCCCCCccce
+Q wuhanmosquitoS    1 MMRFKIDAAYIRTRYHLVYYTSEYEIKTSYT-SNCKGSGSCWSGGCRDIGVHPRLRAIANSSIMGY-GCETDNLGCDDWC   78 (426)
+Q Consensus         1 ~i~i~~~~i~~~t~~~C~~~T~~~~~~~~s~-~RC~~~GsC~~~~C~~~~~~~El~~~pg~t~C~~-sC~~Gg~~Cg~~C   78 (426)
+                      .|+|++....|.--+.=+|+|=+++..+.|- -.|=+.-+|...      ..|+..-- =+++-.. =.  ||+-    |
+T Consensus        28 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~------~~pDy~Ck-VftGVYPfMW--GGAy----C   94 (390)
+T 1i9w_A           28 TLQMQVVETSLEPTLNLEYITCEYKTVVPSPYVKCCGASECSTK------EKPDYQCK-VYTGVYPFMW--GGAY----C   94 (390)
+T ss_pred             eEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCc------CCCCccce-Eecccccccc--ccee----e
+Confidence            1344444444433333448898888887752 245555566532      11222100 0000000 01  3333    6
+
+
+Q ss_pred             ee-ecceeeEEeeecccc-------eeeeeeeeccceeEEEEEEeecccceeeeeeccCCcccccccccCccEEEEeecc
+Q wuhanmosquitoS   79 FM-KTSCTWYKWDIKSKG-------VYGKVYEKSSEIWEVILRIDYQNVTTRHKVNVNNPRVNLDGLMDGIPIYITSISS  150 (426)
+Q Consensus        79 f~-~~~ClFyr~y~~p~~-------~~yeVf~C~~W~~~v~~~vt~~~~~~~~~L~~~~p~~~~~~~~~~~~itl~si~~  150 (426)
+                      |- +.-=.....|..-++       .+|++   -.=..+++|.|++.+.+.++..-.+.-+ +.. . +++++.+=-|++
+T Consensus        95 FCDsENTQ~SeayV~~s~~C~~dhA~Ayka---HTas~~a~l~it~G~~~~~v~~yVNG~t-~~~-~-~~~K~i~GPiSt  168 (390)
+T 1i9w_A           95 FCDSENTQLSEAYVDRSDVCRHDHASAYKA---HTASLKAKVRVMYGNVNQTVDVYVNGDH-AVT-I-GGTQFIFGPLSS  168 (390)
+T ss_pred             eecCcchhhhhhheecCccchhHHHHHHHh---hhheeEEEEEEEEcceeEEEEEEEcCcc-cee-c-CceeEEeccccc
+Confidence            65 333333333333211       11111   2346899999999998776666655523 555 5 689999888888
+
+
+Q ss_pred             ccCCCccchhhhcccceeeeccccCCCCccccceeeeeeccceeee-ecccceeccccccccccC-CCch-hHHHHHHHh
+Q wuhanmosquitoS  151 ETDNVPNGILEYLGTGYAVKASQMNMPETDIIGDYQISLDKETYAF-NMHNVKCETESCRAFCNA-PEPK-MTRFIRMIK  227 (426)
+Q Consensus       151 p~~p~l~~~Fi~~g~~~~~~~a~~~~~~~~~~g~lqC~s~~~A~~~-~C~~C~C~p~e~~~~C~C-~~~~-i~~~~~~lp  227 (426)
+                      .-.|.=++.-+-.|.-.-.|-+.-|.-++|..|++|=.+-.+..-+ |-++--=+|....++=-- .-++ +..++++-+
+T Consensus       169 awsPFD~KiVvyk~eVYNyDfP~YGag~pG~FGDIQart~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf~~W~~~~g  248 (390)
+T 1i9w_A          169 AWTPFDNKIVVYKDEVFNQDFPPYGSGQPGRFGDIQSRTVESNDLYANTALKLARPSPGMVHVPYTQTPSGFKYWLKEKG  248 (390)
+T ss_pred             CcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCccceeeccccEEccCCCCceecccccCCcHHHHHhhcCC
+Confidence            8888766655555555566778889999999999999988776654 665555567655554333 2222 666655411
+
+
+Q ss_pred             -hcCe----eEEEeecccceEeecceeeeEEEEEEe--eeecccc----eeeecccceeeeeeeeeccCCCCcEEEEEec
+Q wuhanmosquitoS  228 -RMNE----VEIMNIGSGHVIETNRQISAIVGVLVG--NVNLKNL----QVEKAQCSLEQIGTYSCTGCAEEPYVILQAH  296 (426)
+Q Consensus       228 -~~~~----~~~~~~~~~~~V~a~~~~~~~i~l~i~--~~~~~~~----~~~~~~C~i~~~~l~GCYsC~~GA~~~i~c~  296 (426)
+                       |++.    += .+..  +-|.|.-=.-+.|-|.|+  |...+++    .++...|++.    +==||=.-|..+.|+=+
+T Consensus       249 ~~L~~tAPFGC-~I~~--nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~----~Ct~SsdfGG~a~~~Y~  321 (390)
+T 1i9w_A          249 TALNTKAPFGC-QIKT--NPVRAMNCAVGNIPVSMNLPDSAFTRIVEAPTIIDLTCTVA----TCTHSSDFGGVLTLTYK  321 (390)
+T ss_pred             CccccCCCcce-EEec--CcchhhcccccceeeeeeCCchheeeeccCCccccceEEee----EEEeccCCCCeEEEEEe
+Confidence             2221    11 1111  112222112234555555  3222221    2556666553    23388999999999999
+
+
+Q ss_pred             ccCcCceeeeccCccc---cccceeeccCCcceeeecccc----eeEEE-EecccceEEEeeeeeeeccCCCCCCcc
+Q wuhanmosquitoS  297 DIKSEGILPIESNCTF---AKDYISCSLDPYPLYLRDTKR----SCYIH-IQGLNHTMYLNFDFTFKGSLDPSKPIY  365 (426)
+Q Consensus       297 S~~~~~~~~a~i~C~~---~~~~i~C~~~~~~i~~~~~~a----~C~v~-Cg~~n~~~~~~~~~~i~G~L~y~~~~~  365 (426)
+                      ++ +.|.=..+..=+.   +...+.-...| .+++||.+|    .-.++ |+.         ..+-+|.-..-.+..
+T Consensus       322 a~-k~GkCavHs~S~~atl~es~v~v~~~g-~~t~hFSTas~~~~F~v~iC~~---------~vtC~~~C~PPkdHi  387 (390)
+T 1i9w_A          322 TN-KNGDCSVHSHSNVATLQEATAKVKTAG-KVTLHFSTASASPSFVVSLCSA---------RATCSASCEPPKDHI  387 (390)
+T ss_pred             cC-CCccceeecCCCceEeeeeeEEEeccc-eEEEEEecCCCCCCEEEEeccC---------cceecCcccCchhhc
+Confidence            98 6665333322221   23344455555 555666555    66665 665         334444444332211
+
+
+No 6  
+>3n40_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG NDG; 2.17A {Chikungunya virus} PDB: 3j2w_A 2xfb_A
+Probab=1.19  E-value=1.4e+03  Score=17.51  Aligned_cols=326  Identities=13%  Similarity=0.171  Sum_probs=194.7
+
+Q ss_pred             CceeeeeeeEEEeeeEEEEEeeeeEEEeee-ecCCCCCccccCCccccc------cccchhhhhcccceeeecccCCCCC
+Q wuhanmosquitoS    1 MMRFKIDAAYIRTRYHLVYYTSEYEIKTSY-TSNCKGSGSCWSGGCRDI------GVHPRLRAIANSSIMGYGCETDNLG   73 (426)
+Q Consensus         1 ~i~i~~~~i~~~t~~~C~~~T~~~~~~~~s-~~RC~~~GsC~~~~C~~~------~~~~El~~~pg~t~C~~sC~~Gg~~   73 (426)
+                      .|+|++....|.--+.=+|+|=+++..+.| .-.|=+.-+|....=.+.      ..-|=+            .  ||+-
+T Consensus        30 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkVftGVYPfM------------W--GGAy   95 (393)
+T 3n40_F           30 VLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKDKNLPDYSCKVFTGVYPFM------------W--GGAY   95 (393)
+T ss_dssp             EEEEEEEEEEEEEEEEEEEEECCEEEECCCCEEETTSCCCCCCCCSTTCEEEEEESCCCEE------------T--TEES
+T ss_pred             eEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceEeccccccc------------c--ccee
+Confidence            145666666666667777999999999885 345667788875422221      111111            1  3333
+
+
+Q ss_pred             Cccceee-ecceeeEEeeecc----cceeeeeeeeccceeEEEEEEeecccceeeeeeccCCcccccccccCccEEEEee
+Q wuhanmosquitoS   74 CDDWCFM-KTSCTWYKWDIKS----KGVYGKVYEKSSEIWEVILRIDYQNVTTRHKVNVNNPRVNLDGLMDGIPIYITSI  148 (426)
+Q Consensus        74 Cg~~Cf~-~~~ClFyr~y~~p----~~~~yeVf~C~~W~~~v~~~vt~~~~~~~~~L~~~~p~~~~~~~~~~~~itl~si  148 (426)
+                          ||- +.-=.....|..-    ..+--+-|+=-.=..+++|.|++.+.+.++..-.+.-+ +.. . +++++.+=-|
+T Consensus        96 ----CFCDsENTQ~SeayV~~s~~C~~dhA~AykaHTas~~a~l~it~G~~~~~v~~yVNG~t-~~~-~-~~~K~i~GPi  168 (393)
+T 3n40_F           96 ----CFCDAENTQLSEAHVEKSESCKTEFASAYRAHTASASAKLRVLYQGNNITVTAYANGDH-AVT-V-KDAKFIVGPM  168 (393)
+T ss_dssp             ----CSCSSSCEEEEEEEEEECGGGGTSCEEEEEEEEEEEEEEEEEEETTEEEEEEEETTSCC-EEE-E-TTEEEEECCC
+T ss_pred             ----eeecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCcc-cee-c-CceeEEeccc
+Confidence                444 4556777888754    23333444444557899999999998888877776633 554 4 6888888888
+
+
+Q ss_pred             ccccCCCccchhhhcccceeeeccccCCCCccccceeeeeeccceeee-ecccceeccccccccc--cCCCchhHHHHHH
+Q wuhanmosquitoS  149 SSETDNVPNGILEYLGTGYAVKASQMNMPETDIIGDYQISLDKETYAF-NMHNVKCETESCRAFC--NAPEPKMTRFIRM  225 (426)
+Q Consensus       149 ~~p~~p~l~~~Fi~~g~~~~~~~a~~~~~~~~~~g~lqC~s~~~A~~~-~C~~C~C~p~e~~~~C--~C~~~~i~~~~~~  225 (426)
+                      ++.-.|.=++.-+-.|.-.-.|-..-|.-++|..|++|=.+-.+..-+ |-++--=+|....++=  +---..+..++++
+T Consensus       169 StawsPFD~KiVvyk~eVYNyDfP~YGag~pG~FGDIQsrt~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf~~W~~~  248 (393)
+T 3n40_F          169 SSAWTPFDNKIVVYKGDVYNMDYPPFGAGRPGQFGDIQSRTPESKDVYANTQLVLQRPAAGTVHVPYSQAPSGFKYWLKE  248 (393)
+T ss_dssp             SCCCCSCCSEEEEETTEEEECCCCCTTCCCTTSTTSEEBSSTTCSSCEECCCCEECCCCTTCCCCCEECCCCHHHHHHHH
+T ss_pred             ccCcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCccceeeccccEEccCCCCceecccccCCcHHHHHhhc
+Confidence            888888766655555666677888899999999999999888766544 5555555555443321  1234558888888
+
+
+Q ss_pred             ----Hh---hcCeeEEEeecccceEeecceeeeEEEEEEeeeecccc----eeeecccceeeeeeeeeccCCCCcEEEEE
+Q wuhanmosquitoS  226 ----IK---RMNEVEIMNIGSGHVIETNRQISAIVGVLVGNVNLKNL----QVEKAQCSLEQIGTYSCTGCAEEPYVILQ  294 (426)
+Q Consensus       226 ----lp---~~~~~~~~~~~~~~~V~a~~~~~~~i~l~i~~~~~~~~----~~~~~~C~i~~~~l~GCYsC~~GA~~~i~  294 (426)
+                          |.   |+.=.   +..+-=+-.-=.-....++|.|-|...+++    .++...|++.    +==||=.-|..+.|+
+T Consensus       249 ~g~~L~~tAPFGC~---I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~----~Ct~SsdfGG~a~~~  321 (393)
+T 3n40_F          249 RGASLQHTAPFGCQ---IATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAPSLTDMSCEVP----ACTHSSDFGGVAIIK  321 (393)
+T ss_dssp             SCSCHHHHCGGGCE---EETTTTEEECCCCSEEEEEEEECGGGCCBTTTSCCEEEEEEEEE----EEBCSSSCCEEEEEE
+T ss_pred             CCCccccCCCcceE---EecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEee----EEEeccCCCCeEEEE
+Confidence                77   66543   223332221111112244555544433333    3677777653    233899999999999
+
+
+Q ss_pred             ecccCcCceeeeccCccc---cccceeeccCCcceeeecccc----eeEEEEecccceEEEeeeeeeeccCCCCCCc
+Q wuhanmosquitoS  295 AHDIKSEGILPIESNCTF---AKDYISCSLDPYPLYLRDTKR----SCYIHIQGLNHTMYLNFDFTFKGSLDPSKPI  364 (426)
+Q Consensus       295 c~S~~~~~~~~a~i~C~~---~~~~i~C~~~~~~i~~~~~~a----~C~v~Cg~~n~~~~~~~~~~i~G~L~y~~~~  364 (426)
+                      =+++ +.|.=..+..=+.   +.-.+.-...| .+++||.+|    .-.++--+      .  ..+-+|.-..-.+.
+T Consensus       322 Y~a~-k~GkCavHs~S~~atl~es~v~v~~~g-~~t~hFSTas~~~~F~v~iC~------~--~vtC~~~C~PPkdH  388 (393)
+T 3n40_F          322 YAAS-KKGKCAVHSMTNAVTIREAEIEVEGNS-QLQISFSTALASAEFRVQVCS------T--QVHCAAECHPPKDH  388 (393)
+T ss_dssp             EEES-SCEEEEEEESSTTEEESCSEEEECSEE-EEEEEEEESCSEEEEEEEETT------E--EEEEEEECBCCSCS
+T ss_pred             EecC-CCccceeecCCCceEeeeeeEEEeecc-eEEEEEecCCCCCCEEEEecc------C--cceecCcccCchhh
+Confidence            9998 7887555544332   23344444333 566666555    55554444      2  22233333222221
+
+
+No 7  
+>3n44_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG; 2.35A {Chikungunya virus} PDB: 3n41_F* 3n42_F* 3n43_F* 2xfc_A
+Probab=0.85  E-value=1.9e+03  Score=17.01  Aligned_cols=323  Identities=13%  Similarity=0.175  Sum_probs=200.7
+
+Q ss_pred             ceeeeeeeEEEeeeEEEEEeeeeEEEeee-ecCCCCCccccCCccccc------cccchhhhhcccceeeecccCCCCCC
+Q wuhanmosquitoS    2 MRFKIDAAYIRTRYHLVYYTSEYEIKTSY-TSNCKGSGSCWSGGCRDI------GVHPRLRAIANSSIMGYGCETDNLGC   74 (426)
+Q Consensus         2 i~i~~~~i~~~t~~~C~~~T~~~~~~~~s-~~RC~~~GsC~~~~C~~~------~~~~El~~~pg~t~C~~sC~~Gg~~C   74 (426)
+                      |+|++....|.--+.=+|+|=+++..+.| .-.|=+.-+|....=.+.      ..-|=+            .  ||+- 
+T Consensus        51 L~i~v~~t~l~PtlnleYiTC~YkTvvpSP~VKCCGs~EC~~~~~pDy~CkVftGVYPFM------------W--GGAy-  115 (473)
+T 3n44_F           51 LEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKDKNLPDYSCKVFTGVYPFM------------W--GGAY-  115 (473)
+T ss_dssp             EEEEEEEEEEECCEEEEEEEECEEEECCCCEEETTSCCCCCCCCSTTCEEEEEESCCCEE------------T--TEES-
+T ss_pred             EEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCCCccceEeccccccc------------c--ccee-
+Confidence            44555555555556777999999999885 335667778875422221      111111            1  3333 
+
+
+Q ss_pred             ccceee-ecceeeEEeeecc----cceeeeeeeeccceeEEEEEEeecccceeeeeeccCCcccccccccCccEEEEeec
+Q wuhanmosquitoS   75 DDWCFM-KTSCTWYKWDIKS----KGVYGKVYEKSSEIWEVILRIDYQNVTTRHKVNVNNPRVNLDGLMDGIPIYITSIS  149 (426)
+Q Consensus        75 g~~Cf~-~~~ClFyr~y~~p----~~~~yeVf~C~~W~~~v~~~vt~~~~~~~~~L~~~~p~~~~~~~~~~~~itl~si~  149 (426)
+                         ||- +.-=.....|..-    ..+--+-|+=-.=..+++|.|++.+.+.++..-.+.-+ +.. . +++++.+=-|+
+T Consensus       116 ---CFCDsENTQmSeaYV~rS~~C~~dhA~AykaHTAs~kA~l~ItyG~~~~~v~vyVNG~t-p~~-~-~~~K~i~GPiS  189 (473)
+T 3n44_F          116 ---CFCDAENTQLSEAHVEKSESCKTEFASAYRAHTASASAKLRVLYQGNNITVTAYANGDH-AVT-V-KDAKFIVGPMS  189 (473)
+T ss_dssp             ---CSCSSSCEEEEEEEEEECGGGGTSEEEEEEECSCEEEEEEEEEETTEEEEEEEETTSCC-EEE-E-TTEEEEECCCS
+T ss_pred             ---eeecCcchhhhhhheecCccchhHHHHHHHhhhheeeEEEEEEEcceeEEEEEEEcCcc-cee-c-CceeEEecccc
+Confidence               444 4556777888754    45677777778889999999999998888877776633 554 4 68888888888
+
+
+Q ss_pred             cccCCCccchhhhcccceeeeccccCCCCccccceeeeeeccceeee-ecccceeccccccccc--cCCCchhHHHHHH-
+Q wuhanmosquitoS  150 SETDNVPNGILEYLGTGYAVKASQMNMPETDIIGDYQISLDKETYAF-NMHNVKCETESCRAFC--NAPEPKMTRFIRM-  225 (426)
+Q Consensus       150 ~p~~p~l~~~Fi~~g~~~~~~~a~~~~~~~~~~g~lqC~s~~~A~~~-~C~~C~C~p~e~~~~C--~C~~~~i~~~~~~-  225 (426)
+                      +.-.|.=++.-+-.+.-.-.|-+.-|.-++|..|+||=.|-.+..-+ |.++--=+|....+.=  +-....+..++++ 
+T Consensus       190 tawsPFD~KIVvyk~eVYNyDfP~YGAG~PG~FGDIQsrt~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGF~~W~k~~  269 (473)
+T 3n44_F          190 SAWTPFDNKIVVYKGDVYNMDYPPFGAGRPGQFGDIQSRTPESKDVYANTQLVLQRPAAGTVHVPYSQAPSGFKYWLKER  269 (473)
+T ss_dssp             CCCCSCCSEEEEETTEEEECCCCCTTCCCTTSTTSEEBSSTTCSCCEECSCCEECCCCTTCCCCCEECCCCHHHHHHHHC
+T ss_pred             cCcCCCCceEEEEcceeeccCCCCccCCCCccccccccccCCccceeeccCcEEccCCCCceecccccCCcHHHHHhhcC
+Confidence            88888766655555665677888899999999999999888766544 5555555565443321  1234458888888 
+
+
+Q ss_pred             ---Hh---hcCeeEEEeecccceEeecceeeeEEEEEEe--eeecccc----eeeecccceeeeeeeeeccCCCCcEEEE
+Q wuhanmosquitoS  226 ---IK---RMNEVEIMNIGSGHVIETNRQISAIVGVLVG--NVNLKNL----QVEKAQCSLEQIGTYSCTGCAEEPYVIL  293 (426)
+Q Consensus       226 ---lp---~~~~~~~~~~~~~~~V~a~~~~~~~i~l~i~--~~~~~~~----~~~~~~C~i~~~~l~GCYsC~~GA~~~i  293 (426)
+                         |.   |+.=.   +..+-=+  |.-=.-..|-|.|+  |...+++    .++...|++.    +==||=.-|..+.|
+T Consensus       270 g~~L~~tAPFGC~---I~~nPvR--A~nCavG~IPiSiDIPDAaFTRv~daP~vs~l~Ctv~----~CtySsDfGGvatl  340 (473)
+T 3n44_F          270 GASLQHTAPFGCQ---IATNPVR--AVNCAVGNMPISIDIPEAAFTRVVDAPSLTDMSCEVP----ACTHSSDFGGVAII  340 (473)
+T ss_dssp             CCCHHHHCGGGCE---EETTTTE--EESCCCSEEEEEEECCGGGCCBTTTSCCEEEEEEEEE----EEBCSSSCCEEEEE
+T ss_pred             CCcccccCCcccE---EecCcch--hhcccccceeeeeecCchheeeeccCCccccceEEee----EEEeccCCCCeEEE
+Confidence               77   66543   2233222  21111125666666  4443333    3677777653    23389999999999
+
+
+Q ss_pred             EecccCcCceeeeccCccc---cccceeeccCCcceeeecccc----eeEEEEecccceEEEeeeeeeeccCCCCCCc
+Q wuhanmosquitoS  294 QAHDIKSEGILPIESNCTF---AKDYISCSLDPYPLYLRDTKR----SCYIHIQGLNHTMYLNFDFTFKGSLDPSKPI  364 (426)
+Q Consensus       294 ~c~S~~~~~~~~a~i~C~~---~~~~i~C~~~~~~i~~~~~~a----~C~v~Cg~~n~~~~~~~~~~i~G~L~y~~~~  364 (426)
+                      +=+++ +.|.=..+..=+.   +.-.+.-...|. +++||.+|    .-.++--+      .  ..+-+|.-..-.+.
+T Consensus       341 ~Y~a~-k~GkCaVHs~S~~atl~es~v~v~~~g~-~t~hFSTas~~p~F~v~iC~------~--~vtC~a~C~PPkDH  408 (473)
+T 3n44_F          341 KYAAS-KKGKCAVHSMTNAVTIREAEIEVEGNSQ-LQISFSTALASAEFRVQVCS------T--QVHCAAECHPPKDH  408 (473)
+T ss_dssp             EEEES-SCEEEEEEESSTTCEESCSEEEECSSCE-EEEEEECSCSEEEEEEEETT------E--EEEEEEECBCCSCS
+T ss_pred             EEecC-CCcccceecCCCceEeeeeeEEEeccce-EEEEEecCCCCCCEEEEecc------C--cceecCcccCchhh
+Confidence            99998 7887555544433   455677776664 55555554    45554444      2  22233333322221
+
+
+No 8  
+>3muu_A Structural polyprotein; beta barrels, IG-like folds, viral protein; HET: NAG BMA MAN; 3.29A {Sindbis virus} PDB: 3muw_A 3muw_U 1z8y_A 1z8y_B
+Probab=0.61  E-value=2.7e+03  Score=17.13  Aligned_cols=315  Identities=13%  Similarity=0.130  Sum_probs=185.5
+
+Q ss_pred             ceeeeeeeEEEeeeEEEEEeeeeEEEeee-ecCCCCCccccCCccccc------cccchhhhhcccceeeecccCCCCCC
+Q wuhanmosquitoS    2 MRFKIDAAYIRTRYHLVYYTSEYEIKTSY-TSNCKGSGSCWSGGCRDI------GVHPRLRAIANSSIMGYGCETDNLGC   74 (426)
+Q Consensus         2 i~i~~~~i~~~t~~~C~~~T~~~~~~~~s-~~RC~~~GsC~~~~C~~~------~~~~El~~~pg~t~C~~sC~~Gg~~C   74 (426)
+                      |+|++....|.--+.=+|+|=+++..+-| .-.|=++-+|....=.+.      ..-|=+=              ||+- 
+T Consensus       389 L~i~v~~t~l~PtlnleYiTC~YkTvVpSP~VKCCGs~EC~~~~~pDy~CkVftGVYPFMW--------------GGAy-  453 (750)
+T 3muu_A          389 LEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAAHAGYTCKVFGGVYPFMW--------------GGAQ-  453 (750)
+T ss_dssp             EEEEEEEECCEEEEEEEEEECCEEEECCCCEEETTSCCCCCCCCSTTCEEEEEESCCCSTT--------------TTTT-
+T ss_pred             EEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCCCCCCCccceEecccccccc--------------ccee-
+Confidence            33444444333345556999999999985 335667888875422222      2222211              5555 
+
+
+Q ss_pred             ccceee-ecceeeEEeeecc----c---ceeeeeeeeccceeEEEEEEeecccceeeeeeccCCcccccccccCccEEEE
+Q wuhanmosquitoS   75 DDWCFM-KTSCTWYKWDIKS----K---GVYGKVYEKSSEIWEVILRIDYQNVTTRHKVNVNNPRVNLDGLMDGIPIYIT  146 (426)
+Q Consensus        75 g~~Cf~-~~~ClFyr~y~~p----~---~~~yeVf~C~~W~~~v~~~vt~~~~~~~~~L~~~~p~~~~~~~~~~~~itl~  146 (426)
+                         ||- +.-=.....|..-    .   -.+|++-.   =..+++|.|++.+.+.++..-.+.-+ +.. . +++++.+=
+T Consensus       454 ---CFCDtENTQmSeaYV~rS~~C~~DhA~AykaHT---as~kA~l~ItyG~~~~~v~vyVNG~t-p~~-~-~~~K~i~G  524 (750)
+T 3muu_A          454 ---CFCDSENSQMSEAYVELSADCASDHAQAIKVHT---AAMKVGLRIVYGNTTSFLDVYVNGVT-PGT-S-KDLKVIAG  524 (750)
+T ss_dssp             ---CCCSSSCEEEEEEEEEECTTTTTSCEEEEEEEE---EECCEEEEEEETTEEEEEECCBSSSC-EEE-C-SSCEEEEC
+T ss_pred             ---eeecCcchhhhhhheecCccchhHHHHHHHhhh---heeEEEEEEEEcceeEEEEEEEcCcc-cee-c-CceEEEec
+Confidence               555 5556778888755    2   35666654   45788999999998777777666633 555 5 69999998
+
+
+Q ss_pred             eeccccCCCccchhhhcccceeeeccccCCCCccccceeeeeeccceeee-ecccceeccccccccc--cCCCchhHHHH
+Q wuhanmosquitoS  147 SISSETDNVPNGILEYLGTGYAVKASQMNMPETDIIGDYQISLDKETYAF-NMHNVKCETESCRAFC--NAPEPKMTRFI  223 (426)
+Q Consensus       147 si~~p~~p~l~~~Fi~~g~~~~~~~a~~~~~~~~~~g~lqC~s~~~A~~~-~C~~C~C~p~e~~~~C--~C~~~~i~~~~  223 (426)
+                      -|++.-.|.=++.-+-.|.-.-.|-+.-|.-++|..|+||=.|-.+..-+ |-++--=+|....+.=  +-.-..+..+.
+T Consensus       525 PlSsawsPFD~KIVvy~~eVYNyDFPeYGAG~pG~FGDIQsrt~~s~DlyAnT~l~L~RP~~g~iHVPYTQapSGf~~W~  604 (750)
+T 3muu_A          525 PISASFTPFDHKVVIHRGLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIASTDIRLLKPSAKNVHVPYTQASSGFEMWK  604 (750)
+T ss_dssp             CCSSCCCSCCSEEEECSSCEEECCCCCTTCCCSSSTTSEEBSSTTTCSCEECCCCEECCCCTTSCCCCEECCCCHHHHHH
+T ss_pred             ccccCcCCCCceEEEEcceeeccCCCcccCCCCccccccccccCCccceeeccCcEEccCCCCceecccccCCcHHHHHh
+Confidence            89999888877776677777788889999999999999999988777644 6555555555433321  11233466555
+
+
+Q ss_pred             HH----Hh---hcCeeEEEeecccceEeecceeeeE--EEEEEeeeecccc----eeeecccceeeeeeeee-ccCCCCc
+Q wuhanmosquitoS  224 RM----IK---RMNEVEIMNIGSGHVIETNRQISAI--VGVLVGNVNLKNL----QVEKAQCSLEQIGTYSC-TGCAEEP  289 (426)
+Q Consensus       224 ~~----lp---~~~~~~~~~~~~~~~V~a~~~~~~~--i~l~i~~~~~~~~----~~~~~~C~i~~~~l~GC-YsC~~GA  289 (426)
+                      ++    |.   |+.=.--.     +-|.|.-=.-+.  ++|.|-|...+++    .++...|++     ..| ||=.-|.
+T Consensus       605 k~~g~~L~~tAPFGC~I~~-----nPvRA~nCavGnIPiSiDIPDAaFTRvsdaP~vs~l~Ctv-----~~CtySsDfGG  674 (750)
+T 3muu_A          605 NNSGRPLQETAPFGCKIAV-----NPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEV-----SECTYSADFGG  674 (750)
+T ss_dssp             TTCCSCGGGTCTTSCEEEE-----TTEEEETCCCSEEEEEEEEEGGGCBCSCCSSCEEEEEEEE-----EECCTTSSSCE
+T ss_pred             hcCCCcccccCCcceEEec-----CcchhhcccccceeeeeeCCchheeeeccCCccccceEEe-----eEEEeccCCCC
+Confidence            44    55   44433211     113442211124  4444445444443    256666654     445 8899999
+
+
+Q ss_pred             EEEEEecccCcCceeeeccCccc---cccceeeccCCcceeeecccc----eeEEE-EecccceEEEeeeeeeeccCCCC
+Q wuhanmosquitoS  290 YVILQAHDIKSEGILPIESNCTF---AKDYISCSLDPYPLYLRDTKR----SCYIH-IQGLNHTMYLNFDFTFKGSLDPS  361 (426)
+Q Consensus       290 ~~~i~c~S~~~~~~~~a~i~C~~---~~~~i~C~~~~~~i~~~~~~a----~C~v~-Cg~~n~~~~~~~~~~i~G~L~y~  361 (426)
+                      .|.|+=++. +.|.=.....=+.   +...+.-...| .+++||.+|    .-.++ |+.         ..+-+|.=+.-
+T Consensus       675 vatl~Y~a~-k~GkCavHs~S~~atl~es~v~v~~~G-~~t~hFSTAs~~p~F~v~iC~~---------~vtC~~~C~~~  743 (750)
+T 3muu_A          675 MATLQYVSD-REGQCPVHSHSSTATLQESTVHVLEKG-AVTVHFSTASPQANFIVSLCGK---------KTTCNAECKPP  743 (750)
+T ss_dssp             EEEEEEEES-SCCCEECEESSTTCEESCSEECCCSSC-EEEEEEECCCSBCCBCEECSSC---------BCCBCCBC---
+T ss_pred             EEEEEEecC-CCccceeeccCCceEeeeeeEEeecCc-eEEEEEecCCCCCCEEEEeccC---------cceecCccCCc
+Confidence            999999998 6766444433322   23344444444 555555554    33333 322         11111111111
+
+
+No 9  
+>2c60_A Human mitogen-activated protein kinase kinase kinase 3 isoform 2; MAP3K3, MAP/ERK kinase kinase 3, MAPKKK3, MEKK3, serine threonine phosphorylation; HET: MSE; 1.25A {Homo sapiens} SCOP: d.15.2.2 PDB: 2o2v_B
+Probab=0.46  E-value=1.7e+03  Score=13.16  Aligned_cols=93  Identities=11%  Similarity=0.100  Sum_probs=33.3
+
+Q ss_pred             cceeeeeeeeccceeEEEEEEeecccceeeeeeccCCcccccccccCccEEEEeeccccCCCccchhhhcccceeeeccc
+Q wuhanmosquitoS   94 KGVYGKVYEKSSEIWEVILRIDYQNVTTRHKVNVNNPRVNLDGLMDGIPIYITSISSETDNVPNGILEYLGTGYAVKASQ  173 (426)
+Q Consensus        94 ~~~~yeVf~C~~W~~~v~~~vt~~~~~~~~~L~~~~p~~~~~~~~~~~~itl~si~~p~~p~l~~~Fi~~g~~~~~~~a~  173 (426)
+                      .+-+||--.-+.=...+++++.+.+....+.+.+.+   ++.                       -|...-...      
+T Consensus        16 ~~~~~~~~~~~~~~~~ikVKv~~~~D~r~l~v~~~i---sf~-----------------------eL~~KI~~r------   63 (111)
+T 2c60_A           16 ENLYFQSMGHSNRQSDVRIKFEHNGERRIIAFSRPV---KYE-----------------------DVEHKVTTV------   63 (111)
+T ss_dssp             TTC-----------CCEEEEEEETTEEEEEEECSSC---CHH-----------------------HHHHHHHHH------
+T ss_pred             cceeeccCCCCCCCCcEEEEEEECCeEEEEEeCCCC---CHH-----------------------HHHHHHHHH------
+Confidence            112222222222334567777777655555554443   321                       111100000      
+
+
+Q ss_pred             cCCCCccccceeeeeeccceeeeecccceeccccccccccCCCchhHHHHHHHh---hcCeeEEEeeccc
+Q wuhanmosquitoS  174 MNMPETDIIGDYQISLDKETYAFNMHNVKCETESCRAFCNAPEPKMTRFIRMIK---RMNEVEIMNIGSG  240 (426)
+Q Consensus       174 ~~~~~~~~~g~lqC~s~~~A~~~~C~~C~C~p~e~~~~C~C~~~~i~~~~~~lp---~~~~~~~~~~~~~  240 (426)
+                      .|.   +  ..+++..+ ...      +.          ...+.|+...+....   ......+.+....
+T Consensus        64 ~g~---~--l~LkYkde-gd~------i~----------I~~DeDL~~Ai~~~~~~~~~~~lri~l~~~~  111 (111)
+T 2c60_A           64 FGQ---P--LDLHYMNN-ELS------IL----------LKNQDDLDKAIDILDRSSSMKSLRILLLSQD  111 (111)
+T ss_dssp             HSS---C--CEEEEECS-SCE------EE----------CCSHHHHHHHHHHHHHCSSCCSEEEEEEC--
+T ss_pred             hCC---c--eEEEEecC-CCc------eE----------eCCHHHHHHHHHHHHhccCCCCcEEEEecCC
+Confidence            000   0  23455433 111      11          123456888888644   2345555543211
+
+
+No 10 
+>4y5o_B Mitogen-activated protein kinase kinase kinase 3; complex, scaffold, transferase; 2.35A {Homo sapiens}
+Probab=0.42  E-value=1.9e+03  Score=13.33  Aligned_cols=82  Identities=10%  Similarity=0.073  Sum_probs=30.4
+
+Q ss_pred             cceeEEEEEEeecccceeeeeeccCCcccccccccCccEEEEeeccccCCCccchhhhcccceeeeccccCCCCccccce
+Q wuhanmosquitoS  105 SEIWEVILRIDYQNVTTRHKVNVNNPRVNLDGLMDGIPIYITSISSETDNVPNGILEYLGTGYAVKASQMNMPETDIIGD  184 (426)
+Q Consensus       105 ~W~~~v~~~vt~~~~~~~~~L~~~~p~~~~~~~~~~~~itl~si~~p~~p~l~~~Fi~~g~~~~~~~a~~~~~~~~~~g~  184 (426)
+                      .=...++++|.+.+....+.+.+..   ++.                       -|...-....      |..     ..
+T Consensus        42 ~~~~~IKVKv~~~gD~r~I~V~~~i---sf~-----------------------eL~~Kl~~r~------g~~-----~~   84 (126)
+T 4y5o_B           42 NRQSDVRIKFEHNGERRIIAFSRPV---KYE-----------------------DVEHKVTTVF------GQP-----LD   84 (126)
+T ss_dssp             --CCCEEEEEEETTEEEEEEECSSC---CHH-----------------------HHHHHHHHHH------SSC-----CE
+T ss_pred             CCCCcEEEEEEECCeEEEEEeCCCC---CHH-----------------------HHHHHHHHHh------CCC-----eE
+Confidence            1112455555555544444443333   221                       2221100000      000     23
+
+
+Q ss_pred             eeeeeccceeeeecccceeccccccccccCCCchhHHHHHHHh--h-cCeeEEEeeccc
+Q wuhanmosquitoS  185 YQISLDKETYAFNMHNVKCETESCRAFCNAPEPKMTRFIRMIK--R-MNEVEIMNIGSG  240 (426)
+Q Consensus       185 lqC~s~~~A~~~~C~~C~C~p~e~~~~C~C~~~~i~~~~~~lp--~-~~~~~~~~~~~~  240 (426)
+                      |++..+                 +...=...+.|+...+....  . .....+.+....
+T Consensus        85 LkYkDE-----------------gdlIsI~sDeDLd~ai~~~~r~~~~~~LRi~l~~~~  126 (126)
+T 4y5o_B           85 LHYMNN-----------------ELSILLKNQDDLDKAIDILDRSSSMKSLRILLLSQD  126 (126)
+T ss_dssp             EEECCG-----------------GGCEECCSHHHHHHHHHHHHHCSSCCSEEEEEECCC
+T ss_pred             EEEecC-----------------CCceeeCCHHHHHHHHHHHHhccCCCceEEEEecCC
+Confidence            444322                 11111234556888888744  2 345555543321
+
+
+No 11 
+>3j2w_E Glycoprotein E1; E1-E2 glycoprotein, transmembrane HELI; 5.00A {Chikungunya virus}
+Probab=0.37  E-value=1.6e+03  Score=11.50  Aligned_cols=38  Identities=13%  Similarity=0.181  Sum_probs=7.9
+
+Q ss_pred             CCCCccCchhhHHHhhhhccccceehhhhhheecceeehhhHHH-HHHHHHHHhhh
+Q wuhanmosquitoS  360 PSKPIYNQESEMEMIKGMVSSSMFITGLISTVSMFGMVSISLSM-ILRIIRMYEIK  414 (426)
+Q Consensus       360 y~~~~~~~~s~~~~~~~~~d~~~~~~~~~~i~~~~~~~~i~i~~-i~~~l~~~~~~  414 (426)
+                      ...+.. ..+-+++...                ++|..+.++++ ++.+.+.+.+.
+T Consensus         4 ~~~~~i-S~TA~sWl~~----------------l~GG~~~li~i~livlvvv~cv~   42 (46)
+T 3j2w_E            4 LGVQDI-STTAMSWVQK----------------ITGGVGLIVAVAALILIVVLCVS   42 (46)
+T ss_dssp             CCCCCC-CSHHHHHHHT----------------TSSHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccccc-hhHHHHHHHH----------------HhCCcHHHHHHHHHHHHHHHHHH
+Confidence            111111 1223444331                12112212111 11111111111
+
+
+No 12 
+>1m56_D Cytochrome C oxidase; membrane protein, oxidoreductase; HET: HEA PEH; 2.30A {Rhodobacter sphaeroides} SCOP: f.23.8.1 PDB: 1m57_D*
+Probab=0.36  E-value=1.6e+03  Score=11.46  Aligned_cols=43  Identities=7%  Similarity=0.099  Sum_probs=10.9
+
+Q ss_pred             ccCCCC---CCccCchhhHHHhhhhccccceehhhhhheecceeehhhHHHHHHHHHHHh
+Q wuhanmosquitoS  356 GSLDPS---KPIYNQESEMEMIKGMVSSSMFITGLISTVSMFGMVSISLSMILRIIRMYE  412 (426)
+Q Consensus       356 G~L~y~---~~~~~~~s~~~~~~~~~d~~~~~~~~~~i~~~~~~~~i~i~~i~~~l~~~~  412 (426)
+                      ....|.   ++-+ ...+.+...++..+.-     |.        ++++++++.+++++.
+T Consensus         5 ~~~~~~~~~~~mD-~~~h~~Ty~gFi~~~k-----~g--------~i~v~~il~~maif~   50 (51)
+T 1m56_D            5 SHPAHGHVAGSMD-ITQQEKTFAGFVRMVT-----WA--------AVVIVAALIFLALAN   50 (51)
+T ss_dssp             -----CCCTTCSC-CHHHHHHHHHHHHHHH-----HH--------HHHHHHHHHHHHHHT
+T ss_pred             CCCCCcccCCCCC-HHHHHHHHHHHHHHHH-----HH--------HHHHHHHHHHHHHHc
+Confidence            112222   2212 3444333332211110     11        233333333333321
+
+
+No 13 
+>2f95_B Sensory rhodopsin II transducer; membrane protein complex, signal transduction, photocycle ST membrane protein; HET: BOG RET; 2.20A {Natronomonas pharaonis} SCOP: f.17.4.1
+Probab=0.35  E-value=1.6e+03  Score=12.17  Aligned_cols=20  Identities=0%  Similarity=-0.177  Sum_probs=0.8
+
+Q ss_pred             HHHHHHH--Hhhhhhhhhhhhh
+Q wuhanmosquitoS  404 ILRIIRM--YEIKRMSRDVMEM  423 (426)
+Q Consensus       404 i~~~l~~--~~~~~~~~~~~~~  423 (426)
+                      ++..+..  +...+..+.+..+
+T Consensus        69 ~~~~~~~~~~~~~~~~~pl~~l   90 (163)
+T 2f95_B           69 GINLGLVAATLGGDTAASLSTL   90 (163)
+T ss_dssp             HHHHHHHC--------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+Confidence            1111111  1111111111111
+
+
+No 14 
+>2k9j_B Integrin beta-3; transmembrane complex, cell adhesion, cleavage on basic residues, disease mutation, glycoprotein, pyrrolidone carboxylic acid; NMR {Homo sapiens} PDB: 2rmz_A 2rn0_A 2l91_A
+Probab=0.32  E-value=1.3e+03  Score=9.92  Aligned_cols=24  Identities=17%  Similarity=0.245  Sum_probs=5.2
+
+Q ss_pred             hhhHHHHHHHHHHHhhhhhhhhhhh
+Q wuhanmosquitoS  398 SISLSMILRIIRMYEIKRMSRDVME  422 (426)
+Q Consensus       398 ~i~i~~i~~~l~~~~~~~~~~~~~~  422 (426)
+                      .++++.++.++ .+.+.+..++-++
+T Consensus        19 ~~~~~~li~~~-~~~~~~~~~~~~~   42 (43)
+T 2k9j_B           19 AILLIGLAALL-IWKLLITIHDRKE   42 (43)
+T ss_dssp             HHHHHHHHHHH-HHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHH-HHHHHHHhhhccC
+Confidence            11111111112 2222233333221
+
+
+No 15 
+>2m20_A Epidermal growth factor receptor; transmembrane, cell signaling, juxtamembrane, signaling PROT; NMR {Homo sapiens}
+Probab=0.31  E-value=1.5e+03  Score=10.62  Aligned_cols=21  Identities=14%  Similarity=-0.017  Sum_probs=3.5
+
+Q ss_pred             hhHHH-HHHHHHHHhhhhhhhh
+Q wuhanmosquitoS  399 ISLSM-ILRIIRMYEIKRMSRD  419 (426)
+Q Consensus       399 i~i~~-i~~~l~~~~~~~~~~~  419 (426)
+                      .++++ ++.+++++...+..+.
+T Consensus        12 ~~~~~~~i~~~~~~~~rrr~~~   33 (60)
+T 2m20_A           12 ALLLLLVVALGIGLFIRRRHIV   33 (60)
+T ss_dssp             HHHHHHHHHHHHHHHHHTHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhhhh
+Confidence            11111 1111112222111111
+
+
+No 16 
+>1jjd_A Metallothionein, SMTA; zinc finger, zinc cluster, metal binding PR; NMR {Synechococcus elongatus} SCOP: g.46.1.1
+Probab=0.30  E-value=1.8e+03  Score=11.15  Aligned_cols=38  Identities=26%  Similarity=0.552  Sum_probs=15.5
+
+Q ss_pred             eecCCCCCccccCCccccccccchhhhh--ccccee----------ee-cccCCCCCCcccee
+Q wuhanmosquitoS   30 YTSNCKGSGSCWSGGCRDIGVHPRLRAI--ANSSIM----------GY-GCETDNLGCDDWCF   79 (426)
+Q Consensus        30 s~~RC~~~GsC~~~~C~~~~~~~El~~~--pg~t~C----------~~-sC~~Gg~~Cg~~Cf   79 (426)
+                      ...+|.      -..|.  ..+|+=...  .|.-+|          .+ +|  +..+|+  |-
+T Consensus         4 ~~~~c~------C~~Cg--~~vp~~eav~~~gk~yCSeec~~~~~~~~~~c--~~~~C~--c~   54 (55)
+T 1jjd_A            4 TLVKCA------CEPCL--CNVDPSKAIDRNGLYYCSEACADGHTGGSKGC--GHTGCN--CH   54 (55)
+T ss_dssp             CCBCCS------STTCC--CCBCTTTSEESSSCEESSHHHHHTSCSSCCCC--SSTTCC--CC
+T ss_pred             CCcEee------CCCCC--cEeChHHheeeCCcEEcCHHHHhhccccCCCC--CCCCCC--CC
+Confidence            111111      12222  244443211  344444          23 57  777887  62
+
+
+No 17 
+>4xtr_G PEP12P; membrane protein targeting complex, hydrolase-transport PROT complex; HET: ADP ATP; 2.05A {Saccharomyces cerevisiae}
+Probab=0.28  E-value=1.9e+03  Score=10.39  Aligned_cols=20  Identities=10%  Similarity=0.351  Sum_probs=4.2
+
+Q ss_pred             ehhhHHH--HHHHHHHHhhhhh
+Q wuhanmosquitoS  397 VSISLSM--ILRIIRMYEIKRM  416 (426)
+Q Consensus       397 ~~i~i~~--i~~~l~~~~~~~~  416 (426)
+                      |-+.+++  ++.++..+.+.+.
+T Consensus        16 wrvyllivllvml~fiflimk~   37 (37)
+T 4xtr_G           16 WRVYLLIVLLVMLLFIFLIMKL   37 (37)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHCC-
+T ss_pred             HHHHHHHHHHHHHHHHHHHhcC
+Confidence            1112222  2222222232211
+
+
+No 18 
+>4gyc_B Sensory rhodopsin II transducer; photoreceptor, membrane protein; HET: RET LFA; 2.05A {Natronomonas pharaonis}
+Probab=0.27  E-value=1.8e+03  Score=11.07  Aligned_cols=45  Identities=11%  Similarity=-0.052  Sum_probs=4.3
+
+Q ss_pred             ccccceehhhhhheecceeehhhHHHHHHHHHHHhh-hhhhhhhhhh
+Q wuhanmosquitoS  378 VSSSMFITGLISTVSMFGMVSISLSMILRIIRMYEI-KRMSRDVMEM  423 (426)
+Q Consensus       378 ~d~~~~~~~~~~i~~~~~~~~i~i~~i~~~l~~~~~-~~~~~~~~~~  423 (426)
+                      .+.......+......+ .+.+++.+++.++..+.. .+..+.+.++
+T Consensus        48 ~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~pl~~l   93 (135)
+T 4gyc_B           48 AATGDAAAVQEAAVSAI-LGLIILLGINLGLVAATLGGDTAASLSTL   93 (135)
+T ss_dssp             HTTTCHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHC----------
+T ss_pred             cCchHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            11111111111100000 000011111111111111 1111111111
+
+
+No 19 
+>4cq4_A Engineered version of transmembrane receptor AF15; structural protein, HAMP domain, two component signal transd transmembrane signalling; 1.70A {Archaeoglobus fulgidus} PDB: 4gn0_A
+Probab=0.24  E-value=2.8e+03  Score=12.98  Aligned_cols=22  Identities=14%  Similarity=0.299  Sum_probs=4.0
+
+Q ss_pred             HHHHHHHHHHhhhhhhhhhhhh
+Q wuhanmosquitoS  402 SMILRIIRMYEIKRMSRDVMEM  423 (426)
+Q Consensus       402 ~~i~~~l~~~~~~~~~~~~~~~  423 (426)
+                      ++++.++.++...+..+.+.++
+T Consensus       237 lli~~~~~~~~~~~i~~pl~~L  258 (309)
+T 4cq4_A          237 EQIVNDLASTTTSTITRPIIEL  258 (309)
+T ss_dssp             HHHHHHHHHHHHHHTHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+Confidence            1111111111222222222111
+
+
+No 20 
+>2mv6_A EPO-R, erythropoietin receptor; micelles, transmembrane domain, MEM protein; NMR {Homo sapiens}
+Probab=0.22  E-value=2.4e+03  Score=10.82  Aligned_cols=26  Identities=19%  Similarity=0.321  Sum_probs=7.2
+
+Q ss_pred             hhhHHHHHHHHHHHhhhhhhhhhhhh
+Q wuhanmosquitoS  398 SISLSMILRIIRMYEIKRMSRDVMEM  423 (426)
+Q Consensus       398 ~i~i~~i~~~l~~~~~~~~~~~~~~~  423 (426)
+                      +.++.++...+..+.+.+..|-+...
+T Consensus        21 ~lii~~Il~lL~~~~llshrRfL~kK   46 (49)
+T 2mv6_A           21 SLILVVILVLLTVLALLSHRRALKQK   46 (49)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            11111122223333333333333221
+
+
+Done!

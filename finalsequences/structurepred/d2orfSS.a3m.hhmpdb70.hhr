@@ -1,0 +1,363 @@
+Query         d2orfSS
+Match_columns 434
+No_of_seqs    326 out of 351
+Neff          7.5 
+Searched_HMMs 272
+Date          Thu Aug  4 12:33:14 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/d2orfSS.a3m.hhm -ohhm ./structurepred/d2orfSS.a3m.hhm -o ./structurepred/d2orfSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;  100.0 8.6E-47 1.2E-50  384.9  47.6  182  242-433     1-186 (432)
+  2 2juy_A Neopetrosiamide A; amph   5.3 1.5E+02   0.018   14.7   3.1   14  150-163     1-14  (28)
+  3 1jjd_A Metallothionein, SMTA;    0.5 1.3E+03    0.17   12.2  12.2   39  339-389     6-55  (55)
+  4 1lsl_A Thrombospondin 1; TSP-1   0.4 1.1E+03    0.17   11.5   6.4   41  369-418    64-110 (113)
+  5 2mc7_A Regulatory peptide; tra   0.3 1.6E+03    0.19   10.7  12.6   25  163-187     5-29  (30)
+  6 2l8s_A Integrin alpha-1; trans   0.2 2.6E+03    0.34   10.4  12.5   23  160-185     8-31  (54)
+  7 2knc_A Integrin alpha-IIB; tra   0.1 3.1E+03    0.41    9.7  12.5   23  160-185    11-34  (54)
+  8 3dl8_E Protein-export membrane   0.1 3.8E+03     0.5   10.8  11.4   27  164-190    48-74  (107)
+  9 2akh_X Protein-export membrane   0.1 3.4E+03    0.46    9.9  13.9   23  163-185    48-70  (77)
+ 10 4p6v_B Na(+)-translocating NAD   0.1 5.1E+03    0.68   12.2   7.9   19    1-19    380-398 (415)
+ 11 3woa_A Repressor protein CI, m   0.1 4.2E+03    0.64   11.2   7.3   81  299-405    81-175 (417)
+ 12 4rdq_A Bestrophin-1, BEST1; tr   0.1   5E+03    0.69   11.7  13.1   39  141-185     4-49  (409)
+ 13 2knc_B Integrin beta-3; transm   0.1 3.8E+03    0.53    9.0  13.7   30  151-185     3-32  (79)
+ 14 4eo1_A Attachment protein G3P;   0.1 5.6E+03    0.68    9.2  10.0   45   42-89     20-66  (70)
+ 15 1m5h_A Formylmethanofuran--tet   0.1 6.5E+03    0.81   11.0   6.5   27  281-309   270-297 (297)
+ 16 3din_E Preprotein translocase    0.1 4.9E+03    0.67    8.4  11.4   21  166-187    52-72  (76)
+ 17 4xtr_G PEP12P; membrane protei   0.1 5.5E+03    0.66    7.9  12.2   21  160-182    14-34  (37)
+ 18 2hi7_B Disulfide bond formatio   0.0 5.6E+03    0.77    9.3   9.5   42  130-197   125-171 (176)
+ 19 2m20_A Epidermal growth factor   0.0 4.9E+03     0.7    6.9  13.1   21  165-185     4-25  (60)
+ 20 2m3e_A Integrin alpha-L; integ   0.0 5.6E+03    0.74    7.5  14.7   25  160-186    11-35  (50)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=100.00  E-value=8.6e-47  Score=384.88  Aligned_cols=182  Identities=15%  Similarity=0.170  Sum_probs=165.7
+
+Q ss_pred             CcccchhhhcccchhhhhhhccccceeeeEEEEEEeeecccceeEEEEeecccccccCceeEEeeccccceeccceeecc
+Q d2orfSS         242 YGHCDVYHRLGEGIEKHTSYLKNNVTKTEYVGYVSFELPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTRSRYDYTTS  321 (434)
+Q Consensus       242 ~~~C~~~~~~~~~~~~C~~~~~~~~~~c~~~~~~~l~~~~~~~e~Cl~l~~~~~~~~~~i~i~~~~i~l~C~k~~~~fTr  321 (434)
+                      .++||+++++++..++|+.+  ++...|.+++.++|+++|+|||+||+|+++++++++.|||++++++|+|+|+++||||
+T Consensus         1 ~~~C~~~~~~~s~~~~C~~~--~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTr   78 (432)
+T 4hj1_A            1 DPGCSELIQASSRITTCSTE--GVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTG   78 (432)
+T ss_dssp             CBCEEEEEECCGGGEEEEES--SSCEEEEEEEEEEEECCCBTSEEEEEEECSSTTCEEEEEEEEEEEEEEEEEEEEEEEC
+T ss_pred             CCCCCceeEEEecccEEeCC--CCCCEEEEeEEEEEEeecCCcEEeEEEECCCCCeEEEEEEEEEeeEEEEecccEEEec
+Confidence            36899999999999999863  6679999999999999999999999999998899999999999999999999999999
+
+
+Q ss_pred             cccccceeecccccCCcccccccccccCCCCCCCcccccccccCceEeeCCCccccCCCCcceeeeeeeeeeEEeeeeec
+Q d2orfSS         322 SWNGHMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCESPFSGIKLKCLRLDTICVFTRRCA  401 (434)
+Q Consensus       322 ~~~~~~~s~~RC~~~~~GsC~~~~C~~~~~~~~~~~~El~~~~~~~~~~pg~t~C~~sCgg~~CgCf~~~~~ClF~r~y~  401 (434)
+                      |++++++|+||||+|  |||++++|++|++++.  +|||+..  ..+.+||+++|++||||+|||||+|+|||||||+||
+T Consensus        79 d~~~~~~s~~RC~~~--GsC~~~~C~~i~~~~~--~pEl~~~--~~~~~~g~t~C~~sCGg~gCgCF~~~~sClFyR~y~  152 (432)
+T 4hj1_A           79 SFSPKCLSSRRCHLV--GECHVNRCLSWRDNET--SAEFSFV--GESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYL  152 (432)
+T ss_dssp             CEEEEEEEEEECTTS--TTCSTTTTTTCCTTCC--CGGGGGG--CCCCBCEEEEEEEECCSGGGTCSSSSCEEEEEEEEE
+T ss_pred             ceeEEEeeEeECCCC--CccccCcccccCCcCc--chhhccc--cccCCCccceeccccCCCCcCeeCcCcchhEEEEEE
+Confidence            999999999999999  9999999999999999  9999975  224578999999999999999999999999999999
+
+
+Q ss_pred             ccccceeeeeEEEEee---ccccceeeecC-eeecc
+Q d2orfSS         402 IPVDTHVDVSTVYAVD---SYYNKSCYFNG-KKIQF  433 (434)
+Q Consensus       402 ~p~~~~~~vyevf~c~---~~~~~~~~~~~-~~~~~  433 (434)
+                      +|+++  ++||||+|+   .+++++++..+ .+.++
+T Consensus       153 ~p~s~--~iyeVf~C~~W~~~v~i~vt~~~~~~~~~  186 (432)
+T 4hj1_A          153 QSVRK--EALRVFNCIDWVHKLTLEITDFDGSVSTI  186 (432)
+T ss_dssp             EESSS--CCEEEEEEEEEEEEEEEEEECTTSCEEEE
+T ss_pred             EcCCC--CEEEEEECCCccEEEEEEEEecCCceEEE
+Confidence            99999  899999888   67777777643 32211
+
+
+No 2  
+>2juy_A Neopetrosiamide A; amphipathic, antitumor protein; HET: SME; NMR {Neopetrosia SP}
+Probab=5.28  E-value=1.5e+02  Score=14.71  Aligned_cols=14  Identities=7%  Similarity=-0.036  Sum_probs=5.9
+
+Q ss_pred             ccccCCchhhhhHH
+Q d2orfSS         150 KWCTGSRDELSSWV  163 (434)
+Q Consensus       150 ~~C~~~~~ni~C~~  163 (434)
+                      +||+..++.++|-|
+T Consensus         1 ffcpfgcalvdcgp   14 (28)
+T 2juy_A            1 FFCPFGCALVDCGP   14 (28)
+T ss_dssp             CCCSSSSTTTTSCT
+T ss_pred             CcccccceEeecCC
+Confidence            35555554443311
+
+
+No 3  
+>1jjd_A Metallothionein, SMTA; zinc finger, zinc cluster, metal binding PR; NMR {Synechococcus elongatus} SCOP: g.46.1.1
+Probab=0.49  E-value=1.3e+03  Score=12.20  Aligned_cols=39  Identities=21%  Similarity=0.305  Sum_probs=19.4
+
+Q ss_pred             ccccccccccCCCCCCCcccccccccCceEeeCCCccc----------cC-CCCcceeeeee
+Q d2orfSS         339 TKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMC----------ES-PFSGIKLKCLR  389 (434)
+Q Consensus       339 GsC~~~~C~~~~~~~~~~~~El~~~~~~~~~~pg~t~C----------~~-sCgg~~CgCf~  389 (434)
+                      --|.-..|.     ..  +||=     ++-...|.-+|          -+ +|++.+|+|..
+T Consensus         6 ~~c~C~~Cg-----~~--vp~~-----eav~~~gk~yCSeec~~~~~~~~~~c~~~~C~c~~   55 (55)
+T 1jjd_A            6 VKCACEPCL-----CN--VDPS-----KAIDRNGLYYCSEACADGHTGGSKGCGHTGCNCHG   55 (55)
+T ss_dssp             BCCSSTTCC-----CC--BCTT-----TSEESSSCEESSHHHHHTSCSSCCCCSSTTCCCCC
+T ss_pred             cEeeCCCCC-----cE--eChH-----HheeeCCcEEcCHHHHhhccccCCCCCCCCCCCCC
+Confidence            112222333     23  4551     23555676666          33 58888888731
+
+
+No 4  
+>1lsl_A Thrombospondin 1; TSP-1, TSR, cell adhesion; HET: FUL FUC; 1.90A {Homo sapiens} SCOP: g.60.1.1 g.60.1.1
+Probab=0.45  E-value=1.1e+03  Score=11.48  Aligned_cols=41  Identities=17%  Similarity=0.248  Sum_probs=14.9
+
+Q ss_pred             eeCCCccccCCCCcceeeeeeeeeeEEeeeeecccc--cc--ee--eeeEEEEeec
+Q d2orfSS         369 YYPGESMCESPFSGIKLKCLRLDTICVFTRRCAIPV--DT--HV--DVSTVYAVDS  418 (434)
+Q Consensus       369 ~~pg~t~C~~sCgg~~CgCf~~~~~ClF~r~y~~p~--~~--~~--~vyevf~c~~  418 (434)
+                      .+..++.|..+||+-.   -.     . .+....+.  ..  .+  .--+.-.|..
+T Consensus        64 ~~~~w~~c~~~cg~g~---~~-----r-~~~c~~~~~~~~~~~c~~~~~~~~~c~~  110 (113)
+T 1lsl_A           64 PWSPWDICSVTCGGGV---QK-----R-SRLCNNPTPQFGGKDCVGDVTENQICNK  110 (113)
+T ss_dssp             CCCCCCCCSCSSSCEE---EE-----E-ECCSCTTCCBTTCCCCCSCSEEEEEECC
+T ss_pred             CccCcccCCCcCCCCe---EE-----E-EeEcCCCCCcCCCCCCCCCCCeeeecCC
+Confidence            2346677888998711   11     1 12222221  00  00  1112223331
+
+
+No 5  
+>2mc7_A Regulatory peptide; transmembrane helical complex, membrane protein; NMR {Salmonella typhimurium}
+Probab=0.34  E-value=1.6e+03  Score=10.70  Aligned_cols=25  Identities=28%  Similarity=0.323  Sum_probs=8.8
+
+Q ss_pred             HHhhhhHHHHhhHHHHHHHHHhhee
+Q d2orfSS         163 VDKILNIEVLNSLMLFVILNILVCV  187 (434)
+Q Consensus       163 ~~~Iln~~c~~a~lly~il~~~~~~  187 (434)
+                      |+.|+....+.+.++-+++++--.+
+T Consensus         5 pd~iialifll~~llvl~laiwqi~   29 (30)
+T 2mc7_A            5 PDKIIALIFLLISLLVLCLALWQIV   29 (30)
+T ss_dssp             GGHHHHHHHHHHHHHHHHHHHHSCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            2455443322233344444432111
+
+
+No 6  
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=0.18  E-value=2.6e+03  Score=10.43  Aligned_cols=23  Identities=26%  Similarity=0.414  Sum_probs=5.0
+
+Q ss_pred             hhHHHhhhhHHHHhhHHHH-HHHHHhh
+Q d2orfSS         160 SSWVDKILNIEVLNSLMLF-VILNILV  185 (434)
+Q Consensus       160 ~C~~~~Iln~~c~~a~lly-~il~~~~  185 (434)
+                      .=|... +....  ++++. +++.++|
+T Consensus         8 ~~wiIi-~s~i~--GlllL~iii~iL~   31 (54)
+T 2l8s_A            8 PLWVIL-LSAFA--GLLLLMLLILALW   31 (54)
+T ss_dssp             CTHHHH-HHHHH--HHHHHHHHHHHHH
+T ss_pred             cchhhH-HHHHH--HHHHHHHHHHHHH
+Confidence            114321 11111  22222 2222222
+
+
+No 7  
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=0.13  E-value=3.1e+03  Score=9.73  Aligned_cols=23  Identities=17%  Similarity=0.359  Sum_probs=5.3
+
+Q ss_pred             hhHHHhhhhHHHHhhHHHHHH-HHHhh
+Q d2orfSS         160 SSWVDKILNIEVLNSLMLFVI-LNILV  185 (434)
+Q Consensus       160 ~C~~~~Iln~~c~~a~lly~i-l~~~~  185 (434)
+                      .=|.. ++....  ++++.++ +.++|
+T Consensus        11 ~~wii-i~s~i~--GlllL~li~~iL~   34 (54)
+T 2knc_A           11 PIWWV-LVGVLG--GLLLLTILVLAMW   34 (54)
+T ss_dssp             CHHHH-HHHHHH--HHHHHHHHHHHHH
+T ss_pred             chhHH-HHHHHH--HHHHHHHHHHHHH
+Confidence            13332 111111  2222222 22221
+
+
+No 8  
+>3dl8_E Protein-export membrane protein SECG; RECA-type ATPase membrane protein translocation protein-PROT complex, ATP-binding, cell membrane; 7.50A {Aquifex aeolicus}
+Probab=0.12  E-value=3.8e+03  Score=10.79  Aligned_cols=27  Identities=30%  Similarity=0.375  Sum_probs=8.1
+
+Q ss_pred             HhhhhHHHHhhHHHHHHHHHhheeeEE
+Q d2orfSS         164 DKILNIEVLNSLMLFVILNILVCVYLK  190 (434)
+Q Consensus       164 ~~Iln~~c~~a~lly~il~~~~~~~~~  190 (434)
+                      +.+++..-+...++|+++++++...+.
+T Consensus        48 e~~L~kiT~ilavlF~v~si~l~~~~~   74 (107)
+T 3dl8_E           48 ETILTKATYWLGALFLVLALLLSVIPK   74 (107)
+T ss_dssp             CCCTTHHHHHHHHHHHHHHHHHHCC--
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHc
+Confidence            111222112233445544444333221
+
+
+No 9  
+>2akh_X Protein-export membrane protein SECG; protein transport, translocation, transmembrane, transport; 14.90A {Escherichia coli} PDB: 2aki_X
+Probab=0.12  E-value=3.4e+03  Score=9.91  Aligned_cols=23  Identities=13%  Similarity=0.247  Sum_probs=8.6
+
+Q ss_pred             HHhhhhHHHHhhHHHHHHHHHhh
+Q d2orfSS         163 VDKILNIEVLNSLMLFVILNILV  185 (434)
+Q Consensus       163 ~~~Iln~~c~~a~lly~il~~~~  185 (434)
+                      .+..++..-+...++|+++++++
+T Consensus        48 ~~~~L~k~T~il~ilF~v~~l~l   70 (77)
+T 2akh_X           48 SGNFMTRMTALLATLFFIISLVL   70 (77)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHH
+Confidence            14555543332334444433321
+
+
+No 10 
+>4p6v_B Na(+)-translocating NADH-quinone reductase subuni; respiratory complex, NADH:ubiquinone oxidoreductase, sodium translocation, FAD; HET: FMN RBF FAD; 3.50A {Vibrio cholerae serotype O1}
+Probab=0.10  E-value=5.1e+03  Score=12.24  Aligned_cols=19  Identities=11%  Similarity=0.209  Sum_probs=12.1
+
+Q ss_pred             CcchhhHHHHHHHHhhhee
+Q d2orfSS           1 MNICIKLLVVLYLLVIFIE   19 (434)
+Q Consensus         1 ~~~~~~~~~~~~L~pLei~   19 (434)
+                      .-...+++..|.+.||.-+
+T Consensus       380 egv~fAILl~N~~~PlID~  398 (415)
+T 4p6v_B          380 EGMMLAILFANLFAPLFDH  398 (415)
+T ss_dssp             CCSHHHHHHHHHHHHHHHH
+T ss_pred             cHHHHHHHHHHHHHHHHHH
+Confidence            1146788888888887421
+
+
+No 11 
+>3woa_A Repressor protein CI, maltose-binding periplasmic; lambda repressor, maltose-binding protein, DNA binding prote binding protein; HET: MAL; 2.00A {Enterobacteria phage lambda}
+Probab=0.10  E-value=4.2e+03  Score=11.24  Aligned_cols=81  Identities=7%  Similarity=-0.012  Sum_probs=28.4
+
+Q ss_pred             CceeEEeecccc----------ceeccceeecccccccceeecccccCCcccccccccccCCCC----CCCccccccccc
+Q d2orfSS         299 GPLIFKIEDLKF----------KTRSRYDYTTSSWNGHMSVKSACHKGSHTKCGTGVCQGMDPN----SPDCEGELSKSS  364 (434)
+Q Consensus       299 ~~i~i~~~~i~l----------~C~k~~~~fTr~~~~~~~s~~RC~~~~~GsC~~~~C~~~~~~----~~~~~~El~~~~  364 (434)
+                      ..|+|++....-          .=..-+.++......     .+-...  |-     -..+.+.    +.. .|.+... 
+T Consensus        81 ~~i~V~~~~~~~~~~~l~~~~~~g~~pDv~~~~~~~~-----~~~~~~--g~-----l~~l~~~~~~~~~~-~~~~~~~-  146 (417)
+T 3woa_A           81 TGIKVTVEHPDKLEEKFPQVAATGDGPDIIFWAHDRF-----GGYAQS--GL-----LAEITPDKAFQDKL-YPFTWDA-  146 (417)
+T ss_dssp             HCCEEEEECCTTHHHHHHHHHHTTCSCSEEEEEGGGH-----HHHHHT--TC-----BCCCCCCHHHHTTB-CHHHHHH-
+T ss_pred             cCCeEEEEehHHHHHHHHHhhcCCCCCcEEEeCcHHH-----HHHHHC--Ce-----eeecccchhHHHhc-ChhhHhh-
+Confidence            136666665210          000112222211100     000012  22     2233322    110 1211110 
+
+
+Q ss_pred             CceEeeCCCccccCCCCcceeeeeeeeeeEEeeeeeccccc
+Q d2orfSS         365 NKCVYYPGESMCESPFSGIKLKCLRLDTICVFTRRCAIPVD  405 (434)
+Q Consensus       365 ~~~~~~pg~t~C~~sCgg~~CgCf~~~~~ClF~r~y~~p~~  405 (434)
+                         ..+.|..+         .==+...+..+|||.-+.+..
+T Consensus       147 ---~~~~g~~y---------gvP~~~~~~~l~yNkdl~~~~  175 (417)
+T 3woa_A          147 ---VRYNGKLI---------AYPIAVEALSLIYNKDLLPNP  175 (417)
+T ss_dssp             ---TEETTEEC---------SEEEEEECCEEEEETTTCSSC
+T ss_pred             ---cccCCcEE---------EeecccCceEEEEeccccccC
+Confidence               12433221         124667788999998776421
+
+
+No 12 
+>4rdq_A Bestrophin-1, BEST1; transmembrane protein, membrane protein, ION channel; HET: C6N; 2.85A {Gallus gallus}
+Probab=0.09  E-value=5e+03  Score=11.73  Aligned_cols=39  Identities=8%  Similarity=0.149  Sum_probs=8.7
+
+Q ss_pred             cCCCccccccccc-----CCchhh--hhHHHhhhhHHHHhhHHHHHHHHHhh
+Q d2orfSS         141 ASGNQHHSRKWCT-----GSRDEL--SSWVDKILNIEVLNSLMLFVILNILV  185 (434)
+Q Consensus       141 ~~~~~hi~C~~C~-----~~~~ni--~C~~~~Iln~~c~~a~lly~il~~~~  185 (434)
+                      ++.+-...-.+..     ..-..+  .-|++.++...      +|.++.++|
+T Consensus         4 y~~~v~~~~~~~f~~lL~rwrGSV~k~i~~elli~~~------~~~~v~~~y   49 (409)
+T 4rdq_A            4 YTNRVADARLGTFSQLLLQWKGSIYKLLYSEFLIFIS------LYFAISLVY   49 (409)
+T ss_dssp             CTTTTSSCCTTTTGGGGGCCTTCHHHHHHHHHHHHHH------HHHHHHHHH
+T ss_pred             ehhhhhccccchHHHHHHHhccccHHHHHHHHHHHHH------HHHHHHHHH
+Confidence            1111111101111     001111  25555433222      222222211
+
+
+No 13 
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=0.08  E-value=3.8e+03  Score=9.04  Aligned_cols=30  Identities=7%  Similarity=-0.092  Sum_probs=4.7
+
+Q ss_pred             cccCCchhhhhHHHhhhhHHHHhhHHHHHHHHHhh
+Q d2orfSS         151 WCTGSRDELSSWVDKILNIEVLNSLMLFVILNILV  185 (434)
+Q Consensus       151 ~C~~~~~ni~C~~~~Iln~~c~~a~lly~il~~~~  185 (434)
+                      -|...   .+=|  .|+...++..+++.+++.+++
+T Consensus         3 ~~~~~---~~~~--~I~~~vi~~iv~l~ll~~~~~   32 (79)
+T 2knc_B            3 MGSKG---PDIL--VVLLSVMGAILLIGLAALLIW   32 (79)
+T ss_dssp             SSCSS---SCSH--HHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCC---Cchh--eehhhHHHHHHHHHHHHHHHH
+Confidence            12210   0011  221111111111111111111
+
+
+No 14 
+>4eo1_A Attachment protein G3P; TOLA binding protein, infection, filamentous phage, ATT protein, TOLA binding, coat protein, TOLA, phage coat; 1.80A {Enterobacteria phage ike}
+Probab=0.06  E-value=5.6e+03  Score=9.23  Aligned_cols=45  Identities=9%  Similarity=0.057  Sum_probs=16.0
+
+Q ss_pred             CCCCcccccccceeecccc--ccCccccccCCCccceeeeecceeeeecc
+Q d2orfSS          42 KENNYIPEKKNWYSFSQEF--TPTSKRQTLPDNKATHHYAVPLKATIRWN   89 (434)
+Q Consensus        42 ~~~~y~~~k~~~~~~~~~~--~~~~~~i~~P~~~~i~~~~~~~k~~~~~~   89 (434)
+                      -...|+..+..+|-....+  +.. ..+.--+..+ +|+...|+ +.|.-
+T Consensus        20 fsNv~k~~d~~rY~nyegC~yeat-GV~Vc~~d~T-~c~~~~Wk-Ptg~v   66 (70)
+T 4eo1_A           20 FNNVFKGDEGGFYINYNGCEYEAT-GVTVCQNDGT-VCSSSAWK-PTGYV   66 (70)
+T ss_dssp             ESSCEECTTSCEEEEETTEEEECC-SSEEECSSSS-CEEEEEEE-ECSCC
+T ss_pred             ccceeecCCCceEEeecCcEEEee-eEEEECCCCc-Eeccccee-ecccc
+Confidence            1122333333445443333  222 1222222332 46666764 22221
+
+
+No 15 
+>1m5h_A Formylmethanofuran--tetrahydromethanopterin formyltransferase; alpha/beta sandwich; 2.00A {Archaeoglobus fulgidus} SCOP: d.58.33.1 d.58.33.1
+Probab=0.06  E-value=6.5e+03  Score=10.96  Aligned_cols=27  Identities=22%  Similarity=0.384  Sum_probs=14.0
+
+Q ss_pred             ccceeEEEEee-cccccccCceeEEeeccc
+Q d2orfSS         281 RESVSICVEMT-DEKGKSMGPLIFKIEDLK  309 (434)
+Q Consensus       281 ~~~~e~Cl~l~-~~~~~~~~~i~i~~~~i~  309 (434)
+                      +..-  -++|. +|-|.-+|.-+|.+.++.
+T Consensus       270 ~~~G--v~~IsAGNYGGkLG~~~~~L~el~  297 (297)
+T 1m5h_A          270 KIPG--VVKITAGNYGGKLGKHIINLNELF  297 (297)
+T ss_dssp             TSTT--EEEEECCCCTTTSCSEEEEGGGTC
+T ss_pred             cCCC--eEEEecCCCCCccccceEEhhhcC
+Confidence            1111  12222 223557899999987652
+
+
+No 16 
+>3din_E Preprotein translocase subunit SECG; protein translocation, membrane protein, ATPase, ATP-binding membrane, nucleotide-binding, protein transport; HET: ADP; 4.50A {Thermotoga SP}
+Probab=0.05  E-value=4.9e+03  Score=8.43  Aligned_cols=21  Identities=14%  Similarity=0.202  Sum_probs=5.7
+
+Q ss_pred             hhhHHHHhhHHHHHHHHHhhee
+Q d2orfSS         166 ILNIEVLNSLMLFVILNILVCV  187 (434)
+Q Consensus       166 Iln~~c~~a~lly~il~~~~~~  187 (434)
+                      +-....+ ..++|+++++++..
+T Consensus        52 l~k~T~i-l~vlF~v~~l~l~~   72 (76)
+T 3din_E           52 GGKITLV-LSVLFFVSCVVTAF   72 (76)
+T ss_dssp             TTHHHHH-HHHHHHHHHHHHHT
+T ss_pred             HHHHHHH-HHHHHHHHHHHHHH
+Confidence            1011111 23344444333211
+
+
+No 17 
+>4xtr_G PEP12P; membrane protein targeting complex, hydrolase-transport PROT complex; HET: ADP ATP; 2.05A {Saccharomyces cerevisiae}
+Probab=0.05  E-value=5.5e+03  Score=7.86  Aligned_cols=21  Identities=29%  Similarity=0.575  Sum_probs=4.7
+
+Q ss_pred             hhHHHhhhhHHHHhhHHHHHHHH
+Q d2orfSS         160 SSWVDKILNIEVLNSLMLFVILN  182 (434)
+Q Consensus       160 ~C~~~~Iln~~c~~a~lly~il~  182 (434)
+                      +=|-..++....  .+++|+.+.
+T Consensus        14 srwrvyllivll--vml~fifli   34 (37)
+T 4xtr_G           14 SRWRVYLLIVLL--VMLLFIFLI   34 (37)
+T ss_dssp             -CHHHHHHHHHH--HHHHHHHHH
+T ss_pred             hhHHHHHHHHHH--HHHHHHHHH
+Confidence            113332222211  122222211
+
+
+No 18 
+>2hi7_B Disulfide bond formation protein B; redox, DSBB, membrane protein, ubiquinone, oxidative protein folding, oxidoreductase; HET: UQ1; 3.70A {Escherichia coli} SCOP: a.29.15.1 PDB: 2leg_B* 2zup_B* 3e9j_C* 2ltq_A* 2zuq_A* 2k73_A 2k74_A*
+Probab=0.05  E-value=5.6e+03  Score=9.27  Aligned_cols=42  Identities=14%  Similarity=0.138  Sum_probs=6.4
+
+Q ss_pred             hcCceeEEEEecCCCcccccccccCCchhhhhHHHhhhh---HHHHh--hHHHHHHHHHhheeeEEEEEEecC
+Q d2orfSS         130 KLGRSFQLVIGASGNQHHSRKWCTGSRDELSSWVDKILN---IEVLN--SLMLFVILNILVCVYLKVVKIKNN  197 (434)
+Q Consensus       130 ~~~~~C~~~~~~~~~~hi~C~~C~~~~~ni~C~~~~Iln---~~c~~--a~lly~il~~~~~~~~~~~~l~~~  197 (434)
+                      .+...|..         .+               ..++.   ++ |+  ++++++++.+...... ..+.+|+
+T Consensus       125 ~~~~~C~~---------~~---------------~~~lGlsma~-wsli~f~~~~i~~~~~l~~~-~~~~~~~  171 (176)
+T 2hi7_B          125 VASGDSAE---------RQ---------------WDFLGLEMPQ-WLLGIFIAYLIVAVLVVISQ-PFKAKKR  171 (176)
+T ss_dssp             GC---------------------------------------CHH-HHHHHHHHHHHHHHHTTC----------
+T ss_pred             cCCCCCCC---------CC---------------hhhhcccHHH-HHHHHHHHHHHHHHHHHHHH-Hhhcccc
+Confidence            23334433         11               01111   11 11  2333444444333322 1111111
+
+
+No 19 
+>2m20_A Epidermal growth factor receptor; transmembrane, cell signaling, juxtamembrane, signaling PROT; NMR {Homo sapiens}
+Probab=0.05  E-value=4.9e+03  Score=6.93  Aligned_cols=21  Identities=33%  Similarity=0.192  Sum_probs=3.2
+
+Q ss_pred             hhhhHHHHh-hHHHHHHHHHhh
+Q d2orfSS         165 KILNIEVLN-SLMLFVILNILV  185 (434)
+Q Consensus       165 ~Iln~~c~~-a~lly~il~~~~  185 (434)
+                      .|.....+. .+++.+++.+++
+T Consensus         4 ~i~g~vvg~~~~~~~i~~~~~~   25 (60)
+T 2m20_A            4 SIATGLVGALLLLLVVALGIGL   25 (60)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             eEEEehHHHHHHHHHHHHHHHH
+Confidence            111111110 111111111111
+
+
+No 20 
+>2m3e_A Integrin alpha-L; integrin alpah L TM domain, polar interaction, membrane PROT; NMR {Homo sapiens}
+Probab=0.04  E-value=5.6e+03  Score=7.54  Aligned_cols=25  Identities=20%  Similarity=0.157  Sum_probs=6.2
+
+Q ss_pred             hhHHHhhhhHHHHhhHHHHHHHHHhhe
+Q d2orfSS         160 SSWVDKILNIEVLNSLMLFVILNILVC  186 (434)
+Q Consensus       160 ~C~~~~Iln~~c~~a~lly~il~~~~~  186 (434)
+                      .=|.. +.....+ .+++.++++++|-
+T Consensus        11 ~~wii-i~s~i~G-lllL~~ii~iL~K   35 (50)
+T 2m3e_A           11 MLYLY-VLSGIGG-LLLLLLIFIVLYK   35 (50)
+T ss_dssp             CHHHH-HHHHHHH-HHHHHHHHHHHHH
+T ss_pred             cHHHH-HHHHHHH-HHHHHHHHHHHHH
+Confidence            13432 1111111 1122222333321
+
+
+Done!

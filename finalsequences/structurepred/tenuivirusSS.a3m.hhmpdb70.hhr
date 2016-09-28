@@ -1,0 +1,429 @@
+Query         tenuivirusSS
+Match_columns 784
+No_of_seqs    450 out of 485
+Neff          7.8 
+Searched_HMMs 276
+Date          Thu Aug  4 12:31:38 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/tenuivirusSS.a3m.hhm -ohhm ./structurepred/tenuivirusSS.a3m.hhm -o ./structurepred/tenuivirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;  100.0 2.8E-65   4E-69  571.0  80.0  369  339-739     1-431 (432)
+  2 3a1m_A Chimera of thrombin cle   2.9 5.9E+02   0.079   18.6  15.6  106  382-540    18-129 (139)
+  3 2l8s_A Integrin alpha-1; trans   0.7 1.2E+03    0.15   13.8  15.3   35  224-274     7-41  (54)
+  4 4xtr_G PEP12P; membrane protei   0.6 1.2E+03    0.14   12.7  12.3   16  230-245    17-32  (37)
+  5 2knc_A Integrin alpha-IIB; tra   0.6 1.4E+03    0.18   13.2  15.6   33  226-274    12-44  (54)
+  6 2l6w_A Beta-type platelet-deri   0.4 1.5E+03     0.2   12.1  15.3   17  255-275    22-38  (39)
+  7 2m3e_A Integrin alpha-L; integ   0.4 1.7E+03    0.22   12.4  14.6   16  258-274    29-44  (50)
+  8 3s8f_C Cytochrome C oxidase po   0.4 1.7E+03    0.21   11.7  15.0   26  228-267     8-33  (34)
+  9 2mfr_A Insulin receptor, IR; i   0.3   2E+03    0.26   12.6  13.2   16  257-275    33-49  (57)
+ 10 4gyc_B Sensory rhodopsin II tr   0.3 1.8E+03    0.27   12.4  15.0   23  255-277    72-95  (135)
+ 11 4i5s_A Putative histidine kina   0.3 2.9E+03    0.43   15.0  12.0   55  211-269     2-56  (450)
+ 12 1oed_C Acetylcholine receptor    0.3 2.8E+03    0.39   14.1  17.0   32  215-246   218-251 (260)
+ 13 2k1a_A Integrin alpha-IIB; sin   0.3 2.1E+03    0.27   11.4  13.2   16  257-273    26-41  (42)
+ 14 4cq4_A Engineered version of t   0.3 3.1E+03    0.44   14.1  27.7   41  229-269   229-270 (309)
+ 15 1pi7_A VPU protein, U ORF prot   0.2 2.2E+03    0.29   11.2  16.3   30  225-267     4-34  (36)
+ 16 1oed_E Acetylcholine receptor    0.2   3E+03    0.43   13.7  16.9   31  215-245   218-248 (260)
+ 17 2j7a_C Cytochrome C quinol deh   0.2 2.9E+03    0.41   12.7  12.0  100  213-366     6-145 (159)
+ 18 2mv6_A EPO-R, erythropoietin r   0.2   3E+03    0.36   11.6  19.2   32  225-261    16-47  (49)
+ 19 3j2w_E Glycoprotein E1; E1-E2    0.2 3.1E+03    0.39   11.2  14.3   16  226-241    23-38  (46)
+ 20 1jlt_A Phospholipase A2 inhibi   0.2 3.5E+03    0.48   12.1   4.6   44    1-53     54-122 (122)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=100.00  E-value=2.8e-65  Score=571.04  Aligned_cols=369  Identities=17%  Similarity=0.215  Sum_probs=312.2
+
+Q ss_pred             ccchhHHhhhcccccccc----cCcccchhcceeecccCCcceeeeec------cceEEEEeeeEEEEEEeeeeeeeccc
+Q tenuivirusSS    339 AESCQDLVSSISNIERCT----NNSCDFISKMKLTLLNTPQDFCFKTS------TDVYKIRFNSVRVMCLSVPLYYTNSF  408 (784)
+Q Consensus       339 ~~~Cq~~~~~~~~~~~C~----~~~C~~~~~~~l~l~~~~~e~Cl~l~------~~~i~i~~~~i~l~C~k~~~~~Tr~~  408 (784)
+                      -++|||++++++.+++|+    ++.|++++.++|+|+|+|||+||+|+      ++.||||+++++|+|+|+++|||||+
+T Consensus         1 ~~~C~~~~~~~s~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTrd~   80 (432)
+T 4hj1_A            1 DPGCSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSF   80 (432)
+T ss_dssp             CBCEEEEEECCGGGEEEEESSSCEEEEEEEEEEEECCCBTSEEEEEEECSSTTCEEEEEEEEEEEEEEEEEEEEEEECCE
+T ss_pred             CCCCCceeEEEecccEEeCCCCCCEEEEeEEEEEEeecCCcEEeEEEECCCCCeEEEEEEEEEeeEEEEecccEEEecce
+Confidence            268899999999999998    36999999999999999999999998      59999999999999999999999999
+
+
+Q ss_pred             eeeecccceeeccCCccccCC--------------ccceeccc---ceeeeeeeeeee-----eeeee---cCcccccee
+Q tenuivirusSS    409 KRVISREEWKCFEGEGCRTDG--------------THSIWGES---TSLSFDYCVTDF-----HIFSY---CPAYHYNWK  463 (784)
+Q Consensus       409 ~~~~~~~~~~~~~~~rC~~~G--------------~~~el~~~---~~pg~t~C~~sc-----gCf~~---ClFyr~~~~  463 (784)
+                      ++       +++++|||++||              .+|||+..   .+||+++|+++|     |||++   |||||    
+T Consensus        81 ~~-------~~~s~~RC~~~GsC~~~~C~~i~~~~~~pEl~~~~~~~~~g~t~C~~sCGg~gCgCF~~~~sClFyR----  149 (432)
+T 4hj1_A           81 SP-------KCLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVH----  149 (432)
+T ss_dssp             EE-------EEEEEEECTTSTTCSTTTTTTCCTTCCCGGGGGGCCCCBCEEEEEEEECCSGGGTCSSSSCEEEEEE----
+T ss_pred             eE-------EEeeEeECCCCCccccCcccccCCcCcchhhccccccCCCccceeccccCCCCcCeeCcCcchhEEE----
+Confidence            99       999999999999              58999852   358999999999     69998   99999    
+
+
+Q ss_pred             eeeeecCCccceeEeeeeccceeEEEEEeccCee---eeeccCcccccCCceEEEEeccCccCCCCcc-ccccc-Cceee
+Q tenuivirusSS    464 RIEYEPTSSRACTIMKCMDTKFEIVGYIQKNGHV---LKELGGITSKYDSPLVSISLSNYNSARMPRE-YAECD-GKAYL  538 (784)
+Q Consensus       464 ~~y~~p~s~~~yevf~C~~W~~~v~~~vt~~~~~---i~L~p~~~~~~~~~~itls~is~~~p~pp~~-~~~~~-~~~fi  538 (784)
+                       +||+|+++++||||+|++|+++++++|+.++.+   +.|..+.++..+|.+++|+.+++..|.+|.. +...+ ...++
+T Consensus       150 -~y~~p~s~~iyeVf~C~~W~~~v~i~vt~~~~~~~~~~l~~~~~~~~~~~~i~itl~~~~~~~~~~~~fi~~~~~~~a~  228 (432)
+T 4hj1_A          150 -TYLQSVRKEALRVFNCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAI  228 (432)
+T ss_dssp             -EEEEESSSCCEEEEEEEEEEEEEEEEEECTTSCEEEEEECTTCEEEETTEEEEEEEECCSCTTGGGCEEEEETTTEEEE
+T ss_pred             -EEEEcCCCCEEEEEECCCccEEEEEEEEecCCceEEEEeccCCceEEeeccEEEEEEeeeecCCCCcEEEEeCCceEEE
+Confidence             999999999999999999999999999998632   6666555556788888888877666655423 55444 44588
+
+
+Q ss_pred             ecccccCccchhhhcCcCCCCCCceEEEecccccccccCCCCCeEEEee---------cc-------ccchhhccccCcc
+Q tenuivirusSS    539 RTANDLGSFDKELLGNIQCPTKEDAVVLSSKCKTKILSNEDLPVIRYIE---------RD-------GVDMLEHVKSEPL  602 (784)
+Q Consensus       539 ~~~~~~~~~~~~~~g~lqC~t~~~A~~~~~~C~~~~~~~~~~~~I~~~~---------~~-------~~n~LP~~~~~p~  602 (784)
+                      .+.++.++|.+|++|+|||+++++|++++.+|.+      +++++.+..         ..       .+++||+++    
+T Consensus       229 ~~~~~~~~p~~g~ig~lqC~t~~~A~~~~~~C~~------~~~~c~c~~~~~~~~C~c~~~~~~~~~~~~~LP~~~----  298 (432)
+T 4hj1_A          229 VDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLR------APNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTR----  298 (432)
+T ss_dssp             ESSCCCSSCCTTSTTSEEBSSHHHHHTTBTTSEE------CTTCEEEEEETTEEEEEECCCCHHHHHHHTBSSEEE----
+T ss_pred             ecccccCCcCcCcccceeeCChHHhHhhcCceee------ccccceEEcccceEEeeCCCCCHHHHhhcCCCceEe----
+Confidence            8999999999999999999997544110246777      666666544         11       248999999    
+
+
+Q ss_pred             ccee--ee--cCccccccccceeeecccchHHhhheeeeeeeeeecceeeEeeecccceeeeEEEeecCeeee--eeccc
+Q tenuivirusSS    603 KDVL--VS--SSGISLSTLDLFPVELNLQFKEAITSIITSKISLNGTSCKITGIERKFKKTTVSIESSNKVYL--SDILA  676 (784)
+Q Consensus       603 ~~~~--~~--~~~V~A~~~~~~~~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~C~S~~~~--~a~i~  676 (784)
+                      +++.  .+  +++|+|.++.+++++|+|++++++++.++++++|++++++++|||+|++||+|.++|+|+.++  .+++.
+T Consensus       299 ~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~C~S~~~~~~~~~~~  378 (432)
+T 4hj1_A          299 NDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNK  378 (432)
+T ss_dssp             TTEEEEECSSSCCEEEEECSCCCEEEEEEEEEEEEECCSCCCCCEEEEEEEEEBSSSSSCEEEEEEEEESSCEEEEEEET
+T ss_pred             CcceEEEecCCCeEEEEeccceEEEEEEEecceEEEEEEeCCcceEEeccceEecccccCCEEEEEEEeCCCCeEEEEEc
+Confidence            7665  43  557999999988999999887655556678999999999999999999999999999999753  57888
+
+
+Q ss_pred             ccCcccchhhhcccCcceEEEEEEEEEEEeeeEEEEEEEeCCeeEEeecCCceEEEEecCccc
+Q tenuivirusSS    677 CEGLAVCPMILNNIKKGTCITTTYYSVTVGSMIKCKFIYSGDTLMCKYDVSPLEITVISPSLD  739 (784)
+Q Consensus       677 C~~~~~~~~~i~c~~~g~~~~~~~~f~~a~v~~~C~~~~~~~~~~Cg~~~~~~~i~~~s~~~~  739 (784)
+                      |++  + .|.+.|.+++..++++|||++|+|+++|++       +||+.++.|+|+|.-..++
+T Consensus       379 ~~~--~-~~~~~~~~g~~~~~~~~~f~~a~v~~~C~v-------~CG~~~~~f~i~G~L~~~~  431 (432)
+T 4hj1_A          379 DGS--L-HIVLPSENGTKDQCQILHFTVPEVEEEFMY-------SCDGDERPLLVKGTLIAID  431 (432)
+T ss_dssp             TSS--C-EEEEEECBEEEEEEEEECCSSSEEEEEEEE-------ESSSCCEEEEEEEECBCCC
+T ss_pred             CCC--E-EEEEecCCCCeeEEEEEEcCCCeEeeEEEE-------ECCCCcEEEEEEEEEEecC
+Confidence            888  6 678888877778889999999999999999       9999999999999864432
+
+
+No 2  
+>3a1m_A Chimera of thrombin cleavage site, tail-associate lysozyme, fibritin; bacteriophage T4, antimicrobial, bacteriolytic enzyme, glyco hydrolase; 2.00A {Synthetic}
+Probab=2.95  E-value=5.9e+02  Score=18.61  Aligned_cols=106  Identities=12%  Similarity=0.162  Sum_probs=27.9
+
+Q ss_pred             ccceEEEEeeeEEEEEEeeeeee--eccceeeecccceeeccCCccccCCccceecccceeeeeeeeeeeeeeeecCccc
+Q tenuivirusSS    382 STDVYKIRFNSVRVMCLSVPLYY--TNSFKRVISREEWKCFEGEGCRTDGTHSIWGESTSLSFDYCVTDFHIFSYCPAYH  459 (784)
+Q Consensus       382 ~~~~i~i~~~~i~l~C~k~~~~~--Tr~~~~~~~~~~~~~~~~~rC~~~G~~~el~~~~~pg~t~C~~scgCf~~ClFyr  459 (784)
+                      .-....|.-.....  .+....-  ..+...       .+.        |...+--..+ ...+-  ..          -
+T Consensus        18 nD~t~~Vg~d~~~t--V~~d~t~tV~~n~t~-------tV~--------gn~s~tV~gn-~~i~v--~g----------~   67 (139)
+T 3a1m_A           18 GNGTILVKGNVTII--VEGNADITVKGDATT-------LVE--------GNQTNTVNGN-LSWKV--AG----------T   67 (139)
+T ss_dssp             CBCEEEEESBEEEE--ESSCEEEEESSCEEE-------EES--------SCEEEEESSC-EEEEE--SS----------C
+T ss_pred             CCCcEEECCCceEE--EcCCceEEECCceEE-------Eec--------CceEEEEccc-eeeee--cC----------e
+Confidence            13344444333332  2221111  112111       110        0000000010 00000  00          0
+
+
+Q ss_pred             cceeeeeeecCCccceeEeeeeccceeEEEEEeccCeeeeeccCcccccCCceEEEEeccCccCCCCcc---cccccCce
+Q tenuivirusSS    460 YNWKRIEYEPTSSRACTIMKCMDTKFEIVGYIQKNGHVLKELGGITSKYDSPLVSISLSNYNSARMPRE---YAECDGKA  536 (784)
+Q Consensus       460 ~~~~~~y~~p~s~~~yevf~C~~W~~~v~~~vt~~~~~i~L~p~~~~~~~~~~itls~is~~~p~pp~~---~~~~~~~~  536 (784)
+                           +......              .+.+.+    ..+.|.++....+.+..|.+..-..-.|.||..   ++..++.|
+T Consensus        68 -----~~i~ag~--------------~ItLkv----ssI~i~~~G~I~i~G~~I~in~~g~~~~~~~~~g~~~~~~~~~~  124 (139)
+T 3a1m_A           68 -----VDWDVGG--------------DWTEKM----ASMSSISSGQYTIDGSRIDIGSVEGYIPEAPRDGQAYVRKDGEW  124 (139)
+T ss_dssp             -----EEEEESS--------------EEEEEE----SEEEEEESSEEEEECSEEEETTBCCBCCCCCSSSSEEEEETTEE
+T ss_pred             -----eEEecCc--------------eEEEEE----EEEEEecCccEEEeCCeEEEeccCccCCCCCCCCceeEeecCeE
+Confidence                 1111111              222222    112222222222234455552223223445544   44444554
+
+
+Q ss_pred             -eeec
+Q tenuivirusSS    537 -YLRT  540 (784)
+Q Consensus       537 -fi~~  540 (784)
+                       |+.+
+T Consensus       125 ~~~~~  129 (139)
+T 3a1m_A          125 VFLST  129 (139)
+T ss_dssp             ECCC-
+T ss_pred             EEhhh
+Confidence             2221
+
+
+No 3  
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=0.74  E-value=1.2e+03  Score=13.85  Aligned_cols=35  Identities=17%  Similarity=0.210  Sum_probs=6.5
+
+Q ss_pred             ehhhhhhHHHHHHHHHHHHHHHHHhhhhhhhHHHHHHHHHHHhcccccccc
+Q tenuivirusSS    224 YSLYSIILFFVIVIVFTLITIMNILFFLKPAFWLLKKVLYSMVGLCHRRPV  274 (784)
+Q Consensus       224 il~~a~~l~~~~~~i~~~~~~~~~~~l~~P~~~~~~~i~~~~~~~~~~~~~  274 (784)
+                      +-...+++.++..++.+. .+.          .++++..  +   .+|+++
+T Consensus         7 ~~~wiIi~s~i~GlllL~-iii----------~iL~K~G--F---FkRk~~   41 (54)
+T 2l8s_A            7 VPLWVILLSAFAGLLLLM-LLI----------LALWKIG--F---FKRPLK   41 (54)
+T ss_dssp             CCTHHHHHHHHHHHHHHH-HHH----------HHHHHHH--H---TTSCCS
+T ss_pred             CcchhhHHHHHHHHHHHH-HHH----------HHHHHcC--C---CCCCCh
+Confidence            111112222221111111 010          1222221  1   233311
+
+
+No 4  
+>4xtr_G PEP12P; membrane protein targeting complex, hydrolase-transport PROT complex; HET: ADP ATP; 2.05A {Saccharomyces cerevisiae}
+Probab=0.64  E-value=1.2e+03  Score=12.65  Aligned_cols=16  Identities=25%  Similarity=0.625  Sum_probs=3.5
+
+Q ss_pred             hHHHHHHHHHHHHHHH
+Q tenuivirusSS    230 ILFFVIVIVFTLITIM  245 (784)
+Q Consensus       230 ~l~~~~~~i~~~~~~~  245 (784)
+                      -.|+++.++.+++.++
+T Consensus        17 rvyllivllvml~fif   32 (37)
+T 4xtr_G           17 RVYLLIVLLVMLLFIF   32 (37)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHH
+Confidence            1233322222211111
+
+
+No 5  
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=0.55  E-value=1.4e+03  Score=13.18  Aligned_cols=33  Identities=9%  Similarity=0.116  Sum_probs=5.4
+
+Q ss_pred             hhhhhHHHHHHHHHHHHHHHHHhhhhhhhHHHHHHHHHHHhcccccccc
+Q tenuivirusSS    226 LYSIILFFVIVIVFTLITIMNILFFLKPAFWLLKKVLYSMVGLCHRRPV  274 (784)
+Q Consensus       226 ~~a~~l~~~~~~i~~~~~~~~~~~l~~P~~~~~~~i~~~~~~~~~~~~~  274 (784)
+                      ...+++.++..++.++ .+.          .++++..  +   .+|+.+
+T Consensus        12 ~wiii~s~i~GlllL~-li~----------~iL~K~G--F---FkRk~~   44 (54)
+T 2knc_A           12 IWWVLVGVLGGLLLLT-ILV----------LAMWKVG--F---FKRNRP   44 (54)
+T ss_dssp             HHHHHHHHHHHHHHHH-HHH----------HHHHHHH--H---TTTTCC
+T ss_pred             hhHHHHHHHHHHHHHH-HHH----------HHHHHcC--C---cccCCc
+Confidence            1111111111111111 000          1122111  1   233311
+
+
+No 6  
+>2l6w_A Beta-type platelet-derived growth factor receptor; transmembrane helix, receptor tyrosine kinase, heptad repeat membrane protein; NMR {Homo sapiens}
+Probab=0.42  E-value=1.5e+03  Score=12.07  Aligned_cols=17  Identities=12%  Similarity=0.184  Sum_probs=3.0
+
+Q ss_pred             HHHHHHHHHHHhccccccccc
+Q tenuivirusSS    255 FWLLKKVLYSMVGLCHRRPVV  275 (784)
+Q Consensus       255 ~~~~~~i~~~~~~~~~~~~~~  275 (784)
+                      +|++..+....    +++++.
+T Consensus        22 ~llLiil~yk~----~qKPkY   38 (39)
+T 2l6w_A           22 IISLIILIMLW----QKKPRY   38 (39)
+T ss_dssp             HHHHHHHHHHH----TTSCCC
+T ss_pred             HHHHHHHHHHH----hhCcCC
+Confidence            12111111111    122211
+
+
+No 7  
+>2m3e_A Integrin alpha-L; integrin alpah L TM domain, polar interaction, membrane PROT; NMR {Homo sapiens}
+Probab=0.39  E-value=1.7e+03  Score=12.45  Aligned_cols=16  Identities=31%  Similarity=0.494  Sum_probs=3.8
+
+Q ss_pred             HHHHHHHHhcccccccc
+Q tenuivirusSS    258 LKKVLYSMVGLCHRRPV  274 (784)
+Q Consensus       258 ~~~i~~~~~~~~~~~~~  274 (784)
+                      +..+.|-+ ...+|+.+
+T Consensus        29 ii~iL~K~-GFFkR~~~   44 (50)
+T 2m3e_A           29 IFIVLYKV-GFFKRNLK   44 (50)
+T ss_dssp             HHHHHHHH-TSGGGSCC
+T ss_pred             HHHHHHHc-CccccCCc
+Confidence            11111222 23344311
+
+
+No 8  
+>3s8f_C Cytochrome C oxidase polypeptide 2A; complex IV, respiratory chain, lipid cubic phase, monoolein, peroxide, electron transport, proton pump; HET: HEM HAS OLC; 1.80A {Thermus thermophilus} PDB: 2qpd_C* 2qpe_C* 3bvd_C* 3qjq_C* 3qjr_C* 3qjs_C* 3qjt_C* 3qju_C* 3qjv_C* 1xme_C* 3s8g_C* 4fa7_C* 4faa_C* 4g70_C* 4g71_C* 4g72_C* 4g7q_C* 4g7r_C* 4g7s_C* 4gp4_C* 4gp5_C* 4gp8_C* 4n4y_C* 1ehk_C* 3eh3_C* 3eh4_C* 3eh5_C* 3s33_C* 3s38_C* 3s39_C* ...
+Probab=0.36  E-value=1.7e+03  Score=11.66  Aligned_cols=26  Identities=15%  Similarity=0.553  Sum_probs=4.9
+
+Q ss_pred             hhhHHHHHHHHHHHHHHHHHhhhhhhhHHHHHHHHHHHhc
+Q tenuivirusSS    228 SIILFFVIVIVFTLITIMNILFFLKPAFWLLKKVLYSMVG  267 (784)
+Q Consensus       228 a~~l~~~~~~i~~~~~~~~~~~l~~P~~~~~~~i~~~~~~  267 (784)
+                      ++++.+++..+.+.             .|+...... +.|
+T Consensus         8 Tl~~v~i~~~iiv~-------------~W~~~y~lf-l~R   33 (34)
+T 3s8f_C            8 ALAVILVLTLTILV-------------FWLGVYAVF-FAR   33 (34)
+T ss_dssp             HHHHHHHHHHHHHH-------------HHHHHHHHH-HHT
+T ss_pred             hHHHHHHHHHHHHH-------------HHHHHHHHH-ccC
+Confidence            11111111111111             132222211 111
+
+
+No 9  
+>2mfr_A Insulin receptor, IR; insulin recepotr, membrane protein, detergent micelles, TRAN; NMR {Homo sapiens}
+Probab=0.35  E-value=2e+03  Score=12.62  Aligned_cols=16  Identities=13%  Similarity=0.324  Sum_probs=2.8
+
+Q ss_pred             HHHHHHHHHhcccccc-ccc
+Q tenuivirusSS    257 LLKKVLYSMVGLCHRR-PVV  275 (784)
+Q Consensus       257 ~~~~i~~~~~~~~~~~-~~~  275 (784)
+                      ++.. .+...|  ||. .+.
+T Consensus        33 ~i~~-ly~~~k--k~~s~~~   49 (57)
+T 2mfr_A           33 VIGS-IYLFLR--KRQPDGP   49 (57)
+T ss_dssp             HHHH-HHHHHT--SSCCCCS
+T ss_pred             HHHH-hhhhhh--hhcCCcc
+Confidence            1111 122222  111 111
+
+
+No 10 
+>4gyc_B Sensory rhodopsin II transducer; photoreceptor, membrane protein; HET: RET LFA; 2.05A {Natronomonas pharaonis}
+Probab=0.32  E-value=1.8e+03  Score=12.43  Aligned_cols=23  Identities=13%  Similarity=-0.081  Sum_probs=2.7
+
+Q ss_pred             HHHHHHHHHHHhcccccc-cccee
+Q tenuivirusSS    255 FWLLKKVLYSMVGLCHRR-PVVDE  277 (784)
+Q Consensus       255 ~~~~~~i~~~~~~~~~~~-~~~~~  277 (784)
+                      ..+...+.+.+.+...+. ..+..
+T Consensus        72 ~~~~~~~~~~~~~~~~~pl~~l~~   95 (135)
+T 4gyc_B           72 GINLGLVAATLGGDTAASLSTLAA   95 (135)
+T ss_dssp             HHHHHHHHHHHC------------
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            111112223332222111 11111
+
+
+No 11 
+>4i5s_A Putative histidine kinase COVS; VICK-like protein; HAMP, PAS, transferase, phosphorylation; 3.30A {Streptococcus mutans serotype C}
+Probab=0.31  E-value=2.9e+03  Score=14.95  Aligned_cols=55  Identities=9%  Similarity=0.042  Sum_probs=9.8
+
+Q ss_pred             eEecccccceeeeehhhhhhHHHHHHHHHHHHHHHHHhhhhhhhHHHHHHHHHHHhccc
+Q tenuivirusSS    211 MRIKNYQCSHIYRYSLYSIILFFVIVIVFTLITIMNILFFLKPAFWLLKKVLYSMVGLC  269 (784)
+Q Consensus       211 ~~l~Np~C~p~~ail~~a~~l~~~~~~i~~~~~~~~~~~l~~P~~~~~~~i~~~~~~~~  269 (784)
+                      +..+.|.  +.+..+++++++.+++++  +++.......+.+|+..+...+......-.
+T Consensus         2 ~~~~~~~--~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~   56 (450)
+T 4i5s_A            2 TNVFESS--PLFLRILLAVLIILLFFY--FIFLNYREYKNNNQVKQLNAKVRSLITGHY   56 (450)
+T ss_dssp             ---------------------------------------CHHHHHHHHHHHHHHHTTCC
+T ss_pred             chHhhcC--chHHHHHHHHHHHHHHHH--HHHHHHHHhhcCChHHHHHHHHHHHhcCCC
+Confidence            1111121  111111111111111111  111111113456677566555544432211
+
+
+No 12 
+>1oed_C Acetylcholine receptor protein, delta chain; ION channel/receptor, ION channel, tubular crystal, transmembrane; 4.0A {Torpedo marmorata} SCOP: f.36.1.1 PDB: 1a11_A 1cek_A 1eq8_A
+Probab=0.29  E-value=2.8e+03  Score=14.12  Aligned_cols=32  Identities=6%  Similarity=0.216  Sum_probs=9.1
+
+Q ss_pred             ccccceeeeehhhhhhHHHH--HHHHHHHHHHHH
+Q tenuivirusSS    215 NYQCSHIYRYSLYSIILFFV--IVIVFTLITIMN  246 (784)
+Q Consensus       215 Np~C~p~~ail~~a~~l~~~--~~~i~~~~~~~~  246 (784)
+                      .-+=|...|.++-=+++++.  ..++..+..++.
+T Consensus       218 ~~~EWk~vA~VlDRl~l~iF~i~~ii~ti~i~~~  251 (260)
+T 1oed_C          218 EVGNWNLVGQTIDRLSMFIITPVMVLGTIFIFVM  251 (260)
+T ss_dssp             --------CCSHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cccchhhhhhHHhHHHHHHHHHHHHHHHHHHHhc
+Confidence            12458888888754443333  222222111111
+
+
+No 13 
+>2k1a_A Integrin alpha-IIB; single-PASS transmembrane segment, alternative splicing, calcium, cell adhesion, cleavage on PAIR of basic residues; NMR {Homo sapiens} PDB: 2k9j_A
+Probab=0.27  E-value=2.1e+03  Score=11.43  Aligned_cols=16  Identities=19%  Similarity=0.505  Sum_probs=3.3
+
+Q ss_pred             HHHHHHHHHhccccccc
+Q tenuivirusSS    257 LLKKVLYSMVGLCHRRP  273 (784)
+Q Consensus       257 ~~~~i~~~~~~~~~~~~  273 (784)
+                      ++..+.|-+ ...+|++
+T Consensus        26 li~~iL~K~-GFFkR~~   41 (42)
+T 2k1a_A           26 ILVLAMWKV-GFFKRNR   41 (42)
+T ss_dssp             HHHHHHHHT-TTTCCCC
+T ss_pred             HHHHHHHHc-CcCCCCC
+Confidence            111111211 2223221
+
+
+No 14 
+>4cq4_A Engineered version of transmembrane receptor AF15; structural protein, HAMP domain, two component signal transd transmembrane signalling; 1.70A {Archaeoglobus fulgidus} PDB: 4gn0_A
+Probab=0.25  E-value=3.1e+03  Score=14.07  Aligned_cols=41  Identities=10%  Similarity=-0.069  Sum_probs=15.7
+
+Q ss_pred             hhHHHHHH-HHHHHHHHHHHhhhhhhhHHHHHHHHHHHhccc
+Q tenuivirusSS    229 IILFFVIV-IVFTLITIMNILFFLKPAFWLLKKVLYSMVGLC  269 (784)
+Q Consensus       229 ~~l~~~~~-~i~~~~~~~~~~~l~~P~~~~~~~i~~~~~~~~  269 (784)
+                      +++.++++ ++.++..++....+.+|+..+...+......-.
+T Consensus       229 ~l~~~l~~lli~~~~~~~~~~~i~~pl~~L~~~~~~l~~g~~  270 (309)
+T 4cq4_A          229 LTLAADRAEQIVNDLASTTTSTITRPIIELSNTADKIAEGNL  270 (309)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTHHHHHHHHHHHHHHHTTCT
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCC
+Confidence            11111111 111111111125688888666665554432211
+
+
+No 15 
+>1pi7_A VPU protein, U ORF protein; alpha helix, viral protein; NMR {Human immunodeficiency virus 1} SCOP: j.35.1.1 PDB: 1pi8_A 1pje_A 2gof_A 2goh_A 2jpx_A
+Probab=0.25  E-value=2.2e+03  Score=11.17  Aligned_cols=30  Identities=13%  Similarity=0.229  Sum_probs=6.1
+
+Q ss_pred             hhhhhhHHHHHHHHHHHHHHHHHhhhhhhhHHHHHHHH-HHHhc
+Q tenuivirusSS    225 SLYSIILFFVIVIVFTLITIMNILFFLKPAFWLLKKVL-YSMVG  267 (784)
+Q Consensus       225 l~~a~~l~~~~~~i~~~~~~~~~~~l~~P~~~~~~~i~-~~~~~  267 (784)
+                      +.+++.+.++.++++.+             .|....+- +-+.|
+T Consensus         4 l~~~i~alvv~liiaIv-------------VWtiv~ieYrkl~r   34 (36)
+T 1pi7_A            4 IQIAIVALVVAIIIAIV-------------VWSIVIIEGRGGKK   34 (36)
+T ss_pred             HHHHHHHHHHHHHHHHH-------------HHHHHHHHHHHHHh
+Confidence            12222222221111111             13222221 11111
+
+
+No 16 
+>1oed_E Acetylcholine receptor protein, gamma chain; ION channel/receptor, ION channel, tubular crystal, transmembrane; 4.0A {Torpedo marmorata} SCOP: f.36.1.1
+Probab=0.24  E-value=3e+03  Score=13.65  Aligned_cols=31  Identities=0%  Similarity=-0.035  Sum_probs=8.7
+
+Q ss_pred             ccccceeeeehhhhhhHHHHHHHHHHHHHHH
+Q tenuivirusSS    215 NYQCSHIYRYSLYSIILFFVIVIVFTLITIM  245 (784)
+Q Consensus       215 Np~C~p~~ail~~a~~l~~~~~~i~~~~~~~  245 (784)
+                      .-+=|-..|.++-=+++++.++++.+....+
+T Consensus       218 ~~~eWk~vA~VlDRl~l~iF~i~~~i~t~~i  248 (260)
+T 1oed_E          218 ENENWVLIGKVIDKACFWIALLLFSIGTLAI  248 (260)
+T ss_dssp             --------CCHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ccccceeehhhhhhHHHHHHHHHHHHHHHHH
+Confidence            1244888888775544433322221111111
+
+
+No 17 
+>2j7a_C Cytochrome C quinol dehydrogenase NRFH; cytochrome C nitrite reductase, NRFA, NAPC/NIRT family, membrane complex, oxidoreductase; HET: HEM LMT; 2.3A {Desulfovibrio vulgaris} PDB: 2vr0_C*
+Probab=0.22  E-value=2.9e+03  Score=12.71  Aligned_cols=100  Identities=12%  Similarity=0.073  Sum_probs=19.1
+
+Q ss_pred             ecccccceeeeehhhhhhHHHHHHHHHHHHHHHHH---hh---h--hhhh----------------------------HH
+Q tenuivirusSS    213 IKNYQCSHIYRYSLYSIILFFVIVIVFTLITIMNI---LF---F--LKPA----------------------------FW  256 (784)
+Q Consensus       213 l~Np~C~p~~ail~~a~~l~~~~~~i~~~~~~~~~---~~---l--~~P~----------------------------~~  256 (784)
+                      -.||.  -.+.+++.++++.+++ +++....+-..   ..   .  ..+.                            ..
+T Consensus         6 ~~~~~--~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~C~~CH~~~~~~~~~~~s~H~~~~C~~CH~~~~~~~~~~~k   82 (159)
+T 2j7a_C            6 SRNGP--ARLKLVLGGATLGVVA-LATVAFGMKYTDQRPFCTSCHIMNPVGVTHKLSGHANISCNDCHAPHNLLAKLPFK   82 (159)
+T ss_dssp             ----------CCSTTTHHHHHHH-HHHHHHHHHHTTSHHHHTTSGGGHHHHHHHHHSTTTTSCTHHHHSCSSHHHHHHHH
+T ss_pred             hccch--HHHHHHHHHHHHHHHH-HHHHHHHheeCCCCchhHhcCCCccccchhccCCCCCCChhhhCCCcchhhHHHHH
+Confidence            11222  2233333333222222 22222111110   00   0  0000                            00
+
+
+Q ss_pred             HHHHHHHHHhccccccccceeeeeeceeeEEecccccceEEEeeccCCCCCcchhhhhccceeccceEeHHHHHHHHHHh
+Q tenuivirusSS    257 LLKKVLYSMVGLCHRRPVVDEVSVDMSTVRVVDEAEEGLLVVEDSIAPNTNVSDKVKRKGRKVENGLIFIPYVLMILLLV  336 (784)
+Q Consensus       257 ~~~~i~~~~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~r~~~~~~~~~~~~~i~l~~~  336 (784)
+                      ................                   .          .+... ...              .....-..+. 
+T Consensus        83 ~~~g~~~~~~~~~~~~-------------------~----------~~~~~-~~~--------------~~~~~~~~C~-  117 (159)
+T 2j7a_C           83 AIAGARDVYMNTLGHP-------------------G----------DLILA-GME--------------TKEVVNANCK-  117 (159)
+T ss_dssp             HHHHHHHHHHHHTSCC-------------------C----------SCCCC-CHH--------------HHHHHHHHHH-
+T ss_pred             HHhhhhhhhhhhcCCC-------------------c----------hhhHH-HHh--------------hcCCCCccCh-
+Confidence            0111111111100000                   0          00000 111              0111111111 
+
+
+Q ss_pred             cCccchhHHhhhc----ccccccccCcccchhcc
+Q tenuivirusSS    337 CSAESCQDLVSSI----SNIERCTNNSCDFISKM  366 (784)
+Q Consensus       337 ~~~~~Cq~~~~~~----~~~~~C~~~~C~~~~~~  366 (784)
+                          .|=......    .....|.  .|......
+T Consensus       118 ----~CH~~~~~~~~~~~~~~~C~--~CH~~~~h  145 (159)
+T 2j7a_C          118 ----ACHTMTNVEVASMEAKKYCT--DCHRNVQH  145 (159)
+T ss_dssp             ----HHHHHHHTTSCTTTSSSSGG--GTSGGGTT
+T ss_pred             ----hhCcChhhcccccCCCCchh--hcCCCCCC
+Confidence                233333321    2345663  34433211
+
+
+No 18 
+>2mv6_A EPO-R, erythropoietin receptor; micelles, transmembrane domain, MEM protein; NMR {Homo sapiens}
+Probab=0.21  E-value=3e+03  Score=11.60  Aligned_cols=32  Identities=22%  Similarity=0.459  Sum_probs=5.2
+
+Q ss_pred             hhhhhhHHHHHHHHHHHHHHHHHhhhhhhhHHHHHHH
+Q tenuivirusSS    225 SLYSIILFFVIVIVFTLITIMNILFFLKPAFWLLKKV  261 (784)
+Q Consensus       225 l~~a~~l~~~~~~i~~~~~~~~~~~l~~P~~~~~~~i  261 (784)
+                      +++.+.+.+.  ++..+..+.-   +..=-+.+..++
+T Consensus        16 LIl~L~lii~--~Il~lL~~~~---llshrRfL~kKi   47 (49)
+T 2mv6_A           16 LILTLSLILV--VILVLLTVLA---LLSHRRALKQKI   47 (49)
+T ss_dssp             HHHHHHHHHH--HHHHHHHHHH---HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHH--HHHHHHHHHH---HHHHHHHHHHhc
+Confidence            1222211111  1111111110   000001122221
+
+
+No 19 
+>3j2w_E Glycoprotein E1; E1-E2 glycoprotein, transmembrane HELI; 5.00A {Chikungunya virus}
+Probab=0.18  E-value=3.1e+03  Score=11.17  Aligned_cols=16  Identities=13%  Similarity=0.231  Sum_probs=2.2
+
+Q ss_pred             hhhhhHHHHHHHHHHH
+Q tenuivirusSS    226 LYSIILFFVIVIVFTL  241 (784)
+Q Consensus       226 ~~a~~l~~~~~~i~~~  241 (784)
+                      ..+.++.+-++++...
+T Consensus        23 G~~~li~i~livlvvv   38 (46)
+T 3j2w_E           23 GVGLIVAVAALILIVV   38 (46)
+T ss_dssp             HHHHHHHHHHHHHHHH
+T ss_pred             CcHHHHHHHHHHHHHH
+Confidence            1111111111111111
+
+
+No 20 
+>1jlt_A Phospholipase A2 inhibitor; heterodimer complex, hydrolase, PLA2-activity; 1.40A {Vipera ammodytes ammodytes} SCOP: a.133.1.2 PDB: 1vpi_A 1aok_A 1q5t_A 1oqs_A 2h4c_A
+Probab=0.16  E-value=3.5e+03  Score=12.09  Aligned_cols=44  Identities=14%  Similarity=0.329  Sum_probs=17.5
+
+Q ss_pred             CccCCCCCCCCceeeEEeeeEEeec-cEEEEecccc--------------e------eee----eeeccCccccccCC
+Q tenuivirusSS      1 VKVPCSARAPPCKLTYELNGYFIEN-GLICYNRASV--------------N------YFE----TCYTGNYDYKLPLH   53 (784)
+Q Consensus         1 ~~~~~~~~~~~c~~~~~~~~~~~~~-~~~C~~~~~~--------------c------~~~----~~~~~~c~g~~~~c   53 (784)
+                      +. .|......  .     .|...+ ...|.+ ++.              |      ..+    .=...+|.++.++|
+T Consensus        54 ~~-~C~p~~~~--Y-----~~~~~~~~~~C~~-~~~C~~~lCeCD~~~A~cl~~~~~~~~~~~~~~~~~~C~~~~p~c  122 (122)
+T 1jlt_A           54 VN-DCNPKTAT--Y-----TYSFENGDIVCGD-NDLCLRAVCECDRAAAICLGENVNTYDKNYEYYSISHCTEESEQC  122 (122)
+T ss_dssp             CC-SSCTTTCC--C-----CEEEETTEEEECC-SSHHHHHHHHHHHHHHHHHHHTGGGCCGGGBTCGGGCCCSCCCCC
+T ss_pred             hc-cCCCeeec--c-----ceEEECCceEECC-CCcccchhcccHHHHHHHHHhccccccHHHcCCChhhcCCCCCCC
+Confidence            11 34432211  1     133333 567876 322              1      111    11245666666655
+
+
+Done!

@@ -1,0 +1,18 @@
+# No 1  
+>ss_pred PSIPRED predicted secondary structure
+ECCCHHHHHHHHHH
+>ss_conf PSIPRED confidence values
+01001446869999
+>Consensus
+ttavsetrqtwaew
+>9790312/568-1063
+TTAVSETRQTWAEW
+>ss_pred PSIPRED predicted secondary structure
+EEEEECCCHHHHHH
+>ss_conf PSIPRED confidence values
+03440431127765
+>Consensus
+pvavdehrityqel
+>tr|G7YB21|G7YB21_CLOSI Uncharacterized protein OS=Clonorchis sinensis GN=CLF_104132 PE=4 SV=1
+PVAVDEHRITYQEL
+

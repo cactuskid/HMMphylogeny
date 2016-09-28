@@ -1,0 +1,76 @@
+Query         H2AM12
+Match_columns 937
+No_of_seqs    227 out of 297
+Neff          6.7 
+Searched_HMMs 1
+Date          Tue Aug 23 14:46:54 2016
+Command       hhalign -i ./finalsequences/models/H2AM12.a3m.hhm -t ./finalsequences/models/Q02004.a3m.hhm -o ./finalsequences/results/H2AM12_Q02004_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 Q02004                         100.0 2.9E-51 2.9E-51  420.4  18.0  346  479-828     3-418 (442)
+
+No 1  
+>Q02004
+Probab=100.00  E-value=2.9e-51  Score=420.40  Aligned_cols=346  Identities=14%  Similarity=0.213  Sum_probs=275.6
+
+Q ss_pred             hccccccccccceeeee-ccCCCc-ceeeeeehhhhhcccceeeeeccCCcccccccccccccCCCCCCCC-CCCceEEE
+Q H2AM12          479 ESHIPAINGLSAGINIA-MPNGES-LFSIIIYVRRVINKASYRFLYETGPTIGINAKHEEVCTGKCPSPIP-HQDGWVTF  555 (937)
+Q Consensus       479 e~~l~l~sGts~~~~L~-~~~~~~-~~~l~I~Ik~a~i~~~~~~lY~Tg~~i~in~~h~~~CTG~Cp~~~~-~~~~w~~F  555 (937)
+                      ++.+|+.++++..|.|. +|++.| .+.|+|.|.++.+.+..+++|.||++ .+..|..++|||+||+++- +...|..=
+T Consensus         3 ~~~i~l~~~t~l~w~l~ls~~~~E~~~~l~i~I~d~~Qvy~a~~qylTG~~-~~~~w~~f~CtG~C~k~c~c~t~~C~~~   81 (442)
+T Q02004            3 TSIIKLKEKTGVMWKLVGSGLASEKKKPFRFPIMDFAQVYNSVFQYITGDR-LLSEWPKAVCTGDCPHRCGCQTSTCMAK   81 (442)
+T ss_pred             cceeEeecccceeeEEeccccccccCCCcccccchHHHHhhhhceeeeccc-cccccccceecCCCCCcccccccccccc
+Confidence            45799999999999999 999998 99999999999999999999999999 5888899999999999874 44555432
+
+
+Q ss_pred             eecccCCcccccceeeEecCCccc-cccccccccc--cceeccccccccceeEEEeeccc-cccchhhhcccccccceee
+Q H2AM12          556 SKERSSNWGCEEWGCLAINDGCLY-GSCQDIIRPE--YKIYKKSSIEQKDVEVCITMAHE-SFCSTVDVLQPLISDRIQL  631 (937)
+Q Consensus       556 ~~e~TS~WGCee~gClaI~tGC~~-G~C~dvik~~--~~VyKk~~~~~~~v~vCI~~~~e-~~C~~i~~~~p~~t~~v~v  631 (937)
+                      ++  .+.|||||.|||+||||||| |...|.+++.  +.||| ++..++++.|||++++| +.|+.|++++++++++++|
+T Consensus        82 ~~--~~~w~CNP~wC~gVGTGCTcCg~~v~~~~~~~~~~~~k-i~~~k~~~~vCve~~~e~~~Ck~Ida~~~~~~g~vkV  158 (442)
+T Q02004           82 EC--HTQECVSTHMVLGIGTGCTCCGMDVERPFNKYLGVKWS-TEYLRTEVLVCVEVTEEERHCEIVEAGTRFNIGPITI  158 (442)
+T ss_pred             cc--cccceeeeeEEEeeccCcceeccccccccccccccccc-cceeeeeEEEEEEeccccceeeeeeccceeeeeeeEE
+Confidence            33  49999999999999999999 5566666677  58899 99999999999999998 8999999999999999999
+
+
+Q ss_pred             eeee--eecCCCCcEEEEec-Ce--EEEeecc--ccccccccc----------ceeEeeeccccc---------------
+Q H2AM12          632 DIQT--IQMDSMPNIIAVKN-GK--VYVGDIN--DLGSTAKKC----------GSVQLYSEGIIG---------------  679 (937)
+Q Consensus       632 ~~~~--~~s~~lP~~iav~~-~k--i~~G~In--dlg~~~~~c----------G~vQ~~~~~~~g---------------  679 (937)
+                      +|++  +..+.||+.||++. ++  .+.|...  .+..+.+||          ||+|..+...+-               
+T Consensus       159 ~~~~p~gt~~kLp~~i~~~~~~~~~~~~~~~~~~~ii~~k~~C~~~sCthGdpGDiq~~~~~~~~~~d~~~g~~~~~~d~  238 (442)
+T Q02004          159 TISDPQNIGSKLPESLMTVQEIDDSNFVDIMHVGNVISADNSCRLQSCTHGSAVTTRFTALTALIKDDHSSGLNLAVLDP  238 (442)
+T ss_pred             EecCCCCcccCCCcccceeeeecCCCceeEEeeeeeeecCCceeeccccCCceeeeeeeeeeheecccCCCCceeeeeCc
+Confidence            9998  68889999998882 11  2222221  111255555          899998732211               
+
+
+Q ss_pred             --------CCCCCcceeeccccccceeeeeccccccceeEeEeecCe-eE----E-------eecc-ceEEee--eecce
+Q H2AM12          680 --------SGTPKFDYVCHAFNRKDVILRRCFDNSYQSCLLLEQDNT-LT----I-------ASTS-HMEVHK--KVSSV  736 (937)
+Q Consensus       680 --------~g~p~fdy~C~~a~~k~v~~~~c~~n~y~s~~~L~~~~~-~~----~-------~~~~-~l~~~~--~~~~l  736 (937)
+                              +....|+|+|++|+||+|+|.++...+-++|++|+..+. +.    |       ..+. .+.+.+  |+...
+T Consensus       239 ~~~~~wmsW~G~s~~~~C~~g~~P~C~y~G~v~~n~dsF~~~n~t~~~~~~~~~f~~s~~~~~~~~~~~~lK~r~P~~~~  318 (442)
+T Q02004          239 KVNSSWLSWEGCDMDYYCNVGDWPTCTYTGVVTQKLREFLKLDQHRKRLHTTLSFSLKKNLSKRSHTSVRLEGKTVTRME  318 (442)
+T ss_pred             CCCcccceeeccCcceeeccCCCCcceeeehhhHHHHHHhcchhhcccceeeeeeeecccccccccceEEecceeEEEEE
+Confidence                    123368999999999999999999999999999998643 22    2       1112 444443  67788
+
+
+Q ss_pred             eeeeEEEEeecccccccceeee-EEEeeeEecCcccCcccceeeee--ecccceeceeeecCCcc---eEEEEEeCCCC-
+Q H2AM12          737 GTINYKIMLGDFDYNAYSTQAT-VTIDEIRCGGCYGCPEGMACALK--LSTNTIGSCSIKSNCDT---YIKIIAVDPMQ-  809 (937)
+Q Consensus       737 G~i~~~i~l~di~~k~~s~~~~-~~~~~~~C~GC~~C~~G~~C~l~--i~s~~~~~c~I~s~C~~---~~t~i~i~~g~-  809 (937)
+                      |+|+++|++.|+.++....+++ +.++..+|.|||+|+.||.|.+.  ++...+|+.||++.-|.   ..+++.+.+|+ 
+T Consensus       319 g~inv~v~v~~Lel~~~~v~~~~~~~~~~sc~Gc~gc~~Gftct~~vsltep~~F~~hiks~d~~i~~~~~s~~~~~g~~  398 (442)
+T Q02004          319 VKVTALIEVDGMELHSKTIRLSGIRLTGLKCSGCFSCTSGISCSVNAKLTSPDEFTLHLRSTSPNVVVAETSIIARKGPS  398 (442)
+T ss_pred             EEEEEEEEecceeeeeeeeEEeeeEEecceecccccccCCceeeeeccccCCceeEEEeecCCCceEEEeeeeeeecCCC
+Confidence            9999999999997777666666 56888999999999999998885  56668899999854443   57888899999 
+
+
+Q ss_pred             -cceeeEecCcccceeEEEE
+Q H2AM12          810 -SEYSIKLNCPLATETVSVS  828 (937)
+Q Consensus       810 -n~~~ik~~c~~~~~~~~~~  828 (937)
+                       |.|+++++....+.++++.
+T Consensus       399 ~n~~~v~vf~~~~~s~~~~~  418 (442)
+T Q02004          399 ATTSRFKVFSVRDTKKICFE  418 (442)
+T ss_pred             cccceeEEEEeecccceeeE
+Confidence             8788888888873355543
+
+
+Done!

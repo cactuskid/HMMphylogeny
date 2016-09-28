@@ -1,0 +1,589 @@
+Query         malawimonasSS
+Match_columns 693
+No_of_seqs    248 out of 301
+Neff          7.5 
+Searched_HMMs 573
+Date          Thu Aug  4 12:30:40 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/malawimonasSS.a3m.hhm -ohhm ./structurepred/malawimonasSS.a3m.hhm -o ./structurepred/malawimonasSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4i3g_A Beta-glucosidase; PA14   46.4      99   0.014   30.9  28.4   79  420-499   731-828 (829)
+  2 4iib_A Beta-glucosidase 1; TIM  38.5 1.3E+02   0.018   30.0  29.7   77  420-496   745-836 (841)
+  3 4d0j_A Beta-glucosidase; hydro  26.8   2E+02   0.027   28.5  32.2   82  420-503   759-855 (857)
+  4 3i6s_A Subtilisin-like proteas  26.2 1.6E+02   0.024   27.6  45.2  237  209-505   349-648 (649)
+  5 3idu_A Uncharacterized protein  19.2      97   0.014   22.3  41.9  109  379-502     5-119 (127)
+  6 2xzz_A Protein-glutamine gamma   6.5 2.5E+02   0.035   19.3  34.9   86  405-493     8-94  (102)
+  7 3vta_A Cucumisin; subtilisin-l   6.3 5.2E+02   0.076   23.1  44.9  216  254-502   363-620 (621)
+  8 4xtr_G PEP12P; membrane protei   4.2 1.9E+02   0.023   16.4   2.6   16    1-16     14-29  (37)
+  9 1ixl_A Hypothetical protein PH   4.1 3.3E+02   0.049   18.2  24.0  118  259-448    10-130 (131)
+ 10 3mi9_C Protein TAT; P-TEFB, HI   2.1 3.9E+02    0.05   18.3   3.3   46  504-606     6-55  (86)
+ 11 2w0t_A Lethal(3)malignant brai   1.8 5.2E+02   0.068   14.9   4.0   36  295-337     3-38  (43)
+ 12 3d6x_A (3R)-hydroxymyristoyl-[   1.4 7.7E+02    0.11   16.0  23.6  135  244-440     2-142 (146)
+ 13 2zi0_A Protein 2B, TAV2B; RNAI   1.2 9.2E+02    0.11   15.6   3.3   25  595-619    17-41  (75)
+ 14 3e56_A Putative uncharacterize   1.1 1.2E+03    0.14   16.1   6.0   72  441-573     9-88  (113)
+ 15 3kuv_A Fluoroacetyl coenzyme A   1.1 8.9E+02    0.13   15.4  22.8   85  326-443    38-123 (139)
+ 16 4tkr_A Thiamine transporter TH   1.0 2.5E+02   0.035   21.9   0.0   21  663-690    49-69  (214)
+ 17 3qga_A UREA2, fusion of urease   1.0 1.6E+03    0.21   17.2  36.5  124  329-470    39-190 (225)
+ 18 2v1o_A Cytosolic acyl coenzyme   0.8 1.1E+03    0.16   15.0  24.7  107  313-450     3-123 (151)
+ 19 2kgo_A Uncharacterized protein   0.7 1.4E+03    0.19   15.1   6.4   19  148-166    47-66  (108)
+ 20 2q78_A Uncharacterized protein   0.7 1.4E+03     0.2   15.2  25.1  111  281-443    17-131 (153)
+
+No 1  
+>4i3g_A Beta-glucosidase; PA14 domain, macrolide antibiotic, antibio activation, extracellular, hydrolase; HET: BGC MPO; 1.40A {Streptomyces venezuelae}
+Probab=46.44  E-value=99  Score=30.93  Aligned_cols=79  Identities=23%  Similarity=0.262  Sum_probs=0.0
+
+Q ss_pred             eEEEEEeccceeecceeEEEccccccccc---------ccccccccccCcceeEEEEEe----------ecccccCCcce
+Q malawimonasSS   420 TLTVVIRNTGTINADYSVTVTDCTSAIQP---------IQALPASLAAGASTSLLFSVR----------ANTYAGGDQNC  480 (693)
+Q Consensus       420 ~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~---------i~~q~~~i~p~~~~~~~f~i~----------~~~~~~~~~~C  480 (693)
+                      +++|+|+|+|++.+.-.|++ .=+..-..         .--+.+.|+|+++.+..|+|.          ...........
+T Consensus       731 ~vsv~V~NtG~~~g~evvQl-Yv~~~~~~~~~~p~k~L~gF~kv~l~pGes~~v~~~l~~~~l~~~d~~~~~w~~~~G~y  809 (829)
+T 4i3g_A          731 KVTVTVRNSGKRAGQEVVQA-YLGASPNVTAPQAKKKLVGYTKVSLAAGEAKTVTVNVDRRQLQFWDAATDNWKTGTGNR  809 (829)
+T ss_dssp             EEEEEEEECSSSCEEEEEEE-EEECCTTCCSCCCSEEEEEEEEEEECTTCEEEEEEEECGGGGEEEETTTTEEEECCEEE
+T ss_pred             EEEEEEEeCCCCCccEEEEE-EecCCccccccchhhhhccceeeeeCCCCeEEEEEEECHHHhcceeccCCeEEecCceE
+
+
+Q ss_pred             eEEEeccCCCccccEEEEE
+Q malawimonasSS   481 TVRLFDSQNDLSDSLLIFF  499 (693)
+Q Consensus       481 ~v~L~ds~~~~ld~~~i~f  499 (693)
+                      .+.+=.+......+..+++
+T Consensus       810 ~i~vG~sS~d~~~~~~~~~  828 (829)
+T 4i3g_A          810 LLQTGSSSADLRGSATVNV  828 (829)
+T ss_dssp             EEEEEEETTEEEEEEEEEE
+T ss_pred             EEEEeCCCCCccceEEEEe
+
+
+No 2  
+>4iib_A Beta-glucosidase 1; TIM barrel, hydrolase, high-mannose N-glycosylations, extrac; HET: NAG BMA MAN; 1.80A {Aspergillus aculeatus} PDB: 4iic_A* 4iid_A* 4iie_A* 4iif_A* 4iig_A* 4iih_A*
+Probab=38.49  E-value=1.3e+02  Score=30.00  Aligned_cols=77  Identities=14%  Similarity=0.084  Sum_probs=0.0
+
+Q ss_pred             eEEEEEeccceeecceeEEEccccccccc-----ccccccccccCcceeEEEEEe----------ecccccCCcceeEEE
+Q malawimonasSS   420 TLTVVIRNTGTINADYSVTVTDCTSAIQP-----IQALPASLAAGASTSLLFSVR----------ANTYAGGDQNCTVRL  484 (693)
+Q Consensus       420 ~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~-----i~~q~~~i~p~~~~~~~f~i~----------~~~~~~~~~~C~v~L  484 (693)
+                      +++|+|+|+|++.+...|++.--...+..     .--+.+.|+|+++...+|.|.          ..........-.+.+
+T Consensus       745 ~vsv~V~NtG~~~g~evvqlY~~~~~~~~p~~~L~gf~kv~l~pge~~~v~~~l~~~~ls~~d~~~~~~~~~~G~~~i~v  824 (841)
+T 4iib_A          745 RVSVTVKNTGRVAGDAVPQLYVSLGGPNEPKVVLRKFDRLTLKPSEETVWTTTLTRRDLSNWDVAAQDWVITSYPKKVHV  824 (841)
+T ss_dssp             EEEEEEEECSSSCEEECCEEEEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEEHHHHCEEETTTTEEECCSSCCEEEE
+T ss_pred             EEEEEEEecCCCCCceeeEEeecCCCCCCChhheeeeeeeecCCCCeEEEEEEEeHHHcceEECCCCeEEEecceEEEEE
+
+
+Q ss_pred             eccCCCccccEE
+Q malawimonasSS   485 FDSQNDLSDSLL  496 (693)
+Q Consensus       485 ~ds~~~~ld~~~  496 (693)
+                      -.+..++.-...
+T Consensus       825 g~ss~~~~~~~~  836 (841)
+T 4iib_A          825 GSSSRQLPLHAA  836 (841)
+T ss_dssp             ESBTTBCCEEEE
+T ss_pred             eCCCCCcceeee
+
+
+No 3  
+>4d0j_A Beta-glucosidase; hydrolase, glycoside hydrolase; HET: NAG BMA MAN BGC GLC; 2.20A {Rasamsonia emersonii}
+Probab=26.84  E-value=2e+02  Score=28.52  Aligned_cols=82  Identities=16%  Similarity=0.122  Sum_probs=0.0
+
+Q ss_pred             eEEEEEeccceeecceeEEEccccccccc-----ccccccccccCcceeEEEEEe----------ecccccCCcceeEEE
+Q malawimonasSS   420 TLTVVIRNTGTINADYSVTVTDCTSAIQP-----IQALPASLAAGASTSLLFSVR----------ANTYAGGDQNCTVRL  484 (693)
+Q Consensus       420 ~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~-----i~~q~~~i~p~~~~~~~f~i~----------~~~~~~~~~~C~v~L  484 (693)
+                      +++|+|+|+|++.+...|++.--...+..     .--+.+.|+|+++.+.+|.|.          ..........=.+.+
+T Consensus       759 ~vsv~VtNtG~~~G~evvQlY~~~~~~~~p~k~L~gF~kv~l~pGes~~v~~~l~~~~ls~~d~~~~~~~~~~G~y~i~v  838 (857)
+T 4d0j_A          759 RVTTIITNTGKVTGDEVPQLYVSLGGPDDAPKVLRGFDRITLAPGQQYLWTTTLTRRDISNWDPVTQNWVVTNYTKTIYV  838 (857)
+T ss_dssp             EEEEEEEECSSSCEEECCEEEEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEETGGGCEEETTTTEEECCSSCCEEEE
+T ss_pred             EEEEEEEeCCCCCCceEEEEEeecCCCCcchhhhhceeccccCCCCEEEEEEEEchHHeeeEECCCCeEEEecCEEEEEE
+
+
+Q ss_pred             eccCCCccccEEEEEeccc
+Q malawimonasSS   485 FDSQNDLSDSLLIFFNTTN  503 (693)
+Q Consensus       485 ~ds~~~~ld~~~i~f~tt~  503 (693)
+                      -++....  .....|++-+
+T Consensus       839 g~ss~~~--~~~~~~~~~~  855 (857)
+T 4d0j_A          839 GNSSRNL--PLQAPLKPYP  855 (857)
+T ss_dssp             ESSSSCC--CEEEECCCCC
+T ss_pred             eCCCCCc--eeeEEEEecC
+
+
+No 4  
+>3i6s_A Subtilisin-like protease; PA-domain, FN3-domain, hydrolase; HET: NAG FUC; 2.50A {Solanum lycopersicum} PDB: 3i74_A*
+Probab=26.22  E-value=1.6e+02  Score=27.59  Aligned_cols=237  Identities=8%  Similarity=0.065  Sum_probs=91.1
+
+Q ss_pred             ceeEEEEEEEeeeCCCCCceeEEEeeCccccccccccHHHHHHHhhccccccCCcc---cccceEEeeCCCCccccccCc
+Q malawimonasSS   209 ETSFEVRVTITQQGPDGTPIVQTLTLSPSVQGAVSNDRKVLARLVGDFASWTAPHT---LSNKYLVVPHTPTANARVQNP  285 (693)
+Q Consensus       209 ~~~~~i~v~i~~~~~n~~~~~~~~~l~p~~~~~~~~~~~v~v~ligd~~~~~~~~~---l~~~yL~iP~~~~~~~~~~~~  285 (693)
+                      .....|............  .   .+                   .+|......++   +..-=|..|-..         
+T Consensus       349 ~~~~~i~~~~~~~~~~~~--~---~~-------------------a~fSS~GP~~~~~~~lKPDI~APG~~---------  395 (649)
+T 3i6s_A          349 TPTATITFQETYLDTKPA--P---VV-------------------AASSARGPSRSYLGISKPDILAPGVL---------  395 (649)
+T ss_dssp             SCEEEEEEEEEECCCSSC--C---EE-------------------CTTSCCSSCTTCTTSCSCCEEEECSS---------
+T ss_pred             CceEEEEecceeccCCCC--c---cc-------------------cccCCCCCCCCCCCccCCceecCCCe---------
+Confidence            122334333322221100  0   11                   11333222221   112225555322         
+
+
+Q ss_pred             eeeeEeeccc--eeeecCccccceeeeeeeeee----------------ccCCCCCCCCchhhhhhHHHHHhhhhhhccC
+Q malawimonasSS   286 IAYSLLVGQD--QVTLDGSERNKIGVGFSAFRF----------------EPNPCANVPGSSLRNQVEDLYQADIQRVSRG  347 (693)
+Q Consensus       286 ~~~~mll~~~--~v~l~G~eCnKIGVsy~aF~~----------------Q~~~C~~~~gSCL~nQl~~~~~~D~~~i~~g  347 (693)
+                        -+--.+..  .-+..+..  .-+..|..+..                |-    .|.+|  -.|++.....--..+  +
+T Consensus       396 --I~sa~~~~~~~~~~~~~~--~~~~~~~~~sGTSmAaPhVAG~aALl~~~----~p~~s--p~~Iks~L~~TA~~~--~  463 (649)
+T 3i6s_A          396 --ILAAYPPNVFATSIGTNI--LLSTDYILESGTSMAAPHAAGIAAMLKAA----HPEWS--PSAIRSAMMTTADPL--D  463 (649)
+T ss_dssp             --EEEECCTTSCCEEETTTE--EECCSEEEECSHHHHHHHHHHHHHHHHHH----STTCC--HHHHHHHHHHTCBCB--C
+T ss_pred             --EEEecCCCCCcccccccc--ccCcceeeeccccccchhHhhHHHHHHhh----CCCCC--HHHHHHHHhhccccc--c
+Confidence              01111110  00111110  01122333221                10    12333  446666555432222  1
+
+
+Q ss_pred             CCcceeeecc----------CCceeec---cCCCcEEEEEEeee--------------------------eccceeeeee
+Q malawimonasSS   348 QKGNYLVSGF----------GDPLLYE---DTQGRRVLAFRTVH--------------------------TQASMLTLEL  388 (693)
+Q Consensus       348 ~~~~Y~~~~~----------G~~~~~~---~~~~~~~l~~~~~~--------------------------~~~s~i~ie~  388 (693)
+                      ..+..+...-          |...-+.   .+++   |.|..+.                          ..-+.-...+
+T Consensus       464 ~~~~~~~~~~~~~~~~~~~~GaG~vn~~~Al~~g---lv~~~~~~dy~~~lc~~~~~~~~~~~~~~~~~~~~~~~~~~~l  540 (649)
+T 3i6s_A          464 NTRKPIKDSDNNKAATPLDMGAGHVDPNRALDPG---LVYDATPQDYVNLLCSLNFTEEQFKTIARSSASHNCSNPSADL  540 (649)
+T ss_dssp             TTSSBCEETTTSSBCCHHHHTTCBCCHHHHTCCS---EECCCCHHHHHHHHHTTCCCHHHHHHHHTTTSCC-CCCCCCCC
+T ss_pred             cCCCccccccccCcCCHHHcCCCccCHhhccCCC---eEEeccHHHHHHHhhccCCCccceeeeecccccccccCCcccc
+Confidence            1122222211          2111111   1344   2211100                          0000001122
+
+
+Q ss_pred             cccceeEeeccCCCeeEeeecCCceeeecCCeEEEEEeccceeecceeEEEcccccccc-ccccccccccc-CcceeEEE
+Q malawimonasSS   389 AADNIQFVTNLSPGKIVSAQVPSFESLSLGGTLTVVIRNTGTINADYSVTVTDCTSAIQ-PIQALPASLAA-GASTSLLF  466 (693)
+Q Consensus       389 ~Ad~i~~v~~~s~G~I~~~~~~~fea~s~~g~l~v~v~N~G~~~a~y~v~v~~Cs~~i~-~i~~q~~~i~p-~~~~~~~f  466 (693)
+                      +-.++..+... .|        .+...+  .+++.+|+|.|.-.+.|++.| ....++. .+....+++.+ +++..|.+
+T Consensus       541 n~ps~~~~~~~-~~--------~~~~~~--~~~~rtvtnvg~~~~~y~~~v-~~~~~~~v~v~p~~l~f~~~~~~~~~~v  608 (649)
+T 3i6s_A          541 NYPSFIALYSI-EG--------NFTLLE--QKFKRTVTNVGKGAATYKAKL-KAPKNSTISVSPQILVFKNKNEKQSYTL  608 (649)
+T ss_dssp             CCSSEEEEECC-SS--------CCCCEE--EEEEEEEEECC--CEEEEEEE-ECCTTEEEEEESSEEEECC-CCEEEEEE
+T ss_pred             Ccccccccccc-CC--------Ccccce--eEEEEEEEecCCCCeEEEEEE-EecCCceEEEccceEEEcCCCCEEEEEE
+Confidence            22222222111 11        111111  368999999999899999998 6676654 35567777776 88889999
+
+
+Q ss_pred             EEeeccc-ccCCcceeEEEeccCCCccccEEEEEeccccc
+Q malawimonasSS   467 SVRANTY-AGGDQNCTVRLFDSQNDLSDSLLIFFNTTNTQ  505 (693)
+Q Consensus       467 ~i~~~~~-~~~~~~C~v~L~ds~~~~ld~~~i~f~tt~t~  505 (693)
+                      .+..... ...-..=.+.+.|..+...-+--|......-+
+T Consensus       609 ~~~~~~~~~~~~~~g~~~w~~~~~~~~vr~pi~~~~~~~~  648 (649)
+T 3i6s_A          609 TIRYIGDEGQSRNVGSITWVEQNGNHSVRSPIVTSPIIEV  648 (649)
+T ss_dssp             EEEECCC---CCCEEEEEEEETTSCCEEEEEEEEEECCCC
+T ss_pred             EEEEeccCCCceEEEEEEEECCCCceEEEeeEEEEeeecc
+Confidence            9987332 33455667788887765543443444433221
+
+
+No 5  
+>3idu_A Uncharacterized protein; all beta-protein, structural genomics, PSI-2, protein structure initiative; 1.70A {Pyrococcus furiosus} PDB: 2kl6_A 2m8x_A
+Probab=19.16  E-value=97  Score=22.27  Aligned_cols=109  Identities=13%  Similarity=0.114  Sum_probs=54.0
+
+Q ss_pred             eccceeeeeecccceeEeeccCCCeeEeeecCCceeeecCCeEEEEEeccceee-cceeEEEcccccccccccccccccc
+Q malawimonasSS   379 TQASMLTLELAADNIQFVTNLSPGKIVSAQVPSFESLSLGGTLTVVIRNTGTIN-ADYSVTVTDCTSAIQPIQALPASLA  457 (693)
+Q Consensus       379 ~~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~fea~s~~g~l~v~v~N~G~~~-a~y~v~v~~Cs~~i~~i~~q~~~i~  457 (693)
+                      ..-+...+...+.++..... .|..+         .....-.++|.|.|.|... ..+.|.+.. ..  ..+..+.+.|+
+T Consensus         5 ~~~~~~~~~~~~~Dl~v~v~-~p~~~---------~~g~~~~i~v~V~N~G~~~~~~~~v~l~~-~~--~~~~~~~v~l~   71 (127)
+T 3idu_A            5 DKLSNLATTFEFPDLTVEIK-GPDVV---------GVNKLAEYEVHVKNLGGIGVPSTKVRVYI-NG--TLYKNWTVSLG   71 (127)
+T ss_dssp             BTTBCC--CCSSCCEEEEEE-SCSEE---------CTTCCEEEEEEEEECSSSCEEEEEEEEEE-TT--EEEEEEEEEEC
+T ss_pred             hhhccccccCCCCCEEEEEe-CCCcc---------cCCCEEEEEEEEEECCCCCCCCEEEEEEE-CC--EEEEEEEEEEC
+Confidence            11122233344444443311 33321         1112336999999999874 566666532 11  13455667788
+
+
+Q ss_pred             cCcceeEEEEEeecccccCCcceeEEEeccC----CCcc-ccEEEEEecc
+Q malawimonasSS   458 AGASTSLLFSVRANTYAGGDQNCTVRLFDSQ----NDLS-DSLLIFFNTT  502 (693)
+Q Consensus       458 p~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~----~~~l-d~~~i~f~tt  502 (693)
+                      |+++..+.|.+..  ...+.+...|.+-..+    .... ......+..-
+T Consensus        72 ~g~~~tv~f~~~~--~~~G~~~~~~~v~~~~~~~e~n~~NN~~~~~v~~~  119 (127)
+T 3idu_A           72 PKEEKVLTFNWTP--TQEGMYRINATVDEENTVVELNENNNVATFDVSVV  119 (127)
+T ss_dssp             TTCEEEEEEEECC--SSCEEEEEEEEESTTCCSCCSCSSSSEEEEEEEEC
+T ss_pred             CCCEEEEEEEEEc--CCCeEEEEEEEECCCCceecccCCCCceeEEEEEE
+Confidence            9988888888753  3344556666664321    1222 2334444331
+
+
+No 6  
+>2xzz_A Protein-glutamine gamma-glutamyltransferase K; 2.30A {Homo sapiens}
+Probab=6.52  E-value=2.5e+02  Score=19.33  Aligned_cols=86  Identities=10%  Similarity=0.089  Sum_probs=43.5
+
+Q ss_pred             EeeecCCceeeecCCeEEEEEeccceee-cceeEEEcccccccccccccccccccCcceeEEEEEeecccccCCcceeEE
+Q malawimonasSS   405 VSAQVPSFESLSLGGTLTVVIRNTGTIN-ADYSVTVTDCTSAIQPIQALPASLAAGASTSLLFSVRANTYAGGDQNCTVR  483 (693)
+Q Consensus       405 ~~~~~~~fea~s~~g~l~v~v~N~G~~~-a~y~v~v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~  483 (693)
+                      +.+.++.--...+...+.|++.|..... .+-.+++ +.+.-..+.....-.|+|+++..+.|++..  ...+...=.|.
+T Consensus         8 l~I~v~~~~~vg~~~~v~vsf~Npl~~~Lt~~~l~v-eG~Gl~~~~~~~~~~v~pg~~~~~~~~~tP--~~~G~~~l~a~   84 (102)
+T 2xzz_A            8 LSLTLLGAAVVGQECEVQIVFKNPLPVTLTNVVFRL-EGSGLQRPKILNVGDIGGNETVTLRQSFVP--VRPGPRQLIAS   84 (102)
+T ss_dssp             EEEEESSCCCSSSCEEEEEEEECCSSSCBCSEEEEE-EETTTEEEEEEEECCBCTTCEEEEEEEECC--CSCSSCCCEEE
+T ss_pred             EEEEECCCeeCCCeEEEEEEEECCCCcEeEEEEEEE-ECCCCcccceeEcCCcCCCCEEEEEEEEEe--CCcccEEEEEE
+Confidence            1111121001124456888888876543 2244443 443322221112567889999999999885  34555555566
+
+
+Q ss_pred             EeccCCCccc
+Q malawimonasSS   484 LFDSQNDLSD  493 (693)
+Q Consensus       484 L~ds~~~~ld  493 (693)
+                      +...+.+-+.
+T Consensus        85 f~~~~l~~i~   94 (102)
+T 2xzz_A           85 LDSPQLSQVH   94 (102)
+T ss_dssp             EECGGGGSCC
+T ss_pred             EEcCCcCCcE
+Confidence            5444332221
+
+
+No 7  
+>3vta_A Cucumisin; subtilisin-like fold, serine protease, hydrolase; HET: DFP NAG FUC BMA MAN; 2.75A {Cucumis melo}
+Probab=6.33  E-value=5.2e+02  Score=23.13  Aligned_cols=216  Identities=12%  Similarity=0.059  Sum_probs=76.4
+
+Q ss_pred             hccccccCCcc---cccceEEeeCCCCccccccCceeeeEeeccceeeecCccccceeeeeeeeee--------------
+Q malawimonasSS   254 GDFASWTAPHT---LSNKYLVVPHTPTANARVQNPIAYSLLVGQDQVTLDGSERNKIGVGFSAFRF--------------  316 (693)
+Q Consensus       254 gd~~~~~~~~~---l~~~yL~iP~~~~~~~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~--------------  316 (693)
+                      ..|+.....+.   ...-=+..|-..           -+.-.....  ..+....  +..|..+..              
+T Consensus       363 a~fSs~GP~~~~~~~lKPDi~APG~~-----------I~sa~~~~~--~~~~~~~--~~~~~~~sGTSmAaP~VAGvaAL  427 (621)
+T 3vta_A          363 VSFSSRGPNRATKDVIKPDISGPGVE-----------ILAAWPSVA--PVGGIRR--NTLFNIISGTSMSCPHITGIATY  427 (621)
+T ss_dssp             CTTSCCCSCTTCTTSCSCCEEEECSS-----------EEEECCSSS--CBTTBCC--CCSEEEECSHHHHHHHHHHHHHH
+T ss_pred             EeccCCCCCCCCCCccCCcccCCCcc-----------EEEeecCCC--CcccccC--CcceEEeecccccCHhHHHHHHH
+Confidence            11222221111   111113333211           111111110  0011111  222333211              
+
+
+Q ss_pred             --ccCCCCCCCCchhhhhhHHHHHhhhhhhccCCCc-ceeeeccCCceeec-cCCC--------c--EEE-EEEeeeecc
+Q malawimonasSS   317 --EPNPCANVPGSSLRNQVEDLYQADIQRVSRGQKG-NYLVSGFGDPLLYE-DTQG--------R--RVL-AFRTVHTQA  381 (693)
+Q Consensus       317 --Q~~~C~~~~gSCL~nQl~~~~~~D~~~i~~g~~~-~Y~~~~~G~~~~~~-~~~~--------~--~~l-~~~~~~~~~  381 (693)
+                        |.    .|.+|  ..|++.....--..+.....+ .-+...+|.+.-.. ++++        .  .+| +..++..  
+T Consensus       428 l~~~----~P~~s--p~~iks~L~~TA~~~~~~~~~~~~~~~G~G~vn~~~Al~~gl~~~~~~~dy~~~lc~~~~~~~--  499 (621)
+T 3vta_A          428 VKTY----NPTWS--PAAIKSALMTTASPMNARFNPQAEFAYGSGHVNPLKAVRPGLVYDANESDYVKFLCGQGYNTQ--  499 (621)
+T ss_dssp             HHHH----CTTCC--HHHHHHHHHHTCBCCCTTTCTTTHHHHTTCBCCHHHHSCCSEECCCCGGGCC-------------
+T ss_pred             HHhh----CcCCC--HHHHHHHHHhcCccccccCCCCCcccCCCceeCHHHhcCCceeecCChHHHHHhhhcCCCccc--
+Confidence              00    12333  456666555422111100000 00000012111000 0111        0  111 1111100  
+
+
+Q ss_pred             ceeeeeecccceeEeeccCCCee---EeeecCCceeeec-----CCeEEEEEeccceeecceeEEEcccccccc-ccccc
+Q malawimonasSS   382 SMLTLELAADNIQFVTNLSPGKI---VSAQVPSFESLSL-----GGTLTVVIRNTGTINADYSVTVTDCTSAIQ-PIQAL  452 (693)
+Q Consensus       382 s~i~ie~~Ad~i~~v~~~s~G~I---~~~~~~~fea~s~-----~g~l~v~v~N~G~~~a~y~v~v~~Cs~~i~-~i~~q  452 (693)
+                       .|.... .+...    -..+..   ...+-|+|.....     ..+++.+|+|.|.-++.|++.+ ....++. .+...
+T Consensus       500 -~~~~~~-~~~~~----~~~~~~~~~~~~n~ps~~~~~~~~~~~~~~~~rtvtnv~~~~~~y~~~~-~~~~~~~~~v~p~  572 (621)
+T 3vta_A          500 -AVRRIT-GDYSA----CTSGNTGRVWDLNYPSFGLSVSPSQTFNQYFNRTLTSVAPQASTYRAMI-SAPQGLTISVNPN  572 (621)
+T ss_dssp             ------------------------CGGGSCCSSEEEECCSSCCEEEEEEEEEEECSSSCEEEEEEE-ECCSSEEEEEESS
+T ss_pred             -ceeeee-ccccc----cCCCCCCCcccCCccceEeeccCCCceeEEEEEEEEecCCCCcEEEEEE-EecCCcEEEeccc
+Confidence             000000 00000    000000   0002233332211     1258999999998888999997 7777764 24567
+
+
+Q ss_pred             cccccc-CcceeEEEEEeecccccCCcceeEEEeccCCCccccEEEEEecc
+Q malawimonasSS   453 PASLAA-GASTSLLFSVRANTYAGGDQNCTVRLFDSQNDLSDSLLIFFNTT  502 (693)
+Q Consensus       453 ~~~i~p-~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~~ld~~~i~f~tt  502 (693)
+                      .+++.+ +++..|.+.+....  ...+.=-...|. ++...=+.-+.....
+T Consensus       573 ~~~~~~~~~~~~~~v~~~~~~--~~~~~~g~~~w~-~~~~~v~~p~~~~~~  620 (621)
+T 3vta_A          573 VLSFNGLGDRKSFTLTVRGSI--KGFVVSASLVWS-DGVHYVRSPITITSL  620 (621)
+T ss_dssp             EEEECSTTCEEEEEEEEEECC--CSSEEEEEEEEE-CSSCCCEEEEEEECC
+T ss_pred             eEEeccCCcEEEEEEEEEEee--cCCeeEEEEEEE-CCCEEEeeeEEEeee
+Confidence            778876 78888888888732  233433344443 355555666666542
+
+
+No 8  
+>4xtr_G PEP12P; membrane protein targeting complex, hydrolase-transport PROT complex; HET: ADP ATP; 2.05A {Saccharomyces cerevisiae}
+Probab=4.21  E-value=1.9e+02  Score=16.42  Aligned_cols=16  Identities=6%  Similarity=0.306  Sum_probs=4.7
+
+Q ss_pred             Ccccchhhhhhhhhhh
+Q malawimonasSS     1 TQRLSAFLVCVILLCV   16 (693)
+Q Consensus         1 ~~~~~~~~~~l~~~~~   16 (693)
+                      ++|++.++.+|++.++
+T Consensus        14 srwrvyllivllvml~   29 (37)
+T 4xtr_G           14 SRWRVYLLIVLLVMLL   29 (37)
+T ss_dssp             -CHHHHHHHHHHHHHH
+T ss_pred             hhHHHHHHHHHHHHHH
+Confidence            1344444432211111
+
+
+No 9  
+>1ixl_A Hypothetical protein PH1136; alpha+beta, hot-DOG-fold, structural genomics, unknown funct; 1.94A {Pyrococcus horikoshii} SCOP: d.38.1.5
+Probab=4.13  E-value=3.3e+02  Score=18.20  Aligned_cols=118  Identities=8%  Similarity=-0.039  Sum_probs=40.7
+
+Q ss_pred             ccCCcccccceEEeeCCCCccccccCceeeeEeeccceeeecCccccceeeeeeeeeeccCC-CCCCCCchhhhhhHHHH
+Q malawimonasSS   259 WTAPHTLSNKYLVVPHTPTANARVQNPIAYSLLVGQDQVTLDGSERNKIGVGFSAFRFEPNP-CANVPGSSLRNQVEDLY  337 (693)
+Q Consensus       259 ~~~~~~l~~~yL~iP~~~~~~~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~-C~~~~gSCL~nQl~~~~  337 (693)
+                      ......+..+.+.++                    .....             ..+...++. .+ +.|.=-...+.-+.
+T Consensus        10 ~~~~~~~~~~~~~~~--------------------~~~~~-------------~~~~~~~~~~~~-~~~~~~gg~~~~~~   55 (131)
+T 1ixl_A           10 KLTSRILVGKPILIK--------------------EGYAE-------------VELETIDEMKVD-EKGLVHGGFTFGLA   55 (131)
+T ss_dssp             TTCCTTTTCEEEEEE--------------------TTEEE-------------EEEECCGGGBSS-TTCBBCHHHHHHHH
+T ss_pred             ccchhhhceEEEEEe--------------------CCEEE-------------EEEEechhhccC-CCCcCchhhhHHHH
+Confidence            111112223333333                    22211             011111111 21 22332233334333
+
+
+Q ss_pred             HhhhhhhccCCCcceeeeccCCceeeccCCCcEEEEEEeeeecc--ceeeeeecccceeEeeccCCCeeEeeecCCceee
+Q malawimonasSS   338 QADIQRVSRGQKGNYLVSGFGDPLLYEDTQGRRVLAFRTVHTQA--SMLTLELAADNIQFVTNLSPGKIVSAQVPSFESL  415 (693)
+Q Consensus       338 ~~D~~~i~~g~~~~Y~~~~~G~~~~~~~~~~~~~l~~~~~~~~~--s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~fea~  415 (693)
+                      +.-......|  .....               ..+.+.+..+..  ..|+++              ++|++..-      
+T Consensus        56 ~~~~~~~~~~--~~~~~---------------~~~~~~f~~p~~~g~~l~~~--------------~~v~~~~~------   98 (131)
+T 1ixl_A           56 DYAAMLAVNE--PTVVL---------------GKAEVRFTKPVKVGDKLVAK--------------AKIIEDLG------   98 (131)
+T ss_dssp             HHHHHHHHCC--TTEEE---------------EEEEEEECSCCBTTCEEEEE--------------EEEEEEET------
+T ss_pred             HHHHHHhcCC--CceEE---------------EEEEEEEecCCCCCCEEEEE--------------EEEEEcCC------
+Confidence            3332222221  12211               223333333321  222222              12222211      
+
+
+Q ss_pred             ecCCeEEEEEeccceeecceeEEEccccccccc
+Q malawimonasSS   416 SLGGTLTVVIRNTGTINADYSVTVTDCTSAIQP  448 (693)
+Q Consensus       416 s~~g~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~  448 (693)
+                       +...+.+.++|.|.+-+...+.+.-......+
+T Consensus        99 -~~~~~~v~v~~~g~~v~~~~~~~~~~~~~~~~  130 (131)
+T 1ixl_A           99 -KKKIVEVKVYREEEVVLEGKFYCYVLEKHVLD  130 (131)
+T ss_dssp             -TEEEEEEEEEETTEEEEEEEEEEEECSSCTTC
+T ss_pred             -cEEEEEEEEEECCEEEEEEEEEEEEecceecc
+Confidence             12357788888888877777765333322211
+
+
+No 10 
+>3mi9_C Protein TAT; P-TEFB, HIV-1, protein binding; HET: TPO; 2.10A {Human immunodeficiency virus type 1} PDB: 3mia_C* 4ogr_D* 1jfw_A 4or5_C* 1tbc_A 1tiv_A 1k5k_A
+Probab=2.12  E-value=3.9e+02  Score=18.34  Aligned_cols=46  Identities=24%  Similarity=0.494  Sum_probs=10.8
+
+Q ss_pred             ccccccccCCCCCCcCCccCCCCcccccccCccceeeeeeeeEEechhHHHHHHhhhheeeeEeeeeeehhHHHhhhccc
+Q malawimonasSS   504 TQLNNNQAGQAPNDENRFNSGTGVSGLTCNEYCPLIVDIPCFIVKGCWTSILILVGIAVGIIVFIVVIRKVACLRKLCKC  583 (693)
+Q Consensus       504 t~~~~gtq~g~~~~~~~~~~~~~~~g~~~~~~C~~~~d~~C~i~~~C~~~i~~~~~ilv~~L~~l~l~~k~~c~~~lC~~  583 (693)
+                      ..+..+...|+.             ..+.|..|-                                           |+.
+T Consensus         6 p~lepw~hpgs~-------------p~t~c~~cy-------------------------------------------ck~   29 (86)
+T 3mi9_C            6 PRLEPWKHPGSQ-------------PKTACTNCY-------------------------------------------CKK   29 (86)
+T ss_dssp             TTSCGGGCCCCC-------------CSSCCCSCC-------------------------------------------STT
+T ss_pred             CCcccccCCCCC-------------CCCCCcCcE-------------------------------------------ecc
+Confidence            111111111111             233344453                                           445
+
+
+Q ss_pred             ccccchhhh--hh--hcccccccchhH
+Q malawimonasSS   584 CLCWPCMLC--SR--CCSSKKKKTKAK  606 (693)
+Q Consensus       584 ~~~~~~~~~--~~--~~~~~~r~~~~~  606 (693)
+                       +||-|..|  ..  .++--+++++++
+T Consensus        30 -C~~hC~~cF~~kglgi~y~~~kRRrR   55 (86)
+T 3mi9_C           30 -CCFHCQVCFITKALGISYGRKKRRQR   55 (86)
+T ss_dssp             -GGGSSHHHHHHTTSCCCSCC------
+T ss_pred             -hhhhchHhhcCCCCCccccccCcccc
+Confidence             33323333  11  111111111111
+
+
+No 11 
+>2w0t_A Lethal(3)malignant brain tumor-like 2 protein; zinc, YACG, LMBL2, nucleus, zinc-finger, RNA binding, MBT repeats, PCG proteins, polymorphism; NMR {Homo sapiens}
+Probab=1.80  E-value=5.2e+02  Score=14.88  Aligned_cols=36  Identities=8%  Similarity=-0.028  Sum_probs=16.2
+
+Q ss_pred             ceeeecCccccceeeeeeeeeeccCCCCCCCCchhhhhhHHHH
+Q malawimonasSS   295 DQVTLDGSERNKIGVGFSAFRFEPNPCANVPGSSLRNQVEDLY  337 (693)
+Q Consensus       295 ~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~  337 (693)
+                      ..-.+.=.-|.|+|+-...|.....||+       ..=...|.
+T Consensus         3 ~~~~~kCe~CGk~~~~~~f~~ksKRFCS-------~~Cak~yn   38 (43)
+T 2w0t_A            3 GSEPAVCEMCGIVGTREAFFSKTKRFCS-------VSCSRSYS   38 (43)
+T ss_dssp             SCCEEECTTTCCEEETTTSCTTTSSSSS-------HHHHHHHH
+T ss_pred             cCccceeccCCCccccccccCCcCCccc-------chhcCccc
+Confidence            1112334568888754433445567775       11111111
+
+
+No 12 
+>3d6x_A (3R)-hydroxymyristoyl-[acyl-carrier-protein] DEHY; FABZ, hot DOG fold, dehydratase, lipid biosynthesis, lipid synthesis, lyase; HET: MSE; 2.59A {Campylobacter jejuni subsp}
+Probab=1.37  E-value=7.7e+02  Score=16.01  Aligned_cols=135  Identities=12%  Similarity=0.055  Sum_probs=44.8
+
+Q ss_pred             ccHHHHHHHhhccccccCCcccccceEEeeCCCCccccccCceeeeEeeccceeeecCccccceeeeeeeeeeccCCCCC
+Q malawimonasSS   244 NDRKVLARLVGDFASWTAPHTLSNKYLVVPHTPTANARVQNPIAYSLLVGQDQVTLDGSERNKIGVGFSAFRFEPNPCAN  323 (693)
+Q Consensus       244 ~~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~  323 (693)
+                      .+..=..++    .|...+.-+-+..+-+...        ....--..++.+       +         .|. +.-+...
+T Consensus         2 ~~~~~i~~~----~p~~~p~~~id~v~~~~~~--------~~~~~~~~v~~~-------~---------~~~-~~h~~~~   52 (146)
+T 3d6x_A            2 IDVMQIQEI----LPHRYPFLLVDKITELKVK--------EVVLGYKNISIS-------D---------HVF-MGHFPGH   52 (146)
+T ss_dssp             BCHHHHHHH----CCCCTTSCCCCEEEEEETT--------TEEEEEEECCTT-------B---------THH-HHSCTTS
+T ss_pred             CChHHHHHh----CCCCCCeEEEEEEEEEcCC--------CEEEEEEEcCCC-------C---------hHH-cCcCCCC
+Confidence            112222233    3333333445555555410        001111222221       0         000 0012222
+
+
+Q ss_pred             C--CCchhhhhhHHHHHhh--hhhhccCCCcceeeeccCCceeeccCCCcEEEEEEeeeeccceeeeeecccceeEeecc
+Q malawimonasSS   324 V--PGSSLRNQVEDLYQAD--IQRVSRGQKGNYLVSGFGDPLLYEDTQGRRVLAFRTVHTQASMLTLELAADNIQFVTNL  399 (693)
+Q Consensus       324 ~--~gSCL~nQl~~~~~~D--~~~i~~g~~~~Y~~~~~G~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~  399 (693)
+                      +  +|..+-   ..+-+.-  ..........       +      .......+.-.        .       ++.|..+.
+T Consensus        53 ~i~~g~~~~---~~~~qa~~~~~~~~~~~~~-------~------~~~~~~~~~~~--------~-------~~~f~~p~  101 (146)
+T 3d6x_A           53 PIYPGVLIL---EGMAQTGGVLAFESMEDKV-------D------PKSKVVYFTGI--------D-------GAKFRNPV  101 (146)
+T ss_dssp             CCCCHHHHH---HHHHHHHHHHHHTC--------------------CCSCEEEEEE--------E-------EEEECSCC
+T ss_pred             CCCcHHHHH---HHHHHHHHHHHHhcccccc-------c------cCCccEEEEEe--------e-------eEEEeccC
+Confidence            2  222222   2222221  1111110000       0      00122222211        0       23444455
+
+
+Q ss_pred             CCCeeEeeecCCceeeecCC--eEEEEEeccceeecceeEEEc
+Q malawimonasSS   400 SPGKIVSAQVPSFESLSLGG--TLTVVIRNTGTINADYSVTVT  440 (693)
+Q Consensus       400 s~G~I~~~~~~~fea~s~~g--~l~v~v~N~G~~~a~y~v~v~  440 (693)
+                      .+|..+.+.+.- .. ....  .+.+.+.|.|.+-+.-+..+.
+T Consensus       102 ~~g~~l~~~~~v-~~-~~~~~~~~~~~~~~~g~~v~~~~~~~~  142 (146)
+T 3d6x_A          102 RPGDRLDYEMSV-VK-NRGNMWIFKGQAFVDGNLVAEAELKAM  142 (146)
+T ss_dssp             CTTCEEEEEEEE-EE-EETTEEEEEEEEEETTEEEEEEEEEEE
+T ss_pred             cCCCEEEEEEEE-EE-ccCCEEEEEEEEEECCEEEEEEEEEEE
+Confidence            667665554311 11 1233  456667787877766665541
+
+
+No 13 
+>2zi0_A Protein 2B, TAV2B; RNAI suppression, nucleus, suppressor of RNA silencing; 2.82A {Tomato aspermy virus} PDB: 3cz3_A
+Probab=1.16  E-value=9.2e+02  Score=15.65  Aligned_cols=25  Identities=16%  Similarity=0.287  Sum_probs=7.0
+
+Q ss_pred             hcccccccchhHHHhhhhcccCCCc
+Q malawimonasSS   595 CCSSKKKKTKAKEKTQKHKRSSGKE  619 (693)
+Q Consensus       595 ~~~~~~r~~~~~~~~~~~~r~~~~~  619 (693)
+                      ++..++|.++++.+..++.|.++..
+T Consensus        17 rm~Ekkk~rRk~Hk~NRkeRGHKSP   41 (75)
+T 2zi0_A           17 RMNQKKQAQRKRHKLNRKERGHKSP   41 (75)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHTCCCH
+T ss_pred             HHHHHHHHHHHHHHHhHHhccCCCH
+Confidence            1111223333333333333321111
+
+
+No 14 
+>3e56_A Putative uncharacterized protein; alpha-beta sandwich, interlocked homodimer, ASR1734, unknown; 2.01A {Nostoc punctiforme}
+Probab=1.14  E-value=1.2e+03  Score=16.13  Aligned_cols=72  Identities=14%  Similarity=0.157  Sum_probs=19.0
+
+Q ss_pred             ccccccccccccccccccCcceeEEEEEeecccccCCcceeEEEeccCCCccccEEEEEecccccccccccCCCCCCcCC
+Q malawimonasSS   441 DCTSAIQPIQALPASLAAGASTSLLFSVRANTYAGGDQNCTVRLFDSQNDLSDSLLIFFNTTNTQLNNNQAGQAPNDENR  520 (693)
+Q Consensus       441 ~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~~ld~~~i~f~tt~t~~~~gtq~g~~~~~~~  520 (693)
+                      .-+.++.|+-   .+|..+..     .+...+..-+.|.|.|.|             .|.-..-....            
+T Consensus         9 ~~~~~~~~~~---~~M~s~al-----p~q~~~~eVgVYECEIhL-------------KFRlIEEk~~L------------   55 (113)
+T 3e56_A            9 HHSSGLVPRG---SHMNSKAL-----PRQINNLEVGVYECEIHL-------------KFRLIEEKSLL------------   55 (113)
+T ss_dssp             --------------------------------CCCCEEEEEEEE-------------EEEECCCGGGS------------
+T ss_pred             cccccccchh---hhcCCCcC-----CCCCCCCceeEEEEEEEE-------------EEEeeehhhcc------------
+Confidence            1122333321   11211111     122234566778999998             56653211000            
+
+
+Q ss_pred             ccCCCCcccccccCccceeeeeeeeEEechhHHHHHHh---hhh-----eeeeEeeeeeeh
+Q malawimonasSS   521 FNSGTGVSGLTCNEYCPLIVDIPCFIVKGCWTSILILV---GIA-----VGIIVFIVVIRK  573 (693)
+Q Consensus       521 ~~~~~~~~g~~~~~~C~~~~d~~C~i~~~C~~~i~~~~---~il-----v~~L~~l~l~~k  573 (693)
+                                     +.             -.+++-.+   +.-     +=.|=--+-.+-
+T Consensus        56 ---------------~d-------------RdqLLe~LlDA~t~GsDeyLE~Lq~~Vk~qE   88 (113)
+T 3e56_A           56 ---------------SD-------------REQLLQVLLDALTEGSDDFLETLQASVKAQE   88 (113)
+T ss_dssp             ---------------SC-------------HHHHHHHHHHHHHHCCTTTEEEEEEEEEEEE
+T ss_pred             ---------------cc-------------HHHHHHHHHHHHhcCcHHHHHHHHHHHHHHH
+Confidence                           00             23443222   221     112222111111
+
+
+No 15 
+>3kuv_A Fluoroacetyl coenzyme A thioesterase; fluoroacetyl-COA thioesterase FLK, hot DOG folding, thioeste hydrolase; 1.50A {Streptomyces cattleya} PDB: 3kuw_A 3kvu_A* 3p2q_A 3p2r_A 3p2s_A 3kv7_A 3kv8_A 3kvz_A* 3kw1_A* 3kx7_A 3kx8_A 3kvi_A 3p3i_A 3p3f_A
+Probab=1.08  E-value=8.9e+02  Score=15.37  Aligned_cols=85  Identities=11%  Similarity=-0.019  Sum_probs=28.8
+
+Q ss_pred             CchhhhhhHHHHHhhhhhhccCCCcceeeeccCCceeeccCCCcEEEEEEeeeeccceeeeeecccceeEeeccCCCeeE
+Q malawimonasSS   326 GSSLRNQVEDLYQADIQRVSRGQKGNYLVSGFGDPLLYEDTQGRRVLAFRTVHTQASMLTLELAADNIQFVTNLSPGKIV  405 (693)
+Q Consensus       326 gSCL~nQl~~~~~~D~~~i~~g~~~~Y~~~~~G~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~  405 (693)
+                      +.--.--+.-+++.-.........+                .+...+...        +       +++|..+..+|..+
+T Consensus        38 ~~~~~~~~~~~~~~~~~~~~~~~~~----------------~~~~~~~~~--------~-------~~~f~~pv~~gd~l   86 (139)
+T 3kuv_A           38 EVFASGFMVGLMEWACVRAMAPYLE----------------PGEGSLGTA--------I-------CVTHTAATPPGLTV   86 (139)
+T ss_dssp             SCBCHHHHHHHHHHHHHHHTGGGCC----------------TTEEEEEEE--------E-------EEECCSCCCTTSEE
+T ss_pred             ccccHHHHHHHHHHHHHHHHHhhcC----------------CCceeEEEE--------E-------EEEECCCCCCCCEE
+Confidence            1111222222332222222111110                111111111        1       12334455666655
+
+
+Q ss_pred             eeecCCceeeec-CCeEEEEEeccceeecceeEEEcccc
+Q malawimonasSS   406 SAQVPSFESLSL-GGTLTVVIRNTGTINADYSVTVTDCT  443 (693)
+Q Consensus       406 ~~~~~~fea~s~-~g~l~v~v~N~G~~~a~y~v~v~~Cs  443 (693)
+                      .+...- ..... ...+.+.+.|.|++-+.-.... -|.
+T Consensus        87 ~~~~~v-~~~~~~~~~~~~~i~~~g~~v~~~~~~~-~~~  123 (139)
+T 3kuv_A           87 TVTAEL-RSVEGRRLSWRVSAHDGVDEIGSGTHER-AVI  123 (139)
+T ss_dssp             EEEEEE-EEEETTEEEEEEEEECSSSEEEEEEEEE-EEE
+T ss_pred             EEEEEE-EEEcCCEEEEEEEEEECCEEEEEEEEEE-EEE
+Confidence            553310 11111 1245666677666555444433 111
+
+
+No 16 
+>4tkr_A Thiamine transporter THIA; membrane protein, native-SAD phasing, multiple low energy, structural genomics, PSI-biology; HET: TPP BGL; 3.00A {Listeria monocytogenes}
+Probab=0.99  E-value=2.5e+02  Score=21.91  Aligned_cols=21  Identities=10%  Similarity=-0.035  Sum_probs=5.5
+
+Q ss_pred             hhhcCCCeeeeecCCCCCCccchhhhhh
+Q malawimonasSS   663 MMKSDRDEVSVKIPKHRPLTAYDLYDLV  690 (693)
+Q Consensus       663 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~  690 (693)
+                      .+..-  .  +.. |  +....++..+.
+T Consensus        49 vl~~i--~--i~i-p--~~~~i~l~~ip   69 (214)
+T 4tkr_A           49 VLSFI--P--LDI-G--SSFSISLGMIP   69 (214)
+T ss_dssp             HHTTS--C--CBS-S--SSCBCCTTHHH
+T ss_pred             HHHHH--H--Hhc-C--chHHhHHHHHH
+Confidence            12221  1  111 2  22333333321
+
+
+No 17 
+>3qga_A UREA2, fusion of urease beta and gamma subunits; iron metalloenzyme, alpha-beta barrel, hydrolase; HET: FME KCX; 3.00A {Helicobacter mustelae} PDB: 3qgk_A*
+Probab=0.98  E-value=1.6e+03  Score=17.24  Aligned_cols=124  Identities=14%  Similarity=0.123  Sum_probs=50.7
+
+Q ss_pred             hhhhhHHHHHhhh----hhhccCCCcceeeeccCCceeeccCCC----cEEEEEEeeeeccceeeeeec----ccceeEe
+Q malawimonasSS   329 LRNQVEDLYQADI----QRVSRGQKGNYLVSGFGDPLLYEDTQG----RRVLAFRTVHTQASMLTLELA----ADNIQFV  396 (693)
+Q Consensus       329 L~nQl~~~~~~D~----~~i~~g~~~~Y~~~~~G~~~~~~~~~~----~~~l~~~~~~~~~s~i~ie~~----Ad~i~~v  396 (693)
+                      +..|+..+.+...    +.+..|+.=         +.+...-.+    -+.+..+.+=+..|.| +++.    .++    
+T Consensus        39 Ia~~i~E~aRdG~~svaelm~~g~~l---------L~~~~Vm~GV~eml~~vqVEatFpDGtkL-Vtvh~PI~~~~----  104 (225)
+T 3qga_A           39 ISAHIMDEARRGKKTVAQLMEECVHF---------LKKDEVMPGVGNMVPDLGVEANFPDGTKL-VTVNWPIEPDD----  104 (225)
+T ss_dssp             HHHHHHHHHHHTCSCHHHHHHHTTTS---------BCGGGBCTTHHHHCSEEEEEEEETTEEEE-EEEESCBCCCS----
+T ss_pred             HHHHHHHHHHcCCCCHHHHHHHHhhh---------cCHHHcccchHhhhheEEEEEEecCCCEE-EEecCcccCCC----
+Confidence            1223333333221    111112110         112222232    1356666666665655 3333    333    
+
+
+Q ss_pred             eccCCCeeEeeecCCceeeecCCeEEEEEecccee----ecceeEEEccccccccc-----------c-cccccccccCc
+Q malawimonasSS   397 TNLSPGKIVSAQVPSFESLSLGGTLTVVIRNTGTI----NADYSVTVTDCTSAIQP-----------I-QALPASLAAGA  460 (693)
+Q Consensus       397 ~~~s~G~I~~~~~~~fea~s~~g~l~v~v~N~G~~----~a~y~v~v~~Cs~~i~~-----------i-~~q~~~i~p~~  460 (693)
+                        ..||.|.-..-...+-....-.+++.|.|+|+-    .|.|..  +.....+..           | ....+-..|++
+T Consensus       105 --~~pGe~~~~~~~~I~lN~gr~~~~l~V~NtGDRPIQVGSHyHF--~E~N~aL~FDR~~A~G~RLdIPAGTavRFEPG~  180 (225)
+T 3qga_A          105 --FKAGEIKFASDKDIELNAGKEITELKVTNKGPKSLHVGSHFHF--FEANRALEFDREKAYGKRLDIPSGNTLRIGAGE  180 (225)
+T ss_dssp             --CCTTCEECSCSCCEETTTTCCCEEEEEEECSSSCEEEETTSCG--GGSCTTEESCGGGGTTEEECSCTTCEEEECTTC
+T ss_pred             --CCccceecCCCCCeEecCCCceEEEEEEeCCCceeeecccccc--cccCCcceeehhhccccccCCCCCCeEEeCCCC
+Confidence              568998743222223233456899999999974    444432  233332211           1 11222333333
+
+
+Q ss_pred             ceeEEEEEee
+Q malawimonasSS   461 STSLLFSVRA  470 (693)
+Q Consensus       461 ~~~~~f~i~~  470 (693)
+                      +.+..+--+.
+T Consensus       181 ~k~V~LV~ig  190 (225)
+T 3qga_A          181 TKTVHLIPIG  190 (225)
+T ss_dssp             EEEEEEEECS
+T ss_pred             eeEEEEEecC
+Confidence            3333222221
+
+
+No 18 
+>2v1o_A Cytosolic acyl coenzyme A thioester hydrolase; acyl-COA thioesterase 7, serine esterase, protein structure, domain duplication, ACOT7, macrophage; HET: COA; 1.78A {Mus musculus}
+Probab=0.83  E-value=1.1e+03  Score=14.99  Aligned_cols=107  Identities=7%  Similarity=0.104  Sum_probs=29.5
+
+Q ss_pred             eeeeccCCCCCCCCchhhhhhHHHHHhhhhhh---ccCCCcceeeeccCCceeeccCCCcEEEEEEeeeeccceeeeeec
+Q malawimonasSS   313 AFRFEPNPCANVPGSSLRNQVEDLYQADIQRV---SRGQKGNYLVSGFGDPLLYEDTQGRRVLAFRTVHTQASMLTLELA  389 (693)
+Q Consensus       313 aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~i---~~g~~~~Y~~~~~G~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~  389 (693)
+                      .|.-.+.-|+. .|.=-+-.+..+.+.-....   ..+...                .....             .+.++
+T Consensus         3 ~~~v~~~~~d~-~g~v~~~~~~~~~~~~~~~~~~~~~~~~~----------------~~~~~-------------~v~~~   52 (151)
+T 2v1o_A            3 MRIMRPDDANV-AGNVHGGTILKMIEEAGAIISTRHCNSQN----------------GERCV-------------AALAR   52 (151)
+T ss_dssp             EEECCGGGBCT-TSBBCHHHHHHHHHHHHHHHHHHHHTTTC----------------CSCEE-------------EEEEE
+T ss_pred             eEEeCHHHCCc-cCeEhHHHHHHHHHHHHHHHHHHHhcccC----------------CCCce-------------EEEEE
+Confidence            11222223333 34333445555443322211   111110                01111             01111
+
+
+Q ss_pred             ccceeEeeccCCCeeEeeecCCceeee-cCCeEEEEEeccc------eeecceeEEE--ccc--cccccccc
+Q malawimonasSS   390 ADNIQFVTNLSPGKIVSAQVPSFESLS-LGGTLTVVIRNTG------TINADYSVTV--TDC--TSAIQPIQ  450 (693)
+Q Consensus       390 Ad~i~~v~~~s~G~I~~~~~~~fea~s-~~g~l~v~v~N~G------~~~a~y~v~v--~~C--s~~i~~i~  450 (693)
+                      .+.+.|..+..+|..+.+... +.... ....+.+.+.+.+      .+.+.....+  .+=  +....+++
+T Consensus        53 ~~~~~f~~pv~~gd~i~i~~~-v~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p  123 (151)
+T 2v1o_A           53 VERTDFLSPMCIGEVAHVSAE-ITYTSKHSVEVQVHVMSENILTGTKKLTNKATLWYVPLSLKNVDKVLEVP  123 (151)
+T ss_dssp             ECCEECCSCCBTTCEEEEEEE-EEEECSSCEEEEEEEEEECTTTCCEEEEEEEEEEEEEEESSSTTCBCCCC
+T ss_pred             EccEEEECCcCCCCEEEEEEE-EEEecCCEEEEEEEEEEecCCCCceEEEEEEEEEEEEecccccCCcccCC
+Confidence            123344444445554444220 00111 1122333333322      3322222221  110  01111111
+
+
+No 19 
+>2kgo_A Uncharacterized protein YBII; Zn finger, partially disordered, structural proteomics, META binding, zinc-finger, structural genomics; NMR {Escherichia coli}
+Probab=0.73  E-value=1.4e+03  Score=15.11  Aligned_cols=19  Identities=26%  Similarity=0.476  Sum_probs=11.0
+
+Q ss_pred             CCCccc-CCCcccccccchh
+Q malawimonasSS   148 AGANVR-DSQGYCCDCSLAQ  166 (693)
+Q Consensus       148 ~g~~i~-~sqGfCC~C~~~~  166 (693)
+                      -..... .+-|+|..|+..-
+T Consensus        47 l~r~~~g~syg~CedCGe~I   66 (108)
+T 2kgo_A           47 RGEIPRGESLDECEECGAPI   66 (108)
+T ss_dssp             TSCSCSSSCCSBCTTTCCBC
+T ss_pred             HHHHhcCCCcceeCCCCCcC
+Confidence            112223 3789999999541
+
+
+No 20 
+>2q78_A Uncharacterized protein; structural genomics, joint center for structural genomics, J protein structure initiative, PSI-2, hydrolase; HET: MSE MLC; 2.20A {Thermotoga maritima MSB8} SCOP: d.38.1.7
+Probab=0.71  E-value=1.4e+03  Score=15.22  Aligned_cols=111  Identities=6%  Similarity=-0.097  Sum_probs=44.0
+
+Q ss_pred             cccCceeeeEeec--c-ceeeecCccccceeeeeeeeeeccCCCCCCCCchhhhhhHHHHHhhhhhhccCCCcceeeecc
+Q malawimonasSS   281 RVQNPIAYSLLVG--Q-DQVTLDGSERNKIGVGFSAFRFEPNPCANVPGSSLRNQVEDLYQADIQRVSRGQKGNYLVSGF  357 (693)
+Q Consensus       281 ~~~~~~~~~mll~--~-~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~i~~g~~~~Y~~~~~  357 (693)
+                      ++..+.....-+.  . ..+ .+....|                  +.|..-+-.+..+.+.-......-..+       
+T Consensus        17 ~~~~~~~~~~~~~~d~~~~~-~~~~~~~------------------~~givhGg~~~~l~D~a~~~a~~~~~~-------   70 (153)
+T 2q78_A           17 DFLEGKRLTEDVALDETMVW-NEDIEML------------------DLHLVATSALIGVVHRVSYELLSRYLP-------   70 (153)
+T ss_dssp             GGGTTCEEEEEEEECGGGBC-CSCGGGG------------------GGCBBCHHHHHHHHHHHHHHHHHTTSC-------
+T ss_pred             hhhcCceeEEEEcCCceEEe-cccccCC------------------cCCeecHHHHHHHHHHHHHHHHHHhcC-------
+Confidence            2222332222221  1 111 0111113                  245566667777776665322111111       
+
+
+Q ss_pred             CCceeeccCCCcEEEEEEeeeeccceeeeeecccceeEeeccCCCeeEeeecCCceeee-cCCeEEEEEeccceeeccee
+Q malawimonasSS   358 GDPLLYEDTQGRRVLAFRTVHTQASMLTLELAADNIQFVTNLSPGKIVSAQVPSFESLS-LGGTLTVVIRNTGTINADYS  436 (693)
+Q Consensus       358 G~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~fea~s-~~g~l~v~v~N~G~~~a~y~  436 (693)
+                               .+...+            ++++   ++.|+.+..+|..+.+... ..... +...+.+.++|.+.+-+.-.
+T Consensus        71 ---------~g~~~v------------t~~l---~v~f~~Pv~~Gd~I~v~a~-v~~~g~~~~~~~~~v~~~~~lva~a~  125 (153)
+T 2q78_A           71 ---------NDYTAV------------VVET---LARHVKAVPTGTRVAVGVR-VVGVVGNRVKFRGIVMSGDEKILEAE  125 (153)
+T ss_dssp             ---------TTEEEE------------EEEE---EEEECSCCBSSEEEEEEEE-EEEEETTEEEEEEEEEETTEEEEEEE
+T ss_pred             ---------CCceEE------------EEEE---EEEEecCCCCCCEEEEEEE-EEEECCcEEEEEEEEEECCEEEEEEE
+Confidence                     111111            1111   2445556667766666431 01122 12346677788766555544
+
+
+Q ss_pred             EEEcccc
+Q malawimonasSS   437 VTVTDCT  443 (693)
+Q Consensus       437 v~v~~Cs  443 (693)
+                      ... -|.
+T Consensus       126 ~~~-v~v  131 (153)
+T 2q78_A          126 FVR-AIV  131 (153)
+T ss_dssp             EEE-EEE
+T ss_pred             EEE-EEE
+Confidence            432 111
+
+
+Done!

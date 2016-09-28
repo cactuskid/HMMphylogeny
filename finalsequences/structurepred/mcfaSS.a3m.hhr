@@ -1,0 +1,2436 @@
+Query         mcfa.fasta
+Match_columns 427
+No_of_seqs    182 out of 1417
+Neff          4.6 
+Searched_HMMs 28
+Date          Tue Aug  2 18:52:17 2016
+Command       hhsearch -cpu 30 -d ./structurepred/hhmdb.pal -i ./structurepred/mcfaSS.a3m.hhm -o ./structurepred/mcfaSS.a3m.hhr -local -cpu 30 -ssw .5 -ssm 4 -e 1 -p 0 -mact .000001 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 mcfa.fasta                     100.0  3E-186  1E-187 1389.5 131.7  427    1-427     1-427 (427)
+  2 flavivirusEnv_clustalo.fasta   100.0 1.7E-84 6.1E-86  646.2  72.6  301    1-313    75-841 (841)
+  3 flavivirusEnv_clustalo.fasta   100.0 6.8E-39 2.4E-40  308.4  56.0  383    1-424    17-841 (841)
+  4 d2orf.fasta                     84.7   0.038  0.0014   34.9  30.1  139    1-174   259-434 (434)
+  5 reticulomixafilosa.fasta        82.7   0.029  0.0011   32.1  27.3  166   64-275     1-211 (211)
+  6 RifttvalleyFever.fasta           4.9     2.2   0.078   21.7  90.7  361    1-427    15-506 (506)
+  7 d2orf.fasta                      0.1      23    0.82   12.3  13.9  242  108-427     1-286 (434)
+  8 andaluciagodoyi.fasta            0.0      27    0.95   10.7  66.1  391    1-427    52-612 (613)
+  9 thrombocytopenia.fasta           0.0      27    0.97    8.9  70.7  307    1-324    17-445 (445)
+ 10 HERV.fasta                       0.0      28       1    8.8  17.7  336    1-427   175-610 (610)
+ 11 reticulomixafilosa.fasta         0.0      28       1    5.3  23.1  182   92-369     1-211 (211)
+ 12 wuhanmosquito.fasta              0.0      28       1    5.1  61.7  314   35-424     1-426 (426)
+ 13 NaegleriaEFF.fasta               0.0      28       1    5.1  41.8  385    1-427    41-525 (638)
+ 14 mcfa.fasta                       0.0      28       1    3.7  23.6  335    1-424    20-427 (427)
+ 15 rubivirus.fasta                  0.0      28       1    2.5  17.4  336   17-427     1-494 (496)
+ 16 CelegansEFF.fasta                0.0      28       1  -14.7  66.3  376    1-408    45-543 (543)
+ 17 plasmodium.fasta                 0.0      28       1  -15.2  75.8  390    1-403    25-661 (661)
+ 18 CelegnasAFF.fasta                0.0      28       1  -14.7  66.3  376    1-408    45-543 (543)
+ 19 WEEV.fasta                       0.0      28       1  -12.9  46.7  352    3-427     1-436 (439)
+ 20 togavirus.fasta                  0.0      28       1  -12.9  46.7  352    3-427     1-436 (439)
+ 21 brnachiostoma.fasta              0.0      28       1  -44.6  96.8  383    1-427    21-559 (711)
+ 22 ArabidopsisHap2.fasta            0.0      28       1  -32.3  87.9  397    1-427    55-586 (670)
+ 23 tospovirus.fasta                 0.0      28       1  -15.5  80.8  375    1-427   113-609 (651)
+ 24 RifttvalleyFever.fasta           0.0      28       1  -20.5  62.0  371    2-427     1-492 (506)
+ 25 orthobunyavirus.fasta            0.0      28       1   -1.1  80.9  353    1-427   464-921 (937)
+ 26 orthobunyavirus2.fasta           0.0      28       1   -0.5  68.0  281   23-348     1-375 (375)
+ 27 nairovirus.fasta                 0.0      28       1  -12.9  56.7  322    1-390     7-442 (442)
+ 28 emaravirus.fasta                 0.0      28       1    0.3  31.6  240    1-313   183-461 (461)
+ 29 semlikiforest.fasta              0.0      28       1    2.2  31.7  312    3-374     1-391 (391)
+ 30 bunyaG1.fasta                    0.0      28       1  -12.6  61.2  379    1-427   453-929 (2165)
+ 31 tenuivirus.fasta                 0.0      28       1   -2.9  68.0  320    1-355   324-784 (784)
+ 32 alphavirusclstr.fasta            0.0      28       1   -6.7  45.9  354    1-427    52-502 (504)
+ 33 hantavirus.fasta                 0.0      28       1   -6.8  74.6  385    3-427     1-481 (486)
+
+No 1  
+>mcfa.fasta
+Probab=100.00  E-value=3.3e-186  Score=1389.53  Aligned_cols=427  Identities=100%  Similarity=1.545  Sum_probs=424.8
+
+Q ss_pred             CCCcccccccccccceeeeeecCCCceeeeccCcceeeeeccceeecchhhhhhhcccccccccccccCCCCcccchhhh
+Q mcfa.fasta        1 EFVEPLYTLKAEQMTMLQTIVRPEEGYVVATPNGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMADI   80 (427)
+Q Consensus         1 Dfveg~~~~~~~G~Twvd~~vLe~~~CVTi~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~e~   80 (427)
+                      |||||+|||||+|+|||||+|||+|+||||||||+|||||++++|++||++||||++|+|||+++++||||||||||+||
+T Consensus         1 Dfveg~~~~~~~G~Twvd~~vLe~~~CVTi~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~e~   80 (427)
+T mcfa.fasta        1 EFVEPLYTLKAEQMTMLQTIVRPEEGYVVATPNGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMADI   80 (427)
+T ss_pred             CCCcccccccccccceeeeeecCCCceeeeccCcceeeeeccceeecchhhhhhhcccccccccccccCCCCcccchhhh
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hcccccccCCCCcCCCccccccccccccccccccccccCcccccceeceeEEEEEEeeccccccccccCCCceeeeeccc
+Q mcfa.fasta       81 MAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSDTQQMVGDIPLTFRFAKL  160 (427)
+Q Consensus        81 ~~~~~vCk~~~~dRGWGnGCglfGkGsi~tCakf~C~~~~~~~~i~~enI~y~V~v~vH~~~~~~~~~~s~~~t~~lgdY  160 (427)
+                      ++++|||||+++||||||||||||||||+|||||+|++++++|+||+|||+|+|+++||+++..+++|+||++|++||||
+T Consensus        81 ~~~~~vCk~~~~dRGWGnGCglfGkGsi~tCakf~C~~~~~~~~i~~enI~y~V~v~vH~~~~~~~~~~s~~~t~~lgdY  160 (427)
+T mcfa.fasta       81 MAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSDTQQMVGDIPLTFRFAKL  160 (427)
+T ss_pred             hcccccccCCCCcCCCccccccccccccccccccccccCcccccceeceeEEEEEEeeccccccccccCCCceeeeeccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999998777999999999999
+
+
+Q ss_pred             ceeeeeecccccccccceeeeecCCcccchhhhhhccCCccccCCCCCcCccceeeeccccccceeeeeecCcchhhhhh
+Q mcfa.fasta      161 GNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASGRHGMEKVVVWGDARSNEILVKNVIEPSLSWEDA  240 (427)
+Q Consensus       161 G~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~lPW~~~~~w~~~e~lV~f~~phA~k~~V~~lg~qega~~~A  240 (427)
+                      |+++|+|||+|++|++|||+++|++|+||||||||+||||||+++++|||+|+||||+|||||||+|++||||||+||+|
+T Consensus       161 G~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~lPW~~~~~w~~~e~lV~f~~phA~k~~V~~lg~qega~~~A  240 (427)
+T mcfa.fasta      161 GNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASGRHGMEKVVVWGDARSNEILVKNVIEPSLSWEDA  240 (427)
+T ss_pred             ceeeeeecccccccccceeeeecCCcccchhhhhhccCCccccCCCCCcCccceeeeccccccceeeeeecCcchhhhhh
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhccCcccccceeEeeeccceeeccccCCCCCccccccccCcCcceeEEEEeeccCCcccccceeeeeeeeccchhhhcc
+Q mcfa.fasta      241 IATHGGFRDISFVCQIMLDKLVSGAFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTCHGCLLQSTKMIFLA  320 (427)
+Q Consensus       241 Lag~~~l~~Ghl~Cri~ldkL~~~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~~G~lit~npiv~~~  320 (427)
+                      |+|+++|++|||+|||+|||||++||+||+++|+|+|+|+||||||||||++|+++|+||||||+|+||+||+||+|+++
+T Consensus       241 Lag~~~l~~Ghl~Cri~ldkL~~~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~~G~lit~npiv~~~  320 (427)
+T mcfa.fasta      241 IATHGGFRDISFVCQIMLDKLVSGAFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTCHGCLLQSTKMIFLA  320 (427)
+T ss_pred             hhccCcccccceeEeeeccceeeccccCCCCCccccccccCcCcceeEEEEeeccCCcccccceeeeeeeeccchhhhcc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CcccccceeeecCCCcceeeccccccchhhhhhhhhhhhhhhhhccccccccCCcccchhhhhhcccccccccchhhHHH
+Q mcfa.fasta      321 GKTTSRAFVKCGNHTSTLLVGSTSVSIECALNPISQGWRLARHVVDRYRRFGVSGVAGVWQDLVGKFSVGAFFSNTALLV  400 (427)
+Q Consensus       321 epp~G~s~I~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r~~~~gd~aw~~dfgsvGGvfH~vfG~~~f~~lFgg~sw~~  400 (427)
+                      |||||||||+||||+++|+|||+||||||||++|+||||||+|+||+||||||+|+||||||+||+|+|++||||+|||+
+T Consensus       321 epp~G~s~I~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r~~~~gd~aw~~dfgsvGGvfH~vfG~~~f~~lFgg~sw~~  400 (427)
+T mcfa.fasta      321 GKTTSRAFVKCGNHTSTLLVGSTSVSIECALNPISQGWRLARHVVDRYRRFGVSGVAGVWQDLVGKFSVGAFFSNTALLV  400 (427)
+T ss_pred             CcccccceeeecCCCcceeeccccccchhhhhhhhhhhhhhhhhccccccccCCcccchhhhhhcccccccccchhhHHH
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             HHHHhhhhhhhhHHHHHhhhhhccccC
+Q mcfa.fasta      401 ILVLAALIDKRIAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       401 ~ililg~n~r~~~vg~ill~l~~~V~A  427 (427)
+                      ||||||+|+|||++|+|||||+++|+|
+T Consensus       401 ~ililg~n~r~~~vg~ill~l~~~V~A  427 (427)
+T mcfa.fasta      401 ILVLAALIDKRIAFLLVLGGYFYYVRA  427 (427)
+T ss_pred             HHHHhhhhhhhhHHHHHhhhhhccccC
+Confidence            999999999999999999999999997
+
+
+No 2  
+>flavivirusEnv_clustalo.fasta
+Probab=100.00  E-value=1.7e-84  Score=646.16  Aligned_cols=301  Identities=17%  Similarity=0.246  Sum_probs=277.9
+
+Q ss_pred             CCCcccccccccccceeeeeecCCCceeeec--cCcceeeeeccceee--------------------------------
+Q mcfa.fasta        1 EFVEPLYTLKAEQMTMLQTIVRPEEGYVVAT--PNGLLEFKTGPAEIY--------------------------------   46 (427)
+Q Consensus         1 Dfveg~~~~~~~G~Twvd~~vLe~~~CVTi~--~kptlDi~l~~~~~~--------------------------------   46 (427)
+                      |||||+     +|+|||| +|||||+|||+|  |||++||||.+++++                                
+T Consensus        75 dfveg~-----sg~twvd-vvle~g~cvt~~a~~kptldi~l~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~a~~  148 (841)
+T flavivirusEnv_   75 DFVEGL-----SGATWVD-VVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDTAWG  148 (841)
+T ss_pred             cccccc-----cCcceee-eeeccCccceecccCCCccceeeecccccCCCCCCCcccccCcccccceeccccCCCCCcc
+Confidence            899999     9999999 999999999999  999999999887765                                
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q mcfa.fasta       47 --------------------------------------------------------------------------------   46 (427)
+Q Consensus        47 --------------------------------------------------------------------------------   46 (427)
+                                                                                                      
+T Consensus       149 ~~c~~v~~~~~i~~~~~~~c~~~~~g~t~g~~fv~pa~vrk~c~~a~lt~v~~~~~Cps~gea~l~ee~~~~~~~~~~~~  228 (841)
+T flavivirusEnv_  149 VQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKRTYS  228 (841)
+T ss_pred             ccccccccCcccccchhhhhccCCCCCCCCccccchhhhhhhhcccccccccccCCCCCCccccccccccCCcccccccc
+Confidence                                                                                            
+
+
+Q ss_pred             ------------cchhhhhhhcccccccccccccCCCCcccchhhhhcccccccCCCCcCC-------------------
+Q mcfa.fasta       47 ------------GGQWLRELLADCHVNASYSTDVCPGGSQLNMADIMAKERVCSTQPYNRG-------------------   95 (427)
+Q Consensus        47 ------------~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCk~~~~dRG-------------------   95 (427)
+                                  +||.+|+||++|+|||+++++||||||||+|+||+|.+|||||+++|||                   
+T Consensus       229 ~~g~~g~~~~~~~pa~~R~~c~ea~is~t~t~srCPt~gea~l~ee~d~~~VCkr~~~DRGwg~~~~~~~~~~~~~~~~~  308 (841)
+T flavivirusEnv_  229 DRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRSIGY  308 (841)
+T ss_pred             CCCCCCCCCCCcchhHHHhhhhhhhccccccCCCCCCCCccchhhccccccccccccccCCCCCcCCcChhhhhhhccCc
+Confidence                        6889999999999999999999999999999999999999999999866                   
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q mcfa.fasta       96 --------------------------------------------------------------------------------   95 (427)
+Q Consensus        96 --------------------------------------------------------------------------------   95 (427)
+                                                                                                      
+T Consensus       309 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~S~~~~~~~ngcglfgkgsiv~cakftC~k~~~~~~vd~~  388 (841)
+T flavivirusEnv_  309 PVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQT  388 (841)
+T ss_pred             ccccccchhhhhhhccccCccccccccccccceeccccCCCCCCccccCccccccCccccccccccccccccccceeccc
+Confidence                                                                                            
+
+
+Q ss_pred             -------------------------CccccccccccccccccccccccCcccccceeceeEEEEEEeecccccccc----
+Q mcfa.fasta       96 -------------------------WGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSDTQQ----  146 (427)
+Q Consensus        96 -------------------------WGnGCglfGkGsi~tCakf~C~~~~~~~~i~~enI~y~V~v~vH~~~~~~~----  146 (427)
+                                               ||||||||||||++|||||+|.++++++++|.|||+|+|.++||+++..+.    
+T Consensus       389 ki~yv~r~~~h~~~~~~~~~~~d~~WGngCglfGkGslitCakf~C~~k~~g~iv~~enl~y~v~v~vHtg~~~~~~~~~  468 (841)
+T flavivirusEnv_  389 KIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBC  468 (841)
+T ss_pred             ceeEEEEEeeecccccCCCCCCCCCCCCcccccCCcccccccccccccccccceeecccceeEEEEEeecccccccCCcC
+Confidence                                     778999999999999999999999999999999999999999999975300    
+
+
+Q ss_pred             -------------------------------------------------------------------------------c
+Q mcfa.fasta      147 -------------------------------------------------------------------------------M  147 (427)
+Q Consensus       147 -------------------------------------------------------------------------------~  147 (427)
+                                                                                                     .
+T Consensus       469 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~n~~~~~~~~~~~~~~~~~~  548 (841)
+T flavivirusEnv_  469 LOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWG  548 (841)
+T ss_pred             CcCccccccccCCCCCCccccccccccceeecccCCCceeeeecccceeeeeeeccccccccchhhcccCCCCCCCCCCC
+Confidence                                                                                           0
+
+
+Q ss_pred             c-------------CCCceeeeecccceeeeeecccccccccceeeeecCC-------------cccchhhhhhccCCcc
+Q mcfa.fasta      148 V-------------GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSS-------------HEGLFLRSQVDSWPGV  201 (427)
+Q Consensus       148 ~-------------~s~~~t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~~-------------~~wlV~r~w~~Dl~lP  201 (427)
+                      |             ++|+.+++|+|||.++|+|+|++++||++|++++|+.             .+|+|+|||++||+||
+T Consensus       549 n~t~~~~~~~~~~~~~~~~~~~~t~yg~~~l~c~~~~~ldf~~~~~ltm~~~C~a~~~~~~~~~~~w~v~r~w~~dl~lp  628 (841)
+T flavivirusEnv_  549 NETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLTLP  628 (841)
+T ss_pred             CCccccCcceeeccCCCCcceeeccccccccccCCCCccccccceecccCCcCCCCCCCCCcccccchhhhhhhhccCCC
+Confidence            0             6778899999999999999999999999999999985             8999999999999999
+
+
+Q ss_pred             ccCCCC--CcCccceeeeccccccceeeeeecCcc---------------------------------------------
+Q mcfa.fasta      202 HSTASG--RHGMEKVVVWGDARSNEILVKNVIEPS---------------------------------------------  234 (427)
+Q Consensus       202 W~~~~~--w~~~e~lV~f~~phA~k~~V~~lg~qe---------------------------------------------  234 (427)
+                      |+++++  ||++++||+|++|||++|.|++||+||                                             
+T Consensus       629 w~sg~~~~w~~~~~Lvef~~pha~~i~Vlalg~qe~hl~~~~~~~kswlvhk~wf~Dlplpwtsg~~~~~~~w~~~d~lv  708 (841)
+T flavivirusEnv_  629 WQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLV  708 (841)
+T ss_pred             ccCCCCCcccccccccccCCCccceeeeeeccCCCCCCCcccccccchhhhhhhhccCCCCcCCCCCCcccccccccchh
+Confidence            999987  999999999999999999999999999                                             
+
+
+Q ss_pred             -----------------------------hhhhhhhhc------------cCcccccceeEeeeccceee--ccccCCC-
+Q mcfa.fasta      235 -----------------------------LSWEDAIAT------------HGGFRDISFVCQIMLDKLVS--GAFRDCP-  270 (427)
+Q Consensus       235 -----------------------------ga~~~ALag------------~~~l~~Ghl~Cri~ldkL~~--~ty~~C~-  270 (427)
+                                                   |+|++||+|            .++|++||++||++|||||+  +||+||+ 
+T Consensus       709 ~f~~~ha~kq~Vv~~~~~~~~~~~~~~~~g~l~~al~ga~~v~~~tn~~~~~~l~~ghv~crvkLdKLKLKGtTY~mCt~  788 (841)
+T flavivirusEnv_  709 TFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGDENW  788 (841)
+T ss_pred             hhhcccccccccccCcCCCCCCCCccchhhhhHHhhcccceecccCCCCCcccccccceeeeeecccccccCCCCCCccc
+Confidence                                         899999999            56899999999999999999  9999999 
+
+
+Q ss_pred             ----------CCccccccccCcCcceeEEEEeeccCCcccccceeee------eeeecc
+Q mcfa.fasta      271 ----------GPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTCH------GCLLQS  313 (427)
+Q Consensus       271 ----------~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~~------G~lit~  313 (427)
+                                ..+++.+.|..+||+||     ++|. .|||||+...      +|+++.
+T Consensus       789 ~lgsqegam~~ALtga~~i~~sg~~ti-----~aGh-lkCRlkmdkL~lkg~~~Clgs~  841 (841)
+T flavivirusEnv_  789 VLGSQEGAMHTALTGATEIQTSGTTTI-----FAGH-LKCRLKMDKLTLKGGYBCLOSI  841 (841)
+T ss_pred             ccccchhhhhhhccccccccccCccee-----eccc-ceeeccccccccccCCCCCCCC
+Confidence                      89999999999999876     7775 8999999864      444321
+
+
+No 3  
+>flavivirusEnv_clustalo.fasta
+Probab=100.00  E-value=6.8e-39  Score=308.42  Aligned_cols=383  Identities=14%  Similarity=0.193  Sum_probs=201.6
+
+Q ss_pred             CCCcccccccccccceeeeeecCCCceeeec--cCcceeeeeccceeecc------------h-----------------
+Q mcfa.fasta        1 EFVEPLYTLKAEQMTMLQTIVRPEEGYVVAT--PNGLLEFKTGPAEIYGG------------Q-----------------   49 (427)
+Q Consensus         1 Dfveg~~~~~~~G~Twvd~~vLe~~~CVTi~--~kptlDi~l~~~~~~~~------------a-----------------   49 (427)
+                      |||||+     +|+|||| +|||+++|||+|  +||+||||+++++++..            -                 
+T Consensus        17 DFIEGl-----sGtTWV~-lVLE~egCVTiTa~dKPsLDikme~~~ispA~~~~~~~cv~i~Nrdfveg~sg~twvdvvl   90 (841)
+T flavivirusEnv_   17 DFIEGV-----HGGTWVS-ATLEQDKCVTVMAPDKPSLDISLETVAIDPOLGDENWRCVGIGNRDFVEGLSGATWVDVVL   90 (841)
+T ss_pred             cccccc-----cCcceee-eeeccccceeeecCCCCccceeecccccCCCCCCCcccccccccccccccccCcceeeeee
+Confidence            899999     9999999 999999999999  99999999999998743            1                 
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q mcfa.fasta       50 --------------------------------------------------------------------------------   49 (427)
+Q Consensus        50 --------------------------------------------------------------------------------   49 (427)
+                                                                                                      
+T Consensus        91 e~g~cvt~~a~~kptldi~l~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~a~~~~c~~v~~~~~i~~~~~~~c~~  170 (841)
+T flavivirusEnv_   91 EHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDTAWGVQCGFVTKGSRITTTVELICFK  170 (841)
+T ss_pred             ccCccceecccCCCccceeeecccccCCCCCCCcccccCcccccceeccccCCCCCccccccccccCcccccchhhhhcc
+Confidence                                                                                            
+
+
+Q ss_pred             ---------------hhhhhhcccccccccccccCCCCcccchhhhhcccccccCCCCcCCCcc----------------
+Q mcfa.fasta       50 ---------------WLRELLADCHVNASYSTDVCPGGSQLNMADIMAKERVCSTQPYNRGWGT----------------   98 (427)
+Q Consensus        50 ---------------~~R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCk~~~~dRGWGn----------------   98 (427)
+                                     .+|+||+.|.++.+++.++||++|||||+|+.+.++.|++.++||||-+                
+T Consensus       171 ~~~g~t~g~~fv~pa~vrk~c~~a~lt~v~~~~~Cps~gea~l~ee~~~~~~~~~~~~~~g~~g~~~~~~~pa~~R~~c~  250 (841)
+T flavivirusEnv_  171 GLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKRTYSDRGWPOLGDENWNPAVLRKLCI  250 (841)
+T ss_pred             CCCCCCCCccccchhhhhhhhcccccccccccCCCCCCccccccccccCCccccccccCCCCCCCCCCCcchhHHHhhhh
+Confidence                           2588999999999999999999999999999999999999999999953                
+
+
+Q ss_pred             --------------------------------------------------------------------------------
+Q mcfa.fasta       99 --------------------------------------------------------------------------------   98 (427)
+Q Consensus        99 --------------------------------------------------------------------------------   98 (427)
+                                                                                                      
+T Consensus       251 ea~is~t~t~srCPt~gea~l~ee~d~~~VCkr~~~DRGwg~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  330 (841)
+T flavivirusEnv_  251 EAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRSIGYPVAVDEHRITYQELQDNFTPTR  330 (841)
+T ss_pred             hhhccccccCCCCCCCCccchhhccccccccccccccCCCCCcCCcChhhhhhhccCcccccccchhhhhhhccccCccc
+Confidence                                                                                            
+
+
+Q ss_pred             ----------------------------ccccccccccccccccccccCcccccceeceeEEEEEEeeccccccccc---
+Q mcfa.fasta       99 ----------------------------GCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSDTQQM---  147 (427)
+Q Consensus        99 ----------------------------GCglfGkGsi~tCakf~C~~~~~~~~i~~enI~y~V~v~vH~~~~~~~~---  147 (427)
+                                                  ||||||||||++|+||+|+++|..+++|++||+|++.+++|.+...+..   
+T Consensus       331 ~~~~~~~~~~~~~~~~~~~S~~~~~~~ngcglfgkgsiv~cakftC~k~~~~~~vd~~ki~yv~r~~~h~~~~~~~~~~~  410 (841)
+T flavivirusEnv_  331 KATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQTKIQYVIRAQLHVGAKQENPOLG  410 (841)
+T ss_pred             cccccccccceeccccCCCCCCccccCccccccCccccccccccccccccccceecccceeEEEEEeeecccccCCCCCC
+Confidence                                        6999999999999999999999999999999999999999988765531   
+
+
+Q ss_pred             -----c--------------------------------------------C-----------------------------
+Q mcfa.fasta      148 -----V--------------------------------------------G-----------------------------  149 (427)
+Q Consensus       148 -----~--------------------------------------------~-----------------------------  149 (427)
+                           |                                            +                             
+T Consensus       411 d~~WGngCglfGkGslitCakf~C~~k~~g~iv~~enl~y~v~v~vHtg~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  490 (841)
+T flavivirusEnv_  411 DENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYEFVW  490 (841)
+T ss_pred             CCCCCCcccccCCcccccccccccccccccceeecccceeEEEEEeecccccccCCcCCcCccccccccCCCCCCccccc
+Confidence                 0                                            1                             
+
+
+Q ss_pred             ------------CCceeeeecccceeeeeecccccccccceeeeecCCcccchhhhhhccCCccccCCCCCcCccceeee
+Q mcfa.fasta      150 ------------DIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASGRHGMEKVVVW  217 (427)
+Q Consensus       150 ------------s~~~t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~lPW~~~~~w~~~e~lV~f  217 (427)
+                                  |++++++|-+||+++|+|++++.+||.|.|+.+|+..--|=...|-++-.-   ++.      ..-..
+T Consensus       491 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~n~~~~~~~~~~~~~~~~~~n~t~~---~~~------~~~~~  561 (841)
+T flavivirusEnv_  491 NTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWGNETTE---HGT------TATIT  561 (841)
+T ss_pred             cccccceeecccCCCceeeeecccceeeeeeeccccccccchhhcccCCCCCCCCCCCCCccc---cCc------ceeec
+Confidence                        467899999999999999999999999999999998766655544433210   000      00000
+
+
+Q ss_pred             ccccccceeeeeecCcchhhhhhhhccCcccccceeEe----eeccceeecccc-CCCC--------Ccccccc------
+Q mcfa.fasta      218 GDARSNEILVKNVIEPSLSWEDAIATHGGFRDISFVCQ----IMLDKLVSGAFR-DCPG--------PKISTFS------  278 (427)
+Q Consensus       218 ~~phA~k~~V~~lg~qega~~~ALag~~~l~~Ghl~Cr----i~ldkL~~~ty~-~C~~--------~fs~~k~------  278 (427)
+                      ......++...-.|.-                 .+.|+    +.+....+.+.. .|..        ..+|...      
+T Consensus       562 ~~~~~~~~~~t~yg~~-----------------~l~c~~~~~ldf~~~~~ltm~~~C~a~~~~~~~~~~~w~v~r~w~~d  624 (841)
+T flavivirusEnv_  562 PQAPTSEIQLTDYGAL-----------------TLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQD  624 (841)
+T ss_pred             cCCCCcceeecccccc-----------------ccccCCCCccccccceecccCCcCCCCCCCCCcccccchhhhhhhhc
+Confidence            0111111111111110                 11222    222232221111 1321        0011000      
+
+
+Q ss_pred             -----ccCcCcceeEEEEeeccC-Ccccccceeeeeee-------------eccchhhhcc--------Ccccccce---
+Q mcfa.fasta      279 -----QDGFGYSGVVITTLTASS-NETCSLSLTCHGCL-------------LQSTKMIFLA--------GKTTSRAF---  328 (427)
+Q Consensus       279 -----p~~tgh~tVV~~v~y~gt-~~pCripi~~~G~l-------------it~npiv~~~--------epp~G~s~---  328 (427)
+                           +++.|-.---|+.+.... ..+=.+.+..-|..             -.+++--|..        ..+..+.|   
+T Consensus       625 l~lpw~sg~~~~w~~~~~Lvef~~pha~~i~Vlalg~qe~hl~~~~~~~kswlvhk~wf~Dlplpwtsg~~~~~~~w~~~  704 (841)
+T flavivirusEnv_  625 LTLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNRQ  704 (841)
+T ss_pred             cCCCccCCCCCcccccccccccCCCccceeeeeeccCCCCCCCcccccccchhhhhhhhccCCCCcCCCCCCcccccccc
+Confidence                 111110000000000000 00000000000000             0000000000        00000000   
+
+
+Q ss_pred             -eeecCCCcceeec--------cccccchh----hhhhhhhhhhhh--------------------------h----hhc
+Q mcfa.fasta      329 -VKCGNHTSTLLVG--------STSVSIEC----ALNPISQGWRLA--------------------------R----HVV  365 (427)
+Q Consensus       329 -I~~G~g~~~l~~~--------~~gssIg~----~f~~t~kg~~r~--------------------------~----~~g  365 (427)
+                       ..+--++.+.+-|        .+-...|-    .+.....|+-|.                          .    -.+
+T Consensus       705 d~lv~f~~~ha~kq~Vv~~~~~~~~~~~~~~~~g~l~~al~ga~~v~~~tn~~~~~~l~~ghv~crvkLdKLKLKGtTY~  784 (841)
+T flavivirusEnv_  705 DLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOLG  784 (841)
+T ss_pred             cchhhhhcccccccccccCcCCCCCCCCccchhhhhHHhhcccceecccCCCCCcccccccceeeeeecccccccCCCCC
+Confidence             0000000000000        00000000    011111111111                          1    123
+
+
+Q ss_pred             cccccccCCcccchhhhhhcccccc-------cccchhhHHHHHHHhhhhhhhhHHHHHhhhhhcc
+Q mcfa.fasta      366 DRYRRFGVSGVAGVWQDLVGKFSVG-------AFFSNTALLVILVLAALIDKRIAFLLVLGGYFYY  424 (427)
+Q Consensus       366 d~aw~~dfgsvGGvfH~vfG~~~f~-------~lFgg~sw~~~ililg~n~r~~~vg~ill~l~~~  424 (427)
+                      +=.|  -.||.-|.+|.-|-+ +..       .+|.|- .--|+-+-.+-.+.    .. ..+...
+T Consensus       785 mCt~--~lgsqegam~~ALtg-a~~i~~sg~~ti~aGh-lkCRlkmdkL~lkg----~~-~Clgs~  841 (841)
+T flavivirusEnv_  785 DENW--VLGSQEGAMHTALTG-ATEIQTSGTTTIFAGH-LKCRLKMDKLTLKG----GY-BCLOSI  841 (841)
+T ss_pred             Cccc--ccccchhhhhhhccc-cccccccCcceeeccc-ceeecccccccccc----CC-CCCCCC
+Confidence            3345  556666666655544 321       233332 11111110000000    00 000000
+
+
+No 4  
+>d2orf.fasta
+Probab=84.69  E-value=0.038  Score=34.88  Aligned_cols=139  Identities=14%  Similarity=0.088  Sum_probs=53.1
+
+Q ss_pred             CCCccccccccc--ccceeeeee-cCCCceeeec-cC----cceeeeeccceeecchhhhhhhcccccccccccccCCCC
+Q mcfa.fasta        1 EFVEPLYTLKAE--QMTMLQTIV-RPEEGYVVAT-PN----GLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGG   72 (427)
+Q Consensus         1 Dfveg~~~~~~~--G~Twvd~~v-Le~~~CVTi~-~k----ptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~   72 (427)
+                      +--.|-+.=+-+  +..=+. +- .-.++|+.+. ++    ..|.|++..+...-....--|=.+.+ -...+.-|||.+
+T Consensus       259 t~~~g~~~C~i~y~t~v~L~-LnpiGqEsCLrLk~~ngt~ig~IKIKiksI~LkC~K~tlYFTRD~e-~kv~SskRC~~a  336 (434)
+T d2orf.fasta     259 TSYLKNNVTKTEYVGYVSFE-LPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTRSRYDYTTSSWN-GHMSVKSACHKG  336 (434)
+T ss_pred             cccccccceeeeeeceeeee-ccCccccceeeeccccCCcccceEEEeecceeeccccccccccccc-ccccccccccCC
+Confidence            000000000000  011111 11 4578999999 43    46777777766543332222222222 345788999999
+
+
+Q ss_pred             --cccc-----------------hhhhhc------ccccccCCCCcCCCcccccccccccc--ccccccccc--cCcccc
+Q mcfa.fasta       73 --SQLN-----------------MADIMA------KERVCSTQPYNRGWGTGCFKWGIGFV--GTCVELHCD--RGFNVS  123 (427)
+Q Consensus        73 --Gea~-----------------l~e~~~------~~~vCk~~~~dRGWGnGCglfGkGsi--~tCakf~C~--~~~~~~  123 (427)
+                        |+=.                 ++|-..      ...-|..  +=-|||+|||..--+=+  -.+++-.-.  ..++++
+T Consensus       337 ~~GSCs~dkC~~I~~ns~~~~~~ipELs~~~~~~PG~TgC~e--SCGGiGCGCF~~spSCLFYRiYa~PtS~~~~IYEVF  414 (434)
+T d2orf.fasta     337 SHTKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCES--PFSGIKLKCLRLDTICVFTRRCAIPVDTHVDVSTVY  414 (434)
+T ss_pred             CCCCcCCCccCCCCCCCCCcccccccccccccCCCCcccccC--CCCcccccccccccccccceeecccCCCccceeeee
+Confidence              7643                 222221      1122442  23577888877544311  112222222  122222
+
+
+Q ss_pred             cceeceeEEEEEEeeccccccccccCCCceeeeecccceeeeeeccccccc
+Q mcfa.fasta      124 SIARSAIVMNVTASFHSVSDTQQMVGDIPLTFRFAKLGNAAMTCRLESEQL  174 (427)
+Q Consensus       124 ~i~~enI~y~V~v~vH~~~~~~~~~~s~~~t~~lgdYG~vtl~Cr~~sg~D  174 (427)
+                         .-.-++++.++..++.                    +++        +
+T Consensus       415 ---sW~~~V~leVT~n~~~--------------------isL--------~  434 (434)
+T d2orf.fasta     415 ---AVDSYYNKSCYFNGKK--------------------IQF--------D  434 (434)
+T ss_pred             ---eeeeeeeeeEeecccc--------------------ccC--------C
+Confidence               1111122222211100                    000        0
+
+
+No 5  
+>reticulomixafilosa.fasta
+Probab=82.71  E-value=0.029  Score=32.11  Aligned_cols=166  Identities=14%  Similarity=0.059  Sum_probs=58.9
+
+Q ss_pred             ccc---ccCCCCcccchhhhhcccccccCCCCcCCCcccccccc-cccccccccccccc-CcccccceeceeEEEEEEee
+Q mcfa.fasta       64 YST---DVCPGGSQLNMADIMAKERVCSTQPYNRGWGTGCFKWG-IGFVGTCVELHCDR-GFNVSSIARSAIVMNVTASF  138 (427)
+Q Consensus        64 ~s~---~~CPt~Gea~l~e~~~~~~vCk~~~~dRGWGnGCglfG-kGsi~tCakf~C~~-~~~~~~i~~enI~y~V~v~v  138 (427)
+                      .|.   =.|.-                ....+-|| +--|-+|+ +-.-.-|.+|+-.. -+.+|.|.+..+.|+|.|++
+T Consensus         1 ~SqGfCC~C~~----------------~~~~~~R~-~~~C~~~~~~~~SahCLrf~~~~~wY~~y~I~~~~~~f~I~v~i   63 (211)
+T reticulomixafi    1 DHKGFCCSCNL----------------FGGETVRG-IGECPILGSGQQSAHCLSFAVDPLWYSGYSIGPCETFFQIGITV   63 (211)
+T ss_pred             CCCCccccccC----------------CCCccccc-cccCCCcCCCcccccccccccCCccccccccCCCcceeEEEEEE
+Confidence            000   01110                00334444 33576666 55555666663233 47999999999999999999
+
+
+Q ss_pred             cccc-cc----cccc----------CCCceeee-ecccceeeeeecccccccccceeeeecCCcccchhhhhhccCCccc
+Q mcfa.fasta      139 HSVS-DT----QQMV----------GDIPLTFR-FAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVH  202 (427)
+Q Consensus       139 H~~~-~~----~~~~----------~s~~~t~~-lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~lPW  202 (427)
+                      .... ..    ....          +.....++ +||+-      ...+..|+++.|++......-  + +.+.+=+-- 
+T Consensus        64 ~~~~~~~~~~~~~~~L~ps~~~~~~~~~~i~~~ligd~~------~~~~~~~l~~~yL~iP~~~~~--~-~~~~~~~~~-  133 (211)
+T reticulomixafi   64 LRTNDNSTQIQETVSISPQNTGATTQDGKIVVRLIGDLV------SYQDAPDLNNLYYFCPSSPQT--D-PRVKNYLKN-  133 (211)
+T ss_pred             eeeCCCCcceeeeeeecCCCCcccccCCceEEEEeeccc------ccCCCCccCcceeeecCCCCC--C-cchhccccc-
+Confidence            9884 11    1000          11122233 23321      123667888889887643211  0 000000000 
+
+
+Q ss_pred             cCCCCCcCc-cceeeeccccccceee--eeecCcchhhhhhhhc--------------cC-------cccccceeEeeec
+Q mcfa.fasta      203 STASGRHGM-EKVVVWGDARSNEILV--KNVIEPSLSWEDAIAT--------------HG-------GFRDISFVCQIML  258 (427)
+Q Consensus       203 ~~~~~w~~~-e~lV~f~~phA~k~~V--~~lg~qega~~~ALag--------------~~-------~l~~Ghl~Cri~l  258 (427)
+                           |-=- ..+|...--.=+||-|  .+..+|... =.+..|              ..       .+..|..-+-+ +
+T Consensus       134 -----wmlv~~~~vdl~G~eCnKIGVsy~aF~~Q~~~-C~~~~gSCL~nQl~d~~~~D~~~~~~~~~~i~~g~~~~Y~-l  206 (211)
+T reticulomixafi  134 -----SMLIPQSAVTLTGQDCDKIGVSYYAFRYQSQA-CLKPVGACLSNQLEDFHNTGLKISLNDMALFEQNKQKKEI-L  206 (211)
+T ss_pred             -----ccccccccccccccccccccchhhhhhhcccc-ccCCCcccchhhhHHHHhhhcccchhhHHHHhhccchhhh-h
+Confidence                 1000 0011111112222222  111111000 000000              00       00000000000 0
+
+
+Q ss_pred             cceeeccccCCCCCccc
+Q mcfa.fasta      259 DKLVSGAFRDCPGPKIS  275 (427)
+Q Consensus       259 dkL~~~ty~~C~~~fs~  275 (427)
+                      +     .|.       |
+T Consensus       207 ~-----~~~-------~  211 (211)
+T reticulomixafi  207 F-----KCH-------W  211 (211)
+T ss_pred             h-----ccC-------C
+Confidence            0     000       0
+
+
+No 6  
+>RifttvalleyFever.fasta
+Probab=4.94  E-value=2.2  Score=21.71  Aligned_cols=361  Identities=14%  Similarity=0.108  Sum_probs=131.4
+
+Q ss_pred             CCCcccccccccccceeeeee-cCCCceeeec-cC----cceeeeeccceeecchhhhhhhcccccccccccccCCCCcc
+Q mcfa.fasta        1 EFVEPLYTLKAEQMTMLQTIV-RPEEGYVVAT-PN----GLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQ   74 (427)
+Q Consensus         1 Dfveg~~~~~~~G~Twvd~~v-Le~~~CVTi~-~k----ptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Ge   74 (427)
+                      +--+|-+.=+-+...-+. +- +-.++|+.+. ++    ..|.|++..+..+=....--|=.+.+ -.+.+.-|||.+|+
+T Consensus        15 ~~~~~~~~C~~~~~~~l~-l~~~gqe~Cl~l~~~~~~~~~~ikIk~~~i~l~C~k~~~yfTrd~~-~~~~sskRC~~aGS   92 (506)
+T RifttvalleyFev   15 STEGVNTKCRLSGTALIR-AGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFS-PKCLSSRRCHLVGE   92 (506)
+T ss_pred             ccCCCccceeeccceeee-ecccCccceeeecccCcccceeEEEEeeccccccccCccccccCCC-cccccccccccccc
+Confidence            000000000001111111 11 4578999999 32    46777777766543333333333333 34578899999998
+
+
+Q ss_pred             cc------------hhhhh---c----ccccccCCCCcCCCcccccccccc-----------cccccccccccc-----C
+Q mcfa.fasta       75 LN------------MADIM---A----KERVCSTQPYNRGWGTGCFKWGIG-----------FVGTCVELHCDR-----G  119 (427)
+Q Consensus        75 a~------------l~e~~---~----~~~vCk~~~~dRGWGnGCglfGkG-----------si~tCakf~C~~-----~  119 (427)
+                      =.            +||-.   .    ...-|.  .+=-|||+|||+.--+           +=...-=|.|..     +
+T Consensus        93 C~~~kC~~i~~~~~ipEl~~~~~~~~~G~t~C~--esCGg~gCGCF~~~psClFyRiy~~P~s~~iyeVF~C~~W~~~v~  170 (506)
+T RifttvalleyFev   93 CHVNRCLSWRDNETSAEFSFVGESTIMRENKCF--EQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVFNCIDWVHKLT  170 (506)
+T ss_pred             ccccccccccCCCcccccccccccccccccccc--ccCCCccccccccCCccceeeeeeeccccceeeeeeeccceeeEE
+Confidence            54            33332   1    112355  3346899999985554           111222233332     1
+
+
+Q ss_pred             cccccceeceeEEEEEEeeccccc--ccccc-----------CCCceeeeeccccee-----------------eeeecc
+Q mcfa.fasta      120 FNVSSIARSAIVMNVTASFHSVSD--TQQMV-----------GDIPLTFRFAKLGNA-----------------AMTCRL  169 (427)
+Q Consensus       120 ~~~~~i~~enI~y~V~v~vH~~~~--~~~~~-----------~s~~~t~~lgdYG~v-----------------tl~Cr~  169 (427)
+                      ++....+.+  +.  .++++.+..  ..-++           ..+...+--.+.+..                 .+.|.-
+T Consensus       171 i~vt~~~~~--~~--~~~l~~~~~~~~~~~~i~itl~s~~~~~~~~~~Fi~~~~~~~a~~~~~~~g~p~~g~iG~lQC~t  246 (506)
+T RifttvalleyFev  171 LEITDFDGS--VS--TIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNS  246 (506)
+T ss_pred             EEEEecCCc--ee--eeeeccCCcccccccceeeeeecccccCCCCcceeccCCCcceeecCCCCCCCCCCccccccccc
+Confidence            111111000  00  011111000  00000           000000000010111                 134432
+
+
+Q ss_pred             cccc-cccceeee--------------ecCCcccchhhhhhccCCccccCCCC-C---cCccceeeeccccccceeee-e
+Q mcfa.fasta      170 ESEQ-LLLDYYHV--------------TGSSHEGLFLRSQVDSWPGVHSTASG-R---HGMEKVVVWGDARSNEILVK-N  229 (427)
+Q Consensus       170 ~sg~-Dl~~~ylv--------------~~~~~~wlV~r~w~~Dl~lPW~~~~~-w---~~~e~lV~f~~phA~k~~V~-~  229 (427)
+                      .... +...-+..              .-..+.=-. ++.++.-.||-+.+.. .   ++.+.+.-+-.-+ ....+. .
+T Consensus       247 ~~~A~~~~~~C~~~~~~c~C~~~~~~~~C~c~~i~i-~~~~~~~~LP~~~~~~~~~~~~~~~~V~A~~~~~-~~~~l~I~  324 (506)
+T RifttvalleyFev  247 ESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDP-FVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGS-VQADLTLM  324 (506)
+T ss_pred             hhhhhhhcccccccCcceeccCcccceeccccCCCc-chhhccCCCCccccCcceecccCCCceeeeeccc-eeeEEEEe
+Confidence            2211 00001111              000000011 1233456677766652 1   2233333332211 111111 1
+
+
+Q ss_pred             ecCcchhhhhhhhccCcccccceeEeeecccee------------e---cc------ccCCCCCccccccccCcCcce-e
+Q mcfa.fasta      230 VIEPSLSWEDAIATHGGFRDISFVCQIMLDKLV------------S---GA------FRDCPGPKISTFSQDGFGYSG-V  287 (427)
+Q Consensus       230 lg~qega~~~ALag~~~l~~Ghl~Cri~ldkL~------------~---~t------y~~C~~~fs~~k~p~~tgh~t-V  287 (427)
+                      +.+    ++.      .+..-.-+|.|.+.+|.            +   ++      -..|.+.+++........+.+ +
+T Consensus       325 ~~~----~~~------~~~v~~~~C~i~~s~l~GCYsC~~GA~v~i~C~Ss~~~~~~~~~~c~~~~~~~~~~~g~~~~~~  394 (506)
+T RifttvalleyFev  325 FDN----FEV------DFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGTLSAHNKDGSLHIVLPSENGTKDQCQ  394 (506)
+T ss_pred             ecc----eee------eeeecccccccccccccccccCCCCceEEEEEeecCcceeeeeecCCCceeeeecCCCCcccee
+Confidence            111    111      12223456666665553            1   11      112223344444322222333 3
+
+
+Q ss_pred             EEEEeeccCCccccc-------ceeeeeeeeccchhhhccCcccccceeeecCCCcceeeccccccchhhhhhhhhhhhh
+Q mcfa.fasta      288 VITTLTASSNETCSL-------SLTCHGCLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGSTSVSIECALNPISQGWRL  360 (427)
+Q Consensus       288 V~~v~y~gt~~pCri-------pi~~~G~lit~npiv~~~epp~G~s~I~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r  360 (427)
+                      .+.....--+..|.+       .+.++|.|...||+-...|.         | |++++.--++|                
+T Consensus       395 ~~~f~~a~v~~~C~v~CG~~~~~f~I~G~L~yv~~~~~~~~~---------~-~~~~~~~~~~~----------------  448 (506)
+T RifttvalleyFev  395 ILHFTVPEVEEEFMYSCDGDERPLLVKGTLIAIDPFDDRREA---------G-GESTVVNPKSG----------------  448 (506)
+T ss_pred             EEeecccccccccccccCCCccceeeeeeeeeeCCCCccccc---------C-CcceeecCCCC----------------
+Confidence            444444444556665       34555888888887433221         1 22222222433                
+
+
+Q ss_pred             hhhhccccccccCCcccchhhhhhcccccccccchhhHHHHHHHhhhh-hhhhHHHHHhhhhhccc-c---------C
+Q mcfa.fasta      361 ARHVVDRYRRFGVSGVAGVWQDLVGKFSVGAFFSNTALLVILVLAALI-DKRIAFLLVLGGYFYYV-R---------A  427 (427)
+Q Consensus       361 ~~~~gd~aw~~dfgsvGGvfH~vfG~~~f~~lFgg~sw~~~ililg~n-~r~~~vg~ill~l~~~V-~---------A  427 (427)
+                             .|  +|       .|.|.+ ... .|||. ..+.+|| ++- +-.+-+.++|+||...- .         |
+T Consensus       449 -------~~--~~-------~~~~~~-~~~-~~~~~-~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  506 (506)
+T RifttvalleyFev  449 -------SW--NF-------FDWFSG-LMS-WFGGP-LKTILLI-CLYVALSIGLFFLLIYLGRTGLSKMWLAATKKA  506 (506)
+T ss_pred             -------CC--ch-------hhhhhh-hhh-hcccc-hhHHHHH-HHHHHHHHHHHHHHHHHHhhhhhhhHhhhhhcC
+Confidence                   36  22       344444 222 23332 1233333 222 22233444555554210 0         0
+
+
+No 7  
+>d2orf.fasta
+Probab=0.07  E-value=23  Score=12.31  Aligned_cols=242  Identities=10%  Similarity=-0.046  Sum_probs=61.5
+
+Q ss_pred             cccccccccccCcccccceeceeEEEEEEeeccccccccccCCCceeeeecccceeeeeecccccccccceeeeecCCcc
+Q mcfa.fasta      108 VGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSDTQQMVGDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHE  187 (427)
+Q Consensus       108 i~tCakf~C~~~~~~~~i~~enI~y~V~v~vH~~~~~~~~~~s~~~t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~~~~  187 (427)
+                      .--     |-+-        --+-|-..++                             -+ .-.-+..+..+++.++.+
+T Consensus         1 ~~~-----~~~~--------~~~~~~~~~~-----------------------------~~-~~~~~~~~~~~~~~~~~~   37 (434)
+T d2orf.fasta       1 MNI-----CIKL--------LVVLYLLVIF-----------------------------IE-DISSNTYDSVHIDDDGSS   37 (434)
+T ss_pred             Cch-----hhHH--------HHHHHHHHHh-----------------------------hh-hcccCCcccccccCCCCc
+Confidence            000     0000        0000000000                             00 001122344566667777
+
+
+Q ss_pred             cchhhhhhccCC--ccccCCCC----CcCccceeeeccccccceeeeee---cCcchhhhhhhhc-cCcccccceeEeee
+Q mcfa.fasta      188 GLFLRSQVDSWP--GVHSTASG----RHGMEKVVVWGDARSNEILVKNV---IEPSLSWEDAIAT-HGGFRDISFVCQIM  257 (427)
+Q Consensus       188 wlV~r~w~~Dl~--lPW~~~~~----w~~~e~lV~f~~phA~k~~V~~l---g~qega~~~ALag-~~~l~~Ghl~Cri~  257 (427)
+                      |.-|||= +-+|  --|-+.+.    ...++.|-.=+..|---++.++-   .+.|... .-|++ ..+.++|.+-=.+-
+T Consensus        38 ~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~t~~~~~~~~~~~  115 (434)
+T d2orf.fasta      38 WVSNKEN-NYIPEKKNWYSFSQEFTPTSKRQTLPDNKATHHYAVPLKATIRWNELELIF-SDLTTRNITVFNKGLGFSIV  115 (434)
+T ss_pred             ccccccc-CccccccccccccccccccccccCCCCCccccccccccccccccccceeee-ecccccceeeeccccccccc
+Confidence            7776651 0011  11222211    11111111111111111111110   0001100 00111 11222222222221
+
+
+Q ss_pred             ccceee--ccccCCCCCccccccccCcCcceeEEEEeeccCCcccccceeee--eeeeccchhhhccCcccccceeeecC
+Q mcfa.fasta      258 LDKLVS--GAFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTCH--GCLLQSTKMIFLAGKTTSRAFVKCGN  333 (427)
+Q Consensus       258 ldkL~~--~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~~--G~lit~npiv~~~epp~G~s~I~~G~  333 (427)
+                      .||=++  ---..|+..-++.-.|...|-.-=.-  + .-+.+|=-.+--++  |.+-+.|.++--     ---.|.|=.
+T Consensus       116 ~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~--~-~c~~~~~~~s~~~~~~~~i~~~~~~~~~-----~~~~i~~~v  187 (434)
+T d2orf.fasta     116 TDKRKVNIDVDDLCKLGRSFQLVIGASGNQHHSR--K-WCTGSRDELSSWVDKILNIEVLNSLMLF-----VILNILVCV  187 (434)
+T ss_pred             ccccceeccccccccccccccccccccccccccc--c-cCCCchhhhhhhhhhhhhHHHHHHHHHH-----HHHHHHHHH
+Confidence            222222  22335666555554444443211000  0 00011100000000  111111111000     000000000
+
+
+Q ss_pred             CCcceeec-cccccchhhhhhhhhhhhhhhhhccccccccCCcccchh-hhhhcccccccccchhhHHHHHHH----hhh
+Q mcfa.fasta      334 HTSTLLVG-STSVSIECALNPISQGWRLARHVVDRYRRFGVSGVAGVW-QDLVGKFSVGAFFSNTALLVILVL----AAL  407 (427)
+Q Consensus       334 g~~~l~~~-~~gssIg~~f~~t~kg~~r~~~~gd~aw~~dfgsvGGvf-H~vfG~~~f~~lFgg~sw~~~ili----lg~  407 (427)
+                         .|+.- ++   |. +=+.+.|-.||                  +. ..+.|+|.+..+...++-+...++    +|-
+T Consensus       188 ---~lk~vk~~---~~-~~~~~~~~~~r------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  242 (434)
+T d2orf.fasta     188 ---YLKVVKIK---NN-TKNLMFQDLQR------------------EIKNEANGGIRYNTALSTLISFLMVGMCVSELPY  242 (434)
+T ss_pred             ---Hhhhhhhh---hh-hhhhHHHHHHH------------------HHhhhhcCCcccccchhhHHHHHHHHHHhhccCC
+Confidence               11111 11   33 44456666776                  11 556777788887776654422222    111
+
+
+Q ss_pred             hhhh-hH--------------------H--HHHhhhhh-ccccC
+Q mcfa.fasta      408 IDKR-IA--------------------F--LLVLGGYF-YYVRA  427 (427)
+Q Consensus       408 n~r~-~~--------------------v--g~ill~l~-~~V~A  427 (427)
+                      .+=+ ..                    .  +.+.|-|. .+.-+
+T Consensus       243 ~sCqev~~l~S~~tvCt~~~g~~~C~i~y~t~v~L~LnpiGqEs  286 (434)
+T d2orf.fasta     243 GHCDVYHRLGEGIEKHTSYLKNNVTKTEYVGYVSFELPRESVSI  286 (434)
+T ss_pred             cccccccccCcccccccccccccceeeeeeceeeeeccCccccc
+Confidence            0000 00                    0  00000000 00000
+
+
+No 8  
+>andaluciagodoyi.fasta
+Probab=0.03  E-value=27  Score=10.66  Aligned_cols=391  Identities=12%  Similarity=0.069  Sum_probs=141.0
+
+Q ss_pred             CC-----Ccccccccccccceeeee--ec-CCCceeeeccCcceeeeeccceee-------------cchhhhhhhcccc
+Q mcfa.fasta        1 EF-----VEPLYTLKAEQMTMLQTI--VR-PEEGYVVATPNGLLEFKTGPAEIY-------------GGQWLRELLADCH   59 (427)
+Q Consensus         1 Df-----veg~~~~~~~G~Twvd~~--vL-e~~~CVTi~~kptlDi~l~~~~~~-------------~~a~~R~yc~~a~   59 (427)
+                      =+     |..   -+..|.-++..+  +. +.+++.++..-+.|.|.-..+.+.             -...+++..+.|.
+T Consensus        52 Klvv~L~V~~---gq~~~~~~~~~i~~v~~~~~~~~~l~~pivIti~KS~v~~~YpL~Y~~~vn~kp~E~vi~~~~~~C~  128 (613)
+T andaluciagodoy   52 KFTVALTLQS---GQAATQSLVAVMKSARDSQGRNYTLASPVKISVSRTSSYLSYPITYRQTFNAAPYEQVIKLGAFGCT  128 (613)
+T ss_pred             ceeEEEeccc---ccchhhhHhhhhhhhcccCCCcccccCceeEEEeecceeeecceeeeeccCCcchhhhhhccccccc
+Confidence            00     000   000111222101  12 223443332333333332222111             1122232222344
+
+
+Q ss_pred             cccccccccCCCCcccchhhhhcccccc---c-----CCCCcCCCccccc--cccccccccccccccccCcccccceece
+Q mcfa.fasta       60 VNASYSTDVCPGGSQLNMADIMAKERVC---S-----TQPYNRGWGTGCF--KWGIGFVGTCVELHCDRGFNVSSIARSA  129 (427)
+Q Consensus        60 vs~~~s~~~CPt~Gea~l~e~~~~~~vC---k-----~~~~dRGWGnGCg--lfGkGsi~tCakf~C~~~~~~~~i~~en  129 (427)
+                      -..-.....|+...+++-..+.+..-+|   .     ....-|+ +--|.  +|++-.-.-|.+|.= --+.+|.|.+..
+T Consensus       129 d~~~~~~~tCg~~~d~~g~~i~~sqGfCC~C~~~~~~~~~~~R~-~l~C~~~~~~~~~SahCLrf~~-~WY~vy~I~~~~  206 (613)
+T andaluciagodoy  129 DSGGASSPSCGWAQDSNGNNIPDSQGFCCSCTLMDAVNSQRTRA-SLSCLTGFLTSYQSAHCLRYDT-LWYAAYEIGDPT  206 (613)
+T ss_pred             CCCCCCCCCCCccccCCCCCCCCCCCcccccccccccccccccc-cccccccccccccccccccccc-cceeeeecCCCc
+Confidence            3333467889887776545555555554   2     2234442 33487  998655555665543 358999999999
+
+
+Q ss_pred             eEEEEEEeecccccccccc-CCCceeeeecc--------cceeeeee-----cccccccccceeeeecCC----------
+Q mcfa.fasta      130 IVMNVTASFHSVSDTQQMV-GDIPLTFRFAK--------LGNAAMTC-----RLESEQLLLDYYHVTGSS----------  185 (427)
+Q Consensus       130 I~y~V~v~vH~~~~~~~~~-~s~~~t~~lgd--------YG~vtl~C-----r~~sg~Dl~~~ylv~~~~----------  185 (427)
+                      +.|+|.|++...+...... .....++.|+.        +..+.+.=     ...+..|+++.|++....          
+T Consensus       207 ~~f~I~V~i~~~~~~~~g~~~~~~~~i~L~ps~~~~~~~~~~v~~~ligd~~~~~~~~~l~~~yL~iPs~~~~~~~v~~~  286 (613)
+T andaluciagodoy  207 LFFNVNVAVEWKETAANGTVSARKETLVVSPVGTVRSLTDKSIRVRLVGNFESFKSRLSLSGKYYFVPSSPVSNDRVMYG  286 (613)
+T ss_pred             ceeeEEEEEeecccccCCcccccceeeEeccccccccccCcceEEEEeecccccccccccCcceeeecCCCCCccccccc
+Confidence            9999999999775432000 00112222211        11111110     112557888888887753          
+
+
+Q ss_pred             -cccchhhhhhccCCccc-----cCCCCCcC--------------ccceeeeccccccce--------eeeeecCcchh-
+Q mcfa.fasta      186 -HEGLFLRSQVDSWPGVH-----STASGRHG--------------MEKVVVWGDARSNEI--------LVKNVIEPSLS-  236 (427)
+Q Consensus       186 -~~wlV~r~w~~Dl~lPW-----~~~~~w~~--------------~e~lV~f~~phA~k~--------~V~~lg~qega-  236 (427)
+                       +.||+...=.-|+.+-=     .+..+|++              +.-|-.|-+.+...+        .+..+|+.++. 
+T Consensus       287 ~~~wmll~~~~vdl~G~eCnKIGVsy~af~~~Q~~~C~~~~gSCL~nQL~~f~~~D~~~i~~g~~~~Y~~~~~g~~~~~~  366 (613)
+T andaluciagodoy  287 FKNSMLIDKSLVSFSGSECNKIGVSFVAFRYDQGNQCYGTVGSCLQNQLEDYHKADLEKSVKGLVGSYFLSNFGEFSIQA  366 (613)
+T ss_pred             ccceeeeccccccccCcccccccccchhhhcccCCCCcCCccccchhhhHHHHHhhhhhhhcCccccccccccccccccc
+Confidence             44544433222332110     00011443              012222222222222        22222222221 
+
+
+Q ss_pred             ------------------------hhhhh------------------------hcc----------------Ccccccce
+Q mcfa.fasta      237 ------------------------WEDAI------------------------ATH----------------GGFRDISF  252 (427)
+Q Consensus       237 ------------------------~~~AL------------------------ag~----------------~~l~~Ghl  252 (427)
+                                              +.-++                        +++                .....--+
+T Consensus       367 ~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~s~i  446 (613)
+T andaluciagodoy  367 YASSPAAADADKQFPQESAEEHSLDKYAALRHATLSDDISNSLPPRHPGMRVLSSPPRWHLNSVTVSLFRKQEYTDTTLI  446 (613)
+T ss_pred             ccCCCcccccCCCCCccccchhhhhhhhhhccccccccccCCCCCCCCCCccCCCCCccccccceeeeecccccccccee
+Confidence                                    10011                        000                01111122
+
+
+Q ss_pred             eEeeeccceeeccccCCCCCccccccc---cCcCcceeEEEEeeccCCcccccceeeeeeeeccchhhhcc-----Cccc
+Q mcfa.fasta      253 VCQIMLDKLVSGAFRDCPGPKISTFSQ---DGFGYSGVVITTLTASSNETCSLSLTCHGCLLQSTKMIFLA-----GKTT  324 (427)
+Q Consensus       253 ~Cri~ldkL~~~ty~~C~~~fs~~k~p---~~tgh~tVV~~v~y~gt~~pCripi~~~G~lit~npiv~~~-----epp~  324 (427)
+                      +=.+.-|.+.. -+..-.|.......|   +-+..+++.+.|+..|. -.=..-+.+..|.--.+||-...     ....
+T Consensus       447 ~ie~~Ad~v~~-i~~~SpG~I~~~~i~~fea~s~~g~l~V~v~N~G~-~~a~y~v~v~~Cs~~i~pi~~q~~~I~p~~~~  524 (613)
+T andaluciagodoy  447 ALTIDAASIKY-VMNRSNGKIISATIKDFSAFSKNGLLVVICSNTGY-IVSDYEVTVDDCSSGILPVLAKQISIAPQGTA  524 (613)
+T ss_pred             EEeecccceee-eeccCceeeeeeeecccccccccceEEEEEeeccc-eeeeeEEeecccCCCCcccccceecccCCCcc
+Confidence            22222233332 223344555555544   35566888888888774 44455555546665566664321     1112
+
+
+Q ss_pred             ccceeeecCCCcceee-------ccccccchh---hhhhhhhhhhhhhhhccccccccCCcccchh--hhhh--cccccc
+Q mcfa.fasta      325 SRAFVKCGNHTSTLLV-------GSTSVSIEC---ALNPISQGWRLARHVVDRYRRFGVSGVAGVW--QDLV--GKFSVG  390 (427)
+Q Consensus       325 G~s~I~~G~g~~~l~~-------~~~gssIg~---~f~~t~kg~~r~~~~gd~aw~~dfgsvGGvf--H~vf--G~~~f~  390 (427)
+                      ..+|.+=...+..-++       ...++-++.   -|.++..             .++.|.-+|-.  |+-.  +. .+.
+T Consensus       525 ~f~f~i~~~~~~~~~~~C~v~L~ds~~~~lD~~~~~f~t~~~-------------~~~~g~~~~~~~~~~~~~~~~-~~~  590 (613)
+T andaluciagodoy  525 GVDFAIQAEVDTTKLNTCRLRLWDLLGQILDERKINFTTTAV-------------QEDLGAQGGASGTADRSATGS-DGA  590 (613)
+T ss_pred             eeeEEeeecccccccceeeEEEeecccccccceeeeeeeccc-------------ccccCCCCCCCCCCCCCCCCC-CCC
+Confidence            2222222211110000       011111111   1111100             01111111100  0000  00 000
+
+
+Q ss_pred             cccchhhHHHHHHHhhhhhhhhHHHHHhhhhhccccC
+Q mcfa.fasta      391 AFFSNTALLVILVLAALIDKRIAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       391 ~lFgg~sw~~~ililg~n~r~~~vg~ill~l~~~V~A  427 (427)
+                         .+ +.=-           =.+.-|++++...-.-
+T Consensus       591 ---~~-~~C~-----------C~~~~~~C~~~~~c~~  612 (613)
+T andaluciagodoy  591 ---SG-SQCD-----------CFVLNIICHIQVGCGT  612 (613)
+T ss_pred             ---CC-Cccc-----------cccccceeeeccccCC
+Confidence               00 0000           0000000000000000
+
+
+No 9  
+>thrombocytopenia.fasta
+Probab=0.02  E-value=27  Score=8.88  Aligned_cols=307  Identities=13%  Similarity=0.020  Sum_probs=102.4
+
+Q ss_pred             CC-Ccccccccccccceeeeee-cCCCceeeec-cC----cceeeeeccceeecchhhhhhhcccccccccccccCCCCc
+Q mcfa.fasta        1 EF-VEPLYTLKAEQMTMLQTIV-RPEEGYVVAT-PN----GLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGS   73 (427)
+Q Consensus         1 Df-veg~~~~~~~G~Twvd~~v-Le~~~CVTi~-~k----ptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~G   73 (427)
+                      +- -.|-+.=+-+...-+. +- +-.++|+.+. ++    ..|.|++..+...=....--|=.+.+ -...+.-|||.+|
+T Consensus        17 ~~~~~~~~~C~~~~~~~l~-l~~~~~e~Cl~l~~~~~~~~~~ikIk~~~i~l~C~k~~~yfTrd~~-~~~~s~~RC~~~G   94 (445)
+T thrombocytopen   17 RQGSGNMKECVTTGRALLP-AVNPGQEACLHFTAPGSPDSKCLKIKVKRINLKCKKSSSYFVPDAR-SRCTSVRRCRWAG   94 (445)
+T ss_pred             ccCCCCCcceeecceeeec-ccCCCccceeeecCCCCCCcceeEEEEeeeeecccccccccccCcc-cceecccccCCCC
+Confidence            00 0000000001111111 11 4578999999 32    46777777766643333333333333 3457889999999
+
+
+Q ss_pred             ccc------------hhhhh---c----ccccccCCCCcCCCcccccccccc-----------cccccccccccc-----
+Q mcfa.fasta       74 QLN------------MADIM---A----KERVCSTQPYNRGWGTGCFKWGIG-----------FVGTCVELHCDR-----  118 (427)
+Q Consensus        74 ea~------------l~e~~---~----~~~vCk~~~~dRGWGnGCglfGkG-----------si~tCakf~C~~-----  118 (427)
+                      +=.            +||-.   .    ...-|.  .+=-|||+|||+.--+           +=...-=|.|..     
+T Consensus        95 sC~~~~C~~i~~~~~ipEl~~~~~~~~~g~t~C~--~sCGg~gCgCF~~~psClFyR~y~~p~s~~iyeVf~C~~W~~~v  172 (445)
+T thrombocytopen   95 DCQSGCPPHFTSNSFSDDWAGKMDRAGLGFSGCS--DGCGGAACGCFNAAPSCIFWRKWVENPHGIIWKVSPCAAWVPSA  172 (445)
+T ss_pred             CCCCCCCCCCCCCCcccccccccccCCCCccccc--CCCCCCcccccCCCCccceeeeeecCCCcceeeeeeccccccee
+Confidence            854            33332   1    112255  3346899999985554           111222233332     
+
+
+Q ss_pred             Ccccccce----------------eceeEEEEEEe---eccc--c---------ccccccCCCceeeeecccceeeeeec
+Q mcfa.fasta      119 GFNVSSIA----------------RSAIVMNVTAS---FHSV--S---------DTQQMVGDIPLTFRFAKLGNAAMTCR  168 (427)
+Q Consensus       119 ~~~~~~i~----------------~enI~y~V~v~---vH~~--~---------~~~~~~~s~~~t~~lgdYG~vtl~Cr  168 (427)
+                      .++....+                -.+|.+++...   .|+.  .         .......++.-...-|..|  .|.|.
+T Consensus       173 ~i~vt~~~~~~~~~~~l~~~~~~~~~~i~itl~~~~~~~~~~~~~~~~fi~~~~~~a~~~~~~~~~~~~g~ig--~lqC~  250 (445)
+T thrombocytopen  173 VIELTMPSGEVRTFHPMSGIPTQVFKGVSVTYLGSDMEVSGLTDLCEIEELKSKKLALAPCNQAGMGVVGKVG--EIQCS  250 (445)
+T ss_pred             EEEEecCCCceeeeeccCCCCceeeeceeEEEeecccccccccchhhhHhhhccccccccccccCCccccccc--ccccc
+Confidence            11111100                01111111110   0000  0         0000000000001111112  13343
+
+
+Q ss_pred             ccccc-ccc-ceeee--------------ecCCcccchhhhhhccCCccccCCCC-C---cCccc---eeeeccccccce
+Q mcfa.fasta      169 LESEQ-LLL-DYYHV--------------TGSSHEGLFLRSQVDSWPGVHSTASG-R---HGMEK---VVVWGDARSNEI  225 (427)
+Q Consensus       169 ~~sg~-Dl~-~~ylv--------------~~~~~~wlV~r~w~~Dl~lPW~~~~~-w---~~~e~---lV~f~~phA~k~  225 (427)
+                      -.... +.. .-..+              .-..+.=-+ ++.++.-.||-+.+.. .   ++.+.   +.-+- +.....
+T Consensus       251 t~~~A~~~~~~~C~~~~~~c~c~~~~~~~~C~c~~~~~-~~~~~~~~LP~~~~~~~~~~~~~~~~~~~V~a~~-~~~~~~  328 (445)
+T thrombocytopen  251 SEESARTIKKDGCIWNADLVGIELRVDDAVCYSKITSV-EAVANYSAIPTTIGGLRFERSHDSQGKISGSPLD-ITAIRG  328 (445)
+T ss_pred             chhhhhhhccccccccccceeeeccccceeeeccccch-hhhhhccCCccccccceeeeccCCCCceeccccc-cceeee
+Confidence            22111 000 00111              000111111 2233456777776651 1   11222   22221 111111
+
+
+Q ss_pred             eeeeecCcchhhhhhhhccCcccccceeEeeeccceee---------------ccc---cCCC-CCccccccccCcCcce
+Q mcfa.fasta      226 LVKNVIEPSLSWEDAIATHGGFRDISFVCQIMLDKLVS---------------GAF---RDCP-GPKISTFSQDGFGYSG  286 (427)
+Q Consensus       226 ~V~~lg~qega~~~ALag~~~l~~Ghl~Cri~ldkL~~---------------~ty---~~C~-~~fs~~k~p~~tgh~t  286 (427)
+                      .+..-  .++ ++      ..+..-.-+|.|.+.+|.=               ++.   ..|. +.+++........+.+
+T Consensus       329 ~l~i~--~~~-~~------~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~C~S~~~~~~~~~c~~~~~~~~~~~g~~~~  399 (445)
+T thrombocytopen  329 SFSVN--YRG-LR------LSLSEITATCTGEVTNVSGCYSCMTGAKVSIKLHSSKNSTAHVRCKGDETAFSVLEGVHSY  399 (445)
+T ss_pred             eEEEE--ecc-ce------eeeeeeccccccccccccccccCCCCceEEEEEeecCCcceeeeccCcceeeeeeccccee
+Confidence            11110  011 11      1222334567777655531               111   2221 2233333321112222
+
+
+Q ss_pred             -eEEEEeeccCCcccccc-------eeeeeeeeccchhhhccCccc
+Q mcfa.fasta      287 -VVITTLTASSNETCSLS-------LTCHGCLLQSTKMIFLAGKTT  324 (427)
+Q Consensus       287 -VV~~v~y~gt~~pCrip-------i~~~G~lit~npiv~~~epp~  324 (427)
+                       +.+.....--+..|.+.       +.++|.|+.............
+T Consensus       400 ~~~~~f~~a~v~~~C~v~CG~~~~~f~i~G~L~~~~~~~~~~~~~~  445 (445)
+T thrombocytopen  400 TVSLSFDHAVVDEQCQLNCGGHESQVTLKGNLIFLDVGTKHHHHHH  445 (445)
+T ss_pred             eEEeeecccccccceecccCCccceeEEeeeeeeecccCCCCCCCC
+Confidence             23333333333444432       223344444322111000000
+
+
+No 10 
+>HERV.fasta
+Probab=0.01  E-value=28  Score=8.78  Aligned_cols=336  Identities=7%  Similarity=-0.143  Sum_probs=68.3
+
+Q ss_pred             CC--Cccccc------------------------------------ccccccceeeeeecCCCceeeeccCcceeeeecc
+Q mcfa.fasta        1 EF--VEPLYT------------------------------------LKAEQMTMLQTIVRPEEGYVVATPNGLLEFKTGP   42 (427)
+Q Consensus         1 Df--veg~~~------------------------------------~~~~G~Twvd~~vLe~~~CVTi~~kptlDi~l~~   42 (427)
+                      |+  .=++|.                                    |=|+  .|-|+      .||+.  +|-  +.+.+
+T Consensus       175 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~~~~f~~--~~~~~------~c~p~--~p~--~~~~n  242 (610)
+T HERV.fasta      175 DWAPRGQFYHNCSGQTQSCPSAQVSPAVDSDLTESLDKHKHKKLQSFYPW--EWGEK------RISTP--RPK--IVSPV  242 (610)
+T ss_pred             ecCCCCCCCCCCCCCCCCCCCCCCCCCccccccccccccccccccCCCCC--ccCcc------ccCCC--CCc--ccCCC
+Confidence            00  000000                                    0022  23331      78877  566  44444
+
+
+Q ss_pred             ceeecchhh-----hhhhcccccccccccccCCC----Ccccchhh-----hhcccc---cccC-CCCcCCCcccccccc
+Q mcfa.fasta       43 AEIYGGQWL-----RELLADCHVNASYSTDVCPG----GSQLNMAD-----IMAKER---VCST-QPYNRGWGTGCFKWG  104 (427)
+Q Consensus        43 ~~~~~~a~~-----R~yc~~a~vs~~~s~~~CPt----~Gea~l~e-----~~~~~~---vCk~-~~~dRGWGnGCglfG  104 (427)
+                      ++..-+...     -+-|.+-+- ++..+.+||-    ...-+.+-     =.-..|   .|.. .+.|-         |
+T Consensus       243 ~~~~~~~~~~l~~~~kpc~~~t~-~~~i~q~c~k~~~~~~~~~~~~~pi~~Cap~g~ail~cn~~~~~~~---------g  312 (610)
+T HERV.fasta      243 SGPEHPELWRLTVASHHIRIWSG-NQTLETRDRKPFYTVDLNSSLTLPLQSCVKPPYMLVVGNIVIKPDS---------Q  312 (610)
+T ss_pred             CCCCcchhhhhhhcccceeeecc-ccccccccCCCCcccccCCCCCcCcccccCCCceeeeeccccCCCC---------C
+Confidence            432211111     122333222 3556789998    44111111     111222   2552 23333         3
+
+
+Q ss_pred             ccccccccccccccCcccccceeceeEEE-EEEeeccccccccccCCCceeeeecccceeeeeeccccccc-----ccce
+Q mcfa.fasta      105 IGFVGTCVELHCDRGFNVSSIARSAIVMN-VTASFHSVSDTQQMVGDIPLTFRFAKLGNAAMTCRLESEQL-----LLDY  178 (427)
+Q Consensus       105 kGsi~tCakf~C~~~~~~~~i~~enI~y~-V~v~vH~~~~~~~~~~s~~~t~~lgdYG~vtl~Cr~~sg~D-----l~~~  178 (427)
+                      .|..-.|..++|...++-..     -+|. |+|++-+-..+..    ....+     |.-++  +..+++-     ..+ 
+T Consensus       313 tg~C~nvs~v~Ct~~i~~~~-----~~yk~v~~~~~~~apt~~----~R~ll-----gi~~V--qqqs~lLrq~l~~qk-  375 (610)
+T HERV.fasta      313 TITCENCRLLTCIDSTFNWQ-----HRILLVRAREGVWIPVSM----DRPWE-----ASPSV--HILTEVLKGVLNRSK-  375 (610)
+T ss_pred             cccccccccccccccccccc-----ceeeEeeecccccccccC----CCCCC-----CchhH--HHHHHHhhhhcccch-
+Confidence            45566788889998766552     2222 4444433322221    11111     21000  0011110     000 
+
+
+Q ss_pred             eeeec-CCcccchh--hhhhccCCccccCCCCCcCccceeeeccccccceeeeeecCcchhhhhhhhccCcccccceeEe
+Q mcfa.fasta      179 YHVTG-SSHEGLFL--RSQVDSWPGVHSTASGRHGMEKVVVWGDARSNEILVKNVIEPSLSWEDAIATHGGFRDISFVCQ  255 (427)
+Q Consensus       179 ylv~~-~~~~wlV~--r~w~~Dl~lPW~~~~~w~~~e~lV~f~~phA~k~~V~~lg~qega~~~ALag~~~l~~Ghl~Cr  255 (427)
+                      ..+.. -...|-.+  +.|...-...+.. +     -..+.|-.-. .++...++.-|+--+....-|...+..--+-.+
+T Consensus       376 rlIealvLGl~glKqLQAr~t~~~iaLhs-S-----VQSvnfvn~I-QsnLLraIEAQQhLLQLTVWGIKQLQARVLAiE  448 (610)
+T HERV.fasta      376 RFIFTLIAVIMGLIAVTATAAVAGVALHS-S-----VQSVNFVNDG-QKNSTRLWNSQSSIDQKLANQINDLRQTVIWMG  448 (610)
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHHhh-h-----hhhhHhhhhh-hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            00000 00000000  1111110000000 0     0000110000 111111111121111111111000000000000
+
+
+Q ss_pred             eeccceeeccccCCCCCccccccccCcCcceeEEEEeeccCCcccccceeeeeeeeccchhhhccCcccc--cceeeecC
+Q mcfa.fasta      256 IMLDKLVSGAFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTCHGCLLQSTKMIFLAGKTTS--RAFVKCGN  333 (427)
+Q Consensus       256 i~ldkL~~~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~~G~lit~npiv~~~epp~G--~s~I~~G~  333 (427)
+                      -.+..-.+...-.|.++-                       ...|-.                 +.+...  ..|.   .
+T Consensus       449 rYLKDQqLLgiWGCSgk~-----------------------~~~~~t-----------------s~~w~~~NmTW~---q  485 (610)
+T HERV.fasta      449 DRLMSLEHRFQLQCDWNT-----------------------SDFCIT-----------------PQIYNDSEHHWD---M  485 (610)
+T ss_pred             HHHHhhhhhhccccCCCC-----------------------CCcccc-----------------cccccCcchhhH---H
+Confidence            000000011122233210                       000100                 000000  0000   0
+
+
+Q ss_pred             CCcceeeccccccchhhhhhhh----hhhhhhhhh--ccccc---c-----ccCCcccchh---hhhh-ccccccc--cc
+Q mcfa.fasta      334 HTSTLLVGSTSVSIECALNPIS----QGWRLARHV--VDRYR---R-----FGVSGVAGVW---QDLV-GKFSVGA--FF  393 (427)
+Q Consensus       334 g~~~l~~~~~gssIg~~f~~t~----kg~~r~~~~--gd~aw---~-----~dfgsvGGvf---H~vf-G~~~f~~--lF  393 (427)
+                      .+.++.-.  -..|-..++.--    |--+.+..+  |..+|   +     ||..+.....   ..++ |.-...+  .+
+T Consensus       486 WdkeI~Ny--T~~IY~LLEeSQnQQEKNekeLL~Ld~~s~iLd~w~dgw~w~~~~kWl~yIgaqq~lLqGiKqLQaRvsm  563 (610)
+T HERV.fasta      486 VRRHLQGR--EDNLTLDISKLKEQIFEASKAHLNLVPGTEAIAGVADGLANLNPVTWVKTIGSTTIINLILILVCLFCLL  563 (610)
+T ss_pred             HHhhhccc--chhhhHHHHHHHHHHHHHHhhhccCCcchhhhhhhhhcccCCCchhhhhhHhHHHHHHHHHHHHHHHHHH
+Confidence            00000000  000111111000    011111100  00001   0     0000000000   0000 0000000  00
+
+
+Q ss_pred             chhhHHHHHHH-----hhh--hhhhhHHHHHh-hhhhc-----cccC
+Q mcfa.fasta      394 SNTALLVILVL-----AAL--IDKRIAFLLVL-GGYFY-----YVRA  427 (427)
+Q Consensus       394 gg~sw~~~ili-----lg~--n~r~~~vg~il-l~l~~-----~V~A  427 (427)
+                      .++.|.-++..     ...  -.|..--=-.| +.+.-     .+.-
+T Consensus       564 TW~qWdKeI~n~Tq~Iy~LLeQ~QqeKNEk~L~l~ld~~~~~~~~~~  610 (610)
+T HERV.fasta      564 LVCRCTQQLRRDSDHRERAMMTMAVLSKRKGGNVGKSKRDQIVTVSV  610 (610)
+T ss_pred             HHHHHhHHHHHhhhhHHHHHHHHHHhhhccCCCCCCCCccccccccC
+Confidence            11111111110     000  00000000000 00000     0000
+
+
+No 11 
+>reticulomixafilosa.fasta
+Probab=0.01  E-value=28  Score=5.33  Aligned_cols=182  Identities=8%  Similarity=0.029  Sum_probs=55.2
+
+Q ss_pred             CcCCCccccccccccccccccccccccC----ccccccee--ceeEEEEEEeeccccccccccCCCceeeeeccc-----
+Q mcfa.fasta       92 YNRGWGTGCFKWGIGFVGTCVELHCDRG----FNVSSIAR--SAIVMNVTASFHSVSDTQQMVGDIPLTFRFAKL-----  160 (427)
+Q Consensus        92 ~dRGWGnGCglfGkGsi~tCakf~C~~~----~~~~~i~~--enI~y~V~v~vH~~~~~~~~~~s~~~t~~lgdY-----  160 (427)
+                      .-.|..+-|++||  .-...+++.|...    ...|=+.-  ...-|.|= +++....      .=...+++-.+     
+T Consensus         1 ~SqGfCC~C~~~~--~~~~R~~~~C~~~~~~~~SahCLrf~~~~~wY~~y-~I~~~~~------~f~I~v~i~~~~~~~~   71 (211)
+T reticulomixafi    1 DHKGFCCSCNLFG--GETVRGIGECPILGSGQQSAHCLSFAVDPLWYSGY-SIGPCET------FFQIGITVLRTNDNST   71 (211)
+T ss_pred             CCCCccccccCCC--CccccccccCCCcCCCcccccccccccCCcccccc-ccCCCcc------eeEEEEEEeeeCCCCc
+Confidence            1257778899999  6678899999653    33333333  44444431 1211111      11222222222     
+
+
+Q ss_pred             ---ceeeeeecccccccccceeeeecCCcccchhhhhhccCCccccCCCCCcCccceeeeccccccceeeeeecCcchhh
+Q mcfa.fasta      161 ---GNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASGRHGMEKVVVWGDARSNEILVKNVIEPSLSW  237 (427)
+Q Consensus       161 ---G~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~lPW~~~~~w~~~e~lV~f~~phA~k~~V~~lg~qega~  237 (427)
+                         .+++|.=..+...|-+....+++-++.  +..+...||.           ..+|+.=..|....+    +++-   .
+T Consensus        72 ~~~~~~~L~ps~~~~~~~~~~i~~~ligd~--~~~~~~~~l~-----------~~yL~iP~~~~~~~~----~~~~---~  131 (211)
+T reticulomixafi   72 QIQETVSISPQNTGATTQDGKIVVRLIGDL--VSYQDAPDLN-----------NLYYFCPSSPQTDPR----VKNY---L  131 (211)
+T ss_pred             ceeeeeeecCCCCcccccCCceEEEEeecc--cccCCCCccC-----------cceeeecCCCCCCcc----hhcc---c
+Confidence               456666555555554444444431111  1111111111           112221111110000    0000   0
+
+
+Q ss_pred             hhhhhccCcccccceeEeeeccceee-ccccCCCCCccccccccCcCcceeEEEEeeccCCccccccee-eee-------
+Q mcfa.fasta      238 EDAIATHGGFRDISFVCQIMLDKLVS-GAFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLT-CHG-------  308 (427)
+Q Consensus       238 ~~ALag~~~l~~Ghl~Cri~ldkL~~-~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~-~~G-------  308 (427)
+                      .+.               +.+|+=.+ .+=..|-+.        |.++.+      +..+..-|+.|.. |-.       
+T Consensus       132 ~~w---------------mlv~~~~vdl~G~eCnKI--------GVsy~a------F~~Q~~~C~~~~gSCL~nQl~d~~  182 (211)
+T reticulomixafi  132 KNS---------------MLIPQSAVTLTGQDCDKI--------GVSYYA------FRYQSQACLKPVGACLSNQLEDFH  182 (211)
+T ss_pred             ccc---------------cccccccccccccccccc--------cchhhh------hhhccccccCCCcccchhhhHHHH
+Confidence            000               22222222 233333320        000000      0011223333322 100       
+
+
+Q ss_pred             ---eeeccchhhhc--c-CcccccceeeecCCCcceeeccccccchhhhhhhhhhhhhhhhhccccc
+Q mcfa.fasta      309 ---CLLQSTKMIFL--A-GKTTSRAFVKCGNHTSTLLVGSTSVSIECALNPISQGWRLARHVVDRYR  369 (427)
+Q Consensus       309 ---~lit~npiv~~--~-epp~G~s~I~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r~~~~gd~aw  369 (427)
+                         .-|.-|-++--  . .|.|.-.--                                      +|
+T Consensus       183 ~~D~~~~~~~~~~i~~g~~~~Y~l~~~--------------------------------------~~  211 (211)
+T reticulomixafi  183 NTGLKISLNDMALFEQNKQKKEILFKC--------------------------------------HW  211 (211)
+T ss_pred             hhhcccchhhHHHHhhccchhhhhhcc--------------------------------------CC
+Confidence               00000000000  0 000000000                                      00
+
+
+No 12 
+>wuhanmosquito.fasta
+Probab=0.01  E-value=28  Score=5.14  Aligned_cols=314  Identities=9%  Similarity=0.001  Sum_probs=92.7
+
+Q ss_pred             ceeeeeccceeecchhhhhhhcccccccccccccCCCCcccc---------hhhhh---c---ccccccCCCCcCCCcc-
+Q mcfa.fasta       35 LLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLN---------MADIM---A---KERVCSTQPYNRGWGT-   98 (427)
+Q Consensus        35 tlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~---------l~e~~---~---~~~vCk~~~~dRGWGn-   98 (427)
+                      .|.|++..+...=....--|=.+.+ -.+.+.-|||.+|+=.         +||-.   .   ..+-|..    -|||+ 
+T Consensus         1 ~ikIk~~~i~l~C~k~~~yfTrd~~-~~~~sskRC~~aGSC~~~kC~~i~~ipEl~~~~~~~~g~t~C~e----Gg~gC~   75 (426)
+T wuhanmosquito.    1 MMRFKIDAAYIRTRYHLVYYTSEYE-IKTSYTSNCKGSGSCWSGGCRDIGVHPRLRAIANSSIMGYGCET----DNLGCD   75 (426)
+T ss_pred             Cceeeeeeeeeecccceeeecccce-eeeeccccCCCCCccCCCcccCcccccchhhhhccccccccccc----CCCCCC
+Confidence            1233333333322221111222222 3357888999999855         44332   2   2345887    89999 
+
+
+Q ss_pred             c-ccccccc-----------ccccccccccccC---cccccceeceeEEEEEEeeccccc-cc--cc----c--------
+Q mcfa.fasta       99 G-CFKWGIG-----------FVGTCVELHCDRG---FNVSSIARSAIVMNVTASFHSVSD-TQ--QM----V--------  148 (427)
+Q Consensus        99 G-CglfGkG-----------si~tCakf~C~~~---~~~~~i~~enI~y~V~v~vH~~~~-~~--~~----~--------  148 (427)
+                      | ||+ --+           + ...-=|+|..-   ++.++ ...+.+ + .+.++.+.. ..  ..    +        
+T Consensus        76 G~CF~-~psClFyR~y~~P~s-~iyeVf~C~~W~~~v~l~v-t~~~~~-~-~~~l~~~~~~~~~~~i~~~~~itl~s~~~  150 (426)
+T wuhanmosquito.   76 DWCFM-KTSCTWYKWDIKSKG-VYGKVYEKSSEIWEVILRI-DYQNVT-T-RHKVNVNNPRVNLDGLMDGIPIYITSISS  150 (426)
+T ss_pred             Ccccc-cccccceeeeecccc-cceeeeeccccceEEEEEE-Eeeccc-e-eeeeecCCCccccCCcccCcceEEEeecc
+Confidence            8 998 655           2 33334445431   11110 000100 0 011110000 00  00    0        
+
+
+Q ss_pred             --------------------CCCceeeeecccceeeeeecccccc-ccccee--------eeecCCcccchhhhhhcc-C
+Q mcfa.fasta      149 --------------------GDIPLTFRFAKLGNAAMTCRLESEQ-LLLDYY--------HVTGSSHEGLFLRSQVDS-W  198 (427)
+Q Consensus       149 --------------------~s~~~t~~lgdYG~vtl~Cr~~sg~-Dl~~~y--------lv~~~~~~wlV~r~w~~D-l  198 (427)
+                                          .++.-...-|..|  .+.|.-.... +++=.+        .+.-..+.=.. ++.+++ -
+T Consensus       151 ~~~Fi~~~~~~~~~~~a~~~~~~~g~p~~g~iG--~lQC~t~~~A~~~~C~~c~C~~~~~~~~C~c~~~~i-~~~~~~~~  227 (426)
+T wuhanmosquito.  151 ETDNVPNGILEYLGTGYAVKASQMNMPETDIIG--DYQISLDKETYAFNMHNVKCETESCRAFCNAPEPKM-TRFIRMIK  227 (426)
+T ss_pred             ccccccCCccccccceeeeeccccCCCcccccc--cccccccccccccccceeeeccccccccccCCCchh-HHHHHhhh
+Confidence                                0000000000111  1233222111 000000        00000000011 122233 4
+
+
+Q ss_pred             CccccCCCCC-cCccceeeeccccccceeeeeecCcchhhhhhhhccCcccccceeEeeeccceee--------------
+Q mcfa.fasta      199 PGVHSTASGR-HGMEKVVVWGDARSNEILVKNVIEPSLSWEDAIATHGGFRDISFVCQIMLDKLVS--------------  263 (427)
+Q Consensus       199 ~lPW~~~~~w-~~~e~lV~f~~phA~k~~V~~lg~qega~~~ALag~~~l~~Ghl~Cri~ldkL~~--------------  263 (427)
+                      .||-+. -.. ++.+.+..+-. ......+..-   ++ ++.+      +..-.-+|.|...+|.-              
+T Consensus       228 ~LP~~~-~~~~~~~~~V~A~~~-~~~~~~l~I~---~~-~~~~------~~v~~~~C~i~~~~l~GCYsC~~GA~v~i~C  295 (426)
+T wuhanmosquito.  228 RMNEVE-IMNIGSGHVIETNRQ-ISAIVGVLVG---NV-NLKN------LQVEKAQCSLEQIGTYSCTGCAEEPYVILQA  295 (426)
+T ss_pred             ccceee-eeecCCCceeeeeee-cceeEEEEEe---cc-cccc------ceeecccccccccccccccCCCCCceeEEEE
+Confidence            455443 001 11222222211 1112222111   11 2222      22234566666655431              
+
+
+Q ss_pred             -ccc-------cCCCCCccccccccCcCcce-eEEEEeeccCCcccccc-------eeeeeeeeccchhhhccCcccccc
+Q mcfa.fasta      264 -GAF-------RDCPGPKISTFSQDGFGYSG-VVITTLTASSNETCSLS-------LTCHGCLLQSTKMIFLAGKTTSRA  327 (427)
+Q Consensus       264 -~ty-------~~C~~~fs~~k~p~~tgh~t-VV~~v~y~gt~~pCrip-------i~~~G~lit~npiv~~~epp~G~s  327 (427)
+                       ++.       ..|.+.+.+... .+.| .+ +.+    .--+..|.+.       +.++|.|...||+-.+ +|.|   
+T Consensus       296 ~Ss~~~~~~~~~~~c~~~~~~i~-~~~g-~~~l~~----a~V~~~C~vsCG~~~~~f~I~G~L~yv~~~~~~-~~~~---  365 (426)
+T wuhanmosquito.  296 HDIKSEGILPIESNCTFAKDYIS-CSLD-PYPLYL----RDTKRSCYIHIQGLNHTMYLNFDFTFKGSLDPS-KPIY---  365 (426)
+T ss_pred             eeccCCCccceeeccCccccccc-cCCC-Ccceee----ccccccceeeccCccceeeEeeeeeecCCCCCC-CCcc---
+Confidence             111       111122233222 2223 22 111    3334455542       3344777777776211 2221   
+
+
+Q ss_pred             eeeecCCCcceeeccccccchhhhhhhhhhhhhhhhhccccccccCCcccchh--hhhhcccccccccchhhHHHHHHH-
+Q mcfa.fasta      328 FVKCGNHTSTLLVGSTSVSIECALNPISQGWRLARHVVDRYRRFGVSGVAGVW--QDLVGKFSVGAFFSNTALLVILVL-  404 (427)
+Q Consensus       328 ~I~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r~~~~gd~aw~~dfgsvGGvf--H~vfG~~~f~~lFgg~sw~~~ili-  404 (427)
+                           |.++...              ..||.     +...-.      +-|..  -.+||.     +--.+|-+.+|+- 
+T Consensus       366 -----~~~~~~~--------------~~~~~-----~~~~~~------~~~~~~~~~~~~~-----~~~~~~~~~~~~~~  410 (426)
+T wuhanmosquito.  366 -----NQESEME--------------MIKGM-----VSSSMF------ITGLISTVSMFGM-----VSISLSMILRIIRM  410 (426)
+T ss_pred             -----cccchhh--------------hhhcc-----ccchhh------HhHhHhhhhhhHH-----HHHHHHHHHHHHHH
+Confidence                 1111110              11111     000000      11111  112222     1111222222221 
+
+
+Q ss_pred             --hhhhhhhhHHHHHhhhhhcc
+Q mcfa.fasta      405 --AALIDKRIAFLLVLGGYFYY  424 (427)
+Q Consensus       405 --lg~n~r~~~vg~ill~l~~~  424 (427)
+                        +-.-+|++.--      +.-
+T Consensus       411 ~~~~~~~~~~~~~------~~~  426 (426)
+T wuhanmosquito.  411 YEIKRMSRDVMEM------TSK  426 (426)
+T ss_pred             Hhhhhhhhhhhhh------ccC
+Confidence              21222221000      000
+
+
+No 13 
+>NaegleriaEFF.fasta
+Probab=0.00  E-value=28  Score=5.08  Aligned_cols=385  Identities=12%  Similarity=0.088  Sum_probs=116.4
+
+Q ss_pred             CCC--cccccccccccceeeeeecCCCceeeec-cCcceeeeeccceeecchhhhhhhc-----------cccccccccc
+Q mcfa.fasta        1 EFV--EPLYTLKAEQMTMLQTIVRPEEGYVVAT-PNGLLEFKTGPAEIYGGQWLRELLA-----------DCHVNASYST   66 (427)
+Q Consensus         1 Dfv--eg~~~~~~~G~Twvd~~vLe~~~CVTi~-~kptlDi~l~~~~~~~~a~~R~yc~-----------~a~vs~~~s~   66 (427)
+                      +=+  +=.|+|..-+.|    .--.+.-|.-++ |.-.+.|.|.+-.....  .-.+||           .|+=+++   
+T Consensus        41 ~Cv~t~C~anI~ta~tT----~~S~~~~Cf~Lt~D~s~VNItL~ddFk~ql--sSs~CYYTDDy~pryT~~CS~s~v---  111 (638)
+T NaegleriaEFF.f   41 SCSDTACVYNINTALTT----SYTGDNYCFKLTDDSSMVNITLGDDFSAVL--SSSYCYYTDDPLPRYTAFCSSTDV---  111 (638)
+T ss_pred             ccccccccccccccccc----ccCCCccccccccCCcceeeeccCccceee--ccccccccCCCCCccccccCCCCC---
+Confidence            000  001122222221    112345677777 66677777766544322  334454           2333331   
+
+
+Q ss_pred             ccCCCCcccchhhhhcccccccCCCCcCCCcccccccccccccccccccccc--CcccccceeceeEEEEEEeecccccc
+Q mcfa.fasta       67 DVCPGGSQLNMADIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDR--GFNVSSIARSAIVMNVTASFHSVSDT  144 (427)
+Q Consensus        67 ~~CPt~Gea~l~e~~~~~~vCk~~~~dRGWGnGCglfGkGsi~tCakf~C~~--~~~~~~i~~enI~y~V~v~vH~~~~~  144 (427)
+                      -.||.-..-+        |-=...+.-|+|-|      .|---.|++..=+.  -+++=-++++--.=-|.+.+.+++..
+T Consensus       112 CscP~FSsN~--------YP~T~s~ftp~~~n------qgySt~CYnvaFegfrRyKVCkL~~Ptysg~I~~kyqts~~~  177 (638)
+T NaegleriaEFF.f  112 CTPPSFTGNT--------YPSSFSYKTPTYKQ------QGYSRACYNVAFEAFRRFKVCKLNKPTYSGSVIATYQELTYT  177 (638)
+T ss_pred             CCCCCCCCCC--------CCCcccccCCcccc------cCcccccchhhhhccccccccccCCCCCCcceEEEeeccccc
+Confidence            1155443322        33233344455544      22223344444333  23333333332222233333333322
+
+
+Q ss_pred             ccccCCCceeeeecccceeeeeeccccccc--ccceeeeecCC-------cccchhhhhhccCC-ccccCCCCCcCccce
+Q mcfa.fasta      145 QQMVGDIPLTFRFAKLGNAAMTCRLESEQL--LLDYYHVTGSS-------HEGLFLRSQVDSWP-GVHSTASGRHGMEKV  214 (427)
+Q Consensus       145 ~~~~~s~~~t~~lgdYG~vtl~Cr~~sg~D--l~~~ylv~~~~-------~~wlV~r~w~~Dl~-lPW~~~~~w~~~e~l  214 (427)
+                      -..+ --+.++++ .++.+.+.=...|+-|  -.+|.+++.-+       ..=+|||.=-.|.. +-|---..-+|.|.+
+T Consensus       178 Ip~~-Ny~~~Vk~-g~~slnf~VdlvStTdPfvsdFvvyDla~ptDFYyLP~s~VN~~ne~nySrIGWvKs~ni~n~e~~  255 (638)
+T NaegleriaEFF.f  178 IPIA-NNVGVVKL-GTSGVSVVVNLTSSTLPFSTDFVVVDLTAQTDFYFLPYSMVNSESTNDVSRIGWVKVNNVNNAESM  255 (638)
+T ss_pred             cccc-cccccccc-cCcceeEEEeccCCCCCCccceeEeeccccccccccccccccCCCCCcccccceeeeccccccccc
+Confidence            1100 11223444 5677888777777666  23444444422       12234444332221 333322225666666
+
+
+Q ss_pred             eeeccccccceeeeeecCcchhhhhhhhc-----------cCcccccceeEee---------e-------ccceee-ccc
+Q mcfa.fasta      215 VVWGDARSNEILVKNVIEPSLSWEDAIAT-----------HGGFRDISFVCQI---------M-------LDKLVS-GAF  266 (427)
+Q Consensus       215 V~f~~phA~k~~V~~lg~qega~~~ALag-----------~~~l~~Ghl~Cri---------~-------ldkL~~-~ty  266 (427)
+                      ..-..|.-+---=  +--||....++|.-           ...|+....+=||         .       ...|-+ .+-
+T Consensus       256 ~ncqsprg~cnf~--vtlp~~s~~qs~~hfst~c~~p~~t~~sfdnasitrrile~~~a~ras~l~k~~~ysd~nl~~si  333 (638)
+T NaegleriaEFF.f  256 INCQSPRGTCNFN--VTLPQTSVLQSLMHFSTDCKNPSTTTLSFDNASITRRILELNSANRASMLTKSSVYSDKNLALSI  333 (638)
+T ss_pred             cccCCCCCccccc--ccccchhhhhhhhccccCCCCCCcccccccchhhHHHHHhhhhhhhhhhhhccccccchhhhhhh
+Confidence            6666555432111  11133333333321           0111111111111         0       000111 000
+
+
+Q ss_pred             cCCCCCcccc-ccc---cCcCcceeEEEEeeccCCcccccceeeeeeeeccchhhhcc-CcccccceeeecCCCc--cee
+Q mcfa.fasta      267 RDCPGPKIST-FSQ---DGFGYSGVVITTLTASSNETCSLSLTCHGCLLQSTKMIFLA-GKTTSRAFVKCGNHTS--TLL  339 (427)
+Q Consensus       267 ~~C~~~fs~~-k~p---~~tgh~tVV~~v~y~gt~~pCripi~~~G~lit~npiv~~~-epp~G~s~I~~G~g~~--~l~  339 (427)
+                      .--+..|+-. -.|   .+.|+=+|    .  ...+|    |. -|.-|-.=|-|.-. .-.-.|----||.-.+  ++-
+T Consensus       334 ~askd~~~~~~~~~~~~~~~~~~~~----~--~~~~~----~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  402 (638)
+T NaegleriaEFF.f  334 SASKDFISHAIARPEHILGYGYLGV----D--SNGEP----II-IGNDINGIPSVTYSSTETVSDRMTNCGVISGDAKVY  402 (638)
+T ss_pred             ccchhhhhhhccccccccccccccc----c--CCCCc----ee-eecccCCCcccccccccccccccccccccccchhHH
+Confidence            0011111110 001   12222111    0  00111    11 12222222222211 1111222222332211  111
+
+
+Q ss_pred             ec---------cccccchhhhhhhhhhhhhhhhh---ccccccccCCcccchh-------------hhhhcccccccccc
+Q mcfa.fasta      340 VG---------STSVSIECALNPISQGWRLARHV---VDRYRRFGVSGVAGVW-------------QDLVGKFSVGAFFS  394 (427)
+Q Consensus       340 ~~---------~~gssIg~~f~~t~kg~~r~~~~---gd~aw~~dfgsvGGvf-------------H~vfG~~~f~~lFg  394 (427)
+                      +.         ...|.-=-.|+.--.=+||--.+   |--||    -+.||.=             ..++-...|-.==-
+T Consensus       403 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~mlkrisf~g~~~  478 (638)
+T NaegleriaEFF.f  403 HALEKAIPNNPTAVSTYMYSFNSSCTYIQRYDAINRDGPFAW----QGLGGYDTPQNTELTAYTWPDNMLKRITFYGNNT  478 (638)
+T ss_pred             HHHhhhcCCCCcccccccccccccchhhhhhhccccCCCccc----ccCCCCCCCCccccccccCcccccceeecccCCC
+Confidence            11         11111122233333334444333   33344    3445531             00111001111011
+
+
+Q ss_pred             hhhHHHHHHH---------hhhhhh-----hhHHHHHhhhhhccccC
+Q mcfa.fasta      395 NTALLVILVL---------AALIDK-----RIAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       395 g~sw~~~ili---------lg~n~r-----~~~vg~ill~l~~~V~A  427 (427)
+                      |-+||+--+=         +-+...     .+-+|+=+-.+..-++.
+T Consensus       479 ~~~fipvtvep~d~t~l~sis~~~~sl~sis~~i~g~~ti~~~~~~s  525 (638)
+T NaegleriaEFF.f  479 ERGFIPVTVEPLDTTALATVTISLSSLTSISIQVGGELTIPIPKVRS  525 (638)
+T ss_pred             CccccccccccccccchhhhhhcccccceeeeeeccccccccCcccc
+Confidence            1222211000         000000     00001000000000000
+
+
+No 14 
+>mcfa.fasta
+Probab=0.00  E-value=28  Score=3.69  Aligned_cols=335  Identities=7%  Similarity=-0.094  Sum_probs=64.3
+
+Q ss_pred             CCCc-ccc-cccccccceeeeeecCCCceeeec-----cCcceeeeeccceee--cchhhhhhhcccccccccccccCCC
+Q mcfa.fasta        1 EFVE-PLY-TLKAEQMTMLQTIVRPEEGYVVAT-----PNGLLEFKTGPAEIY--GGQWLRELLADCHVNASYSTDVCPG   71 (427)
+Q Consensus         1 Dfve-g~~-~~~~~G~Twvd~~vLe~~~CVTi~-----~kptlDi~l~~~~~~--~~a~~R~yc~~a~vs~~~s~~~CPt   71 (427)
+                      =++| |-| |+.  +--=+| +=|++   +++.     -+=.++-.+.+++..  =|...     +|+..+..       
+T Consensus        20 ~vLe~~~CVTi~--~kptlD-i~l~~---~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~G-----ea~l~e~~-------   81 (427)
+T mcfa.fasta       20 IVRPEEGYVVAT--PNGLLE-FKTGP---AEIYGGQWLRELLADCHVNASYSTDVCPGGS-----QLNMADIM-------   81 (427)
+T ss_pred             eecCCCceeeec--cCccee-eeecc---ceeecchhhhhhhcccccccccccccCCCCc-----ccchhhhh-------
+Confidence            0000 000 000  000000 00000   0000     000000000000000  00000     00000000       
+
+
+Q ss_pred             Ccccchhhhhccccc--ccCCCCcCCCccccccccccccccccccccccCcccccceeceeEEEEEEeecc---------
+Q mcfa.fasta       72 GSQLNMADIMAKERV--CSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHS---------  140 (427)
+Q Consensus        72 ~Gea~l~e~~~~~~v--Ck~~~~dRGWGnGCglfGkGsi~tCakf~C~~~~~~~~i~~enI~y~V~v~vH~---------  140 (427)
+                       .+.+.=|+...+|=  +-=.-...|.--.|-+|      +|.+-.-...+...-|+.+ |.-+|+-.-+.         
+T Consensus        82 -~~~~vCk~~~~dRGWGnGCglfGkGsi~tCakf------~C~~~~~~~~i~~enI~y~-V~v~vH~~~~~~~~~~s~~~  153 (427)
+T mcfa.fasta       82 -AKERVCSTQPYNRGWGTGCFKWGIGFVGTCVEL------HCDRGFNVSSIARSAIVMN-VTASFHSVSDTQQMVGDIPL  153 (427)
+T ss_pred             -cccccccCCCCcCCCcccccccccccccccccc------ccccCcccccceeceeEEE-EEEeeccccccccccCCCce
+Confidence             00000011111111  22223334444444444      3443322222222222111 11111111100         
+
+
+Q ss_pred             -ccccccc----cCCCceeeeecccceeeeeecccccccccceeeeecCCcccchhhhhhccCCcc--ccCCCC---C--
+Q mcfa.fasta      141 -VSDTQQM----VGDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGV--HSTASG---R--  208 (427)
+Q Consensus       141 -~~~~~~~----~~s~~~t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~lP--W~~~~~---w--  208 (427)
+                       -+..+..    .-.+...++|.+|--++++         ++++++   .+.|.  .||=--|..|  |+..+.   |  
+T Consensus       154 t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~---------~~~wlV---~r~w~--~Dl~lPW~~~~~w~~~e~lV~f~~  219 (427)
+T mcfa.fasta      154 TFRFAKLGNAAMTCRLESEQLLLDYYHVTGS---------SHEGLF---LRSQV--DSWPGVHSTASGRHGMEKVVVWGD  219 (427)
+T ss_pred             eeeecccceeeeeecccccccccceeeeecC---------Ccccch---hhhhh--ccCCccccCCCCCcCccceeeecc
+Confidence             0000000    0223444455555555542         122222   12222  1333333333  444433   2  
+
+
+Q ss_pred             --cCccceeeeccccccceeeee--ecCcch------hhhhhhhccCc------------ccccc--eeEeeeccceeec
+Q mcfa.fasta      209 --HGMEKVVVWGDARSNEILVKN--VIEPSL------SWEDAIATHGG------------FRDIS--FVCQIMLDKLVSG  264 (427)
+Q Consensus       209 --~~~e~lV~f~~phA~k~~V~~--lg~qeg------a~~~ALag~~~------------l~~Gh--l~Cri~ldkL~~~  264 (427)
+                        .++..++.-++|.-.=....+  .+-.-|      .|++--.++|.            -..||  +.-+++    .-.
+T Consensus       220 phA~k~~V~~lg~qega~~~ALag~~~l~~Ghl~Cri~ldkL~~~ty~~C~~~fs~~k~p~~tgh~tVV~~v~----y~g  295 (427)
+T mcfa.fasta      220 ARSNEILVKNVIEPSLSWEDAIATHGGFRDISFVCQIMLDKLVSGAFRDCPGPKISTFSQDGFGYSGVVITTL----TAS  295 (427)
+T ss_pred             ccccceeeeeecCcchhhhhhhhccCcccccceeEeeeccceeeccccCCCCCccccccccCcCcceeEEEEe----ecc
+Confidence              333444444444431111111  000000      00000000000            01111  111110    002
+
+
+Q ss_pred             cccCCCCCccccccccCcCcceeEEEEeeccCCcccccceee----ee----eeeccchhhhccCcccccceeeecCCCc
+Q mcfa.fasta      265 AFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTC----HG----CLLQSTKMIFLAGKTTSRAFVKCGNHTS  336 (427)
+Q Consensus       265 ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~----~G----~lit~npiv~~~epp~G~s~I~~G~g~~  336 (427)
+                      +-..|+=+.+.+        |-.|..-.+--++   .-|..-    .|    .+. .+    .+++|-|.++--.=.|-.
+T Consensus       296 t~~pCripi~~~--------G~lit~npiv~~~---epp~G~s~I~~G~g~~~l~-~~----~~gssIg~~f~~t~kg~~  359 (427)
+T mcfa.fasta      296 SNETCSLSLTCH--------GCLLQSTKMIFLA---GKTTSRAFVKCGNHTSTLL-VG----STSVSIECALNPISQGWR  359 (427)
+T ss_pred             CCcccccceeee--------eeeeccchhhhcc---CcccccceeeecCCCccee-ec----cccccchhhhhhhhhhhh
+Confidence            223333322221        1111111110000   000000    00    110 00    112222222211111111
+
+
+Q ss_pred             ceeec----c--ccccchhhhhhhhhhhhhhhhhccccccccCCcccc-hhhhhhcccccccccch--hhHHHHHHHhhh
+Q mcfa.fasta      337 TLLVG----S--TSVSIECALNPISQGWRLARHVVDRYRRFGVSGVAG-VWQDLVGKFSVGAFFSN--TALLVILVLAAL  407 (427)
+Q Consensus       337 ~l~~~----~--~gssIg~~f~~t~kg~~r~~~~gd~aw~~dfgsvGG-vfH~vfG~~~f~~lFgg--~sw~~~ililg~  407 (427)
+                      .+.+-    .  .-.|||-.|         ..+            .|+ .|+.+||+..|  |.--  ++.-.|-+++|.
+T Consensus       360 r~~~~gd~aw~~dfgsvGGvf---------H~v------------fG~~~f~~lFgg~sw--~~~ililg~n~r~~~vg~  416 (427)
+T mcfa.fasta      360 LARHVVDRYRRFGVSGVAGVW---------QDL------------VGKFSVGAFFSNTAL--LVILVLAALIDKRIAFLL  416 (427)
+T ss_pred             hhhhhccccccccCCcccchh---------hhh------------hcccccccccchhhH--HHHHHHhhhhhhhhHHHH
+Confidence            11111    1  222344444         111            222 22333433111  1000  111111111110
+
+
+Q ss_pred             hhhhhHHHHHhhhhhcc
+Q mcfa.fasta      408 IDKRIAFLLVLGGYFYY  424 (427)
+Q Consensus       408 n~r~~~vg~ill~l~~~  424 (427)
+                      ..=-+++++-      .
+T Consensus       417 ill~l~~~V~------A  427 (427)
+T mcfa.fasta      417 VLGGYFYYVR------A  427 (427)
+T ss_pred             Hhhhhhcccc------C
+Confidence            0000000000      0
+
+
+No 15 
+>rubivirus.fasta
+Probab=0.00  E-value=28  Score=2.52  Aligned_cols=336  Identities=14%  Similarity=0.170  Sum_probs=67.7
+
+Q ss_pred             eeeeecCCCceeeeccCcceeeeeccceeecchhhhhhhcccccccccccccCCCCcccchhhhhc-ccccccCCCCcCC
+Q mcfa.fasta       17 LQTIVRPEEGYVVATPNGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMADIMA-KERVCSTQPYNRG   95 (427)
+Q Consensus        17 vd~~vLe~~~CVTi~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~-~~~vCk~~~~dRG   95 (427)
+                      +..+||.+                -+--+++...+--+|         ++..|-||-..  +-+-. -.|.-|  .+   
+T Consensus         1 ltavvlqg----------------ynppaygeeaftylc---------tapgcatqapv--pvrlagvrfesk--iv---   48 (496)
+T rubivirus.fast    1 LTAVVLQG----------------YNPPAYGEEAFTYLC---------TAPGCATQAPV--PVRLAGVRFESK--IV---   48 (496)
+T ss_pred             Cccccccc----------------CCCCCccccchhhcc---------cCCCccCCCCc--cccccccccccc--cc---
+Confidence            00000000                000001111111111         11222222111  00000 000000  00   
+
+
+Q ss_pred             Ccccccc-cccccccccc-----ccccccCcccccceeceeEEEEEEeeccccccccccCCCceeeeecccceeeeeecc
+Q mcfa.fasta       96 WGTGCFK-WGIGFVGTCV-----ELHCDRGFNVSSIARSAIVMNVTASFHSVSDTQQMVGDIPLTFRFAKLGNAAMTCRL  169 (427)
+Q Consensus        96 WGnGCgl-fGkGsi~tCa-----kf~C~~~~~~~~i~~enI~y~V~v~vH~~~~~~~~~~s~~~t~~lgdYG~vtl~Cr~  169 (427)
+                       ..|||. |-.-.-..|.     .++|+. +..++-...      -+.+-.|....-.-= .-....-|+|-.+.-.-.|
+T Consensus        49 -dggcfapwdleatgaciceiptdvsceg-lgawvpaap------cariwngtqractfw-avnayssggyaqlasyfnp  119 (496)
+T rubivirus.fast   49 -DGGCFAPWDLEATGACICEIPTDVSCEG-LGAWVPAAP------CARIWNGTQRACTFW-AVNAYSSGGYAQLASYFNP  119 (496)
+T ss_pred             -cCCCCCccccccccccccccCCcccccc-ccccccCcc------cchhcccccccchhh-hhhhccccchhhhhcccCC
+Confidence             112221 1111111110     011110 000000000      000000000000000 0000001222211111000
+
+
+Q ss_pred             cccccccceeeeecCCcccchhhhhhccCCccccCCCCCcCccceeeeccccccceeeeeecCcchhhhhhhhcc-----
+Q mcfa.fasta      170 ESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASGRHGMEKVVVWGDARSNEILVKNVIEPSLSWEDAIATH-----  244 (427)
+Q Consensus       170 ~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~lPW~~~~~w~~~e~lV~f~~phA~k~~V~~lg~qega~~~ALag~-----  244 (427)
+                        |   ..||. .--...-        +..-.+-+.       .---|+-|+-+-|+|.+|.+-----|+-+.=+     
+T Consensus       120 --g---gsyyk-qyhptac--------evepafghs-------daacwgfptdtvmsvfalasyvqhphktvrvkfhtet  178 (496)
+T rubivirus.fast  120 --G---GSYYK-QYHPTAC--------EVEPAFGHS-------DAACWGFPTDTVMSVFALASYVQHPHKTVRVKFHTET  178 (496)
+T ss_pred             --C---CCccc-ccCCccc--------ccccccccc-------cccccCCCccchhHHHHhhhhccCCCcceeeeecccc
+Confidence              0   00111 0000000        000000000       11224555666666655554322222211110     
+
+
+Q ss_pred             ---CcccccceeEeeeccceeeccccCCCCC--ccccccccCcCcceeEEEEeeccCCccccccee-------------e
+Q mcfa.fasta      245 ---GGFRDISFVCQIMLDKLVSGAFRDCPGP--KISTFSQDGFGYSGVVITTLTASSNETCSLSLT-------------C  306 (427)
+Q Consensus       245 ---~~l~~Ghl~Cri~ldkL~~~ty~~C~~~--fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~-------------~  306 (427)
+                         -.|....++|.+..|      -+.|...  ---+.+|-|-| |-|--...|+|. +--|--+.             |
+T Consensus       179 rtvwqlsvagvscnvtte------hpfcntphgqlevqvppdpg-dlveyimnytgn-qqsrwglgspnchgpdwaspvc  250 (496)
+T rubivirus.fast  179 RTVWQLSVAGVSCNVTTE------HPFCNTPHGQLEVQVPPDPG-DLVEYIMNYTGN-QQSRWGLGSPNCHGPDWASPVC  250 (496)
+T ss_pred             chhhhhhcccccccccCC------CCCCCCCCCcceeccCCCCc-hhHHHHHhhccc-cccccCCCCCCCCCCCCCCCcc
+Confidence               113333445544322      2344332  22244444444 333333345542 22121111             1
+
+
+Q ss_pred             e------eeeeccchh------hh------ccCcccccceee--ecCCCcceeec-cccccchhhhhhhhhhhhhhhhhc
+Q mcfa.fasta      307 H------GCLLQSTKM------IF------LAGKTTSRAFVK--CGNHTSTLLVG-STSVSIECALNPISQGWRLARHVV  365 (427)
+Q Consensus       307 ~------G~lit~npi------v~------~~epp~G~s~I~--~G~g~~~l~~~-~~gssIg~~f~~t~kg~~r~~~~g  365 (427)
+                      .      .||+-++|-      |.      ...|-.|+.|+.  ||+...+--+| +.| +-|-|--..- -|- -+|.-
+T Consensus       251 qrhspdcsrlvgatperprlrlvdaddpllrtapgpgevwvtpvigsqarkcglhirag-pyghatvemp-ewi-haht~  327 (496)
+T rubivirus.fast  251 QRHSPDCSRLVGATPERPRLRLVDADDPLLRTAPGPGEVWVTPVIGSQARKCGLHIRAG-PYGHATVEMP-EWI-HAHTT  327 (496)
+T ss_pred             ccCCCcccccccCCCCCcccccccCCCcccccCCCCCccccccccchhhhhcccccccC-CCCccccccc-chh-hcccC
+Confidence            1      455555442      11      125566777763  44333332233 211 2222211100 000 01222
+
+
+Q ss_pred             cccc-----------------------------------------cccCCcccchhhhhh-cccccccccchhhHHHHHH
+Q mcfa.fasta      366 DRYR-----------------------------------------RFGVSGVAGVWQDLV-GKFSVGAFFSNTALLVILV  403 (427)
+Q Consensus       366 d~aw-----------------------------------------~~dfgsvGGvfH~vf-G~~~f~~lFgg~sw~~~il  403 (427)
+                      ++.|                                         --+..--||--|.-. |. -..++=- --|++..|
+T Consensus       328 ~~~~~p~~plg~~~~~~~~~~lpr~lapp~~~~~~~~~~~~~~~~~~glapggg~~~~~~~~e-dlgavpp-gkfvtaal  405 (496)
+T rubivirus.fast  328 SDPWHPPGPLGLKFKTVRPVALPRTLAPPRNVRVTGCYQCGTPALVEGLAPGGGNCHLTVNGE-DLGAVPP-GKFVTAAL  405 (496)
+T ss_pred             CCCCCCCCCCcccccccccccCcccCCCCcccccccccccCcchhhcccCCCCCccccccccc-cCCCCCC-Cchhhhhh
+Confidence            2222                                         011111111111000 00 0000000 00111111
+
+
+Q ss_pred             H----------hhhhhhh-----------------------------------------hHHHHHh--------------
+Q mcfa.fasta      404 L----------AALIDKR-----------------------------------------IAFLLVL--------------  418 (427)
+Q Consensus       404 i----------lg~n~r~-----------------------------------------~~vg~il--------------  418 (427)
+                      +          =|-++|-                                         +.+|.|-              
+T Consensus       406 lntpppyqvscggesdratarvidpaaqsftgvvygthttavsetrqtwaewaaahwwqltlgaicalplagllaccakc  485 (496)
+T rubivirus.fast  406 LNTPPPYQVSCGGESDRATARVIDPAAQSFTGVVYGTHTTAVSETRQTWAEWAAAHWWQLTLGAICALPLAGLLACCAKC  485 (496)
+T ss_pred             cCCCCCCccccCCCccccchhcccccccccccccccccccchhhhhhhHHHHHHHHHHHHHHHhhhhhhHhhHhhhhhhh
+Confidence            1          0001110                                         0000000              
+
+
+Q ss_pred             hhhhccccC
+Q mcfa.fasta      419 GGYFYYVRA  427 (427)
+Q Consensus       419 l~l~~~V~A  427 (427)
+                      ||+..+.-|
+T Consensus       486 lyylrgaia  494 (496)
+T rubivirus.fast  486 LYYLRGAIA  494 (496)
+T ss_pred             hhhhhcccC
+Confidence            000000000
+
+
+No 16 
+>CelegansEFF.fasta
+Probab=0.00  E-value=28  Score=-14.67  Aligned_cols=376  Identities=11%  Similarity=-0.029  Sum_probs=115.4
+
+Q ss_pred             CCCccc---cccccc-----ccceeeeeecCCCceeeeccCcceeeeeccceeecchhhhhhhcccccccccccccCCC-
+Q mcfa.fasta        1 EFVEPL---YTLKAE-----QMTMLQTIVRPEEGYVVATPNGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPG-   71 (427)
+Q Consensus         1 Dfveg~---~~~~~~-----G~Twvd~~vLe~~~CVTi~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt-   71 (427)
+                      -.++|-   +-|.+.     +++..-.+-|..-.|..+ ...+.-|++.+++|.=|..-+=--.-.+|+ +.=-=-||+ 
+T Consensus        45 ~~~~~~~~~~~~~~~~~~~~~~~~q~~~~L~eT~C~~l-~~~lHti~~~~leq~ypI~~~Y~F~iP~v~-t~CiCdC~g~  122 (543)
+T CelegansEFF.fa   45 AHAQSQFEEERESNSSKVSSVHSTQFNWGLDNTICIKL-QNVVHVLKYERLEQRYPIENSYTFSVPLID-TNCKCHCYGF  122 (543)
+T ss_pred             ccccchhhhhhhccccccccccceeeeccccccceeee-ehhhhhhhhhhhhcccCccccccccccccc-cccccccCCC
+Confidence            000110   001011     122222267888889888 445555788888876555433211112221 111123666 
+
+
+Q ss_pred             -Ccccchhhhhc---------ccccccCCCCcCCCccccccccccccccccccccccCcccccceecee-----EEEEEE
+Q mcfa.fasta       72 -GSQLNMADIMA---------KERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAI-----VMNVTA  136 (427)
+Q Consensus        72 -~Gea~l~e~~~---------~~~vCk~~~~dRGWGnGCglfGkGsi~tCakf~C~~~~~~~~i~~enI-----~y~V~v  136 (427)
+                       +.+.=..+...         ....|-|.|...==..||.. +...-..|.+.+=+ +.+.++++.=++     -++.+.
+T Consensus       123 ~~~~~C~~~~y~~~~nC~~~~~~~~CYrTYh~~qs~~gC~~-~s~~s~~CC~v~~~-P~~n~~y~AVkL~QP~t~~~f~y  200 (543)
+T CelegansEFF.fa  123 GTNDVCNVEKYADDRNCTTSSEFPTCYTKYHPAVEPLDCPV-TSIPAKACCDIKLK-PRDGRMFRAVKLQQPINDMIISH  200 (543)
+T ss_pred             CCCccccccccCCCCCCCCCCCCCccccccCCCCCCCCCCC-CCCCCccccccccc-CCCCccceeeeccCCcceeeeEE
+Confidence             33322222222         25567788877888889994 43233445333222 355555544332     223333
+
+
+Q ss_pred             eecccc----cccccc-------CCCceeeeecccceeeeee---cccccccccceeeeecC------------Ccccch
+Q mcfa.fasta      137 SFHSVS----DTQQMV-------GDIPLTFRFAKLGNAAMTC---RLESEQLLLDYYHVTGS------------SHEGLF  190 (427)
+Q Consensus       137 ~vH~~~----~~~~~~-------~s~~~t~~lgdYG~vtl~C---r~~sg~Dl~~~ylv~~~------------~~~wlV  190 (427)
+                      .+....    -.....       .-+...+++-+++.++|.=   |+...++-+ ||...-+            -.+|.+
+T Consensus       201 ~iyd~~~~~~w~~~~~~~f~v~l~~g~~~~~~~~~~~i~l~v~~~r~~~qL~~G-MYf~~~~~~~~lr~~~iNei~E~nl  279 (543)
+T CelegansEFF.fa  201 SIFANNSGKMMKVLGPDEFRINLLKGKEQFELTEYHRISVQLVASSPQQQLREG-MYYFPEENHNDLREGKINEITESDL  279 (543)
+T ss_pred             eeeeccCcccceecCCCceEEecccccchhhcccccceEEEEecCCcccccccc-cccccCCCccccccccccccccccc
+Confidence            332222    111100       2334445667778777663   222222222 2322211            112222
+
+
+Q ss_pred             hhh-hhccCCccccCCCC---CcCcccee---------------------------eeccccccce-----eeeeecC--
+Q mcfa.fasta      191 LRS-QVDSWPGVHSTASG---RHGMEKVV---------------------------VWGDARSNEI-----LVKNVIE--  232 (427)
+Q Consensus       191 ~r~-w~~Dl~lPW~~~~~---w~~~e~lV---------------------------~f~~phA~k~-----~V~~lg~--  232 (427)
+                      +|= ||.--...|...-+   -++.+.++                           +|.-.|+.++     .|+...+  
+T Consensus       280 ~KLGWfR~~~g~w~vrnG~iki~~aH~V~v~NCk~Q~y~~~~nA~~~yv~~~~~~~~~~lg~~ve~~~wI~s~~v~d~~R  359 (543)
+T CelegansEFF.fa  280 DKLGWYRRVGNDWQVATSGLLLRNAHKVVIKNCKGQVHMDQFSGTKNFVLRGTQYNDTYNERRVSDNNFVRSVKVDESSR  359 (543)
+T ss_pred             ccccceeeecCcceeeccchhhhccccceeeccCCcccccccccccceeecCCccccccccccccccccceeeeeccCCc
+Confidence            222 22211222322111   01111100                           1111111110     0000000  
+
+
+Q ss_pred             ------cch-hhhhhhhcc----Ccccc---cceeEeeeccceeeccccCCCCCccccccccCcCcceeEEEEeecc---
+Q mcfa.fasta      233 ------PSL-SWEDAIATH----GGFRD---ISFVCQIMLDKLVSGAFRDCPGPKISTFSQDGFGYSGVVITTLTAS---  295 (427)
+Q Consensus       233 ------qeg-a~~~ALag~----~~l~~---Ghl~Cri~ldkL~~~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~g---  295 (427)
+                            .|| .++-.|...    ...+.   ..|.=.|.||.-.         +.=+-.+--+ .+||++-.|...-   
+T Consensus       360 ~V~V~h~eg~~v~V~l~~~~~l~~~~h~S~l~~FtG~I~vD~~S---------NR~LNIT~~~-akGtLiG~V~~~~~~s  429 (543)
+T CelegansEFF.fa  360 EITIVHEHGTAAQVSLKTDTRPNLTKSQSLLANFTGSITLDHDG---------NRMLNVTFFG-VKGTVHIKMYVNDRKL  429 (543)
+T ss_pred             eEEEeecCcceeEEeeccCCCccccccccccccceeeEeeeccc---------cceeeeeeec-ccceeeEEEeeccccc
+Confidence                  000 000000000    00000   1111122222100         0000000000 2456665552221   
+
+
+Q ss_pred             -CCcccccceeeeeeeeccchhhhccCcccccceeeecCCCcceeecccc---cc-chhhhhhhhhhhhhhhhhcccccc
+Q mcfa.fasta      296 -SNETCSLSLTCHGCLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGSTS---VS-IECALNPISQGWRLARHVVDRYRR  370 (427)
+Q Consensus       296 -t~~pCripi~~~G~lit~npiv~~~epp~G~s~I~~G~g~~~l~~~~~g---ss-Ig~~f~~t~kg~~r~~~~gd~aw~  370 (427)
+                       ++..+++.|   |-+ ..|....-.=|+-      | ||+.-+=++-.+   .. |=+-+.=..+-.+-. .+ ..-|.
+T Consensus       430 ~~~~~Fs~~v---~~~-~~~~~~~I~LPa~------I-ng~r~VCl~P~~~~~~~eiCk~v~Y~~~pl~~~-~~-~~~W~  496 (543)
+T CelegansEFF.fa  430 IATFACTAQF---GTS-LKDDGSRISLPST------I-NQAQWVCILPDEQPTKSEICKWIPYEEKAMRTP-RQ-EQSWS  496 (543)
+T ss_pred             cceeeeeeec---cCC-CCCCCcccccCcc------c-cccceeeccCCCCCCcccccccccccccccccc-cc-ccCcc
+Confidence             111222211   111 2222111111111      1 333333333111   11 111111111111111 11 23331
+
+
+Q ss_pred             ccCC------------cccchhhhhhccc-ccccccchhhHHHHHHHhhhh
+Q mcfa.fasta      371 FGVS------------GVAGVWQDLVGKF-SVGAFFSNTALLVILVLAALI  408 (427)
+Q Consensus       371 ~dfg------------svGGvfH~vfG~~-~f~~lFgg~sw~~~ililg~n  408 (427)
+                      -+-|            ++.+|    +..+ ++.|+|-|++=.+-.+.+++-
+T Consensus       497 ~~~g~C~~~~CN~~~~~~~~f----~~~lnP~~W~~~gv~~~~e~~~~~~~  543 (543)
+T CelegansEFF.fa  497 KGHSPCSQAECNSLKSGVSDL----FPWIMNFDYFMAHGGDFTEWLKIGIH  543 (543)
+T ss_pred             CCCCCCCccccccccCCcccc----cccccchhhhhccCCChhhhhhhccC
+Confidence            1111            11122    1110 233334333323222221110
+
+
+No 17 
+>plasmodium.fasta
+Probab=0.00  E-value=28  Score=-15.18  Aligned_cols=390  Identities=11%  Similarity=0.047  Sum_probs=109.5
+
+Q ss_pred             CCCccc-----------------------ccccccccceeeeeecCCCc---eeeec-cCcce--eeeeccceeecchhh
+Q mcfa.fasta        1 EFVEPL-----------------------YTLKAEQMTMLQTIVRPEEG---YVVAT-PNGLL--EFKTGPAEIYGGQWL   51 (427)
+Q Consensus         1 Dfveg~-----------------------~~~~~~G~Twvd~~vLe~~~---CVTi~-~kptl--Di~l~~~~~~~~a~~   51 (427)
+                      .|||=+                       -+|+-++.--+-.-++++++   .+||. .+-++  ++...+.....|.+.
+T Consensus        25 ~~~~~~~~~~~~~~C~~~~~~~~C~~k~~~~l~V~n~~~lr~~~~~~~~~~~~Iti~Ks~v~v~YpL~Y~~dvp~kp~E~  104 (661)
+T plasmodium.fas   25 PFIQFVYSYSKKKVCTSSTDDSTCRTVVYGDLDVSNNSVLRLKVLRSEGKGYFVTIRRDYVTISYYLKYMKDIPLKYREV  104 (661)
+T ss_pred             ceeeeeeeccccccccCCCCCCccceeeEEeeeccCcchhhhhhhccCCCceEEEEeeceeeeeeeceeeecCcccccce
+Confidence            000000                       00000000000000111111   33333 21111  122222222222221
+
+
+Q ss_pred             ----h-hhhccccccc-ccccccCCCCc---------ccchhhhhcc-cccccCCCCc--------CCCccccccccccc
+Q mcfa.fasta       52 ----R-ELLADCHVNA-SYSTDVCPGGS---------QLNMADIMAK-ERVCSTQPYN--------RGWGTGCFKWGIGF  107 (427)
+Q Consensus        52 ----R-~yc~~a~vs~-~~s~~~CPt~G---------ea~l~e~~~~-~~vCk~~~~d--------RGWGnGCglfGkGs  107 (427)
+                          + .-|..+.=.+ -...+.|+-.-         ...=....++ .+-|.=+..+        |==+-.|..|+...
+T Consensus       105 ~~~~~~~~~~~~~~~~~~~~~~tC~~~~~~~~~~~~~~~~g~~i~~sqGfCC~C~~~~~~~~~~~~~R~~l~C~~~~~~~  184 (661)
+T plasmodium.fas  105 VDIFNNHKYEKYTEKQIKDFTYNCTAIKVEDANNTVGDFAPHYHEYTRGESCICPSYHLFKNDNSIKRAKLKCTYFNMLF  184 (661)
+T ss_pred             eeeccccccccccccccccccccccccccccccCCCCCCCCCccccCCcccccCCCcccccCcchhhhcccccccccccc
+Confidence                0 0111121111 13456776653         1111122222 2333333321        22234588887532
+
+
+Q ss_pred             -------cccccccccccCcccccceecee---EEEEEEeecccccccc----------------ccCCCceeeeecccc
+Q mcfa.fasta      108 -------VGTCVELHCDRGFNVSSIARSAI---VMNVTASFHSVSDTQQ----------------MVGDIPLTFRFAKLG  161 (427)
+Q Consensus       108 -------i~tCakf~C~~~~~~~~i~~enI---~y~V~v~vH~~~~~~~----------------~~~s~~~t~~lgdYG  161 (427)
+                             -.-|.+|. .--+.++.|....+   .+.|+|++=.......                .+.+++ ++. .+..
+T Consensus       185 ~~s~~~~SahCLrf~-~~wY~~y~I~~~~~~~~~~~Itv~~~~~~~~s~~~~~~~~~~~~~~~~~L~~s~~-~i~-~d~~  261 (661)
+T plasmodium.fas  185 TDSAIVYSRHCAIMD-LFYFSVYEIDYPPIFNTYIDITIQEYTYDDVSGMSLNKHDLVTKEKKYEINDSMS-EIR-DDYF  261 (661)
+T ss_pred             ccccccccccccccc-ccceeeeeccCCceeeeEEEEEEEeeeccCccCccccccccccccceeeeccCcc-ccc-cccc
+Confidence                   23455554 22488888885544   3445555411211110                001111 111 2222
+
+
+Q ss_pred             eeeeeec-----ccccccccceeeeecCCcccc-------------hhhhhhccCC--------------cccc------
+Q mcfa.fasta      162 NAAMTCR-----LESEQLLLDYYHVTGSSHEGL-------------FLRSQVDSWP--------------GVHS------  203 (427)
+Q Consensus       162 ~vtl~Cr-----~~sg~Dl~~~ylv~~~~~~wl-------------V~r~w~~Dl~--------------lPW~------  203 (427)
+                      .+++.=.     -.+-.|+++.|++......-+             ...+|..+.-              -.|.      
+T Consensus       262 ~i~i~ligd~~~~~~~p~l~~~yLliP~~~~~~~~v~~s~l~~~C~~~~~~~~~~g~~~~~~c~~~~~c~~~~mll~k~~  341 (661)
+T plasmodium.fas  262 DLWLFLRGERHGKRTLINLSNDYVVIPSSPLDDADVIETDVMRNCGLKEDNPALKGCDYKHECNIIHPCLVKAMMLPKYL  341 (661)
+T ss_pred             eeEEEEeecccCcccccccccceEeecCCCCCCCcccccccccccCCCCCCCcccCCCCCCccccccccccccccccccc
+Confidence            2222110     112347777777766422110             0011111110              0010      
+
+
+Q ss_pred             ---CC----------CCCcCc-------------------------c---------ceee--ecc------------ccc
+Q mcfa.fasta      204 ---TA----------SGRHGM-------------------------E---------KVVV--WGD------------ARS  222 (427)
+Q Consensus       204 ---~~----------~~w~~~-------------------------e---------~lV~--f~~------------phA  222 (427)
+                         .|          .+|++.                         +         ++++  |+.            ||.
+T Consensus       342 v~l~G~~CdKIGvs~~af~~q~~~~C~~~~gsCL~nQl~~y~~~d~~~~~~g~~~~Y~l~~~~G~~p~~~~~~~~~~p~y  421 (661)
+T plasmodium.fas  342 FDLSGKTCNKLGVSLNKWRNSDGNFCGSSAGYCLSENLFKYYYIHKTSVGNRKPSKYKIKNIYGSEPQTKVYTSAKLPNY  421 (661)
+T ss_pred             cccCccccccccccccccccCCCCCCCCCCccccchhhhhHHhhhhhcccCCCCccceeccccCCCcceeeccccCCcch
+Confidence               00          014432                         1         2222  333            111
+
+
+Q ss_pred             cceeeeeecCc-----------------chhhhhhhhccCccccc---ceeEeeeccceeeccccCCCCCcccccc----
+Q mcfa.fasta      223 NEILVKNVIEP-----------------SLSWEDAIATHGGFRDI---SFVCQIMLDKLVSGAFRDCPGPKISTFS----  278 (427)
+Q Consensus       223 ~k~~V~~lg~q-----------------ega~~~ALag~~~l~~G---hl~Cri~ldkL~~~ty~~C~~~fs~~k~----  278 (427)
+                      -+..+-. .+|                 -++....|+  +.+..-   -++=.+.-|.+.. -+..-++.......    
+T Consensus       422 ~~~~~~~-~~~~~~d~~~~~~~~~~~~~~~~~~~~l~--~~~~~~~~s~i~iei~Ad~i~~-i~~~spg~I~~i~v~~~c  497 (661)
+T plasmodium.fas  422 LKDKVDS-NNNKSYDINDIDNKIFYNENAAAHSHFID--YKYNGNHTVEIKFETNALEVHE-IRPVSYGTITHITIPKDC  497 (661)
+T ss_pred             hhccccc-CCCCCcccccccccccccccccccceeee--eeecCCceeeEEEEecccceee-ecccccceeeeeeccCcc
+Confidence            1111100 000                 001122222  222222   2222333333322 12333443333333    
+
+
+Q ss_pred             ---ccCcCcceeEEEEeeccCCcccccceeeeeee--------eccchhhhcc-Ccccccce---eeec-CCCcceeec-
+Q mcfa.fasta      279 ---QDGFGYSGVVITTLTASSNETCSLSLTCHGCL--------LQSTKMIFLA-GKTTSRAF---VKCG-NHTSTLLVG-  341 (427)
+Q Consensus       279 ---p~~tgh~tVV~~v~y~gt~~pCripi~~~G~l--------it~npiv~~~-epp~G~s~---I~~G-~g~~~l~~~-  341 (427)
+                         ++.+..+++.+.|+..+..-.-+.-+++ -|.        .-.+||..-. .-+.+..+   +.+. ..+..-+++ 
+T Consensus       498 ~~~~~~s~~g~l~V~v~N~g~~i~a~f~~~v-~C~~~~~~~~~~~v~pi~~q~~~I~p~~~~~f~f~i~~~~~~~~~~~C  576 (661)
+T plasmodium.fas  498 SSNQTNSKECILVVHTWNNNKTIGANFSCHV-LCVDKSTQQVATHISPISKINAHIDANKNYAFYFIIKFLINKKITSNC  576 (661)
+T ss_pred             CccccCCccceEEEEEeecCccccceeeEee-eecccccccccccccccccceeecccCcceeeEEEEEeeeccccccee
+Confidence               4667778999999875433444444444 444        3455653322 11112211   1111 000000000 
+
+
+Q ss_pred             ------cccc---cchhhhhhhhhhhhhhhhhccccccccCCcccchhhhhhcc---------------cccccccch--
+Q mcfa.fasta      342 ------STSV---SIECALNPISQGWRLARHVVDRYRRFGVSGVAGVWQDLVGK---------------FSVGAFFSN--  395 (427)
+Q Consensus       342 ------~~gs---sIg~~f~~t~kg~~r~~~~gd~aw~~dfgsvGGvfH~vfG~---------------~~f~~lFgg--  395 (427)
+                            ..|.   +....|+++..-..--.-.+  ..  ..|+-.++ .+-++.               |.+.=+|..  
+T Consensus       577 ~v~L~ds~~~~lD~~~~~f~t~~t~~~~~~~~~--~~--~~g~~~~~-~~~~~~~~~~~~~~~~~C~~~~~i~C~~~n~~  651 (661)
+T plasmodium.fas  577 TAILKDADGRECSKLSFNLTSKETINVVESGIV--AQ--PVESEAQI-NKYDPDVSGASTPTADKCDCYFNLLCYILNLN  651 (661)
+T ss_pred             eEEEeccCCCccccceeeecccccccccccccc--cC--CCcccccc-ccCCCCCCCCCCCCCCccccccccchhhcccc
+Confidence                  1111   22222222211000000000  00  00000000 000000               000000000  
+
+
+Q ss_pred             --hhHHHHHH
+Q mcfa.fasta      396 --TALLVILV  403 (427)
+Q Consensus       396 --~sw~~~il  403 (427)
+                        ++|-++.+
+T Consensus       652 ~c~~~~~~~~  661 (661)
+T plasmodium.fas  652 TCVSYYTKLI  661 (661)
+T ss_pred             cccccccccC
+Confidence              00000000
+
+
+No 18 
+>CelegnasAFF.fasta
+Probab=0.00  E-value=28  Score=-14.67  Aligned_cols=376  Identities=11%  Similarity=-0.029  Sum_probs=115.4
+
+Q ss_pred             CCCccc---cccccc-----ccceeeeeecCCCceeeeccCcceeeeeccceeecchhhhhhhcccccccccccccCCC-
+Q mcfa.fasta        1 EFVEPL---YTLKAE-----QMTMLQTIVRPEEGYVVATPNGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPG-   71 (427)
+Q Consensus         1 Dfveg~---~~~~~~-----G~Twvd~~vLe~~~CVTi~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt-   71 (427)
+                      -.++|-   +-|.+.     +++..-.+-|..-.|..+ ...+.-|++.+++|.=|..-+=--.-.+|+ +.=-=-||+ 
+T Consensus        45 ~~~~~~~~~~~~~~~~~~~~~~~~q~~~~L~eT~C~~l-~~~lHti~~~~leq~ypI~~~Y~F~iP~v~-t~CiCdC~g~  122 (543)
+T CelegnasAFF.fa   45 AHAQSQFEEERESNSSKVSSVHSTQFNWGLDNTICIKL-QNVVHVLKYERLEQRYPIENSYTFSVPLID-TNCKCHCYGF  122 (543)
+T ss_pred             ccccchhhhhhhccccccccccceeeeccccccceeee-ehhhhhhhhhhhhcccCccccccccccccc-cccccccCCC
+Confidence            000110   001011     122222267888889888 445555788888876555433211112221 111123666 
+
+
+Q ss_pred             -Ccccchhhhhc---------ccccccCCCCcCCCccccccccccccccccccccccCcccccceecee-----EEEEEE
+Q mcfa.fasta       72 -GSQLNMADIMA---------KERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAI-----VMNVTA  136 (427)
+Q Consensus        72 -~Gea~l~e~~~---------~~~vCk~~~~dRGWGnGCglfGkGsi~tCakf~C~~~~~~~~i~~enI-----~y~V~v  136 (427)
+                       +.+.=..+...         ....|-|.|...==..||.. +...-..|.+.+=+ +.+.++++.=++     -++.+.
+T Consensus       123 ~~~~~C~~~~y~~~~nC~~~~~~~~CYrTYh~~qs~~gC~~-~s~~s~~CC~v~~~-P~~n~~y~AVkL~QP~t~~~f~y  200 (543)
+T CelegnasAFF.fa  123 GTNDVCNVEKYADDRNCTTSSEFPTCYTKYHPAVEPLDCPV-TSIPAKACCDIKLK-PRDGRMFRAVKLQQPINDMIISH  200 (543)
+T ss_pred             CCCccccccccCCCCCCCCCCCCCccccccCCCCCCCCCCC-CCCCCccccccccc-CCCCccceeeeccCCcceeeeEE
+Confidence             33322222222         25567788877888889994 43233445333222 355555544332     223333
+
+
+Q ss_pred             eecccc----cccccc-------CCCceeeeecccceeeeee---cccccccccceeeeecC------------Ccccch
+Q mcfa.fasta      137 SFHSVS----DTQQMV-------GDIPLTFRFAKLGNAAMTC---RLESEQLLLDYYHVTGS------------SHEGLF  190 (427)
+Q Consensus       137 ~vH~~~----~~~~~~-------~s~~~t~~lgdYG~vtl~C---r~~sg~Dl~~~ylv~~~------------~~~wlV  190 (427)
+                      .+....    -.....       .-+...+++-+++.++|.=   |+...++-+ ||...-+            -.+|.+
+T Consensus       201 ~iyd~~~~~~w~~~~~~~f~v~l~~g~~~~~~~~~~~i~l~v~~~r~~~qL~~G-MYf~~~~~~~~lr~~~iNei~E~nl  279 (543)
+T CelegnasAFF.fa  201 SIFANNSGKMMKVLGPDEFRINLLKGKEQFELTEYHRISVQLVASSPQQQLREG-MYYFPEENHNDLREGKINEITESDL  279 (543)
+T ss_pred             eeeeccCcccceecCCCceEEecccccchhhcccccceEEEEecCCcccccccc-cccccCCCccccccccccccccccc
+Confidence            332222    111100       2334445667778777663   222222222 2322211            112222
+
+
+Q ss_pred             hhh-hhccCCccccCCCC---CcCcccee---------------------------eeccccccce-----eeeeecC--
+Q mcfa.fasta      191 LRS-QVDSWPGVHSTASG---RHGMEKVV---------------------------VWGDARSNEI-----LVKNVIE--  232 (427)
+Q Consensus       191 ~r~-w~~Dl~lPW~~~~~---w~~~e~lV---------------------------~f~~phA~k~-----~V~~lg~--  232 (427)
+                      +|= ||.--...|...-+   -++.+.++                           +|.-.|+.++     .|+...+  
+T Consensus       280 ~KLGWfR~~~g~w~vrnG~iki~~aH~V~v~NCk~Q~y~~~~nA~~~yv~~~~~~~~~~lg~~ve~~~wI~s~~v~d~~R  359 (543)
+T CelegnasAFF.fa  280 DKLGWYRRVGNDWQVATSGLLLRNAHKVVIKNCKGQVHMDQFSGTKNFVLRGTQYNDTYNERRVSDNNFVRSVKVDESSR  359 (543)
+T ss_pred             ccccceeeecCcceeeccchhhhccccceeeccCCcccccccccccceeecCCccccccccccccccccceeeeeccCCc
+Confidence            222 22211222322111   01111100                           1111111110     0000000  
+
+
+Q ss_pred             ------cch-hhhhhhhcc----Ccccc---cceeEeeeccceeeccccCCCCCccccccccCcCcceeEEEEeecc---
+Q mcfa.fasta      233 ------PSL-SWEDAIATH----GGFRD---ISFVCQIMLDKLVSGAFRDCPGPKISTFSQDGFGYSGVVITTLTAS---  295 (427)
+Q Consensus       233 ------qeg-a~~~ALag~----~~l~~---Ghl~Cri~ldkL~~~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~g---  295 (427)
+                            .|| .++-.|...    ...+.   ..|.=.|.||.-.         +.=+-.+--+ .+||++-.|...-   
+T Consensus       360 ~V~V~h~eg~~v~V~l~~~~~l~~~~h~S~l~~FtG~I~vD~~S---------NR~LNIT~~~-akGtLiG~V~~~~~~s  429 (543)
+T CelegnasAFF.fa  360 EITIVHEHGTAAQVSLKTDTRPNLTKSQSLLANFTGSITLDHDG---------NRMLNVTFFG-VKGTVHIKMYVNDRKL  429 (543)
+T ss_pred             eEEEeecCcceeEEeeccCCCccccccccccccceeeEeeeccc---------cceeeeeeec-ccceeeEEEeeccccc
+Confidence                  000 000000000    00000   1111122222100         0000000000 2456665552221   
+
+
+Q ss_pred             -CCcccccceeeeeeeeccchhhhccCcccccceeeecCCCcceeecccc---cc-chhhhhhhhhhhhhhhhhcccccc
+Q mcfa.fasta      296 -SNETCSLSLTCHGCLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGSTS---VS-IECALNPISQGWRLARHVVDRYRR  370 (427)
+Q Consensus       296 -t~~pCripi~~~G~lit~npiv~~~epp~G~s~I~~G~g~~~l~~~~~g---ss-Ig~~f~~t~kg~~r~~~~gd~aw~  370 (427)
+                       ++..+++.|   |-+ ..|....-.=|+-      | ||+.-+=++-.+   .. |=+-+.=..+-.+-. .+ ..-|.
+T Consensus       430 ~~~~~Fs~~v---~~~-~~~~~~~I~LPa~------I-ng~r~VCl~P~~~~~~~eiCk~v~Y~~~pl~~~-~~-~~~W~  496 (543)
+T CelegnasAFF.fa  430 IATFACTAQF---GTS-LKDDGSRISLPST------I-NQAQWVCILPDEQPTKSEICKWIPYEEKAMRTP-RQ-EQSWS  496 (543)
+T ss_pred             cceeeeeeec---cCC-CCCCCcccccCcc------c-cccceeeccCCCCCCcccccccccccccccccc-cc-ccCcc
+Confidence             111222211   111 2222111111111      1 333333333111   11 111111111111111 11 23331
+
+
+Q ss_pred             ccCC------------cccchhhhhhccc-ccccccchhhHHHHHHHhhhh
+Q mcfa.fasta      371 FGVS------------GVAGVWQDLVGKF-SVGAFFSNTALLVILVLAALI  408 (427)
+Q Consensus       371 ~dfg------------svGGvfH~vfG~~-~f~~lFgg~sw~~~ililg~n  408 (427)
+                      -+-|            ++.+|    +..+ ++.|+|-|++=.+-.+.+++-
+T Consensus       497 ~~~g~C~~~~CN~~~~~~~~f----~~~lnP~~W~~~gv~~~~e~~~~~~~  543 (543)
+T CelegnasAFF.fa  497 KGHSPCSQAECNSLKSGVSDL----FPWIMNFDYFMAHGGDFTEWLKIGIH  543 (543)
+T ss_pred             CCCCCCCccccccccCCcccc----cccccchhhhhccCCChhhhhhhccC
+Confidence            1111            11122    1110 233334333323222221110
+
+
+No 19 
+>WEEV.fasta
+Probab=0.00  E-value=28  Score=-12.92  Aligned_cols=352  Identities=12%  Similarity=0.063  Sum_probs=128.0
+
+Q ss_pred             CcccccccccccceeeeeecCCCceeeeccCc-----ceeeeeccceeecchhhhhh--hcccccccccccccCCCCccc
+Q mcfa.fasta        3 VEPLYTLKAEQMTMLQTIVRPEEGYVVATPNG-----LLEFKTGPAEIYGGQWLREL--LADCHVNASYSTDVCPGGSQL   75 (427)
+Q Consensus         3 veg~~~~~~~G~Twvd~~vLe~~~CVTi~~kp-----tlDi~l~~~~~~~~a~~R~y--c~~a~vs~~~s~~~CPt~Gea   75 (427)
+                      -|       .-+|+=+ .+  +-.|-++.+||     .|.|.+.+... .|..-.||  |.--++...-.. +|=+.-| 
+T Consensus         1 yE-------H~~~~Pn-~v--g~pyka~V~R~GyaPl~L~i~v~~~~l-~Ptl~leYiTC~ykTvvpSP~v-kCCG~~e-   67 (439)
+T WEEV.fasta        1 FE-------HATTVPN-VP--GIPYKALVERAGYAPLNLEITVVSSEL-TPSTNKEYVTCRFHTVIPSPQV-KCCGSLE-   67 (439)
+T ss_pred             CC-------cccccCC-CC--CCchhhhhhhcCCccceeeEEeecccc-cccccccceecccccccCCCcc-cccCCcc-
+Confidence            00       0000000 00  00111122222     24444444433 34444455  222233322222 2322222 
+
+
+Q ss_pred             chhhhhcccccccC--CCCcCCCccccccccccccccccc-------------ccccc-CcccccceeceeEEEEEEeec
+Q mcfa.fasta       76 NMADIMAKERVCST--QPYNRGWGTGCFKWGIGFVGTCVE-------------LHCDR-GFNVSSIARSAIVMNVTASFH  139 (427)
+Q Consensus        76 ~l~e~~~~~~vCk~--~~~dRGWGnGCglfGkGsi~tCak-------------f~C~~-~~~~~~i~~enI~y~V~v~vH  139 (427)
+                       -.....++|-||.  +.+-==||-        .-+=|-.             -.|+. ++..|-.....++-.+.|.+-
+T Consensus        68 -C~~~~~~Dy~CkvftGVYPfmWGG--------AyCFCdsENtQ~SeayV~~s~~C~~dhA~Ayk~Htas~~a~l~it~G  138 (439)
+T WEEV.fasta       68 -CKASSKADYTCRVFGGVYPFMWGG--------AQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYG  138 (439)
+T ss_pred             -cccCcCCCccccccccccccccCC--------ccccCccccchhhhhhhccCCcchhhhhHHHhhhhcceeeeeeEeec
+Confidence             2235567888874  455555553        2222321             12332 344444444445555554443
+
+
+Q ss_pred             cc-----------ccccccc----------------------CCCceeeeecccceee------eeeccccccc-cccee
+Q mcfa.fasta      140 SV-----------SDTQQMV----------------------GDIPLTFRFAKLGNAA------MTCRLESEQL-LLDYY  179 (427)
+Q Consensus       140 ~~-----------~~~~~~~----------------------~s~~~t~~lgdYG~vt------l~Cr~~sg~D-l~~~y  179 (427)
+                      .-           .....+.                      ..+-.--+|+.||.-.      +.=|-..+-| +.|.-
+T Consensus       139 ~~~~~~~~yvNG~t~~~~~~~k~i~GPiStawsPFD~KiV~y~~~VYNyDfP~yGag~pG~FGDiQ~rt~~s~DlyAnT~  218 (439)
+T WEEV.fasta      139 NTTAHLDTFVNGVTPGSSRDLKVIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTD  218 (439)
+T ss_pred             cccceeeeEecccCCCCcCcceeeecccccccCCCccceeeeccccccccCCcccCCCCCCccccccccccchhhhhhcc
+Confidence            22           2221110                      2333334566665321      1112112222 12222
+
+
+Q ss_pred             eeecCCcccchhhhhhccCCccccCCCC----C-cCccceeeeccccccceeeeeecCcchhhhhhhhc---cCcccccc
+Q mcfa.fasta      180 HVTGSSHEGLFLRSQVDSWPGVHSTASG----R-HGMEKVVVWGDARSNEILVKNVIEPSLSWEDAIAT---HGGFRDIS  251 (427)
+Q Consensus       180 lv~~~~~~wlV~r~w~~Dl~lPW~~~~~----w-~~~e~lV~f~~phA~k~~V~~lg~qega~~~ALag---~~~l~~Gh  251 (427)
+                      +.-...++        ..+..|++-...    | +|+.+=+...-|+--+|++--|    .|+.=|..-   ...|.+-.
+T Consensus       219 l~L~rP~~--------g~iHVPYTq~pSGf~~W~~~~g~~L~~tAPfGC~I~~nPv----rA~nCavG~IPiS~DIPDA~  286 (439)
+T WEEV.fasta      219 IRLLKPSV--------KNIHVPYTQAVSGYEMWKNNSGRPLQETAPFGCKIEVEPL----RASNCAYGHIPISIDIPDAA  286 (439)
+T ss_pred             ccccCCCC--------cccccccccccchhhhhhccCCCCCCCCCCCccccccccc----cccccCCccccccccccccc
+Confidence            22222333        344467764432    7 6777788888888888877422    222222211   12233332
+
+
+Q ss_pred             eeEeeeccceee--ccccCCCCCccccccccCcCcceeEEEEeeccCCcccccceeeeeeeeccchhhhccCccccccee
+Q mcfa.fasta      252 FVCQIMLDKLVS--GAFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTCHGCLLQSTKMIFLAGKTTSRAFV  329 (427)
+Q Consensus       252 l~Cri~ldkL~~--~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~~G~lit~npiv~~~epp~G~s~I  329 (427)
+                      |+=-..--.+..  -+-..|...       +|  +|+| ..++|+. +.+=+-+|-.+-..      +...     ++-+
+T Consensus       287 FtRv~daP~vs~l~Ctv~~CtyS-------sD--FGGv-atl~Y~a-~k~GkCavHs~S~~------atl~-----es~v  344 (439)
+T WEEV.fasta      287 FVRSSESPTILEVSCTVADCIYS-------AD--FGGS-LTLQYKA-DREGHCPVHSHSTT------AVLK-----EATT  344 (439)
+T ss_pred             cccccCCcccccccccccccccc-------cC--Cccc-eeeeeec-cCCCCCCccccccc------ceee-----ccee
+Confidence            221111111111  223445542       33  3454 4567876 34333333332111      1111     1111
+
+
+Q ss_pred             eecCCCcceeeccccccchhhhhhhhhhhhhhh----------hhccccccccCCcccchhhhh-hcccccccccchhhH
+Q mcfa.fasta      330 KCGNHTSTLLVGSTSVSIECALNPISQGWRLAR----------HVVDRYRRFGVSGVAGVWQDL-VGKFSVGAFFSNTAL  398 (427)
+Q Consensus       330 ~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r~~----------~~gd~aw~~dfgsvGGvfH~v-fG~~~f~~lFgg~sw  398 (427)
+                      -+ ..++++++|=+..++.-.|.--+=+.+-.-          |+.-.+-           |+= |+. .++  =.-|||
+T Consensus       345 ~v-~~~G~~t~hFSTAs~~p~F~v~vC~~~vtC~~~C~PPkdHiV~~p~~-----------H~~~~~~-aIS--~TAwSW  409 (439)
+T WEEV.fasta      345 HV-TAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGEPHK-----------VDQEFQA-AVS--KTSWNW  409 (439)
+T ss_pred             ee-eecceeeEeeecCCCCcceeeeeccCCccccCCCCCCCccccCCCCC-----------chhhhhh-hhh--hhhhHH
+Confidence            11 114456666555555555554443333211          2222222           221 222 111  123455
+
+
+Q ss_pred             HHHHHHhhhhhhhhHHHHHhhhhhccccC
+Q mcfa.fasta      399 LVILVLAALIDKRIAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       399 ~~~ililg~n~r~~~vg~ill~l~~~V~A  427 (427)
+                      +.+|+-  =.+--+++|+|+|...+-|..
+T Consensus       410 l~~l~G--G~ssli~IaliVlvvV~cVv~  436 (439)
+T WEEV.fasta      410 LLALFG--GASSLIVVGLIVLVCSSMLIN  436 (439)
+T ss_pred             HHHhhc--chhHHHHHHHHHHHHHHhhhc
+Confidence            555432  111123334443332221100
+
+
+No 20 
+>togavirus.fasta
+Probab=0.00  E-value=28  Score=-12.92  Aligned_cols=352  Identities=12%  Similarity=0.063  Sum_probs=128.0
+
+Q ss_pred             CcccccccccccceeeeeecCCCceeeeccCc-----ceeeeeccceeecchhhhhh--hcccccccccccccCCCCccc
+Q mcfa.fasta        3 VEPLYTLKAEQMTMLQTIVRPEEGYVVATPNG-----LLEFKTGPAEIYGGQWLREL--LADCHVNASYSTDVCPGGSQL   75 (427)
+Q Consensus         3 veg~~~~~~~G~Twvd~~vLe~~~CVTi~~kp-----tlDi~l~~~~~~~~a~~R~y--c~~a~vs~~~s~~~CPt~Gea   75 (427)
+                      -|       .-+|+=+ .+  +-.|-++.+||     .|.|.+.+... .|..-.||  |.--++...-.. +|=+.-| 
+T Consensus         1 yE-------H~~~~Pn-~v--g~pyka~V~R~GyaPl~L~i~v~~~~l-~Ptl~leYiTC~ykTvvpSP~v-kCCG~~e-   67 (439)
+T togavirus.fast    1 FE-------HATTVPN-VP--GIPYKALVERAGYAPLNLEITVVSSEL-TPSTNKEYVTCRFHTVIPSPQV-KCCGSLE-   67 (439)
+T ss_pred             CC-------cccccCC-CC--CCchhhhhhhcCCccceeeEEeecccc-cccccccceecccccccCCCcc-cccCCcc-
+Confidence            00       0000000 00  00111122222     24444444433 34444455  222233322222 2322222 
+
+
+Q ss_pred             chhhhhcccccccC--CCCcCCCccccccccccccccccc-------------ccccc-CcccccceeceeEEEEEEeec
+Q mcfa.fasta       76 NMADIMAKERVCST--QPYNRGWGTGCFKWGIGFVGTCVE-------------LHCDR-GFNVSSIARSAIVMNVTASFH  139 (427)
+Q Consensus        76 ~l~e~~~~~~vCk~--~~~dRGWGnGCglfGkGsi~tCak-------------f~C~~-~~~~~~i~~enI~y~V~v~vH  139 (427)
+                       -.....++|-||.  +.+-==||-        .-+=|-.             -.|+. ++..|-.....++-.+.|.+-
+T Consensus        68 -C~~~~~~Dy~CkvftGVYPfmWGG--------AyCFCdsENtQ~SeayV~~s~~C~~dhA~Ayk~Htas~~a~l~it~G  138 (439)
+T togavirus.fast   68 -CKASSKADYTCRVFGGVYPFMWGG--------AQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYG  138 (439)
+T ss_pred             -cccCcCCCccccccccccccccCC--------ccccCccccchhhhhhhccCCcchhhhhHHHhhhhcceeeeeeEeec
+Confidence             2235567888874  455555553        2222321             12332 344444444445555554443
+
+
+Q ss_pred             cc-----------ccccccc----------------------CCCceeeeecccceee------eeeccccccc-cccee
+Q mcfa.fasta      140 SV-----------SDTQQMV----------------------GDIPLTFRFAKLGNAA------MTCRLESEQL-LLDYY  179 (427)
+Q Consensus       140 ~~-----------~~~~~~~----------------------~s~~~t~~lgdYG~vt------l~Cr~~sg~D-l~~~y  179 (427)
+                      .-           .....+.                      ..+-.--+|+.||.-.      +.=|-..+-| +.|.-
+T Consensus       139 ~~~~~~~~yvNG~t~~~~~~~k~i~GPiStawsPFD~KiV~y~~~VYNyDfP~yGag~pG~FGDiQ~rt~~s~DlyAnT~  218 (439)
+T togavirus.fast  139 NTTAHLDTFVNGVTPGSSRDLKVIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTD  218 (439)
+T ss_pred             cccceeeeEecccCCCCcCcceeeecccccccCCCccceeeeccccccccCCcccCCCCCCccccccccccchhhhhhcc
+Confidence            22           2221110                      2333334566665321      1112112222 12222
+
+
+Q ss_pred             eeecCCcccchhhhhhccCCccccCCCC----C-cCccceeeeccccccceeeeeecCcchhhhhhhhc---cCcccccc
+Q mcfa.fasta      180 HVTGSSHEGLFLRSQVDSWPGVHSTASG----R-HGMEKVVVWGDARSNEILVKNVIEPSLSWEDAIAT---HGGFRDIS  251 (427)
+Q Consensus       180 lv~~~~~~wlV~r~w~~Dl~lPW~~~~~----w-~~~e~lV~f~~phA~k~~V~~lg~qega~~~ALag---~~~l~~Gh  251 (427)
+                      +.-...++        ..+..|++-...    | +|+.+=+...-|+--+|++--|    .|+.=|..-   ...|.+-.
+T Consensus       219 l~L~rP~~--------g~iHVPYTq~pSGf~~W~~~~g~~L~~tAPfGC~I~~nPv----rA~nCavG~IPiS~DIPDA~  286 (439)
+T togavirus.fast  219 IRLLKPSV--------KNIHVPYTQAVSGYEMWKNNSGRPLQETAPFGCKIEVEPL----RASNCAYGHIPISIDIPDAA  286 (439)
+T ss_pred             ccccCCCC--------cccccccccccchhhhhhccCCCCCCCCCCCccccccccc----cccccCCccccccccccccc
+Confidence            22222333        344467764432    7 6777788888888888877422    222222211   12233332
+
+
+Q ss_pred             eeEeeeccceee--ccccCCCCCccccccccCcCcceeEEEEeeccCCcccccceeeeeeeeccchhhhccCccccccee
+Q mcfa.fasta      252 FVCQIMLDKLVS--GAFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTCHGCLLQSTKMIFLAGKTTSRAFV  329 (427)
+Q Consensus       252 l~Cri~ldkL~~--~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~~G~lit~npiv~~~epp~G~s~I  329 (427)
+                      |+=-..--.+..  -+-..|...       +|  +|+| ..++|+. +.+=+-+|-.+-..      +...     ++-+
+T Consensus       287 FtRv~daP~vs~l~Ctv~~CtyS-------sD--FGGv-atl~Y~a-~k~GkCavHs~S~~------atl~-----es~v  344 (439)
+T togavirus.fast  287 FVRSSESPTILEVSCTVADCIYS-------AD--FGGS-LTLQYKA-DREGHCPVHSHSTT------AVLK-----EATT  344 (439)
+T ss_pred             cccccCCcccccccccccccccc-------cC--Cccc-eeeeeec-cCCCCCCccccccc------ceee-----ccee
+Confidence            221111111111  223445542       33  3454 4567876 34333333332111      1111     1111
+
+
+Q ss_pred             eecCCCcceeeccccccchhhhhhhhhhhhhhh----------hhccccccccCCcccchhhhh-hcccccccccchhhH
+Q mcfa.fasta      330 KCGNHTSTLLVGSTSVSIECALNPISQGWRLAR----------HVVDRYRRFGVSGVAGVWQDL-VGKFSVGAFFSNTAL  398 (427)
+Q Consensus       330 ~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r~~----------~~gd~aw~~dfgsvGGvfH~v-fG~~~f~~lFgg~sw  398 (427)
+                      -+ ..++++++|=+..++.-.|.--+=+.+-.-          |+.-.+-           |+= |+. .++  =.-|||
+T Consensus       345 ~v-~~~G~~t~hFSTAs~~p~F~v~vC~~~vtC~~~C~PPkdHiV~~p~~-----------H~~~~~~-aIS--~TAwSW  409 (439)
+T togavirus.fast  345 HV-TAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGEPHK-----------VDQEFQA-AVS--KTSWNW  409 (439)
+T ss_pred             ee-eecceeeEeeecCCCCcceeeeeccCCccccCCCCCCCccccCCCCC-----------chhhhhh-hhh--hhhhHH
+Confidence            11 114456666555555555554443333211          2222222           221 222 111  123455
+
+
+Q ss_pred             HHHHHHhhhhhhhhHHHHHhhhhhccccC
+Q mcfa.fasta      399 LVILVLAALIDKRIAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       399 ~~~ililg~n~r~~~vg~ill~l~~~V~A  427 (427)
+                      +.+|+-  =.+--+++|+|+|...+-|..
+T Consensus       410 l~~l~G--G~ssli~IaliVlvvV~cVv~  436 (439)
+T togavirus.fast  410 LLALFG--GASSLIVVGLIVLVCSSMLIN  436 (439)
+T ss_pred             HHHhhc--chhHHHHHHHHHHHHHHhhhc
+Confidence            555432  111123334443332221100
+
+
+No 21 
+>brnachiostoma.fasta
+Probab=0.00  E-value=28  Score=-44.58  Aligned_cols=383  Identities=12%  Similarity=0.063  Sum_probs=93.8
+
+Q ss_pred             CCCccc--cc-c-cc---cccceeeeeecCCCceeeecc----C---------------ccee-eeeccceeecchhhhh
+Q mcfa.fasta        1 EFVEPL--YT-L-KA---EQMTMLQTIVRPEEGYVVATP----N---------------GLLE-FKTGPAEIYGGQWLRE   53 (427)
+Q Consensus         1 Dfveg~--~~-~-~~---~G~Twvd~~vLe~~~CVTi~~----k---------------ptlD-i~l~~~~~~~~a~~R~   53 (427)
+                      --++|-  |- - ++   .+++..-.+-|..-.|..+-+    .               +.|. |++.++++.-|..-|=
+T Consensus        21 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~t~C~~l~~~~~~~~~~~~~~~~~~~~~~~~lh~i~~~~le~~~pi~~~Y  100 (711)
+T brnachiostoma.   21 LPTTGHVRYSSRESAQALVETFIQSSIKPGETLCFILHDVTNDDASSDVSISMATNGSVPLLWQLTYEGIEMDYGVKNRY  100 (711)
+T ss_pred             CcccccccccccchhhhhheeeeeeccCCCcceeeeeecCCCCCCCcchhhccccCCCCcceeeeeccchhhhccccccc
+Confidence            000000  00 0 00   222233236788888988852    1               2333 7777777765554442
+
+
+Q ss_pred             hhcccccccccccccCCCCcccchhh----hhcccccccCCCCcCCCcccccc-ccccccccccccccccCcccccceec
+Q mcfa.fasta       54 LLADCHVNASYSTDVCPGGSQLNMAD----IMAKERVCSTQPYNRGWGTGCFK-WGIGFVGTCVELHCDRGFNVSSIARS  128 (427)
+Q Consensus        54 yc~~a~vs~~~s~~~CPt~Gea~l~e----~~~~~~vCk~~~~dRGWGnGCgl-fGkGsi~tCakf~C~~~~~~~~i~~e  128 (427)
+                      --.-..|+. +=-=-||++.+.=..+    .......|-|.|.-..=..||-. |....-.-|.+..=+.+.+...+..-
+T Consensus       101 ~F~iP~v~~-~C~CdC~~~~~~C~~~~~~C~~~~~~~cy~ty~~~q~~~gC~~~~~s~~s~~CC~v~~~p~~~~~~~~Av  179 (711)
+T brnachiostoma.  101 SFYRPKYES-KCVCDCPQYGDYCNSKTNRCTDHELDFCYNTYIPDQTAHGCTVYWNSEESEVCCALYVGKHPESPKYDAV  179 (711)
+T ss_pred             ccccccccc-cccccCCCCCCcccCCCCccCCCCCccccccccCCCCCCCCcccccccccccccceecccCCCCCcceee
+Confidence            222222221 1011244433322222    00014457777777777788985 33312233332221111333332222
+
+
+Q ss_pred             ee-------E-EEEEEeeccccccccccCCCceeeeec-c----cceeeeeec--ccccccccceeeeecCCcccchhhh
+Q mcfa.fasta      129 AI-------V-MNVTASFHSVSDTQQMVGDIPLTFRFA-K----LGNAAMTCR--LESEQLLLDYYHVTGSSHEGLFLRS  193 (427)
+Q Consensus       129 nI-------~-y~V~v~vH~~~~~~~~~~s~~~t~~lg-d----YG~vtl~Cr--~~sg~Dl~~~ylv~~~~~~wlV~r~  193 (427)
+                      ++       + +...+..-.......  ....+++.+. +    ++.+.|+=.  +..-++ .++|....+ ..=+++.+
+T Consensus       180 kL~~~~qp~T~~c~~l~d~~~~~~~~--~~~~~~~~i~~~~~~~~~~i~l~v~~~~~~~~~-~gmY~f~~~-~~p~l~~~  255 (711)
+T brnachiostoma.  180 YLSSDGKPIVKLALKVYDSRTDEVVY--SYPTFTVALNDRTHRAQHSVRMEVTGDTPTQID-SGYYYATSE-GTQLYTDA  255 (711)
+T ss_pred             eeccCCCCceeEEEeeeccCCceeee--ccCeeEEEecccccccccceeEEEecCCCcccC-CcccccccC-Cccccccc
+Confidence            22       1 112221111100110  1122222222 1    455555511  111111 223333321 00001111
+
+
+Q ss_pred             hhccCCcc------c---cCCCCCcCcc-ceeeeccccccceeeeeecCc---------------chhhhhhhhccCccc
+Q mcfa.fasta      194 QVDSWPGV------H---STASGRHGME-KVVVWGDARSNEILVKNVIEP---------------SLSWEDAIATHGGFR  248 (427)
+Q Consensus       194 w~~Dl~lP------W---~~~~~w~~~e-~lV~f~~phA~k~~V~~lg~q---------------ega~~~ALag~~~l~  248 (427)
+                      =+.|.+-=      |   ...+.|.-+- ++--  +.|-  ..+..--+|               +..+...+.     .
+T Consensus       256 ~Ice~~e~~~~KlGWyR~~~~~~~~v~cg~~~i--~~h~--v~~~nCk~Q~~y~~~~~aY~~~~~~~~~Gc~v~-----~  326 (711)
+T brnachiostoma.  256 SINGLNEFDPRKMGWLKVRDDGTVERPPERTVL--GAFH--LKTHKCHNKFDYSETWQIYGHGNLKHHSGSRVE-----D  326 (711)
+T ss_pred             cccccccCCccccccccccCCCCcccCCccccc--cccc--cccccccccccccchhhhhccCCcccccCccch-----h
+Confidence            12222110      0   0000011100 0000  1110  000000011               011000000     0
+
+
+Q ss_pred             ccceeEeeeccce---------e----eccccC----------CC---CCccc-cccccCc----------CcceeEEEE
+Q mcfa.fasta      249 DISFVCQIMLDKL---------V----SGAFRD----------CP---GPKIS-TFSQDGF----------GYSGVVITT  291 (427)
+Q Consensus       249 ~Ghl~Cri~ldkL---------~----~~ty~~----------C~---~~fs~-~k~p~~t----------gh~tVV~~v  291 (427)
+                      .-..-|+|+++..         .    ...+..          =.   ..|++ .....+.          ..|++.++|
+T Consensus       327 ~~~~ic~V~v~p~~r~v~av~leqP~t~v~~~~~~~~~~~~~~~~S~~~~F~g~I~vD~~sNr~lNit~~~a~G~I~g~V  406 (711)
+T brnachiostoma.  327 FYGWVRRVTYSPLRRTVTVIPRYDRLVTVKIGINTTTNVLFFYHDSDLIDFTAEVRVDRHSNRFANITLVAAVGSLVGSI  406 (711)
+T ss_pred             ccccceeeeecCCCceEEEeecCCcceeEEEeeecccceeeeeccCccccceeEEEeecccccceeeeeeecccceeeee
+Confidence            0111233332211         0    000000          00   00000 0000000          113333333
+
+
+Q ss_pred             eeccCCcc-cccceeeeeeeeccchhhhccCcccccceee-ec-----------------CCCcceeeccccccchhhhh
+Q mcfa.fasta      292 LTASSNET-CSLSLTCHGCLLQSTKMIFLAGKTTSRAFVK-CG-----------------NHTSTLLVGSTSVSIECALN  352 (427)
+Q Consensus       292 ~y~gt~~p-Cripi~~~G~lit~npiv~~~epp~G~s~I~-~G-----------------~g~~~l~~~~~gssIg~~f~  352 (427)
+                      ... .+.+ .                    +...|-.|.. ++                 ++.+-+..+..|-.  +  +
+T Consensus       407 ~~~-~~~~~~--------------------~l~~gmyFt~~~~~~~~~~~~~~i~INe~l~KlgW~c~~~~g~~--~--~  461 (711)
+T brnachiostoma.  407 TPY-NGADGD--------------------RSATVHRFELHVDSPPASNTIKRISLPKMINGTSRMCLSPLSKP--N--N  461 (711)
+T ss_pred             ecC-CCCCCC--------------------CCCceeeEEEeecCCCCCCcceeeccCccccCCcceeccCCCCC--C--c
+Confidence            211 0111 1                    1122222222 22                 22222222211110  0  0
+
+
+Q ss_pred             hhhhhhhhhhhh-----ccccccccCCccc----------chhhhhhccc-ccccccchh----hHHHHHHH-----hhh
+Q mcfa.fasta      353 PISQGWRLARHV-----VDRYRRFGVSGVA----------GVWQDLVGKF-SVGAFFSNT----ALLVILVL-----AAL  407 (427)
+Q Consensus       353 ~t~kg~~r~~~~-----gd~aw~~dfgsvG----------GvfH~vfG~~-~f~~lFgg~----sw~~~ili-----lg~  407 (427)
+                      ..=|..+=....     -...|  .-+ .|          ++ ..+++.+ +..| +-|+    -|++.++.     ..+
+T Consensus       462 e~CK~q~Y~~~~~~~~~~~~~w--~~g-~~~~~c~~cn~~~i-~~~~~~l~p~~W-i~~v~~~~e~~~~~~~i~~~~~~~  536 (711)
+T brnachiostoma.  462 EVCKTVPFLQEALQDFFVPPTW--RPG-NPEDAGPGFNFNWL-FDFFGFLNPAEW-FDGIQGWLELFAMLLDIALFIAGI  536 (711)
+T ss_pred             ccccccccccccccccCCCCCC--CCC-CCCCCCCCcCcccc-cccccccCchhh-hccccchHHHHHHHHHHHHHHHHH
+Confidence            000111000011     12234  111 11          00 1122210 1111 1111    11111111     222
+
+
+Q ss_pred             hhhhhHHHHHhhhhhc-ccc--C
+Q mcfa.fasta      408 IDKRIAFLLVLGGYFY-YVR--A  427 (427)
+Q Consensus       408 n~r~~~vg~ill~l~~-~V~--A  427 (427)
+                      ..|-+++-.+-+.+.. ...  .
+T Consensus       537 ~~~~viI~~~~~~i~~~~~S~~~  559 (711)
+T brnachiostoma.  537 FLFIKVSLLVTSGLCLDSLSHLG  559 (711)
+T ss_pred             HHHHHhhhhcccccccccccccc
+Confidence            2222221000000000 000  0
+
+
+No 22 
+>ArabidopsisHap2.fasta
+Probab=0.00  E-value=28  Score=-32.30  Aligned_cols=397  Identities=15%  Similarity=0.165  Sum_probs=118.5
+
+Q ss_pred             CCCcccccccccc--cceeeeee-cCCCcee---eeccCcceeeeecccee-ecchhhhhhhcccccccccccccCCCCc
+Q mcfa.fasta        1 EFVEPLYTLKAEQ--MTMLQTIV-RPEEGYV---VATPNGLLEFKTGPAEI-YGGQWLRELLADCHVNASYSTDVCPGGS   73 (427)
+Q Consensus         1 Dfveg~~~~~~~G--~Twvd~~v-Le~~~CV---Ti~~kptlDi~l~~~~~-~~~a~~R~yc~~a~vs~~~s~~~CPt~G   73 (427)
+                      ---.|.     +|  .+-|-.+| .|+.+-.   |+.-.|.|.+.-...++ +++.-.|..=|+..--.+ ++.+|--.-
+T Consensus        55 avpsgs-----sggeasivaeivevednsssnmqtvrippvitvnksaayalydltyirdvpykpqeyhv-ttrkcehda  128 (670)
+T ArabidopsisHap   55 AVPSGS-----SGGEASIVAEIVEVEDNSSSNMQTVRIPPVITVNKSAAYALYDLTYIRDVPYKPQEYHV-TTRKCEHDA  128 (670)
+T ss_pred             eccCCC-----CCCcceEEEEEeeeeccCCcCccccccCceEEeecccceeeeceeeeccCCCCcccccc-ccccccCCC
+Confidence            000000     11  11111111 1222111   11122333222111111 112222222111110000 111221110
+
+
+Q ss_pred             ccc-------hhh-----hhcccccccCCCCcCCCccccc------cccccccccccccccccCcccccceeceeEEEEE
+Q mcfa.fasta       74 QLN-------MAD-----IMAKERVCSTQPYNRGWGTGCF------KWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVT  135 (427)
+Q Consensus        74 ea~-------l~e-----~~~~~~vCk~~~~dRGWGnGCg------lfGkGsi~tCakf~C~~~~~~~~i~~enI~y~V~  135 (427)
+                      -..       +..     ..+.+-.|-.--..|---..||      ..||-.-.-|-.|.= .-+.+.-|.+..+-|.|.
+T Consensus       129 gpdivqicerlrdekgnvleqtqpiccpcgpqrrmpsscgdifdkmikgkantahclrfpg-dwfhvfgigqrslgfsvr  207 (670)
+T ArabidopsisHap  129 GPDIVQICERLRDEKGNVLEQTQPICCPCGPQRRMPSSCGDIFDKMIKGKANTAHCLRFPG-DWFHVFGIGQRSLGFSVR  207 (670)
+T ss_pred             CCccccccccccccccccccCCCCccccCCCCCCCCCCcCccchhcccccccccccccCCC-CcceeeecccccceeeEE
+Confidence            000       000     0011112222223344445555      235555555555532 235555666778888888
+
+
+Q ss_pred             Eeeccccccccc-----c-----CCCceeee-ecccceeeeeecccccccccceeeeecC--------------Ccccch
+Q mcfa.fasta      136 ASFHSVSDTQQM-----V-----GDIPLTFR-FAKLGNAAMTCRLESEQLLLDYYHVTGS--------------SHEGLF  190 (427)
+Q Consensus       136 v~vH~~~~~~~~-----~-----~s~~~t~~-lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~--------------~~~wlV  190 (427)
+                      ++...|+.....     |     .+.-..+. +||||--+      |--.|+++|++-..              -..|+.
+T Consensus       208 velktgtrvseviigpenrtatandnflkvnligdfggyt------sipsfedfylvipreaaeagqpgslganysmwml  281 (670)
+T ArabidopsisHap  208 VELKTGTRVSEVIIGPENRTATANDNFLKVNLIGDFGGYT------SIPSFEDFYLVIPREAAEAGQPGSLGANYSMWML  281 (670)
+T ss_pred             EEeeccccceeEeecCccccccccCCceeEEEeeccCCCC------CCCCcccceeeeecccccCCCCCCccccccccee
+Confidence            888877665421     1     11111111 23333221      11223444443321              122322
+
+
+Q ss_pred             hh------------------hhhccCCccccCCCCCcCc-cceeeeccccccceeeeee--cCcchhh----hhhhhc--
+Q mcfa.fasta      191 LR------------------SQVDSWPGVHSTASGRHGM-EKVVVWGDARSNEILVKNV--IEPSLSW----EDAIAT--  243 (427)
+Q Consensus       191 ~r------------------~w~~Dl~lPW~~~~~w~~~-e~lV~f~~phA~k~~V~~l--g~qega~----~~ALag--  243 (427)
+                      ..                  +-|+.-|---.++ +|.-. ..|-.|.|..-++++-.-|  =..||-.    +.--||  
+T Consensus       282 lervrftldglecnkigvgyeafntqpnfcssp-ywsclhnqlwnfresdinridrhqlplyglegrferinqhpnagph  360 (670)
+T ArabidopsisHap  282 LERVRFTLDGLECNKIGVGYEAFNTQPNFCSSP-YWSCLHNQLWNFRESDINRIDRHQLPLYGLEGRFERINQHPNAGPH  360 (670)
+T ss_pred             eecccccccCcccccccccccccccCCCCCCCC-ccccchhhhhhHhhhhhhhhhccCCCccccccccccccCCCCCCCc
+Confidence            11                  1111111111111 12111 1122233332222221110  0011110    111111  
+
+
+Q ss_pred             ------cCcccccceeEeeeccceeeccccCCCCCccccccc---cCcCcceeEEEEeeccCCc-ccccceeee-ee---
+Q mcfa.fasta      244 ------HGGFRDISFVCQIMLDKLVSGAFRDCPGPKISTFSQ---DGFGYSGVVITTLTASSNE-TCSLSLTCH-GC---  309 (427)
+Q Consensus       244 ------~~~l~~Ghl~Cri~ldkL~~~ty~~C~~~fs~~k~p---~~tgh~tVV~~v~y~gt~~-pCripi~~~-G~---  309 (427)
+                            +.+| ...|--++.-|.+.- .|.--+|+.--.-.|   +-|++|-..+.++.+|.-+ .-++.+.|. |.   
+T Consensus       361 sfsigvtetl-ntnlmielraddiey-vfqrspgkiiniaiptfealtqfgvaaviikntgeveasysltfdcskgvafv  438 (670)
+T ArabidopsisHap  361 SFSIGVTETL-NTNLMIELRADDIEY-VFQRSPGKIINIAIPTFEALTQFGVAAVIIKNTGEVEASYSLTFDCSKGVAFV  438 (670)
+T ss_pred             cccccccccc-cceeEEEeeccceee-eeccCCcceeeeecccccccccceeEEEEEeeccccceeeeEeeecCCCcccc
+Confidence                  0011 111222222332221 111111111111111   2344444444444444221 222222221 10   
+
+
+Q ss_pred             ----------eecc------------chhh-------------hccCcccccceeeecCCCcceee-c-----ccc--cc
+Q mcfa.fasta      310 ----------LLQS------------TKMI-------------FLAGKTTSRAFVKCGNHTSTLLV-G-----STS--VS  346 (427)
+Q Consensus       310 ----------lit~------------npiv-------------~~~epp~G~s~I~~G~g~~~l~~-~-----~~g--ss  346 (427)
+                                -+|+            -+++             ..+|..|...--+.-||+..-+- |     -+|  -|
+T Consensus       439 eeqffiikpkavttrsfklyptkdqaakyictailkdsqfsevdraecqfsttatvldngtqvtnpfqipetqpkgffds  518 (670)
+T ArabidopsisHap  439 EEQFFIIKPKAVTTRSFKLYPTKDQAAKYICTAILKDSQFSEVDRAECQFSTTATVLDNGTQVTNPFQIPETQPKGFFDS  518 (670)
+T ss_pred             cceeeeecCCceeeeeEEeccccccccceeeeEEeecccccccccceeeecccceeecCCCcccCCCCCCCCCCCcchhh
+Confidence                      0000            0000             11166666666666677654332 1     222  24
+
+
+Q ss_pred             chhhhhhhhhhhhhhhhhccccccccCCcccchhhhhhcccccccccchhhHHHHHHH-hhhhhhhhHHHHHhhhhhccc
+Q mcfa.fasta      347 IECALNPISQGWRLARHVVDRYRRFGVSGVAGVWQDLVGKFSVGAFFSNTALLVILVL-AALIDKRIAFLLVLGGYFYYV  425 (427)
+Q Consensus       347 Ig~~f~~t~kg~~r~~~~gd~aw~~dfgsvGGvfH~vfG~~~f~~lFgg~sw~~~ili-lg~n~r~~~vg~ill~l~~~V  425 (427)
+                      |--..+.+..|+-- -|.||+..  +--|  .|| |    |+-+--+--+||+++.-+ |.+.--.    -+||.|.---
+T Consensus       519 irilwtkiinglvd-fitgdtcr--nkcs--sff-d----fschiqyvclswmvmfglllalfpit----clllwllhqk  584 (670)
+T ArabidopsisHap  519 IRILWTKIINGLVD-FITGDTCR--NKCS--SFF-D----FSCHIQYVCLSWMVMFGLLLALFPIT----CLLLWLLHQK  584 (670)
+T ss_pred             hHHHHHHHhhcccc-cccCcccc--cCCC--ccc-c----cccchhhhhhhHHHHHHHHHHHHHHH----HHHHHHHhhc
+Confidence            44555555555432 35677765  2211  222 0    122223334677765433 2221100    1111110000
+
+
+Q ss_pred             cC
+Q mcfa.fasta      426 RA  427 (427)
+Q Consensus       426 ~A  427 (427)
+                      +-
+T Consensus       585 gl  586 (670)
+T ArabidopsisHap  585 GL  586 (670)
+T ss_pred             cc
+Confidence            00
+
+
+No 23 
+>tospovirus.fasta
+Probab=0.00  E-value=28  Score=-15.53  Aligned_cols=375  Identities=14%  Similarity=0.056  Sum_probs=102.2
+
+Q ss_pred             CCCcc-----------cccc---------c----ccccceeeeeecCCCceeeeccC-----cceeeeeccceeecchhh
+Q mcfa.fasta        1 EFVEP-----------LYTL---------K----AEQMTMLQTIVRPEEGYVVATPN-----GLLEFKTGPAEIYGGQWL   51 (427)
+Q Consensus         1 Dfveg-----------~~~~---------~----~~G~Twvd~~vLe~~~CVTi~~k-----ptlDi~l~~~~~~~~a~~   51 (427)
+                      -+|.|           +.++         .    -....-+. +-.-.++|..+.++     ..|.|++..+..+=....
+T Consensus       113 ~~~~~~~~~~~~~~qe~~~~~s~~~vC~~~~~g~~~~~~~L~-Ln~gqEaCl~L~~~~~~~i~~IkIk~k~I~L~C~K~t  191 (651)
+T tospovirus.fas  113 GYISGDALKSNESDIPESIFPRKSLIFDSVIDGKYRYMIEES-LLSGGGTVFSLNDKSSSTAQKFVVYIKKVRIQYDVSE  191 (651)
+T ss_pred             ccccccccccCCCCCCcCcCCcceeeeccccccchhhhhhhh-hcccccceeeeccCCCCccceeEEEEeeeeeeeeccc
+Confidence            00000           0000         0    01111222 22567899999933     466777776665422211
+
+
+Q ss_pred             hhhhcccccccccccccCCCCcccc-----------hhhhhcccccccCCCCcCCCcc---ccccccccccc----cccc
+Q mcfa.fasta       52 RELLADCHVNASYSTDVCPGGSQLN-----------MADIMAKERVCSTQPYNRGWGT---GCFKWGIGFVG----TCVE  113 (427)
+Q Consensus        52 R~yc~~a~vs~~~s~~~CPt~Gea~-----------l~e~~~~~~vCk~~~~dRGWGn---GCglfGkGsi~----tCak  113 (427)
+                      --|=.+     .++.+. |.+|+=.           +||-+   ..++  .+=-|||+   |||+.--|=+-    .=++
+T Consensus       192 lYFTRd-----ikv~Ss-~~aGSCtg~C~~i~~~nsIpEL~---~~~~--esCGGiGC~~~GCF~~spsCLF~~YRiya~  260 (651)
+T tospovirus.fas  192 QYTTAP-----IQSTHT-DFFSTCTGKCSDCRKEQPITGYQ---DFCI--TPTSYWGCEEVWCLAINEGATCGFCRNVYD  260 (651)
+T ss_pred             ccccCC-----cccccc-cccccccCCCCccccCCCCCccc---cccc--CCCCcccccccccccccCCCcccccccccc
+Confidence            111111     222222 5555433           22221   1122  34468888   88875444222    0000
+
+
+Q ss_pred             cccccCcccccceeceeEEEEEEeeccccccccccCCCceeeee---cccceeeeeecc---c-ccccccceeeeecCCc
+Q mcfa.fasta      114 LHCDRGFNVSSIARSAIVMNVTASFHSVSDTQQMVGDIPLTFRF---AKLGNAAMTCRL---E-SEQLLLDYYHVTGSSH  186 (427)
+Q Consensus       114 f~C~~~~~~~~i~~enI~y~V~v~vH~~~~~~~~~~s~~~t~~l---gdYG~vtl~Cr~---~-sg~Dl~~~ylv~~~~~  186 (427)
+                      -  .+.++++.-..-..+.+|.|+...+...        .++++   -..|.++++=..   . +. ..+..++-..+++
+T Consensus       261 P--~~iYEVF~C~~W~~~v~IeVT~~~g~~~--------~tisl~~~~~~~~isiTL~s~~~i~p~-~~s~~FI~~~~~~  329 (651)
+T tospovirus.fas  261 M--DQSFRIYSVIKSTIKSEVCISGFVGAKC--------FTVSEEVPSESGYFQADILADFHNDGL-TIGQLIAHGPDSH  329 (651)
+T ss_pred             c--CcceeeeeeecceeeeeeeeccCCCccc--------ccccccCCCcccceeEEeecccccccc-ccccccccCCCCc
+Confidence            0  2233333333333344444443322210        11111   123333332111   0 10 0111111112233
+
+
+Q ss_pred             ccchhhh----hhccCCccccCCCCCc---Cccce---eeec---cccc--ccee-------ee--eecCcc-hhh--h-
+Q mcfa.fasta      187 EGLFLRS----QVDSWPGVHSTASGRH---GMEKV---VVWG---DARS--NEIL-------VK--NVIEPS-LSW--E-  238 (427)
+Q Consensus       187 ~wlV~r~----w~~Dl~lPW~~~~~w~---~~e~l---V~f~---~phA--~k~~-------V~--~lg~qe-ga~--~-  238 (427)
+                      .+++.-.    +..+. +|.+=+. ..   +.++.   =.|-   .|.-  ++..       +.  +.-.|. +.+  . 
+T Consensus       330 ~Ai~~~~~~g~P~kg~-GeLQC~T-~~~~~~A~~~~~nC~~~~sCspa~~~d~v~C~C~~idi~~~nrLP~~~~~~~f~~  407 (651)
+T tospovirus.fas  330 VYAGNIARLNNPSKMF-GHPQLSH-QGDPIFSKKTLDTNDLSWDCSAIGKKTITIKSCGYDTYRFKTGLNQISDIPVQFT  407 (651)
+T ss_pred             ccccccccccCCCCCC-CCccccC-CCCccccccccCCCCCccccccccccceeeecccCCcccccccccccCCcccccc
+Confidence            3332211    11111 1111111 11   11100   0000   0000  0000       00  000000 000  0 
+
+
+Q ss_pred             --hhhhccCc-ccccceeEeeeccceee---ccccCC--------------CCCccccccccCcCcceeEEE-EeeccCC
+Q mcfa.fasta      239 --DAIATHGG-FRDISFVCQIMLDKLVS---GAFRDC--------------PGPKISTFSQDGFGYSGVVIT-TLTASSN  297 (427)
+Q Consensus       239 --~ALag~~~-l~~Ghl~Cri~ldkL~~---~ty~~C--------------~~~fs~~k~p~~tgh~tVV~~-v~y~gt~  297 (427)
+                        ..+. ... ...|.+.=+|.++++++   .+-..|              +|...-..-.+... .++..+ ..-..  
+T Consensus       408 d~nsV~-~ss~~s~~~aeL~L~~~n~~ts~vv~~~~C~sI~s~LtGCYsC~sGA~a~IsC~Ss~~-tsi~a~~~~c~~--  483 (651)
+T tospovirus.fas  408 DQNSFY-MEKIFSLGKLKIVLDLPSELFKTVPKKPILSSVSLSCKGCFLCSQGLRCAASFISDIT-FSARLTMKQCSL--  483 (651)
+T ss_pred             CCCcce-eecccccceeeEeecCCccccccCCCCCcccccccccCCCcccccccccceeeeeccc-eeeeeccccccc--
+Confidence              0000 000 00012333333444333   333444              22211111112111 111111 10000  
+
+
+Q ss_pred             cccccceee-eeee-------eccchhhhccCcccccceeeecCCCcceeeccc-cccchhhhhhhhhhhhhhhhhcccc
+Q mcfa.fasta      298 ETCSLSLTC-HGCL-------LQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGST-SVSIECALNPISQGWRLARHVVDRY  368 (427)
+Q Consensus       298 ~pCripi~~-~G~l-------it~npiv~~~epp~G~s~I~~G~g~~~l~~~~~-gssIg~~f~~t~kg~~r~~~~gd~a  368 (427)
+                      ..  +.+.+ .|..       .++||-    .+-.-.  +-||.....+++... -.-++  -+.+..--..-||--+.|
+T Consensus       484 ~~--f~i~~~~g~~~~~l~~hf~~~~~----kA~V~e--vsCG~~~~~f~I~G~~L~yv~--p~~~~~~~~~~~~~~~~~  553 (651)
+T tospovirus.fas  484 ST--YQIAVKKGANKYNLTMFCTSNPE----KQKMII--EPEGDKSYSVEALVDSVAVLE--PENIIDQNDQHAHEEQQY  553 (651)
+T ss_pred             cc--ceeeeecCCcceeeEeeecCCCC----Ccceee--eecCCCccccccccccccccC--CCcccccccccccccccc
+Confidence            00  00001 1211       111121    111111  667766554444422 21211  011111111223333333
+
+
+Q ss_pred             ccccCCcccchhhhhhcc-c-----ccccccchhhHHHHHHHhhhhhhhhHHHHHhhhhhcccc----C
+Q mcfa.fasta      369 RRFGVSGVAGVWQDLVGK-F-----SVGAFFSNTALLVILVLAALIDKRIAFLLVLGGYFYYVR----A  427 (427)
+Q Consensus       369 w~~dfgsvGGvfH~vfG~-~-----~f~~lFgg~sw~~~ililg~n~r~~~vg~ill~l~~~V~----A  427 (427)
+                      -  .=.||=.|| |.+-. |     .|+.+|-.    +++++|      +++.+.|.||-.-|.    +
+T Consensus       554 ~--~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~----~~~~~~------~~~~~~~~~~~~~~~~~~~~  609 (651)
+T tospovirus.fas  554 N--SDTSVWSFW-DYVKSPFNFIASHFGSFFDT----VRVVLL------ILFVFALAYLCSIVATMCRG  609 (651)
+T ss_pred             c--cccchhhhh-hccccchhhhhhhhhhhhhH----HHHHHH------HHHHHHHHHHHHHHHhhhhc
+Confidence            2  222333333 33333 0     23333332    232221      111222222211110    0
+
+
+No 24 
+>RifttvalleyFever.fasta
+Probab=0.00  E-value=28  Score=-20.48  Aligned_cols=371  Identities=13%  Similarity=0.053  Sum_probs=88.5
+
+Q ss_pred             CCcccccccccccceeeeeecC---CCceeeeccCcceeeeeccceeecchhhhhhhcccccc-----------cccccc
+Q mcfa.fasta        2 FVEPLYTLKAEQMTMLQTIVRP---EEGYVVATPNGLLEFKTGPAEIYGGQWLRELLADCHVN-----------ASYSTD   67 (427)
+Q Consensus         2 fveg~~~~~~~G~Twvd~~vLe---~~~CVTi~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs-----------~~~s~~   67 (427)
+                      ==| +.++.+...     +=-+   +..|...   -...+.|..+.+       |.|++-+=+           -..+.-
+T Consensus         1 C~~-~~~~~s~~~-----vC~~~~~~~~C~~~---~~~~l~l~~~gq-------e~Cl~l~~~~~~~~~~ikIk~~~i~l   64 (506)
+T RifttvalleyFev    1 CSE-LIQASSRIT-----TCSTEGVNTKCRLS---GTALIRAGSVGA-------EACLMLKGVKEDQTKFLKIKTVSSEL   64 (506)
+T ss_pred             Ccc-cccccccce-----ecccCCCccceeec---cceeeeecccCc-------cceeeecccCcccceeEEEEeecccc
+Confidence            000 000000000     0000   1233322   223333333322       222222211           111122
+
+
+Q ss_pred             cCCCCcccchhh---hhcccccccCCCCcCCCccccccccc----------c--------------ccccccccccccC-
+Q mcfa.fasta       68 VCPGGSQLNMAD---IMAKERVCSTQPYNRGWGTGCFKWGI----------G--------------FVGTCVELHCDRG-  119 (427)
+Q Consensus        68 ~CPt~Gea~l~e---~~~~~~vCk~~~~dRGWGnGCglfGk----------G--------------si~tCakf~C~~~-  119 (427)
+                      +|=-..+-.=..   .-.+.+-|...-+  =+|+.|-.+..          +              --.+|-.|-|+.. 
+T Consensus        65 ~C~k~~~yfTrd~~~~~~sskRC~~aGS--C~~~kC~~i~~~~~ipEl~~~~~~~~~G~t~C~esCGg~gCGCF~~~psC  142 (506)
+T RifttvalleyFev   65 SCREGQSYWTGSFSPKCLSSRRCHLVGE--CHVNRCLSWRDNETSAEFSFVGESTIMRENKCFEQCGGWGCGCFNVNPSC  142 (506)
+T ss_pred             ccccCccccccCCCcccccccccccccc--ccccccccccCCCccccccccccccccccccccccCCCccccccccCCcc
+Confidence            221111100000   0001111222100  01122222211          0              0012335555553 
+
+
+Q ss_pred             --cccccceeceeEEE----------EEEee--ccccccc-cccCCCceeeeecccceeeee--ecccccccccceeeee
+Q mcfa.fasta      120 --FNVSSIARSAIVMN----------VTASF--HSVSDTQ-QMVGDIPLTFRFAKLGNAAMT--CRLESEQLLLDYYHVT  182 (427)
+Q Consensus       120 --~~~~~i~~enI~y~----------V~v~v--H~~~~~~-~~~~s~~~t~~lgdYG~vtl~--Cr~~sg~Dl~~~ylv~  182 (427)
+                        +..|..-..+..|+          |.+++  ..+.... ..+..+....+   .+.++|+  =...+.. . +...++
+T Consensus       143 lFyRiy~~P~s~~iyeVF~C~~W~~~v~i~vt~~~~~~~~~~l~~~~~~~~~---~~~i~itl~s~~~~~~-~-~~~Fi~  217 (506)
+T RifttvalleyFev  143 LFVHTYLQSVRKEALRVFNCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTN---WGSVSLSLDAEGISGS-N-SFSFIE  217 (506)
+T ss_pred             ceeeeeeeccccceeeeeeeccceeeEEEEEEecCCceeeeeeccCCccccc---ccceeeeeecccccCC-C-Ccceec
+Confidence              22222222222222          22222  2211100 00011111122   2232221  1111100 0 111111
+
+
+Q ss_pred             cCCcccchhhhhhccCCccccCCCCCcCccceeeeccccccceeeeeecCcchh-hhhhhhc--cCcc---------ccc
+Q mcfa.fasta      183 GSSHEGLFLRSQVDSWPGVHSTASGRHGMEKVVVWGDARSNEILVKNVIEPSLS-WEDAIAT--HGGF---------RDI  250 (427)
+Q Consensus       183 ~~~~~wlV~r~w~~Dl~lPW~~~~~w~~~e~lV~f~~phA~k~~V~~lg~qega-~~~ALag--~~~l---------~~G  250 (427)
+                      .+                          .+.+-.+.++.+..-.---+|+-|=+ ...|..-  +-.+         ..-
+T Consensus       218 ~~--------------------------~~~~a~~~~~~~g~p~~g~iG~lQC~t~~~A~~~~~~C~~~~~~c~C~~~~~  271 (506)
+T RifttvalleyFev  218 SP--------------------------GKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKPMID  271 (506)
+T ss_pred             cC--------------------------CCcceeecCCCCCCCCCCccccccccchhhhhhhcccccccCcceeccCccc
+Confidence            11                          01111111111111111112222211 1112110  0000         001
+
+
+Q ss_pred             ceeEeeeccceee----ccccCCCCCccccc------cccCcC-cceeEEEE-------eeccCCcccccceeee-ee--
+Q mcfa.fasta      251 SFVCQIMLDKLVS----GAFRDCPGPKISTF------SQDGFG-YSGVVITT-------LTASSNETCSLSLTCH-GC--  309 (427)
+Q Consensus       251 hl~Cri~ldkL~~----~ty~~C~~~fs~~k------~p~~tg-h~tVV~~v-------~y~gt~~pCripi~~~-G~--  309 (427)
+                      -..|+-..-++.-    ..++.=.+.+.+..      .++-+. +..+-+.+       ....++..|.|..+-. ||  
+T Consensus       272 ~~~C~c~~i~i~~~~~~~~LP~~~~~~~~~~~~~~~~V~A~~~~~~~~~l~I~~~~~~~~~~v~~~~C~i~~s~l~GCYs  351 (506)
+T RifttvalleyFev  272 QLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYS  351 (506)
+T ss_pred             ceeccccCCCcchhhccCCCCccccCcceecccCCCceeeeeccceeeEEEEeecceeeeeeeccccccccccccccccc
+Confidence            1222211111110    01111111111110      011111 11222222       2224567898887532 22  
+
+
+Q ss_pred             -----eec----cch--hhhcc-Ccccccceeee-cCCCc--ceeec--cccccchhhhh-------hhhhhhhhhhhhc
+Q mcfa.fasta      310 -----LLQ----STK--MIFLA-GKTTSRAFVKC-GNHTS--TLLVG--STSVSIECALN-------PISQGWRLARHVV  365 (427)
+Q Consensus       310 -----lit----~np--iv~~~-epp~G~s~I~~-G~g~~--~l~~~--~~gssIg~~f~-------~t~kg~~r~~~~g  365 (427)
+                           .+.    ++.  .+... +.. ..+++++ .+|..  .+.+|  ++-....|...       -+.+|.=+   -.
+T Consensus       352 C~~GA~v~i~C~Ss~~~~~~~~~~c~-~~~~~~~~~~g~~~~~~~~~f~~a~v~~~C~v~CG~~~~~f~I~G~L~---yv  427 (506)
+T RifttvalleyFev  352 CNAGARVCLSITSTGTGTLSAHNKDG-SLHIVLPSENGTKDQCQILHFTVPEVEEEFMYSCDGDERPLLVKGTLI---AI  427 (506)
+T ss_pred             CCCCceEEEEEeecCcceeeeeecCC-CceeeeecCCCCccceeEEeecccccccccccccCCCccceeeeeeee---ee
+Confidence                 121    111  11111 111 1123332 23322  24444  33333333221       12222211   11
+
+
+Q ss_pred             cccccccCCcccch---hhhhhcccccccccc-hhhHHHHHHH-hhhhhhhhHHHHHhhhhhccccC
+Q mcfa.fasta      366 DRYRRFGVSGVAGV---WQDLVGKFSVGAFFS-NTALLVILVL-AALIDKRIAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       366 d~aw~~dfgsvGGv---fH~vfG~~~f~~lFg-g~sw~~~ili-lg~n~r~~~vg~ill~l~~~V~A  427 (427)
+                      +-+=  |-...||-   ...--|...|.-.|+ =|||+---|- +=+----+++..-|.||..+.+-
+T Consensus       428 ~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  492 (506)
+T RifttvalleyFev  428 DPFD--DRREAGGESTVVNPKSGSWNFFDWFSGLMSWFGGPLKTILLICLYVALSIGLFFLLIYLGR  492 (506)
+T ss_pred             CCCC--cccccCCcceeecCCCCCCchhhhhhhhhhhcccchhHHHHHHHHHHHHHHHHHHHHHHHh
+Confidence            2222  33344443   333335544433343 3677543332 11111113333444444333210
+
+
+No 25 
+>orthobunyavirus.fasta
+Probab=0.00  E-value=28  Score=-1.08  Aligned_cols=353  Identities=9%  Similarity=-0.005  Sum_probs=118.0
+
+Q ss_pred             CC--CcccccccccccceeeeeecCCCceeeec-cC----cceeeeeccceeecch----hhhhhhcccc-ccccccccc
+Q mcfa.fasta        1 EF--VEPLYTLKAEQMTMLQTIVRPEEGYVVAT-PN----GLLEFKTGPAEIYGGQ----WLRELLADCH-VNASYSTDV   68 (427)
+Q Consensus         1 Df--veg~~~~~~~G~Twvd~~vLe~~~CVTi~-~k----ptlDi~l~~~~~~~~a----~~R~yc~~a~-vs~~~s~~~   68 (427)
+                      +-  -.|-+.=+-....=+. +-.-.++|+.+. ++    ..|.|++..+..+=..    -.|.+=..+. -...=+.+ 
+T Consensus       464 s~~~~~g~~~C~i~ts~~L~-LniGQEACLrIk~nngttIg~IKIKvksI~LkC~K~TLYFTRDteikv~p~AGSCtgd-  541 (937)
+T orthobunyaviru  464 LNGDKVSNGIRNSYIESHIP-AINGLSAGINIAMPNGESLFSIIIYVRRVINKASYRFLYETGPTIGINAKHEEVCTGK-  541 (937)
+T ss_pred             ecccccccccccceeeeccc-ccccccceeeecCCCCCcceeEEEEEEeeeeecccccccccCCceeecccccccccCC-
+Confidence            00  0000000001112222 225678999999 32    4666666665543211    1122111111 11111222 
+
+
+Q ss_pred             CCCCcc--cchhhhhcccccccCCCCcCCCcc---ccccccccccc---------ccccccc-cc-----Cccccc----
+Q mcfa.fasta       69 CPGGSQ--LNMADIMAKERVCSTQPYNRGWGT---GCFKWGIGFVG---------TCVELHC-DR-----GFNVSS----  124 (427)
+Q Consensus        69 CPt~Ge--a~l~e~~~~~~vCk~~~~dRGWGn---GCglfGkGsi~---------tCakf~C-~~-----~~~~~~----  124 (427)
+                      |+.-..  ..++|-.....        -|||+   |||..--|=+-         ..-=|.| ..     .++...    
+T Consensus       542 C~sIkpn~d~IPELs~~ak--------GGiGC~~~GCFypsPSCLF~~~YRIYk~IYEVFkC~psWs~sVkIeVT~~ngs  613 (937)
+T orthobunyaviru  542 CPSPIPHQDGWVTFSKERS--------SNWGCEEWGCLAINDGCLYGSCQDIIRPEYKIYKKSSIEQKDVEVCITMAHES  613 (937)
+T ss_pred             CCCCCCCCCCcccccccCC--------CCcccccccccccccCccccccccccccccchhhcccccccceeeeecccccc
+Confidence            443333  22333321111        89999   99985444222         2222334 11     000000    
+
+
+Q ss_pred             ----------ceeceeEEEEEEeeccc----------cccccccCCCceeeeecccceeeeeecccccccccceeee---
+Q mcfa.fasta      125 ----------IARSAIVMNVTASFHSV----------SDTQQMVGDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHV---  181 (427)
+Q Consensus       125 ----------i~~enI~y~V~v~vH~~----------~~~~~~~~s~~~t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv---  181 (427)
+                                +...+|.+++....=..          .... ...++.-. .-|..|  .+.|.-.. .+...-+.+   
+T Consensus       614 t~~TisL~~p~~~~sIsLTLdSisIp~~pss~FItng~~~A-~d~n~sG~-tkG~IG--ELQCpSe~-A~~s~nC~f~nl  688 (937)
+T orthobunyaviru  614 FCSTVDVLQPLISDRIQLDIQTIQMDSMPNIIAVKNGKVYV-GDINDLGS-TAKKCG--SVQLYSEG-IIGSGTPKFDYV  688 (937)
+T ss_pred             ccccccccccccccceeEEEecccccccchhhhhccCcccc-ccccccCc-ccccCC--cccccccc-ccCCCCCCcccc
+Confidence                      11122333222100000          0000 00000000 111112  13343221 110000111   
+
+
+Q ss_pred             ----------ecCCcccchhhhhhccCCccccCCCCCc---Cccceeeeccccc---cceeeeeecCcchhhhhhhhccC
+Q mcfa.fasta      182 ----------TGSSHEGLFLRSQVDSWPGVHSTASGRH---GMEKVVVWGDARS---NEILVKNVIEPSLSWEDAIATHG  245 (427)
+Q Consensus       182 ----------~~~~~~wlV~r~w~~Dl~lPW~~~~~w~---~~e~lV~f~~phA---~k~~V~~lg~qega~~~ALag~~  245 (427)
+                                .-....  ++-.-+  -.||-+ +. |.   +. .+..+-.-++   .++.+ .+.+    ++      .
+T Consensus       689 CsCsPaedsV~CsC~~--IDI~~i--NrLPq~-~~-l~fS~Dn-tV~A~Ss~ss~~taeLqI-~~dn----~k------t  750 (937)
+T orthobunyaviru  689 CHAFNRKDVILRRCFD--NSYQSC--LLLEQD-NT-LTIASTS-HMEVHKKVSSVGTINYKI-MLGD----FD------Y  750 (937)
+T ss_pred             cccccccceeeecccc--ccchhh--cccccc-cc-cccccCc-ceeEeecccccceeeEEe-eecc----cc------c
+Confidence                      000000  011111  456666 43 31   11 2322222121   11111 1111    21      1
+
+
+Q ss_pred             cccccceeEeeeccceee---------------ccc------cCCCCCccccccccCcC-cce-eEEEEeeccCCccccc
+Q mcfa.fasta      246 GFRDISFVCQIMLDKLVS---------------GAF------RDCPGPKISTFSQDGFG-YSG-VVITTLTASSNETCSL  302 (427)
+Q Consensus       246 ~l~~Ghl~Cri~ldkL~~---------------~ty------~~C~~~fs~~k~p~~tg-h~t-VV~~v~y~gt~~pCri  302 (427)
+                      .+..-.-+|.|.+.+|.=               ++.      ..|.+.+++... .+.| +.+ +.+.....- +.-|.+
+T Consensus       751 S~vV~n~tCsIe~S~LtGCYSC~sGAqV~ISCtSS~~tsisA~~~C~s~sFaI~-c~~Gtk~t~I~fHFnsA~-~EnCSV  828 (937)
+T orthobunyaviru  751 NAYSTQATVTIDEIRCGGCYGCPEGMACALKLSTNTIGSCSIKSNCDTYIKIIA-VDPMQSEYSIKLNCPLAT-ETVSVS  828 (937)
+T ss_pred             cccccccccccccccccCCCCCCCccccceeecccccccccccccccccceeee-ecCCCccceeEeecCCCC-ceeEEe
+Confidence            222334667777766541               111      122233444433 3333 333 344443334 666665
+
+
+Q ss_pred             c----eeeeeeeeccchhhhccCcccccceeeecCCCcceeec-cccccchhhhhhhhhhhhhhhhhccccccccCCccc
+Q mcfa.fasta      303 S----LTCHGCLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVG-STSVSIECALNPISQGWRLARHVVDRYRRFGVSGVA  377 (427)
+Q Consensus       303 p----i~~~G~lit~npiv~~~epp~G~s~I~~G~g~~~l~~~-~~gssIg~~f~~t~kg~~r~~~~gd~aw~~dfgsvG  377 (427)
+                      .    +.++|.|...+|-+..+..-          .++-+..| ++-|+-=|.+                |-    .++.
+T Consensus       829 SCGg~F~IkGtL~YV~p~~~~~~~~----------~~~~~~~~~~~~~~~~~~~----------------~~----~~~~  878 (937)
+T orthobunyaviru  829 VCSASAYTKPSISKNQPKIVLNSLD----------ETSYIEQHDKKCSTWLCRV----------------YK----EGIS  878 (937)
+T ss_pred             ecCcceeeccccccCCCceecccCC----------Cccccccccccccchhhhh----------------hc----ccch
+Confidence            4    66679999999876554110          12223444 5555432221                11    1122
+
+
+Q ss_pred             chhhhhhcccccccccchhhHHHHHHHhhhhhhh--hHHHHHhhhhhccccC
+Q mcfa.fasta      378 GVWQDLVGKFSVGAFFSNTALLVILVLAALIDKR--IAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       378 GvfH~vfG~~~f~~lFgg~sw~~~ililg~n~r~--~~vg~ill~l~~~V~A  427 (427)
+                      =         .|.-|||.+||.-++-|.-+-+--  +++.-||+-|--...+
+T Consensus       879 ~---------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  921 (937)
+T orthobunyaviru  879 V---------IFQPLFGNLSFYWRLTIYIIISLIMLILFLYILIPLCKRLKG  921 (937)
+T ss_pred             h---------hhhhhhhhhhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            2         344455555555554442111111  1111111111000000
+
+
+No 26 
+>orthobunyavirus2.fasta
+Probab=0.00  E-value=28  Score=-0.53  Aligned_cols=281  Identities=9%  Similarity=-0.035  Sum_probs=100.3
+
+Q ss_pred             CCCceeeec-c--Cc--ceeeeeccceeecchhhhhhhccccc-----ccccccccCCCCcccchhhhhcccccccCCCC
+Q mcfa.fasta       23 PEEGYVVAT-P--NG--LLEFKTGPAEIYGGQWLRELLADCHV-----NASYSTDVCPGGSQLNMADIMAKERVCSTQPY   92 (427)
+Q Consensus        23 e~~~CVTi~-~--kp--tlDi~l~~~~~~~~a~~R~yc~~a~v-----s~~~s~~~CPt~Gea~l~e~~~~~~vCk~~~~   92 (427)
+                      -.++|..+. +  ++  .|.|++..+..+=....--|=.+.++     ...=+.+ |+.-..-  ||-   ..-|.  .+
+T Consensus         1 g~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTrd~~~~~~s~~GsC~~~-C~~i~~~--pEl---~t~C~--~s   72 (375)
+T orthobunyaviru    1 GLSLGLHLTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK-CPSSLMK--TGW---LSFAK--EH   72 (375)
+T ss_pred             CCccccccccCCCCCceeeEEEEeeeeeeeeeeeecccCCceeeeeccccccccC-CCCcccc--ccc---ccccc--cc
+Confidence            146888888 3  33  55566655544311111111111111     1112234 5444332  222   44466  33
+
+
+Q ss_pred             cCCCcc---ccccccccccc--cccccccccCcccccc-eeceeEEEEEEeeccccccccccCCCceeeee---------
+Q mcfa.fasta       93 NRGWGT---GCFKWGIGFVG--TCVELHCDRGFNVSSI-ARSAIVMNVTASFHSVSDTQQMVGDIPLTFRF---------  157 (427)
+Q Consensus        93 dRGWGn---GCglfGkGsi~--tCakf~C~~~~~~~~i-~~enI~y~V~v~vH~~~~~~~~~~s~~~t~~l---------  157 (427)
+                      =-|||+   |||+.--|=+-  -=.-.  .+.++++.- ..-.-+..+.|+...+...... . +....++         
+T Consensus        73 CGg~gC~~~gCF~~~~sClF~~yR~y~--~~iyeVf~C~~~W~~~v~i~vt~~~~~~~~~l-~-~~~~~~~~~i~itl~~  148 (375)
+T orthobunyaviru   73 TSQWGCEEFGCLAINEGCVFGHCKDII--KPEMTILRKNQEELPVIRICISLPQETFCQPI-N-AFTAIITDKIETQFIS  148 (375)
+T ss_pred             CCccccccccccccccccccccccccc--ccccceeeccccccceeeeeecCCCCcccccc-c-ccccccccceeEEEee
+Confidence            468999   99984333211  00000  122222222 2222222222222211100000 0 0000000         
+
+
+Q ss_pred             ---------------ccccee-------------eeeeccccccccccee--eeecCC---------cccchhhhhhccC
+Q mcfa.fasta      158 ---------------AKLGNA-------------AMTCRLESEQLLLDYY--HVTGSS---------HEGLFLRSQVDSW  198 (427)
+Q Consensus       158 ---------------gdYG~v-------------tl~Cr~~sg~Dl~~~y--lv~~~~---------~~wlV~r~w~~Dl  198 (427)
+                                     +.| .+             .+.|.-.. .+.....  ..+-..         +.=.+.-..+  -
+T Consensus       149 ~~~~~~~~~fi~~~~~~~-~~~~~~~g~~~g~ig~lQC~t~~-~~~~~~C~~~c~C~~~~~~~~~~C~c~~~~~~~~--~  224 (375)
+T orthobunyaviru  149 NEAGKIPKLLGYKSNKIF-TGMINDLGTFSKMCGSVQSINGN-VLGAGTPRFDYICHAAQRKDITVSRCFDNFYDSC--Q  224 (375)
+T ss_pred             cccccccchhcccccccc-ccccccccccccCCCcccccccc-ccCCCCCCccccccccccceeeeecccccccccc--c
+Confidence                           011 00             14454332 2100000  000000         0000000001  3
+
+
+Q ss_pred             CccccCCCCC---cCccceeeeccccccceeee-eecCcchhhhhhhhccCcccccceeEeeecccee------------
+Q mcfa.fasta      199 PGVHSTASGR---HGMEKVVVWGDARSNEILVK-NVIEPSLSWEDAIATHGGFRDISFVCQIMLDKLV------------  262 (427)
+Q Consensus       199 ~lPW~~~~~w---~~~e~lV~f~~phA~k~~V~-~lg~qega~~~ALag~~~l~~Ghl~Cri~ldkL~------------  262 (427)
+                      .||-+ +. |   ++.+.+.-+-. ......+. .+.+    ++      ..+..-.-+|.| +.+|.            
+T Consensus       225 ~LP~~-~~-~~~~~~~~~V~a~~~-~~~~~~l~I~~~~----~~------~~~~v~~~~C~i-~~~l~GCYsC~~GA~~~  290 (375)
+T orthobunyaviru  225 RLDIA-EN-IVYDNSIKKVSLLNK-NMGELRLKIKLGD----IN------YKLYEKMPSFDF-KGSCVGCTKCIKGVDCE  290 (375)
+T ss_pred             ccccc-cc-ceeccccchhhcccc-cccceeEEeeecc----ch------hhccccCCcccc-cccccCCcCcCCCccee
+Confidence            45555 43 2   22222222211 11111111 1111    11      122233467777 76664            
+
+
+Q ss_pred             e---ccc------cCCCCCccccccccCcCcceeEEEEeeccCCcccccc-----eeeeeeeeccchhhhccCcccccce
+Q mcfa.fasta      263 S---GAF------RDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLS-----LTCHGCLLQSTKMIFLAGKTTSRAF  328 (427)
+Q Consensus       263 ~---~ty------~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCrip-----i~~~G~lit~npiv~~~epp~G~s~  328 (427)
+                      +   ++.      ..|.+.+.+... .+.|.-.-.+...+..  ..|.+.     +.++|.|+..||.            
+T Consensus       291 i~C~S~~~~~~~~~~~c~~~~~~~~-~~~g~~~~~~~~~f~~--~~C~v~~CG~~f~i~G~L~~~~~~------------  355 (375)
+T orthobunyaviru  291 FDIHSTSESVCMLTSNCDFYHNNLK-IDPNVQKYGMKGKCSE--EKIWVDLCGNKIEIQISIIQPHET------------  355 (375)
+T ss_pred             eeeecccceeeeeccccccccccee-ecCCcccceeeeeecc--cceeeecccceeeeeeeeecccce------------
+Confidence            1   111      122233444433 3334222223333333  889988     9999999999998            
+
+
+Q ss_pred             eeecCCCcceeeccccccch
+Q mcfa.fasta      329 VKCGNHTSTLLVGSTSVSIE  348 (427)
+Q Consensus       329 I~~G~g~~~l~~~~~gssIg  348 (427)
+                      |.+||.+.+.-+..+----|
+T Consensus       356 ~~~~~~~~~~~~~~~~~~~~  375 (375)
+T orthobunyaviru  356 IEVGNSDQTYFVKEKDNRCG  375 (375)
+T ss_pred             eeecCCCccceeecccccCC
+Confidence            45666665443321100000
+
+
+No 27 
+>nairovirus.fasta
+Probab=0.00  E-value=28  Score=-12.90  Aligned_cols=322  Identities=13%  Similarity=0.082  Sum_probs=67.8
+
+Q ss_pred             CCCcccccccccccceeeeeecCCCceeee-c--cCc-ceeeeeccc--eeecchhhhhhhccc-cccc---ccccccCC
+Q mcfa.fasta        1 EFVEPLYTLKAEQMTMLQTIVRPEEGYVVA-T--PNG-LLEFKTGPA--EIYGGQWLRELLADC-HVNA---SYSTDVCP   70 (427)
+Q Consensus         1 Dfveg~~~~~~~G~Twvd~~vLe~~~CVTi-~--~kp-tlDi~l~~~--~~~~~a~~R~yc~~a-~vs~---~~s~~~CP   70 (427)
+                      -.++|      .|..|           -.. .  +.. ++||-+.=.  .|.=-+ ...|-+.- +|+.   -.=...||
+T Consensus         7 ~~~~g------t~~g~-----------~i~~sp~~~e~~~~l~i~I~d~~q~y~a-~~~Y~TG~rti~~~~~~~CTG~Cp   68 (442)
+T nairovirus.fas    7 KLKEK------TGVMW-----------KLVGSGLASEKKKPFRFPIMDFAQVYNS-VFQYITGDRLLSEWPKAVCTGDCP   68 (442)
+T ss_pred             ccccc------cccee-----------eecccCccccCCCcceeeeeceeeeecc-ccceeccccccccCCCccccCCCC
+Confidence            00000      11111           011 1  122 333332221  111111 22222111 1110   11123456
+
+
+Q ss_pred             CCcccchhhhhcccccccCCCCcCCCccccccccccccccccccccccCcccccceeceeEEEE---EEeecccc-cc--
+Q mcfa.fasta       71 GGSQLNMADIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNV---TASFHSVS-DT--  144 (427)
+Q Consensus        71 t~Gea~l~e~~~~~~vCk~~~~dRGWGnGCglfGkGsi~tCakf~C~~~~~~~~i~~enI~y~V---~v~vH~~~-~~--  144 (427)
+                      ---.=+...-+..+|.     ++|| .|-=+=||.|.-.||-...=.+.+.+|....-+++|+-   .|=+--+. ..  
+T Consensus        69 ~~c~c~t~~c~~~~w~-----S~Wg-Cnp~~ClaIgTGCt~C~~dvik~~~vy~~kk~~~ey~~t~v~vCI~~~~~e~~C  142 (442)
+T nairovirus.fas   69 HRCGCQTSTCMAKECH-----TQEC-VSTHMVLGIGTGCTCCGMDVERPFNKYLGVKWSTEYLRTEVLVCVEVTEEERHC  142 (442)
+T ss_pred             CCCccCCCcccccccc-----Cccc-ccccccccCCcccccccccccccccccceeeeeeeeeeceeeeeeeccccccce
+Confidence            4110000000011232     4554 33223345555555333222234555544444444432   22221111 00  
+
+
+Q ss_pred             ---cccc--CCCcee-------------------------------eeecccceeeeeeccccc--ccccceeeeec---
+Q mcfa.fasta      145 ---QQMV--GDIPLT-------------------------------FRFAKLGNAAMTCRLESE--QLLLDYYHVTG---  183 (427)
+Q Consensus       145 ---~~~~--~s~~~t-------------------------------~~lgdYG~vtl~Cr~~sg--~Dl~~~ylv~~---  183 (427)
+                         +.+.  ..++.+                               ++.+|.|...--|.++|=  =|..++-.+..   
+T Consensus       143 ~~Ida~~~~i~~~i~v~~~~pt~~~~kLP~~I~~~~~~~~~~~~g~~~in~l~s~~~~C~~~sCt~G~~GDvQ~~~~~~l  222 (442)
+T nairovirus.fas  143 EIVEAGTRFNIGPITITISDPQNIGSKLPESLMTVQEIDDSNFVDIMHVGNVISADNSCRLQSCTHGSAVTTRFTALTAL  222 (442)
+T ss_pred             eeeeccceeeecceEEEecCCCcccCCCCcceeeeeecCCCccccccccccccccCcccccccccCCCccceeeeccccc
+Confidence               0000  111111                               133344455555632211  01122222110   
+
+
+Q ss_pred             --CCc----c-----cchhhhhhccCCccccCCC--------CCc----------Cccceeeec--------ccccccee
+Q mcfa.fasta      184 --SSH----E-----GLFLRSQVDSWPGVHSTAS--------GRH----------GMEKVVVWG--------DARSNEIL  226 (427)
+Q Consensus       184 --~~~----~-----wlV~r~w~~Dl~lPW~~~~--------~w~----------~~e~lV~f~--------~phA~k~~  226 (427)
+                        +.+    .     -.+|+.|     +-|..+.        .|.          |++..-.|-        ++|=+.=.
+T Consensus       223 ~~gd~~~g~~~~~~~~~~n~~w-----~sW~~~~fdy~Ch~a~~p~C~y~gvvv~nr~~F~N~~~s~~~l~~~~~f~s~~  297 (442)
+T nairovirus.fas  223 IKDDHSSGLNLAVLDPKVNSSW-----LSWEGCDMDYYCNVGDWPTCTYTGVVTQKLREFLKLDQHRKRLHTTLSFSLKK  297 (442)
+T ss_pred             ccccccccccccccCcCCCCCc-----ccccccccccccccCCCCcccccccchhhHHHhhhhhhhccccccccceeecc
+Confidence              000    0     0222323     1232221        122          111111111        11100000
+
+
+Q ss_pred             eeeec-Ccchhhhhhhhcc-CcccccceeEeeeccceee---------ccc--cCCCCCccccccccCcCcceeEEEEee
+Q mcfa.fasta      227 VKNVI-EPSLSWEDAIATH-GGFRDISFVCQIMLDKLVS---------GAF--RDCPGPKISTFSQDGFGYSGVVITTLT  293 (427)
+Q Consensus       227 V~~lg-~qega~~~ALag~-~~l~~Ghl~Cri~ldkL~~---------~ty--~~C~~~fs~~k~p~~tgh~tVV~~v~y  293 (427)
+                      +.... .+.+.+    -.+ ...-.|.++=.|++.+|++         .++  .-|.|-+.--        .++..++.-
+T Consensus       298 l~~~~~~~~~~l----k~~~~~~~~G~i~~ki~l~dl~~k~~~v~l~~~~i~~~~C~GC~gC~--------~G~~C~~~I  365 (442)
+T nairovirus.fas  298 NLSKRSHTSVRL----EGKTVTRMEVKVTALIEVDGMELHSKTIRLSGIRLTGLKCSGCFSCT--------SGISCSVNA  365 (442)
+T ss_pred             cccCCCCceeee----ecccccccceeEEEEEEeccccccccceecccccccccCCCCCCCCC--------CCcceeeEe
+Confidence            00000 011111    111 2222333333444444332         112  3333322110        111111111
+
+
+Q ss_pred             ccCCcccccceeeeeeeeccchhhhccCcccccceeeecCCCcceeeccccc-cchhhhhhhhhhhhhhhh-hcc-ccc-
+Q mcfa.fasta      294 ASSNETCSLSLTCHGCLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGSTSV-SIECALNPISQGWRLARH-VVD-RYR-  369 (427)
+Q Consensus       294 ~gt~~pCripi~~~G~lit~npiv~~~epp~G~s~I~~G~g~~~l~~~~~gs-sIg~~f~~t~kg~~r~~~-~gd-~aw-  369 (427)
+                      .- ++|=+.-+..+    ..+|            -|.++..+-.++....+. +-=++|...-.  +++-+ +-+ .|= 
+T Consensus       366 ~~-~e~~~f~~hi~----s~d~------------~i~~~~~s~~~~~~~~~~~~~~~~f~~~~~--~~~c~~~~e~~~c~  426 (442)
+T nairovirus.fas  366 KL-TSPDEFTLHLR----STSP------------NVVVAETSIIARKGPSATTSRFKVFSVRDT--KKICFEVVEREYCK  426 (442)
+T ss_pred             ee-cCCCceeeEee----cCCC------------ceeeccceeeeecCCCCcccceeeeeeccc--cceeeEeecccccC
+Confidence            11 11111111111    1111            111111111111110000 00000000000  00000 000 000 
+
+
+Q ss_pred             ---cccCCcccchhhhhhcccccc
+Q mcfa.fasta      370 ---RFGVSGVAGVWQDLVGKFSVG  390 (427)
+Q Consensus       370 ---~~dfgsvGGvfH~vfG~~~f~  390 (427)
+                         +=|.-.-=.+        -+-
+T Consensus       427 ~~~~~~~~~c~~~--------~~~  442 (442)
+T nairovirus.fas  427 DCTPDELTTCTGV--------ELE  442 (442)
+T ss_pred             CCCcccccccccc--------ccC
+Confidence               0000000000        000
+
+
+No 28 
+>emaravirus.fasta
+Probab=0.00  E-value=28  Score=0.26  Aligned_cols=240  Identities=15%  Similarity=0.130  Sum_probs=75.7
+
+Q ss_pred             CCCcc------cc-cccccccceeeeeecCCCcee----------eec-cCcceeeeeccceeecchhhhhhhccccccc
+Q mcfa.fasta        1 EFVEP------LY-TLKAEQMTMLQTIVRPEEGYV----------VAT-PNGLLEFKTGPAEIYGGQWLRELLADCHVNA   62 (427)
+Q Consensus         1 Dfveg------~~-~~~~~G~Twvd~~vLe~~~CV----------Ti~-~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~   62 (427)
+                      =|...      .| +-.+++.|=++  ||+++-++          |++ +|--+.+.+.++.-        ..  ..+++
+T Consensus       183 ~~~t~v~aDDn~yNyY~Hg~~TEiq--vlDkEHy~qdF~~~g~ly~~tIenShl~~~~~~~s~--------Il--~p~~h  250 (461)
+T emaravirus.fas  183 IFVTLARADDNEFNFYHHGNQTEVQ--ILDKEHYKQDFDVQGYLYTVTVLNSHLEIQTINVSE--------VL--IPTKH  250 (461)
+T ss_pred             HhhhhcccCCccccccccCccceee--eecccccccccccccceeEEEeecceeeeeeeeccc--------cc--ccccc
+Confidence            00000      00 01133444444  44443332          333 44444444443221        00  01111
+
+
+Q ss_pred             c--cccccCCCCcccchhhhhcccccccCCCCcC-CC-----------ccccccccccccccccccccccCcccccceec
+Q mcfa.fasta       63 S--YSTDVCPGGSQLNMADIMAKERVCSTQPYNR-GW-----------GTGCFKWGIGFVGTCVELHCDRGFNVSSIARS  128 (427)
+Q Consensus        63 ~--~s~~~CPt~Gea~l~e~~~~~~vCk~~~~dR-GW-----------GnGCglfGkGsi~tCakf~C~~~~~~~~i~~e  128 (427)
+                      +  ...=.|            |..--|+++..+| |-           |=.|+ |-  +---|..++-.-+.-|+.+.-.
+T Consensus       251 ~it~~~~SC------------Dg~~~C~k~~~~k~~~~~~~siKK~hDGfSCl-FT--tAtiCg~C~s~~~~ig~~~tv~  315 (461)
+T emaravirus.fas  251 ILTHEHFSC------------DGSEGCQKECQARTGFMPMYYLKKAYDGFSCL-FT--SATLCGLCKSEMKTIGYKVTTT  315 (461)
+T ss_pred             ccccccccc------------CCcccchhhhhhhcCCCccchhccccCCcccc-cc--ccccccccccccccccceeeee
+Confidence            1  111122            2223366666555 11           22232 11  1112333333335667777777
+
+
+Q ss_pred             eeEEEEEEeeccccccccccCCCceeeeecccceeeeeecccccccccceeeeecCCcccchhhhhhccCC-----cccc
+Q mcfa.fasta      129 AIVMNVTASFHSVSDTQQMVGDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWP-----GVHS  203 (427)
+Q Consensus       129 nI~y~V~v~vH~~~~~~~~~~s~~~t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~-----lPW~  203 (427)
+                      +++=.|.++|-.|+...     .-+.=||-+|=.-...=+|-..+++++.-.+.-|.+.+   +-+|=+-|     +|--
+T Consensus       316 ~vkPyIdi~V~~gnkt~-----~I~Irefn~yIhepyYVkpi~pv~~~~~~~li~g~~vY---~Gq~C~~PS~~CFGpny  387 (461)
+T emaravirus.fas  316 KVSPYIDIEVVHGNKTE-----MIKIRDFSKFIHETYYVKPIEPVWVESVDMFVTGTDVY---VGQICNMPSYGCFGPNY  387 (461)
+T ss_pred             eccceeeeeeecCCccc-----eeeeeccccccccccccccCCcccccccceeeeccccc---cccccCCCCcccCCCCc
+Confidence            77777777775554432     12222466665555566665555555443333333322   12222211     0000
+
+
+Q ss_pred             --CCCCCcCccceeeeccccccceeeeeecCcchhhhhhhhccCcccccceeEeeeccceeeccccCCCCCccccccccC
+Q mcfa.fasta      204 --TASGRHGMEKVVVWGDARSNEILVKNVIEPSLSWEDAIATHGGFRDISFVCQIMLDKLVSGAFRDCPGPKISTFSQDG  281 (427)
+Q Consensus       204 --~~~~w~~~e~lV~f~~phA~k~~V~~lg~qega~~~ALag~~~l~~Ghl~Cri~ldkL~~~ty~~C~~~fs~~k~p~~  281 (427)
+                        ++......+.+|.=--.|-.+.....--+|+-+                    .|+-|+.+.|..=.+.   .-.|-+
+T Consensus       388 ~KD~~~~~l~~P~v~Dp~thDreviL~~C~~p~Ns--------------------Dl~sL~kt~~v~~n~~---ii~p~~  444 (461)
+T emaravirus.fas  388 KKDNKTFVISAPKVKDPMTHDRELILEHCVDPGNS--------------------DINSLQKTQSTYHDGI---IIRPYE  444 (461)
+T ss_pred             ccCCceeeeccCcccCCCCccchhhhcccCCCCCc--------------------cccccccccccccccc---cccccc
+Confidence              000000001111101112222222222222211                    1222222211111111   222223
+
+
+Q ss_pred             cCcceeEEEEeeccCCcccccceeeeeeeecc
+Q mcfa.fasta      282 FGYSGVVITTLTASSNETCSLSLTCHGCLLQS  313 (427)
+Q Consensus       282 tgh~tVV~~v~y~gt~~pCripi~~~G~lit~  313 (427)
+                      +||=.|=+-.+               |-|+-.
+T Consensus       445 FG~iSiGip~~---------------g~L~g~  461 (461)
+T emaravirus.fas  445 FGMLSIGFPIV---------------GKLIGD  461 (461)
+T ss_pred             ccccccccccc---------------ccccCC
+Confidence            33211100000               000000
+
+
+No 29 
+>semlikiforest.fasta
+Probab=0.00  E-value=28  Score=2.16  Aligned_cols=312  Identities=13%  Similarity=0.094  Sum_probs=108.2
+
+Q ss_pred             CcccccccccccceeeeeecCCCceeeeccCc-----ceeeeeccceeecchhhhhh--hcccccccccccccCCCCccc
+Q mcfa.fasta        3 VEPLYTLKAEQMTMLQTIVRPEEGYVVATPNG-----LLEFKTGPAEIYGGQWLREL--LADCHVNASYSTDVCPGGSQL   75 (427)
+Q Consensus         3 veg~~~~~~~G~Twvd~~vLe~~~CVTi~~kp-----tlDi~l~~~~~~~~a~~R~y--c~~a~vs~~~s~~~CPt~Gea   75 (427)
+                      -|       .-+|+=+ .+  +-.|-++.+||     .|.|.+.++.. .|..-.||  |.--+|...-.. +|=+.-| 
+T Consensus         1 yE-------H~~~~PN-~v--g~pyka~V~R~GYaPl~L~i~v~~~~l-~Ptl~leYiTC~ykTvvpSP~v-kCCG~~E-   67 (391)
+T semlikiforest.    1 YE-------HSTVMPN-VV--GFPYKAHIERPGYSPLTLQMQVVETSL-EPTLNLEYITCEYKTVVPSPYV-KCCGASE-   67 (391)
+T ss_pred             CC-------ccccccc-cc--CCcccccccCCCCCcceeeEEeeeccc-cccccccceecccccccCCCcc-cccCCCc-
+Confidence            00       0000000 00  00122222222     24444444443 34444455  222233322222 2222222 
+
+
+Q ss_pred             chhhhhcccccccC--CCCcCCCccccccccccccccccc-------------ccccc-CcccccceeceeEEEEEEeec
+Q mcfa.fasta       76 NMADIMAKERVCST--QPYNRGWGTGCFKWGIGFVGTCVE-------------LHCDR-GFNVSSIARSAIVMNVTASFH  139 (427)
+Q Consensus        76 ~l~e~~~~~~vCk~--~~~dRGWGnGCglfGkGsi~tCak-------------f~C~~-~~~~~~i~~enI~y~V~v~vH  139 (427)
+                       -......+|-||.  +.+-==||-        .-+=|-.             -.|+. ++..+-.....++-.+.|.+-
+T Consensus        68 -C~~~~~pDy~CkVftGVYPfMWGG--------AyCFCDsENTQ~SeayV~~s~~C~~dhA~AykaHTas~ka~l~it~G  138 (391)
+T semlikiforest.   68 -CSTKEKPDYQCKVYTGVYPFMWGG--------AYCFCDSENTQLSEAYVDRSDVCRHDHASAYKAHTASLKAKVRVMYG  138 (391)
+T ss_pred             -ccCCCCCCccccccccccccccCC--------ccccCCcccchhhhhhhccccccchhhhhhhhhhcccceeeEEEeec
+Confidence             2235567788874  455555553        2222321             12332 344444444445544444443
+
+
+Q ss_pred             c-----------cccccccc----------------------CCCceeeeecccceee------eeeccccccc-cccee
+Q mcfa.fasta      140 S-----------VSDTQQMV----------------------GDIPLTFRFAKLGNAA------MTCRLESEQL-LLDYY  179 (427)
+Q Consensus       140 ~-----------~~~~~~~~----------------------~s~~~t~~lgdYG~vt------l~Cr~~sg~D-l~~~y  179 (427)
+                      .           -.....+.                      ..+-.--+|+.||.-.      +.=|-..+-| +.|.-
+T Consensus       139 ~~~~~v~~yVNG~t~~~~~~~K~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGag~pG~FGDIQsrt~~s~DlyAnT~  218 (391)
+T semlikiforest.  139 NVNQTVDVYVNGDHAVTIGGTQFIFGPLSSAWTPFDNKIVVYKDEVFNQDFPPYGSGQPGRFGDIQSRTVESNDLYANTA  218 (391)
+T ss_pred             ccceeeEEEeccccccccccceeeecccccccCCCccceeeecccccccCCCCCCCCCCCCcccccccccccchhhhhcc
+Confidence            2           22221110                      2333334566665321      1112112222 12222
+
+
+Q ss_pred             eeecCCcccchhhhhhccCCccccCCCC----C-cCccceeeeccccccceeeeeecCcchhhhhhhhc---cCcccccc
+Q mcfa.fasta      180 HVTGSSHEGLFLRSQVDSWPGVHSTASG----R-HGMEKVVVWGDARSNEILVKNVIEPSLSWEDAIAT---HGGFRDIS  251 (427)
+Q Consensus       180 lv~~~~~~wlV~r~w~~Dl~lPW~~~~~----w-~~~e~lV~f~~phA~k~~V~~lg~qega~~~ALag---~~~l~~Gh  251 (427)
+                      +.-...++        ..+..|++-.-.    | +|+.+=+...-|+--+|++--|    .|+.=|..-   ...|.+-.
+T Consensus       219 l~L~rP~~--------g~iHVPYTQapSGf~~W~~~~g~~L~~tAPFGC~I~~nPv----RA~nCavG~IPiS~DIPDA~  286 (391)
+T semlikiforest.  219 LKLARPSP--------GMVHVPYTQTPSGFKYWLKEKGTALNTKAPFGCQIKTNPV----RAMNCAVGNIPVSMNLPDSA  286 (391)
+T ss_pred             ccccCCCC--------CcccccccCCCcchhhhhhhcccccccCCCcccccccCcc----cccccccccccccccCCccc
+Confidence            22223333        344567765433    7 6777888888888888877322    222222211   22333333
+
+
+Q ss_pred             eeEeeeccceee--ccccCCCCCccccccccCcCcceeEEEEeeccCC-cccccceeeeeeeeccchhhhccCcccccce
+Q mcfa.fasta      252 FVCQIMLDKLVS--GAFRDCPGPKISTFSQDGFGYSGVVITTLTASSN-ETCSLSLTCHGCLLQSTKMIFLAGKTTSRAF  328 (427)
+Q Consensus       252 l~Cri~ldkL~~--~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~-~pCripi~~~G~lit~npiv~~~epp~G~s~  328 (427)
+                      |+=-..--.+..  -+-..|...       +|  +|+| ..++|+.+. +-|-|-.-...-.|.             +|-
+T Consensus       287 FTRv~daP~vs~~~Ctv~~Ct~S-------sd--fGG~-a~~~Y~a~k~GkCavHs~S~~atl~-------------es~  343 (391)
+T semlikiforest.  287 FTRIVEAPTIIDLTCTVATCTHS-------SD--FGGV-LTLTYKTNKNGDCSVHSHSNVATLQ-------------EAT  343 (391)
+T ss_pred             ccccccCCccccccccccccccc-------CC--ccce-eeeeeecCCCCCccccccccchhhc-------------ccc
+Confidence            331111111111  233455542       33  3454 456787632 345442221111110             011
+
+
+Q ss_pred             eeecCCCcceeeccccccchhhhhhhhhhhhhhhhhc-----cccccccCC
+Q mcfa.fasta      329 VKCGNHTSTLLVGSTSVSIECALNPISQGWRLARHVV-----DRYRRFGVS  374 (427)
+Q Consensus       329 I~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r~~~~g-----d~aw~~dfg  374 (427)
+                      +-+ ..++++++|=+..++.-.|.--+=+.+-.-.--     |+-=  +++
+T Consensus       344 v~v-~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkdHiv--~~p  391 (391)
+T semlikiforest.  344 AKV-KTAGKVTLHFSTASASPSFVVSLCSARATCSASCEPPKDHIV--PYA  391 (391)
+T ss_pred             eee-eccceeeEeeeccCCCCceeeeecccccccccCCCCCccCCC--CCC
+Confidence            111 012334444222333222221111110000000     0000  000
+
+
+No 30 
+>bunyaG1.fasta
+Probab=0.00  E-value=28  Score=-12.62  Aligned_cols=379  Identities=11%  Similarity=0.063  Sum_probs=124.5
+
+Q ss_pred             CCCcccc-cccccccce------------eeeeecCCCceeee-c--cCcceeeeeccceeecchhhhhhhc--cccc-c
+Q mcfa.fasta        1 EFVEPLY-TLKAEQMTM------------LQTIVRPEEGYVVA-T--PNGLLEFKTGPAEIYGGQWLRELLA--DCHV-N   61 (427)
+Q Consensus         1 Dfveg~~-~~~~~G~Tw------------vd~~vLe~~~CVTi-~--~kptlDi~l~~~~~~~~a~~R~yc~--~a~v-s   61 (427)
+                      --|-|.| .|..+|+.=            ++ ++--.+.=..+ +  +++++||-+- +..-.....=.+.|  ..++ .
+T Consensus       453 PhIkP~YK~ITIqG~et~dGIenAyIe~~ip-aisG~s~g~~i~~k~g~~lfDiiIy-VKsA~v~~~Y~~iY~TGPti~i  530 (2165)
+T bunyaG1.fasta   453 PHIKPIYKYITIEGTETAEGIESAYIESEVP-ALAGTSIGFKINSKEGKHLLDVIAY-VKSASYSSVYTKLYSTGPTSGI  530 (2165)
+T ss_pred             CCcccccceeeeeccccccccccceeecccc-cccccccceeecccCCcccceEEEE-EEeeeeeeccccccccCCcccc
+Confidence            0000000 000000000            11 00000111122 2  6788887654 22211111112222  2222 2
+
+
+Q ss_pred             cccccccCCCCcccchhhhhcccccccCCCCcCCCcccccccccccc-ccccccccccC--ccccccee---ceeEEEEE
+Q mcfa.fasta       62 ASYSTDVCPGGSQLNMADIMAKERVCSTQPYNRGWGTGCFKWGIGFV-GTCVELHCDRG--FNVSSIAR---SAIVMNVT  135 (427)
+Q Consensus        62 ~~~s~~~CPt~Gea~l~e~~~~~~vCk~~~~dRGWGnGCglfGkGsi-~tCakf~C~~~--~~~~~i~~---enI~y~V~  135 (427)
+                      +++....|-+.=+...++..+-..+|+.--|.  ||  |=.||==+| ..|+--.|...  -...+|..   |.+.-+|=
+T Consensus       531 n~~h~e~CTG~Cp~~i~~~~gwltFs~E~TS~--WG--CEE~GCLAIneGCv~GsCqDVI~~e~~VYkk~~ee~v~~eiC  606 (2165)
+T bunyaG1.fasta   531 NTKHDELCTGPCPANINHQVGWLTFARERTSS--WG--CEEFGCLAVSDGCVFGSCQDIIKEELSVYRKETEEVTDVELC  606 (2165)
+T ss_pred             ccccCccccCCCCCcccccccccccccccCCc--cc--ccccccccccCCccccccccccccccchhhcccccceeeeee
+Confidence            44555556555555666556666778875554  43  445543333 23666677764  22233332   33333333
+
+
+Q ss_pred             Ee-ecccccccccc----CCCceeeeecccceeeeeecccccccccceeeeecCCcccchhhhhhccCCccccCCCCCcC
+Q mcfa.fasta      136 AS-FHSVSDTQQMV----GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASGRHG  210 (427)
+Q Consensus       136 v~-vH~~~~~~~~~----~s~~~t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~Dl~lPW~~~~~w~~  210 (427)
+                      +. +|+..=.....    ..+..+++|..   +.+       .-+.+...+    +--.|..-+++||-=.  +..    
+T Consensus       607 It~~~~t~C~~i~~~~P~itd~~e~q~~T---vd~-------~~lp~liav----k~~kiy~GqINdLG~~--sk~----  666 (2165)
+T bunyaG1.fasta   607 LTFSDKTYCTNLNPVTPIITDLFEVQFKT---VET-------YSLPRIVAV----QNHEIKIGQINDLGVY--SKG----  666 (2165)
+T ss_pred             cccCCCcccccCCCCccccccceeEEeec---ccc-------ccccchhhh----cccccccccccccccc--cCC----
+Confidence            33 22211111110    23333333321   111       111112222    2226677788888762  222    
+
+
+Q ss_pred             ccceeeeccccccceeeeeecCcchhhhhhhhc--------------------------------------cCcccccce
+Q mcfa.fasta      211 MEKVVVWGDARSNEILVKNVIEPSLSWEDAIAT--------------------------------------HGGFRDISF  252 (427)
+Q Consensus       211 ~e~lV~f~~phA~k~~V~~lg~qega~~~ALag--------------------------------------~~~l~~Ghl  252 (427)
+                            ||.|-.+...|.-.|.+.-.+.=+.++                                      ...+.-|.+
+T Consensus       667 ------CG~vQ~~n~~v~G~g~pkfdy~Cha~~rKdVivrkC~dN~Y~sC~~Le~~~~~~~~~~~~~i~v~~~~~~lG~l  740 (2165)
+T bunyaG1.fasta   667 ------CGNVQKVNGTIYGNGVPRFDYLCHLASRKEVIVRKCFDNDYQACKFLQSPASYRLEEDSGTVTIIDYKKILGTI  740 (2165)
+T ss_pred             ------CCccccccccccCCCCCCccccccccccceeeeeccccccchhhccccCCCccccccCCCceEEeeccccccee
+Confidence                  555555555555556666665555555                                      011122223
+
+
+Q ss_pred             eEeeeccceeeccccCCCCCccccccccCcC----cceeEEEEeeccCC-cccccceeee------eeeeccchhhhcc-
+Q mcfa.fasta      253 VCQIMLDKLVSGAFRDCPGPKISTFSQDGFG----YSGVVITTLTASSN-ETCSLSLTCH------GCLLQSTKMIFLA-  320 (427)
+Q Consensus       253 ~Cri~ldkL~~~ty~~C~~~fs~~k~p~~tg----h~tVV~~v~y~gt~-~pCripi~~~------G~lit~npiv~~~-  320 (427)
+                      +=+|+|-.+   .|.+=+..-.+...-.=.|    ..++.-++.++.+. ..|+|.-.|.      .-.-..|++-+.- 
+T Consensus       741 k~ki~LGDi---~yk~f~~~~~i~~~~~C~GC~~C~~gi~C~l~i~S~~~~~C~I~s~C~~~~~~i~i~~g~~~y~iK~~  817 (2165)
+T bunyaG1.fasta   741 KMKAILGDV---KYKTFADSVDITAEGSCTGCINCFENIHCELTLHTTIEASCPIKSSCTVFHDRILVTPNEHKYALKMV  817 (2165)
+T ss_pred             eeEEeeccc---cccccccccccccccccCCccCcccccccceeecccccccccccccccccccceeeccCcccceeeee
+Confidence            333322222   2332222111100000000    14566777776443 4777774443      1111222222221 
+
+
+Q ss_pred             --Cccc-ccceeeecCCCcceeec-cccccchhhhhhhhhhhhhhhhhcccc-----c-cccC-Ccccchhhhhhccccc
+Q mcfa.fasta      321 --GKTT-SRAFVKCGNHTSTLLVG-STSVSIECALNPISQGWRLARHVVDRY-----R-RFGV-SGVAGVWQDLVGKFSV  389 (427)
+Q Consensus       321 --epp~-G~s~I~~G~g~~~l~~~-~~gssIg~~f~~t~kg~~r~~~~gd~a-----w-~~df-gsvGGvfH~vfG~~~f  389 (427)
+                        +.|- --.+-+||+- -.+... ....++=.    +.. .--...+.+.-     | -.-. -+++.+ .|.+-+ .|
+T Consensus       818 C~~~~~~~i~i~IC~~~-~~~~~~l~~~~~~ie----l~~-~DqttyI~e~D~rC~TwlC~v~dEgi~~i-wd~~~~-~~  889 (2165)
+T bunyaG1.fasta   818 CTEKPGNTLTIKVCNTK-VEASMALVDAKPIIE----LAP-VDQTAYIREKDERCKTWMCRVRDEGGPTS-WVVVDG-KY  889 (2165)
+T ss_pred             ecCCCCCceeEEeeccc-ccccccccccccccc----ccC-CCccccccccccccccccccccccCCccc-eeeccc-cc
+Confidence              3332 3334444321 111111 11111000    000 00011111100     0 0000 122333 333333 34
+
+
+Q ss_pred             cccc-----chhhHHHHHHHhhhhhhhh--HHHHHhhhhhccccC
+Q mcfa.fasta      390 GAFF-----SNTALLVILVLAALIDKRI--AFLLVLGGYFYYVRA  427 (427)
+Q Consensus       390 ~~lF-----gg~sw~~~ililg~n~r~~--~vg~ill~l~~~V~A  427 (427)
+                      +.|.     ++.+=+     +=+|+...  .-=+++-.=.+||.-
+T Consensus       890 ~~~~e~~~~~~~g~v-----~~~~~~~~~~~~~~~~~~k~~gv~y  929 (2165)
+T bunyaG1.fasta   890 RYMIEQSLLGGGGTI-----FMLNDKTSETAKKFVIYIKSVGIHY  929 (2165)
+T ss_pred             eeeehhcccCCCcce-----eecccccccccceeeeeeeccceee
+Confidence            3321     000000     00111100  000000000000000
+
+
+No 31 
+>tenuivirus.fasta
+Probab=0.00  E-value=28  Score=-2.93  Aligned_cols=320  Identities=10%  Similarity=0.013  Sum_probs=89.9
+
+Q ss_pred             CCC-----------------cc-----------cccccccccceeeeee-cCCCceeeeccCcceeeeeccceeecchhh
+Q mcfa.fasta        1 EFV-----------------EP-----------LYTLKAEQMTMLQTIV-RPEEGYVVATPNGLLEFKTGPAEIYGGQWL   51 (427)
+Q Consensus         1 Dfv-----------------eg-----------~~~~~~~G~Twvd~~v-Le~~~CVTi~~kptlDi~l~~~~~~~~a~~   51 (427)
+                      =||                 |.           -+.=+-+...-+. +- ..+++|+.+. ...|.|++..+...=....
+T Consensus       324 ~~~~~~~~~~~~~~~~~sCQevv~i~S~~tvCt~~~C~~~ts~~L~-LnpiGQEaCLrLk-ig~IKIK~ksI~L~C~K~t  401 (784)
+T tenuivirus.fas  324 IFIPYVLMILLLVCSAESCQDLVSSISNIERCTNNSCDFISKMKLT-LLNTPQDFCFKTS-TDVYKIRFNSVRVMCLSVP  401 (784)
+T ss_pred             hhhhHHHHHHHhhhccccccccccccccccccCCcccccceeeeee-ccCCCcccccccc-cceeEEEEecceeeccccc
+Confidence            000                 00           0000000001111 11 4567888888 6777777777766533333
+
+
+Q ss_pred             hhhhcccccccccccccCCCCcc---------cchhhhhc----ccccccCCCCcCCCccccccc---cc-----c----
+Q mcfa.fasta       52 RELLADCHVNASYSTDVCPGGSQ---------LNMADIMA----KERVCSTQPYNRGWGTGCFKW---GI-----G----  106 (427)
+Q Consensus        52 R~yc~~a~vs~~~s~~~CPt~Ge---------a~l~e~~~----~~~vCk~~~~dRGWGnGCglf---Gk-----G----  106 (427)
+                      --|=.+.++.    .-|||. +=         ..++|-..    ...-|..+-       |||..   =+     -    
+T Consensus       402 LYFTRD~k~k----sKRC~~-SCsg~dkC~~nstIPELs~a~~pG~TgC~eSC-------GCF~~CLFYR~~~~~IYa~P  469 (784)
+T tenuivirus.fas  402 LYYTNSFKRV----ISREEW-KCFEGEGCRTDGTHSIWGESTSLSFDYCVTDF-------HIFSYCPAYHYNWKRIEYEP  469 (784)
+T ss_pred             cccccccccc----cccccc-cccCCCCccCCCCcccccccCCCCcccccccc-------ccccccccccccceeeeecc
+Confidence            3333333333    667776 21         11222221    122355544       68874   11     0    
+
+
+Q ss_pred             -ccccccccccccCcccccceeceeEEEEEEeecc-------ccccccccCCCceeeeeccc-------------ceee-
+Q mcfa.fasta      107 -FVGTCVELHCDRGFNVSSIARSAIVMNVTASFHS-------VSDTQQMVGDIPLTFRFAKL-------------GNAA-  164 (427)
+Q Consensus       107 -si~tCakf~C~~~~~~~~i~~enI~y~V~v~vH~-------~~~~~~~~~s~~~t~~lgdY-------------G~vt-  164 (427)
+                       +=..+--|+|..         -+-+.++.++..+       +.....  ..+..++.+-.+             +... 
+T Consensus       470 tS~~IYEVFkC~s---------W~~eV~IeVT~n~~~ti~L~~~t~~~--~~~~IsITL~si~ip~~ps~FI~~~~~~AL  538 (784)
+T tenuivirus.fas  470 TSSRACTIMKCMD---------TKFEIVGYIQKNGHVLKELGGITSKY--DSPLVSISLSNYNSARMPREYAECDGKAYL  538 (784)
+T ss_pred             CCCcceeeeeecc---------ceeeEEEEEeeccceeeecccccccc--CCCceEEEeecccccCCcccccccCCceee
+Confidence             001122223332         1111111111111       000000  000111111111             1110 
+
+
+Q ss_pred             ----------------eeecccccc-cccceeeeecC---CcccchhhhhhccCCccccC----CCCCcC-ccceeeecc
+Q mcfa.fasta      165 ----------------MTCRLESEQ-LLLDYYHVTGS---SHEGLFLRSQVDSWPGVHST----ASGRHG-MEKVVVWGD  219 (427)
+Q Consensus       165 ----------------l~Cr~~sg~-Dl~~~ylv~~~---~~~wlV~r~w~~Dl~lPW~~----~~~w~~-~e~lV~f~~  219 (427)
+                                      +.|.-.... ++..-+....+   .-.-.=.++.+..-.||-+.    +. |.- .+.+.-+-.
+T Consensus       539 ~d~n~~G~p~kG~IGeLQCpTkedA~~~s~nC~~~~~lCs~C~~Idi~ei~~~nrLPi~~~~~~~~-v~fs~n~V~A~Ts  617 (784)
+T tenuivirus.fas  539 RTANDLGSFDKELLGNIQCPTKEDAVVLSSKCKTKILSNEDLPVIRYIERDGVDMLEHVKSEPLKD-VLVSSSGISLSTL  617 (784)
+T ss_pred             ecccccCcccccccccccCCChhhhhhcccccccccccccCcccchhhcccccccccccccCCCcc-eeecccceeeecc
+Confidence                            222211100 00000110000   00000000112223444443    21 110 111111100
+
+
+Q ss_pred             ccccceeee-eecCcchhhhhhhhccCcccccceeEe------------------eeccceeeccccCCCCCcc--cccc
+Q mcfa.fasta      220 ARSNEILVK-NVIEPSLSWEDAIATHGGFRDISFVCQ------------------IMLDKLVSGAFRDCPGPKI--STFS  278 (427)
+Q Consensus       220 phA~k~~V~-~lg~qega~~~ALag~~~l~~Ghl~Cr------------------i~ldkL~~~ty~~C~~~fs--~~k~  278 (427)
+                       ......+. .+.+    ++.++.+ -++..-.-+|.                  =+...   +.--.|.+.+.  +...
+T Consensus       618 -~~vsaeL~L~~kn----~~tSi~~-~~~vV~~~tCsLtGCYSC~kGAqV~IsCsSs~~t---sai~~C~~~~~~~fii~  688 (784)
+T tenuivirus.fas  618 -DLFPVELNLQFKE----AITSIIT-SKISLNGTSCKITGIERKFKKTTVSIESSNKVYL---SDILACEGLAVCPMILN  688 (784)
+T ss_pred             -cccceEEEeeeec----ceeeeee-cceeccCccceeeccccCCCcceEEEEeeccccc---ceeeeccCCccccceee
+Confidence             00011110 0100    1111100 00011112222                  21100   00001222123  3322
+
+
+Q ss_pred             ccCcCcce-eEEEEeeccCCccccc--------------ceeeeeeeeccchhhhccCcccccceee----ecCCCccee
+Q mcfa.fasta      279 QDGFGYSG-VVITTLTASSNETCSL--------------SLTCHGCLLQSTKMIFLAGKTTSRAFVK----CGNHTSTLL  339 (427)
+Q Consensus       279 p~~tgh~t-VV~~v~y~gt~~pCri--------------pi~~~G~lit~npiv~~~epp~G~s~I~----~G~g~~~l~  339 (427)
+                      ....++.+ +.+.........-|++              |+.++|.|...+|--|.+-...-..|..    +-....+|.
+T Consensus       689 ~~~g~~~~~i~fhf~tA~V~e~Csv~sCGg~~~~~~~~t~feItGiL~yvd~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  768 (784)
+T tenuivirus.fas  689 NIKKGTCITTTYYSVTVGSMIKCKFIYSGDTLMCKYDVSPLEITVISPSLDVSSFEAVKTSTTNWMELLAGIVKDNPKLS  768 (784)
+T ss_pred             ecCCCceeeEEEeeeccccceeeeeeecCCcccccccCccceEEeecCCccccchhhhcccchhhHHHHHHhhhcCcchh
+Confidence            11112222 2333334444566776              5566677777777666552222122211    111111222
+
+
+Q ss_pred             eccccccchhhhhhhh
+Q mcfa.fasta      340 VGSTSVSIECALNPIS  355 (427)
+Q Consensus       340 ~~~~gssIg~~f~~t~  355 (427)
+                      .-.+-.+||-.+.++.
+T Consensus       769 ~~~~~~~~~~~~~~~~  784 (784)
+T tenuivirus.fas  769 LVASIIPIGLILKTIR  784 (784)
+T ss_pred             hhhhhhhhhhhhcccC
+Confidence            2222223332221110
+
+
+No 32 
+>alphavirusclstr.fasta
+Probab=0.00  E-value=28  Score=-6.70  Aligned_cols=354  Identities=11%  Similarity=0.047  Sum_probs=132.4
+
+Q ss_pred             CC--Cc--ccccccccccceeeeeecCCC---------ceeeeccCc-----ceeeeeccceeecchhhhhh--hccccc
+Q mcfa.fasta        1 EF--VE--PLYTLKAEQMTMLQTIVRPEE---------GYVVATPNG-----LLEFKTGPAEIYGGQWLREL--LADCHV   60 (427)
+Q Consensus         1 Df--ve--g~~~~~~~G~Twvd~~vLe~~---------~CVTi~~kp-----tlDi~l~~~~~~~~a~~R~y--c~~a~v   60 (427)
+                      -|  +-  |+     +   =+  --.||-         -+-++.+||     .|+|.+.+++. .|..-.||  |.--+|
+T Consensus        52 ~FL~v~~~g~-----~---~~--~AyEH~~~~Pn~vg~pyka~V~R~GyaPl~L~i~v~~~~l-~Ptl~leYiTC~ykTv  120 (504)
+T alphavirusclst   52 AFLAVMSIGA-----H---TV--SAYEHVTVIPNTVGVPYKTLVNRPGYSPMVLEMELLSVTL-EPTLSLDYITCEYKTV  120 (504)
+T ss_pred             hHHHHHhhhc-----c---cc--ccccccccccCCCCCcccccccCCCCCcceeEEEeecccc-cccccccccccccccc
+Confidence            00  00  00     0   00  001110         122222332     34455555444 34555555  222233
+
+
+Q ss_pred             ccccccccCCCCcccchhhhhcccccccC--CCCcCCCccccccccccccccccc-------------ccccc-Cccccc
+Q mcfa.fasta       61 NASYSTDVCPGGSQLNMADIMAKERVCST--QPYNRGWGTGCFKWGIGFVGTCVE-------------LHCDR-GFNVSS  124 (427)
+Q Consensus        61 s~~~s~~~CPt~Gea~l~e~~~~~~vCk~--~~~dRGWGnGCglfGkGsi~tCak-------------f~C~~-~~~~~~  124 (427)
+                      ...-.. +|=+.-|  =.....++|-||.  +.+-==||-        .-+=|-.             -.|+. ++..|-
+T Consensus       121 vpSP~v-kCCG~~e--C~~~~~~Dy~CkVftGVYPfmWGG--------AyCFCdsENtQ~SeayV~~s~~C~~dhA~Ayk  189 (504)
+T alphavirusclst  121 IPSPYV-KCCGTAE--CKDKNLPDYSCKVFTGVYPFMWGG--------AYCFCDAENTQLSEAHVEKSESCKTEFASSYR  189 (504)
+T ss_pred             cCCCcc-ccccCCc--ccCCCCCCCcccccccccccccCC--------ccccCccccchhhhhhhhccccchhhhhhhhh
+Confidence            333222 2322222  2235567888874  455555553        2222321             11332 344444
+
+
+Q ss_pred             ceeceeEEEEEEeec-----------ccccccccc----------------------CCCceeeeecccceee------e
+Q mcfa.fasta      125 IARSAIVMNVTASFH-----------SVSDTQQMV----------------------GDIPLTFRFAKLGNAA------M  165 (427)
+Q Consensus       125 i~~enI~y~V~v~vH-----------~~~~~~~~~----------------------~s~~~t~~lgdYG~vt------l  165 (427)
+                      .....++-.+.|.+-           |-.....+.                      ..+-.--+|+.||.-.      +
+T Consensus       190 ~Htas~~a~l~it~G~~~~~~~~yvNG~t~~~~~~~k~i~GPiStawsPFD~KiV~y~~~VYNyDfP~YGag~pG~FGDI  269 (504)
+T alphavirusclst  190 AHTASASAKLRVLYQGNNITVTAYANGDHAVTVKDAKFIVGPMSSAWTPFDNKIVVYKGDVYNMDYPPFGAGRPGQFGDI  269 (504)
+T ss_pred             hccccccceeEEeeeccceeEEEEeccccccccccceeeccccccccCCcccceeeecccccccCCCCCCCCCCCCcccc
+Confidence            444444444444433           222221110                      3333334566665421      1
+
+
+Q ss_pred             eeccccccc-ccceeeeecCCcccchhhhhhccCCccccCCCC----C-cCccceeeeccccccceeeeeecCcchhhhh
+Q mcfa.fasta      166 TCRLESEQL-LLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASG----R-HGMEKVVVWGDARSNEILVKNVIEPSLSWED  239 (427)
+Q Consensus       166 ~Cr~~sg~D-l~~~ylv~~~~~~wlV~r~w~~Dl~lPW~~~~~----w-~~~e~lV~f~~phA~k~~V~~lg~qega~~~  239 (427)
+                      .=|-..+-| +.|.-+.-...++.        .+..|++-...    | +|+.+=+...-|+--+|++--    -.|+.=
+T Consensus       270 Q~rt~~s~DlyAnT~l~L~rP~~g--------~iHVPYTQ~pSGf~~W~~~~g~~L~~tAPfGC~I~~nP----vrA~nC  337 (504)
+T alphavirusclst  270 QSRTPESKDVYANTQLVLQRPAAG--------TVHVPYSQAPSGFKYWLKERGASLQHTAPFGCQIATNP----VRAMNC  337 (504)
+T ss_pred             cccCCCcchhhhcccccccCCCCC--------cccccccCCCchhhhhhhhccccccCCCCcccccccCc----cccccc
+Confidence            112112222 11222222233333        44467765433    7 677788888888888887732    222222
+
+
+Q ss_pred             hhhc---cCcccccceeEeeeccceee--ccccCCCCCccccccccCcCcceeEEEEeeccCCcccccceeeeeeeeccc
+Q mcfa.fasta      240 AIAT---HGGFRDISFVCQIMLDKLVS--GAFRDCPGPKISTFSQDGFGYSGVVITTLTASSNETCSLSLTCHGCLLQST  314 (427)
+Q Consensus       240 ALag---~~~l~~Ghl~Cri~ldkL~~--~ty~~C~~~fs~~k~p~~tgh~tVV~~v~y~gt~~pCripi~~~G~lit~n  314 (427)
+                      |..-   ...|.+-.|+=-..--.+..  -+-..|+..       +|+  |+| ..++|+. +.+=+-+|-.+-..    
+T Consensus       338 avG~IPiS~DIPDA~FtRv~daP~vs~l~Ctv~~CtyS-------sDF--GGv-atl~Y~a-~k~GkCaVHS~S~~----  402 (504)
+T alphavirusclst  338 AVGNMPISIDIPDAAFTRVVDAPSLTDMSCEVPACTHS-------SDF--GGV-AIIKYAV-SKKGKCAVHSMTNA----  402 (504)
+T ss_pred             cCcccccccccccccccccccCCccccccccccccccc-------CCC--cce-eEEEeec-ccCCcccccccccc----
+Confidence            2211   22333333321111111111  223445542       333  454 4567876 34433333332111    
+
+
+Q ss_pred             hhhhccCcccccceeeecCCCcceeeccccccchhhhhhhhhhhhhhh----------hhccccccccCCcccchhhhh-
+Q mcfa.fasta      315 KMIFLAGKTTSRAFVKCGNHTSTLLVGSTSVSIECALNPISQGWRLAR----------HVVDRYRRFGVSGVAGVWQDL-  383 (427)
+Q Consensus       315 piv~~~epp~G~s~I~~G~g~~~l~~~~~gssIg~~f~~t~kg~~r~~----------~~gd~aw~~dfgsvGGvfH~v-  383 (427)
+                        +...     +|.+-+ ..++++++|=+..++.-.|.--+=+.+-.-          |+..-+-           |+= 
+T Consensus       403 --atlq-----es~v~v-~~~G~~t~HFSTAs~~p~F~VqvCsa~vTC~a~C~PPkdHiv~~p~~-----------H~~~  463 (504)
+T alphavirusclst  403 --VTIR-----EAEIEV-EGNSQLQISFSTALASAEFRVQVCSTQVHCAAECHPPKDHIVNYPAS-----------HTTL  463 (504)
+T ss_pred             --ceee-----cceeee-ecccceeEeeeccccccceeeeeccccccccccCCCCccccccCCCC-----------cccc
+Confidence              1111     111111 124466666556666666654444433221          2222222           221 
+
+
+Q ss_pred             hcccccccccchhhHHHHHHHhhhhhhhhHHHHHhhhhhccccC
+Q mcfa.fasta      384 VGKFSVGAFFSNTALLVILVLAALIDKRIAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       384 fG~~~f~~lFgg~sw~~~ililg~n~r~~~vg~ill~l~~~V~A  427 (427)
+                      |+. +++  =.-|||+.+|+-  =.+--+++++|+|...+-|..
+T Consensus       464 ~~~-aIS--~TAwSWl~~L~G--G~ssli~ialiVlvVV~cVv~  502 (504)
+T alphavirusclst  464 GVQ-DIS--ATAMSWVQKITG--GVGLVVAVAALILIVVLCVSF  502 (504)
+T ss_pred             ccc-ccc--hhhhhhHHHHhc--chhHHHHHHHHHHHHHhhhhc
+Confidence            222 111  123455555422  111123333333332221100
+
+
+No 33 
+>hantavirus.fasta
+Probab=0.00  E-value=28  Score=-6.83  Aligned_cols=385  Identities=12%  Similarity=0.072  Sum_probs=147.0
+
+Q ss_pred             Ccccccccccccceeeee----------------ecCCCceeeec--------cCcceeeeeccceeecchhhh--hhhc
+Q mcfa.fasta        3 VEPLYTLKAEQMTMLQTI----------------VRPEEGYVVAT--------PNGLLEFKTGPAEIYGGQWLR--ELLA   56 (427)
+Q Consensus         3 veg~~~~~~~G~Twvd~~----------------vLe~~~CVTi~--------~kptlDi~l~~~~~~~~a~~R--~yc~   56 (427)
+                      .+.      --..|-||.                -|.-.+=-|-.        ++-.|.|-++--.|.=-|.+.  .=-+
+T Consensus         1 ~~~------l~p~W~DtAHGVG~vpm~tDLELDFSL~SSS~YTYrR~L~nP~n~~Q~Ipfhi~i~~Q~i~a~vQ~LGhW~   74 (486)
+T hantavirus.fas    1 TQN------LNPGWTDTAHGSGIVPMKTDLELDFSLPSSASYTYRRQLQNPANEQEKIPFHLQIEKQVIHAEIQHLGHWM   74 (486)
+T ss_pred             CCC------CCCCCcccccccccccccccccccccCCCCCcccccccccCCCcccCccceeEeeecceeeeehhcccccc
+Confidence            000      001122200                00000000000        111222222211111111111  1233
+
+
+Q ss_pred             ccccccccccccCCCCcccchhhhhcccccc---cCCCCcCCCccc-ccccccccccccccccccc-CcccccceeceeE
+Q mcfa.fasta       57 DCHVNASYSTDVCPGGSQLNMADIMAKERVC---STQPYNRGWGTG-CFKWGIGFVGTCVELHCDR-GFNVSSIARSAIV  131 (427)
+Q Consensus        57 ~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vC---k~~~~dRGWGnG-CglfGkGsi~tCakf~C~~-~~~~~~i~~enI~  131 (427)
+                      +|++| +|++=.|=+.=.-+  +-+=..-.|   |-=++.|+||.- =-=+|.|--.||.-.-=.| +..+..+.-++|+
+T Consensus        75 dA~~N-~Kt~FHCyG~C~ky--~ypwqta~C~~ekD~qye~~W~CNP~dCpGVGTGCTaCGlyldKlk~vg~~~kii~lk  151 (486)
+T hantavirus.fas   75 DATFN-LKTAFHCYGSCEKY--AYPWQTAGCFVEKDFEFENGWGCNPPDCPGVGTGCTACGVYLDKLKSVGKVFKIISLR  151 (486)
+T ss_pred             ccccc-cccccccccccccc--cCCccccccccccccccccCCCCCCCCCCCCCCccccccchhhhcccccceeEEEeee
+Confidence            44433 44444343321110  000011124   333578899743 2236777777765544444 5668889999999
+
+
+Q ss_pred             EEEEEeecccccccc----cc---CCCceeeeecccceeeeeecccccccccceeeeecCCcccchhhhhhc--------
+Q mcfa.fasta      132 MNVTASFHSVSDTQQ----MV---GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVD--------  196 (427)
+Q Consensus       132 y~V~v~vH~~~~~~~----~~---~s~~~t~~lgdYG~vtl~Cr~~sg~Dl~~~ylv~~~~~~wlV~r~w~~--------  196 (427)
+                      |+..|-|--+++..-    .|   .+.++.+-+  -|+++   .++.+   +....+..=....++.|+|=-        
+T Consensus       152 y~r~VCVQlg~E~~Ck~Idandcfvt~~vkVC~--igTvS---k~q~g---dtLlflgPle~Gg~i~kqwCttsC~fGdP  223 (486)
+T hantavirus.fas  152 YTRKACIQLGTEQTCKNVDSNDCLITTSVKVCL--IGTIS---KFQPS---DTLLFLGPLEQGGLIFKQWCTTTCQFGDP  223 (486)
+T ss_pred             cccceeeecCcccccccccCCcccccccceeEE--eeccc---cccCC---ceeeeccccccccceeeecccccccCCCC
+Confidence            999998887755431    11   333333311  11111   11111   111222222345566777742        
+
+
+Q ss_pred             -cC---CccccCCCCCcCccceeeecc-ccccceeeeeecCcchhhhhhhhccCcccccceeEeeeccceeeccccCCCC
+Q mcfa.fasta      197 -SW---PGVHSTASGRHGMEKVVVWGD-ARSNEILVKNVIEPSLSWEDAIATHGGFRDISFVCQIMLDKLVSGAFRDCPG  271 (427)
+Q Consensus       197 -Dl---~lPW~~~~~w~~~e~lV~f~~-phA~k~~V~~lg~qega~~~ALag~~~l~~Ghl~Cri~ldkL~~~ty~~C~~  271 (427)
+                       |+   +-...-|+.--.+++.-.|+. |--.++     |+.-.-.++-+|+++.|.+-.+      .+..+     =.+
+T Consensus       224 GDIm~~~~~~~cP~~~gsfrk~C~fa~tP~CeY~-----Gn~isGykr~~aT~DSfqsfN~------t~~h~-----t~~  287 (486)
+T hantavirus.fas  224 GDIMSTPIGMKCPELNGSFRKKCAFATTPVCQFD-----GNTISGYKRMIATKDSFQSFNV------TEPHI-----SAS  287 (486)
+T ss_pred             cccccCCCCccCCCCcccccccccccCCCccccc-----Ccccccchhhhhcccccccccc------Ccccc-----ccc
+Confidence             11   111111111112344444443 222333     2333334455665444433211      11111     112
+
+
+Q ss_pred             CccccccccCcCcceeEEEEe----ec-cCCcccccceeee----------eeeec-------cchhhhcc-----Cccc
+Q mcfa.fasta      272 PKISTFSQDGFGYSGVVITTL----TA-SSNETCSLSLTCH----------GCLLQ-------STKMIFLA-----GKTT  324 (427)
+Q Consensus       272 ~fs~~k~p~~tgh~tVV~~v~----y~-gt~~pCripi~~~----------G~lit-------~npiv~~~-----epp~  324 (427)
+                      ...| ..|.+.=.|-|=+.|.    ++ -++.||||-+...          |-.++       .+.++++-     --=|
+T Consensus       288 ~leW-~dpd~~~kDHiNi~v~rdi~F~dL~enPCkv~l~t~~ieGaWGSgvGftl~C~vsLtEC~~flTsiKaCD~A~CY  366 (486)
+T hantavirus.fas  288 ALEW-IDPDSSLRDHINVIVGRDLSFQDLSETPCQIDLATSSIDGAWGSGVGFNLVCSISLTECATFLTSIKACDSAMCY  366 (486)
+T ss_pred             cccc-cCCCcccccceeeeeccccccccccCCccccccccccccCcccccccceeeecccccchhhhhhhhhhccccccc
+Confidence            2233 3455555555444432    22 3467999988764          22222       23333321     3347
+
+
+Q ss_pred             ccceeeecCCCcceeeccccccchhhhh----h--hhhh-------hhhhhhhc--cccccccCCc-ccchhhhhhcccc
+Q mcfa.fasta      325 SRAFVKCGNHTSTLLVGSTSVSIECALN----P--ISQG-------WRLARHVV--DRYRRFGVSG-VAGVWQDLVGKFS  388 (427)
+Q Consensus       325 G~s~I~~G~g~~~l~~~~~gssIg~~f~----~--t~kg-------~~r~~~~g--d~aw~~dfgs-vGGvfH~vfG~~~  388 (427)
+                      |.+-+-.=+|..++++..+|-.-|..|.    .  ...|       +.|..-..  |.---||=|. .=|+ +=-|-+ .
+T Consensus       367 Ga~~~~L~RG~Ntv~v~GkGGHSGS~FkcCH~~~Cs~~gl~a~aPHL~rv~g~~~~~~~~vydDGap~c~i-~cwf~K-s  444 (486)
+T hantavirus.fas  367 GSTTANLVRGQNTVHIVGKGGHSGSKFMCCHDTKCSSSGLTAAAPHLDRVTGYNQADSDKVFDDGAPECGM-SCWFKK-S  444 (486)
+T ss_pred             ccccceeecccceeEeecccCCCCCccccccCCccccccccccccccccccccccCCCCccccCCCCcccc-cccccc-c
+Confidence            7777777788888888744333333331    1  1112       22222111  0011112111 1122 222222 1
+
+
+Q ss_pred             cccccc--hhhHHHHHHHhhhhhhhhHHHHHhhhhhccccC
+Q mcfa.fasta      389 VGAFFS--NTALLVILVLAALIDKRIAFLLVLGGYFYYVRA  427 (427)
+Q Consensus       389 f~~lFg--g~sw~~~ililg~n~r~~~vg~ill~l~~~V~A  427 (427)
+                      --||.|  .-.|++-++++.+    +++-.+|+.+.--|+.
+T Consensus       445 gEWl~Gi~~GNW~V~~vlv~~----li~Si~l~s~~CP~r~  481 (486)
+T hantavirus.fas  445 GEWILGVLNGNWMVVAVLIAL----LILSIFLFALCCPRRA  481 (486)
+T ss_pred             cchhhhhccchhHHHHHHHHH----HHHHHHHHhhhccccc
+Confidence            112222  1257776666433    2222233222211110
+
+
+Done!

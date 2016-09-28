@@ -1,0 +1,567 @@
+Query         leishmaniainfantumSS
+Match_columns 559
+No_of_seqs    203 out of 246
+Neff          7.5 
+Searched_HMMs 144
+Date          Thu Aug  4 12:33:27 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/leishmaniainfantumSS.a3m.hhm -ohhm ./structurepred/leishmaniainfantumSS.a3m.hhm -o ./structurepred/leishmaniainfantumSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3idu_A Uncharacterized protein  10.9 1.5E+02   0.021   20.3  36.1   93  404-505    20-118 (127)
+  2 3vta_A Cucumisin; subtilisin-l  10.0 3.4E+02   0.049   23.9  39.3   91  409-504   521-618 (621)
+  3 2w0t_A Lethal(3)malignant brai   2.3   4E+02   0.053   14.9   5.6   30  294-323     1-30  (43)
+  4 2iw0_A Chitin deacetylase; hyd   2.2 6.9E+02     0.1   18.2   9.5   52    8-63      4-56  (254)
+  5 2xzz_A Protein-glutamine gamma   1.2 8.5E+02    0.12   15.2  30.4   90  381-497     4-94  (102)
+  6 3q48_A Chaperone CUPB2; IG fol   0.9 1.3E+03    0.18   16.3  36.5  102  396-508    28-145 (257)
+  7 4djm_A DRAB; chaperone, PILI;    0.5 1.8E+03    0.25   15.0  39.4  114  394-518    20-154 (239)
+  8 3ncx_A Intimin, intimin adhere   0.5 1.9E+03    0.26   14.7  23.5   77  359-451    26-119 (189)
+  9 2co7_B SAFB chaperone, putativ   0.4 2.1E+03     0.3   14.0  40.2  116  381-518     8-137 (221)
+ 10 1nep_A EPV20, BNPC2, epididyma   0.2 2.7E+03    0.39   11.3  51.6  123  372-507     2-130 (130)
+ 11 3qkx_A Uncharacterized HTH-typ   0.2 2.8E+03    0.42   11.1   2.3    8  309-316    39-46  (188)
+ 12 3hta_A EBRA repressor; TETR fa   0.2   3E+03    0.46   11.5   2.3   11  307-317    57-67  (217)
+ 13 2b68_A Defensin; antibacterial   0.1 2.9E+03    0.38   10.1   4.6   24  174-203     1-24  (43)
+ 14 4z9p_A Nucleoprotein; filoviri   0.1 5.1E+03    0.61   12.6   4.6  136  100-272    69-274 (317)
+ 15 3vta_A Cucumisin; subtilisin-l   0.1 4.7E+03    0.68   12.9  38.5   74   41-120   531-604 (621)
+ 16 4jdm_A Virulence plasmid prote   0.1 5.8E+03    0.69   11.9  42.4  218  196-479     8-267 (269)
+ 17 2qwz_A Phenylacetic acid degra   0.1   4E+03    0.59   10.1  27.8  128  262-448     8-158 (159)
+ 18 2f3x_A Transcription factor FA   0.1 4.2E+03    0.61   10.2  30.1  116  283-449    40-157 (157)
+ 19 3b6n_A 2-C-methyl-D-erythritol   0.1 5.4E+03     0.7   11.3  11.5  140  195-390     1-185 (187)
+ 20 1wge_A Hypothetical protein 26   0.1 4.6E+03     0.6    9.9   4.6   18  402-430    49-66  (83)
+
+No 1  
+>3idu_A Uncharacterized protein; all beta-protein, structural genomics, PSI-2, protein structure initiative; 1.70A {Pyrococcus furiosus} PDB: 2kl6_A 2m8x_A
+Probab=10.86  E-value=1.5e+02  Score=20.26  Aligned_cols=93  Identities=13%  Similarity=0.118  Sum_probs=0.0
+
+Q ss_pred             ceEeeccCcccccccccCceEEEEEeecceee-ceeEEEeeecCCCccccchhhccHHHhhcceeEEEEEEeecccccce
+Q leishmaniainfa  404 KIVSADLNKPTLQAGTADGVMTVMVRNTAAVT-GRLVVGMLNCSDGVFPMTAQKLSLAAQQQAAVTFKVYVQNSYASGKA  482 (559)
+Q Consensus       404 ~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~-a~y~v~v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~~~  482 (559)
+                      .|. +  ..+.+-...+.-.++|.|.|.|... ..+.|.+..   +=..+..+.+.|+|++...++|.+   .....+.+
+T Consensus        20 ~v~-v--~~p~~~~~g~~~~i~v~V~N~G~~~~~~~~v~l~~---~~~~~~~~~v~l~~g~~~tv~f~~---~~~~~G~~   90 (127)
+T 3idu_A           20 TVE-I--KGPDVVGVNKLAEYEVHVKNLGGIGVPSTKVRVYI---NGTLYKNWTVSLGPKEEKVLTFNW---TPTQEGMY   90 (127)
+T ss_dssp             EEE-E--ESCSEECTTCCEEEEEEEEECSSSCEEEEEEEEEE---TTEEEEEEEEEECTTCEEEEEEEE---CCSSCEEE
+T ss_pred             EEE-E--eCCCcccCCCEEEEEEEEEECCCCCCCCEEEEEEE---CCEEEEEEEEEECCCCEEEEEEEE---EcCCCeEE
+
+
+Q ss_pred             eEEEEeeccc-----cccccceEEEEEe
+Q leishmaniainfa  483 SCTVVVRNAH-----EAITDLRVVSWKV  505 (559)
+Q Consensus       483 ~C~v~L~ds~-----~~~ld~~~v~f~t  505 (559)
+                      ...|.+-..+     ...=......+..
+T Consensus        91 ~~~~~v~~~~~~~e~n~~NN~~~~~v~~  118 (127)
+T 3idu_A           91 RINATVDEENTVVELNENNNVATFDVSV  118 (127)
+T ss_dssp             EEEEEESTTCCSCCSCSSSSEEEEEEEE
+T ss_pred             EEEEEECCCCceecccCCCCceeEEEEE
+
+
+No 2  
+>3vta_A Cucumisin; subtilisin-like fold, serine protease, hydrolase; HET: DFP NAG FUC BMA MAN; 2.75A {Cucumis melo}
+Probab=9.98  E-value=3.4e+02  Score=23.90  Aligned_cols=91  Identities=14%  Similarity=0.146  Sum_probs=0.0
+
+Q ss_pred             ccCcccccccccCc-----eEEEEEeecceeeceeEEEeeecCCCcc-ccchhhccHHH-hhcceeEEEEEEeecccccc
+Q leishmaniainfa  409 DLNKPTLQAGTADG-----VMTVMVRNTAAVTGRLVVGMLNCSDGVF-PMTAQKLSLAA-QQQAAVTFKVYVQNSYASGK  481 (559)
+Q Consensus       409 ~~~~~~fe~~s~~g-----~l~V~v~N~G~~~a~y~v~v~~Cs~~i~-~i~~q~~~i~p-~~~~~~~f~i~~~~~~~~~~  481 (559)
+                      .++-|.|.......     +++.+|+|.|.-.+.|++.+ ....++. .+....+++.+ +++..|++.+..  ......
+T Consensus       521 ~~n~ps~~~~~~~~~~~~~~~~rtvtnv~~~~~~y~~~~-~~~~~~~~~v~p~~~~~~~~~~~~~~~v~~~~--~~~~~~  597 (621)
+T 3vta_A          521 DLNYPSFGLSVSPSQTFNQYFNRTLTSVAPQASTYRAMI-SAPQGLTISVNPNVLSFNGLGDRKSFTLTVRG--SIKGFV  597 (621)
+T ss_dssp             GSCCSSEEEECCSSCCEEEEEEEEEEECSSSCEEEEEEE-ECCSSEEEEEESSEEEECSTTCEEEEEEEEEE--CCCSSE
+T ss_pred             cCCccceEeeccCCCceeEEEEEEEEecCCCCcEEEEEE-EecCCcEEEeccceEEeccCCcEEEEEEEEEE--eecCCe
+
+
+Q ss_pred             eeEEEEeeccccccccceEEEEE
+Q leishmaniainfa  482 ASCTVVVRNAHEAITDLRVVSWK  504 (559)
+Q Consensus       482 ~~C~v~L~ds~~~~ld~~~v~f~  504 (559)
+                      ..=.+...|  +...=+.-+...
+T Consensus       598 ~~g~~~w~~--~~~~v~~p~~~~  618 (621)
+T 3vta_A          598 VSASLVWSD--GVHYVRSPITIT  618 (621)
+T ss_dssp             EEEEEEEEC--SSCCCEEEEEEE
+T ss_pred             eEEEEEEEC--CCEEEeeeEEEe
+
+
+No 3  
+>2w0t_A Lethal(3)malignant brain tumor-like 2 protein; zinc, YACG, LMBL2, nucleus, zinc-finger, RNA binding, MBT repeats, PCG proteins, polymorphism; NMR {Homo sapiens}
+Probab=2.26  E-value=4e+02  Score=14.93  Aligned_cols=30  Identities=17%  Similarity=0.218  Sum_probs=0.0
+
+Q ss_pred             ccceeeecCccccccccchhhhhccCCccc
+Q leishmaniainfa  294 PTNLVTLDGRECDKVGVSYEAFASQGNKCN  323 (559)
+Q Consensus       294 ~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~  323 (559)
+                      +...-.+.=.-|.|+|+--..|.....||+
+T Consensus         1 ~~~~~~~kCe~CGk~~~~~~f~~ksKRFCS   30 (43)
+T 2w0t_A            1 GSGSEPAVCEMCGIVGTREAFFSKTKRFCS   30 (43)
+T ss_dssp             CCSCCEEECTTTCCEEETTTSCTTTSSSSS
+T ss_pred             CCcCccceeccCCCccccccccCCcCCccc
+
+
+No 4  
+>2iw0_A Chitin deacetylase; hydrolase, chitin DE-N-acetylase, family 4 carbohydrate ESTE; 1.81A {Colletotrichum lindemuthianum} SCOP: c.6.2.3
+Probab=2.23  E-value=6.9e+02  Score=18.16  Aligned_cols=52  Identities=13%  Similarity=0.071  Sum_probs=14.0
+
+Q ss_pred             hhHHHHHHHHhcCccchhhcccccccccccCCC-ccceeeeeEEEEEEEeccccCCC
+Q leishmaniainfa    8 AVLCVSLLVRLACPARAAFVSSSLISYCSDSGD-ENISCTKKMVVTVTVEGEQLPGE   63 (559)
+Q Consensus         8 ~~l~~~~~~~~~~~~~~~i~~~S~l~~C~~~~~-~~~~C~~Klvv~l~V~~g~~~~~   63 (559)
+                      +.++++++ +++.. .  ..+.+-...+...+. ....|..+=.|.|+.+.|.....
+T Consensus         4 ~~~~~~~~-~~~~~-~--~~~~~~~~~~~~~~~~~~~~~~~~~~v~ltfDdg~~~~~   56 (254)
+T 2iw0_A            4 STLFGAAA-TAALA-G--STNASPLARRQVPVGTPILQCTQPGLVALTYDDGPFTFT   56 (254)
+T ss_dssp             -----------------------------CCSSSEECSCSSSSEEEEEEESCSCTTH
+T ss_pred             HHHHHHHH-HHHhc-C--CCCCCccccccCCCCCccccCCCCCEEEEEecCCChhhH
+Confidence            11111111 11111 1  112233333333332 33444444467777777765321
+
+
+No 5  
+>2xzz_A Protein-glutamine gamma-glutamyltransferase K; 2.30A {Homo sapiens}
+Probab=1.17  E-value=8.5e+02  Score=15.23  Aligned_cols=90  Identities=11%  Similarity=0.114  Sum_probs=33.8
+
+Q ss_pred             cceEEEEEEecCCceeeeeccccceEeeccCcccccccccCceEEEEEeecceee-ceeEEEeeecCCCccccchhhccH
+Q leishmaniainfa  381 AATMISITVSADDLEYTVGLASGKIVSADLNKPTLQAGTADGVMTVMVRNTAAVT-GRLVVGMLNCSDGVFPMTAQKLSL  459 (559)
+Q Consensus       381 ~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~-a~y~v~v~~Cs~~i~~i~~q~~~i  459 (559)
+                      ..-.|.|++. ++                      ...-+...+.|++.|..... ..-.+.+ +.+.-..+.....-.|
+T Consensus         4 ~~~~l~I~v~-~~----------------------~~vg~~~~v~vsf~Npl~~~Lt~~~l~v-eG~Gl~~~~~~~~~~v   59 (102)
+T 2xzz_A            4 FQSMLSLTLL-GA----------------------AVVGQECEVQIVFKNPLPVTLTNVVFRL-EGSGLQRPKILNVGDI   59 (102)
+T ss_dssp             --CEEEEEES-SC----------------------CCSSSCEEEEEEEECCSSSCBCSEEEEE-EETTTEEEEEEEECCB
+T ss_pred             cCCcEEEEEC-CC----------------------eeCCCeEEEEEEEECCCCcEeEEEEEEE-ECCCCcccceeEcCCc
+Confidence            1124555531 11                      12234556667777755543 2234433 4333211100001222
+
+
+Q ss_pred             HHhhcceeEEEEEEeecccccceeEEEEeecccccccc
+Q leishmaniainfa  460 AAQQQAAVTFKVYVQNSYASGKASCTVVVRNAHEAITD  497 (559)
+Q Consensus       460 ~p~~~~~~~f~i~~~~~~~~~~~~C~v~L~ds~~~~ld  497 (559)
+                      +|+++..+.|.  .+ ....+...=.|.+...+.+-+.
+T Consensus        60 ~pg~~~~~~~~--~t-P~~~G~~~l~a~f~~~~l~~i~   94 (102)
+T 2xzz_A           60 GGNETVTLRQS--FV-PVRPGPRQLIASLDSPQLSQVH   94 (102)
+T ss_dssp             CTTCEEEEEEE--EC-CCSCSSCCCEEEEECGGGGSCC
+T ss_pred             CCCCEEEEEEE--EE-eCCcccEEEEEEEEcCCcCCcE
+Confidence            24444333333  32 3344444445555444333221
+
+
+No 6  
+>3q48_A Chaperone CUPB2; IG fold, periplasmic chaperone; 2.50A {Pseudomonas aeruginosa}
+Probab=0.93  E-value=1.3e+03  Score=16.29  Aligned_cols=102  Identities=9%  Similarity=-0.027  Sum_probs=42.2
+
+Q ss_pred             eeeeccccceEeeccCcccccccccCceEEEEEeecceeeceeEEEeeecCCC-cc--------ccchhhccHHHhhcce
+Q leishmaniainfa  396 YTVGLASGKIVSADLNKPTLQAGTADGVMTVMVRNTAAVTGRLVVGMLNCSDG-VF--------PMTAQKLSLAAQQQAA  466 (559)
+Q Consensus       396 ~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~-i~--------~i~~q~~~i~p~~~~~  466 (559)
+                      .=...+|.+|.--          ...+...+.|.|.|+-...+.+.+.+ ..+ ..        -+....+.|+|++.+.
+T Consensus        28 ~~i~V~p~~i~~~----------~~~~~~~i~v~N~~~~~~~v~~~~~~-~g~~~~~~s~~~~~~vsP~~~~L~pg~~q~   96 (257)
+T 3q48_A           28 AGLIAQGTRVVFP----------ASEREVTLRVSNTSGTPVLAQAWIDD-GRQDVPPEELQVPFSVTPAVTRVEPNGGAV   96 (257)
+T ss_dssp             ---CCSCSEEEEE----------TTCSEEEEEEEECSSSCEEEEEEEES-SCCSSCGGGGCCSEEEESSEEEECTTEEEE
+T ss_pred             ccEEecceEEEEe----------CCCceEEEEEEeCCCCcEEEEEEEec-CCCcccccccCCCEEEeCCEEEECCCCceE
+Confidence            1112344444222          22357889999999888888887754 222 10        0122445566666655
+
+
+Q ss_pred             eEEEEEEeecccccceeEEEEee--ccc----ccccc-ceEEEEEeeec
+Q leishmaniainfa  467 VTFKVYVQNSYASGKASCTVVVR--NAH----EAITD-LRVVSWKVSST  508 (559)
+Q Consensus       467 ~~f~i~~~~~~~~~~~~C~v~L~--ds~----~~~ld-~~~v~f~t~~~  508 (559)
+                      +.+.+..........+.=.+.+.  ...    +..+. ...+.....-.
+T Consensus        97 vrv~~~~~~~~~~~E~~y~l~f~~ip~~~~~~~~~v~i~~~~~~~v~v~  145 (257)
+T 3q48_A           97 LRIAYLKAPLPTDRESLFWLNILEVPPRDEDENNALQFSFRSRFKLFFR  145 (257)
+T ss_dssp             EEEEECCCCCCSSSCEEEEEEEEEECCC---------CCEEEEEEEEEE
+T ss_pred             EEEEecCCCCCCCceEEEEEEEEEcCCCCcCCCceEEEEEEEeEEEEEc
+Confidence            55554320001233333333332  110    11111 11222222111
+
+
+No 7  
+>4djm_A DRAB; chaperone, PILI; 2.52A {Escherichia coli}
+Probab=0.54  E-value=1.8e+03  Score=15.02  Aligned_cols=114  Identities=13%  Similarity=0.029  Sum_probs=56.9
+
+Q ss_pred             ceeeeeccccceEeeccCcccccccccCceEEEEEeecceeeceeEEEeeecCCCcc---ccchhhccHHHhhcceeEEE
+Q leishmaniainfa  394 LEYTVGLASGKIVSADLNKPTLQAGTADGVMTVMVRNTAAVTGRLVVGMLNCSDGVF---PMTAQKLSLAAQQQAAVTFK  470 (559)
+Q Consensus       394 i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~i~---~i~~q~~~i~p~~~~~~~f~  470 (559)
+                      -..-...+|-+|. +  +       .+.....+.|.|.|+....+.+.+.+=.....   -+....+.|+|++.+.+.+.
+T Consensus        20 ~~~~i~v~p~ri~-~--~-------~~~~~~~~~v~N~~~~p~~v~v~v~~~~~~~~~~l~vsP~~~~l~Pg~~q~VRv~   89 (239)
+T 4djm_A           20 RVFSLHLGATRVV-Y--N-------PASSGETLTVINDQDYPMLVQSEVLSEDQKSPAPFVVTPPLFRLDGQQSSRLRIV   89 (239)
+T ss_dssp             CEECCEESCSEEE-E--C-------TTSSCEEEEEEECSSSCEEEEEEEECTTSSSBCSEEEESSEEEECTTEEEEEEEE
+T ss_pred             ceeeEEECCEEEE-E--e-------CCCcEEEEEEEeCCCCcEEEEEEEEcCCCCccCCEEEcCCeEEECCCCceEEEEE
+Confidence            1111123454443 3  1       22346899999999988888888865332111   13446677888888777776
+
+
+Q ss_pred             EEEeec-ccccceeEEEEeeccccc-----------------cccceEEEEEeeeccccCCCCCCC
+Q leishmaniainfa  471 VYVQNS-YASGKASCTVVVRNAHEA-----------------ITDLRVVSWKVSSTNFHNGTQGGS  518 (559)
+Q Consensus       471 i~~~~~-~~~~~~~C~v~L~ds~~~-----------------~ld~~~v~f~t~~~~~~~g~q~~~  518 (559)
+                      +.. .. .....+.=.+.+..--..                 .=....+.+...-..+........
+T Consensus        90 ~~~-~~~~~~~E~~yrl~~~~ip~~~~~~~~~~~~~~~~~~~~~~~v~~~~~~~v~v~v~p~~~~~  154 (239)
+T 4djm_A           90 RTG-GEFPPDRESLQWICVKGIPPKEGDRWAEGKDGEKKADKVSLNVQLSVSSCIKLFVRPPAVKG  154 (239)
+T ss_dssp             ECS-CCCCSSSCEEEEEEEEEECC------------------CEEEEEEEEEEEEEEEECCTTSCS
+T ss_pred             ecC-CCCCCCceEEEEEEEEECCCCCcccccccccccccccccccEEEEEEEeeEEEEEcCCccCC
+Confidence            532 11 234555555555311111                 111233444455555553211111
+
+
+No 8  
+>3ncx_A Intimin, intimin adherence protein; intimin TIR, cell adhesion; 2.60A {Escherichia coli O157} PDB: 2zqk_A 3ncw_A 2zwk_A
+Probab=0.50  E-value=1.9e+03  Score=14.67  Aligned_cols=77  Identities=13%  Similarity=0.077  Sum_probs=33.2
+
+Q ss_pred             cCccccCCCCCCcceeeeccCccceEEEEEEecCCceeeeeccccceEeeccCcccccccccCceEEEEEeecceeecee
+Q leishmaniainfa  359 GDFNLENDAATSPYISYLAASPAATMISITVSADDLEYTVGLASGKIVSADLNKPTLQAGTADGVMTVMVRNTAAVTGRL  438 (559)
+Q Consensus       359 G~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~a~y  438 (559)
+                      .+||...  -....+.+.++.. ...+++.-+...+.-|  .+-|.++-.           ..|..+|++.-...-.+.|
+T Consensus        26 ~~fPttg--~~ga~f~L~~~g~-~~~ytWsSs~~~~atV--d~~G~Vt~~-----------~~G~~~Itatd~~~~~~sy   89 (189)
+T 3ncx_A           26 GELPNIW--LQYGQFKLKASGG-DGTYSWYSENTSIATV--DASGKVTLN-----------GKGSVVIKATSGDKQTVSY   89 (189)
+T ss_dssp             ESCCSSE--ETTCEEECCEEST-TSCEEEEESCTTTEEE--CTTSEEEEC-----------SSSCEEEEEEETTSCEEEE
+T ss_pred             CCCCCcC--cCCcEEEEEEcCC-CccEEEEECCCcEEEE--ECCceEEEE-----------ecCeEEEEEEECCCCEEEE
+Confidence            1122111  1122334444433 3346666554444443  235555533           2356677776643334566
+
+
+Q ss_pred             EEEe--------ee---------cCCCccc
+Q leishmaniainfa  439 VVGM--------LN---------CSDGVFP  451 (559)
+Q Consensus       439 ~v~v--------~~---------Cs~~i~~  451 (559)
+                      .+.+        ..         |...+.+
+T Consensus        90 ~ftv~~wf~~~~~~~~~~~A~~~C~~~lp~  119 (189)
+T 3ncx_A           90 TIKAPSYMIKVDKQAYYADAMSICKNLLPS  119 (189)
+T ss_dssp             EECCCSCEEEEEEECCHHHHHHHTTTCCCS
+T ss_pred             EEEeceEEEECCCccCHHHHHHHHHhhCCc
+Confidence            6522        11         7664321
+
+
+No 9  
+>2co7_B SAFB chaperone, putative fimbriae assembly chaperone; pilus subunit, adhesion, strand complementation, pathogenesis, fibril protein; 1.8A {Salmonella typhimurium} SCOP: b.1.11.1 b.7.2.1 PDB: 2co6_B
+Probab=0.38  E-value=2.1e+03  Score=13.98  Aligned_cols=116  Identities=10%  Similarity=0.046  Sum_probs=50.5
+
+Q ss_pred             cceEEEEEEecCCceeeeeccccceEeeccCcccccccccCceEEEEEeecceeeceeEEEeeec----CCCccccchhh
+Q leishmaniainfa  381 AATMISITVSADDLEYTVGLASGKIVSADLNKPTLQAGTADGVMTVMVRNTAAVTGRLVVGMLNC----SDGVFPMTAQK  456 (559)
+Q Consensus       381 ~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~a~y~v~v~~C----s~~i~~i~~q~  456 (559)
+                      ..+.-.|.+           +|-++.--          ++.+...+.|.|.|+....+.+.+.+=    ...+. +....
+T Consensus         8 ~~~~a~i~v-----------~p~r~~~~----------~~~~~~~~~v~N~~~~~~~vqv~~~~~~~~~~~~~~-vsP~~   65 (221)
+T 2co7_B            8 ATKLFSVKL-----------GATRVIYH----------AGTAGATLSVSNPQNYPILVQSSVKAADKSSPAPFL-VMPPL   65 (221)
+T ss_dssp             CCEEEECEE-----------SCSEEEEE----------TTSSCEEEEEECCSSSCEEEEEEEEETTSSSBCSEE-EESSE
+T ss_pred             ccceeeEEE-----------CCeEEEEe----------CCCceeeeEEEcCCCCcEEEEEEEecCCCCCcCCEE-EcCCe
+Confidence            112222222           23222211          122456777777777777777766542    22221 23356
+
+
+Q ss_pred             ccHHHhhcceeEEEEEEeecccccceeEEEEeec--ccc--------ccccceEEEEEeeeccccCCCCCCC
+Q leishmaniainfa  457 LSLAAQQQAAVTFKVYVQNSYASGKASCTVVVRN--AHE--------AITDLRVVSWKVSSTNFHNGTQGGS  518 (559)
+Q Consensus       457 ~~i~p~~~~~~~f~i~~~~~~~~~~~~C~v~L~d--s~~--------~~ld~~~v~f~t~~~~~~~g~q~~~  518 (559)
+                      +.|+|++...+.+......-.......=.+.+.-  ...        +.-....+.+......+--......
+T Consensus        66 ~~l~Pg~~q~iRi~~~~~~~~~~~E~~yrl~~~~ip~~~~~~~~~~~~~~~~l~i~~~~~i~v~vrP~~~~~  137 (221)
+T 2co7_B           66 FRLEANQQSQLRIVRTGGDMPTDRETLQWVCIKAVPPENEPSDTQAKGATLDLNLSINACDKLIFRPDAVKG  137 (221)
+T ss_dssp             EEECTTCEEEEEEEECCCCCCSSSCEEEEEEEEEECCC-----------CEEEEEEEEEEEEEEEECTTSCS
+T ss_pred             EEECCCCccEEEEEECCCCCCCCceEEEEEEEEEcCCCCccccccccccceEEEEEEeeEEEEEECCCcCcc
+Confidence            6777888777776643210023445555555532  111        0112334555554444432211111
+
+
+No 10 
+>1nep_A EPV20, BNPC2, epididymal secretory protein E1; niemann-PICK C2, LDL, cholesterol, lipid bindin; HET: NAG; 1.70A {Bos taurus} SCOP: b.1.18.7 PDB: 2hka_A*
+Probab=0.18  E-value=2.7e+03  Score=11.26  Aligned_cols=123  Identities=12%  Similarity=0.050  Sum_probs=60.1
+
+Q ss_pred             ceee-eccCccceEEEEEEecCCc-eeeeeccccceEeeccCccccc--ccccCceEEEEEeecceeeceeEEEeeecCC
+Q leishmaniainfa  372 YISY-LAASPAATMISITVSADDL-EYTVGLASGKIVSADLNKPTLQ--AGTADGVMTVMVRNTAAVTGRLVVGMLNCSD  447 (559)
+Q Consensus       372 ~l~~-~~~~~~~s~i~ie~~Ad~i-~~v~~~s~G~I~~~~~~~~~fe--~~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~  447 (559)
+                      .+.| .-.+...+...++++...- .....+  |+=..+++   .|.  .....+.+.|.++..|     ..+.+ .+. 
+T Consensus         2 ~v~~~~C~~~~~~v~~v~i~pc~~~~c~~~~--g~~~~i~i---~~~~~~~i~~~~~~v~~~~~~-----~~~~~-~~~-   69 (130)
+T 1nep_A            2 PVKFKDCGSWVGVIKEVNVSPCPTQPCKLHR--GQSYSVNV---TFTSNTQSQSSKAVVHGIVMG-----IPVPF-PIP-   69 (130)
+T ss_dssp             BCCCEESCCCSEEEEEEEEESCSSSSEEEET--TCEEEEEE---EEEESSCBSCCEEEEEEEETT-----EEEEC-CCS-
+T ss_pred             CceEEeCCCCCCeEEEEEEcCCCCCCCEEEC--CCEEEEEE---EEEeccccceeEEEEEEEECC-----EEEee-cCC-
+Confidence            1122 1233334667888886442 233222  22222211   111  1133578888888644     34433 221 
+
+
+Q ss_pred             Cccccchh--hccHHHhhcceeEEEEEEeecccccceeEEEEeeccccccccceEEEEEeee
+Q leishmaniainfa  448 GVFPMTAQ--KLSLAAQQQAAVTFKVYVQNSYASGKASCTVVVRNAHEAITDLRVVSWKVSS  507 (559)
+Q Consensus       448 ~i~~i~~q--~~~i~p~~~~~~~f~i~~~~~~~~~~~~C~v~L~ds~~~~ld~~~v~f~t~~  507 (559)
+                       ...+...  .=-|+|++...+.+.+..........+.=.+.|+|.+++.+.-.++.+...+
+T Consensus        70 -~~~~C~~~~~CPi~~G~~~~~~~~~~ip~~~p~~~~~i~~~~~d~~~~~l~C~~~~~~i~~  130 (130)
+T 1nep_A           70 -ESDGCKSGIRCPIEKDKTYNYVNKLPVKNEYPSIKVVVEWELTDDKNQRFFCWQIPIEVEA  130 (130)
+T ss_dssp             -CCBGGGTTCCSSBCTTCEEEEEEEEECCTTSCSSEEEEEEEEECTTSCEEEEEEEEEEEEC
+T ss_pred             -CCccccCCCCCCcCCCCeEEEEEEeEEcccCCcEEEEEEEEEEeCCCCEEEEEEEEEEEeC
+Confidence             1122211  1112245445555555442223355677778889998888777777777653
+
+
+No 11 
+>3qkx_A Uncharacterized HTH-type transcriptional regulato; structural genomics, joint center for structural genomics; HET: MSE; 2.35A {Haemophilus influenzae}
+Probab=0.16  E-value=2.8e+03  Score=11.13  Aligned_cols=8  Identities=13%  Similarity=0.057  Sum_probs=1.1
+
+Q ss_pred             ccchhhhh
+Q leishmaniainfa  309 GVSYEAFA  316 (559)
+Q Consensus       309 GVsy~aF~  316 (559)
+                      |||-.+|+
+T Consensus        39 gvs~~t~Y   46 (188)
+T 3qkx_A           39 NVAAGTIY   46 (188)
+T ss_dssp             TCCHHHHH
+T ss_pred             CCCHhHHH
+Confidence            11111111
+
+
+No 12 
+>3hta_A EBRA repressor; TETR family, DNA binding protein, multidrug resistance, MULT binding protein, DNA-binding, transcription; 2.30A {Streptomyces lividans} PDB: 3hth_A* 3hti_A* 3htj_A* 3iuv_A
+Probab=0.15  E-value=3e+03  Score=11.48  Aligned_cols=11  Identities=9%  Similarity=0.063  Sum_probs=1.6
+
+Q ss_pred             ccccchhhhhc
+Q leishmaniainfa  307 KVGVSYEAFAS  317 (559)
+Q Consensus       307 KIGVsy~aF~~  317 (559)
+                      +.|||-.+|++
+T Consensus        57 ~agvs~~t~Y~   67 (217)
+T 3hta_A           57 EADVPLGSTTY   67 (217)
+T ss_dssp             HHTCCHHHHHH
+T ss_pred             HhCCChHHHHH
+Confidence            11111111111
+
+
+No 13 
+>2b68_A Defensin; antibacterial peptide, cysteine-rich peptide, antimicrobial protein; NMR {Crassostrea gigas}
+Probab=0.15  E-value=2.9e+03  Score=10.06  Aligned_cols=24  Identities=13%  Similarity=0.144  Sum_probs=10.9
+
+Q ss_pred             ccccccccccchhHHHHHHhhhcccceeee
+Q leishmaniainfa  174 NAACNIFDKYTTASCLRFAQRWYSGYTIGG  203 (559)
+Q Consensus       174 ~~~C~~~~~~~sahClrf~~~wY~vy~I~~  203 (559)
+                      .+-|++....=.+||+...      +.-|+
+T Consensus         1 ~~GCP~n~~~C~~HC~s~g------~~gGy   24 (43)
+T 2b68_A            1 GFGCPGNQLKCNNHCKSIS------CRAGY   24 (43)
+T ss_dssp             CCSCSSCSHHHHHHHHHHT------CSEEE
+T ss_pred             CcCCcCCHHHHHHHHHHcC------CCceE
+Confidence            1224433345678998542      22221
+
+
+No 14 
+>4z9p_A Nucleoprotein; filoviridae, RNA binding protein, VIRA; 1.79A {Zaire ebolavirus} PDB: 4ypi_C
+Probab=0.13  E-value=5.1e+03  Score=12.65  Aligned_cols=136  Identities=14%  Similarity=0.087  Sum_probs=37.0
+
+Q ss_pred             eceeeEEeecCCccceeeecccc--------ccccccccccccccccccccccCCccccCCcccccCccccc--------
+Q leishmaniainfa  100 RYPLFYVQNYNAKPYEATVKGSL--------LNQCNADFNADTATCGLAYDAAGKAIPYSQGFCCDCSMCQT--------  163 (559)
+Q Consensus       100 ~YpL~Y~~~v~~kp~E~~i~~~~--------~~~C~~~~~~~~~tCg~~~~~~g~~i~~sqGfCC~C~~~~~--------  163 (559)
+                      -|...-++.-+.+-.|.++....        ...-+.... ...+-|...           .||--.-+.-.        
+T Consensus        69 g~~fev~k~~~~~r~~dllp~~~~~k~l~~tl~ale~~e~-~~~~~g~fl-----------sf~slflpklvvgera~le  136 (317)
+T 4z9p_A           69 GFRFEVKKRDGVKRLEELLPAVSSGKNIKRTLAAMPEEET-TEANAGQFL-----------SFASLFLPKLVVGEKACLE  136 (317)
+T ss_dssp             TEEEEEEECTTCCSGGGGCC----CHHHHHHHHTCCC------CCHHHHH-----------HHHHTTTTTGGGCHHHHHH
+T ss_pred             CceEEEEeccchhHHHHhcCCCCCCchHHHHHHhCCCCCC-CcchhhHHH-----------HHHHHhhhhHhhccHHHHH
+Confidence            13444455556665555543210        000000000 001111000           00000000000        
+
+
+Q ss_pred             -----------ccccCcccccccccccccccchhHHHHHHhhh--------------cccce------------eeeeEE
+Q leishmaniainfa  164 -----------LGLCQPDARANAACNIFDKYTTASCLRFAQRW--------------YSGYT------------IGGYMT  206 (559)
+Q Consensus       164 -----------~~~~~~~~R~~~~C~~~~~~~sahClrf~~~w--------------Y~vy~------------I~~~~~  206 (559)
+                                 -|+-       +.-+.|  ....|-+..-.+.              -|+-.            |+    
+T Consensus       137 k~~rqiqvh~eqgli-------qypt~w--~s~ghm~vif~l~r~nf~lkfllihqgm~mvaghda~daiisnsv~----  203 (317)
+T 4z9p_A          137 KVQRQIQVHAEQGLI-------QYPTAW--QSVGHMMVIFRLMRTNFLIKFLLIHQGMHMVAGHDANDAVISNSVA----  203 (317)
+T ss_dssp             HHHHHHHHHHHTTSC-------CCCGGG--GSHHHHHHHHHHHHHCHHHHHHHHHHHHSCCSSCCHHHHHHHHHHH----
+T ss_pred             HHHHHhhhHHhCCee-------eccchh--hhccchhhhHHHHHHHHHHHHHHHhccchhhccCccchHHHhhhhh----
+Confidence                       1111       001122  3345554322211              01000            00    
+
+
+Q ss_pred             EEEEEEEEeecccCCCC---------CcccceeeeecCCCCCCCcccccceee--------eeecccccccCCccccccc
+Q leishmaniainfa  207 WYTVNLTLSRNVSGSGG---------AGAAEKVVMHLSPSNNGETAGEGWDVM--------ARIVGTYAPVDQPLDLTSR  269 (559)
+Q Consensus       207 ~~~i~v~i~~~~~~~~~---------~~~~~~~~~~l~p~~~~~~~~~~~~v~--------v~ligd~~~~~~~~~l~~~  269 (559)
+                                ....++-         ..+....-++|.|-.|+..- .+ .+.        .---|+++|+....+|++-
+T Consensus       204 ----------qtrfsgllivktvle~ilqkte~gv~lhpl~rtskv-kn-ev~sfk~als~la~hgeyapfarllnlsgv  271 (317)
+T 4z9p_A          204 ----------QARFSGLLIVKTVLDHILQKTERGVRLHPLARTAKV-KN-EVNSFKAALSSLAKHGEYAPFARLLNLSGV  271 (317)
+T ss_dssp             ----------HHTTTTCHHHHHHHHHTBC-----CCBCGGGCSGGG-HH-HHHHHHHHHHHHHTTGGGGGGTTTTTCTTG
+T ss_pred             ----------hhhccceeeHHHHHHHHHHhhccCceecchhHHHHH-HH-HHHHHHHHHHHHHhccccchHHHHhccccc
+Confidence                      0000110         01112344567776555431 00 000        0003677787777776543
+
+
+Q ss_pred             ccc
+Q leishmaniainfa  270 MLF  272 (559)
+Q Consensus       270 yL~  272 (559)
+                      -=+
+T Consensus       272 nnl  274 (317)
+T 4z9p_A          272 NNL  274 (317)
+T ss_dssp             GGG
+T ss_pred             ccc
+Confidence            221
+
+
+No 15 
+>3vta_A Cucumisin; subtilisin-like fold, serine protease, hydrolase; HET: DFP NAG FUC BMA MAN; 2.75A {Cucumis melo}
+Probab=0.11  E-value=4.7e+03  Score=12.87  Aligned_cols=74  Identities=15%  Similarity=0.073  Sum_probs=0.0
+
+Q ss_pred             ccceeeeeEEEEEEEeccccCCCceeeeeecccceeEecceeEEeeeeEEeeccceeeeeceeeEEeecCCccceeeecc
+Q leishmaniainfa   41 ENISCTKKMVVTVTVEGEQLPGEESLLFLNSATDMTVNNGTAVQFSPLRITTSRSAVRYRYPLFYVQNYNAKPYEATVKG  120 (559)
+Q Consensus        41 ~~~~C~~Klvv~l~V~~g~~~~~~~~v~~~~~~d~~~~~~~~~l~~pi~Iti~Ks~v~~~YpL~Y~~~v~~kp~E~~i~~  120 (559)
+                      ...++..+..++.+|.|-. ...+.|.+....-.     +..+...|=++++.+......|.++........+..-.+..
+T Consensus       531 ~~~~~~~~~~~~rtvtnv~-~~~~~y~~~~~~~~-----~~~~~v~p~~~~~~~~~~~~~~~v~~~~~~~~~~~~g~~~w  604 (621)
+T 3vta_A          531 VSPSQTFNQYFNRTLTSVA-PQASTYRAMISAPQ-----GLTISVNPNVLSFNGLGDRKSFTLTVRGSIKGFVVSASLVW  604 (621)
+T ss_dssp             CCSSCCEEEEEEEEEEECS-SSCEEEEEEEECCS-----SEEEEEESSEEEECSTTCEEEEEEEEEECCCSSEEEEEEEE
+T ss_pred             ccCCCceeEEEEEEEEecC-CCCcEEEEEEEecC-----CcEEEeccceEEeccCCcEEEEEEEEEEeecCCeeEEEEEE
+
+
+No 16 
+>4jdm_A Virulence plasmid protein PGP3-D; virulence factor, secreted protein, inflammatory TNF, cell invasion; 3.10A {Chlamydia trachomatis}
+Probab=0.09  E-value=5.8e+03  Score=11.92  Aligned_cols=218  Identities=14%  Similarity=0.119  Sum_probs=91.6
+
+Q ss_pred             cccceeeeeEEE-EEEEEEEeecccCCCCCcccceeeeecCCCCCCCcccccceeeeeecccccccCCcccccccccccc
+Q leishmaniainfa  196 YSGYTIGGYMTW-YTVNLTLSRNVSGSGGAGAAEKVVMHLSPSNNGETAGEGWDVMARIVGTYAPVDQPLDLTSRMLFAP  274 (559)
+Q Consensus       196 Y~vy~I~~~~~~-~~i~v~i~~~~~~~~~~~~~~~~~~~l~p~~~~~~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP  274 (559)
+                      -++|.+.+.+.- |.=+|.+  +   -...+ .+++.+.|+.+.        -.+.+++.++-.-     .+    -..+
+T Consensus         8 NSGFyL~ntqNcVFADNIkl--G---QMt~p-L~dqqiIlGT~t--------TP~aak~~a~eGi-----~~----~i~~   64 (269)
+T 4jdm_A            8 NSGFYLYNTENCVFADNIKV--G---QMTEP-LKDQQIILGTKS--------TPVAAKMTASDGI-----SL----TVSN   64 (269)
+T ss_dssp             CCEEEEETTEEEEEESCCEE--T---TCSSC-CCTTEEEECCSS--------SCEEEEEEESSCC-----CC----EECC
+T ss_pred             cCceEEecCCceEEecceee--c---ccccc-cccceEEEecCC--------CceeEEEecCCce-----EE----Eeec
+Confidence            122333322211 2211111  1   01112 222355666544        1255666665110     00    1112
+
+
+Q ss_pred             CCCCCchhhccccceeeeeccceeeecCccccccccchhhhhc----cCCccccCCCCcccccccccc---------chh
+Q leishmaniainfa  275 AIPPNDARVQAGAAEWLLLPTNLVTLDGRECDKVGVSYEAFAS----QGNKCNLRPGSCLSSQLEDYR---------TAD  341 (559)
+Q Consensus       275 ~~~~~~~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~----Q~~~C~~~~gSCL~nQl~~~~---------~~D  341 (559)
+                      ....                ...++++        +..++-..    |           +.+||.|=.         ++-
+T Consensus        65 ~~~~----------------~asi~~s--------lD~~~~~~~IL~q-----------i~~~l~d~I~~~it~slvqev  109 (269)
+T 4jdm_A           65 NSST----------------NASITIG--------LDAEKAYQLILEK-----------LGNQILDGIADTIVDSTVQDI  109 (269)
+T ss_dssp             SCCS----------------SCEEEEC--------CCTHHHHHHHHHH-----------HTTHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCC----------------cceEEEE--------eCHHHHHHHHHHH-----------HHHHHHHHHHHHHHHHHHHHH
+Confidence            2111                1234432        22222221    1           113333211         222
+
+
+Q ss_pred             hhhhhc----cCCcc---eee----eeccCccccCCCC--CCcce-eeec-cCccceEEEEEEecCCceeeeeccccceE
+Q leishmaniainfa  342 LQRIAA----GNKGQ---YMA----TSFGDFNLENDAA--TSPYI-SYLA-ASPAATMISITVSADDLEYTVGLASGKIV  406 (559)
+Q Consensus       342 ~~~~~~----g~~~~---Y~~----~~~G~~~~~~~~~--~~~~l-~~~~-~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~  406 (559)
+                      .++|-.    +..--   |-+    .--|-|...+++.  .-.-| .|.+ ....+||..+...     .|..|-.|..+
+T Consensus       110 idkI~sdp~l~l~kAFk~f~is~kIqCnGLFTk~NI~tl~GGTEIg~ftiTPdn~nSmfLv~aD-----IIAsRMEG~Vv  184 (269)
+T 4jdm_A          110 LDKITTDPSLGLLKAFNNFPITNKIQCNGLFTPSNIETLLGGTEIGKFTVTPKSSGSMFLVSAD-----IIASRMEGGVV  184 (269)
+T ss_dssp             HHHHHHCTTSSCCCCEEEEEECSCEEECCEECTTTSSSSCSSEEEEEEEECCSSTTCEEEEEEE-----EEEECSSEEEE
+T ss_pred             HHHhhcCcchhHHHHhhcCCcccceeecceeccccccccccccEeeeEEeccCCCCcEEEEEhh-----hhhhhccCcEE
+Confidence            233332    22211   112    2235566666542  22223 3333 5667899888766     56667677666
+
+
+Q ss_pred             eecc----Cccc-----c-cccccCceEEEEEeecceeeceeEEEeeecCCCccccch---hhccHHHhhcceeEEEEEE
+Q leishmaniainfa  407 SADL----NKPT-----L-QAGTADGVMTVMVRNTAAVTGRLVVGMLNCSDGVFPMTA---QKLSLAAQQQAAVTFKVYV  473 (559)
+Q Consensus       407 ~~~~----~~~~-----f-e~~s~~g~l~V~v~N~G~~~a~y~v~v~~Cs~~i~~i~~---q~~~i~p~~~~~~~f~i~~  473 (559)
+                      -+.+    ..||     . ....+-|.|+-.|.|+|.-...|++++..=.++|..+.+   ---++  +-+.+-...+-.
+T Consensus       185 LaLVkeGDt~PCaISYGYSsG~PN~csLrt~v~n~g~~P~tfSLRvGGmdSGVVWVNAlaNGd~IL--G~t~tSnisfLE  262 (269)
+T 4jdm_A          185 LALVREGDSKPCAISYGYSSGVPNLCSLRTSITNTGLTPTTYSLRVGGLESGVVWVNALSNGNDIL--GITNTSNVSFLE  262 (269)
+T ss_dssp             EEEEETTCSSCSEEEEEEESSSCEEEEEEEEEECCSSSCEEEEEEEEEESSCCEEESSCTTSCCGG--GSCCCEEEEEEE
+T ss_pred             EEEEecCCCCccEEEecccCCCCceeeeeeeecCCCCCceEEEEEecccccceEEEEcccCCCcee--ccccccceEEEE
+Confidence            5533    1122     1 133446789999999999999999999888887754311   11111  111122222211
+
+
+Q ss_pred             eecccc
+Q leishmaniainfa  474 QNSYAS  479 (559)
+Q Consensus       474 ~~~~~~  479 (559)
+                       ...+.
+T Consensus       263 -Vk~Qt  267 (269)
+T 4jdm_A          263 -VIPQT  267 (269)
+T ss_dssp             -ECBCC
+T ss_pred             -Eeccc
+Confidence             01111
+
+
+No 17 
+>2qwz_A Phenylacetic acid degradation-related protein; putative thioesterase, structural genomics, joint center for structural genomics, JCSG; HET: MSE; 2.15A {Silicibacter SP}
+Probab=0.09  E-value=4e+03  Score=10.11  Aligned_cols=128  Identities=9%  Similarity=0.087  Sum_probs=44.6
+
+Q ss_pred             CccccccccccccCCCCCchh-----------hccccceeeeeccceeeecCccccccccchhhhhccCCccccCCCCcc
+Q leishmaniainfa  262 QPLDLTSRMLFAPAIPPNDAR-----------VQAGAAEWLLLPTNLVTLDGRECDKVGVSYEAFASQGNKCNLRPGSCL  330 (559)
+Q Consensus       262 ~~~~l~~~yL~iP~~~~~~~~-----------~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL  330 (559)
+                      --.--++.|.+-+........           ... .-+.+-++...+...        +....     ..|+ +.|..-
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~-~~~~~~~~~~~~~~~--------~~v~~-----~~~n-~~g~v~   72 (159)
+T 2qwz_A            8 HHHHHENLYFQGMELVFDKDGLSAYLEEVFPQIQG-EFSIDALAKGEITMR--------LNVQE-----RHLR-PGGTVS   72 (159)
+T ss_dssp             ------CCCCSCCCCSSCHHHHHHHHHHHCGGGTT-TEEEEEECSSEEEEE--------ECGGG-----GCCC-TTCCCC
+T ss_pred             ccccccceeeeccccccCHHHHHHHHHhhCccccC-ceEEEEecCCEEEEE--------EECCH-----HHcC-CCCcCh
+Confidence            111235667777776666421           111 235555665554421        11111     1121 334433
+
+
+Q ss_pred             ccccccccchhhhh---hhccCCcceeeeeccCccccCCCCCCcceeeeccCccceEEEEEEecCCceeeeecccc----
+Q leishmaniainfa  331 SSQLEDYRTADLQR---IAAGNKGQYMATSFGDFNLENDAATSPYISYLAASPAATMISITVSADDLEYTVGLASG----  403 (559)
+Q Consensus       331 ~nQl~~~~~~D~~~---~~~g~~~~Y~~~~~G~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G----  403 (559)
+                      ..-+..+.+.-...   ..-+..                             .....+.++++     |..+..+|    
+T Consensus        73 gg~~~~~~d~a~~~~~~~~~~~~-----------------------------~~~~~~~~~i~-----fl~pv~~gd~l~  118 (159)
+T 2qwz_A           73 GPSMFALADVSVYALVLAHLGRE-----------------------------ALAVTTNASLD-----FMRKPESGRDLL  118 (159)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHCTT-----------------------------CCCEEEEEEEE-----ECSCCCTTSCEE
+T ss_pred             HHHHHHHHHHHHHHHHHHhcCCC-----------------------------CceEEEEEEEE-----eccCCCCCCEEE
+Confidence            33232232221111   111111                             01111222222     22112222    
+
+
+Q ss_pred             ---ceEeeccCcccccccccCceEEEEEeec--ceeeceeEEEeeecCCC
+Q leishmaniainfa  404 ---KIVSADLNKPTLQAGTADGVMTVMVRNT--AAVTGRLVVGMLNCSDG  448 (559)
+Q Consensus       404 ---~I~~~~~~~~~fe~~s~~g~l~V~v~N~--G~~~a~y~v~v~~Cs~~  448 (559)
+                         +++..  .       .+...+.+.+.+.  |++-+.-.... -+...
+T Consensus       119 v~~~v~~~--~-------~~~~~~~~~i~~~~~g~lva~~~~~~-~~~~~  158 (159)
+T 2qwz_A          119 GQARLLKL--G-------RTLAVGDILLFSEGMEAPVARSTMTY-SIPPK  158 (159)
+T ss_dssp             EEEEEEEE--C-------SSEEEEEEEEEETTCSSCSEEEEEEE-ECCC-
+T ss_pred             EEEEEEEc--C-------CCEEEEEEEEEECCCCcEEEEEEEEE-EEeCC
+Confidence               12222  1       1223455666665  66666666643 44321
+
+
+No 18 
+>2f3x_A Transcription factor FAPR; 'HOT-DOG' fold / malonyl-COA complex, gene regulation; HET: MLC; 3.10A {Bacillus subtilis} SCOP: d.38.1.5
+Probab=0.08  E-value=4.2e+03  Score=10.17  Aligned_cols=116  Identities=11%  Similarity=0.011  Sum_probs=36.0
+
+Q ss_pred             hccccceeeeeccce-eeecCccccccccchhhhhccCCccccCCCCccccccccccchhhhhhhc-cCCcceeeeeccC
+Q leishmaniainfa  283 VQAGAAEWLLLPTNL-VTLDGRECDKVGVSYEAFASQGNKCNLRPGSCLSSQLEDYRTADLQRIAA-GNKGQYMATSFGD  360 (559)
+Q Consensus       283 ~~~~~~~~mll~~~~-v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~-g~~~~Y~~~~~G~  360 (559)
+                      ...-..+..-++... +...      +-+....+       ..+.|.--..-+.-+  .|...... +..+.....    
+T Consensus        40 ~~~~~~~i~~~~~~~~~~~~------~~v~~~~~-------~~~~g~vhGg~l~~l--~d~a~~~~~~~~~~~~~~----  100 (157)
+T 2f3x_A           40 LDEVIGEIIDLELDDQAISI------LEIKQEHV-------FSRNQIARGHHLFAQ--ANSLAVAVIDDELALTAS----  100 (157)
+T ss_dssp             GGGSSSEEEEEETTTEEEEE------EECCGGGB-------CTTTCBBCHHHHHHH--HHHHHHHTSCSSCCEEEE----
+T ss_pred             hhhccceeeEecCCCeEEEE------EeCCHHHc-------cCCCcEeehHHHHHH--HHHHHHHhcCCCeEEEEE----
+Confidence            111111333333221 1110      00111111       011111111111111  22222221 111111100    
+
+
+Q ss_pred             ccccCCCCCCcceeeeccCccceEEEEEEecCCceeeeeccccceEeeccCcccccccccCceEEEEEeecceeeceeEE
+Q leishmaniainfa  361 FNLENDAATSPYISYLAASPAATMISITVSADDLEYTVGLASGKIVSADLNKPTLQAGTADGVMTVMVRNTAAVTGRLVV  440 (559)
+Q Consensus       361 ~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~i~~v~~~s~G~I~~~~~~~~~fe~~s~~g~l~V~v~N~G~~~a~y~v  440 (559)
+                                ..+.|.-.-.....|+++..              +++..      + -.....+.+.++|.|.+-+.-..
+T Consensus       101 ----------~~i~f~~pv~~g~~l~~~~~--------------v~~~~------~-~~~~~~~~~~v~~~g~~va~~~~  149 (157)
+T 2f3x_A          101 ----------ADIRFTRQVKQGERVVAKAK--------------VTAVE------K-EKGRTVVEVNSYVGEEIVFSGRF  149 (157)
+T ss_dssp             ----------EEEEECSCCBTTCEEEEEEE--------------EEEEE------T-GGGEEEEEEEEEETTEEEEEEEE
+T ss_pred             ----------eEEEECCCCCCCCEEEEEEE--------------EEEEe------c-CCCEEEEEEEEEECCEEEEEEEE
+Confidence                      01222222222344444443              22221      0 11123467788888888888777
+
+
+Q ss_pred             EeeecCCCc
+Q leishmaniainfa  441 GMLNCSDGV  449 (559)
+Q Consensus       441 ~v~~Cs~~i  449 (559)
+                      .+ -+.+..
+T Consensus       150 ~~-~~~~~~  157 (157)
+T 2f3x_A          150 DM-YRSKHS  157 (157)
+T ss_dssp             EE-ECCC--
+T ss_pred             EE-EEecCC
+Confidence            55 444321
+
+
+No 19 
+>3b6n_A 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; malaria isoprenoid biosynthesis and prenylation pathways ISPF; 2.26A {Plasmodium vivax sai-1}
+Probab=0.08  E-value=5.4e+03  Score=11.26  Aligned_cols=140  Identities=11%  Similarity=0.088  Sum_probs=35.1
+
+Q ss_pred             hcccceeeeeEEEEEEEEEEeecccCC-----C--C--Cc----ccceeeeecCCCCCCCcccccceeeeeecccccccC
+Q leishmaniainfa  195 WYSGYTIGGYMTWYTVNLTLSRNVSGS-----G--G--AG----AAEKVVMHLSPSNNGETAGEGWDVMARIVGTYAPVD  261 (559)
+Q Consensus       195 wY~vy~I~~~~~~~~i~v~i~~~~~~~-----~--~--~~----~~~~~~~~l~p~~~~~~~~~~~~v~v~ligd~~~~~  261 (559)
+                      -|..|.||...=.|.+.   . ....+     +  .  ..    ......+.|+     .   -... ...+.|-  ++.
+T Consensus         1 ~~~~~riG~G~D~Hr~~---~-~~~~~~~~~~~~~~~~~~~~~~~~~~r~l~Lg-----G---v~i~-~~gl~gH--SDg   65 (187)
+T 3b6n_A            1 GYDGVRIGQGYDIHQIR---V-GPPEDIVADTTADTAANTADPNKQSFKRLTIG-----G---VPVE-TISVLSH--SDG   65 (187)
+T ss_dssp             ---CEEEEEEEEEEEEE---S-SCCC------------------CCEEEEEEET-----T---EEEE-EEEEEES--SCC
+T ss_pred             CCCCcEEEeeeeeeeec---c-CCccccccccccccccccccccccCCCCEEEe-----e---EEeC-CCCcccc--cch
+Confidence            16778888655444442   1 10000     0  0  00    0112344444     0   0000 1122221  111
+
+
+Q ss_pred             ---------------CccccccccccccCCCC-----Cchh----hcc--ccceeeeeccceeeecCccccccccchhhh
+Q leishmaniainfa  262 ---------------QPLDLTSRMLFAPAIPP-----NDAR----VQA--GAAEWLLLPTNLVTLDGRECDKVGVSYEAF  315 (559)
+Q Consensus       262 ---------------~~~~l~~~yL~iP~~~~-----~~~~----~~~--~~~~~mll~~~~v~l~G~eCnKIGVsy~aF  315 (559)
+                                     ..+++-..  | |....     +...    +..  ....|.|..-+ +++   .|.+.       
+T Consensus        66 DVl~HAl~DAlLGA~glgDIG~~--F-pd~d~~~k~~~S~~lL~~v~~~l~~~g~~I~NiD-~tI---i~e~P-------  131 (187)
+T 3b6n_A           66 DVIFHALVDALLGGMSCSDLGTL--F-PDGSPKYKNKNSLSFLRYARLLLYKRNYAIANVD-IIV---IAEVP-------  131 (187)
+T ss_dssp             CHHHHHHHHHHHHHTTCC------------------CCTHHHHHHHHHHHHHTTEEEEEEE-EEE---ECSSS-------
+T ss_pred             hHHHHHHHHHHHHhccCCccccc--C-CCcCcccCCCCHHHHHHHHHHHHHHCCcEEEEEE-EEE---EeCCc-------
+Confidence                           12222211  1 21111     0000    000  02356665544 222   22322       
+
+
+Q ss_pred             hccCCccccCCCCccccccccccchhhhhhh--ccCC-cceeeeeccCccccCC---CCCCcceeeeccCccceEEEEEE
+Q leishmaniainfa  316 ASQGNKCNLRPGSCLSSQLEDYRTADLQRIA--AGNK-GQYMATSFGDFNLEND---AATSPYISYLAASPAATMISITV  389 (559)
+Q Consensus       316 ~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~--~g~~-~~Y~~~~~G~~~~~~~---~~~~~~l~~~~~~~~~s~i~ie~  389 (559)
+                                       -|..|+++=.+.++  -+.. .+--++.--.   +..   |.. ..|+=      ...++++-
+T Consensus       132 -----------------Kl~p~~~~m~~~La~lL~i~~~~V~IKAtT~---E~lG~iGr~-egIaa------~avvll~~  184 (187)
+T 3b6n_A          132 -----------------KISPIREEIVRNISSALGISESQVSLKGKTH---EQLGPVGQK-KAIEC------FANALLIR  184 (187)
+T ss_dssp             -----------------CSHHHHHHHHHHHHHHHTCCGGGEEEEEECC---TTCHHHHTT-SEEEE------EEEEEEEE
+T ss_pred             -----------------cchHHHHHHHHHHHHHhCCCCceEEEEEecC---CCCCcccCC-cEEEE------EEEEEEEe
+Confidence                             13444444444444  2432 2222322100   000   011 11210      12222221
+
+
+Q ss_pred             e
+Q leishmaniainfa  390 S  390 (559)
+Q Consensus       390 ~  390 (559)
+                      .
+T Consensus       185 ~  185 (187)
+T 3b6n_A          185 K  185 (187)
+T ss_dssp             C
+T ss_pred             c
+Confidence            1
+
+
+No 20 
+>1wge_A Hypothetical protein 2610018L09RIK; diphthamide,CSL zinc finger, ADP-ribosylating toxin, structural genomics, NPPSFA; NMR {Mus musculus} SCOP: g.41.17.1
+Probab=0.08  E-value=4.6e+03  Score=9.94  Aligned_cols=18  Identities=6%  Similarity=0.124  Sum_probs=6.2
+
+Q ss_pred             ccceEeeccCcccccccccCceEEEEEee
+Q leishmaniainfa  402 SGKIVSADLNKPTLQAGTADGVMTVMVRN  430 (559)
+Q Consensus       402 ~G~I~~~~~~~~~fe~~s~~g~l~V~v~N  430 (559)
+                      ...|+.-           ..|.|.|.|.=
+T Consensus        49 ~~~iv~C-----------~sCSL~I~V~~   66 (83)
+T 1wge_A           49 GEDVATC-----------PSCSLIIKVIY   66 (83)
+T ss_dssp             TCCEEEC-----------TTTCCEEEEEC
+T ss_pred             CCEEEEC-----------CCCCeEEEEEc
+Confidence            1122222           23555555431
+
+
+Done!

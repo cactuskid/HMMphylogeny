@@ -1,0 +1,482 @@
+Query         nairovirusSS
+Match_columns 442
+No_of_seqs    78 out of 125
+Neff          4.5 
+Searched_HMMs 111
+Date          Thu Aug  4 12:30:57 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/nairovirusSS.a3m.hhm -ohhm ./structurepred/nairovirusSS.a3m.hhm -o ./structurepred/nairovirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2msq_A Conotoxin CBRU9A; conot  21.3      43  0.0051   19.1   4.0   21   61-81      4-24  (27)
+  2 1as5_A Conotoxin Y-PIIIE; neur  14.7      73  0.0087   17.9   6.5   15   64-78      7-21  (25)
+  3 1ixt_A Spasmodic protein TX9A-  13.5      56  0.0076   18.5   3.6   20   60-79      3-24  (27)
+  4 4gow_A Potassium voltage-gated   2.3   1E+02   0.014   21.2   0.0   45  271-332    16-60  (72)
+  5 1sp8_A 4-hydroxyphenylpyruvate   1.7 7.9E+02    0.14   18.2  17.2  185  209-439   151-395 (418)
+  6 2kak_A EC protein I/II; metall   1.0 9.5E+02    0.12   14.7   9.3   39   60-106     3-48  (53)
+  7 4dv8_A Lethal factor; endopept   0.2   4E+03    0.61   13.9  21.8  114  269-424   161-299 (526)
+  8 4loo_B TGF-beta-activated kina   0.1 5.6E+03    0.66    8.4   2.3   10  362-371    19-28  (29)
+  9 4aqr_D Calcium-transporting AT   0.1 5.6E+03    0.75    9.2   4.0   14   35-48     41-54  (57)
+ 10 1nh8_A ATP phosphoribosyltrans   0.0 5.8E+03    0.86   10.7   9.5  126  267-422    29-206 (304)
+ 11 3gzu_A Inner capsid protein VP   0.0 7.8E+03    0.97   11.1   8.3   91  159-305    17-112 (800)
+ 12 1z7m_E ATP phosphoribosyltrans   0.0   6E+03    0.91    9.1   8.0  128  254-421    36-185 (208)
+ 13 3kws_A Putative sugar isomeras   0.0 5.1E+03    0.92    8.4   7.1  105  249-400   117-239 (287)
+ 14 1wln_A Afadin; beta sandwich,    0.0 5.1E+03    0.93    6.4  29.3   75   91-169    34-120 (120)
+ 15 1tr8_A Conserved protein (MTH1   0.0 6.5E+03    0.97    7.2  15.9   39  363-416    18-56  (102)
+ 16 2xki_A Neural hemoglobin; oxyg   0.0 5.6E+03    0.98    5.5   5.9   21  271-291     6-26  (110)
+ 17 2bs2_B Quinol-fumarate reducta   0.0 5.6E+03    0.98    6.9  17.9   31  369-401     1-36  (241)
+ 18 3iez_A RAS GTPase-activating-l   0.0 6.6E+03    0.98    6.8  24.5   63  346-419    35-104 (114)
+ 19 2apl_A Hypothetical protein PG   0.0 7.1E+03    0.99    7.3   4.4   17   28-45    118-134 (157)
+ 20 1x9a_A Hypothetical protein TM   0.0 6.3E+03    0.99    5.9   6.1   40  368-410    16-72  (107)
+
+No 1  
+>2msq_A Conotoxin CBRU9A; conotoxins, cyclic peptides, cyclization, cystine knot, drug toxin; HET: HYP; NMR {Synthetic}
+Probab=21.25  E-value=43  Score=19.10  Aligned_cols=21  Identities=33%  Similarity=0.912  Sum_probs=0.0
+
+Q ss_pred             ceecCCCCCcccccccccccc
+Q nairovirusSS     61 AVCTGDCPHRCGCQTSTCMAK   81 (442)
+Q Consensus        61 f~CtG~C~k~c~c~t~~C~~~   81 (442)
+                      ++|.|-|=.-|.|-..+|+..
+T Consensus         4 gscfggcwpgcscyartcfrd   24 (27)
+T 2msq_A            4 GSCFGGCWPGCSCYARTCFRD   24 (27)
+T ss_dssp             BCTTSCBSTTCCEETTEECBT
+T ss_pred             cccccCcCCCcchhhHHhhhc
+
+
+No 2  
+>1as5_A Conotoxin Y-PIIIE; neurotoxin, acetylcholine; HET: HYP; NMR {Conus purpurascens} SCOP: j.30.1.4 PDB: 1jlo_A*
+Probab=14.65  E-value=73  Score=17.86  Aligned_cols=15  Identities=33%  Similarity=1.008  Sum_probs=0.0
+
+Q ss_pred             cCCCCCccccccccc
+Q nairovirusSS     64 TGDCPHRCGCQTSTC   78 (442)
+Q Consensus        64 tG~C~k~c~c~t~~C   78 (442)
+                      ||.|-.|=+|..+.|
+T Consensus         7 yg~cr~~pgc~~a~c   21 (25)
+T 1as5_A            7 YGKCRRYPGCSSASC   21 (26)
+T ss_dssp             TTCCCCCTTCTTCCC
+T ss_pred             ccccccCCCccchhh
+
+
+No 3  
+>1ixt_A Spasmodic protein TX9A-like protein; conotoxin, P-superfamily, ICK, inhibitory cystine knot, conus gloriamaris, GM9A, GM9.1; NMR {Synthetic} SCOP: g.3.6.1 PDB: 2mso_A
+Probab=13.48  E-value=56  Score=18.46  Aligned_cols=20  Identities=30%  Similarity=0.855  Sum_probs=0.0
+
+Q ss_pred             cceec--CCCCCcccccccccc
+Q nairovirusSS     60 KAVCT--GDCPHRCGCQTSTCM   79 (442)
+Q Consensus        60 ~f~Ct--G~C~k~c~c~t~~C~   79 (442)
+                      ..+|.  .+||+-|.|.+..|+
+T Consensus         3 ~~~C~~~sdC~s~C~C~~~~C~   24 (27)
+T 1ixt_A            3 NNSCQSHSDCASHCICTFRGCG   24 (27)
+T ss_dssp             CBCCSSSSCSSSSEEEETTEEE
+T ss_pred             cccccCcCCCCCCceEeccceE
+
+
+No 4  
+>4gow_A Potassium voltage-gated channel subfamily KQT MEM; protein complex, protein binding, ION channel, calmodulin, P channel; 2.60A {Homo sapiens}
+Probab=2.25  E-value=1e+02  Score=21.20  Aligned_cols=45  Identities=4%  Similarity=0.106  Sum_probs=2.8
+
+Q ss_pred             hHHHHHHhcchhhcccceeeeeeeecccccccccceEEecceeEEEEEEEEEEEEEecceee
+Q nairovirusSS    271 TQKLREFLKLDQHRKRLHTTLSFSLKKNLSKRSHTSVRLEGKTVTRMEVKVTALIEVDGMEL  332 (442)
+Q Consensus       271 ~~n~dsF~~~n~t~~~~~~~~~f~~s~~~~~~~~~~~~lK~r~P~~~~g~inv~v~v~~Lel  332 (442)
+                      ..-+..|-+    ...|.       ..+      ---++||..--++.||++.+..+++|--
+T Consensus        16 I~~~k~~vA----krkFk-------eal------rPYDvkDViEQYS~Ghldml~rik~lq~   60 (72)
+T 4gow_A           16 IRILKFLVA----KRKFK-------ETL------RPYDVKDVIEQYSAGHLDMLGRIKSLQT   60 (72)
+T ss_dssp             HHHHHHHHH----HHHC---------------------------------------------
+T ss_pred             HHHHHHHHh----HHHHH-------Hhc------CcccHHHHHHHHhhhhHHHHHHHHHHHH
+Confidence            111222222    12222       111      1234677655669999999997776642
+
+
+No 5  
+>1sp8_A 4-hydroxyphenylpyruvate dioxygenase; oxidoreductase; 2.00A {Zea mays} SCOP: d.32.1.3 d.32.1.3
+Probab=1.68  E-value=7.9e+02  Score=18.23  Aligned_cols=185  Identities=10%  Similarity=0.165  Sum_probs=52.8
+
+Q ss_pred             CceeeeeeeeeeheecccCCCCceeeeeCcCCC---ccc----ceeeccCcceeeccCCCCcceeeeh------hhHHHH
+Q nairovirusSS    209 GSAVTTRFTALTALIKDDHSSGLNLAVLDPKVN---SSW----LSWEGCDMDYYCNVGDWPTCTYTGV------VTQKLR  275 (442)
+Q Consensus       209 GdpGDiq~~~~~~~~~~d~~~g~~~~~~d~~~~---~~w----msW~G~s~~~~C~~g~~P~C~y~G~------v~~n~d  275 (442)
+                      |...=..+.++++..         +.-.+....   ..|    -.|.- .     .....+.-..+.+      +.+..+
+T Consensus       151 ~~~~~~~~~dp~G~~---------l~~i~~~~~~~~~~~~p~~~~~~~-~-----~~~~~~~~~idHi~l~v~dl~~~~~  215 (418)
+T 1sp8_A          151 RGFRLAEVELYGDVV---------LRYVSYPDGAAGEPFLPGFEGVAS-P-----GAADYGLSRFDHIVGNVPELAPAAA  215 (418)
+T ss_dssp             TTEEEEEEEEETTEE---------EEEEECCTTGGGSSSSTTCEECCC-T-----TCCCCSEEEEEEEEEECSCHHHHHH
+T ss_pred             CceEEEEEEccCCeE---------EEEEeccCcccCCccCCCcccccc-c-----cCCCCCcceeeEEEEeecChHHHHH
+Confidence            111112222222211         111111100   000    01110 0     1122222222222      256666
+
+
+Q ss_pred             HHhcchhhcccceeeeeeeecccccccccceEEecceeEEEEEEEEEEEEEecceeeeeeeeEEeeeEEecc-eecc---
+Q nairovirusSS    276 EFLKLDQHRKRLHTTLSFSLKKNLSKRSHTSVRLEGKTVTRMEVKVTALIEVDGMELHSKTIRLSGIRLTGL-KCSG---  351 (442)
+Q Consensus       276 sF~~~n~t~~~~~~~~~f~~s~~~~~~~~~~~~lK~r~P~~~~g~inv~v~v~~Lel~~~~v~~~~~~~~~~-sc~G---  351 (442)
+                      -|+.+.-    +.....+......  .  +.   -+        .-.+.+...+     -.+.+.-..-.-. .-.+   
+T Consensus       216 fY~~~lG----f~~~~~~~~~~~~--~--~~---~~--------~~~~~l~~~~-----~~~~l~l~~~~~~~~~~~~~~  271 (418)
+T 1sp8_A          216 YFAGFTG----FHEFAEFTTEDVG--T--AE---SG--------LNSMVLANNS-----ENVLLPLNEPVHGTKRRSQIQ  271 (418)
+T ss_dssp             HHHHHHC----CEEEEEEEC---------------C--------EEEEEEECSS-----SCCEEEEEEECCCSSSCCHHH
+T ss_pred             HHHHHhC----CCceeEecccccc--C--cc---cc--------EEEEEEEcCC-----CCEEEEEeccCCCCCCCCHHH
+Confidence            6665432    3322222221110  0  00   01        1222333322     0111111110000 0000   
+
+
+Q ss_pred             ---cccccCCc-eeeeecc--------ccC-----CceeEEEeecCCCceEE-----------E---------eeeeeee
+Q nairovirusSS    352 ---CFSCTSGI-SCSVNAK--------LTS-----PDEFTLHLRSTSPNVVV-----------A---------ETSIIAR  394 (442)
+Q Consensus       352 ---c~gc~~Gf-tct~~vs--------lte-----p~~F~~hiks~d~~i~~-----------~---------~~s~~~~  394 (442)
+                         ....+.|+ .+.+.|.        |++     ..+|+     ..|.=-|           -         ...++..
+T Consensus       272 ~~~~~~~~~g~~hiaf~v~Di~~~~~~l~~~~~~~Gv~~~-----~~p~~~yy~~~~~~~~~~~~~~~~~~l~~~~~l~~  346 (418)
+T 1sp8_A          272 TFLDHHGGPGVQHMALASDDVLRTLREMQARSAMGGFEFM-----APPTSDYYDGVRRRAGDVLTEAQIKECQELGVLVD  346 (418)
+T ss_dssp             HHHHHHTSSEEEEEEEEETTHHHHHHHHHTSGGGTSCCBC-----CCCCHHHHHHHHHHHTTTSCHHHHHHHHHHTCEEE
+T ss_pred             HHHHhcCCCceeEEEEecCCHHHHHHHHHhhcccCCceEc-----cCCchHHHHHHHHhhccccchhhHHHHHHhCcEEe
+Confidence               00012222 1222221        000     11111     0110000           0         0001122
+
+
+Q ss_pred             cCCCcccceeEEEEeeccc--ceeeEEeeecccccCCC----CCcceeece
+Q nairovirusSS    395 KGPSATTSRFKVFSVRDTK--KICFEVVEREYCKDCTP----DELTTCTGV  439 (442)
+Q Consensus       395 ~g~~~n~~~v~vf~~~~~s--~~~~~i~E~~~C~~C~~----~~l~~c~~~  439 (442)
+                      +++.++  -+-+|++....  .+++||.|+.-|.....    .+...|..|
+T Consensus       347 ~DpdG~--llqift~~~~~~~~~f~E~i~r~~~~~~~~~~~~~~~~~~~gf  395 (418)
+T 1sp8_A          347 RDDQGV--LLQIFTKPVGDRPTLFLEIIQRIGCMEKDEKGQEYQKGGCGGF  395 (418)
+T ss_dssp             ECSSEE--EEEEEBCCSSSSSCCEEEEEEEEECCCCSSSCSCCCCTTTTCS
+T ss_pred             eCCCCe--EEEEecCCCCCCCceEEEEEEEccCccccccccccccccCCcc
+Confidence            344334  77777777665  59999999998855442    122222211
+
+
+No 6  
+>2kak_A EC protein I/II; metallothionein, solution structure, wheat EC-1, Zn binding, metal-binding, metal-thiolate cluster, zinc; NMR {Triticum aestivum}
+Probab=1.03  E-value=9.5e+02  Score=14.72  Aligned_cols=39  Identities=31%  Similarity=0.964  Sum_probs=24.9
+
+Q ss_pred             cceecCCCCCccccccccccccccc----ccce-eeeeEEEeeccCcce--ecc
+Q nairovirusSS     60 KAVCTGDCPHRCGCQTSTCMAKECH----TQEC-VSTHMVLGIGTGCTC--CGM  106 (442)
+Q Consensus        60 ~f~CtG~C~k~c~c~t~~C~~~~~~----~~w~-CNP~wC~gVGTGCTc--Cg~  106 (442)
+                      +-.|  .|-..|+|..=+|.+.+-.    +++. |.      -|.||||  |+.
+T Consensus         3 H~~C--sCGEHCgCNPCtC~k~~~~~~~~~g~~~C~------CG~~CtC~tC~~   48 (53)
+T 2kak_A            3 HTTC--GCGEHCGCNPCACGREGTPSGRANRRANCS------CGAACNCASCGS   48 (53)
+T ss_dssp             CSCB--TTTBCCTTSCCTTCCCCCCCCSSSSCSCCC------CCSSCCCHHHHC
+T ss_pred             cccc--CCCCccCccCccCcccccccccccCccccc------cCCCCccccccC
+Confidence            1122  6888999999999987543    3444 63      5888887  111
+
+
+No 7  
+>4dv8_A Lethal factor; endopeptidase, zinc dependent, hydrolase; HET: 0LX; 1.63A {Bacillus anthracis} PDB: 1yqy_A* 4pkw_A* 4pkr_A* 4pks_A* 4pkt_A* 4pku_A* 4pkv_A* 4pkq_A* 2l0r_A
+Probab=0.16  E-value=4e+03  Score=13.94  Aligned_cols=114  Identities=7%  Similarity=0.051  Sum_probs=39.3
+
+Q ss_pred             hhhHHHHHHhc-ch-----hhcccceeeeeeeeccccc-------cc--ccceE----------EecceeEEEEEEEEEE
+Q nairovirusSS    269 VVTQKLREFLK-LD-----QHRKRLHTTLSFSLKKNLS-------KR--SHTSV----------RLEGKTVTRMEVKVTA  323 (442)
+Q Consensus       269 ~v~~n~dsF~~-~n-----~t~~~~~~~~~f~~s~~~~-------~~--~~~~~----------~lK~r~P~~~~g~inv  323 (442)
+                      .....++...+ |.     ....++. -|+-.......       .+  ....+          .+++        .+  
+T Consensus       161 ~~~~~I~~LD~aL~k~~k~~lpe~i~-VYR~~~~~~fg~~~~~~~~~~~~~~~in~~~~~~~~~~~~g--------~~--  229 (526)
+T 4dv8_A          161 QYKRDIQNIDALLHQSIGSTLYNKIY-LYENMNINNLTATLGADLVDSTDNTKINRGIFNEFKKNFKY--------SI--  229 (526)
+T ss_dssp             HHHHHHHHHHHHCCCBCHHHHTTTCC-EEEEECGGGTCHHHHTTSBCSSCTTSBCHHHHHHHHTTCCE--------EE--
+T ss_pred             HHHHHHHHHHHHHHhhccCCCCCCeE-EEEecCHHhcCCccccccccccccccccHHHHHHHHHHhcC--------CC--
+Confidence            12233444443 22     4555555 45555544211       00  00000          0111        11  
+
+
+Q ss_pred             EEEecceeeeeeeeEEeeeEEecceecccccccCCceeeeeccccCCceeEEEeecCCCceEEEeeeeeeecCCCcccce
+Q nairovirusSS    324 LIEVDGMELHSKTIRLSGIRLTGLKCSGCFSCTSGISCSVNAKLTSPDEFTLHLRSTSPNVVVAETSIIARKGPSATTSR  403 (442)
+Q Consensus       324 ~v~v~~Lel~~~~v~~~~~~~~~~sc~Gc~gc~~Gftct~~vsltep~~F~~hiks~d~~i~~~~~s~~~~~g~~~n~~~  403 (442)
+                         ..|----+..            =...++ +.  ...+.+.+-....- ..|         ++.-+++.||+  . |.
+T Consensus       230 ---~~gF~STSL~------------~~~~f~-~~--~ill~I~VPKGt~~-ayv---------~~~ElLL~RGt--~-~k  278 (526)
+T 4dv8_A          230 ---SSNYMIVDIN------------ERPALD-NE--RLKWRIQLSPDTRA-GYL---------ENGKLILQRNI--G-LE  278 (526)
+T ss_dssp             ---ESSCCEEESS------------CCCCCT-TC--CEEEEEECCTTCBE-EEE---------TTTEEEECSSE--E-EE
+T ss_pred             ---CCCeeeccCC------------cccccC-CC--ceEEEEEecCCceE-EEc---------CCCEEEecCCC--E-EE
+Confidence               2222211111            001121 11  13333333333222 223         22488888887  4 55
+
+
+Q ss_pred             eEEEEeecccceeeEEeeecc
+Q nairovirusSS    404 FKVFSVRDTKKICFEVVEREY  424 (442)
+Q Consensus       404 v~vf~~~~~s~~~~~i~E~~~  424 (442)
+                      |.-+......+-..-.+|...
+T Consensus       279 I~kv~~~~~~g~~~i~Iea~l  299 (526)
+T 4dv8_A          279 IKDVQIIKQSEKEYIRIDAKV  299 (526)
+T ss_dssp             EEEEEEEEETTEEEEEEEEEE
+T ss_pred             EEEEEEeccCCeEEEEEEEEE
+Confidence            544444422332222222211
+
+
+No 8  
+>4loo_B TGF-beta-activated kinase 1 and MAP3K7-binding PR; structural genomics, structural genomics consortium, SGC, PR kinase; HET: SB4; 1.95A {Mus musculus} PDB: 4lop_K* 4loq_M*
+Probab=0.05  E-value=5.6e+03  Score=8.42  Aligned_cols=10  Identities=40%  Similarity=0.524  Sum_probs=1.6
+
+Q ss_pred             eeeccccCCc
+Q nairovirusSS    362 SVNAKLTSPD  371 (442)
+Q Consensus       362 t~~vsltep~  371 (442)
+                      .+++||--|.
+T Consensus        19 svtlslvmps   28 (29)
+T 4loo_B           19 SVTLSLVMPS   28 (29)
+T ss_dssp             -CCCCCCCCC
+T ss_pred             eEEEEEEecC
+Confidence            1111111111
+
+
+No 9  
+>4aqr_D Calcium-transporting ATPase 8, plasma membrane-TY; Ca-binding protein-hydrolase complex, plasma-membrane calciu; 1.95A {Arabidopsis thaliana} PDB: 2m73_A
+Probab=0.05  E-value=5.6e+03  Score=9.17  Aligned_cols=14  Identities=14%  Similarity=0.195  Sum_probs=6.8
+
+Q ss_pred             cchHHHHhhhhcee
+Q nairovirusSS     35 IMDFAQVYNSVFQY   48 (442)
+Q Consensus        35 I~d~~Qvy~a~~qy   48 (442)
+                      |-...||+.|-+++
+T Consensus        41 iR~~~~v~~AallF   54 (57)
+T 4aqr_D           41 IRSHAHALLAANRF   54 (57)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHH
+Confidence            11246777765432
+
+
+No 10 
+>1nh8_A ATP phosphoribosyltransferase; prtase, de novo His biosynthesis, PRPP, structural genomics, PSI, protei structure initiative; HET: AMP HIS; 1.80A {Mycobacterium tuberculosis H37RV} SCOP: c.94.1.1 d.58.5.3 PDB: 1nh7_A*
+Probab=0.05  E-value=5.8e+03  Score=10.67  Aligned_cols=126  Identities=12%  Similarity=0.066  Sum_probs=36.5
+
+Q ss_pred             eeh-hhHHHHHHhcchhh----cccceeeeeeeecccccccccce-EEec-------------ceeEEEEEEEEEE----
+Q nairovirusSS    267 TGV-VTQKLREFLKLDQH----RKRLHTTLSFSLKKNLSKRSHTS-VRLE-------------GKTVTRMEVKVTA----  323 (442)
+Q Consensus       267 ~G~-v~~n~dsF~~~n~t----~~~~~~~~~f~~s~~~~~~~~~~-~~lK-------------~r~P~~~~g~inv----  323 (442)
+                      -|- -+++.+-|+..--.    +..|    .+.....     ... +.+|             |-       =|+-    
+T Consensus        29 KGRL~e~t~~LL~~aGl~~~~~~R~l----~~~~~~~-----~i~~~~lR~~DIp~~V~~G~~Dl-------GItG~D~l   92 (304)
+T 1nh8_A           29 KGALSEPATEILAEAGYRRRTDSKDL----TVIDPVN-----NVEFFFLRPKDIAIYVGSGELDF-------GITGRDLV   92 (304)
+T ss_dssp             SSTTHHHHHHHHHHTTCCCCCSTTCS----EEEETTT-----TEEEEEECGGGHHHHHHHSSCSE-------EEEEHHHH
+T ss_pred             CCccHHHHHHHHHHCCCCcccCCcce----EeecCCC-----ceEEEEeCcHHHHHHHhcCCCcE-------EEeehhhh
+Confidence            122 24566666652211    1111    1111110     001 1111             10       0111    
+
+
+Q ss_pred             ------EEEecceeeeeeeeEEeeeEEecceeccccc--ccCCceeeeec---------cccCCceeEEEeecCC-----
+Q nairovirusSS    324 ------LIEVDGMELHSKTIRLSGIRLTGLKCSGCFS--CTSGISCSVNA---------KLTSPDEFTLHLRSTS-----  381 (442)
+Q Consensus       324 ------~v~v~~Lel~~~~v~~~~~~~~~~sc~Gc~g--c~~Gftct~~v---------sltep~~F~~hiks~d-----  381 (442)
+                            +.++.+|....|+..+.+-     . +.-|.  --.|..--=+-         ...-  ++.+.--...     
+T Consensus        93 ~E~~~~v~~~~~L~fg~crl~vAvp-----~-~~~~~~~~l~~~rIAT~ypnlt~~~f~~~gi--~~~Iv~l~GsvE~aP  164 (304)
+T 1nh8_A           93 CDSGAQVRERLALGFGSSSFRYAAP-----A-GRNWTTADLAGMRIATAYPNLVRKDLATKGI--EATVIRLDGAVEISV  164 (304)
+T ss_dssp             HHHTCCEEEEEECSCCCEEEEEEEE-----T-TSCCCGGGGTTCEEEESCHHHHHHHHHHHTC--CCEEEECSSCCTHHH
+T ss_pred             ccccCCcceeeccCCCcEEEEEEEe-----c-cccCChhhccCcEEEEECcchHHHHHHHcCC--cEEEEEcCCcceecc
+Confidence                  2345677777887777762     1 11121  00221111000         0000  0111111111     
+
+
+Q ss_pred             ----CceEEEeeeeeeecCCCcc--cceeEEEEe-ecccceeeEEeee
+Q nairovirusSS    382 ----PNVVVAETSIIARKGPSAT--TSRFKVFSV-RDTKKICFEVVER  422 (442)
+Q Consensus       382 ----~~i~~~~~s~~~~~g~~~n--~~~v~vf~~-~~~s~~~~~i~E~  422 (442)
+                          .+.+++=    +..|.  +  ....++... .-.+.-++-.-..
+T Consensus       165 ~lGlAD~IvDi----vsTG~--TLraNgL~~i~~~il~S~a~LIan~~  206 (304)
+T 1nh8_A          165 QLGVADAIADV----VGSGR--TLSQHDLVAFGEPLCDSEAVLIERAG  206 (304)
+T ss_dssp             HTTSCSEEEEE----ESSSH--HHHHTTEEEEEEEEEEECEEEEEEC-
+T ss_pred             CCCCCCEEEEe----ecChh--hHHHCCCeEeeeEEEeeeeeeEEccc
+Confidence                2333331    11111  0  123444432 2333333322111
+
+
+No 11 
+>3gzu_A Inner capsid protein VP2; 7RP, DLP, metal- binding, virion, zinc, core protein, RNA-binding, icosaderal virus; 3.80A {Rotavirus A} PDB: 3kz4_A 4f5x_A
+Probab=0.03  E-value=7.8e+03  Score=11.10  Aligned_cols=91  Identities=18%  Similarity=0.234  Sum_probs=30.2
+
+Q ss_pred             EecCCCCcccCCCcccceeeeecCCCceeEEeeeeee-ecCCceeeccccCCceeeeeeeeeeheecccCCCCceeeeeC
+Q nairovirusSS    159 TISDPQNIGSKLPESLMTVQEIDDSNFVDIMHVGNVI-SADNSCRLQSCTHGSAVTTRFTALTALIKDDHSSGLNLAVLD  237 (442)
+Q Consensus       159 ~~~~p~gt~~kLp~~i~~~~~~~~~~~~~~~~~~~ii-~~k~~C~~~sCthGdpGDiq~~~~~~~~~~d~~~g~~~~~~d  237 (442)
+                      .+----..++|| ..|---+..+....|.+.++..+- +.-+.=+                       +..+.-|     
+T Consensus        17 tf~p~~~i~KKl-~dIk~~~~k~~~~LfRlFep~~~piY~~ngek-----------------------~L~~rWy-----   67 (800)
+T 3gzu_A           17 TFEPKESILKKL-EDIKPEQAKKQTKLFRIFEPRQLPIYRANGEK-----------------------ELRNRWY-----   67 (800)
+T ss_dssp             ---CTTSSSTTT-TTCCCCCCCCCCSCCCSEEEECCCCEETTTEE-----------------------CSSCCCE-----
+T ss_pred             CCCccHHHHHHH-hhCCccchhhHHHHHhhcCcccCccccCcchh-----------------------hhhhhhh-----
+Confidence            111112467777 345444555555665555544331 1111111                       0111111     
+
+
+Q ss_pred             cCCCcccceeeccCcceeeccCCCCcceeeehhhHHHHHHhcchhh----cccceeeeeeeecccccccccc
+Q nairovirusSS    238 PKVNSSWLSWEGCDMDYYCNVGDWPTCTYTGVVTQKLREFLKLDQH----RKRLHTTLSFSLKKNLSKRSHT  305 (442)
+Q Consensus       238 ~~~~~~wmsW~G~s~~~~C~~g~~P~C~y~G~v~~n~dsF~~~n~t----~~~~~~~~~f~~s~~~~~~~~~  305 (442)
+                               |.=       --.+-|.=.|+     =++-|.+|...    -+++-      .-|-+..+.+.
+T Consensus        68 ---------WkL-------kKDdlP~gdY~-----VReyFl~LY~~vl~~mPdyi------mLr~MAVdNk~  112 (800)
+T 3gzu_A           68 ---------WKL-------KKDTLPDGDYD-----VREYFLNLYDQVLTEMPDYL------LLKDMAVENKN  112 (800)
+T ss_dssp             ---------EEE-------SCCCCCSSHHH-----HHHHHHHHHHHHHHHCCSSC------CSGGGCCCCSS
+T ss_pred             ---------hhh-------hcCCCCCCCch-----HHHHHHHHHHHHHHhCccHH------HHHHHhhcCCC
+Confidence                     111       11244432222     34555554321    12221      12222211111
+
+
+No 12 
+>1z7m_E ATP phosphoribosyltransferase; ATP-PRT, histidine biosynthesis, hiszg, alloste evolution; 2.90A {Lactococcus lactis} SCOP: c.94.1.1 PDB: 1z7n_E*
+Probab=0.03  E-value=6e+03  Score=9.06  Aligned_cols=128  Identities=11%  Similarity=0.086  Sum_probs=46.4
+
+Q ss_pred             eeeccCCCCcceeeehhhHHHHHHhcchhhcccceeeeeeeecccccccccceEEecceeEEEEEEEEEEEEEecceeee
+Q nairovirusSS    254 YYCNVGDWPTCTYTGVVTQKLREFLKLDQHRKRLHTTLSFSLKKNLSKRSHTSVRLEGKTVTRMEVKVTALIEVDGMELH  333 (442)
+Q Consensus       254 ~~C~~g~~P~C~y~G~v~~n~dsF~~~n~t~~~~~~~~~f~~s~~~~~~~~~~~~lK~r~P~~~~g~inv~v~v~~Lel~  333 (442)
+                      +.-.. . |-=++-=+  +..|-......-.-+    .-|..+++...-..     .+         +..++   +|..-
+T Consensus        36 l~~~~-~-~~i~~~~~--r~~DIp~~V~~G~~D----lGI~G~D~v~E~~~-----~~---------v~~l~---~L~~g   90 (208)
+T 1z7m_E           36 LQIKT-K-DDLQIIFG--KPNDVITFLEHGIVD----IGFVGKDTLDENDF-----DD---------YYELL---YLKIG   90 (208)
+T ss_dssp             SEECC-T-TSCCEEEE--CHHHHHHHHHTTSCS----EEEEEHHHHHHSSC-----CC---------EEEEE---EETTC
+T ss_pred             EEEec-C-CCeEEEEe--ChHHHHHHHhCCCCc----EeEeehHhhcccCC-----cc---------EEEEe---cCCcc
+Confidence            11111 1 11111111  133333333333222    33556665443321     12         22222   45556
+
+
+Q ss_pred             eeeeEEeeeEEecceecccccccCC-ceeeeeccc---------cCCceeE-EEeecC--------CCceEEEeeeeeee
+Q nairovirusSS    334 SKTIRLSGIRLTGLKCSGCFSCTSG-ISCSVNAKL---------TSPDEFT-LHLRST--------SPNVVVAETSIIAR  394 (442)
+Q Consensus       334 ~~~v~~~~~~~~~~sc~Gc~gc~~G-ftct~~vsl---------tep~~F~-~hiks~--------d~~i~~~~~s~~~~  394 (442)
+                      +|++.+-+        ...|.-... -...+-=+-         .....+. +++.-.        ..+++++=    +.
+T Consensus        91 ~crl~vA~--------p~~~~~~~~~~~~rVATkYpnia~~ff~~~gi~~~Ii~l~GsvE~ap~lg~AD~IvDi----v~  158 (208)
+T 1z7m_E           91 QCIFALAS--------YPDFSNKNFQRHKRIASKYPRVTKKYFAQKQEDIEIIKLEGSVELGPVVGLADAIVDI----VE  158 (208)
+T ss_dssp             CCEEEEEE--------CGGGGGCCCSSCEEEEESCHHHHHHHHHHTTCCEEEEECSSCTTHHHHTTSCSEEEEE----ES
+T ss_pred             cEEEEEEe--------cccccccccccCCEEEEeCCchHHHHHHHcCCcEEEEEcCCCceeccCCCCCcEEEEE----eC
+Confidence            77766665        122221110 112222110         1222333 333322        34666663    32
+
+
+Q ss_pred             cCC---CcccceeEEEEeecccceeeEEee
+Q nairovirusSS    395 KGP---SATTSRFKVFSVRDTKKICFEVVE  421 (442)
+Q Consensus       395 ~g~---~~n~~~v~vf~~~~~s~~~~~i~E  421 (442)
+                      .|.   . |  ..+......++..++-.-.
+T Consensus       159 TG~TLr~-N--gL~~i~~i~~ssa~LI~n~  185 (208)
+T 1z7m_E          159 TGNTLSA-N--GLEVIEKISDISTRMIVNK  185 (208)
+T ss_dssp             SSHHHHT-T--TCEEEEEEEECCEEEEEEH
+T ss_pred             chHHHHH-C--CCEEcceEEEEEEEEEEec
+Confidence            342   1 2  4555555555666655421
+
+
+No 13 
+>3kws_A Putative sugar isomerase; structural genomics, joint center structural genomics, JCSG, protein structure initiative; HET: MSE; 1.68A {Parabacteroides distasonis atcc 8503}
+Probab=0.03  E-value=5.1e+03  Score=8.42  Aligned_cols=105  Identities=9%  Similarity=-0.033  Sum_probs=25.6
+
+Q ss_pred             ccCcceeeccCCCCcceeeehh----hHHHHHHhcchhh--cccceeeeeeeecccccc----cccce--------EEec
+Q nairovirusSS    249 GCDMDYYCNVGDWPTCTYTGVV----TQKLREFLKLDQH--RKRLHTTLSFSLKKNLSK----RSHTS--------VRLE  310 (442)
+Q Consensus       249 G~s~~~~C~~g~~P~C~y~G~v----~~n~dsF~~~n~t--~~~~~~~~~f~~s~~~~~----~~~~~--------~~lK  310 (442)
+                      | .-....++|..+.=......    .+..+.++.+-.-  +..+.  .-  .+.+.+.    ..+++        +.-+
+T Consensus       117 g-~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~l~~l~~~a~~~gv~--l~--lE~~~~~~~~~~~~~~~~~~l~~~v~~~  191 (287)
+T 3kws_A          117 G-STGVIIVPAFNGQVPALPHTMETRDFLCEQFNEMGTFAAQHGTS--VI--FEPLNRKECFYLRQVADAASLCRDINNP  191 (287)
+T ss_dssp             T-CSEEEECSCCTTCCSBCCSSHHHHHHHHHHHHHHHHHHHHTTCC--EE--ECCCCTTTCSSCCCHHHHHHHHHHHCCT
+T ss_pred             C-CCEEEEcCCCCCCCccccCHHHHHHHHHHHHHHHHHHHHhcCCE--EE--EEECCcccccccCCHHHHHHHHHHcCCC
+Confidence            1 11223334332211111222    2333333332211  11121  11  2222211    00010        0001
+
+
+Q ss_pred             ceeEEEEEEEEEEEEEecceeeeeeeeEEeeeEEecceecccccccCCceeeeeccccCCceeEEEeecCCCceEEEeee
+Q nairovirusSS    311 GKTVTRMEVKVTALIEVDGMELHSKTIRLSGIRLTGLKCSGCFSCTSGISCSVNAKLTSPDEFTLHLRSTSPNVVVAETS  390 (442)
+Q Consensus       311 ~r~P~~~~g~inv~v~v~~Lel~~~~v~~~~~~~~~~sc~Gc~gc~~Gftct~~vsltep~~F~~hiks~d~~i~~~~~s  390 (442)
+                      .         +-+.+++-.+-.                      .+.... . .+..-.+--..+||+-.+..       
+T Consensus       192 ~---------~g~~~D~~h~~~----------------------~~~~~~-~-~~~~~~~~i~~vH~~d~~~~-------  231 (287)
+T 3kws_A          192 G---------VRCMGDFWHMTW----------------------EETSDM-G-AFISGGEYLQHVHVASRKRR-------  231 (287)
+T ss_dssp             T---------EEEEEEHHHHHH----------------------HCSCHH-H-HHHHHGGGEEEEEECCTTTS-------
+T ss_pred             C---------eeEeeehhhhhh----------------------cCCCHH-H-HHHHHhhheeEEEecCCCCc-------
+Confidence            1         333333221100                      000000 0 00000123457777766642       
+
+
+Q ss_pred             eeeecCCCcc
+Q nairovirusSS    391 IIARKGPSAT  400 (442)
+Q Consensus       391 ~~~~~g~~~n  400 (442)
+                        ...+..+.
+T Consensus       232 --~~p~~~G~  239 (287)
+T 3kws_A          232 --SMPGEDGD  239 (287)
+T ss_dssp             --CSTTTTGG
+T ss_pred             --cCCCCCCc
+Confidence              11221111
+
+
+No 14 
+>1wln_A Afadin; beta sandwich, FHA domain, structural genomics, NPPSFA, national project on protein structural and functional analyses; NMR {Mus musculus} SCOP: b.26.1.2
+Probab=0.02  E-value=5.1e+03  Score=6.43  Aligned_cols=75  Identities=16%  Similarity=0.195  Sum_probs=38.2
+
+Q ss_pred             eeEEEeeccC-cceeccccccccccccccccccceeeeeEEEEEEec-cccce---------eeeeeccceeeeee-eEE
+Q nairovirusSS     91 THMVLGIGTG-CTCCGMDVERPFNKYLGVKWSTEYLRTEVLVCVEVT-EEERH---------CEIVEAGTRFNIGP-ITI  158 (442)
+Q Consensus        91 P~wC~gVGTG-CTcCg~~v~~~~~~~~~~~~ki~~~k~~~~vCve~~-~e~~~---------Ck~Ida~~~~~~g~-vkV  158 (442)
+                      +....-||.+ ...|.+-+..+.-.  ..-.++.+..  ..++++.- .....         -..+..+|.+.+|. ..+
+T Consensus        34 ~~~~~~iGr~~~~~~di~l~~~~is--~~h~~i~~~~--~~~~v~~~~~~~~~~~ng~~~~~~~~l~~gd~i~ig~~~~~  109 (120)
+T 1wln_A           34 QLSVTEVGTEKFDDNSIQLFGPGIQ--PHHCDLTNMD--GVVTVTPRSMDAETYVDGQRISETTMLQSGMRLQFGTSHVF  109 (120)
+T ss_dssp             CSEEEECSSSCCSTTCCCCCCTTCC--SSCEEEEESS--SCEEEEESCSSSCEEETSCBCSSCEEECTTCEEEETTTEEE
+T ss_pred             CCCCEEECCCCCCCCeEEECCCCcC--hhHEEEEEeC--CEEEEEECCCCCcEEECCEECCCCEEcCCCCEEEeCCccEE
+Confidence            1125667775 45555555443211  1111222211  12345542 11112         35689999999999 999
+
+
+Q ss_pred             EecCCCCcccC
+Q nairovirusSS    159 TISDPQNIGSK  169 (442)
+Q Consensus       159 ~~~~p~gt~~k  169 (442)
+                      .+..|....+-
+T Consensus       110 ~~~~~~~~~~~  120 (120)
+T 1wln_A          110 KFVDPSGPSSG  120 (120)
+T ss_dssp             EEECSSCSSCC
+T ss_pred             EEECCCCCCCC
+Confidence            99986333221
+
+
+No 15 
+>1tr8_A Conserved protein (MTH177); chaperones, nascent polypeptide-associated complex, ribosome domain, ubiquitin, chaperone; 2.27A {Methanothermobacter marburgensis}
+Probab=0.02  E-value=6.5e+03  Score=7.16  Aligned_cols=39  Identities=3%  Similarity=0.070  Sum_probs=9.6
+
+Q ss_pred             eeccccCCceeEEEeecCCCceEEEeeeeeeecCCCcccceeEEEEeeccccee
+Q nairovirusSS    363 VNAKLTSPDEFTLHLRSTSPNVVVAETSIIARKGPSATTSRFKVFSVRDTKKIC  416 (442)
+Q Consensus       363 ~~vsltep~~F~~hiks~d~~i~~~~~s~~~~~g~~~n~~~v~vf~~~~~s~~~  416 (442)
+                      .+|.|....+          .+++..-.+.+-+-++.+  +   |-.-|....-
+T Consensus        18 ~~V~i~~~~~----------~~vi~~P~V~v~k~~g~~--~---Y~V~G~~~~~   56 (102)
+T 1tr8_A           18 EEVVIKLKRK----------EIIIKNPKVNVMEFMGQK--T---YQVTGKARER   56 (102)
+T ss_dssp             CEEEEECSSE----------EEEEESCEEEEEEETTEE--E---EEEESCEEEE
+T ss_pred             EEEEEEeCCc----------eEEEeCCceeEEEcCCCC--E---EEEEcCceEe
+Confidence            1222332332          333333332221212001  1   2222221111
+
+
+No 16 
+>2xki_A Neural hemoglobin; oxygen storage, metal-binding; HET: HEM SO4; 1.30A {Cerebratulus lacteus} PDB: 1kr7_A* 4avd_A* 4ave_A* 1v07_A* 2xkg_A* 2xkh_A* 2vyz_A* 2vyy_A* 4f6f_A* 4f6d_A* 4f6b_A* 4f6j_A* 4f6g_A* 4f6i_A* 4f69_A* 4f68_A*
+Probab=0.02  E-value=5.6e+03  Score=5.50  Aligned_cols=21  Identities=5%  Similarity=-0.024  Sum_probs=10.0
+
+Q ss_pred             hHHHHHHhcchhhcccceeee
+Q nairovirusSS    271 TQKLREFLKLDQHRKRLHTTL  291 (442)
+Q Consensus       271 ~~n~dsF~~~n~t~~~~~~~~  291 (442)
+                      .-..+-|.++....+.+..-|
+T Consensus         6 ~i~~~~f~~lf~~~P~~~~~F   26 (110)
+T 2xki_A            6 AVVDDFYQELFKAHPEYQNKF   26 (110)
+T ss_dssp             HHHHHHHHHHHHHCGGGGGGS
+T ss_pred             HHHHHHHHHHHHhCHhhhhcC
+Confidence            112356776666666543111
+
+
+No 17 
+>2bs2_B Quinol-fumarate reductase iron-sulfur subunit B; oxidoreductase, respiratory chain,, citric acid cycle, iron-sulphur protein; HET: FAD HEM LMT; 1.78A {Wolinella succinogenes} SCOP: a.1.2.1 d.15.4.2 PDB: 2bs3_B* 1e7p_B* 1qlb_B* 2bs4_B*
+Probab=0.02  E-value=5.6e+03  Score=6.90  Aligned_cols=31  Identities=16%  Similarity=0.069  Sum_probs=20.6
+
+Q ss_pred             CCceeEEEeecCCC-----ceEEEeeeeeeecCCCccc
+Q nairovirusSS    369 SPDEFTLHLRSTSP-----NVVVAETSIIARKGPSATT  401 (442)
+Q Consensus       369 ep~~F~~hiks~d~-----~i~~~~~s~~~~~g~~~n~  401 (442)
+                      --....++|.--||     ..-+.+..+.+..|+  +.
+T Consensus         1 ~~~~~~~~i~r~~~~~~~~~~~~~~~~~~~~~~~--tv   36 (241)
+T 2bs2_B            1 MGRMLTIRVFKYDPQSAVSKPHFQEYKIEEAPSM--TI   36 (241)
+T ss_dssp             CCCEEEEEEEECCTTCTTCCCEEEEEEEECCTTC--BH
+T ss_pred             CCceEEEEEEEECCCCCCCCCeEEEEEEecCCCC--hH
+Confidence            12467777775554     488888888887776  31
+
+
+No 18 
+>3iez_A RAS GTPase-activating-like protein iqgap2; structural genomics consortium, SGC, alternative splicing, calmodulin-binding, phosphoprotein; 1.50A {Homo sapiens} PDB: 4eza_A
+Probab=0.02  E-value=6.6e+03  Score=6.76  Aligned_cols=63  Identities=14%  Similarity=0.077  Sum_probs=31.3
+
+Q ss_pred             cceecccccccCCceeeeeccccCCceeEEEeecCCCceEEEeeeeeee-------cCCCcccceeEEEEeecccceeeE
+Q nairovirusSS    346 GLKCSGCFSCTSGISCSVNAKLTSPDEFTLHLRSTSPNVVVAETSIIAR-------KGPSATTSRFKVFSVRDTKKICFE  418 (442)
+Q Consensus       346 ~~sc~Gc~gc~~Gftct~~vsltep~~F~~hiks~d~~i~~~~~s~~~~-------~g~~~n~~~v~vf~~~~~s~~~~~  418 (442)
+                      +.++++.=-....-.--+.++-.+|..|.|.++-..  +-+....+.+.       .++  .  .+.+|   +  .+.+.
+T Consensus        35 Lv~i~~~~~~~~~~~~~~~iss~~pGvF~I~~~~~g--~~~~~~~l~ldDLLe~q~~~~--~--~l~l~---~--~v~~n  103 (114)
+T 3iez_A           35 LLDIDDLQTNQFKNVTFDIIATEDVGIFDVRSKFLG--VEMEKVQLNIQDLLQMQYEGV--A--VMKMF---D--KVKVN  103 (114)
+T ss_dssp             EEEETTCCGGGGGGEEEEEEECSSTTEEEEEEEETT--EEEEEEEEEHHHHHHHHHTTC--C--EEEEE---T--TEEEE
+T ss_pred             EEEecCCCcccccceEEEEEECCCCcEEEEEEEECC--ceeEEEEEEHHHHHHHHHcCC--e--eEEec---C--cEEEE
+Confidence            122333311112223334566689999999999776  44443333321       455  4  66665   1  33332
+
+
+Q ss_pred             E
+Q nairovirusSS    419 V  419 (442)
+Q Consensus       419 i  419 (442)
+                      |
+T Consensus       104 v  104 (114)
+T 3iez_A          104 V  104 (114)
+T ss_dssp             H
+T ss_pred             H
+Confidence            1
+
+
+No 19 
+>2apl_A Hypothetical protein PG0816; structural genomics, PSI, protein initiative, midwest center for structural genomics, MCSG, U function; 2.01A {Porphyromonas gingivalis} SCOP: a.258.1.1
+Probab=0.01  E-value=7.1e+03  Score=7.33  Aligned_cols=17  Identities=12%  Similarity=0.430  Sum_probs=6.4
+
+Q ss_pred             CCCcccccchHHHHhhhh
+Q nairovirusSS     28 KKPFRFPIMDFAQVYNSV   45 (442)
+Q Consensus        28 ~~~l~i~I~d~~Qvy~a~   45 (442)
+                      ...|-- =.++.|.|..-
+T Consensus       118 ~DdFa~-spey~~LytEL  134 (157)
+T 2apl_A          118 TDDFEA-SPEYEHLYTEL  134 (157)
+T ss_dssp             CTTGGG-STHHHHHHHHH
+T ss_pred             Cccccc-CccHhHHHHHH
+Confidence            111222 23566666421
+
+
+No 20 
+>1x9a_A Hypothetical protein TM0979; structural genomics, protein structure initiative, PSI, northeast structural genomics consortium, NESG, OCSP; NMR {Thermotoga maritima} SCOP: c.114.1.2
+Probab=0.01  E-value=6.3e+03  Score=5.93  Aligned_cols=40  Identities=18%  Similarity=0.238  Sum_probs=9.9
+
+Q ss_pred             cCCceeEEEeecCCCc---------eEEEeeeeee--------ecCCCcccceeEEEEee
+Q nairovirusSS    368 TSPDEFTLHLRSTSPN---------VVVAETSIIA--------RKGPSATTSRFKVFSVR  410 (442)
+Q Consensus       368 tep~~F~~hiks~d~~---------i~~~~~s~~~--------~~g~~~n~~~v~vf~~~  410 (442)
+                      .....-.+||....|.         +..++.++++        .+++  . ...+++...
+T Consensus        16 ~~~~~~~L~il~~~p~~~~l~~~l~~~~~~d~vlLi~DgVy~l~~~~--~-~~~~vyvl~   72 (107)
+T 1x9a_A           16 PRGSHMALVLVKYGTDHPVEKLKIRSAKAEDKIVLIQNGVFWALEEL--E-TPAKVYAIK   72 (107)
+T ss_dssp             -----CCEEEECSTTTCTHHHHHHHTCCTTCEEEECGGGGGGGGSCC--C-CSSEEEEEH
+T ss_pred             cCCCceEEEEECCCCcchHHHHHHHHhcCCCEEEEEhHHHHHHHhcC--C-CCCeEEEEH
+Confidence            1112223455444441         0000123333        2333  1 112222211
+
+
+Done!

@@ -1,0 +1,46 @@
+Query         Q23869
+Match_columns 434
+No_of_seqs    326 out of 351
+Neff          7.5 
+Searched_HMMs 1
+Date          Tue Aug 23 14:50:29 2016
+Command       hhalign -i ./finalsequences/models/Q23869.a3m.hhm -t ./finalsequences/models/Q85429.a3m.hhm -o ./finalsequences/results/Q23869_Q85429_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 Q85429                         100.0 7.6E-44 7.6E-44  356.3   5.8  148  236-428   333-495 (784)
+
+No 1  
+>Q85429
+Probab=100.00  E-value=7.6e-44  Score=356.27  Aligned_cols=148  Identities=13%  Similarity=0.134  Sum_probs=135.1
+
+Q ss_pred             hcccCCCcccchhhhcccchhhhhhhccccceeeeEEEEEEeeecccceeEEEEeecccccccCceeEEeeccccceecc
+Q Q23869          236 CVSELPYGHCDVYHRLGEGIEKHTSYLKNNVTKTEYVGYVSFELPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTRSR  315 (434)
+Q Consensus       236 ~~~~~~~~~C~~~~~~~~~~~~C~~~~~~~~~~c~~~~~~~l~~~~~~~e~Cl~l~~~~~~~~~~i~i~~~~i~l~C~k~  315 (434)
+                      ++++..+++|||++++++.+++|+      ..+|.++++++|+++|+|||+||+|+      ++.|||++++++|+|+|+
+T Consensus       333 l~~~~~~~~Cq~~~~~~~~~~~C~------~~~C~~~~~~~l~l~~~~~e~Cl~l~------~~~i~i~~~~i~l~C~k~  400 (784)
+T Q85429          333 LLLVCSAESCQDLVSSISNIERCT------NNSCDFISKMKLTLLNTPQDFCFKTS------TDVYKIRFNSVRVMCLSV  400 (784)
+T ss_pred             HHHhcCccchhHHhhhcccccccc------cCcccchhcceeecccCCcceeeeec------cceEEEEeeeEEEEEEee
+Confidence            445679999999999999999997      46899999999999999999999998      899999999999999999
+
+
+Q ss_pred             ceeecccccc-------cceeecccccCCcccccccccccCCCCCCCcccccccccCceEeeCCCccccCCCCcceeeee
+Q Q23869          316 YDYTTSSWNG-------HMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCESPFSGIKLKCL  388 (434)
+Q Consensus       316 ~~~fTr~~~~-------~~~s~~RC~~~~~GsC~~~~C~~~~~~~~~~~~El~~~~~~~~~~pg~t~C~~sCgg~~CgCf  388 (434)
+                      ++|||||+++       ++++++|||+|  |              .  +|||++.     +|||+++|++||     |||
+T Consensus       401 ~~~~Tr~~~~~~~~~~~~~~~~~rC~~~--G--------------~--~~el~~~-----~~pg~t~C~~sc-----gCf  452 (784)
+T Q85429          401 PLYYTNSFKRVISREEWKCFEGEGCRTD--G--------------T--HSIWGES-----TSLSFDYCVTDF-----HIF  452 (784)
+T ss_pred             eeeeeccceeeecccceeeccCCccccC--C--------------c--cceeccc-----ceeeeeeeeeee-----eee
+Confidence            9999999999       99999999999  8              4  7999874     579999999999     799
+
+
+Q ss_pred             eeeeeEEeee-----eecccccceeeeeEEEEee---ccccceeeecC
+Q Q23869          389 RLDTICVFTR-----RCAIPVDTHVDVSTVYAVD---SYYNKSCYFNG  428 (434)
+Q Consensus       389 ~~~~~ClF~r-----~y~~p~~~~~~vyevf~c~---~~~~~~~~~~~  428 (434)
+                      ++   |||||     +||.|+++  ++||||+|+   .+++++++..+
+T Consensus       453 ~~---ClFyr~~~~~~y~~p~s~--~~yevf~C~~W~~~v~~~vt~~~  495 (784)
+T Q85429          453 SY---CPAYHYNWKRIEYEPTSS--RACTIMKCMDTKFEIVGYIQKNG  495 (784)
+T ss_pred             ee---cCccccceeeeeeecCCc--cceeEeeeeccceeEEEEEeccC
+Confidence            99   99999     99999999  999999998   56666666544
+
+
+Done!

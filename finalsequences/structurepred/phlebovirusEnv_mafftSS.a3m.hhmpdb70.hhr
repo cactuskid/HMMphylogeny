@@ -1,0 +1,686 @@
+Query         phlebovirusEnv_mafftSS
+Match_columns 506
+No_of_seqs    317 out of 1136
+Neff          7.5 
+Searched_HMMs 444
+Date          Fri Jul 29 17:46:02 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/phlebovirusEnv_mafftSS.a3m.hhm -ohhm ./structurepred/phlebovirusEnv_mafftSS.a3m.hhm.hhm -o ./structurepred/phlebovirusEnv_mafftSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -local -b 20 -z 20 -B 2000 -Z 2000 -ssm 2 -addss -psipred /implacable/software/bin -psipred_data /implacable/software/data 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;  100.0  3E-102  5E-106  818.7  29.2  425    1-429     4-432 (432)
+  2 2yew_B E1 envelope glycoprotei  97.2   0.059 7.3E-06   49.5  26.5  391   54-494    27-426 (427)
+  3 3j0c_A E1 envelope glycoprotei  97.0   0.082   1E-05   48.6  24.4  397   54-494    28-438 (442)
+  4 3j0f_E E1 envelope glycoprotei  96.3    0.12 1.5E-05   47.4  20.0  328   50-414    24-373 (439)
+  5 3n40_F E1 envelope glycoprotei  93.2     1.9 0.00024   38.5  19.1  328   50-414    26-375 (393)
+  6 3n44_F E1 envelope glycoprotei  93.0     2.3 0.00028   38.6  19.3  328   49-410    45-390 (473)
+  7 1i9w_A Fusion protein E1; enve  91.7     1.9 0.00023   38.4  16.1  329   50-414    24-373 (390)
+  8 3muu_A Structural polyprotein;  91.1     5.1 0.00063   38.6  23.5  329   50-415   384-734 (750)
+  9 4hw9_A Mechanosensitive channe  30.0     7.9  0.0011   33.5   3.4   25  444-468    17-41  (309)
+ 10 2qjy_B Cytochrome C1; cytochro  26.8      15   0.002   31.2   4.5   37  456-492   211-248 (269)
+ 11 5aji_A MSCS, small-conductance  24.5      14   0.002   31.1   4.1   23  450-472    11-33  (286)
+ 12 3cx5_D Cytochrome C1, heme pro  20.2      26  0.0035   29.1   4.7   37  456-492   190-227 (248)
+ 13 4d6u_D Cytochrome C1, heme pro  19.8      26  0.0034   30.4   4.6   45  459-503   273-318 (325)
+ 14 1pfi_A Major coat protein of P  19.3      52  0.0062   19.4   4.3   31  464-494    16-46  (46)
+ 15 1zrt_D Cytochrome C1; cytochro  18.7      23  0.0031   29.7   4.0   48  456-503   209-257 (258)
+ 16 2lx0_A Membrane fusion protein  18.3      38  0.0045   18.6   3.2   26  469-494     4-29  (32)
+ 17 2knc_A Integrin alpha-IIB; tra  18.2      37   0.005   20.9   4.1   29  461-493    11-39  (54)
+ 18 2ks1_B Epidermal growth factor  17.9      27   0.004   18.8   3.4   31  470-506    14-44  (44)
+ 19 1afo_A Glycophorin A; integral  17.3      50  0.0067   18.6   4.3   26  469-494    12-37  (40)
+ 20 4um9_B Integrin beta-6, integr  14.9     8.1  0.0012   37.7   0.0   37  470-506   708-744 (788)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=100.00  E-value=3.4e-102  Score=818.69  Aligned_cols=425  Identities=93%  Similarity=1.436  Sum_probs=395.4
+
+Q ss_pred             CcccccccccceecccCCCcceeeecceeeeeecccCcccccccccccccccceEEEEeeccccccccCccccccCCCcc
+Q phlebovirusEnv    1 CSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFSPK   80 (506)
+Q Consensus         1 C~~~~~~~~~~~~C~~~~~~~~C~~~~~~~l~~~~~~~e~Cl~i~~~~~~~~~~i~i~~~~i~l~C~~~~~~~T~~~~~~   80 (506)
+                      |||++++++++++|+..++++.|++++.++|+|+|+|||+||+|+++++++++.||||+++++|+|+|+++|||||++++
+T Consensus         4 C~~~~~~~s~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTrd~~~~   83 (432)
+T 4hj1_A            4 CSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFSPK   83 (432)
+T ss_dssp             EEEEEECCGGGEEEEESSSCEEEEEEEEEEEECCCBTSEEEEEEECSSTTCEEEEEEEEEEEEEEEEEEEEEEECCEEEE
+T ss_pred             CCceeEEEecccEEeCCCCCCEEEEeEEEEEEeecCCcEEeEEEECCCCCeEEEEEEEEEeeEEEEecccEEEecceeEE
+Confidence            89999999999999988888999999999999999999999999998789999999999999999999999999999999
+
+
+Q ss_pred             cccccccccccccccccccCccCCCccccccccccccccccccccccCCCccccccccCCccceeeeeeeccccceeeee
+Q phlebovirusEnv   81 CLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTIMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVF  160 (506)
+Q Consensus        81 ~~s~~RC~~~GsC~~~~C~~i~~~~~~~El~~~~~~~~pg~t~C~e~CGg~gCgCf~~~psClFyr~y~~p~~~~~yeVf  160 (506)
+                      ++|+||||+||||++++|++|++++.+|||+..+++.+||+++|+|+|||+||||||++|||||||+|++|+++++||||
+T Consensus        84 ~~s~~RC~~~GsC~~~~C~~i~~~~~~pEl~~~~~~~~~g~t~C~~sCGg~gCgCF~~~~sClFyR~y~~p~s~~iyeVf  163 (432)
+T 4hj1_A           84 CLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVF  163 (432)
+T ss_dssp             EEEEEECTTSTTCSTTTTTTCCTTCCCGGGGGGCCCCBCEEEEEEEECCSGGGTCSSSSCEEEEEEEEEEESSSCCEEEE
+T ss_pred             EeeEeECCCCCccccCcccccCCcCcchhhccccccCCCccceeccccCCCCcCeeCcCcchhEEEEEEEcCCCCEEEEE
+Confidence            99999999999999999999999999999997563467899999999999999999999999999999999999999999
+
+
+Q ss_pred             eeccceeeEEEEEEeecCceeeEeec--CCCccccccceeEeeeccccccCCCccceeccCCCcceeecCCCCCCCccCc
+Q phlebovirusEnv  161 NCIDWVHKLTLEITDFDGSVSTIDLG--ASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGF  238 (506)
+Q Consensus       161 ~C~~W~~~v~~~vt~~~~~~~~~~l~--~~~~~~~~~~sitl~~~~~p~~p~l~~~Fi~~~~~~~a~~~~~~~g~p~~~~  238 (506)
+                      +|++|+++++|+|+++++..+++.|.  ++.++.|++++|+|+++..|+.|  +.+||+..++.+|+|+++++|+|.+|+
+T Consensus       164 ~C~~W~~~v~i~vt~~~~~~~~~~l~~~~~~~~~~~~i~itl~~~~~~~~~--~~~fi~~~~~~~a~~~~~~~~~p~~g~  241 (432)
+T 4hj1_A          164 NCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSN--SFSFIESPGKGYAIVDEPFSEIPRQGF  241 (432)
+T ss_dssp             EEEEEEEEEEEEEECTTSCEEEEEECTTCEEEETTEEEEEEEECCSCTTGG--GCEEEEETTTEEEEESSCCCSSCCTTS
+T ss_pred             ECCCccEEEEEEEEecCCceEEEEeccCCceEEeeccEEEEEEeeeecCCC--CcEEEEeCCceEEEecccccCCcCcCc
+Confidence            99999999999999987665544444  45567888999999998888754  899998647999999999999999999
+
+
+Q ss_pred             cccccccCcchhhccccccccCCcceeeccccccceecccCCCchhhhhcCCCCcccccceeeccCCCCceeeeecccee
+Q phlebovirusEnv  239 LGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQ  318 (506)
+Q Consensus       239 ~g~lqC~s~~~aa~~~~~C~~~~~~c~C~p~~~~v~C~c~~~di~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~  318 (506)
+                      +|+|||+++++|...+.+|.+++++|+|.|+++.++|.|+++|+.+++.+++||+++++++|+..+++++|+|+++.+++
+T Consensus       242 ig~lqC~t~~~A~~~~~~C~~~~~~c~c~~~~~~~~C~c~~~~~~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~  321 (432)
+T 4hj1_A          242 LGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQ  321 (432)
+T ss_dssp             TTSEEBSSHHHHHTTBTTSEECTTCEEEEEETTEEEEEECCCCHHHHHHHTBSSEEETTEEEEECSSSCCEEEEECSCCC
+T ss_pred             ccceeeCChHHhHhhcCceeeccccceEEcccceEEeeCCCCCHHHHhhcCCCceEeCcceEEEecCCCeEEEEeccceE
+Confidence            99999999996656567999999999999999999999999999999999999999999999976567899999999999
+
+
+Q ss_pred             eeEEEeeccceeeeeccccccccccccccccccCCCCceEEEEEeecCcce--eeeecCCCceeeeeecCCCCccceeEe
+Q phlebovirusEnv  319 ADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGT--LSAHNKDGSLHIVLPSENGTKDQCQIL  396 (506)
+Q Consensus       319 ~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~c~S~~~t~--a~i~C~~~~~~~~i~c~~~~~~~~~~~  396 (506)
+                      ++|+|++++++++.++++++|+|++++++|||+|.+||+|.|+|+|+.+++  +++.|+++  +|.+.|.++++.++++|
+T Consensus       322 ~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~C~S~~~~~~~~~~~~~~~--~~~~~~~~g~~~~~~~~  399 (432)
+T 4hj1_A          322 ADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDGSL--HIVLPSENGTKDQCQIL  399 (432)
+T ss_dssp             EEEEEEEEEEEEECCSCCCCCEEEEEEEEEBSSSSSCEEEEEEEEESSCEEEEEEETTSSC--EEEEEECBEEEEEEEEE
+T ss_pred             EEEEEEecceEEEEEEeCCcceEEeccceEecccccCCEEEEEEEeCCCCeEEEEEcCCCE--EEEEecCCCCeeEEEEE
+Confidence            999999999999999999999999999999999999999999999997544  67777777  99999988888889999
+
+
+Q ss_pred             eecccccccceeccccCCCcceeEeeeeeeccC
+Q phlebovirusEnv  397 HFTVPEVEEEFMYSCDGDERPLLVKGTLIAIDP  429 (506)
+Q Consensus       397 ~f~~a~v~~~C~~~CG~~~~~~~i~G~L~y~~~  429 (506)
+                      ||++|+|+++|+++||+.++.|+|+|+|+|+++
+T Consensus       400 ~f~~a~v~~~C~v~CG~~~~~f~i~G~L~~~~~  432 (432)
+T 4hj1_A          400 HFTVPEVEEEFMYSCDGDERPLLVKGTLIAIDP  432 (432)
+T ss_dssp             CCSSSEEEEEEEEESSSCCEEEEEEEECBCCC-
+T ss_pred             EcCCCeEeeEEEEECCCCcEEEEEEEEEEecCC
+Confidence            999999999999999999999999999999964
+
+
+No 2  
+>2yew_B E1 envelope glycoprotein; alphavirus, molecular dynamics; 5.00A {Barmah forest virus}
+Probab=97.20  E-value=0.059  Score=49.55  Aligned_cols=391  Identities=15%  Similarity=0.099  Sum_probs=0.0
+
+Q ss_pred             eEEEEeeccccccccCccccccCCCcccccccccccccccccccccCccCCCccccccccccccccccccccccCCCccc
+Q phlebovirusEnv   54 FLKIKTVSSELSCREGQSYWTGSFSPKCLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTIMRENKCFEQCGGWGC  133 (506)
+Q Consensus        54 ~i~i~~~~i~l~C~~~~~~~T~~~~~~~~s~~RC~~~GsC~~~~C~~i~~~~~~~El~~~~~~~~pg~t~C~e~CGg~gC  133 (506)
+                      .|+|++.+.+|.=.-..+|+|-+|+..+-|    |...=|...-|..-.++-.=.-|...- .-.=|.-+|         
+T Consensus        27 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpS----P~vkCCG~~eC~~~~~Dy~CkVftGVY-PfMWGGAyC---------   92 (427)
+T 2yew_B           27 PLSLVVIKSELVPSLVQDYITCNYKTVVPS----PYIKCCGGAECSKNEADYKCSVFTGVY-PFMWGGAYC---------   92 (427)
+T ss_dssp             CEEEEEEEEEEECCCEEEEECCCEEEECCC----CEEESSSCCCCCCCSSSEEEEEEESCC-CCCSSSSSS---------
+T ss_pred             eEEEEEEeeEEeecccceEEEEeeeecCCC----CcceeccccccCCcCCCccceEecccc-cccccceee---------
+
+
+Q ss_pred             cccccCCccceeeeeee-----ccccceeeeeeeccceeeEEEEEEeecCceee-EeecCCCccccccceeEeeeccccc
+Q phlebovirusEnv  134 GCFNVNPSCLFVHTYLQ-----SVRKEALRVFNCIDWVHKLTLEITDFDGSVST-IDLGASSSRFTNWGSVSLSLDAEGI  207 (506)
+Q Consensus       134 gCf~~~psClFyr~y~~-----p~~~~~yeVf~C~~W~~~v~~~vt~~~~~~~~-~~l~~~~~~~~~~~sitl~~~~~p~  207 (506)
+                        |--+.-=.....|.+     ..+-.+|++    .=..+++|.|++.+.+... +-++.-.|...++.++.+--++..-
+T Consensus        93 --FCdtENTQ~SeayV~~s~~C~~dA~Ayk~----TAs~ka~l~it~g~~~~tv~~yvNG~t~v~~~~~K~I~GPiStaw  166 (427)
+T 2yew_B           93 --FCDTENSQMSEVYVTRGESCEADAIAYQV----TASLKAQVMISIGELNQTVDVFVNGDSPARIQQSKFILGPISSAW  166 (427)
+T ss_dssp             --SCSSSCEEEEEEEEEECSCCSSSCEEEEC----CCEEEEEEEEECSSCEEEEEEECSSCEEEEETTEEEEECCCCCCC
+T ss_pred             --eecCccceeehheeecCccchhhHHHHhh----hheeEEEEEEEECceeEEEEEEEcCccceecCceeEEecccccCC
+
+
+Q ss_pred             cCCCccceeccCCCcceeecCCCCCCCccCccccccccCcchhhccccccccCCcceeecc-ccccceecccCCCchhhh
+Q phlebovirusEnv  208 SGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKP-MIDQLECTTNLIDPFVVF  286 (506)
+Q Consensus       208 ~p~l~~~Fi~~~~~~~a~~~~~~~g~p~~~~~g~lqC~s~~~aa~~~~~C~~~~~~c~C~p-~~~~v~C~c~~~di~~~~  286 (506)
+                      +|--  +.+.. .++.+-.|-..=|.-++|..|+||=.+-++.     .=.-+.++--=+| ++....=...-.+=++.+
+T Consensus       167 sPFD--KiVvy-~~eVYNyDfP~YGag~pG~FGDIQ~rt~~s~-----DlyAnT~l~L~rP~~g~iHVPYTQapSGf~~W  238 (427)
+T 2yew_B          167 SPFD--KVIVY-RDEVYNEDYAPYGSGQAGRFGDIQSRTVNST-----DVYANTNLKLKRPASGNVHVPYTQTPSGFSYW  238 (427)
+T ss_dssp             CCCS--EEEEC-SSCEEECCCCCTTCCCSSSTTCSEESSSSCS-----SEECCCCEECCCCCSSCC-CCCEECCCHHHHH
+T ss_pred             CCCc--eEEEe-cceeeccCCCCccCCCCccccccccccCCcc-----ceeeccccEEccCCCCceecccccCCcHHHHH
+
+
+Q ss_pred             hcCCCCcccccceeeccCCCCceeeeeccceeeeEEEeeccceeeeecccccccccccccccc-ccCCCCceEEEEEeec
+Q phlebovirusEnv  287 ERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGC-YSCNAGARVCLSITST  365 (506)
+Q Consensus       287 ~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GC-YsC~~GA~~~i~c~S~  365 (506)
+                      ++++-|-....--|--.+.-+-|.|..=.-+.+-|.+++-|. ..++.+...=+.-.=.+.-| ||=+-|..+.|+-+++
+T Consensus       239 ~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA-FtRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y~a~  317 (427)
+T 2yew_B          239 KKEKGVPLNRNAPFGCIIKVNPVRAENCVYGNIPISMDIADA-FTRIDESPSVSLKACEVQSCTYSSDFGGVASISYTSN  317 (427)
+T ss_dssp             TTTCCEESTTCSSSCCEEETTTTEEESCCCCEEEEEEECCCC-SSSSCSCCCCEEEEEEECCCCSCCSSCCEEEEEEECC
+T ss_pred             hhcCCCccccCCCcceEEecCcchhhcccccceeeeecCchh-hhccccCCccccceEEeeEEEeccCCCCeEEEEEecC
+
+
+Q ss_pred             CcceeeeecCCCceeeeeecCCCCccceeEeeecccccccceecc-ccCCCcceeEeeeeeeccCCCccccCCCcceeec
+Q phlebovirusEnv  366 GTGTLSAHNKDGSLHIVLPSENGTKDQCQILHFTVPEVEEEFMYS-CDGDERPLLVKGTLIAIDPFDDRREAGGESTVVN  444 (506)
+Q Consensus       366 ~~t~a~i~C~~~~~~~~i~c~~~~~~~~~~~~f~~a~v~~~C~~~-CG~~~~~~~i~G~L~y~~~~~~~~~~~~~~~~~~  444 (506)
+                      +.+.--++-...  ...=.--.-.....+++||++|..+-+-.++ |+...+-  -+=    +++-+--     .+..-+
+T Consensus       318 k~GkCavHs~~a--tl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC--~~C----~PPkD~V-----~~p~~h  384 (427)
+T 2yew_B          318 KVGKCAISSNSA--TMKDSVQDVQESGALSLFFATSSVEPNFVVQVCNARITC--GKC----EPPKDIV-----PYAAKN  384 (427)
+T ss_dssp             CCBCCCCCCSSC--CCSCCCCCBCSCCSEEEECCTTSSCSCBCCEETTEECCB--CCC----CCCSSCC-----CCCCCS
+T ss_pred             CCcccceecCce--EeeeeeEEEeecceEEEEEecCCCCCCEEEEecccccee--cCC----cChhhhc-----CCcccC
+
+
+Q ss_pred             CCCCCCcchhhhhhhhhhcCchhHHHHHHHHHHHHHHHHHHHHHHHHHhh
+Q phlebovirusEnv  445 PKSGSWNFFDWFSGLMSWFGGPLKTILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       445 ~~~~~~d~~~w~~~l~~w~~~~~k~~~~ii~~vi~~i~~~~i~~~~~~~~  494 (506)
+                      .. ...+++   ..-++|+    ..+....+++++++++++++..+..+.
+T Consensus       385 ~~-~~~~iS---~TAwsWl----~~lGG~~~~i~ialivlv~v~cv~~~r  426 (427)
+T 2yew_B          385 DA-EFPSIS---TTAWQWL----ATTSGPLTILVVAIIVVVVVSIVVCAR  426 (427)
+T ss_dssp             SC-CSSCSS---HHHHHHH----GGGHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             Cc-cccccc---hhHHHHH----HHhcCchHHHHHHHHHHHHHhheeeec
+
+
+No 3  
+>3j0c_A E1 envelope glycoprotein; alphavirus, bioweapon; 4.80A {Venezuelan equine encephalitis virus}
+Probab=97.02  E-value=0.082  Score=48.62  Aligned_cols=397  Identities=14%  Similarity=0.139  Sum_probs=0.0
+
+Q ss_pred             eEEEEeeccccccccCccccccCCCcccccccccccccccccccccCccCCCc-------cccccccccccccccccccc
+Q phlebovirusEnv   54 FLKIKTVSSELSCREGQSYWTGSFSPKCLSSRRCHLVGECHVNRCLSWRDNET-------SAEFSFVGESTIMRENKCFE  126 (506)
+Q Consensus        54 ~i~i~~~~i~l~C~~~~~~~T~~~~~~~~s~~RC~~~GsC~~~~C~~i~~~~~-------~~El~~~~~~~~pg~t~C~e  126 (506)
+                      .|+|++.+.+|.=.-..+|+|-+|+..+-|    |...=|...-|..-..-|+       +=-|-.              
+T Consensus        28 ~L~i~v~~~~l~Ptl~leYiTC~ykTvvpS----P~vkCCG~~EC~~~~~pDy~CkVftGVYPfMW--------------   89 (442)
+T 3j0c_A           28 PISITPTKIKLIPTVNLEYVTCHYKTGMDS----PAIKCCGSQECTPTYRPDEQCKVFTGVYPFMW--------------   89 (442)
+T ss_dssp             EEEEEEEEEEEEEEEEEEEEECCEEEEECC----CEEETTSCCCCCCCCCTTCEEEEEESCCCEET--------------
+T ss_pred             eEEEEEEeeEEeecccceEEEEeeeecCCC----CcceeccccccCCcCCCCccceEecccccccc--------------
+
+
+Q ss_pred             cCCCccccccccCCccceeeeeeecccc---ceeeeeeeccceeeEEEEEEeecCceee-EeecCCCccccccceeEeee
+Q phlebovirusEnv  127 QCGGWGCGCFNVNPSCLFVHTYLQSVRK---EALRVFNCIDWVHKLTLEITDFDGSVST-IDLGASSSRFTNWGSVSLSL  202 (506)
+Q Consensus       127 ~CGg~gCgCf~~~psClFyr~y~~p~~~---~~yeVf~C~~W~~~v~~~vt~~~~~~~~-~~l~~~~~~~~~~~sitl~~  202 (506)
+                        ||+-|  |--+.-=.....|.+--..   +--+.|+=-.=..+++|.|++-+.+... +-+..-.|..+++.++.+--
+T Consensus        90 --GGAyC--FCDtENTQ~SeayV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K~i~GP  165 (442)
+T 3j0c_A           90 --GGAYC--FCDTENTQVSKAYVMKSDDCLADHAEAYKAHTASVQAFLNITVGEHSIVTTVYVNGETPVNFNGVKITAGP  165 (442)
+T ss_dssp             --TEESC--SCSSSCEEEEEEEEEECGGGGTSCEEEEEEEEEEEEEEEEEEESSCEEEEEEESCTTSCEEETTEEEEECC
+T ss_pred             --cceee--eecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCccceecCceeEEecc
+
+
+Q ss_pred             ccccccCCCccceeccCCCcceeecCCCCCCCccCccccccccCcchhhccccccccCCcceeecc-ccccceecccCCC
+Q phlebovirusEnv  203 DAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKP-MIDQLECTTNLID  281 (506)
+Q Consensus       203 ~~~p~~p~l~~~Fi~~~~~~~a~~~~~~~g~p~~~~~g~lqC~s~~~aa~~~~~C~~~~~~c~C~p-~~~~v~C~c~~~d  281 (506)
+                      ++..-+| .+.+.+.- .++.+-.|-..=|.-++|..|+||=.+-++.     .=.-+.++--=+| ++....=...-.+
+T Consensus       166 iStawsP-FD~KiVvy-k~eVYNyDfP~YGAG~pG~FGDIQsrt~~s~-----DlyAnT~l~L~rP~~g~iHVPYTQapS  238 (442)
+T 3j0c_A          166 LSTAWTP-FDRKIVQY-AGEIYNYDFPEYGAGQPGAFGDIQSRTVSSS-----DLYANTNLVLQRPKAGAIHVPYTQAPS  238 (442)
+T ss_dssp             CSCCCCS-SCSEEEEE-TTEEECCCCCCTTCCCTTSTTSEEESSSSCS-----CCEECCCCEECCCCTTCCCCCEECCCC
+T ss_pred             cccCcCC-CCceEEEE-cceeeccCCCCccCCCCccccccccccCCcc-----ceeeccccEEccCCCCceecccccCCc
+
+
+Q ss_pred             chhhhhcCCCCcccccceeeccCCCCceeeeeccceeeeEEEeeccceeeeecccccccccccccccc-ccCCCCceEEE
+Q phlebovirusEnv  282 PFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGC-YSCNAGARVCL  360 (506)
+Q Consensus       282 i~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GC-YsC~~GA~~~i  360 (506)
+                      =++.+++++-|-....--|--.+.-+-|.|..=.-+.+-|.+++-|....++.+...=+.-.=.+.-| ||=.-|..+.|
+T Consensus       239 Gf~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~  318 (442)
+T 3j0c_A          239 GFEQWKKDKAPSLKFTAPFGCEIYTNPIRAENCAVGSIPLAFDIPDALFTRVSETPTLSAAECTLNECVYSSDFGGIATV  318 (442)
+T ss_dssp             HHHHHHHHCCSCHHHHCSTTCEEETTTTEEECCCCCEEEEEEECCGGGCCBGGGSCCEEEEEEEEEEEBCSSSCCEEEEE
+T ss_pred             HHHHHhhcCCCccccCCCcccEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEEeccCCCceEEE
+
+
+Q ss_pred             EEeecCcceeeeecCCCceeeeeecCCCCccceeEeeecccccccceecc-ccCCCcceeEeeeeeeccCCCccccCCCc
+Q phlebovirusEnv  361 SITSTGTGTLSAHNKDGSLHIVLPSENGTKDQCQILHFTVPEVEEEFMYS-CDGDERPLLVKGTLIAIDPFDDRREAGGE  439 (506)
+Q Consensus       361 ~c~S~~~t~a~i~C~~~~~~~~i~c~~~~~~~~~~~~f~~a~v~~~C~~~-CG~~~~~~~i~G~L~y~~~~~~~~~~~~~  439 (506)
+                      +-++++.+.--++-.+......=.--.-.....+++||++|..+-+-.++ |+...   .-+|.-+--.++-..      
+T Consensus       319 ~Y~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~v---tC~~~C~PPkdHIV~------  389 (442)
+T 3j0c_A          319 KYSASKSGKCAVHVPSGTATLKEAAVELTEQGSATIHFSTANIHPEFRLQICTSYV---TCKGDCHPPKDHIVT------  389 (442)
+T ss_dssp             EEEESSCEEEEEECSSTTEEESCSEEEECSSCEEEEEEEESCSSCEEEEEETTEEE---EEECCCBCCSCCEES------
+T ss_pred             EEecCCCcccceecCCCceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCcc---eecCcccCchhhccC------
+
+
+Q ss_pred             ceeecCCCCCCcchhhhhhhhhhcCchhHHHHHHHHHHHHHHHHHHHHHHHHHhh
+Q phlebovirusEnv  440 STVVNPKSGSWNFFDWFSGLMSWFGGPLKTILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       440 ~~~~~~~~~~~d~~~w~~~l~~w~~~~~k~~~~ii~~vi~~i~~~~i~~~~~~~~  494 (506)
+                      +..-+......|+.   ..-++|+   .+.+..+-+++++++++++++..+..+.
+T Consensus       390 ~p~~h~~~~~~~iS---~Ta~~W~---~~l~GG~~~~~~i~~~v~~~v~~v~~~r  438 (442)
+T 3j0c_A          390 HPQYHAQTFTAAVS---KTAWTWL---TSLLGGSAVIIIIGLVLATIVAMYVLTN  438 (442)
+T ss_dssp             SCCCCCCCCSCCCC---HHHHHHH---HTTSSHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCcccCcccccccc---hhHHHHH---HHHhCCchHHHHHHHHHHHHHHHhhhhh
+
+
+No 4  
+>3j0f_E E1 envelope glycoprotein; alphavirus, virus assembly; 7.00A {Sindbis virus} PDB: 1ld4_M 1z8y_I
+Probab=96.33  E-value=0.12  Score=47.44  Aligned_cols=328  Identities=18%  Similarity=0.207  Sum_probs=166.6
+
+Q ss_pred             cccceEEEEeeccccccccCccccccCCCccccc-ccccccccccccccccCccCCCcccccc---cccccccc-ccccc
+Q phlebovirusEnv   50 DQTKFLKIKTVSSELSCREGQSYWTGSFSPKCLS-SRRCHLVGECHVNRCLSWRDNETSAEFS---FVGESTIM-RENKC  124 (506)
+Q Consensus        50 ~~~~~i~i~~~~i~l~C~~~~~~~T~~~~~~~~s-~~RC~~~GsC~~~~C~~i~~~~~~~El~---~~~~~~~p-g~t~C  124 (506)
+                      -.=-.|+|++.+.+|.=.-..+|+|-+++..+.| .-.|=+.-+|..         ...|+..   +.+-++.| |.-+|
+T Consensus        24 YaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~---------~~~pDy~CkVftGVYPfMWGGAyC   94 (439)
+T 3j0f_E           24 YAPLNLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQP---------AAHADYTCKVFGGVYPFMWGGAQC   94 (439)
+T ss_pred             CCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCC---------CCCCCccceEecccccccccceee
+Confidence            3446789999999999999999999999999966 345666667763         1233332   22333332 33333
+
+
+Q ss_pred             cccCCCccccccccCCccceeeeeeecccc------ceeeeeeeccceeeEEEEEEeecCcee-eEeecCCCccccccce
+Q phlebovirusEnv  125 FEQCGGWGCGCFNVNPSCLFVHTYLQSVRK------EALRVFNCIDWVHKLTLEITDFDGSVS-TIDLGASSSRFTNWGS  197 (506)
+Q Consensus       125 ~e~CGg~gCgCf~~~psClFyr~y~~p~~~------~~yeVf~C~~W~~~v~~~vt~~~~~~~-~~~l~~~~~~~~~~~s  197 (506)
+                      +           --+.-=.....|.+--.+      ..|++   -+=..+++|.|++.+.... ..-++-..+...++++
+T Consensus        95 F-----------CDsENTQ~SeayV~~s~~C~~dhA~Ayka---HTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+T 3j0f_E           95 F-----------CDSENSQMSEAYVELSADCASDHAQAIKV---HTAAMKVGLRIVYGNTTSFLDVYVNGVTPGTSKDLK  160 (439)
+T ss_pred             e-----------ecCcchhhhhhheecCccchhHHHHHHHh---hhheeEEEEEEEEcceeEEEEEEEcCccceecCcee
+Confidence            3           222222333334332211      12222   2234567777777553322 1223322234566665
+
+
+Q ss_pred             eEeeeccccccCCCccceeccCCCcceeecCCCCCCCccCccccccccCcchhhccccccccC-Ccceeeccccccceec
+Q phlebovirusEnv  198 VSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRA-PNLISYKPMIDQLECT  276 (506)
+Q Consensus       198 itl~~~~~p~~p~l~~~Fi~~~~~~~a~~~~~~~g~p~~~~~g~lqC~s~~~aa~~~~~C~~~-~~~c~C~p~~~~v~C~  276 (506)
+                      +.+=-++..-+|- +.+.+.-. ++.+--|-.+=|.-++|..|+||=.+-....      .++ .++-==.|....+.-.
+T Consensus       161 ~i~GPiStawsPF-D~KiVvyk-~eVYNyDfP~YGaG~pG~FGDIQsrt~~s~D------lyAnT~l~L~rP~~g~iHVP  232 (439)
+T 3j0f_E          161 VIAGPISASFTPF-DHKVVIHR-GLVYNYDFPEYGAMKPGAFGDIQATSLTSKD------LIASTDIRLLKPSAKNVHVP  232 (439)
+T ss_pred             EEecccccCcCCC-CceEEEEc-ceeeccCCCCccCCCCccccccccccCCccc------eeeccccEEccCCCCceecc
+Confidence            5443222222231 33333322 4555556677788899999999988874331      221 1222223433333322
+
+
+Q ss_pred             cc-CCCchhhhhcCCCCcccccceeeccCCCCceeeeeccceeeeEEEeeccce---e--eeeccccccccccccccccc
+Q phlebovirusEnv  277 TN-LIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFE---V--DFVGAAVSCDAAFLNLTGCY  350 (506)
+Q Consensus       277 c~-~~di~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~---~--~~~~~~~~C~i~~~~l~GCY  350 (506)
+                      -. -++=++.+++++-|-....-.|-=...-+-|.|..=.-..+-|.|.+.|..   +  .-.++..+|++..=.    |
+T Consensus       233 YTQapSGf~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct----~  308 (439)
+T 3j0f_E          233 YTQASSGFEMWKNNSGRPLQETAPFGCKIAVNPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVSECT----Y  308 (439)
+T ss_pred             cccCCcHHHHHhhcCCCccccCCCcceEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEE----e
+Confidence            11 122234444443333222111211111233444433233444555666632   2  234556778776311    5
+
+
+Q ss_pred             cCCCCceEEEEEeecCcceeeeecCCCceeeeee-cC-CCCccceeEeeecccccccceecc-ccCC
+Q phlebovirusEnv  351 SCNAGARVCLSITSTGTGTLSAHNKDGSLHIVLP-SE-NGTKDQCQILHFTVPEVEEEFMYS-CDGD  414 (506)
+Q Consensus       351 sC~~GA~~~i~c~S~~~t~a~i~C~~~~~~~~i~-c~-~~~~~~~~~~~f~~a~v~~~C~~~-CG~~  414 (506)
+                      |=.-|..+.++-.+++.+.+-+.-++.  ...+. .. .=.....+.+||++|..+-+-.++ |+.+
+T Consensus       309 SsdfGG~a~~~Y~a~k~GkCavHs~S~--~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~  373 (439)
+T 3j0f_E          309 SADFGGMATLQYVSDREGQCPVHSHSS--TATLQESTVHVLEKGAVTVHFSTASPQANFIVSLCGKK  373 (439)
+T ss_pred             ccCCCCeEEEEEecCCCcccceecCCC--ceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCc
+Confidence            556788999999998865511111221  22222 11 111233489999999999888887 7765
+
+
+No 5  
+>3n40_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG NDG; 2.17A {Chikungunya virus} PDB: 3j2w_A 2xfb_A
+Probab=93.23  E-value=1.9  Score=38.46  Aligned_cols=328  Identities=14%  Similarity=0.172  Sum_probs=169.3
+
+Q ss_pred             cccceEEEEeeccccccccCccccccCCCccccc-ccccccccccccccccCccCCCcccccc---cccccccccccccc
+Q phlebovirusEnv   50 DQTKFLKIKTVSSELSCREGQSYWTGSFSPKCLS-SRRCHLVGECHVNRCLSWRDNETSAEFS---FVGESTIMRENKCF  125 (506)
+Q Consensus        50 ~~~~~i~i~~~~i~l~C~~~~~~~T~~~~~~~~s-~~RC~~~GsC~~~~C~~i~~~~~~~El~---~~~~~~~pg~t~C~  125 (506)
+                      -.=-.|+|++.+..|.=.-..+|+|-+++..+.| .-.|=+.-+|..         ...|+..   +.+-++.| +    
+T Consensus        26 YaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~---------~~~pDy~CkVftGVYPfM-W----   91 (393)
+T 3n40_F           26 YSPMVLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKD---------KNLPDYSCKVFTGVYPFM-W----   91 (393)
+T ss_dssp             BCCEEEEEEEEEEEEEEEEEEEEEECCEEEECCCCEEETTSCCCCCC---------CCSTTCEEEEEESCCCEE-T----
+T ss_pred             CCceeEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCC---------cCCCCccceEeccccccc-c----
+Confidence            4446889999999999999999999999999866 345666767763         2234432   22333332 2    
+
+
+Q ss_pred             ccCCCccccccccCCccceeeeeeecccc------ceeeeeeeccceeeEEEEEEeecCceeeEe--ecCCCccccccce
+Q phlebovirusEnv  126 EQCGGWGCGCFNVNPSCLFVHTYLQSVRK------EALRVFNCIDWVHKLTLEITDFDGSVSTID--LGASSSRFTNWGS  197 (506)
+Q Consensus       126 e~CGg~gCgCf~~~psClFyr~y~~p~~~------~~yeVf~C~~W~~~v~~~vt~~~~~~~~~~--l~~~~~~~~~~~s  197 (506)
+                         ||.-  ||--+.-=.....|.+=-..      ..|++.   +=..+++|.|++.+... +.+  ++-..+...++++
+T Consensus        92 ---GGAy--CFCDsENTQ~SeayV~~s~~C~~dhA~AykaH---Tas~~a~l~it~G~~~~-~v~~yVNG~t~~~~~~~K  162 (393)
+T 3n40_F           92 ---GGAY--CFCDAENTQLSEAHVEKSESCKTEFASAYRAH---TASASAKLRVLYQGNNI-TVTAYANGDHAVTVKDAK  162 (393)
+T ss_dssp             ---TEES--CSCSSSCEEEEEEEEEECGGGGTSCEEEEEEE---EEEEEEEEEEEETTEEE-EEEEETTSCCEEEETTEE
+T ss_pred             ---ccee--eeecCcchhhhhhheecCccchhHHHHHHHhh---hheeEEEEEEEEcceeE-EEEEEEcCccceecCcee
+Confidence               2222  33333343455555543221      133332   23455666676644322 222  2222235566665
+
+
+Q ss_pred             eEeeeccccccCCCccceeccCCCcceeecCCCCCCCccCccccccccCcchhhccccccccC-Ccceeeccccccceec
+Q phlebovirusEnv  198 VSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRA-PNLISYKPMIDQLECT  276 (506)
+Q Consensus       198 itl~~~~~p~~p~l~~~Fi~~~~~~~a~~~~~~~g~p~~~~~g~lqC~s~~~aa~~~~~C~~~-~~~c~C~p~~~~v~C~  276 (506)
+                      +.+=-++..-+|- +.+.+.-. ++..--|-.+=|.-++|..|+||=.+-....      .++ .++-==.|....+.-.
+T Consensus       163 ~i~GPiStawsPF-D~KiVvyk-~eVYNyDfP~YGag~pG~FGDIQsrt~~s~D------lyAnT~l~L~rP~~g~iHVP  234 (393)
+T 3n40_F          163 FIVGPMSSAWTPF-DNKIVVYK-GDVYNMDYPPFGAGRPGQFGDIQSRTPESKD------VYANTQLVLQRPAAGTVHVP  234 (393)
+T ss_dssp             EEECCCSCCCCSC-CSEEEEET-TEEEECCCCCTTCCCTTSTTSEEBSSTTCSS------CEECCCCEECCCCTTCCCCC
+T ss_pred             EEecccccCcCCC-CceEEEEc-ceeeccCCCcccCCCCccccccccccCCccc------eeeccccEEccCCCCceecc
+Confidence            5443233322231 33333323 4555566677788899999999988874321      221 1222223433333222
+
+
+Q ss_pred             c-cCCCchhhhhcCCCCcccccceeeccCCCCceeeeeccceeeeEEEeecccee-----eeeccccccccccccccccc
+Q phlebovirusEnv  277 T-NLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEV-----DFVGAAVSCDAAFLNLTGCY  350 (506)
+Q Consensus       277 c-~~~di~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~~-----~~~~~~~~C~i~~~~l~GCY  350 (506)
+                      - .-.+=++.+++++-|-....-.|-=...-+-|.|..=....+-|.|.+.|...     .-.++..+|++..=.    |
+T Consensus       235 YTQapSGf~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct----~  310 (393)
+T 3n40_F          235 YSQAPSGFKYWLKERGASLQHTAPFGCQIATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAPSLTDMSCEVPACT----H  310 (393)
+T ss_dssp             EECCCCHHHHHHHHSCSCHHHHCGGGCEEETTTTEEECCCCSEEEEEEEECGGGCCBTTTSCCEEEEEEEEEEEB----C
+T ss_pred             cccCCcHHHHHhhcCCCccccCCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEE----e
+Confidence            1 11222344443333322211111111113345565443335556666666322     234556778776411    5
+
+
+Q ss_pred             cCCCCceEEEEEeecCcceeeeecCCCceeeeee-cC-CCCccceeEeeecccccccceecc-ccCC
+Q phlebovirusEnv  351 SCNAGARVCLSITSTGTGTLSAHNKDGSLHIVLP-SE-NGTKDQCQILHFTVPEVEEEFMYS-CDGD  414 (506)
+Q Consensus       351 sC~~GA~~~i~c~S~~~t~a~i~C~~~~~~~~i~-c~-~~~~~~~~~~~f~~a~v~~~C~~~-CG~~  414 (506)
+                      |=.-|..+.|+-.+++.+.+-+.-++.  ...+. .. .=.....+.+||++|..+-+-.++ |+..
+T Consensus       311 SsdfGG~a~~~Y~a~k~GkCavHs~S~--~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~  375 (393)
+T 3n40_F          311 SSDFGGVAIIKYAASKKGKCAVHSMTN--AVTIREAEIEVEGNSQLQISFSTALASAEFRVQVCSTQ  375 (393)
+T ss_dssp             SSSCCEEEEEEEEESSCEEEEEEESST--TEEESCSEEEECSEEEEEEEEEESCSEEEEEEEETTEE
+T ss_pred             ccCCCCeEEEEEecCCCccceeecCCC--ceEeeeeeEEEeecceEEEEEecCCCCCCEEEEeccCc
+Confidence            556789999999999866511222222  22222 11 111233589999999998877776 6553
+
+
+No 6  
+>3n44_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG; 2.35A {Chikungunya virus} PDB: 3n41_F* 3n42_F* 3n43_F* 2xfc_A
+Probab=92.96  E-value=2.3  Score=38.58  Aligned_cols=328  Identities=13%  Similarity=0.138  Sum_probs=166.8
+
+Q ss_pred             ccccceEEEEeeccccccccCccccccCCCccccc-ccccccccccccccccCccCCCcccccc---cccccccc-cccc
+Q phlebovirusEnv   49 EDQTKFLKIKTVSSELSCREGQSYWTGSFSPKCLS-SRRCHLVGECHVNRCLSWRDNETSAEFS---FVGESTIM-RENK  123 (506)
+Q Consensus        49 ~~~~~~i~i~~~~i~l~C~~~~~~~T~~~~~~~~s-~~RC~~~GsC~~~~C~~i~~~~~~~El~---~~~~~~~p-g~t~  123 (506)
+                      |-.=-.|+|++.+..|.=.-..+|.|-+++..+.| .-.|=+.-+|..         ...|+..   +.+-++.| |.-+
+T Consensus        45 GYaPL~L~i~v~~t~l~PtlnleYiTC~YkTvvpSP~VKCCGs~EC~~---------~~~pDy~CkVftGVYPFMWGGAy  115 (473)
+T 3n44_F           45 GYSPMVLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKD---------KNLPDYSCKVFTGVYPFMWGGAY  115 (473)
+T ss_dssp             TBCCEEEEEEEEEEEEECCEEEEEEEECEEEECCCCEEETTSCCCCCC---------CCSTTCEEEEEESCCCEETTEES
+T ss_pred             CCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCC---------cCCCCccceEeccccccccccee
+Confidence            34446899999999999999999999999999966 345666667763         2234432   22333332 3333
+
+
+Q ss_pred             ccccCCCccccccccCCccceeeeeeecccc---ceeeeeeeccceeeEEEEEEeecCcee-eEeecCCCccccccceeE
+Q phlebovirusEnv  124 CFEQCGGWGCGCFNVNPSCLFVHTYLQSVRK---EALRVFNCIDWVHKLTLEITDFDGSVS-TIDLGASSSRFTNWGSVS  199 (506)
+Q Consensus       124 C~e~CGg~gCgCf~~~psClFyr~y~~p~~~---~~yeVf~C~~W~~~v~~~vt~~~~~~~-~~~l~~~~~~~~~~~sit  199 (506)
+                                 ||--+.-=.....|.+--..   +-=+.|+=-+=..+++|.|++.+.... ..-++-..+...+++++.
+T Consensus       116 -----------CFCDsENTQmSeaYV~rS~~C~~dhA~AykaHTAs~kA~l~ItyG~~~~~v~vyVNG~tp~~~~~~K~i  184 (473)
+T 3n44_F          116 -----------CFCDAENTQLSEAHVEKSESCKTEFASAYRAHTASASAKLRVLYQGNNITVTAYANGDHAVTVKDAKFI  184 (473)
+T ss_dssp             -----------CSCSSSCEEEEEEEEEECGGGGTSEEEEEEECSCEEEEEEEEEETTEEEEEEEETTSCCEEEETTEEEE
+T ss_pred             -----------eeecCcchhhhhhheecCccchhHHHHHHHhhhheeeEEEEEEEcceeEEEEEEEcCccceecCceeEE
+Confidence                       33334444455555543221   011223333345667777777543322 112232223556666554
+
+
+Q ss_pred             eeeccccccCCCccceeccCCCcceeecCCCCCCCccCccccccccCcchhhccccccccC-Ccceeeccccccceecc-
+Q phlebovirusEnv  200 LSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRA-PNLISYKPMIDQLECTT-  277 (506)
+Q Consensus       200 l~~~~~p~~p~l~~~Fi~~~~~~~a~~~~~~~g~p~~~~~g~lqC~s~~~aa~~~~~C~~~-~~~c~C~p~~~~v~C~c-  277 (506)
+                      +=-++..-+|- +.+.+.-. ++.+.-|-.+=|.-++|..|+||=.+-....      .++ .++.-=+|....+.-.- 
+T Consensus       185 ~GPiStawsPF-D~KIVvyk-~eVYNyDfP~YGAG~PG~FGDIQsrt~~s~D------lyAnT~l~L~RP~ag~iHVPYT  256 (473)
+T 3n44_F          185 VGPMSSAWTPF-DNKIVVYK-GDVYNMDYPPFGAGRPGQFGDIQSRTPESKD------VYANTQLVLQRPAAGTVHVPYS  256 (473)
+T ss_dssp             ECCCSCCCCSC-CSEEEEET-TEEEECCCCCTTCCCTTSTTSEEBSSTTCSC------CEECSCCEECCCCTTCCCCCEE
+T ss_pred             ecccccCcCCC-CceEEEEc-ceeeccCCCCccCCCCccccccccccCCccc------eeeccCcEEccCCCCceecccc
+Confidence            43223222231 33333323 4555566677788899999999988874321      221 12222234333333221 
+
+
+Q ss_pred             cCCCchhhhhcCCCCcccccceeeccCCCCceeeeeccceeeeEEEeecccee-----eeeccccccccccccccccccC
+Q phlebovirusEnv  278 NLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFEV-----DFVGAAVSCDAAFLNLTGCYSC  352 (506)
+Q Consensus       278 ~~~di~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~~-----~~~~~~~~C~i~~~~l~GCYsC  352 (506)
+                      ..++=++.+++++-|-....-.|-=...-+-|.|..=....+-|.|.+.|...     .-.++..+|++..=.    |+=
+T Consensus       257 QapSGF~~W~k~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiSiDIPDAaFTRv~daP~vs~l~Ctv~~Ct----ySs  332 (473)
+T 3n44_F          257 QAPSGFKYWLKERGASLQHTAPFGCQIATNPVRAVNCAVGNMPISIDIPEAAFTRVVDAPSLTDMSCEVPACT----HSS  332 (473)
+T ss_dssp             CCCCHHHHHHHHCCCCHHHHCGGGCEEETTTTEEESCCCSEEEEEEECCGGGCCBTTTSCCEEEEEEEEEEEB----CSS
+T ss_pred             cCCcHHHHHhhcCCCcccccCCcccEEecCcchhhcccccceeeeeecCchheeeeccCCccccceEEeeEEE----ecc
+Confidence            11222344443333322211111111113345565443334556666666322     234556778776411    555
+
+
+Q ss_pred             CCCceEEEEEeecCcceeeeecCCCceeeeee-c-CCCCccceeEeeecccccccceecc
+Q phlebovirusEnv  353 NAGARVCLSITSTGTGTLSAHNKDGSLHIVLP-S-ENGTKDQCQILHFTVPEVEEEFMYS  410 (506)
+Q Consensus       353 ~~GA~~~i~c~S~~~t~a~i~C~~~~~~~~i~-c-~~~~~~~~~~~~f~~a~v~~~C~~~  410 (506)
+                      .-|..+.|+-.+++...+-+.-++.  ...+. . ..=.....+.+||++|..+-+-.++
+T Consensus       333 DfGGvatl~Y~a~k~GkCaVHs~S~--~atl~es~v~v~~~g~~t~hFSTas~~p~F~v~  390 (473)
+T 3n44_F          333 DFGGVAIIKYAASKKGKCAVHSMTN--AVTIREAEIEVEGNSQLQISFSTALASAEFRVQ  390 (473)
+T ss_dssp             SCCEEEEEEEEESSCEEEEEEESST--TCEESCSEEEECSSCEEEEEEECSCSEEEEEEE
+T ss_pred             CCCCeEEEEEecCCCcccceecCCC--ceEeeeeeEEEeccceEEEEEecCCCCCCEEEE
+Confidence            6788999999999866511111221  22222 1 0111223479999999887654444
+
+
+No 7  
+>1i9w_A Fusion protein E1; envelope glycoprotein, membrane fusion, viral protein; 3.00A {Semliki forest virus} SCOP: b.1.18.4 f.10.1.1 PDB: 2ala_A 1rer_A
+Probab=91.66  E-value=1.9  Score=38.44  Aligned_cols=329  Identities=14%  Similarity=0.160  Sum_probs=165.7
+
+Q ss_pred             cccceEEEEeeccccccccCccccccCCCccccc-ccccccccccccccccCccCCCcccccc---cccccccccccccc
+Q phlebovirusEnv   50 DQTKFLKIKTVSSELSCREGQSYWTGSFSPKCLS-SRRCHLVGECHVNRCLSWRDNETSAEFS---FVGESTIMRENKCF  125 (506)
+Q Consensus        50 ~~~~~i~i~~~~i~l~C~~~~~~~T~~~~~~~~s-~~RC~~~GsC~~~~C~~i~~~~~~~El~---~~~~~~~pg~t~C~  125 (506)
+                      -.=-.|+|++.+..|.=.-..+|+|-+++..+.| .-.|=+.-+|..         ...|+..   +.+-++.| +    
+T Consensus        24 YaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~---------~~~pDy~CkVftGVYPfM-W----   89 (390)
+T 1i9w_A           24 YSPLTLQMQVVETSLEPTLNLEYITCEYKTVVPSPYVKCCGASECST---------KEKPDYQCKVYTGVYPFM-W----   89 (390)
+T ss_pred             CCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCC---------cCCCCccceEeccccccc-c----
+Confidence            3446789999999999999999999999999966 345666667763         1233332   22333332 2    
+
+
+Q ss_pred             ccCCCccccccccCCccceeeeeeecccc------ceeeeeeeccceeeEEEEEEeecCcee-eEeecCCCcccccccee
+Q phlebovirusEnv  126 EQCGGWGCGCFNVNPSCLFVHTYLQSVRK------EALRVFNCIDWVHKLTLEITDFDGSVS-TIDLGASSSRFTNWGSV  198 (506)
+Q Consensus       126 e~CGg~gCgCf~~~psClFyr~y~~p~~~------~~yeVf~C~~W~~~v~~~vt~~~~~~~-~~~l~~~~~~~~~~~si  198 (506)
+                         ||.-|  |--+.-=.....|.+=-..      ..|++   -+=..+++|.|++.+.... ..-++-..+...+++++
+T Consensus        90 ---GGAyC--FCDsENTQ~SeayV~~s~~C~~dhA~Ayka---HTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K~  161 (390)
+T 1i9w_A           90 ---GGAYC--FCDSENTQLSEAYVDRSDVCRHDHASAYKA---HTASLKAKVRVMYGNVNQTVDVYVNGDHAVTIGGTQF  161 (390)
+T ss_pred             ---cceee--eecCcchhhhhhheecCccchhHHHHHHHh---hhheeEEEEEEEEcceeEEEEEEEcCccceecCceeE
+Confidence               33332  3222222333344332111      12222   2234567777777553322 12233222345666655
+
+
+Q ss_pred             EeeeccccccCCCccceeccCCCcceeecCCCCCCCccCccccccccCcchhhccccccccC-Ccceeeccccccceecc
+Q phlebovirusEnv  199 SLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRA-PNLISYKPMIDQLECTT  277 (506)
+Q Consensus       199 tl~~~~~p~~p~l~~~Fi~~~~~~~a~~~~~~~g~p~~~~~g~lqC~s~~~aa~~~~~C~~~-~~~c~C~p~~~~v~C~c  277 (506)
+                      .+=-++..-+|- +.+.+.-. ++..--|-.+=|.-++|..|+||=.+-....      .++ .++-==.|....+.-.-
+T Consensus       162 i~GPiStawsPF-D~KiVvyk-~eVYNyDfP~YGag~pG~FGDIQart~~s~D------lyAnT~l~L~rP~~g~iHVPY  233 (390)
+T 1i9w_A          162 IFGPLSSAWTPF-DNKIVVYK-DEVFNQDFPPYGSGQPGRFGDIQSRTVESND------LYANTALKLARPSPGMVHVPY  233 (390)
+T ss_pred             EecccccCcCCC-CceEEEEc-ceeeccCCCcccCCCCccccccccccCCccc------eeeccccEEccCCCCceeccc
+Confidence            443222222231 33333322 4555556677788899999999988874331      221 12222234333333221
+
+
+Q ss_pred             c-CCCchhhhhcCCCCcccccceeeccCCCCceeeeeccceeeeEEEeeccce---e--eeecccccccccccccccccc
+Q phlebovirusEnv  278 N-LIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFE---V--DFVGAAVSCDAAFLNLTGCYS  351 (506)
+Q Consensus       278 ~-~~di~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~---~--~~~~~~~~C~i~~~~l~GCYs  351 (506)
+                      . -++=++.+++++-|-....-.|-=...-+-|.|..=....+-|.|.+.|..   +  .-.++..+|++..=.    ||
+T Consensus       234 TQapSGf~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv~~Ct----~S  309 (390)
+T 1i9w_A          234 TQTPSGFKYWLKEKGTALNTKAPFGCQIKTNPVRAMNCAVGNIPVSMNLPDSAFTRIVEAPTIIDLTCTVATCT----HS  309 (390)
+T ss_pred             ccCCcHHHHHhhcCCCccccCCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEE----ec
+Confidence            1 122234444433333222111211111233444433333444555666632   2  234556778776311    45
+
+
+Q ss_pred             CCCCceEEEEEeecCcceeeeecCCCceeeeee-cC-CCCccceeEeeecccccccceecc-ccCC
+Q phlebovirusEnv  352 CNAGARVCLSITSTGTGTLSAHNKDGSLHIVLP-SE-NGTKDQCQILHFTVPEVEEEFMYS-CDGD  414 (506)
+Q Consensus       352 C~~GA~~~i~c~S~~~t~a~i~C~~~~~~~~i~-c~-~~~~~~~~~~~f~~a~v~~~C~~~-CG~~  414 (506)
+                      =.-|..+.|+-.+++.+.+-+.-++.  ...+. .. .=.....+.+||++|..+-+-.++ |+..
+T Consensus       310 sdfGG~a~~~Y~a~k~GkCavHs~S~--~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~  373 (390)
+T 1i9w_A          310 SDFGGVLTLTYKTNKNGDCSVHSHSN--VATLQEATAKVKTAGKVTLHFSTASASPSFVVSLCSAR  373 (390)
+T ss_pred             cCCCCeEEEEEecCCCccceeecCCC--ceEeeeeeEEEeccceEEEEEecCCCCCCEEEEeccCc
+Confidence            56788999999998865511111221  22222 11 111223479999999998887777 6654
+
+
+No 8  
+>3muu_A Structural polyprotein; beta barrels, IG-like folds, viral protein; HET: NAG BMA MAN; 3.29A {Sindbis virus} PDB: 3muw_A 3muw_U 1z8y_A 1z8y_B
+Probab=91.07  E-value=5.1  Score=38.61  Aligned_cols=329  Identities=19%  Similarity=0.219  Sum_probs=174.6
+
+Q ss_pred             cccceEEEEeeccccccccCccccccCCCccccc-ccccccccccccccccCccCCCcccccc---cccccccccccccc
+Q phlebovirusEnv   50 DQTKFLKIKTVSSELSCREGQSYWTGSFSPKCLS-SRRCHLVGECHVNRCLSWRDNETSAEFS---FVGESTIMRENKCF  125 (506)
+Q Consensus        50 ~~~~~i~i~~~~i~l~C~~~~~~~T~~~~~~~~s-~~RC~~~GsC~~~~C~~i~~~~~~~El~---~~~~~~~pg~t~C~  125 (506)
+                      -.=-.|+|++.+..|.=.-..+|.|-+|+..+-| .-.|=++-+|..         ...|+..   +.+-++.| +    
+T Consensus       384 YaPl~L~i~v~~t~l~PtlnleYiTC~YkTvVpSP~VKCCGs~EC~~---------~~~pDy~CkVftGVYPFM-W----  449 (750)
+T 3muu_A          384 YAPLNLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQP---------AAHAGYTCKVFGGVYPFM-W----  449 (750)
+T ss_dssp             SBCEEEEEEEEEECCEEEEEEEEEECCEEEECCCCEEETTSCCCCCC---------CCSTTCEEEEEESCCCST-T----
+T ss_pred             CCceeEEEEEEEeEEeecccceEEEEeeeecCCCCcceeccccccCC---------CCCCCccceEeccccccc-c----
+Confidence            4446899999999999999999999999999966 346667777773         2234442   33343333 2    
+
+
+Q ss_pred             ccCCCccccccccCCccceeeeeeecccc------ceeeeeeeccceeeEEEEEEeecCceeeEe--ecCCCccccccce
+Q phlebovirusEnv  126 EQCGGWGCGCFNVNPSCLFVHTYLQSVRK------EALRVFNCIDWVHKLTLEITDFDGSVSTID--LGASSSRFTNWGS  197 (506)
+Q Consensus       126 e~CGg~gCgCf~~~psClFyr~y~~p~~~------~~yeVf~C~~W~~~v~~~vt~~~~~~~~~~--l~~~~~~~~~~~s  197 (506)
+                         ||+-  ||--+.-=.....|.+=-.+      ..|++-   +=..+++|.|++.+.. .+.+  ++-..+...++++
+T Consensus       450 ---GGAy--CFCDtENTQmSeaYV~rS~~C~~DhA~AykaH---Tas~kA~l~ItyG~~~-~~v~vyVNG~tp~~~~~~K  520 (750)
+T 3muu_A          450 ---GGAQ--CFCDSENSQMSEAYVELSADCASDHAQAIKVH---TAAMKVGLRIVYGNTT-SFLDVYVNGVTPGTSKDLK  520 (750)
+T ss_dssp             ---TTTT--CCCSSSCEEEEEEEEEECTTTTTSCEEEEEEE---EEECCEEEEEEETTEE-EEEECCBSSSCEEECSSCE
+T ss_pred             ---ccee--eeecCcchhhhhhheecCccchhHHHHHHHhh---hheeEEEEEEEEccee-EEEEEEEcCccceecCceE
+Confidence               3333  33323333444555442221      133333   2345667777765432 2233  2222335667766
+
+
+Q ss_pred             eEeeeccccccCCCccceeccCCCcceeecCCCCCCCccCccccccccCcchhhccccccccC-Ccceeeccccccceec
+Q phlebovirusEnv  198 VSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRA-PNLISYKPMIDQLECT  276 (506)
+Q Consensus       198 itl~~~~~p~~p~l~~~Fi~~~~~~~a~~~~~~~g~p~~~~~g~lqC~s~~~aa~~~~~C~~~-~~~c~C~p~~~~v~C~  276 (506)
+                      +.+=-++..-+|- +.+.+.-. ++.+--|-.+=|.-.+|..|+||=.+-.+..      .++ .++-==.|....+.-.
+T Consensus       521 ~i~GPlSsawsPF-D~KIVvy~-~eVYNyDFPeYGAG~pG~FGDIQsrt~~s~D------lyAnT~l~L~RP~~g~iHVP  592 (750)
+T 3muu_A          521 VIAGPISASFTPF-DHKVVIHR-GLVYNYDFPEYGAMKPGAFGDIQATSLTSKD------LIASTDIRLLKPSAKNVHVP  592 (750)
+T ss_dssp             EEECCCSSCCCSC-CSEEEECS-SCEEECCCCCTTCCCSSSTTSEEBSSTTTCS------CEECCCCEECCCCTTSCCCC
+T ss_pred             EEecccccCcCCC-CceEEEEc-ceeeccCCCcccCCCCccccccccccCCccc------eeeccCcEEccCCCCceecc
+Confidence            5543233332331 33334333 4666667777888999999999988874331      221 1222223443333322
+
+
+Q ss_pred             c-cCCCchhhhhcCCCCcccccceeeccCCCCceeeeeccceeeeEEEeeccce---e--eeeccccccccccccccccc
+Q phlebovirusEnv  277 T-NLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQADLTLMFDNFE---V--DFVGAAVSCDAAFLNLTGCY  350 (506)
+Q Consensus       277 c-~~~di~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~l~i~~~~~~---~--~~~~~~~~C~i~~~~l~GCY  350 (506)
+                      - .-++=++.+++++-|-....-.|-=...-|-|.|..=....+=|.|.+.|..   +  +-.++..+|++..=.    |
+T Consensus       593 YTQapSGf~~W~k~~g~~L~~tAPFGC~I~~nPvRA~nCavGnIPiSiDIPDAaFTRvsdaP~vs~l~Ctv~~Ct----y  668 (750)
+T 3muu_A          593 YTQASSGFEMWKNNSGRPLQETAPFGCKIAVNPLRAVDCSYGNIPISIDIPNAAFIRTSDAPLVSTVKCEVSECT----Y  668 (750)
+T ss_dssp             EECCCCHHHHHHTTCCSCGGGTCTTSCEEEETTEEEETCCCSEEEEEEEEEGGGCBCSCCSSCEEEEEEEEEECC----T
+T ss_pred             cccCCcHHHHHhhcCCCcccccCCcceEEecCcchhhcccccceeeeeeCCchheeeeccCCccccceEEeeEEE----e
+Confidence            1 1123344455444433322111111111234555443333555666666632   2  234566788776411    5
+
+
+Q ss_pred             cCCCCceEEEEEeecCcceeeeecCCCceeeeee-c-CCCCccceeEeeecccccccceecc-ccCCC
+Q phlebovirusEnv  351 SCNAGARVCLSITSTGTGTLSAHNKDGSLHIVLP-S-ENGTKDQCQILHFTVPEVEEEFMYS-CDGDE  415 (506)
+Q Consensus       351 sC~~GA~~~i~c~S~~~t~a~i~C~~~~~~~~i~-c-~~~~~~~~~~~~f~~a~v~~~C~~~-CG~~~  415 (506)
+                      |=.=|..+.|+-.+++.+.+-+--++.  ...+. . ..=.....+.+||++|.++-+-.++ |+.+.
+T Consensus       669 SsDfGGvatl~Y~a~k~GkCavHs~S~--~atl~es~v~v~~~G~~t~hFSTAs~~p~F~v~iC~~~v  734 (750)
+T 3muu_A          669 SADFGGMATLQYVSDREGQCPVHSHSS--TATLQESTVHVLEKGAVTVHFSTASPQANFIVSLCGKKT  734 (750)
+T ss_dssp             TSSSCEEEEEEEEESSCCCEECEESST--TCEESCSEECCCSSCEEEEEEECCCSBCCBCEECSSCBC
+T ss_pred             ccCCCCEEEEEEecCCCccceeeccCC--ceEeeeeeEEeecCceEEEEEecCCCCCCEEEEeccCcc
+Confidence            556789999999999876511111222  22222 1 1111233589999999999888877 76653
+
+
+No 9  
+>4hw9_A Mechanosensitive channel MSCS; membrane, membrane protein; 4.14A {Helicobacter pylori}
+Probab=30.04  E-value=7.9  Score=33.48  Aligned_cols=25  Identities=12%  Similarity=0.030  Sum_probs=0.0
+
+Q ss_pred             cCCCCCCcchhhhhhhhhhcCchhH
+Q phlebovirusEnv  444 NPKSGSWNFFDWFSGLMSWFGGPLK  468 (506)
+Q Consensus       444 ~~~~~~~d~~~w~~~l~~w~~~~~k  468 (506)
+                      .|..+-|++-+++..++.|+-....
+T Consensus        17 ~~~~~~~~~~~~~~~l~~~~~~~~~   41 (309)
+T 4hw9_A           17 RGSHTLINMDEIKTLLVDFFPQAKH   41 (309)
+T ss_dssp             -------------------------
+T ss_pred             cchhhhccHHHHHHHHHHHHHHHHH
+Confidence            4455566666667777777766443
+
+
+No 10 
+>2qjy_B Cytochrome C1; cytochrome B, 8 TM helixces cytochrome C1, 1 C-TERM TM helix 1 N-TERM TM helix; HET: BGL HEM SMA LOP UQ2; 2.40A {Rhodobacter sphaeroides} PDB: 2fyn_B* 2qjp_B* 2qjk_B*
+Probab=26.80  E-value=15  Score=31.15  Aligned_cols=37  Identities=16%  Similarity=0.325  Sum_probs=25.4
+
+Q ss_pred             hhhhhhhcCchhHHH-HHHHHHHHHHHHHHHHHHHHHH
+Q phlebovirusEnv  456 FSGLMSWFGGPLKTI-LLICLYVALSIGLFFLLIYLGR  492 (506)
+Q Consensus       456 ~~~l~~w~~~~~k~~-~~ii~~vi~~i~~~~i~~~~~~  492 (506)
+                      .+..+.|.+-|-+.- -.+.++|.+-+++|.+|+|+-.
+T Consensus       211 Vv~FL~w~aeP~~~~R~~lG~~Vl~fL~v~~~l~y~lk  248 (269)
+T 2qjy_B          211 VSAFLMWAAEPKLMARKQAGFTAVMFLTVLSVLLYLTN  248 (269)
+T ss_dssp             HHHHHHHHHCTTHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhCCchHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            456678888887543 3566777777777777777654
+
+
+No 11 
+>5aji_A MSCS, small-conductance mechanosensitive channel; transport protein; HET: R1A D10; 2.99A {Escherichia coli} PDB: 2oau_A 4hwa_A 4age_A 4agf_A 2vv5_A
+Probab=24.55  E-value=14  Score=31.10  Aligned_cols=23  Identities=9%  Similarity=-0.012  Sum_probs=9.3
+
+Q ss_pred             CcchhhhhhhhhhcCchhHHHHH
+Q phlebovirusEnv  450 WNFFDWFSGLMSWFGGPLKTILL  472 (506)
+Q Consensus       450 ~d~~~w~~~l~~w~~~~~k~~~~  472 (506)
+                      -+-++|.++...|+.+-+-.++.
+T Consensus        11 ~~~~~~~~~~~~~~~~~~~~i~~   33 (286)
+T 5aji_A           11 NGAGSWLVANQALLLSYAVNIVA   33 (286)
+T ss_dssp             -------CCCCHHHHHHHHHHHH
+T ss_pred             hhHHHHHHhhhhHHHHHHHHHHH
+Confidence            34567777766666655544443
+
+
+No 12 
+>3cx5_D Cytochrome C1, heme protein, mitochondrial; complex III, electron transfer complex, cytoch complex, mitochondrialtransmembrane complex; HET: M3L SUC 6PH UMQ HEM SMA 8PE 9PE CN5 7PH CN3; 1.90A {Saccharomyces cerevisiae} SCOP: a.3.1.3 f.23.11.1 PDB: 1kyo_D* 2ibz_D* 3cxh_D* 4pd4_D* 1kb9_D* 1p84_D* 1ezv_D*
+Probab=20.15  E-value=26  Score=29.05  Aligned_cols=37  Identities=14%  Similarity=0.307  Sum_probs=24.7
+
+Q ss_pred             hhhhhhhcCchhHHH-HHHHHHHHHHHHHHHHHHHHHH
+Q phlebovirusEnv  456 FSGLMSWFGGPLKTI-LLICLYVALSIGLFFLLIYLGR  492 (506)
+Q Consensus       456 ~~~l~~w~~~~~k~~-~~ii~~vi~~i~~~~i~~~~~~  492 (506)
+                      ....+.|.+-|-+.- -.+.++|.+-+++|++|.|+-+
+T Consensus       190 Vv~FL~wa~eP~~~~R~~~G~~vi~fl~~~~~l~y~~k  227 (248)
+T 3cx5_D          190 VTTFLNWCAEPEHDERKRLGLKTVIILSSLYLLSIWVK  227 (248)
+T ss_dssp             HHHHHHHHHCTTHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhCCchHHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            345677888886543 3466777777777777777643
+
+
+No 13 
+>4d6u_D Cytochrome C1, heme protein, mitochondrial; oxidoreductase, membrane protein; HET: HEM G8U PEE HEC CDL; 4.09A {Bos taurus}
+Probab=19.80  E-value=26  Score=30.43  Aligned_cols=45  Identities=16%  Similarity=0.228  Sum_probs=0.0
+
+Q ss_pred             hhhhcCchhHHHHHHHHH-HHHHHHHHHHHHHHHHhhhhhhhhhhh
+Q phlebovirusEnv  459 LMSWFGGPLKTILLICLY-VALSIGLFFLLIYLGRTGLSKMWLAAT  503 (506)
+Q Consensus       459 l~~w~~~~~k~~~~ii~~-vi~~i~~~~i~~~~~~~~~~~~~~~~~  503 (506)
+                      |+.|..-|-+.-=..+|+ +++.++++.++..++++.+.+-+++|+
+T Consensus       273 FL~waaeP~~~~Rk~mG~~Vl~fL~i~~~l~y~lkR~~W~~v~~~~  318 (325)
+T 4d6u_D          273 FLRWAAEPEHDHRKRMGLKMLLMMGLLLPLVYAMKRHKWSVLKSRK  318 (325)
+T ss_dssp             HHHHHHCTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSCE
+T ss_pred             HHHHhcCccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhccccce
+
+
+No 14 
+>1pfi_A Major coat protein of PF1 virus; complex(viral coat protein-DNA), helical virus, virus; HET: DC; 3.00A {Pseudomonas phage PF1} SCOP: h.1.4.1 PDB: 1ifn_A 1ifm_A* 1pjf_A 1ql1_A 1ql2_A 1zn5_A 2ifm_A 2ifn_A 2klv_A 2ksj_A 2xkm_A 3ifm_A 4ifm_A
+Probab=19.27  E-value=52  Score=19.41  Aligned_cols=31  Identities=16%  Similarity=0.078  Sum_probs=0.0
+
+Q ss_pred             CchhHHHHHHHHHHHHHHHHHHHHHHHHHhh
+Q phlebovirusEnv  464 GGPLKTILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       464 ~~~~k~~~~ii~~vi~~i~~~~i~~~~~~~~  494 (506)
+                      ++-+|.+...|..+++.+++.-+++.+.|++
+T Consensus        16 ~sD~k~i~~~IVG~L~il~VAGLI~~m~RKa   46 (46)
+T 1pfi_A           16 QGDMKAIGGYIVGALVILAVAGLIYSMLRKA   46 (46)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHHHHHHHHC
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHHHHHhcC
+
+
+No 15 
+>1zrt_D Cytochrome C1; cytochrome BC1, membrane protein, heme protein, rieske iron sulfur protein; HET: HEM SMA HEC; 3.50A {Rhodobacter capsulatus}
+Probab=18.65  E-value=23  Score=29.67  Aligned_cols=48  Identities=17%  Similarity=0.269  Sum_probs=0.0
+
+Q ss_pred             hhhhhhhcCchhHHHHHHHHH-HHHHHHHHHHHHHHHHhhhhhhhhhhh
+Q phlebovirusEnv  456 FSGLMSWFGGPLKTILLICLY-VALSIGLFFLLIYLGRTGLSKMWLAAT  503 (506)
+Q Consensus       456 ~~~l~~w~~~~~k~~~~ii~~-vi~~i~~~~i~~~~~~~~~~~~~~~~~  503 (506)
+                      +..|+.|..-|.+.-=..+|. +++.|+++.++.+++++.+.+-+.+++
+T Consensus       209 Vv~FL~w~aeP~~~~R~~lG~~vl~~l~~~~~l~~~~kr~~W~~~~~~~  257 (258)
+T 1zrt_D          209 VSAFLMWAAEPKLVARKQMGLVAMVMLGLLSVMLYLTNKRLWAPYKGHK  257 (258)
+T ss_dssp             HHHHHHHHHCTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSSSC
+T ss_pred             HHHHHHHhcCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhccccC
+
+
+No 16 
+>2lx0_A Membrane fusion protein P14; membrane fusion protein transmembrane domain, P14 fast prote ARCH, micelle-peptide complex, membrane protein; NMR {Synthetic}
+Probab=18.31  E-value=38  Score=18.57  Aligned_cols=26  Identities=12%  Similarity=-0.001  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhh
+Q phlebovirusEnv  469 TILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       469 ~~~~ii~~vi~~i~~~~i~~~~~~~~  494 (506)
+                      +||-+++.+++.+.++.+=+++.+.+
+T Consensus         4 TIWEVi~G~~~LL~~iA~GF~L~~Y~   29 (32)
+T 2lx0_A            4 TIWEVIAGLVALLTFLAFGFWLFKYL   29 (32)
+T ss_dssp             SSHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 17 
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=18.21  E-value=37  Score=20.90  Aligned_cols=29  Identities=10%  Similarity=-0.040  Sum_probs=0.0
+
+Q ss_pred             hhcCchhHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q phlebovirusEnv  461 SWFGGPLKTILLICLYVALSIGLFFLLIYLGRT  493 (506)
+Q Consensus       461 ~w~~~~~k~~~~ii~~vi~~i~~~~i~~~~~~~  493 (506)
+                      +||    -.++.+++.+++.++++++++..-.+
+T Consensus        11 ~~w----iii~s~i~GlllL~li~~iL~K~GFF   39 (54)
+T 2knc_A           11 PIW----WVLVGVLGGLLLLTILVLAMWKVGFF   39 (54)
+T ss_dssp             CHH----HHHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             chh----HHHHHHHHHHHHHHHHHHHHHHcCCc
+
+
+No 18 
+>2ks1_B Epidermal growth factor receptor; ERBB1, ERBB2, transmembrane, heterodimer, complex, tyrosine receptor, bicelles, transferase; NMR {Homo sapiens} PDB: 2m0b_A
+Probab=17.86  E-value=27  Score=18.84  Aligned_cols=31  Identities=10%  Similarity=-0.091  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhccC
+Q phlebovirusEnv  470 ILLICLYVALSIGLFFLLIYLGRTGLSKMWLAATKKA  506 (506)
+Q Consensus       470 ~~~ii~~vi~~i~~~~i~~~~~~~~~~~~~~~~~~~~  506 (506)
+                      +..+++.+++++++..+++...++      +++++++
+T Consensus        14 ~~~~v~~~~~~~~~~~~~~~~~rr------r~~~~~~   44 (44)
+T 2ks1_B           14 ATGMVGALLLLLVVALGIGLFMRR------RHIVRKR   44 (44)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHT------TTCCSCC
+T ss_pred             EEeeHHHHHHHHHHHHHHHHHHHh------hhhhccC
+
+
+No 19 
+>1afo_A Glycophorin A; integral membrane protein, transmembrane helix interactions, membrane protein folding; NMR {Homo sapiens} SCOP: j.35.1.1 PDB: 2kpf_A
+Probab=17.32  E-value=50  Score=18.55  Aligned_cols=26  Identities=31%  Similarity=0.235  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHhh
+Q phlebovirusEnv  469 TILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       469 ~~~~ii~~vi~~i~~~~i~~~~~~~~  494 (506)
+                      .+..++|.++..+++..++++++++.
+T Consensus        12 IvG~vvG~vv~~~~l~~~~~~~~rrr   37 (40)
+T 1afo_A           12 ITLIIFGVMAGVIGTILLISYGIRRL   37 (40)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             EEEEehHHHHHHHHHHHHHHHHHhhh
+
+
+No 20 
+>4um9_B Integrin beta-6, integrin beta 6; immune system, cell surface receptor; HET: NAG BMA MAN; 2.50A {Homo sapiens} PDB: 4um8_B* 4um9_D*
+Probab=14.94  E-value=8.1  Score=37.67  Aligned_cols=37  Identities=22%  Similarity=0.069  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhccC
+Q phlebovirusEnv  470 ILLICLYVALSIGLFFLLIYLGRTGLSKMWLAATKKA  506 (506)
+Q Consensus       470 ~~~ii~~vi~~i~~~~i~~~~~~~~~~~~~~~~~~~~  506 (506)
+                      +++|++.++++++++.+++.++.+++.++..+|..++
+T Consensus       708 ~~~iv~~vv~~illi~l~~l~i~~~~~~~~d~~e~~~  744 (788)
+T 4um9_B          708 IPMIMLGVSLAILLIGVVLLCIWKLLVSFHDRKEVAK  744 (788)
+T ss_dssp             -------------------------------------
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHhhheeehhHHHHHH
+
+
+Done!

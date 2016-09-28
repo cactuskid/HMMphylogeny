@@ -1,0 +1,680 @@
+Query         tospovirusSS
+Match_columns 651
+No_of_seqs    231 out of 293
+Neff          7.0 
+Searched_HMMs 494
+Date          Thu Aug  4 12:32:42 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/tospovirusSS.a3m.hhm -ohhm ./structurepred/tospovirusSS.a3m.hhm -o ./structurepred/tospovirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;   99.9 3.1E-17 4.4E-21  175.4  86.4  378  135-542    13-432 (432)
+  2 3j0f_E E1 envelope glycoprotei  93.9       2 0.00024   40.6  99.1  373  165-596    18-433 (439)
+  3 2yew_B E1 envelope glycoprotei  79.2      18  0.0022   33.6 117.9  372  151-609     4-427 (427)
+  4 3j0c_A E1 envelope glycoprotei  78.0      20  0.0024   33.4 129.5  402  148-608     1-439 (442)
+  5 1i9w_A Fusion protein E1; enve  69.2      30  0.0037   31.5  84.0  326  164-545    18-386 (390)
+  6 2l8s_A Integrin alpha-1; trans  56.0      16  0.0021   24.3  11.1   34  583-626    13-46  (54)
+  7 5aji_A MSCS, small-conductance  51.4      46  0.0066   28.6  17.0   39  564-606    15-54  (286)
+  8 2knc_A Integrin alpha-IIB; tra  49.7      20  0.0027   23.6  12.6   39  584-625    14-52  (54)
+  9 2k9j_B Integrin beta-3; transm  39.3      20  0.0029   21.1  18.6   28  581-608     7-34  (43)
+ 10 4hw9_A Mechanosensitive channe  38.1      77   0.011   27.4  13.5   97  541-639     2-177 (309)
+ 11 4hw9_A Mechanosensitive channe  31.3      98   0.014   26.6  16.2   56  557-613    13-73  (309)
+ 12 2knc_B Integrin beta-3; transm  27.8      52  0.0074   22.2  17.8   37  568-610     8-44  (79)
+ 13 2l8s_A Integrin alpha-1; trans  23.7      59  0.0078   21.1  21.2   41  565-615     4-45  (54)
+ 14 2knc_A Integrin alpha-IIB; tra  21.0      65  0.0088   20.7  21.8   43  564-615     6-48  (54)
+ 15 4xtr_G PEP12P; membrane protei  18.8      62  0.0074   18.9  13.2   22  581-602    13-34  (37)
+ 16 2m59_A Vascular endothelial gr  18.8      65  0.0082   19.5  17.0   27  582-608     3-29  (37)
+ 17 2knc_B Integrin beta-3; transm  18.5      80   0.012   21.0  19.2   31  578-608     5-36  (79)
+ 18 2mof_A Lysosome-associated mem  18.1      64  0.0087   19.4  17.5   29  583-618    12-41  (42)
+ 19 3n40_F E1 envelope glycoprotei  17.4 2.3E+02   0.028   25.1 105.8  346  147-545     2-388 (393)
+ 20 2jwa_A Receptor tyrosine-prote  17.3      52  0.0078   18.5  18.5   35  579-614     7-42  (44)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=99.93  E-value=3.1e-17  Score=175.36  Aligned_cols=378  Identities=13%  Similarity=0.112  Sum_probs=244.1
+
+Q ss_pred             ccce-ee-eeecCcee-eEEeeecc-cCCCeEEEecCCCccccceEEEEEEEEEEEEecccceecccccccccccccccc
+Q tospovirusSS    135 KSLI-FD-SVIDGKYR-YMIEESLL-SGGGTVFSLNDKSSSTAQKFVVYIKKVRIQYDVSEQYTTAPIQSTHTDFFSTCT  210 (651)
+Q Consensus       135 q~~~-~s-~gi~~~~i-~~~~l~l~-sgt~~~~~l~~~~~~~~~~l~I~Ik~~~~~~~~~~lY~Tg~~~~in~~~~~~CT  210 (651)
+                      .... +. +|...+.+ .+.+|+|. -|+.++++|.++++..+..|.|+++++.+++....+|+|.++ .+++++..+|-
+T Consensus        13 ~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTrd~-~~~~~s~~RC~   91 (432)
+T 4hj1_A           13 RITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSF-SPKCLSSRRCH   91 (432)
+T ss_dssp             GGEEEEESSSCEEEEEEEEEEEECCCBTSEEEEEEECSSTTCEEEEEEEEEEEEEEEEEEEEEEECCE-EEEEEEEEECT
+T ss_pred             cccEEeCCCCCCEEEEeEEEEEEeecCCcEEeEEEECCCCCeEEEEEEEEEeeEEEEecccEEEecce-eEEEeeEeECC
+Confidence            1111 22 22233544 88999998 999999999999999999999999999999999999999999 58888888887
+
+
+Q ss_pred             CC--CCc-----ccccCcccccc----------ceeeccCCccccceeEEeeecCCCcccccccccccCCceEEEeeeec
+Q tospovirusSS    211 GK--CSD-----CRKEQPITGYQ----------DFCITPTSYWGCEEVWCLAINEGATCGFCRNVYDMDQSFRIYSVIKS  273 (651)
+Q Consensus       211 G~--Cp~-----~~~~~~~~~w~----------~f~~e~ts~WGCee~gC~aI~tGC~~g~c~dv~k~~~~~~VyKv~~~  273 (651)
+                      ++  |-.     ..+...-..|.          +.+.+.--+|||-   ||-..+||.|.+---+......+.||+-.+|
+T Consensus        92 ~~GsC~~~~C~~i~~~~~~pEl~~~~~~~~~g~t~C~~sCGg~gCg---CF~~~~sClFyR~y~~p~s~~iyeVf~C~~W  168 (432)
+T 4hj1_A           92 LVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCG---CFNVNPSCLFVHTYLQSVRKEALRVFNCIDW  168 (432)
+T ss_dssp             TSTTCSTTTTTTCCTTCCCGGGGGGCCCCBCEEEEEEEECCSGGGT---CSSSSCEEEEEEEEEEESSSCCEEEEEEEEE
+T ss_pred             CCCccccCcccccCCcCcchhhccccccCCCccceeccccCCCCcC---eeCcCcchhEEEEEEEcCCCCEEEEEECCCc
+Confidence            65  553     11110011121          2334444455553   5555555555442222333568999999999
+
+
+Q ss_pred             cccceeeeeccccceeeEeecccC----CCCCccccchhcccccCCcceeehhhcCCCCcccccccccccCCCCc-cCCC
+Q tospovirusSS    274 TIKSEVCISGFVGAKCFTVSEEVP----SESGYFQADILADFHNDGLTIGQLIAHGPDSHVYAGNIARLNNPSKM-FGHP  348 (651)
+Q Consensus       274 ~~~~~vCi~~~~~~~C~~i~~~~~----~~~~~~~v~~~~~~~~~~~~~p~~ia~~~~~~i~~G~indlg~~~~~-cG~v  348 (651)
+                      ...+++-|+..+... .+++.+.+    ...+.+.+.+.... .........+.... +.++.-+.++.|.+.++ -|++
+T Consensus       169 ~~~v~i~vt~~~~~~-~~~~l~~~~~~~~~~~~i~itl~~~~-~~~~~~~~fi~~~~-~~~a~~~~~~~~~p~~g~ig~l  245 (432)
+T 4hj1_A          169 VHKLTLEITDFDGSV-STIDLGASSSRFTNWGSVSLSLDAEG-ISGSNSFSFIESPG-KGYAIVDEPFSEIPRQGFLGEI  245 (432)
+T ss_dssp             EEEEEEEEECTTSCE-EEEEECTTCEEEETTEEEEEEEECCS-CTTGGGCEEEEETT-TEEEEESSCCCSSCCTTSTTSE
+T ss_pred             cEEEEEEEEecCCce-EEEEeccCCceEEeeccEEEEEEeee-ecCCCCcEEEEeCC-ceEEEecccccCCcCcCcccce
+Confidence            999999999987654 34555543    35556656554411 11111011111222 45555566777886665 6888
+
+
+Q ss_pred             CCCCCCCCcccccccCCCCccccccccc-ceeEEEe----eccccceee-----ccccccc-cCcceeeec--Ccchhh-
+Q tospovirusSS    349 QLSHQGDPIFSKKTLDTNDLSWDCSAIG-KKTITIK----SCGYDTYRF-----KTGLNQI-SDIPVQFTD--QNSFYM-  414 (651)
+Q Consensus       349 Q~~~~~~~~~~~~~~~~p~f~y~C~~~~-~kdviv~----~C~~n~~~s-----~~~L~~~-~~~~~~~~~--~~~l~~-  414 (651)
+                      |+.+..+|..         .+..|.++. .-.+...    .|.....+.     .+.||.. .++.+ ...  +++|.+ 
+T Consensus       246 qC~t~~~A~~---------~~~~C~~~~~~c~c~~~~~~~~C~c~~~~~~~~~~~~~LP~~~~~~~~-~~~~~~~~V~a~  315 (432)
+T 4hj1_A          246 RCNSESSVLS---------AHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTF-AASKGNRGVQAF  315 (432)
+T ss_dssp             EBSSHHHHHT---------TBTTSEECTTCEEEEEETTEEEEEECCCCHHHHHHHTBSSEEETTEEE-EECSSSCCEEEE
+T ss_pred             eeCChHHhHh---------hcCceeeccccceEEcccceEEeeCCCCCHHHHhhcCCCceEeCcceE-EEecCCCeEEEE
+Confidence            8877311001         123344422 1222211    232222111     3789988 55555 533  566655 
+
+
+Q ss_pred             hhhhcccceEEEeeCchhhhhcCCCCcceeeeeecccceeeeccccccccccccce--eeeeeecccccccceeeeeeec
+Q tospovirusSS    415 EKIFSLGKLKIVLDLPSELFKTVPKKPILSSVSLSCKGCFLCSQGLRCAASFISDI--TFSARLTMKQCSLSTYQIAVKK  492 (651)
+Q Consensus       415 ~~~~~lG~i~~~i~l~di~~k~~s~~~~~~~~~~~C~GC~~C~~G~~C~i~i~s~~--~~~~~I~~~~C~~~~~~i~i~~  492 (651)
+                      .+.  ...+.+.|.++++.......+..+++++....|||+|..|+.-.|+-+|+.  .+.+.+.   |+..+..+...+
+T Consensus       316 ~~~--~~~~~l~i~~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~C~S~~~~~~~~~~~---~~~~~~~~~~~~  390 (432)
+T 4hj1_A          316 SKG--SVQADLTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNK---DGSLHIVLPSEN  390 (432)
+T ss_dssp             ECS--CCCEEEEEEEEEEEEECCSCCCCCEEEEEEEEEBSSSSSCEEEEEEEEESSCEEEEEEET---TSSCEEEEEECB
+T ss_pred             ecc--ceEEEEEEEecceEEEEEEeCCcceEEeccceEecccccCCEEEEEEEeCCCCeEEEEEc---CCCEEEEEecCC
+Confidence            332  247888888888888888999999999999999999999999999988875  3457777   887777777666
+
+
+Q ss_pred             cCcceeeEEEeecCccccceeeccCCCccccceeeeceeeecCCCcccCC
+Q tospovirusSS    493 GANKYNLTMFCTSNPEKQKMIIEPEGDKSYSVEALVDSVAVLEPENIIDQ  542 (651)
+Q Consensus       493 g~n~~~ik~~c~~~~~~~~~~~~iC~~~~~~~~~p~~~v~~~d~~t~i~~  542 (651)
+                      |..+..+.++...+.++ ..|-.-|+.....+       .+.|.+.|+.-
+T Consensus       391 g~~~~~~~~~f~~a~v~-~~C~v~CG~~~~~f-------~i~G~L~~~~~  432 (432)
+T 4hj1_A          391 GTKDQCQILHFTVPEVE-EEFMYSCDGDERPL-------LVKGTLIAIDP  432 (432)
+T ss_dssp             EEEEEEEEECCSSSEEE-EEEEEESSSCCEEE-------EEEEECBCCC-
+T ss_pred             CCeeEEEEEEcCCCeEe-eEEEEECCCCcEEE-------EEEEEEEecCC
+Confidence            66666688889999777 88888899986555       55666666521
+
+
+No 2  
+>3j0f_E E1 envelope glycoprotein; alphavirus, virus assembly; 7.00A {Sindbis virus} PDB: 1ld4_M 1z8y_I
+Probab=93.89  E-value=2  Score=40.64  Aligned_cols=373  Identities=15%  Similarity=0.180  Sum_probs=0.0
+
+Q ss_pred             ecCCCccccceEEEEEEEEEEEEecccceeccccccccccccccccCC--CCcccccCccccccceeeccCCccccceeE
+Q tospovirusSS    165 LNDKSSSTAQKFVVYIKKVRIQYDVSEQYTTAPIQSTHTDFFSTCTGK--CSDCRKEQPITGYQDFCITPTSYWGCEEVW  242 (651)
+Q Consensus       165 l~~~~~~~~~~l~I~Ik~~~~~~~~~~lY~Tg~~~~in~~~~~~CTG~--Cp~~~~~~~~~~w~~f~~e~ts~WGCee~g  242 (651)
+                      +.+..|-..+.|.|.+.+..+.=+.+..|.|=...+.---..-+|=|.  |+....  ....|..|.-=+-==||--  .
+T Consensus        18 ~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~--pDy~CkVftGVYPfMWGGA--y   93 (439)
+T 3j0f_E           18 LVERAGYAPLNLEITVMSSEVLPSTNQEYITCKFTTVVPSPKIKCCGSLECQPAAH--ADYTCKVFGGVYPFMWGGA--Q   93 (439)
+T ss_pred             eecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCCCC--CCccceEecccccccccce--e
+
+
+Q ss_pred             EeeecCCCcccccccccccCCceEEEeeee---------------ccccceeeeeccc--cceeeEeecccCCCCCcccc
+Q tospovirusSS    243 CLAINEGATCGFCRNVYDMDQSFRIYSVIK---------------STIKSEVCISGFV--GAKCFTVSEEVPSESGYFQA  305 (651)
+Q Consensus       243 C~aI~tGC~~g~c~dv~k~~~~~~VyKv~~---------------~~~~~~vCi~~~~--~~~C~~i~~~~~~~~~~~~v  305 (651)
+                      ||          |..--.-  ...+|=...               -...+++=|+.++  .+.=.-++...|...+..++
+T Consensus        94 CF----------CDsENTQ--~SeayV~~s~~C~~dhA~AykaHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K~  161 (439)
+T 3j0f_E           94 CF----------CDSENSQ--MSEAYVELSADCASDHAQAIKVHTAAMKVGLRIVYGNTTSFLDVYVNGVTPGTSKDLKV  161 (439)
+T ss_pred             ee----------ecCcchh--hhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCccceecCceeE
+
+
+Q ss_pred             chhcccccCCcceeehhhcCCCCcccccccccccCCCCc-cCCCCCCC--CCCCcccccccCCCCcccccccccceeEEE
+Q tospovirusSS    306 DILADFHNDGLTIGQLIAHGPDSHVYAGNIARLNNPSKM-FGHPQLSH--QGDPIFSKKTLDTNDLSWDCSAIGKKTITI  382 (651)
+Q Consensus       306 ~~~~~~~~~~~~~p~~ia~~~~~~i~~G~indlg~~~~~-cG~vQ~~~--~~~~~~~~~~~~~p~f~y~C~~~~~kdviv  382 (651)
+                       +.+|+....--.++.|.+-+ +++|-=..-..|.-..+ +|++|...  ..|++.                  +.++..
+T Consensus       162 -i~GPiStawsPFD~KiVvyk-~eVYNyDfP~YGaG~pG~FGDIQsrt~~s~DlyA------------------nT~l~L  221 (439)
+T 3j0f_E          162 -IAGPISASFTPFDHKVVIHR-GLVYNYDFPEYGAMKPGAFGDIQATSLTSKDLIA------------------STDIRL  221 (439)
+T ss_pred             -EecccccCcCCCCceEEEEc-ceeeccCCCCccCCCCccccccccccCCccceee------------------ccccEE
+
+
+Q ss_pred             eeccccceee----------------ccccccccCcceeeecCcchhhhhhhcccceEEEeeCchhhhhcCCCCcceeee
+Q tospovirusSS    383 KSCGYDTYRF----------------KTGLNQISDIPVQFTDQNSFYMEKIFSLGKLKIVLDLPSELFKTVPKKPILSSV  446 (651)
+Q Consensus       383 ~~C~~n~~~s----------------~~~L~~~~~~~~~~~~~~~l~~~~~~~lG~i~~~i~l~di~~k~~s~~~~~~~~  446 (651)
+                      .|-...+...                ...|+..--|== ...-|-|.+ -+=-+|.|-+-++++|-.|-..+|.|.++.-
+T Consensus       222 ~rP~~g~iHVPYTQapSGf~~W~~~~g~~L~~tAPFGC-~I~~nPvRA-~nCavG~IPiS~DIPDA~FTRv~daP~vs~~  299 (439)
+T 3j0f_E          222 LKPSAKNVHVPYTQASSGFEMWKNNSGRPLQETAPFGC-KIAVNPLRA-VDCSYGNIPISIDIPNAAFIRTSDAPLVSTV  299 (439)
+T ss_pred             ccCCCCceecccccCCcHHHHHhhcCCCccccCCCcce-EEecCcchh-hcccccceeeeeecCchheeeeccCCccccc
+
+
+Q ss_pred             eecccceeeecccc-ccccccccceeeeeeecccccccceeeeeeeccCcceeeEEEeecC-ccccceeeccCCCc-ccc
+Q tospovirusSS    447 SLSCKGCFLCSQGL-RCAASFISDITFSARLTMKQCSLSTYQIAVKKGANKYNLTMFCTSN-PEKQKMIIEPEGDK-SYS  523 (651)
+Q Consensus       447 ~~~C~GC~~C~~G~-~C~i~i~s~~~~~~~I~~~~C~~~~~~i~i~~g~n~~~ik~~c~~~-~~~~~~~~~iC~~~-~~~  523 (651)
+                      .-...-|.-...-- .-.|++.++....|.|- +.=+...-+=....-..+=.++++.+.. +.- ...+.+|+.. .-.
+T Consensus       300 ~Ctv~~Ct~SsdfGG~a~~~Y~a~k~GkCavH-s~S~~atl~es~v~v~~~g~~t~hFSTas~~~-~F~v~iC~~~vtC~  377 (439)
+T 3j0f_E          300 KCEVSECTYSADFGGMATLQYVSDREGQCPVH-SHSSTATLQESTVHVLEKGAVTVHFSTASPQA-NFIVSLCGKKTTCN  377 (439)
+T ss_pred             eEEeeEEEeccCCCCeEEEEEecCCCccccee-cCCCceEeeeeeEEEeecceEEEEEecCCCCC-CEEEEeccCcceec
+
+
+Q ss_pred             c--eeeeceeeecCCCcccCCCccchhhhhhccCCCceeeeehhccCchhhhhhhhccchhhHHHHHHHHHHHHH
+Q tospovirusSS    524 V--EALVDSVAVLEPENIIDQNDQHAHEEQQYNSDTSVWSFWDYVKSPFNFIASHFGSFFDTVRVVLLILFVFAL  596 (651)
+Q Consensus       524 ~--~~p~~~v~~~d~~t~i~~~D~~C~~w~~~~~~eg~~~~~~~lk~~~~~~~~~~~~i~~~i~~il~ii~i~l~  596 (651)
+                      .  +.|+.-|....+                ++.++...-+-..-   ++|+...+|-.-.++.+.+++++++..
+T Consensus       378 ~~C~PPkdHIV~~p~----------------~h~~~~~~~iS~Ta---~~W~~~l~Gg~~~~~~~~~~v~~~v~~  433 (439)
+T 3j0f_E          378 AECKPPADHIVSTPH----------------KNDQEFQAAISKTS---WSWLFALFGGASSLLIIGLMIFACSMM  433 (439)
+T ss_pred             CcccCchhhccCCCc----------------ccCcccccccchhH---HHHHHHHhCCchHHHHHHHHHHHHHhh
+
+
+No 3  
+>2yew_B E1 envelope glycoprotein; alphavirus, molecular dynamics; 5.00A {Barmah forest virus}
+Probab=79.20  E-value=18  Score=33.59  Aligned_cols=372  Identities=16%  Similarity=0.183  Sum_probs=0.0
+
+Q ss_pred             EeeecccCCCeEEE-ecCCCccccceEEEEEEEEEEEEecccceeccccccccccccccccCC--CCcccccCccccccc
+Q tospovirusSS    151 IEESLLSGGGTVFS-LNDKSSSTAQKFVVYIKKVRIQYDVSEQYTTAPIQSTHTDFFSTCTGK--CSDCRKEQPITGYQD  227 (651)
+Q Consensus       151 ~~l~l~sgt~~~~~-l~~~~~~~~~~l~I~Ik~~~~~~~~~~lY~Tg~~~~in~~~~~~CTG~--Cp~~~~~~~~~~w~~  227 (651)
+                      ..||-..|.  -|+ +.+..|-..+.|.|.+.+..+.=+.+..|.|=...+.---..-+|=|.  |++..+-   ..|..
+T Consensus         4 ~~~PN~vg~--pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~eC~~~~~D---y~CkV   78 (427)
+T 2yew_B            4 TTMPNQVGI--PFKALIERPGYAGLPLSLVVIKSELVPSLVQDYITCNYKTVVPSPYIKCCGGAECSKNEAD---YKCSV   78 (427)
+T ss_dssp             EEEECCBTC--CEEECCSSSSCCSSCEEEEEEEEEEECCCEEEEECCCEEEECCCCEEESSSCCCCCCCSSS---EEEEE
+T ss_pred             eecCCCCCC--chhheecCCCCCceeEEEEEEeeEEeecccceEEEEeeeecCCCCcceeccccccCCcCCC---ccceE
+
+
+Q ss_pred             eeeccCCccccceeEEeeecCCCccccccccccc---------CCceEEEeeeeccccceeeeeccccceeeEeecccCC
+Q tospovirusSS    228 FCITPTSYWGCEEVWCLAINEGATCGFCRNVYDM---------DQSFRIYSVIKSTIKSEVCISGFVGAKCFTVSEEVPS  298 (651)
+Q Consensus       228 f~~e~ts~WGCee~gC~aI~tGC~~g~c~dv~k~---------~~~~~VyKv~~~~~~~~vCi~~~~~~~C~~i~~~~~~  298 (651)
+                      |.-=+-==||         |-=|+|-.=......         ..++.+||+ .-...+++=|+.++.+.=.+.=.+   
+T Consensus        79 ftGVYPfMWG---------GAyCFCdtENTQ~SeayV~~s~~C~~dA~Ayk~-TAs~ka~l~it~g~~~~tv~~yvN---  145 (427)
+T 2yew_B           79 FTGVYPFMWG---------GAYCFCDTENSQMSEVYVTRGESCEADAIAYQV-TASLKAQVMISIGELNQTVDVFVN---  145 (427)
+T ss_dssp             EESCCCCCSS---------SSSSSCSSSCEEEEEEEEEECSCCSSSCEEEEC-CCEEEEEEEEECSSCEEEEEEECS---
+T ss_pred             eccccccccc---------ceeeeecCccceeehheeecCccchhhHHHHhh-hheeEEEEEEEECceeEEEEEEEc---
+
+
+Q ss_pred             CCCccccch------hcccccCCcceeehhhcCCCCcccccccccccCCCCc-cCCCCCCCCCCCcccccccCCCCcccc
+Q tospovirusSS    299 ESGYFQADI------LADFHNDGLTIGQLIAHGPDSHVYAGNIARLNNPSKM-FGHPQLSHQGDPIFSKKTLDTNDLSWD  371 (651)
+Q Consensus       299 ~~~~~~v~~------~~~~~~~~~~~p~~ia~~~~~~i~~G~indlg~~~~~-cG~vQ~~~~~~~~~~~~~~~~p~f~y~  371 (651)
+                        +.=-+.+      .+|+....--.+++|.++  +++|-=..-..|.-..+ +|++|....+.                
+T Consensus       146 --G~t~v~~~~~K~I~GPiStawsPFDKiVvy~--~eVYNyDfP~YGag~pG~FGDIQ~rt~~s----------------  205 (427)
+T 2yew_B          146 --GDSPARIQQSKFILGPISSAWSPFDKVIVYR--DEVYNEDYAPYGSGQAGRFGDIQSRTVNS----------------  205 (427)
+T ss_dssp             --SCEEEEETTEEEEECCCCCCCCCCSEEEECS--SCEEECCCCCTTCCCSSSTTCSEESSSSC----------------
+T ss_pred             --CccceecCceeEEecccccCCCCCceEEEec--ceeeccCCCCccCCCCccccccccccCCc----------------
+
+
+Q ss_pred             cccccceeEEEeeccccceee--ccccccccCccee--eecCcchhh-hhhhc------------------------ccc
+Q tospovirusSS    372 CSAIGKKTITIKSCGYDTYRF--KTGLNQISDIPVQ--FTDQNSFYM-EKIFS------------------------LGK  422 (651)
+Q Consensus       372 C~~~~~kdviv~~C~~n~~~s--~~~L~~~~~~~~~--~~~~~~l~~-~~~~~------------------------lG~  422 (651)
+                                     .+.|..  -+++.+.....++  ....+..+. .+++.                        +|.
+T Consensus       206 ---------------~DlyAnT~l~L~rP~~g~iHVPYTQapSGf~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~  270 (427)
+T 2yew_B          206 ---------------TDVYANTNLKLKRPASGNVHVPYTQTPSGFSYWKKEKGVPLNRNAPFGCIIKVNPVRAENCVYGN  270 (427)
+T ss_dssp             ---------------SSEECCCCEECCCCCSSCC-CCCEECCCHHHHHTTTCCEESTTCSSSCCEEETTTTEEESCCCCE
+T ss_pred             ---------------cceeeccccEEccCCCCceecccccCCcHHHHHhhcCCCccccCCCcceEEecCcchhhcccccc
+
+
+Q ss_pred             eEEEeeCchhhhhcCCCCcceeeeeecccce-eeeccccccccccccceeeeeeecccccccceeeeeeeccCcceeeEE
+Q tospovirusSS    423 LKIVLDLPSELFKTVPKKPILSSVSLSCKGC-FLCSQGLRCAASFISDITFSARLTMKQCSLSTYQIAVKKGANKYNLTM  501 (651)
+Q Consensus       423 i~~~i~l~di~~k~~s~~~~~~~~~~~C~GC-~~C~~G~~C~i~i~s~~~~~~~I~~~~C~~~~~~i~i~~g~n~~~ik~  501 (651)
+                      |-+-++++| -|-..+|.|.++.-.-...-| |+..=|-.-.|++.++....|.|-|..-.+....+.+..   +=.+++
+T Consensus       271 IPiS~DIPD-AFtRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y~a~k~GkCavHs~~atl~es~v~v~~---~g~~t~  346 (427)
+T 2yew_B          271 IPISMDIAD-AFTRIDESPSVSLKACEVQSCTYSSDFGGVASISYTSNKVGKCAISSNSATMKDSVQDVQE---SGALSL  346 (427)
+T ss_dssp             EEEEEECCC-CSSSSCSCCCCEEEEEEECCCCSCCSSCCEEEEEEECCCCBCCCCCCSSCCCSCCCCCBCS---CCSEEE
+T ss_pred             eeeeecCch-hhhccccCCccccceEEeeEEEeccCCCCeEEEEEecCCCcccceecCceEeeeeeEEEee---cceEEE
+
+
+Q ss_pred             EeecC-ccccceeeccCCCccccc--eeeeceeeecCCCcccCCCccchhhhhhccCCCceeeeehhccCchhhhhhhhc
+Q tospovirusSS    502 FCTSN-PEKQKMIIEPEGDKSYSV--EALVDSVAVLEPENIIDQNDQHAHEEQQYNSDTSVWSFWDYVKSPFNFIASHFG  578 (651)
+Q Consensus       502 ~c~~~-~~~~~~~~~iC~~~~~~~--~~p~~~v~~~d~~t~i~~~D~~C~~w~~~~~~eg~~~~~~~lk~~~~~~~~~~~  578 (651)
+                      +.+.. +.- ...+.+|+..-.-.  +.|+.-|.--.+-+- ..-|-.-.-|             .|+   ..+ +    
+T Consensus       347 hFSTas~~~-~F~v~iC~~~vtC~~C~PPkD~V~~p~~h~~-~~~~iS~TAw-------------sWl---~~l-G----  403 (427)
+T 2yew_B          347 FFATSSVEP-NFVVQVCNARITCGKCEPPKDIVPYAAKNDA-EFPSISTTAW-------------QWL---ATT-S----  403 (427)
+T ss_dssp             ECCTTSSCS-CBCCEETTEECCBCCCCCCSSCCCCCCCSSC-CSSCSSHHHH-------------HHH---GGG-H----
+T ss_pred             EEecCCCCC-CEEEEeccccceecCCcChhhhcCCcccCCc-cccccchhHH-------------HHH---HHh-c----
+
+
+Q ss_pred             cchhhHHHHHHHHHHHHHHHHHHHHHHhhcc
+Q tospovirusSS    579 SFFDTVRVVLLILFVFALAYLCSIVATMCRG  609 (651)
+Q Consensus       579 ~i~~~i~~il~ii~i~l~iy~~~p~~~k~k~  609 (651)
+                             .+.+++++.++++++.-++-..|.
+T Consensus       404 -------G~~~~i~ialivlv~v~cv~~~r~  427 (427)
+T 2yew_B          404 -------GPLTILVVAIIVVVVVSIVVCARH  427 (427)
+T ss_dssp             -------HHHHHHHHHHHHHHHHHHHHHHC-
+T ss_pred             -------CchHHHHHHHHHHHHHhheeeecC
+
+
+No 4  
+>3j0c_A E1 envelope glycoprotein; alphavirus, bioweapon; 4.80A {Venezuelan equine encephalitis virus}
+Probab=77.98  E-value=20  Score=33.36  Aligned_cols=402  Identities=13%  Similarity=0.099  Sum_probs=190.1
+
+Q ss_pred             e-eEEeeecccCCCeEEEecCCCccccceEEEEEEEEEEEEecccceeccccccccccc--cccccCC-CCcccccCccc
+Q tospovirusSS    148 R-YMIEESLLSGGGTVFSLNDKSSSTAQKFVVYIKKVRIQYDVSEQYTTAPIQSTHTDF--FSTCTGK-CSDCRKEQPIT  223 (651)
+Q Consensus       148 i-~~~~l~l~sgt~~~~~l~~~~~~~~~~l~I~Ik~~~~~~~~~~lY~Tg~~~~in~~~--~~~CTG~-Cp~~~~~~~~~  223 (651)
+                      + ....++-..|---=-.++.+ |-.--.|+|++.+.+|.=.-..+|.|-.+ ++.+.|  .|-|-.. |..    ...|
+T Consensus         1 YEH~~~~PN~vg~pyka~V~R~-GYaPl~L~i~v~~~~l~Ptl~leYiTC~y-kTvvpSP~vkCCG~~EC~~----~~~p   74 (442)
+T 3j0c_A            1 YEHATTMPSQAGISYNTIVNRA-GYAPLPISITPTKIKLIPTVNLEYVTCHY-KTGMDSPAIKCCGSQECTP----TYRP   74 (442)
+T ss_dssp             CEEEEEEESCTTCCEEEEECCT-TBCCEEEEEEEEEEEEEEEEEEEEEECCE-EEEECCCEEETTSCCCCCC----CCCT
+T ss_pred             CCcccccCCCCCCchhheecCC-CCCceeEEEEEEeeEEeecccceEEEEee-eecCCCCcceeccccccCC----cCCC
+Confidence            2 55666655666666666666 56668999999999999999999999999 988855  4555555 984    3345
+
+
+Q ss_pred             cccceee--cc-----CCccccceeEEeeecCCCccccccccc---ccCCceEEEeeeeccccceeeeeccccceeeEee
+Q tospovirusSS    224 GYQDFCI--TP-----TSYWGCEEVWCLAINEGATCGFCRNVY---DMDQSFRIYSVIKSTIKSEVCISGFVGAKCFTVS  293 (651)
+Q Consensus       224 ~w~~f~~--e~-----ts~WGCee~gC~aI~tGC~~g~c~dv~---k~~~~~~VyKv~~~~~~~~vCi~~~~~~~C~~i~  293 (651)
+                      +++  |.  .+     =||.-|     |--++-=.....|..-   =..+-=+-|+--+=..+++|.|+..+....-..-
+T Consensus        75 Dy~--CkVftGVYPfMWGGAyC-----FCDtENTQ~SeayV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~y  147 (442)
+T 3j0c_A           75 DEQ--CKVFTGVYPFMWGGAYC-----FCDTENTQVSKAYVMKSDDCLADHAEAYKAHTASVQAFLNITVGEHSIVTTVY  147 (442)
+T ss_dssp             TCE--EEEEESCCCEETTEESC-----SCSSSCEEEEEEEEEECGGGGTSCEEEEEEEEEEEEEEEEEEESSCEEEEEEE
+T ss_pred             Ccc--ceEecccccccccceee-----eecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEcceeEEEEEE
+Confidence            553  21  11     133333     1111111111222111   1123556777777778899999986644311222
+
+
+Q ss_pred             cccCCC--CCccccchhcccccCCcc-eeehhhcCCCCcccccccccccCCCCc-cCCCCCCCCCCCcccccccCCCCcc
+Q tospovirusSS    294 EEVPSE--SGYFQADILADFHNDGLT-IGQLIAHGPDSHVYAGNIARLNNPSKM-FGHPQLSHQGDPIFSKKTLDTNDLS  369 (651)
+Q Consensus       294 ~~~~~~--~~~~~v~~~~~~~~~~~~-~p~~ia~~~~~~i~~G~indlg~~~~~-cG~vQ~~~~~~~~~~~~~~~~p~f~  369 (651)
+                      ++.-+.  .+++++.+=-++ ..-+| ....+...  +.++--|-.+-|.-.+| +|++|=.+-...          |+-
+T Consensus       148 VNG~t~~~~~~~K~i~GPiS-tawsPFD~KiVvyk--~eVYNyDfP~YGAG~pG~FGDIQsrt~~s~----------Dly  214 (442)
+T 3j0c_A          148 VNGETPVNFNGVKITAGPLS-TAWTPFDRKIVQYA--GEIYNYDFPEYGAGQPGAFGDIQSRTVSSS----------DLY  214 (442)
+T ss_dssp             SCTTSCEEETTEEEEECCCS-CCCCSSCSEEEEET--TEEECCCCCCTTCCCTTSTTSEEESSSSCS----------CCE
+T ss_pred             EcCccceecCceeEEecccc-cCcCCCCceEEEEc--ceeeccCCCCccCCCCccccccccccCCcc----------cee
+Confidence            332122  122222111111 11122 12222234  47887788888999999 999998776432          331
+
+
+Q ss_pred             cccccccceeEEEe--eccccceee---------ccccccc--cCcceeeecCcchhh-hhhhcccceEEEeeCchhhhh
+Q tospovirusSS    370 WDCSAIGKKTITIK--SCGYDTYRF---------KTGLNQI--SDIPVQFTDQNSFYM-EKIFSLGKLKIVLDLPSELFK  435 (651)
+Q Consensus       370 y~C~~~~~kdviv~--~C~~n~~~s---------~~~L~~~--~~~~~~~~~~~~l~~-~~~~~lG~i~~~i~l~di~~k  435 (651)
+                      -+--.   .-=.|.  +=+-+-...         ...-|+.  .-+-=+.. -|-|.| .=.  -+.+-|.|++++..+.
+T Consensus       215 AnT~l---~L~rP~~g~iHVPYTQapSGf~~W~~~~g~~L~~tAPFGC~I~-~nPvRA~nCa--vG~IPiS~DIPDA~FT  288 (442)
+T 3j0c_A          215 ANTNL---VLQRPKAGAIHVPYTQAPSGFEQWKKDKAPSLKFTAPFGCEIY-TNPIRAENCA--VGSIPLAFDIPDALFT  288 (442)
+T ss_dssp             ECCCC---EECCCCTTCCCCCEECCCCHHHHHHHHCCSCHHHHCSTTCEEE-TTTTEEECCC--CCEEEEEEECCGGGCC
+T ss_pred             ecccc---EEccCCCCceecccccCCcHHHHHhhcCCCccccCCCcccEEe-cCcchhhccc--ccceeeeeecCchhee
+Confidence            11110   000000  001111110         1222222  11111011 233333 222  4678899999998877
+
+
+Q ss_pred             cCCCCcceeeeeecccce-eeeccccccccccccceeeeeeecccccccceeeee---eeccCcceeeEEEeecCccccc
+Q tospovirusSS    436 TVPKKPILSSVSLSCKGC-FLCSQGLRCAASFISDITFSARLTMKQCSLSTYQIA---VKKGANKYNLTMFCTSNPEKQK  511 (651)
+Q Consensus       436 ~~s~~~~~~~~~~~C~GC-~~C~~G~~C~i~i~s~~~~~~~I~~~~C~~~~~~i~---i~~g~n~~~ik~~c~~~~~~~~  511 (651)
+                      ++.+.+.-+.-.=.+.-| |+=.=|.-+.++-.+++...+-+-   -.+.+..+.   ++-.. +..+++||.+|..+ -
+T Consensus       289 Rv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y~a~k~GkCavH---s~S~~atl~es~v~v~~-~g~~t~hFSTas~~-~  363 (442)
+T 3j0c_A          289 RVSETPTLSAAECTLNECVYSSDFGGIATVKYSASKSGKCAVH---VPSGTATLKEAAVELTE-QGSATIHFSTANIH-P  363 (442)
+T ss_dssp             BGGGSCCEEEEEEEEEEEBCSSSCCEEEEEEEEESSCEEEEEE---CSSTTEEESCSEEEECS-SCEEEEEEEESCSS-C
+T ss_pred             eeccCCccccceEEeeEEEeccCCCceEEEEEecCCCccccee---cCCCceEeeeeeEEEee-cceEEEEEecCCCC-C
+Confidence            666666554444333333 344556677787777762222221   122222221   22222 22479999988877 4
+
+
+Q ss_pred             eeecc-CCCccccceeeeceeeecCCCcccCCCccchhhhhhccCCCceeeeehhccCchhhhhhhhccchhhHHHHHHH
+Q tospovirusSS    512 MIIEP-EGDKSYSVEALVDSVAVLEPENIIDQNDQHAHEEQQYNSDTSVWSFWDYVKSPFNFIASHFGSFFDTVRVVLLI  590 (651)
+Q Consensus       512 ~~~~i-C~~~~~~~~~p~~~v~~~d~~t~i~~~D~~C~~w~~~~~~eg~~~~~~~lk~~~~~~~~~~~~i~~~i~~il~i  590 (651)
+                      +-.++ |+.+   +       +-.|.-  ..|.|.-.-..++-|.+..-    |.-+.-++++..-+|    .+-.  +|
+T Consensus       364 ~F~v~iC~~~---v-------tC~~~C--~PPkdHIV~~p~~h~~~~~~----~iS~Ta~~W~~~l~G----G~~~--~~  421 (442)
+T 3j0c_A          364 EFRLQICTSY---V-------TCKGDC--HPPKDHIVTHPQYHAQTFTA----AVSKTAWTWLTSLLG----GSAV--II  421 (442)
+T ss_dssp             EEEEEETTEE---E-------EEECCC--BCCSCCEESSCCCCCCCCSC----CCCHHHHHHHHTTSS----HHHH--HH
+T ss_pred             CEEEEeccCc---c-------eecCcc--cCchhhccCCCcccCccccc----ccchhHHHHHHHHhC----CchH--HH
+Confidence            43333 4321   1       233321  23333221111112222110    111123456665555    2222  22
+
+
+Q ss_pred             HHHHHHHHHHHHHHHhhc
+Q tospovirusSS    591 LFVFALAYLCSIVATMCR  608 (651)
+Q Consensus       591 i~i~l~iy~~~p~~~k~k  608 (651)
+                      +...++.++.+.|..-+|
+T Consensus       422 ~i~~~v~~~v~~v~~~r~  439 (442)
+T 3j0c_A          422 IIGLVLATIVAMYVLTNQ  439 (442)
+T ss_dssp             HHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhhhhhh
+Confidence            222222333333333332
+
+
+No 5  
+>1i9w_A Fusion protein E1; envelope glycoprotein, membrane fusion, viral protein; 3.00A {Semliki forest virus} SCOP: b.1.18.4 f.10.1.1 PDB: 2ala_A 1rer_A
+Probab=69.19  E-value=30  Score=31.52  Aligned_cols=326  Identities=13%  Similarity=0.105  Sum_probs=168.8
+
+Q ss_pred             EecCCCccccceEEEEEEEEEEEEecccceeccccccccccc--cccccCC-CCcccccCccccccceeeccCCc--ccc
+Q tospovirusSS    164 SLNDKSSSTAQKFVVYIKKVRIQYDVSEQYTTAPIQSTHTDF--FSTCTGK-CSDCRKEQPITGYQDFCITPTSY--WGC  238 (651)
+Q Consensus       164 ~l~~~~~~~~~~l~I~Ik~~~~~~~~~~lY~Tg~~~~in~~~--~~~CTG~-Cp~~~~~~~~~~w~~f~~e~ts~--WGC  238 (651)
+                      .++.+ |-.--.|+|.+.+.+|.=.-..+|+|-.+ ++.+.|  .|-|-.. |..    ...|+++  |.-=.|-  .-=
+T Consensus        18 ~V~R~-GYaPl~L~i~v~~~~l~Ptl~leYiTC~y-kTvvpSP~vkCCG~~EC~~----~~~pDy~--CkVftGVYPfMW   89 (390)
+T 1i9w_A           18 HIERP-GYSPLTLQMQVVETSLEPTLNLEYITCEY-KTVVPSPYVKCCGASECST----KEKPDYQ--CKVYTGVYPFMW   89 (390)
+T ss_pred             eecCC-CCCceeEEEEEEeeEEeecccceEEEEee-eecCCCCcceeccccccCC----cCCCCcc--ceEecccccccc
+Confidence            12233 34457999999999999999999999999 988865  4445444 884    3355555  2211111  111
+
+
+Q ss_pred             ceeEEeeecCCCcccccccccccCCceEEEeeee----------ccccceeeeeccccceeeEeecccC--CCCCccccc
+Q tospovirusSS    239 EEVWCLAINEGATCGFCRNVYDMDQSFRIYSVIK----------STIKSEVCISGFVGAKCFTVSEEVP--SESGYFQAD  306 (651)
+Q Consensus       239 ee~gC~aI~tGC~~g~c~dv~k~~~~~~VyKv~~----------~~~~~~vCi~~~~~~~C~~i~~~~~--~~~~~~~v~  306 (651)
+                      |+.+||--++-=.....|..-..+       |..          =..+++|.|+..+....-..-++.-  ...+++++.
+T Consensus        90 GGAyCFCDsENTQ~SeayV~~s~~-------C~~dhA~AykaHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K~i  162 (390)
+T 1i9w_A           90 GGAYCFCDSENTQLSEAYVDRSDV-------CRHDHASAYKAHTASLKAKVRVMYGNVNQTVDVYVNGDHAVTIGGTQFI  162 (390)
+T ss_pred             cceeeeecCcchhhhhhheecCcc-------chhHHHHHHHhhhheeEEEEEEEEcceeEEEEEEEcCccceecCceeEE
+Confidence            235798877766666666543332       542          2345677777755443122333332  455665553
+
+
+Q ss_pred             hhcccccCCcc-eeehhhcCCCCcccccccccccCCCCc-cCCCCCCCCCCCcccccccCCCCcccccccccceeEEEe-
+Q tospovirusSS    307 ILADFHNDGLT-IGQLIAHGPDSHVYAGNIARLNNPSKM-FGHPQLSHQGDPIFSKKTLDTNDLSWDCSAIGKKTITIK-  383 (651)
+Q Consensus       307 ~~~~~~~~~~~-~p~~ia~~~~~~i~~G~indlg~~~~~-cG~vQ~~~~~~~~~~~~~~~~p~f~y~C~~~~~kdviv~-  383 (651)
+                      +=-++ ..-+| ....+...  +.++--|-.+-|.-.+| +|+||-.+-...          |+--+--   +.-=.|. 
+T Consensus       163 ~GPiS-tawsPFD~KiVvyk--~eVYNyDfP~YGag~pG~FGDIQart~~s~----------DlyAnT~---l~L~rP~~  226 (390)
+T 1i9w_A          163 FGPLS-SAWTPFDNKIVVYK--DEVFNQDFPPYGSGQPGRFGDIQSRTVESN----------DLYANTA---LKLARPSP  226 (390)
+T ss_pred             ecccc-cCcCCCCceEEEEc--ceeeccCCCcccCCCCccccccccccCCcc----------ceeeccc---cEEccCCC
+Confidence            32222 22222 12222234  47777777888999999 999998777432          2211100   1100111 
+
+
+Q ss_pred             -eccccc-eee-------ccc---cccccCcceeeecCcchhh-hhhhcccceEEEeeCchhhhhcCCC-----Ccceee
+Q tospovirusSS    384 -SCGYDT-YRF-------KTG---LNQISDIPVQFTDQNSFYM-EKIFSLGKLKIVLDLPSELFKTVPK-----KPILSS  445 (651)
+Q Consensus       384 -~C~~n~-~~s-------~~~---L~~~~~~~~~~~~~~~l~~-~~~~~lG~i~~~i~l~di~~k~~s~-----~~~~~~  445 (651)
+                       +=+-+- ..+       +++   |....-+-= ...-|-|.| .=.  -+.+-|.|++++..+.++.+     ...|++
+T Consensus       227 g~iHVPYTQapSGf~~W~~~~g~~L~~tAPFGC-~I~~nPvRA~nCa--vG~IPiS~DIPDA~FTRv~daP~vs~~~Ctv  303 (390)
+T 1i9w_A          227 GMVHVPYTQTPSGFKYWLKEKGTALNTKAPFGC-QIKTNPVRAMNCA--VGNIPVSMNLPDSAFTRIVEAPTIIDLTCTV  303 (390)
+T ss_pred             CceecccccCCcHHHHHhhcCCCccccCCCcce-EEecCcchhhccc--ccceeeeeeCCchheeeeccCCccccceEEe
+Confidence             001010 011       222   222222222 112566777 434  56899999999977655444     456666
+
+
+Q ss_pred             eeecccce-eeeccccccccccccce--eeeeeecccccccceeeee-eeccCcceeeEEEeecCccccceeecc-CCCc
+Q tospovirusSS    446 VSLSCKGC-FLCSQGLRCAASFISDI--TFSARLTMKQCSLSTYQIA-VKKGANKYNLTMFCTSNPEKQKMIIEP-EGDK  520 (651)
+Q Consensus       446 ~~~~C~GC-~~C~~G~~C~i~i~s~~--~~~~~I~~~~C~~~~~~i~-i~~g~n~~~ik~~c~~~~~~~~~~~~i-C~~~  520 (651)
+                      ..     | |+=.=|.-+.++-.+++  .=..+.-   -+.-+.+-. +.-. ....+++||.+|..+ -+-.++ |+.+
+T Consensus       304 ~~-----Ct~SsdfGG~a~~~Y~a~k~GkCavHs~---S~~atl~es~v~v~-~~g~~t~hFSTas~~-~~F~v~iC~~~  373 (390)
+T 1i9w_A          304 AT-----CTHSSDFGGVLTLTYKTNKNGDCSVHSH---SNVATLQEATAKVK-TAGKVTLHFSTASAS-PSFVVSLCSAR  373 (390)
+T ss_pred             eE-----EEeccCCCCeEEEEEecCCCccceeecC---CCceEeeeeeEEEe-ccceEEEEEecCCCC-CCEEEEeccCc
+Confidence            54     3 45566777888877776  1111111   111112111 1111 122489999999988 444443 6665
+
+
+Q ss_pred             cccceeeeceeeecCCCcccCCCcc
+Q tospovirusSS    521 SYSVEALVDSVAVLEPENIIDQNDQ  545 (651)
+Q Consensus       521 ~~~~~~p~~~v~~~d~~t~i~~~D~  545 (651)
+                      .+          -.|.-  ..|.|.
+T Consensus       374 vt----------C~~~C--~PPkdH  386 (390)
+T 1i9w_A          374 AT----------CSASC--EPPKDH  386 (390)
+T ss_pred             ce----------ecCcc--cCchhh
+Confidence            32          22221  222221
+
+
+No 6  
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=56.00  E-value=16  Score=24.26  Aligned_cols=34  Identities=9%  Similarity=0.127  Sum_probs=7.8
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHHHHhhcceeccccceeeeeecCCC
+Q tospovirusSS    583 TVRVVLLILFVFALAYLCSIVATMCRGYVRNKSYKTKYIEDTND  626 (651)
+Q Consensus       583 ~i~~il~ii~i~l~iy~~~p~~~k~k~~~k~e~~y~~~~~~~~~  626 (651)
+                      .+-+++-+|.++++.++.     +--|+.+.|..     ++.+.
+T Consensus        13 i~s~i~GlllL~iii~iL-----~K~GFFkRk~~-----~~~~~   46 (54)
+T 2l8s_A           13 LLSAFAGLLLLMLLILAL-----WKIGFFKRPLK-----KKMEK   46 (54)
+T ss_dssp             HHHHHHHHHHHHHHHHHH-----HHHHHTTSCCS-----CCCCC
+T ss_pred             HHHHHHHHHHHHHHHHHH-----HHcCCCCCCCh-----hhhcc
+Confidence            111222222222222222     22233222221     22221
+
+
+No 7  
+>5aji_A MSCS, small-conductance mechanosensitive channel; transport protein; HET: R1A D10; 2.99A {Escherichia coli} PDB: 2oau_A 4hwa_A 4age_A 4agf_A 2vv5_A
+Probab=51.45  E-value=46  Score=28.64  Aligned_cols=39  Identities=10%  Similarity=0.186  Sum_probs=8.7
+
+Q ss_pred             hhccCchh-hhhhhhccchhhHHHHHHHHHHHHHHHHHHHHHHh
+Q tospovirusSS    564 DYVKSPFN-FIASHFGSFFDTVRVVLLILFVFALAYLCSIVATM  606 (651)
+Q Consensus       564 ~~lk~~~~-~~~~~~~~i~~~i~~il~ii~i~l~iy~~~p~~~k  606 (651)
+                      ++...--+ ++...    ...+..+++++..+.++.+.+.+...
+T Consensus        15 ~~~~~~~~~~~~~~----~~i~~~~iii~~~~~~~~~~~~~~~~   54 (286)
+T 5aji_A           15 SWLVANQALLLSYA----VNIVAALAIIIVGLIIARMISNAVNR   54 (286)
+T ss_dssp             ---CCCCHHHHHHH----HHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHhhhhHHHHHH----HHHHHHHHHHHHHHHHHHHHHHHHHH
+Confidence            11111111 11111    12222333333333333332221111
+
+
+No 8  
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=49.72  E-value=20  Score=23.57  Aligned_cols=39  Identities=15%  Similarity=0.136  Sum_probs=9.2
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHhhcceeccccceeeeeecCC
+Q tospovirusSS    584 VRVVLLILFVFALAYLCSIVATMCRGYVRNKSYKTKYIEDTN  625 (651)
+Q Consensus       584 i~~il~ii~i~l~iy~~~p~~~k~k~~~k~e~~y~~~~~~~~  625 (651)
+                      +-++..++-++.|+.+  +..-..-|+.|.|.. .+--+..+
+T Consensus        14 iii~s~i~GlllL~li--~~iL~K~GFFkRk~~-~~~~~~~~   52 (54)
+T 2knc_A           14 WVLVGVLGGLLLLTIL--VLAMWKVGFFKRNRP-PLEEDDEE   52 (54)
+T ss_dssp             HHHHHHHHHHHHHHHH--HHHHHHHHHTTTTCC-SCCCCSSS
+T ss_pred             HHHHHHHHHHHHHHHH--HHHHHHcCCcccCCc-cccccccc
+Confidence            1111111112222222  112223344333322 12112111
+
+
+No 9  
+>2k9j_B Integrin beta-3; transmembrane complex, cell adhesion, cleavage on basic residues, disease mutation, glycoprotein, pyrrolidone carboxylic acid; NMR {Homo sapiens} PDB: 2rmz_A 2rn0_A 2l91_A
+Probab=39.35  E-value=20  Score=21.06  Aligned_cols=28  Identities=18%  Similarity=0.095  Sum_probs=5.2
+
+Q ss_pred             hhhHHHHHHHHHHHHHHHHHHHHHHhhc
+Q tospovirusSS    581 FDTVRVVLLILFVFALAYLCSIVATMCR  608 (651)
+Q Consensus       581 ~~~i~~il~ii~i~l~iy~~~p~~~k~k  608 (651)
+                      ..+.-++..++..+++.-+..++..+++
+T Consensus         7 ~~~~~i~~~vvg~~~~~~li~~~~~~~~   34 (43)
+T 2k9j_B            7 PDILVVLLSVMGAILLIGLAALLIWKLL   34 (43)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CChhhHhHHHHHHHHHHHHHHHHHHHHH
+Confidence            1111122222221111111111111111
+
+
+No 10 
+>4hw9_A Mechanosensitive channel MSCS; membrane, membrane protein; 4.14A {Helicobacter pylori}
+Probab=38.14  E-value=77  Score=27.39  Aligned_cols=97  Identities=12%  Similarity=0.126  Sum_probs=21.1
+
+Q ss_pred             CCCccchhhhhhccCCCceeee--ehhccCchh------------hh--------------------hhhhccchhhHHH
+Q tospovirusSS    541 DQNDQHAHEEQQYNSDTSVWSF--WDYVKSPFN------------FI--------------------ASHFGSFFDTVRV  586 (651)
+Q Consensus       541 ~~~D~~C~~w~~~~~~eg~~~~--~~~lk~~~~------------~~--------------------~~~~~~i~~~i~~  586 (651)
+                      +....|.|.....-. ...|+-  |+.++.++.            .+                    ..... ..|..+.
+T Consensus         2 ~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~i~i~~i~~~l~~~~~~~~~~~~~-~~~~~~~   79 (309)
+T 4hw9_A            2 GSSHHHHHHSSGLVP-RGSHTLINMDEIKTLLVDFFPQAKHFGIILIKAVIVFCIGFYFSFFLRNKTMKLLS-KKDEILA   79 (309)
+T ss_dssp             -----------------------------------------CHHHHHHHHHHHHHHHHHHHHHHTTHHHHTC-SSCHHHH
+T ss_pred             CCccccccccCCccc-cchhhhccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhh-hcchHHH
+Confidence            111122222111100 001111  222222221            00                    11112 2222222
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHH-Hhhccee---------------------------------ccccce-----------eeee
+Q tospovirusSS    587 VLLILFVFALAYLCSIVA-TMCRGYV---------------------------------RNKSYK-----------TKYI  621 (651)
+Q Consensus       587 il~ii~i~l~iy~~~p~~-~k~k~~~---------------------------------k~e~~y-----------~~~~  621 (651)
+                      -++..++..+.|+..++. -.--|.-                                 -++.|+           -+-.
+T Consensus        80 ~~~~~i~~~~i~~i~~~~~l~~~g~~~~~l~~~~g~~~~~i~~a~~~~~~n~~~gi~l~~~~p~~vGD~I~i~~~~G~V~  159 (309)
+T 4hw9_A           80 NFVAQVTFILILIITTIIALSTLGVQTTSIITVLGTVGIAVALALKDYLSSIAGGIILIILHPFKKGDIIEISGLEGKVE  159 (309)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHTTCCTHHHHHHHHHHHHHHHHHTHHHHHHHHHHHHHHHSCSCCTTCEEEETTEEEEEE
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHHHHHHhheEEEEEecCcccCcEEEECCEEEEEE
+Confidence            223222222333322222 1222210                                 022332           3333
+
+
+Q ss_pred             ecCCCeeeEEccCCCccc
+Q tospovirusSS    622 EDTNDYSLVSTSSGKDTI  639 (651)
+Q Consensus       622 ~~~~~~~~~~~l~~~~~~  639 (651)
+                      +=+--+..+-+..|+..+
+T Consensus       160 ~I~l~~T~l~~~dg~~v~  177 (309)
+T 4hw9_A          160 ALNFFNTSLRLHDGRLAV  177 (309)
+T ss_dssp             EECSSEEEEEESSSCEEE
+T ss_pred             EEEeEEEEEEecCCCEEE
+Confidence            334445555666665311
+
+
+No 11 
+>4hw9_A Mechanosensitive channel MSCS; membrane, membrane protein; 4.14A {Helicobacter pylori}
+Probab=31.27  E-value=98  Score=26.57  Aligned_cols=56  Identities=13%  Similarity=0.107  Sum_probs=12.2
+
+Q ss_pred             CceeeeehhccCchhhhhhhhccchhh----HHHHHHHHHHHHHHHHHHHHHH-hhcceecc
+Q tospovirusSS    557 TSVWSFWDYVKSPFNFIASHFGSFFDT----VRVVLLILFVFALAYLCSIVAT-MCRGYVRN  613 (651)
+Q Consensus       557 eg~~~~~~~lk~~~~~~~~~~~~i~~~----i~~il~ii~i~l~iy~~~p~~~-k~k~~~k~  613 (651)
+                      .-|=.=|. =-.-++.+..-+..|+..    ...++..+++++++|+.+-... ..+...+.
+T Consensus        13 ~~~~~~~~-~~~~~~~~~~~l~~~~~~~~~~~~~~~~~i~i~~i~~~l~~~~~~~~~~~~~~   73 (309)
+T 4hw9_A           13 GLVPRGSH-TLINMDEIKTLLVDFFPQAKHFGIILIKAVIVFCIGFYFSFFLRNKTMKLLSK   73 (309)
+T ss_dssp             ------------------------------CHHHHHHHHHHHHHHHHHHHHHHTTHHHHTCS
+T ss_pred             Cccccchh-hhccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhh
+Confidence            11111111 011244556666666665    3444555555666655544332 11111111
+
+
+No 12 
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=27.75  E-value=52  Score=22.22  Aligned_cols=37  Identities=14%  Similarity=0.132  Sum_probs=7.1
+
+Q ss_pred             CchhhhhhhhccchhhHHHHHHHHHHHHHHHHHHHHHHhhcce
+Q tospovirusSS    568 SPFNFIASHFGSFFDTVRVVLLILFVFALAYLCSIVATMCRGY  610 (651)
+Q Consensus       568 ~~~~~~~~~~~~i~~~i~~il~ii~i~l~iy~~~p~~~k~k~~  610 (651)
+                      .+..-|+.      -.+-.++++.++.+++|.+-+--.-=+.|
+T Consensus         8 ~~~~~I~~------~vi~~iv~l~ll~~~~~~~~~~~r~~~e~   44 (79)
+T 2knc_B            8 PDILVVLL------SVMGAILLIGLAALLIWKLLITIHDRKEF   44 (79)
+T ss_dssp             SCSHHHHH------HHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             Cchheehh------hHHHHHHHHHHHHHHHHHHHHHhhcchhH
+Confidence            11111210      01112222222222223222211100111
+
+
+No 13 
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=23.69  E-value=59  Score=21.09  Aligned_cols=41  Identities=22%  Similarity=0.322  Sum_probs=15.9
+
+Q ss_pred             hccCchhhh-hhhhccchhhHHHHHHHHHHHHHHHHHHHHHHhhcceecccc
+Q tospovirusSS    565 YVKSPFNFI-ASHFGSFFDTVRVVLLILFVFALAYLCSIVATMCRGYVRNKS  615 (651)
+Q Consensus       565 ~lk~~~~~~-~~~~~~i~~~i~~il~ii~i~l~iy~~~p~~~k~k~~~k~e~  615 (651)
+                      ....|.-.| .+      -.+-+++|++.+++| |=|..   .=|.|-+...
+T Consensus         4 ~~~~~~wiIi~s------~i~GlllL~iii~iL-~K~GF---FkRk~~~~~~   45 (54)
+T 2l8s_A            4 PGRVPLWVILLS------AFAGLLLLMLLILAL-WKIGF---FKRPLKKKME   45 (54)
+T ss_dssp             CCCCCTHHHHHH------HHHHHHHHHHHHHHH-HHHHH---TTSCCSCCCC
+T ss_pred             cccCcchhhHHH------HHHHHHHHHHHHHHH-HHcCC---CCCCChhhhc
+Confidence            112232222 22      134455555555555 77764   2233322111
+
+
+No 14 
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=21.02  E-value=65  Score=20.67  Aligned_cols=43  Identities=16%  Similarity=0.070  Sum_probs=18.2
+
+Q ss_pred             hhccCchhhhhhhhccchhhHHHHHHHHHHHHHHHHHHHHHHhhcceecccc
+Q tospovirusSS    564 DYVKSPFNFIASHFGSFFDTVRVVLLILFVFALAYLCSIVATMCRGYVRNKS  615 (651)
+Q Consensus       564 ~~lk~~~~~~~~~~~~i~~~i~~il~ii~i~l~iy~~~p~~~k~k~~~k~e~  615 (651)
+                      +.-..|.-.|         .+-+++-++.+.++.++.-=+.-.=|.+-+...
+T Consensus         6 ~~~~~~~wii---------i~s~i~GlllL~li~~iL~K~GFFkRk~~~~~~   48 (54)
+T 2knc_A            6 EERAIPIWWV---------LVGVLGGLLLLTILVLAMWKVGFFKRNRPPLEE   48 (54)
+T ss_dssp             TTTTCCHHHH---------HHHHHHHHHHHHHHHHHHHHHHHTTTTCCSCCC
+T ss_pred             cCCcCchhHH---------HHHHHHHHHHHHHHHHHHHHcCCcccCCccccc
+Confidence            1122232222         233444444444445555555666666643211
+
+
+No 15 
+>4xtr_G PEP12P; membrane protein targeting complex, hydrolase-transport PROT complex; HET: ADP ATP; 2.05A {Saccharomyces cerevisiae}
+Probab=18.84  E-value=62  Score=18.93  Aligned_cols=22  Identities=32%  Similarity=0.475  Sum_probs=13.0
+
+Q ss_pred             hhhHHHHHHHHHHHHHHHHHHH
+Q tospovirusSS    581 FDTVRVVLLILFVFALAYLCSI  602 (651)
+Q Consensus       581 ~~~i~~il~ii~i~l~iy~~~p  602 (651)
+                      -...||-|||..+..|.|+.-|
+T Consensus        13 tsrwrvyllivllvml~fifli   34 (37)
+T 4xtr_G           13 TSRWRVYLLIVLLVMLLFIFLI   34 (37)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHH
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHH
+Confidence            1124888887776666665544
+
+
+No 16 
+>2m59_A Vascular endothelial growth factor receptor 2; vegfr2, receptor tyrosine kinase, transferase; NMR {Homo sapiens} PDB: 2met_A 2meu_A
+Probab=18.78  E-value=65  Score=19.46  Aligned_cols=27  Identities=7%  Similarity=0.291  Sum_probs=6.7
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHhhc
+Q tospovirusSS    582 DTVRVVLLILFVFALAYLCSIVATMCR  608 (651)
+Q Consensus       582 ~~i~~il~ii~i~l~iy~~~p~~~k~k  608 (651)
+                      -+.-++.+.--..+.++++....-.-|
+T Consensus         3 ~~le~iilv~t~via~~fw~LL~i~iR   29 (37)
+T 2m59_A            3 TNLEIIILVGTAVIAMFFWLLLVIILR   29 (37)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             cceeeHHHHHHHHHHHHHHHHHHHHHH
+Confidence            122222222222222222222221111
+
+
+No 17 
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=18.55  E-value=80  Score=21.05  Aligned_cols=31  Identities=10%  Similarity=0.052  Sum_probs=7.3
+
+Q ss_pred             ccchhhHHHHHHH-HHHHHHHHHHHHHHHhhc
+Q tospovirusSS    578 GSFFDTVRVVLLI-LFVFALAYLCSIVATMCR  608 (651)
+Q Consensus       578 ~~i~~~i~~il~i-i~i~l~iy~~~p~~~k~k  608 (651)
+                      ++...+.-+++.+ ..+++++.+..++.-+++
+T Consensus         5 ~~~~~~~~I~~~vi~~iv~l~ll~~~~~~~~~   36 (79)
+T 2knc_B            5 SKGPDILVVLLSVMGAILLIGLAALLIWKLLI   36 (79)
+T ss_dssp             CSSSCSHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCchheehhhHHHHHHHHHHHHHHHHHHHH
+Confidence            1111222222222 222222222222222221
+
+
+No 18 
+>2mof_A Lysosome-associated membrane glycoprotein 2; membrane protein; NMR {Homo sapiens} PDB: 2mom_A
+Probab=18.06  E-value=64  Score=19.43  Aligned_cols=29  Identities=21%  Similarity=0.327  Sum_probs=8.9
+
+Q ss_pred             hHHHHHHHHHHHHH-HHHHHHHHHhhcceecccccee
+Q tospovirusSS    583 TVRVVLLILFVFAL-AYLCSIVATMCRGYVRNKSYKT  618 (651)
+Q Consensus       583 ~i~~il~ii~i~l~-iy~~~p~~~k~k~~~k~e~~y~  618 (651)
+                      .|-+++..+++.++ +|++-       -.-|++.|..
+T Consensus        12 ~VG~~v~~l~i~~~~~~~~~-------rrr~~~~y~~   41 (42)
+T 2mof_A           12 AVGAALAGVLILVLLAYFIG-------LKHHHAGYEQ   41 (42)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHH-------HCCCCTTSCC
+T ss_pred             EEehHHHHHHHHHHHHHHhe-------eeeccCcccc
+Confidence            23344444433333 22221       1112223321
+
+
+No 19 
+>3n40_F E1 envelope glycoprotein; viral protein, immature heterodimer, alphavirus, receptor BI membrane fusion; HET: NAG NDG; 2.17A {Chikungunya virus} PDB: 3j2w_A 2xfb_A
+Probab=17.39  E-value=2.3e+02  Score=25.11  Aligned_cols=346  Identities=12%  Similarity=0.075  Sum_probs=176.5
+
+Q ss_pred             ee-eEEeeecccCCCeEEEecCCCccccceEEEEEEEEEEEEecccceeccccccccccc--cccccCC-CCcccccCcc
+Q tospovirusSS    147 YR-YMIEESLLSGGGTVFSLNDKSSSTAQKFVVYIKKVRIQYDVSEQYTTAPIQSTHTDF--FSTCTGK-CSDCRKEQPI  222 (651)
+Q Consensus       147 ~i-~~~~l~l~sgt~~~~~l~~~~~~~~~~l~I~Ik~~~~~~~~~~lY~Tg~~~~in~~~--~~~CTG~-Cp~~~~~~~~  222 (651)
+                      -+ ....++-..|---=-.++.+ |-.--.|+|++.+.+|.=.-..+|+|-.+ ++.+.|  .|-|-.. |..    ...
+T Consensus         2 AyEH~~~~PN~vg~pyka~V~R~-GYaPl~L~i~v~~~~l~Ptl~leYiTC~y-kTvvpSP~vkCCG~~EC~~----~~~   75 (393)
+T 3n40_F            2 GYEHVTVIPNTVGVPYKTLVNRP-GYSPMVLEMELLSVTLEPTLSLDYITCEY-KTVIPSPYVKCCGTAECKD----KNL   75 (393)
+T ss_dssp             CEEEEEEEESCTTCCEEEEECCT-TBCCEEEEEEEEEEEEEEEEEEEEEECCE-EEECCCCEEETTSCCCCCC----CCS
+T ss_pred             ccccceecCCCCCCchhheecCC-CCCceeEEEEEEEeEEeecccceEEEEee-eecCCCCcceeccccccCC----cCC
+Confidence            14 66677666777666666666 56668999999999999999999999999 988855  4555555 984    334
+
+
+Q ss_pred             ccccceee--cc-----CCccccceeEEeeecCCCccccccccc---ccCCceEEEeeeeccccceeeeeccccceeeEe
+Q tospovirusSS    223 TGYQDFCI--TP-----TSYWGCEEVWCLAINEGATCGFCRNVY---DMDQSFRIYSVIKSTIKSEVCISGFVGAKCFTV  292 (651)
+Q Consensus       223 ~~w~~f~~--e~-----ts~WGCee~gC~aI~tGC~~g~c~dv~---k~~~~~~VyKv~~~~~~~~vCi~~~~~~~C~~i  292 (651)
+                      |+++  |.  .+     =||.-|     |--++-=.....|..-   =..+-=+-|+--+=..+++|.|+..+..  .++
+T Consensus        76 pDy~--CkVftGVYPfMWGGAyC-----FCDsENTQ~SeayV~~s~~C~~dhA~AykaHTas~~a~l~it~G~~~--~~v  146 (393)
+T 3n40_F           76 PDYS--CKVFTGVYPFMWGGAYC-----FCDAENTQLSEAHVEKSESCKTEFASAYRAHTASASAKLRVLYQGNN--ITV  146 (393)
+T ss_dssp             TTCE--EEEEESCCCEETTEESC-----SCSSSCEEEEEEEEEECGGGGTSCEEEEEEEEEEEEEEEEEEETTEE--EEE
+T ss_pred             CCcc--ceEecccccccccceee-----eecCcchhhhhhheecCccchhHHHHHHHhhhheeEEEEEEEEccee--EEE
+Confidence            5553  21  11     133333     1101111111122110   0123456777777778889999875533  233
+
+
+Q ss_pred             ecccC-CC---CCccccchhcccccCCcc-eeehhhcCCCCcccccccccccCCCCc-cCCCCCCCCCCCcccccccCCC
+Q tospovirusSS    293 SEEVP-SE---SGYFQADILADFHNDGLT-IGQLIAHGPDSHVYAGNIARLNNPSKM-FGHPQLSHQGDPIFSKKTLDTN  366 (651)
+Q Consensus       293 ~~~~~-~~---~~~~~v~~~~~~~~~~~~-~p~~ia~~~~~~i~~G~indlg~~~~~-cG~vQ~~~~~~~~~~~~~~~~p  366 (651)
+                      +.-+. ..   .+++++.+=-++ ..-+| ....+...  +.++--|-.+-|.-.+| +|+||=.+-...          
+T Consensus       147 ~~yVNG~t~~~~~~~K~i~GPiS-tawsPFD~KiVvyk--~eVYNyDfP~YGag~pG~FGDIQsrt~~s~----------  213 (393)
+T 3n40_F          147 TAYANGDHAVTVKDAKFIVGPMS-SAWTPFDNKIVVYK--GDVYNMDYPPFGAGRPGQFGDIQSRTPESK----------  213 (393)
+T ss_dssp             EEETTSCCEEEETTEEEEECCCS-CCCCSCCSEEEEET--TEEEECCCCCTTCCCTTSTTSEEBSSTTCS----------
+T ss_pred             EEEEcCccceecCceeEEecccc-cCcCCCCceEEEEc--ceeeccCCCcccCCCCccccccccccCCcc----------
+Confidence            32221 11   122222111111 11122 12222234  47887788888999999 999998777433          
+
+
+Q ss_pred             CcccccccccceeEEEe--eccccceee---------ccccccc--cCcceeeecCcchhh-hhhhcccceEEEeeCchh
+Q tospovirusSS    367 DLSWDCSAIGKKTITIK--SCGYDTYRF---------KTGLNQI--SDIPVQFTDQNSFYM-EKIFSLGKLKIVLDLPSE  432 (651)
+Q Consensus       367 ~f~y~C~~~~~kdviv~--~C~~n~~~s---------~~~L~~~--~~~~~~~~~~~~l~~-~~~~~lG~i~~~i~l~di  432 (651)
+                      |+--+--.   .-=.|.  +=+-+-...         ...-|+.  .-+-=+.. -|-|.| .=.  -+.+-|.|++++.
+T Consensus       214 DlyAnT~l---~L~rP~~g~iHVPYTQapSGf~~W~~~~g~~L~~tAPFGC~I~-~nPvRA~nCa--vG~IPiS~DIPDA  287 (393)
+T 3n40_F          214 DVYANTQL---VLQRPAAGTVHVPYSQAPSGFKYWLKERGASLQHTAPFGCQIA-TNPVRAVNCA--VGNMPISIDIPEA  287 (393)
+T ss_dssp             SCEECCCC---EECCCCTTCCCCCEECCCCHHHHHHHHSCSCHHHHCGGGCEEE-TTTTEEECCC--CSEEEEEEEECGG
+T ss_pred             ceeecccc---EEccCCCCceecccccCCcHHHHHhhcCCCccccCCCcceEEe-cCcchhhccc--ccceeeeeeCCch
+Confidence            23111100   000000  000000000         0111111  10100000 122222 112  4578899999999
+
+
+Q ss_pred             hhhcCCCCcceeeeeecccce-eeeccccccccccccce--eeeeeecccccccceeeee---eeccCcceeeEEEeecC
+Q tospovirusSS    433 LFKTVPKKPILSSVSLSCKGC-FLCSQGLRCAASFISDI--TFSARLTMKQCSLSTYQIA---VKKGANKYNLTMFCTSN  506 (651)
+Q Consensus       433 ~~k~~s~~~~~~~~~~~C~GC-~~C~~G~~C~i~i~s~~--~~~~~I~~~~C~~~~~~i~---i~~g~n~~~ik~~c~~~  506 (651)
+                      .+.++.+.+.-+.-.=.+.-| |+=.=|.-+.++-.+++  .=..+.-     +.+..+.   +.- .....+++||.+|
+T Consensus       288 ~FTRv~daP~vs~~~Ctv~~Ct~SsdfGG~a~~~Y~a~k~GkCavHs~-----S~~atl~es~v~v-~~~g~~t~hFSTa  361 (393)
+T 3n40_F          288 AFTRVVDAPSLTDMSCEVPACTHSSDFGGVAIIKYAASKKGKCAVHSM-----TNAVTIREAEIEV-EGNSQLQISFSTA  361 (393)
+T ss_dssp             GCCBTTTSCCEEEEEEEEEEEBCSSSCCEEEEEEEEESSCEEEEEEES-----STTEEESCSEEEE-CSEEEEEEEEEES
+T ss_pred             heeeeccCCccccceEEeeEEEeccCCCCeEEEEEecCCCccceeecC-----CCceEeeeeeEEE-eecceEEEEEecC
+Confidence            999999988766665445444 34455777788887776  3222332     2222222   222 2345689999999
+
+
+Q ss_pred             ccccceeecc-CCCccccceeeeceeeecCCCcccCCCcc
+Q tospovirusSS    507 PEKQKMIIEP-EGDKSYSVEALVDSVAVLEPENIIDQNDQ  545 (651)
+Q Consensus       507 ~~~~~~~~~i-C~~~~~~~~~p~~~v~~~d~~t~i~~~D~  545 (651)
+                      ..+ -+-.++ |+.+.+          -.|.  =..|.|.
+T Consensus       362 s~~-~~F~v~iC~~~vt----------C~~~--C~PPkdH  388 (393)
+T 3n40_F          362 LAS-AEFRVQVCSTQVH----------CAAE--CHPPKDH  388 (393)
+T ss_dssp             CSE-EEEEEEETTEEEE----------EEEE--CBCCSCS
+T ss_pred             CCC-CCEEEEeccCcce----------ecCc--ccCchhh
+Confidence            887 554444 543221          1110  1122221
+
+
+No 20 
+>2jwa_A Receptor tyrosine-protein kinase ERBB-2; transmembrane helix dimer, protein kinase receptor membrane domain, ATP-binding, glycoprotein; NMR {Homo sapiens} PDB: 2ks1_A
+Probab=17.29  E-value=52  Score=18.55  Aligned_cols=35  Identities=6%  Similarity=0.053  Sum_probs=7.5
+
+Q ss_pred             cchhhHHHHHHHHHHHHHHHHHHHHH-Hhhcceeccc
+Q tospovirusSS    579 SFFDTVRVVLLILFVFALAYLCSIVA-TMCRGYVRNK  614 (651)
+Q Consensus       579 ~i~~~i~~il~ii~i~l~iy~~~p~~-~k~k~~~k~e  614 (651)
+                      +-.++.-++..++-+++++.+..+++ -.+|- -|.+
+T Consensus         7 ~~~~~~~i~g~~vg~~~~~~~~~~~~~~~~rr-r~~~   42 (44)
+T 2jwa_A            7 RASPLTSIISAVVGILLVVVLGVVFGILIKRR-QQKI   42 (44)
+T ss_dssp             CCCSHHHHHHHHHHHHHHHHHHHHHHHHHHHH-CSCC
+T ss_pred             CCCCcceEEeehHHHHHHHHHHHHHHHHHHHH-hhhh
+Confidence            11122222222222222211112222 22221 1111
+
+
+Done!

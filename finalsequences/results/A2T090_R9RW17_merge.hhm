@@ -1,0 +1,76 @@
+Query         A2T090
+Match_columns 506
+No_of_seqs    494 out of 568
+Neff          8.4 
+Searched_HMMs 1
+Date          Tue Aug 23 14:46:55 2016
+Command       hhalign -i ./finalsequences/models/A2T090.a3m.hhm -t ./finalsequences/models/R9RW17.a3m.hhm -o ./finalsequences/results/A2T090_R9RW17_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 R9RW17                          88.4 0.00042 0.00042   37.3  15.0  334   49-425    89-447 (505)
+
+No 1  
+>R9RW17
+Probab=88.36  E-value=0.00042  Score=37.29  Aligned_cols=334  Identities=14%  Similarity=0.131  Sum_probs=160.3
+
+Q ss_pred             cccceeEEEEeeccccccccCceeeeccCCccccc-ccceeeeeeeecceeeecccCCceeeEEeeecceeeecchhhhh
+Q A2T090           49 EDQTKFLKIKTVSSELSCREGQSYWTGSFSPKCLS-SRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTIMRENKCFEQ  127 (506)
+Q Consensus        49 ~~~~~~i~i~~~~~~~~c~~~~~y~T~~~~~~~~~-~~rC~~~GsC~~~~C~~~~~~~~ipel~~~~~~~~~g~t~C~e~  127 (506)
+                      |-.=..|.|.+.+.+|.=.-+.+|+|=+++..+-| .-+|=++-+|+.    +-.++-.=.-|.+.  +++        =
+T Consensus        89 GYaPl~L~i~v~~t~l~Ptl~leYiTC~YkTvvpSP~VkCCG~~EC~~----~~~pDy~CkVftGV--YPF--------M  154 (505)
+T R9RW17           89 GYSPMVLEMELLSVTLEPTLSLDYITCEYKTVIPSPYVKCCGTAECKD----KNLPDYSCKVFTGV--YPF--------M  154 (505)
+T ss_pred             CCCceeEEEeeeeeeecceeeeeeEEeeeeeeccCCceeccccccccC----CCCCCcceeeeeec--ccc--------e
+Confidence            45555788888899888888999999999866654 335666666663    11222222233333  111        1
+
+
+Q ss_pred             cCCccccccccCCceeehhhHHHH------HHHhhhhheehhhhheeeeEEEeecCCceee-eecCCcccccccceeeEE
+Q A2T090          128 CGGWGCGCFNVNPSCLFVHTYLQS------VRKEALRVFNCIDWVHKLTLEITDFDGSVST-IDLGASSSRFTNWGSVSL  200 (506)
+Q Consensus       128 cg~~gCgCf~~~~~ClF~r~~~~p------~~~~~yeVf~C~~W~~~v~~~i~~~~~~~~~-~~l~~~~~~~~~~~~i~l  200 (506)
+                      -||.-|=|--  .-=.....|..-      ....+|++.   +=.-++++.|++.+.+.+. .-++.  -.|...+++++
+T Consensus       155 WGGAyCFCds--ENTQ~SeaYV~~s~~C~~dhA~AykaH---Tas~ka~l~ityG~~~~~v~~yVNG--~t~~~~~~~K~  227 (505)
+T R9RW17          155 WGGAYCFCDA--ENTQLSEAHVEKSESCKTEFASSYRAH---TASASAKLRVLYQGNNITVTAYANG--DHAVTVKDAKF  227 (505)
+T ss_pred             ecceeeeecC--ccccchhhhhcccccchhhhhhhhccc---cccccceeeEEEeeceEEEEEEecC--CeeEEeeccee
+Confidence            2444443322  111222223111      112333332   1133455556555444332 22333  45666677777
+
+
+Q ss_pred             eeecccccCCcce-EEeecCCceeeeecCCCcCCCCCccceeeeecCcccccccccccccCCCcccccccccceeccc-c
+Q A2T090          201 SLDAEGISGSNSF-SFIESPGKGYAIVDEPFSEIPRQGFLGEIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTT-N  278 (506)
+Q Consensus       201 tl~s~~~~~~p~l-~Fi~~~~~~~ai~~~~~~g~~~~g~ig~lqC~s~~~A~~~~~~C~~~~~~C~c~~~~d~v~C~C-~  278 (506)
+                      .+--++..-.|-- .-+.- +++++-.|-..-|.-++|..|++|=.|..+..-. .|    .++---.|....++=.. .
+T Consensus       228 i~GPiStawsPFD~KiVvy-k~eVYNyDfP~YGAG~pG~FGDIQart~~s~Dly-An----T~l~L~RP~ag~iHVPYTQ  301 (505)
+T R9RW17          228 IVGPMSSAWTPFDNKIVVY-KGDVYNMDYPPFGAGRPGQFGDIQSRTPESKDVY-AN----TQLVLQRPAAGTVHVPYSQ  301 (505)
+T ss_pred             eeecCCCCccccCceEEEE-eccccccCCCCCCCCCCCCcCCcccCCCCccccc-cc----eEEEEecCCCeeeeeecCC
+Confidence            6655554333322 11111 2246766777778888899999998877543211 00    00000112211111110 0
+
+
+Q ss_pred             ccCceEEeec---CCCCcccCc-cceecccCCcceeeecccceeeeeeeee--eceeeeee-----eeeeecccceeccc
+Q A2T090          279 LIDPFVVFER---GSLPQTRND-KTFAASKGNRGVQAFSKGSVQADLTLMF--DNFEVDFV-----GAAVSCDAAFLNLT  347 (506)
+Q Consensus       279 ~~~~~~~~~~---~~LP~~~~~-~~~~~~~~~~~v~a~~~~~~~~~l~i~l--~~~~~~~~-----~~~~~C~i~~~~l~  347 (506)
+                      -.+-.+..++   ..|..+.|. =.+..    +.|.|..=  ..|.|-|.+  -|....++     ..+.+|++..  |+
+T Consensus       302 apSGf~~W~~~~g~~L~~tAPFGC~I~~----nPvRA~nC--avG~IPiS~DIPDA~FTRv~daP~vs~l~Ctv~~--Ct  373 (505)
+T R9RW17          302 APSGFKYWLKERGASLQHTAPFGCQIAT----NPVRAMNC--AVGNMPISIDIPDAAFTRVVDAPSLTDMSCEVPA--CT  373 (505)
+T ss_pred             CCCcchhhhhhcCccccccCccceeecc----Cccceeec--ccccceeeeecCCcceeeeecCCCCccccccccc--cc
+Confidence            0111111111   112211121 11111    13555322  234554444  36554443     3455666551  11
+
+
+Q ss_pred             cceecCCCceEEEEEeecceeeeeeecCCC---cEEEEeeCCCCCccceeEEEeeccchhhhcccc-cCCCCceeEEeee
+Q A2T090          348 GCYSCNAGARVCLSITSTGTGTLSAHNKDG---SLHIVLPSENGTKDQCQILHFTVPEVEEEFMYS-CDGDERPLLVKGT  423 (506)
+Q Consensus       348 GCY~C~~GA~~~i~c~S~~~~~~~~~~C~~---~~~~~i~c~~~~~~~~i~l~f~~a~v~~~C~~~-Cg~~~~~~~i~G~  423 (506)
+                        |+=.-|..+.++-++++.+.|+...=.+   .....+.+..   .-.+.+||+.|..+-+..++ |+.   ...-+|.
+T Consensus       374 --~SsdfGGva~l~Y~a~k~GkCavHs~S~~atl~es~v~v~~---~g~~t~hFSTas~~p~F~v~iC~~---~vtC~~~  445 (505)
+T R9RW17          374 --HSSDFGGVAIIKYAVSKKGKCAVHSMTNAVTIREAEIEVEG---NSQLQISFSTALASAEFRVQVCST---QVHCAAE  445 (505)
+T ss_pred             --ccCCCcceEEEEEeeccCCeeeEeeccceeeeeeeEEEEec---cceEEEEeeeccccceeEEEEeec---eeeeccc
+Confidence              4556788899999999988875422111   1122344444   34567999998776666443 665   4444444
+
+
+Q ss_pred             EE
+Q A2T090          424 LI  425 (506)
+Q Consensus       424 L~  425 (506)
+                      =+
+T Consensus       446 C~  447 (505)
+T R9RW17          446 CH  447 (505)
+T ss_pred             cC
+Confidence            33
+
+
+Done!

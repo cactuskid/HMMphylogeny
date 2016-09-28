@@ -1,0 +1,341 @@
+Query         betabaculovirusSS
+Match_columns 162
+No_of_seqs    281 out of 524
+Neff          8.3 
+Searched_HMMs 74
+Date          Fri Jul 29 15:35:27 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/betabaculovirusSS.a3m.hhm -ohhm ./structurepred/betabaculovirusSS.a3m.hhm.hhm -o ./structurepred/betabaculovirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -local -b 20 -z 20 -B 2000 -Z 2000 -ssm 2 -maxfilt 10000 -norealign -addss -psipred /implacable/software/bin -psipred_data /implacable/software/data 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4ccf_A RSV F, fusion glycoprot  74.2    0.55   7E-05   36.4   3.0   91   53-151   294-389 (574)
+  2 4mms_B Fusion glycoprotein F1   63.7     1.1 0.00014   33.2   2.7   86   53-151   158-253 (414)
+  3 4dag_A Fusion glycoprotein F0;  41.7     9.5  0.0012   27.8   4.7   97   31-144   217-333 (415)
+  4 1cbk_A Protein (7,8-dihydro-6-   5.6   1E+02   0.014   18.0   2.6   19    7-25     65-83  (160)
+  5 5a49_A Oskar, maternal effect    5.4 1.6E+02   0.021   15.6   4.4   46    7-60     39-86  (89)
+  6 2rsx_A Uncharacterized protein   3.5 1.4E+02   0.019   17.5   1.9   31   45-75    110-141 (159)
+  7 1wzv_A Ubiquitin-conjugating e   2.8      73    0.01   18.0  -0.1   56    7-63      4-60  (155)
+  8 4pww_A OR494; structural genom   1.8 2.1E+02   0.025   14.6   0.7   33    9-41     50-82  (89)
+  9 4rri_A Probable threonine--tRN   1.8   5E+02   0.064   14.4   3.2   30    2-31     78-107 (136)
+ 10 1ayz_A UBC2, ubiquitin-conjuga   1.7      93   0.013   17.9  -0.9   53   10-63      7-60  (169)
+ 11 2clw_A Ubiquitin-conjugating e   1.6 1.1E+02   0.015   17.5  -0.8   54   10-63     22-75  (165)
+ 12 1zdn_A Ubiquitin-conjugating e   1.5 1.5E+02    0.02   16.4  -0.1   55    9-63     15-69  (158)
+ 13 4yii_U Ubiquitin-conjugating e   1.5 1.8E+02   0.025   15.9   0.3   54   10-63      9-62  (155)
+ 14 4ccg_A Ubiquitin-conjugating e   1.4 1.7E+02   0.024   17.4  -0.0   53   10-63     20-73  (212)
+ 15 2ayv_A Ubiquitin-conjugating e   1.4 1.7E+02   0.023   16.4  -0.1   55    9-63     23-77  (166)
+ 16 2fo3_A Ubiquitin-conjugating e   1.4 1.4E+02    0.02   15.4  -0.5   53   11-63     10-62  (125)
+ 17 4a5p_A Protein MXIA, protein V   1.2 3.6E+02   0.048   17.9   1.4   32    2-33     64-95  (383)
+ 18 2pwq_A Ubiquitin conjugating e   1.2   2E+02   0.027   17.2  -0.1   54   10-63     26-79  (216)
+ 19 2h2y_A Ubiquitin-conjugating e   1.2 1.9E+02   0.026   15.3  -0.3   54   10-63     23-76  (136)
+ 20 3fn1_B NEDD8-conjugating enzym   1.1   2E+02   0.028   15.9  -0.4   54   10-63     17-70  (167)
+
+No 1  
+>4ccf_A RSV F, fusion glycoprotein F0; viral protein; 2.65A {Respiratory syncytial virus} PDB: 3rki_A* 4jhw_F 4zyp_A
+Probab=74.19  E-value=0.55  Score=36.41  Aligned_cols=91  Identities=16%  Similarity=0.156  Sum_probs=0.0
+
+Q ss_pred             cceeEEEeecccccc---cccccccccccccccCCCcceeeeeec-ceeeeeeccccccccc-ccccccccccccccccc
+Q X1XRJ2_ACYPI/1   53 NDKLIFDLLIPLVND---IELILYKLTPVPMHHKQDNASGWYLMD-ITYNNVATTLDKKRFT-TYTDQQLNDCKDTTMYK  127 (162)
+Q Consensus        53 ~~~lif~i~iPLv~~---~~y~LYk~~piP~~~~~~~~~~~i~p~-~~Yiav~~~~~~~~y~-~l~~~~~~~C~~~~~~~  127 (162)
+                      +..++|.+.+|.+..   ....++++..+....+++. +.-+.|+ -.|++....  .-.++ .     .+.|....+..
+T Consensus       294 ~~~~~y~V~lPsl~~i~i~~a~I~~l~~IS~n~~~~E-~~~~vP~~q~~v~~~g~--~i~~~~d-----~s~C~~t~~sv  365 (574)
+T 4ccf_A          294 EEVLAYVVQLPLYGVIDTPCWKLHTSPLCTTNTKEGS-NICLTRTDRGWYCDNAG--SVSFFPQ-----AETCKVQSNRV  365 (574)
+T ss_dssp             TTBEEEEEEEEEEEEEEEEEEEEEECCEEC--------CCEEEECCCEEEEEETT--EEEEECS-----TTSEEEETTEE
+T ss_pred             cccceeEEEcceEEEecCCCeEEEEcceeeeecCCce-EEEEccCCCeEEEEecc--EEEeCCC-----CCCceEeCCeE
+
+
+Q ss_pred             ccCCCCCcccCCCCCcchhhhhcc
+Q X1XRJ2_ACYPI/1  128 ICRTPQPIQENSERQPCEVQNFIR  151 (162)
+Q Consensus       128 iC~~~~~~~~~~~~~~Ce~~l~~~  151 (162)
+                      +|+.....--..+...|-..++.+
+T Consensus       366 iC~~~~s~pms~~~~~CL~G~~~n  389 (574)
+T 4ccf_A          366 FCDTMNSLTLPSEVNLCNVDIFNP  389 (574)
+T ss_dssp             EEEGGGCEEECGGGGGGGTCTTCT
+T ss_pred             EeCCccCeeCCHHHHHHhCCCCCc
+
+
+No 2  
+>4mms_B Fusion glycoprotein F1 fused with fibritin trimer domain; membrane, viral protein; 2.40A {Human respiratory syncytial virus A2} PDB: 4mmr_B 4mmu_B* 4mmt_B* 4mmq_B 4mmv_B 3rrr_B* 3rrt_B 3ixt_P
+Probab=63.72  E-value=1.1  Score=33.23  Aligned_cols=86  Identities=20%  Similarity=0.187  Sum_probs=0.0
+
+Q ss_pred             cceeEEEeeccccccc---ccccccccccccccCCCcceeeeeecceeeeeeccccccc------ccccccc-ccccccc
+Q X1XRJ2_ACYPI/1   53 NDKLIFDLLIPLVNDI---ELILYKLTPVPMHHKQDNASGWYLMDITYNNVATTLDKKR------FTTYTDQ-QLNDCKD  122 (162)
+Q Consensus        53 ~~~lif~i~iPLv~~~---~y~LYk~~piP~~~~~~~~~~~i~p~~~Yiav~~~~~~~~------y~~l~~~-~~~~C~~  122 (162)
+                      ++.++|.|.+|.+...   ...++++..+....+.+. +.-+.|        .+  +..      +  +..- +...|..
+T Consensus       158 ~~~~~y~V~~P~l~~i~~~~~~I~~l~~iS~n~~~~e-~~~~~P--------~~--~g~y~~~~g~--i~~~~d~~~C~~  224 (414)
+T 4mms_B          158 EEVLAYVVQLPLYGVIDTPCWKLHTSPLCTTNTKEGS-NICLTR--------TD--RGWYCDNAGS--VSFFPQAETCKV  224 (414)
+T ss_dssp             SSEEEEEEEEEECSEEEEEEEEEEECCEECCCSSTTC-CCEEEE--------CC--CEEEEEETTE--EEEESCGGGSEE
+T ss_pred             cccceeEEECceEEEEcCCCeEEEEcceeeeecCCce-EEEEEe--------cc--cccccccchh--hhcCCCCCCceE
+
+
+Q ss_pred             cccccccCCCCCcccCCCCCcchhhhhcc
+Q X1XRJ2_ACYPI/1  123 TTMYKICRTPQPIQENSERQPCEVQNFIR  151 (162)
+Q Consensus       123 ~~~~~iC~~~~~~~~~~~~~~Ce~~l~~~  151 (162)
+                      +....+|+.....--..+...|-..++.+
+T Consensus       225 t~~~v~C~~~~s~pls~~~~~Cl~G~~~~  253 (414)
+T 4mms_B          225 QSNRVFCDTMNSLTLPSEVNLCNVDIFNP  253 (414)
+T ss_dssp             ETTEEEEEGGGCEEECGGGGHHHHCTTCS
+T ss_pred             eCCeEEeCCccCccCCHHHHHHhCCCCcc
+
+
+No 3  
+>4dag_A Fusion glycoprotein F0; viral protein, MPV fusion protein, immune system, antibody structure, FAB structure, vaccine; HET: NAG BMA MAN; 3.39A {Human metapneumovirus}
+Probab=41.74  E-value=9.5  Score=27.80  Aligned_cols=97  Identities=12%  Similarity=0.175  Sum_probs=0.0
+
+Q ss_pred             CCCcchhhHHHHHhhhh--------heeee-cceeEEEeeccccccc-c-cccccccc---------cccccCCCcceee
+Q X1XRJ2_ACYPI/1   31 IGPREWELNEFEKITKI--------RIYYL-NDKLIFDLLIPLVNDI-E-LILYKLTP---------VPMHHKQDNASGW   90 (162)
+Q Consensus        31 ~~~~~~~~~~l~~i~~~--------~~~~~-~~~lif~i~iPLv~~~-~-y~LYk~~p---------iP~~~~~~~~~~~   90 (162)
+                      .+-...++.+++.---+        -+.+. +. +++.+.+|.+... . -.+++..+         +....+++. +..
+T Consensus       217 ~~~s~~d~~dLL~s~lIv~~kg~GqII~vd~~~-ivi~V~lP~l~~i~~~~~i~~~~~~~s~~~~~~Is~n~~~~E-w~~  294 (415)
+T 4dag_A          217 MPTSAGQIKLMLENRAMVRRKGFGILIGVYGSS-VIYMVQLPIFGVIDTPCWIIKAAPSCSEKDGNYACLLREDQG-WYC  294 (415)
+T ss_dssp             CSSCSHHHHHHHHTTHHHHTTCEEEEEECTTTC-EEEEEEEEEEEECSCEEEEEEECCEEECCSSSCEEEEECCCE-EEE
+T ss_pred             cCCCCccHHHHHhCCCccccCCeeEEEEEccce-EEEEEECcEEEEECCcEEEEEecccccccccceEEEEeCCCE-EEE
+
+
+Q ss_pred             eeecceeeeeeccccccccccccccccccccccccccccCCCCCcccCCCCCcc
+Q X1XRJ2_ACYPI/1   91 YLMDITYNNVATTLDKKRFTTYTDQQLNDCKDTTMYKICRTPQPIQENSERQPC  144 (162)
+Q Consensus        91 i~p~~~Yiav~~~~~~~~y~~l~~~~~~~C~~~~~~~iC~~~~~~~~~~~~~~C  144 (162)
+                        .+.-++.-+.|             .+.|....+..+|+.....--..+...|
+T Consensus       295 --~~~G~~i~~~d-------------~~~C~~t~~~v~C~~~~~~pms~~~~~C  333 (415)
+T 4dag_A          295 --KNAGSTVYYPN-------------DKDCETRGDHVFCDTAAGINVAEQSREC  333 (415)
+T ss_dssp             --ESSSCEEEECC-------------SSSEEEETTEEEEETTSCCEECGGGTHH
+T ss_pred             --EEcccEEecCC-------------CCCcEEeCCeEEeCCccCccCCHHHHHH
+
+
+No 4  
+>1cbk_A Protein (7,8-dihydro-6-hydroxymethylpterin- pyrophosphokinase); transferase; HET: ROI; 2.02A {Haemophilus influenzae} SCOP: d.58.30.1
+Probab=5.57  E-value=1e+02  Score=18.04  Aligned_cols=19  Identities=26%  Similarity=0.487  Sum_probs=0.0
+
+Q ss_pred             CCHHHHHHHHHHHHHhhhh
+Q X1XRJ2_ACYPI/1    7 MTPQELASTLKEIEYKIKK   25 (162)
+Q Consensus         7 i~p~~L~~~l~~i~~~l~~   25 (162)
+                      ++|++|++.++.|+..+.+
+T Consensus        65 l~p~~Ll~~lk~IE~~~GR   83 (160)
+T 1cbk_A           65 LSPLKLLDELQRIENEQGR   83 (160)
+T ss_dssp             SCHHHHHHHHHHHHHHTTC
+T ss_pred             CCHHHHHHHHHHHHHHhCC
+
+
+No 5  
+>5a49_A Oskar, maternal effect protein oskar; protein binding, OST-HTH domain, dimer, winged helix-turn-HE VASA, protein binding interaction; 2.10A {Drosophila melanogaster}
+Probab=5.40  E-value=1.6e+02  Score=15.55  Aligned_cols=46  Identities=20%  Similarity=0.263  Sum_probs=0.0
+
+Q ss_pred             CCHHHHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHH-hhhhheeee-cceeEEEe
+Q X1XRJ2_ACYPI/1    7 MTPQELASTLKEIEYKIKKKYSIPIGPREWELNEFEK-ITKIRIYYL-NDKLIFDL   60 (162)
+Q Consensus         7 i~p~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~-i~~~~~~~~-~~~lif~i   60 (162)
+                      +|..+|.++=+++.+       =++|.. .++.++.+ +..+..... ++.+++..
+T Consensus        39 ~tl~~L~~DYk~l~G-------~~iP~r-~sl~~fL~sipdv~~~~~~~Ge~iv~a   86 (89)
+T 5a49_A           39 ITISSIKSEYRKLTG-------NPFPLH-DNVTDFLLTIPNVTAECSESGKRIFNL   86 (89)
+T ss_dssp             BCHHHHHHHHHHHHS-------SCCSCC-SCHHHHHTTSTTEEEEECTTCCEEEEE
+T ss_pred             cCHHHHHHHHHHHhC-------CcCCCc-cCHHHHHHcCCCeEEEEcCCCcEEEEE
+
+
+No 6  
+>2rsx_A Uncharacterized protein YOEB; inhibitor protein, hacksaw-like fold, autolysin inhibitor, D endopeptidase inhibitor, hydrolase inhibitor; NMR {Bacillus subtilis}
+Probab=3.48  E-value=1.4e+02  Score=17.47  Aligned_cols=31  Identities=6%  Similarity=0.246  Sum_probs=0.0
+
+Q ss_pred             hhhheeee-cceeEEEeecccccccccccccc
+Q X1XRJ2_ACYPI/1   45 TKIRIYYL-NDKLIFDLLIPLVNDIELILYKL   75 (162)
+Q Consensus        45 ~~~~~~~~-~~~lif~i~iPLv~~~~y~LYk~   75 (162)
+                      +++..... +++..|.+++|..+...+..+.+
+T Consensus       110 A~i~~~~~~~~~~~~~ltvp~~~~~~~~~~~v  141 (159)
+T 2rsx_A          110 STAKLISKKGSTITYEFTVPTLDGSPSAKRKV  141 (159)
+T ss_dssp             CEEEEEEEETTEEEEEEEECBTTSCCCEEEEE
+T ss_pred             cEEEEEEecCCeEEEEEEEecCCCCcceEEEE
+
+
+No 7  
+>1wzv_A Ubiquitin-conjugating enzyme E2 L6; ligase; 2.10A {Homo sapiens} SCOP: d.20.1.1 PDB: 1wzw_A 2kjh_A
+Probab=2.79  E-value=73  Score=17.99  Aligned_cols=56  Identities=9%  Similarity=0.029  Sum_probs=0.0
+
+Q ss_pred             CCHHHHHHHHHHHHHhhhhcCC-CCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1    7 MTPQELASTLKEIEYKIKKKYS-IPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus         7 i~p~~L~~~l~~i~~~l~~~~~-~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      +..+.|++|++++...-+.+.. .|...+....|...- .--...+.++...|.|.+|
+T Consensus         4 ~~~~Rl~~E~~~l~~~~~~~~~~~~~~~~~~~~w~~~i-gp~~t~y~gg~f~~~i~fp   60 (155)
+T 1wzv_A            4 MASMRVVKELEDLQKKPPPYLRNLSSDDANVLVWHALL-LPDQPPYHLKAFNLRISFP   60 (155)
+T ss_dssp             -CHHHHHHHHHHHHHSCCTTEEEEEECSSCTTEEEEEE-CCCSTTGGGEEEEEEEECC
+T ss_pred             HHHHHHHHHHHHHHhCCCCCeEEecCCCCCceEEEEEE-CCCCCCcCCCEEEEEEecC
+
+
+No 8  
+>4pww_A OR494; structural genomics, PSI-biology, NESG, de novo; 1.47A {Synthetic construct} PDB: 2kl8_A 4rjv_A
+Probab=1.84  E-value=2.1e+02  Score=14.58  Aligned_cols=33  Identities=12%  Similarity=0.234  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHhhhhcCCCCCCCcchhhHHH
+Q X1XRJ2_ACYPI/1    9 PQELASTLKEIEYKIKKKYSIPIGPREWELNEF   41 (162)
+Q Consensus         9 p~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l   41 (162)
+                      |+|.++++.+-...+.......+..+...-|.+
+T Consensus        50 peqvrkelakeaerlakefgitvtrtirgswsl   82 (89)
+T 4pww_A           50 PEQVRKELAKEAERLAKEFGITVTRTIRGSWSL   82 (89)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHTCEEEECCTTCGGG
+T ss_pred             hHHHHHHHHHHHHHHHHHhCcEEEEEecceecc
+
+
+No 9  
+>4rri_A Probable threonine--tRNA ligase 2; DTD-like fold, proofreading; HET: A3T; 1.50A {Aeropyrum pernix} PDB: 4rrh_A* 4rr9_A* 4rr6_A* 4rr8_A* 4rr7_A* 4rra_A* 4rrb_A* 4rrc_A* 4rrd_A* 4rrm_A* 4rrl_A* 4rrj_A* 4rrk_A*
+Probab=1.75  E-value=5e+02  Score=14.40  Aligned_cols=30  Identities=20%  Similarity=0.335  Sum_probs=0.0
+
+Q ss_pred             CCCCCCCHHHHHHHHHHHHHhhhhcCCCCC
+Q X1XRJ2_ACYPI/1    2 IHPSLMTPQELASTLKEIEYKIKKKYSIPI   31 (162)
+Q Consensus         2 l~p~ii~p~~L~~~l~~i~~~l~~~~~~p~   31 (162)
+                      |++++=+|++=...|+.+...|.....+.+
+T Consensus        78 LS~~la~P~~A~~il~~l~~~L~~~~g~~V  107 (136)
+T 4rri_A           78 LSSRLAKPMAAHKRLIELEGALRTKFPGHV  107 (136)
+T ss_dssp             SCSCBCCHHHHHHHHHHHHHHHTTTCCSEE
+T ss_pred             hccccCCHHHHHHHHHHHHHHHhhccCceE
+
+
+No 10 
+>1ayz_A UBC2, ubiquitin-conjugating enzyme RAD6; ubiquitin conjugation; 2.60A {Saccharomyces cerevisiae} SCOP: d.20.1.1
+Probab=1.74  E-value=93  Score=17.94  Aligned_cols=53  Identities=13%  Similarity=0.046  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhhhhcCC-CCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1   10 QELASTLKEIEYKIKKKYS-IPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus        10 ~~L~~~l~~i~~~l~~~~~-~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      +.|.++++++.+..+.+.. .|.........-.+.-..-..|. ++.+.|.|.+|
+T Consensus         7 ~Rl~~El~~l~~~~~~~~~~~~~~~~~~~w~~~i~gp~~t~y~-gg~f~~~i~fp   60 (169)
+T 1ayz_A            7 RRLMRDFKRMKEDAPPGVSASPLPDNVMVWNAMIIGPADTPYE-DGTFRLLLEFD   60 (169)
+T ss_dssp             HHHHHHHHHHHHSCCTTEEEEEETTEEEEEEEEEECCTTSTTT-TCEEEEEEECC
+T ss_pred             HHHHHHHHHHHhCCCCCEEEEECCCCceEEEEEEECCCCCCcC-CeEEEEEEeCC
+
+
+No 11 
+>2clw_A Ubiquitin-conjugating enzyme E2 D2; ligase, UBL conjugation pathway, UBC domain, thioesterificat; HET: CME; 1.94A {Homo sapiens} SCOP: d.20.1.1 PDB: 2c4p_A
+Probab=1.60  E-value=1.1e+02  Score=17.49  Aligned_cols=54  Identities=7%  Similarity=0.028  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1   10 QELASTLKEIEYKIKKKYSIPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus        10 ~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      +.|++|++++....+.+.......+....|...=..--...+.++...|.|.+|
+T Consensus        22 ~Rl~~E~~~l~~~~~~~~~~~~~~~~~~~w~~~i~gp~~t~y~gg~~~~~i~f~   75 (165)
+T 2clw_A           22 KRIHKELNDLARDPPAQCSAGPVGDDMFHWQATIMGPNDSPYQGGVFFLTIHFP   75 (165)
+T ss_dssp             HHHHHHHHHHHSSCCTTEEEEESSSCTTEEEEEEECCTTSTTTTCEEEEEEECC
+T ss_pred             HHHHHHHHHHhhCCCCCEEEeecCCCceEEEEEEeCCCCCCcCCCEEEEEEEcC
+
+
+No 12 
+>1zdn_A Ubiquitin-conjugating enzyme E2S; structural genomics consortium, ubiquitin-conjuga enzyme, ligase, SGC; 1.93A {Homo sapiens} SCOP: d.20.1.1
+Probab=1.54  E-value=1.5e+02  Score=16.39  Aligned_cols=55  Identities=5%  Similarity=-0.060  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1    9 PQELASTLKEIEYKIKKKYSIPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus         9 p~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      .+.|+.|+.++....+.+..+-........|.+.=...-...+.++...|.+.+|
+T Consensus        15 ~~Rl~~El~~l~~~~~~~~~~~~~~~~~~~w~~~i~gp~~~~y~g~~~~~~i~~p   69 (158)
+T 1zdn_A           15 IRLVYKEVTTLTADPPDGIKVFPNEEDLTDLQVTIEGPEGTPYAGGLFRMKLLLG   69 (158)
+T ss_dssp             HHHHHHHHHHHHHSCCTTEEEEECSSCTTEEEEEEECCTTSTTTTCEEEEEEECC
+T ss_pred             HHHHHHHHHHHHhCCCCCEEEEeCCCCccEEEEEEECCCCCCcCCcEEEEEEECC
+
+
+No 13 
+>4yii_U Ubiquitin-conjugating enzyme E2 C; ligase-cell cycle complex; 1.80A {Homo sapiens}
+Probab=1.51  E-value=1.8e+02  Score=15.85  Aligned_cols=54  Identities=13%  Similarity=-0.053  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1   10 QELASTLKEIEYKIKKKYSIPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus        10 ~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      +.|++|++++....+.+..+-........|...=...-...+.++...|.|.+|
+T Consensus         9 ~Rl~~El~~l~~~~~~~~~~~~~~~~~~~w~~~i~gp~~t~y~gg~~~~~i~~p   62 (155)
+T 4yii_U            9 KRLQQELMTLMMSGDKGISAFPESDNLFKWVGTIHGAAGTVYEDLRYKLSLEFP   62 (155)
+T ss_dssp             HHHHHHHHHHHHHCCTTEEEEECSSCTTEEEEEEEBCTTSTTBTCEEEEEEECC
+T ss_pred             HHHHHHHHHHHhCCCCCEEEeeCCCChhEEEEEEECCCCCCcCCCEEEEEEeCC
+
+
+No 14 
+>4ccg_A Ubiquitin-conjugating enzyme E2 T; HET: EPE GOL; 2.40A {Homo sapiens}
+Probab=1.41  E-value=1.7e+02  Score=17.43  Aligned_cols=53  Identities=11%  Similarity=0.030  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhhhhcCC-CCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1   10 QELASTLKEIEYKIKKKYS-IPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus        10 ~~L~~~l~~i~~~l~~~~~-~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      +.|++|++++....+.+.. +|.......+.-.+.-..-..|. ++.+.|.|.+|
+T Consensus        20 ~RL~kEl~~l~~~~~~g~~~~~~~~~l~~w~~~i~gp~~t~y~-gg~f~~~i~fp   73 (212)
+T 4ccg_A           20 SRLKRELHMLATEPPPGITCWQDKDQMDDLRAQILGGANTPYE-KGVFKLEVIIP   73 (212)
+T ss_dssp             HHHHHHHHHHHHSCCTTEEEEECTTTSSSEEEEEECCTTSTTT-TCEEEEEEECC
+T ss_pred             HHHHHHHHHHhhCCCCCEEEEeCCCCccEEEEEEeCCCCCCcC-CcEEEEEEeCC
+
+
+No 15 
+>2ayv_A Ubiquitin-conjugating enzyme E2; structural genomics, structural genomics consortium, ubiquit ubiquitin-conjugating enzyme, SGC, ligase; 2.00A {Toxoplasma gondii} SCOP: d.20.1.1
+Probab=1.36  E-value=1.7e+02  Score=16.44  Aligned_cols=55  Identities=7%  Similarity=0.026  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1    9 PQELASTLKEIEYKIKKKYSIPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus         9 p~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      .+.|.+|++++....+.+..+-........|...=...-...+.++...|.+.+|
+T Consensus        23 ~~RL~~E~~~l~~~~~~~i~~~~~~~~~~~w~~~i~gp~~t~yeg~~~~~~i~fp   77 (166)
+T 2ayv_A           23 LKRINKELNDLSKDPPTNCSAGPVGDDMFHWQATIMGPEDSPYSGGVFFLNIHFP   77 (166)
+T ss_dssp             HHHHHHHHHHHHHSCCTTEEEEECSSCTTEEEEEEECCTTSTTTTCEEEEEEECC
+T ss_pred             HHHHHHHHHHHhhcCCCCEEEEecCCCceEEEEEEECCCCCCcCCeEEEEEEEEC
+
+
+No 16 
+>2fo3_A Ubiquitin-conjugating enzyme; SGC, UBC, structural genomics, structural genomics consortium, unknown function; 1.86A {Plasmodium vivax} SCOP: d.20.1.1
+Probab=1.36  E-value=1.4e+02  Score=15.44  Aligned_cols=53  Identities=9%  Similarity=0.201  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1   11 ELASTLKEIEYKIKKKYSIPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus        11 ~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      .|++|++++.+..+.+...-........|...=...-...+.++...|.+.+|
+T Consensus        10 rl~~E~~~l~~~~~~~~~~~~~~~~~~~~~~~i~gp~~t~y~gg~~~~~i~fp   62 (125)
+T 2fo3_A           10 RIQKELHNFLNNPPINCTLDVHPNNIRIWIVKYVGLENTIYANEVYKLKIIFP   62 (125)
+T ss_dssp             HHHHHHHHHHHSCCTTEEEEECTTCTTEEEEEEECCTTSTTTTCEEEEEEECC
+T ss_pred             HHHHHHHHHHhCCCCCeEEEecCCCccEEEEEEeCCCCCCCCCCEEEEEEEEC
+
+
+No 17 
+>4a5p_A Protein MXIA, protein VIRH; protein transport, type three secretion, export apparatus; HET: MLY; 3.15A {Shigella flexneri}
+Probab=1.20  E-value=3.6e+02  Score=17.86  Aligned_cols=32  Identities=6%  Similarity=0.244  Sum_probs=0.0
+
+Q ss_pred             CCCCCCCHHHHHHHHHHHHHhhhhcCCCCCCC
+Q X1XRJ2_ACYPI/1    2 IHPSLMTPQELASTLKEIEYKIKKKYSIPIGP   33 (162)
+Q Consensus         2 l~p~ii~p~~L~~~l~~i~~~l~~~~~~p~~~   33 (162)
+                      +.+.+++-..|.+.+..+++.+-.+.-+++|.
+T Consensus        64 lg~~Li~l~~L~~~i~~iR~~la~e~Gv~lP~   95 (383)
+T 4a5p_A           64 FAENKINANDMEGLIERIRSQFFIDYGVRLPT   95 (383)
+T ss_dssp             EECC---CTTHHHHHHHHHHHHHHHTCCCCCC
+T ss_pred             ecccccchHHHHHHHHHHHHHHHHHhCCCCCe
+
+
+No 18 
+>2pwq_A Ubiquitin conjugating enzyme; structural genomics consortium, SGC, ligase; 1.90A {Plasmodium yoelii}
+Probab=1.20  E-value=2e+02  Score=17.23  Aligned_cols=54  Identities=17%  Similarity=0.065  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1   10 QELASTLKEIEYKIKKKYSIPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus        10 ~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      +.|++|++++...-+.+...-........|...=...-...+.++...|.|.+|
+T Consensus        26 ~Rl~kEl~~l~~~~~~~i~~~~~~~dl~~w~~~i~Gp~~tpyegg~f~~~i~fp   79 (216)
+T 2pwq_A           26 LRLQKELKDIENENVQEIDAHIKDSNFFEWVGFIKGPEGTPYEGGHFTLAITIP   79 (216)
+T ss_dssp             HHHHHHHHHHHHSCTTTEEEEECSSCTTEEEEEEECCTTSTTTTCEEEEEEECC
+T ss_pred             HHHHHHHHHHccCCCCCEEEEeCCCCccEEEEEEeCCCCCCcCCCeeEEEecCC
+
+
+No 19 
+>2h2y_A Ubiquitin-conjugating enzyme; structural genomics, unknown function, structural genomics consortium, SGC; 2.80A {Plasmodium falciparum 3D7}
+Probab=1.15  E-value=1.9e+02  Score=15.31  Aligned_cols=54  Identities=11%  Similarity=0.185  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1   10 QELASTLKEIEYKIKKKYSIPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus        10 ~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      +.|.++++++....+.+..+.........|...=..--...+.++.+.|.+.+|
+T Consensus        23 ~Rl~~E~~~l~~~~~~~~~~~~~~~~~~~w~~~i~gp~~t~y~g~~~~~~i~~p   76 (136)
+T 2h2y_A           23 YRIQKELNNFLKNPPINCTIDVHPSNIRIWIVQYVGLENTIYANEVYKIKIIFP   76 (136)
+T ss_dssp             HHHHHHHHHHHHSCCTTEEEEECTTCTTEEEEEEECCTTSTTTTCEEEEEEECC
+T ss_pred             HHHHHHHHHHHhCCCCCeEEeeCCCCceEEEEEEEcCCCCCccCCEEEEEEEEC
+
+
+No 20 
+>3fn1_B NEDD8-conjugating enzyme UBE2F; ligase, ATP-binding, cell cycle, nucleotide-binding, UBL CON pathway; 2.50A {Homo sapiens} PDB: 2edi_A
+Probab=1.06  E-value=2e+02  Score=15.89  Aligned_cols=54  Identities=17%  Similarity=0.154  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHHHhhhhcCCCCCCCcchhhHHHHHhhhhheeeecceeEEEeecc
+Q X1XRJ2_ACYPI/1   10 QELASTLKEIEYKIKKKYSIPIGPREWELNEFEKITKIRIYYLNDKLIFDLLIP   63 (162)
+Q Consensus        10 ~~L~~~l~~i~~~l~~~~~~p~~~~~~~~~~l~~i~~~~~~~~~~~lif~i~iP   63 (162)
+                      +.|.++++++.+..+.+...-......-.+.-.-+.--...+.++...|.+.+|
+T Consensus        17 ~Rl~~E~~~l~~~~~~g~~~~~~~~~~~~~~~~~~gp~~t~y~gg~~~~~i~~p   70 (167)
+T 3fn1_B           17 KLLVKEVAELEANLPCTCKVHFPDPNKLHCFQLTVTPDEGYYQGGKFQFETEVP   70 (167)
+T ss_dssp             HHHHHHHHHHGGGSCTTEEEECSSSSCTTEEEEEECCSSSTTTTCCEEEEEECC
+T ss_pred             HHHHHHHHHHHhCCCCCeEEEecCCCcceEEEEEECCCCCCcCCcEEEEEEEeC
+
+
+Done!

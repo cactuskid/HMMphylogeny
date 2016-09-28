@@ -1,0 +1,625 @@
+Query         A0A0K2SR10
+Match_columns 540
+No_of_seqs    192 out of 243
+Neff          7.5 
+Searched_HMMs 137
+Date          Mon Aug 22 17:23:11 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./finalsequences/models/A0A0K2SR10.a3m.hhm -ohhm ./finalsequences/structurepred/A0A0K2SR10.a3m.hhm -o ./finalsequences/structurepred/A0A0K2SR10.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4iib_A Beta-glucosidase 1; TIM  87.5      11  0.0015   37.9  23.8   49  400-449   745-799 (841)
+  2 4d0j_A Beta-glucosidase; hydro  79.8      21   0.003   35.4  25.1   50  400-449   759-813 (857)
+  3 3idu_A Uncharacterized protein  57.0      19  0.0028   25.9  28.9   62  383-448    20-82  (127)
+  4 3vta_A Cucumisin; subtilisin-l  56.4      50  0.0072   30.5  29.0  215  215-483   350-608 (621)
+  5 2ys4_A Hydrocephalus-inducing   16.9      87   0.013   20.9  23.2   78  386-483    31-108 (122)
+  6 2w0t_A Lethal(3)malignant brai   8.0      66  0.0086   18.9   2.5   31  279-312     7-37  (43)
+  7 4trh_A SIDC; SNL, ubiquitin, l   1.7 1.4E+03    0.17   19.5  19.3   55  419-473     5-60  (542)
+  8 4ooj_A SIDC, interaptin; novel   1.6 1.5E+03    0.19   19.5  19.5   49  425-473    13-62  (611)
+  9 2gll_A FABZ, (3R)-hydroxymyris   1.0 9.9E+02    0.14   15.6  28.0  150  216-419    11-165 (171)
+ 10 4i83_A 3-hydroxyacyl-[acyl-car   1.0 9.3E+02    0.14   15.2  26.0  136  223-419     5-147 (152)
+ 11 1u1z_A (3R)-hydroxymyristoyl-[   0.8 1.2E+03    0.18   14.9  26.6  143  219-419    13-161 (168)
+ 12 1wlu_A PAAI protein, phenylace   0.7 1.1E+03    0.17   13.9  28.7   98  266-426    21-120 (136)
+ 13 4h4g_A (3R)-hydroxymyristoyl-[   0.6 1.3E+03     0.2   14.2  26.6  146  223-423     7-155 (160)
+ 14 4ien_A Putative acyl-COA hydro   0.6 1.4E+03    0.21   14.0  28.7  135  260-470     8-147 (163)
+ 15 2r7e_A Coagulation factor VIII   0.5 1.5E+03    0.22   18.6   4.4   89  392-488   628-716 (742)
+ 16 4nss_A Mycobacterial protein;    0.5 2.2E+03    0.27   14.5   9.5   48  378-471    69-116 (148)
+ 17 3s4k_A Putative esterase RV184   0.2 2.2E+03    0.33   11.8  30.1  115  252-425    26-142 (144)
+ 18 3e38_A Two-domain protein cont   0.2 3.1E+03    0.46   13.2  37.4  206  202-448    91-343 (343)
+ 19 2q78_A Uncharacterized protein   0.2 3.3E+03    0.47   11.6  31.0  125  249-475    17-143 (153)
+ 20 2v1o_A Cytosolic acyl coenzyme   0.1 2.9E+03    0.44   10.9  35.7  130  268-470     2-139 (151)
+
+No 1  
+>4iib_A Beta-glucosidase 1; TIM barrel, hydrolase, high-mannose N-glycosylations, extrac; HET: NAG BMA MAN; 1.80A {Aspergillus aculeatus} PDB: 4iic_A* 4iid_A* 4iie_A* 4iif_A* 4iig_A* 4iih_A*
+Probab=87.45  E-value=11  Score=37.90  Aligned_cols=49  Identities=18%  Similarity=0.182  Sum_probs=0.0
+
+Q ss_pred             eEEEEeeeeeeeecceeEEEEeecCCccccCC------ceEEEeeeeeEEEEEEEE
+Q A0A0K2SR10      400 VLRVNVQNTGTINADYTMTIINCTGDINPINN------QQVTIKSKEIYSFVFQVY  449 (540)
+Q Consensus       400 ~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~i~~------q~~~i~p~~~~~~~f~i~  449 (540)
+                      .++|+|+|+|.+.+...+++ .=+..-...+.      +++.|+|+|+...+|.|.
+T Consensus       745 ~vsv~V~NtG~~~g~evvql-Y~~~~~~~~p~~~L~gf~kv~l~pge~~~v~~~l~  799 (841)
+T 4iib_A          745 RVSVTVKNTGRVAGDAVPQL-YVSLGGPNEPKVVLRKFDRLTLKPSEETVWTTTLT  799 (841)
+T ss_dssp             EEEEEEEECSSSCEEECCEE-EEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEE
+T ss_pred             EEEEEEEecCCCCCceeeEE-eecCCCCCCChhheeeeeeeecCCCCeEEEEEEEe
+
+
+No 2  
+>4d0j_A Beta-glucosidase; hydrolase, glycoside hydrolase; HET: NAG BMA MAN BGC GLC; 2.20A {Rasamsonia emersonii}
+Probab=79.76  E-value=21  Score=35.44  Aligned_cols=50  Identities=14%  Similarity=0.245  Sum_probs=0.0
+
+Q ss_pred             eEEEEeeeeeeeecceeEEEEeecCCccccCC-----ceEEEeeeeeEEEEEEEE
+Q A0A0K2SR10      400 VLRVNVQNTGTINADYTMTIINCTGDINPINN-----QQVTIKSKEIYSFVFQVY  449 (540)
+Q Consensus       400 ~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~i~~-----q~~~i~p~~~~~~~f~i~  449 (540)
+                      .++|.|+|+|++.+...|++=--...+..-.-     +++.|+|+|+...+|.|.
+T Consensus       759 ~vsv~VtNtG~~~G~evvQlY~~~~~~~~p~k~L~gF~kv~l~pGes~~v~~~l~  813 (857)
+T 4d0j_A          759 RVTTIITNTGKVTGDEVPQLYVSLGGPDDAPKVLRGFDRITLAPGQQYLWTTTLT  813 (857)
+T ss_dssp             EEEEEEEECSSSCEEECCEEEEECCSTTSCSCEEEEECCEEECTTCEEEEEEEEE
+T ss_pred             EEEEEEEeCCCCCCceEEEEEeecCCCCcchhhhhceeccccCCCCEEEEEEEEc
+
+
+No 3  
+>3idu_A Uncharacterized protein; all beta-protein, structural genomics, PSI-2, protein structure initiative; 1.70A {Pyrococcus furiosus} PDB: 2kl6_A 2m8x_A
+Probab=57.03  E-value=19  Score=25.92  Aligned_cols=62  Identities=18%  Similarity=0.164  Sum_probs=0.0
+
+Q ss_pred             eeeeEeeccccccccCceEEEEeeeeeeee-cceeEEEEeecCCccccCCceEEEeeeeeEEEEEEE
+Q A0A0K2SR10      383 KIINYQIDRFESMSKNGVLRVNVQNTGTIN-ADYTMTIINCTGDINPINNQQVTIKSKEIYSFVFQV  448 (540)
+Q Consensus       383 ~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~-a~y~v~v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i  448 (540)
+                      .|. +..|.+-.....-.++|.|.|.|... ..+.|.+..   +=..+..+.+.|+|++...+.|..
+T Consensus        20 ~v~-v~~p~~~~~g~~~~i~v~V~N~G~~~~~~~~v~l~~---~~~~~~~~~v~l~~g~~~tv~f~~   82 (127)
+T 3idu_A           20 TVE-IKGPDVVGVNKLAEYEVHVKNLGGIGVPSTKVRVYI---NGTLYKNWTVSLGPKEEKVLTFNW   82 (127)
+T ss_dssp             EEE-EESCSEECTTCCEEEEEEEEECSSSCEEEEEEEEEE---TTEEEEEEEEEECTTCEEEEEEEE
+T ss_pred             EEE-EeCCCcccCCCEEEEEEEEEECCCCCCCCEEEEEEE---CCEEEEEEEEEECCCCEEEEEEEE
+
+
+No 4  
+>3vta_A Cucumisin; subtilisin-like fold, serine protease, hydrolase; HET: DFP NAG FUC BMA MAN; 2.75A {Cucumis melo}
+Probab=56.38  E-value=50  Score=30.54  Aligned_cols=215  Identities=13%  Similarity=0.112  Sum_probs=78.1
+
+Q ss_pred             cceeeecCCCCCCcchHHHHHHhhhccccccceec---ccccceEEeecCCCCCcceeEEeeccccccCCceecceeeee
+Q A0A0K2SR10      215 TQDIILSNSAPMGMDTFSQAIVRIIGDFQSSTQIN---QFTDKKVVFPYNQPNSINTCMVLDQNFFDLSGLTCNKIGVSY  291 (540)
+Q Consensus       215 ~~~~~l~ps~~~~~~~~~~v~v~ligd~~~~~~~~---~l~~~yL~iP~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy  291 (540)
+                      .......+..+..            ..|......+   ..-.-=+..|-.     .-+--.+...  ..+....  +-.|
+T Consensus       350 ~~~~~~~~~~~~v------------a~fSs~GP~~~~~~~lKPDi~APG~-----~I~sa~~~~~--~~~~~~~--~~~~  408 (621)
+T 3vta_A          350 KSTTILNASAPVV------------VSFSSRGPNRATKDVIKPDISGPGV-----EILAAWPSVA--PVGGIRR--NTLF  408 (621)
+T ss_dssp             CCEEEECTTCCCB------------CTTSCCCSCTTCTTSCSCCEEEECS-----SEEEECCSSS--CBTTBCC--CCSE
+T ss_pred             eeeeecCCCCCeE------------EeccCCCCCCCCCCccCCcccCCCc-----cEEEeecCCC--CcccccC--Ccce
+Confidence            1122222222211            1222222211   111112455522     2222222211  1122111  1112
+
+
+Q ss_pred             eccccCCCchhHhhhhhhhhhhhhhhc--------------ceEEEEecCCCcceeeccccceE----------EEeecc
+Q A0A0K2SR10      292 SAFQNQPNSCAALFGSCLQNQIADYYN--------------ADVALISSGKKGNYIASQLGTKV----------QIAGNQ  347 (540)
+Q Consensus       292 ~aF~~Q~~~C~~~~gSCL~nQl~~~~~--------------~D~~~~~~g~~~~Y~~~~~g~~~----------~~~~~~  347 (540)
+                      ..+  .+-.-..|.=+=+.--|+.++.              ++.  +. .....+-...+|...          ......
+T Consensus       409 ~~~--sGTSmAaP~VAGvaALl~~~~P~~sp~~iks~L~~TA~~--~~-~~~~~~~~~~~G~G~vn~~~Al~~gl~~~~~  483 (621)
+T 3vta_A          409 NII--SGTSMSCPHITGIATYVKTYNPTWSPAAIKSALMTTASP--MN-ARFNPQAEFAYGSGHVNPLKAVRPGLVYDAN  483 (621)
+T ss_dssp             EEE--CSHHHHHHHHHHHHHHHHHHCTTCCHHHHHHHHHHTCBC--CC-TTTCTTTHHHHTTCBCCHHHHSCCSEECCCC
+T ss_pred             EEe--ecccccCHhHHHHHHHHHhhCcCCCHHHHHHHHHhcCcc--cc-ccCCCCCcccCCCceeCHHHhcCCceeecCC
+Confidence            221  2334455544444444444431              111  00 110000000111111          221112
+
+
+Q ss_pred             CcceeEEEeccccc-eEEEEEE------------eccceeeEEeecCceeeeEeeccccccccC--ceEEEEeeeeeeee
+Q A0A0K2SR10      348 DSRSLKIRFDESHR-TMLTITL------------KADSLQYIVNISPGKIINYQIDRFESMSKN--GVLRVNVQNTGTIN  412 (540)
+Q Consensus       348 ~~~~l~~~~~~~~~-s~i~ie~------------~Ad~l~~v~~~s~G~I~~~~i~~fe~~s~~--g~l~v~v~N~G~~~  412 (540)
+                      ...|+.|-.....+ ..+....            ...++.+     |- |.-..     .....  ..++.+|+|.|.-+
+T Consensus       484 ~~dy~~~lc~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~n~-----ps-~~~~~-----~~~~~~~~~~~rtvtnv~~~~  552 (621)
+T 3vta_A          484 ESDYVKFLCGQGYNTQAVRRITGDYSACTSGNTGRVWDLNY-----PS-FGLSV-----SPSQTFNQYFNRTLTSVAPQA  552 (621)
+T ss_dssp             GGGCC-----------------------------CGGGSCC-----SS-EEEEC-----CSSCCEEEEEEEEEEECSSSC
+T ss_pred             hHHHHHhhhcCCCcccceeeeeccccccCCCCCCCcccCCc-----cc-eEeec-----cCCCceeEEEEEEEEecCCCC
+Confidence            22333331111000 0111100            1111111     11 11111     11122  23689999999888
+
+
+Q ss_pred             cceeEEEEeecCCcc-ccCCceEEEee-eeeEEEEEEEEeecccCCcccchhhhhHHHHHhheeEEEeeccCc
+Q A0A0K2SR10      413 ADYTMTIINCTGDIN-PINNQQVTIKS-KEIYSFVFQVYTTSKLDSSYHCFGDLYNEVAQVIDSIRINFNTSD  483 (540)
+Q Consensus       413 a~y~v~v~~Cs~~i~-~i~~q~~~i~p-~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~~ld~~~~~f~t~~  483 (540)
+                      +.|++.+ ..+.++. .+....+++.+ +++..|++.+.... . ..              .-.-.+.|.-..
+T Consensus       553 ~~y~~~~-~~~~~~~~~v~p~~~~~~~~~~~~~~~v~~~~~~-~-~~--------------~~~g~~~w~~~~  608 (621)
+T 3vta_A          553 STYRAMI-SAPQGLTISVNPNVLSFNGLGDRKSFTLTVRGSI-K-GF--------------VVSASLVWSDGV  608 (621)
+T ss_dssp             EEEEEEE-ECCSSEEEEEESSEEEECSTTCEEEEEEEEEECC-C-SS--------------EEEEEEEEECSS
+T ss_pred             cEEEEEE-EecCCcEEEeccceEEeccCCcEEEEEEEEEEee-c-CC--------------eeEEEEEEECCC
+Confidence            8999999 7676653 24557788887 89999999888632 2 11              235667774311
+
+
+No 5  
+>2ys4_A Hydrocephalus-inducing protein homolog; hydin, PAPD-like, NPPSFA, national project on protein structural and functional analyses; NMR {Homo sapiens}
+Probab=16.87  E-value=87  Score=20.91  Aligned_cols=78  Identities=12%  Similarity=0.093  Sum_probs=38.5
+
+Q ss_pred             eEeeccccccccCceEEEEeeeeeeeecceeEEEEeecCCccccCCceEEEeeeeeEEEEEEEEeecccCCcccchhhhh
+Q A0A0K2SR10      386 NYQIDRFESMSKNGVLRVNVQNTGTINADYTMTIINCTGDINPINNQQVTIKSKEIYSFVFQVYTTSKLDSSYHCFGDLY  465 (540)
+Q Consensus       386 ~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~L~  465 (540)
+                      .+....++ ....-...+.++|.|.....|...   + .....+......|+|+++..+.+.....  ..+.+.      
+T Consensus        31 ~i~fg~~~-~~~~~~~~~~i~N~g~~~~~~~~~---~-~~~f~i~p~~g~l~~~~~~~i~v~f~p~--~~~~~~------   97 (122)
+T 2ys4_A           31 KLNFSTCP-VKYSTQKILLVRNIGNKNAVFHIK---T-CRPFSIEPAIGTLNVGESMQLEVEFEPQ--SVGDHS------   97 (122)
+T ss_dssp             EECCCSEE-SSSCEEEEEEEECCSSSCEEEEEE---C-CTTEEEESSEEEECTTCEEEEEEEECCS--SSBCCC------
+T ss_pred             eEEECCeE-cCCEEEEEEEEEeCCCCcEEEEEe---c-CCCeEEECCeEEECCCCEEEEEEEEEcC--CcCcEE------
+Confidence            11111111 122334688888988777776653   2 2333445567788888888888877632  111111      
+
+
+Q ss_pred             HHHHHhheeEEEeeccCc
+Q A0A0K2SR10      466 NEVAQVIDSIRINFNTSD  483 (540)
+Q Consensus       466 ds~~~~ld~~~~~f~t~~  483 (540)
+                             +...+......
+T Consensus        98 -------~~~~~~~~~~~  108 (122)
+T 2ys4_A           98 -------GRLIVCYDTGE  108 (122)
+T ss_dssp             -------CBCEEEESSSC
+T ss_pred             -------EEEEEEECCCC
+Confidence                   11122222111
+
+
+No 6  
+>2w0t_A Lethal(3)malignant brain tumor-like 2 protein; zinc, YACG, LMBL2, nucleus, zinc-finger, RNA binding, MBT repeats, PCG proteins, polymorphism; NMR {Homo sapiens}
+Probab=7.96  E-value=66  Score=18.92  Aligned_cols=31  Identities=16%  Similarity=0.360  Sum_probs=17.4
+
+Q ss_pred             cCCceecceeeeeeccccCCCchhHhhhhhhhhh
+Q A0A0K2SR10      279 LSGLTCNKIGVSYSAFQNQPNSCAALFGSCLQNQ  312 (540)
+Q Consensus       279 l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQ  312 (540)
+                      +.-.-|.|+|+--..|.....||+..   |-+.-
+T Consensus         7 ~kCe~CGk~~~~~~f~~ksKRFCS~~---Cak~y   37 (43)
+T 2w0t_A            7 AVCEMCGIVGTREAFFSKTKRFCSVS---CSRSY   37 (43)
+T ss_dssp             EECTTTCCEEETTTSCTTTSSSSSHH---HHHHH
+T ss_pred             ceeccCCCccccccccCCcCCcccch---hcCcc
+Confidence            11233667775444456788999874   43321
+
+
+No 7  
+>4trh_A SIDC; SNL, ubiquitin, ligase; 2.03A {Legionella pneumophila} PDB: 4trg_A
+Probab=1.71  E-value=1.4e+03  Score=19.54  Aligned_cols=55  Identities=4%  Similarity=0.050  Sum_probs=34.5
+
+Q ss_pred             EEeecCCccccCCceEEEeeeeeEEEEEEEEeecccCCcccchhhh-hHHHHHhhe
+Q A0A0K2SR10      419 IINCTGDINPINNQQVTIKSKEIYSFVFQVYTTSKLDSSYHCFGDL-YNEVAQVID  473 (540)
+Q Consensus       419 v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~L-~ds~~~~ld  473 (540)
+                      +.+--.---|...+.+.|.|...+-+-.+|...+..+.+..|..+. +-..+--..
+T Consensus         5 m~~~ipfkEP~~~rYlyI~p~N~VHllmPIV~G~EIglDNTCkav~~L~eFF~~~~   60 (542)
+T 4trh_A            5 MVDVIKFKEPERCDYLYVDENNKVHILLPIVGGDEIGLDNTCQTAVELITFFYGSA   60 (542)
+T ss_dssp             ---CCCCCSCSCCTTEEECTTSCEEEEEEEEEBSSBBSCCGGGTTHHHHHHHHCEE
+T ss_pred             cccccccCCCCCCceEEECCCCeEEEEeeeccCccccccchHHHHHHHHHHhCCCC
+Confidence            1111111236778999999987788889999888999999998653 111111111
+
+
+No 8  
+>4ooj_A SIDC, interaptin; novel fold, legionella effector, legionella containing vacuo pathogen interaction, unknown function; 2.40A {Legionella pneumophila} PDB: 4pay_A*
+Probab=1.56  E-value=1.5e+03  Score=19.50  Aligned_cols=49  Identities=4%  Similarity=0.014  Sum_probs=34.4
+
+Q ss_pred             CccccCCceEEEeeeeeEEEEEEEEeecccCCcccchhhh-hHHHHHhhe
+Q A0A0K2SR10      425 DINPINNQQVTIKSKEIYSFVFQVYTTSKLDSSYHCFGDL-YNEVAQVID  473 (540)
+Q Consensus       425 ~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~L-~ds~~~~ld  473 (540)
+                      ---|...+.+.|.|...+.+-.+|...+..+.+..|..+. +-..+--..
+T Consensus        13 fkEP~~prYLyI~p~N~VHlLmPIV~G~EIGlDNTCKav~~L~eFF~g~~   62 (611)
+T 4ooj_A           13 FKEPERCDYLYVDENNKVHILLPIVGGDEIGLDNTCQTAVELITFFYGSA   62 (611)
+T ss_dssp             CCCCSCCTTEEECTTCCEEEEEEEEESSSBCSCCGGGTTHHHHHHHHCEE
+T ss_pred             cCCCCCCceEEECCCCeEEEEeeeccCccccccchHHHHHHHHHHhCCCC
+Confidence            1237788999999987788889999888999999998654 222221111
+
+
+No 9  
+>2gll_A FABZ, (3R)-hydroxymyristoyl-acyl carrier protein dehydratase; lyase; 2.20A {Helicobacter pylori} PDB: 2glm_A* 2glp_A* 2glv_A 3dp1_A* 3cf8_A* 3cf9_A* 3d04_A* 3doy_A* 3doz_A* 3dp0_A* 3b7j_A* 3dp2_A* 3dp3_A* 3ed0_A*
+Probab=1.05  E-value=9.9e+02  Score=15.60  Aligned_cols=150  Identities=13%  Similarity=0.105  Sum_probs=26.3
+
+Q ss_pred             ceeeecCCC-CCCcchHHHHHHhhhccccccceecccccceEEeecCCCCCcceeEEeeccccccCCceecceeeeee-c
+Q A0A0K2SR10      216 QDIILSNSA-PMGMDTFSQAIVRIIGDFQSSTQINQFTDKKVVFPYNQPNSINTCMVLDQNFFDLSGLTCNKIGVSYS-A  293 (540)
+Q Consensus       216 ~~~~l~ps~-~~~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~-a  293 (540)
+                      ..+.-+.++ +...+.. .+ .+++-    ...+--|-|..+-+-.  .....-...++.+..-            +. .
+T Consensus        11 ~~~~~~~~~~~~~~~~~-~i-~~~lP----h~~p~llvD~v~~~~~--~~~i~a~~~i~~~~~~------------~~gh   70 (171)
+T 2gll_A           11 GSMEQSHQNLQSQFFIE-HI-LQILP----HRYPMLLVDRITELQA--NQKIVAYKNITFNEDV------------FNGH   70 (171)
+T ss_dssp             ---------CCSCEEHH-HH-HHHCC----CCTTSCCCCEEEEEET--TTEEEEEEECCSCSTH------------HHHS
+T ss_pred             cchhhcccCCCCcCCHH-HH-HHhCC----CcccceeeEEEEEEcC--CCEEEEEEEeCCCCCe------------EccC
+Confidence            112222333 3344433 33 34422    1111112233333331  0001111112111110            00 0
+
+
+Q ss_pred             cccC---CCchhHhhhhhhhhhhhhhhcceEEEEecCCCcceeeccccceEEEeeccCcceeEEEeccccceEEEEEEec
+Q A0A0K2SR10      294 FQNQ---PNSCAALFGSCLQNQIADYYNADVALISSGKKGNYIASQLGTKVQIAGNQDSRSLKIRFDESHRTMLTITLKA  370 (540)
+Q Consensus       294 F~~Q---~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~~~~~g~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~A  370 (540)
+                      |-..   |+.....    +-.|..-++..-   ...+..    ....+...           .+-     .....+    
+T Consensus        71 fp~~~i~PG~lliE----~~aQ~~~~~~~~---~~~~~~----~~~~~~~~-----------~~l-----~~~~~v----  119 (171)
+T 2gll_A           71 FPNKPIFPGVLIVE----GMAQSGGFLAFT---SLWGFD----PEIAKTKI-----------VYF-----MTIDKV----  119 (171)
+T ss_dssp             CTTSCCCCHHHHHH----HHHHHHHHHHHH---HHHCSC----HHHHTTEE-----------EEE-----EEEEEE----
+T ss_pred             CCCCcCCchHHHHH----HHHHHHHHHHhh---hccccc----cccccCce-----------eEE-----eeeeEE----
+Confidence            1111   1111111    112221111000   000000    00000000           000     001122    
+
+
+Q ss_pred             cceeeEEeecCceeeeEeeccccccccCceEEEEeeeeeeeecceeEEE
+Q A0A0K2SR10      371 DSLQYIVNISPGKIINYQIDRFESMSKNGVLRVNVQNTGTINADYTMTI  419 (540)
+Q Consensus       371 d~l~~v~~~s~G~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~v  419 (540)
+                         +|..+.-||..+.+.+.--+.......+.+.+.+.|.+-+.-.+.+
+T Consensus       120 ---~f~~~v~pGd~L~i~~~v~~~~~~~~~~~~~i~~~g~~v~~~~~~~  165 (171)
+T 2gll_A          120 ---KFRIPVTPGDRLEYHLEVLKHKGMIWQVGGTAQVDGKVVAEAELKA  165 (171)
+T ss_dssp             ---EECSCCCTTCEEEEEEEEEEESSSEEEEEEEEEETTEEEEEEEEEE
+T ss_pred             ---EEeeeEcCCCEEEEEEEEEEeeCCEEEEEEEEEECCEEEEEEEEEE
+Confidence               1211223444433322100000000011222222222111111111
+
+
+No 10 
+>4i83_A 3-hydroxyacyl-[acyl-carrier-protein] dehydratase; FABZ, hot DOG fold, thioesterase, lyase; 2.60A {Neisseria meningitidis}
+Probab=1.03  E-value=9.3e+02  Score=15.23  Aligned_cols=136  Identities=10%  Similarity=0.075  Sum_probs=37.1
+
+Q ss_pred             CCCCCcchHHHHHHhhhccccccceecccccceEEeecCCCCCcceeEEeeccccccCCceecceeeeeeccccCC---C
+Q A0A0K2SR10      223 SAPMGMDTFSQAIVRIIGDFQSSTQINQFTDKKVVFPYNQPNSINTCMVLDQNFFDLSGLTCNKIGVSYSAFQNQP---N  299 (540)
+Q Consensus       223 s~~~~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~---~  299 (540)
+                      +.....+ -..|. +++    +...+--+-+..+-+..  .+...-.+-++.++.-++|.           |...+   +
+T Consensus         5 ~~~~~~~-~~~i~-~~l----~~~~~~~~vd~v~~~~~--~~~~~~~~~i~~~~~~~~~h-----------f~~~~~~pG   65 (152)
+T 4i83_A            5 DVQLPIE-AKDIQ-KLI----PHRYPFLQLDRITAFEP--MKTLTAIKNVSINEPQFQGH-----------FPDLPVMPG   65 (152)
+T ss_dssp             -CCSSEE-HHHHH-HHC----CCCTTSCCCCEEEEEET--TTEEEEEEECCSSSGGGGTS-----------CTTSCCCCH
+T ss_pred             eeeccCC-HHHHH-hhC----CCCCCceEEEEEEEEcC--CCEEEEEEecCCCcchhcCC-----------CCCCccccH
+Confidence            1112222 23333 332    22222234566666662  11133344555554422222           22111   1
+
+
+Q ss_pred             chhHhhhhhhhhhhhhh----hcceEEEEecCCCcceeeccccceEEEeeccCcceeEEEeccccceEEEEEEeccceee
+Q A0A0K2SR10      300 SCAALFGSCLQNQIADY----YNADVALISSGKKGNYIASQLGTKVQIAGNQDSRSLKIRFDESHRTMLTITLKADSLQY  375 (540)
+Q Consensus       300 ~C~~~~gSCL~nQl~~~----~~~D~~~~~~g~~~~Y~~~~~g~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~l~~  375 (540)
+                      .+...    +-.|+.-.    .....    ......+..       ..      ..+.|.-.-.....|+++...     
+T Consensus        66 ~~~~e----~~~q~~~~~~~~~~~~~----~~~~~~~~~-------~~------~~~~f~~~v~~g~~l~~~~~v-----  119 (152)
+T 4i83_A           66 VLIIE----AMAQACGTLAILSEGGR----KENEFFFFA-------GI------DEARFKRQVIPGDQLVFEVEL-----  119 (152)
+T ss_dssp             HHHHH----HHHHHHHHHHHHHTTCC----TTTCCCEEE-------EE------CSEEECSCCCTTCEEEEEEEE-----
+T ss_pred             HHHHH----HHHHHHHHHHhhccCCC----CCCceEEEe-------ee------eEEEEcceeCCCCEEEEEEEE-----
+Confidence            22221    11222211    11100    011112221       11      002221011112233333321     
+
+
+Q ss_pred             EEeecCceeeeEeeccccccccCceEEEEeeeeeeeecceeEEE
+Q A0A0K2SR10      376 IVNISPGKIINYQIDRFESMSKNGVLRVNVQNTGTINADYTMTI  419 (540)
+Q Consensus       376 v~~~s~G~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~v  419 (540)
+                      ....  +.+.              .+.+.+.|.|.+-+.-...+
+T Consensus       120 ~~~~--~~~~--------------~~~~~~~~~g~~va~~~~~~  147 (152)
+T 4i83_A          120 LTSR--RGIG--------------KFNAVAKVDGQVAVEAIIMC  147 (152)
+T ss_dssp             EEEE--TTEE--------------EEEEEEEETTEEEEEEEEEE
+T ss_pred             EEcc--CCEE--------------EEEEEEEECCEEEEEEEEEE
+Confidence            0000  1111              12333333333333333222
+
+
+No 11 
+>1u1z_A (3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase; fatty acid biosynthesis, hot DOG fold, lyase; 2.50A {Pseudomonas aeruginosa} SCOP: d.38.1.6
+Probab=0.75  E-value=1.2e+03  Score=14.87  Aligned_cols=143  Identities=10%  Similarity=0.058  Sum_probs=32.4
+
+Q ss_pred             eecCCCCCCcchHHHHHHhhhccccccceecccccceEEeecCCCCCcceeEEeeccccccCCceecceeeeeeccccC-
+Q A0A0K2SR10      219 ILSNSAPMGMDTFSQAIVRIIGDFQSSTQINQFTDKKVVFPYNQPNSINTCMVLDQNFFDLSGLTCNKIGVSYSAFQNQ-  297 (540)
+Q Consensus       219 ~l~ps~~~~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q-  297 (540)
+                      -|-|.-....+. ..     +.++.|...+=-|-+..+-+.... +...--.-++.+..-..|           .|... 
+T Consensus        13 ~~~~~~~~~~~~-~~-----i~~~lph~~p~~lvd~i~~~~~~g-~~~~~~~~i~~d~~f~~~-----------hf~~~~   74 (168)
+T 1u1z_A           13 GLVPRGSHMMDI-NE-----IREYLPHRYPFLLVDRVVELDIEG-KRIRAYKNVSINEPFFNG-----------HFPEHP   74 (168)
+T ss_dssp             --------CBCH-HH-----HTTTCCCCTTSCCCCEEEEEETTT-TEEEEEEECCTTSTTGGG-----------SCTTSC
+T ss_pred             ccccccccccCH-HH-----HhhcCCCCCCeeEEEEEEEEecCC-CEEEEEEeecCCCCeEcC-----------cCCCCC
+Confidence            112222222232 22     234445333223556666665321 111111233333221111           02112 
+
+
+Q ss_pred             --CCchhH---hhhhhhhhhhhhhhcceEEEEecCCCcceeeccccceEEEeeccCcceeEEEeccccceEEEEEEeccc
+Q A0A0K2SR10      298 --PNSCAA---LFGSCLQNQIADYYNADVALISSGKKGNYIASQLGTKVQIAGNQDSRSLKIRFDESHRTMLTITLKADS  372 (540)
+Q Consensus       298 --~~~C~~---~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~~~~~g~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~  372 (540)
+                        |+.+..   .+-..+.  .......      ...        .|.....          +.       ...+      
+T Consensus        75 i~pG~~~~E~~aq~~~~~--~~~~~~~------~~~--------~g~~~~~----------~~-------~~~~------  115 (168)
+T 1u1z_A           75 IMPGVLIIEAMAQAAGIL--GFKMLDV------KPA--------DGTLYYF----------VG-------SDKL------  115 (168)
+T ss_dssp             CCCHHHHHHHHHHHHHHH--HHHHHTC------CC-----------CEEEE----------EE-------EEEE------
+T ss_pred             CCChhHHHHHHHHHHHHH--Hhhcccc------ccC--------CCcEEEe----------ee-------eeEE------
+Confidence              212322   2212221  1222221      000        0000000          00       1111      
+
+
+Q ss_pred             eeeEEeecCceeeeEeeccccccccCceEEEEeeeeeeeecceeEEE
+Q A0A0K2SR10      373 LQYIVNISPGKIINYQIDRFESMSKNGVLRVNVQNTGTINADYTMTI  419 (540)
+Q Consensus       373 l~~v~~~s~G~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~v  419 (540)
+                       +|....-||.-+.+.+.--+.......+.+.+.|.|..-+...+.+
+T Consensus       116 -~f~~~v~pGd~l~~~~~v~~~~~~~~~~~~~v~~~g~~v~~g~~~~  161 (168)
+T 1u1z_A          116 -RFRQPVLPGDQLQLHAKFISVKRSIWKFDCHATVDDKPVCSAEIIC  161 (168)
+T ss_dssp             -EECSCCCTTCEEEEEEEEEEEETTEEEEEEEEEETTEEEEEEEEEE
+T ss_pred             -EECCcCcCCCEEEEEEEEEEccCCEEEEEEEEEECCEEEEEEEEEE
+Confidence             1111122332222221000000000112222233222222222221
+
+
+No 12 
+>1wlu_A PAAI protein, phenylacetic acid degradation protein PAAI; thioesterase, hot DOG fold, S genomics; 1.45A {Thermus thermophilus HB8} SCOP: d.38.1.5 PDB: 1j1y_A 1wlv_A* 1wm6_A 1wn3_A* 2dsl_A
+Probab=0.68  E-value=1.1e+03  Score=13.94  Aligned_cols=98  Identities=18%  Similarity=0.160  Sum_probs=29.3
+
+Q ss_pred             cceeEEeeccccccCCceecceeeeeeccccCCCchhHhhhhhhhhhhhhhhcceEEEEecCCCcceeeccccceEEEee
+Q A0A0K2SR10      266 INTCMVLDQNFFDLSGLTCNKIGVSYSAFQNQPNSCAALFGSCLQNQIADYYNADVALISSGKKGNYIASQLGTKVQIAG  345 (540)
+Q Consensus       266 ~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~~~~~g~~~~~~~  345 (540)
+                      ..--+-++..+.+..|.      +       .++....-...+..    .+...       +  ...        ...  
+T Consensus        21 ~~~~~~v~~~~~~~~g~------~-------~gg~~~~~~~~~~~----~~~~~-------~--~~~--------~~~--   64 (136)
+T 1wlu_A           21 AVVAGEVRADHLNLHGT------A-------HGGFLYALADSAFA----LASNT-------R--GPA--------VAL--   64 (136)
+T ss_dssp             EEEEEECCGGGBCTTSS------B-------CHHHHHHHHHHHHH----HHHHT-------T--SCE--------EEE--
+T ss_pred             EEEEEECCHHHCCcCCc------c-------hHHHHHHHHHHHHH----HHhcc-------C--CCe--------EEE--
+Confidence            11112232332221111      0       00012222222222    22111       1  011        111  
+
+
+Q ss_pred             ccCcceeEEEecccc--ceEEEEEEeccceeeEEeecCceeeeEeeccccccccCceEEEEeeeeeeeecceeEEEEeec
+Q A0A0K2SR10      346 NQDSRSLKIRFDESH--RTMLTITLKADSLQYIVNISPGKIINYQIDRFESMSKNGVLRVNVQNTGTINADYTMTIINCT  423 (540)
+Q Consensus       346 ~~~~~~l~~~~~~~~--~s~i~ie~~Ad~l~~v~~~s~G~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~v~~Cs  423 (540)
+                           .+.+.+..+.  ...+.++..              ++..       ..+...+.+.+.|.|.+-+.-...+ .+.
+T Consensus        65 -----~~~i~y~~p~~~g~~~~~~~~--------------v~~~-------~~~~~~~~~~i~~~~~~~a~~~~~~-~~~  117 (136)
+T 1wlu_A           65 -----SCRMDYFRPLGAGARVEARAV--------------EVNL-------SRRTATYRVEVVSEGKLVALFTGTV-FRL  117 (136)
+T ss_dssp             -----EEEEEECSCCCTTCEEEEEEE--------------EEEE-------CSSEEEEEEEEEETTEEEEEEEEEE-EEC
+T ss_pred             -----EEEEEEEcccCCCCEEEEEEE--------------EEEC-------CCcEEEEEEEEEECCEEEEEEEEEE-EEe
+Confidence                 0222222221  123333221              1111       1122234666667677666666666 444
+
+
+Q ss_pred             CCc
+Q A0A0K2SR10      424 GDI  426 (540)
+Q Consensus       424 ~~i  426 (540)
+                      +.-
+T Consensus       118 ~~~  120 (136)
+T 1wlu_A          118 GGD  120 (136)
+T ss_dssp             ---
+T ss_pred             CCC
+Confidence            321
+
+
+No 13 
+>4h4g_A (3R)-hydroxymyristoyl-[acyl-carrier-protein] DEHY; structural genomics, niaid, national institute of allergy AN infectious diseases; 2.65A {Burkholderia thailandensis}
+Probab=0.60  E-value=1.3e+03  Score=14.15  Aligned_cols=146  Identities=12%  Similarity=0.064  Sum_probs=38.1
+
+Q ss_pred             CCCCCcchHHHHHHhhhccccccceecccccceEEeecCCCCCcceeEEeeccccccCCceecceeeeeeccccCC---C
+Q A0A0K2SR10      223 SAPMGMDTFSQAIVRIIGDFQSSTQINQFTDKKVVFPYNQPNSINTCMVLDQNFFDLSGLTCNKIGVSYSAFQNQP---N  299 (540)
+Q Consensus       223 s~~~~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~---~  299 (540)
+                      +++...-+..++ .+++---.+.    -+-++.+-+..  .....-...++.++.-..|.           |-..+   +
+T Consensus         7 ~~~~~~~~~~~i-~~~lph~~~~----~~vd~i~~~~~--~~~~~~~~~v~~d~~~~~~h-----------fp~~~i~pG   68 (160)
+T 4h4g_A            7 STEKINFDIHKI-LTLLPHRYPI----LLVDRVLELEP--HKSIKALKNVTVNEPFFTGH-----------FPKRPVMPG   68 (160)
+T ss_dssp             ------CCHHHH-HHHCCCCTTS----CCCCEEEEEET--TTEEEEEEECCTTSGGGGTS-----------CTTSCCCCH
+T ss_pred             ccccCcCCHHHH-HHhCCCCCce----eEEEEEEEEcC--CCEEEEEEeCCCCcchhcCC-----------CCcCCcCcH
+Confidence            111111123333 4553222211    24566777662  11123334455554433222           22122   2
+
+
+Q ss_pred             chhHhhhhhhhhhhhhhhcceEEEEecCCCcceeeccccceEEEeeccCcceeEEEeccccceEEEEEEeccceeeEEee
+Q A0A0K2SR10      300 SCAALFGSCLQNQIADYYNADVALISSGKKGNYIASQLGTKVQIAGNQDSRSLKIRFDESHRTMLTITLKADSLQYIVNI  379 (540)
+Q Consensus       300 ~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~~~~~g~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~l~~v~~~  379 (540)
+                      .+-...-.-+--... .+..+.. ...+  ....+      ...        ..+.                   |....
+T Consensus        69 ~~l~e~~~q~~~~~~-~~~~~~~-~~~~--~~~~~------~~~--------~~~~-------------------f~~~v  111 (160)
+T 4h4g_A           69 VLIIEALAQAAALLT-FAEAEPK-DPEN--TLYYF------VGI--------DNAR-------------------FKRVV  111 (160)
+T ss_dssp             HHHHHHHHHHHHHHH-HTTC-----------CEEE------EEE--------EEEE-------------------ECSCC
+T ss_pred             HHHHHHHHHHHHHHH-hhccccc-CccC--ceEEE------Eee--------eEEE-------------------EccCC
+Confidence            222221111111111 2221110 0000  11110      000        1111                   11112
+
+
+Q ss_pred             cCceeeeEeeccccccccCceEEEEeeeeeeeecceeEEEEeec
+Q A0A0K2SR10      380 SPGKIINYQIDRFESMSKNGVLRVNVQNTGTINADYTMTIINCT  423 (540)
+Q Consensus       380 s~G~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~v~~Cs  423 (540)
+                      .||..+.+.+.--+.......+.+.+.|.|.+-+...+.+.--.
+T Consensus       112 ~~gd~l~~~~~v~~~~~~~~~~~~~~~~~g~~va~~~~~~~~~~  155 (160)
+T 4h4g_A          112 EPGDQLILNVTFERYIRGIWKFKAVAEVDGKVAAEAELMCTVKT  155 (160)
+T ss_dssp             CTTCEEEEEEEEEEEETTEEEEEEEEEETTEEEEEEEEEEEECC
+T ss_pred             CCCCEEEEEEEEEEecCCEEEEEEEEEECCEEEEEEEEEEEEec
+Confidence            23322222110000000111234444444444444444332111
+
+
+No 14 
+>4ien_A Putative acyl-COA hydrolase; hot DOG fold; HET: COA GDP; 2.00A {Neisseria meningitidis}
+Probab=0.57  E-value=1.4e+03  Score=14.04  Aligned_cols=135  Identities=10%  Similarity=0.099  Sum_probs=28.1
+
+Q ss_pred             cCCCCC-cceeEEeeccccccCCceecceeeeeeccccCCCchhHhhhhhhhhhhhhhhcceEEEEecCCCcceeecccc
+Q A0A0K2SR10      260 YNQPNS-INTCMVLDQNFFDLSGLTCNKIGVSYSAFQNQPNSCAALFGSCLQNQIADYYNADVALISSGKKGNYIASQLG  338 (540)
+Q Consensus       260 ~~~~~~-~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~~~~~g  338 (540)
+                      .....+ ...-+-+...+.|..|.              =.+......-............        |.  ...     
+T Consensus         8 ~~~~~~~~~~~~~v~~~~~d~~g~--------------~~~g~~~~~~~~~~~~~~~~~~--------~~--~~v-----   58 (163)
+T 4ien_A            8 RQLPSHELIMSELMMPDTANFSGN--------------VHGGELLLLLDQVAYSCASRYS--------GN--YCV-----   58 (163)
+T ss_dssp             CCCCTTEEEEEEECCGGGBCTTSB--------------BCHHHHHHHHHHHHHHHHHHHH--------TS--CEE-----
+T ss_pred             ccCCCceEEEEEEechHHCCCCCc--------------CcHHHHHHHHHHHHHHHHHHHc--------CC--ceE-----
+Confidence            111111 11113333333332221              0011222111111111111110        10  000     
+
+
+Q ss_pred             ceEEEeeccCcceeEEEeccccceEEEEEEeccceeeEEeecCceeeeEeeccccccccCceEEEEeeeeeeeecceeEE
+Q A0A0K2SR10      339 TKVQIAGNQDSRSLKIRFDESHRTMLTITLKADSLQYIVNISPGKIINYQIDRFESMSKNGVLRVNVQNTGTINADYTMT  418 (540)
+Q Consensus       339 ~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~l~~v~~~s~G~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~  418 (540)
+                         ..       .+.                  ++.|+.+..+|..+.+..            .|.-.+.-.  ..+.+.
+T Consensus        59 ---~~-------~~~------------------~i~~~~pv~~gd~l~~~~------------~v~~~~~~~--~~~~~~   96 (163)
+T 4ien_A           59 ---TL-------SVD------------------KVLFKEPIHIGDLVTFYA------------AVNYTGRTS--MEIGIR   96 (163)
+T ss_dssp             ---EE-------EEE------------------CEECCSCCBTTCEEEEEE------------EEEEECSSE--EEEEEE
+T ss_pred             ---EE-------Eec------------------cEEEeccccCCCEEEEEE------------EEEEecCCE--EEEEEE
+Confidence               00       012                  112222223343333321            111111111  111122
+
+
+Q ss_pred             EEeecCCccccCCceEEEeeeeeEEEEEEEE--eecccCCcccc-h-hhhhHHHHH
+Q A0A0K2SR10      419 IINCTGDINPINNQQVTIKSKEIYSFVFQVY--TTSKLDSSYHC-F-GDLYNEVAQ  470 (540)
+Q Consensus       419 v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~--~~~~~~~~~~C-~-v~L~ds~~~  470 (540)
+                      + ...+.   -..+...+.-.+.....++ .  ........... . ..|+..-++
+T Consensus        97 i-~~~~~---~~g~~~~~a~~~~~~v~~d-~~~~~~~p~~~~~~~~~~~~~~~~~~  147 (163)
+T 4ien_A           97 V-EAQNI---RTGEIRHTNSCYFTMVAVK-DGKPVPVPPLEILTDRQRCRYEKAKK  147 (163)
+T ss_dssp             E-EEECT---TTCCEEEEEEEEEEEEEEE-TTEECCCCCCCCCSHHHHHHHHHHHH
+T ss_pred             E-EEecC---CCCceEEEEEEEEEEEEeC-CCCccccCccccCCHHHHHHHHHHHH
+Confidence            2 11110   0123222222223333333 1  11112222222 1 112222111
+
+
+No 15 
+>2r7e_A Coagulation factor VIII; ceruloplasmin fold, cupper protein fold, C2 domain fold, ACU blood coagulation, disease mutation, glycoprotein; HET: NAG BMA MAN; 3.70A {Homo sapiens} PDB: 4bdv_A* 3cdz_A* 3j2q_A*
+Probab=0.53  E-value=1.5e+03  Score=18.58  Aligned_cols=89  Identities=7%  Similarity=-0.008  Sum_probs=38.9
+
+Q ss_pred             ccccccCceEEEEeeeeeeeecceeEEEEeecCCccccCCceEEEeeeeeEEEEEEEEeecccCCcccchhhhhHHHHHh
+Q A0A0K2SR10      392 FESMSKNGVLRVNVQNTGTINADYTMTIINCTGDINPINNQQVTIKSKEIYSFVFQVYTTSKLDSSYHCFGDLYNEVAQV  471 (540)
+Q Consensus       392 fe~~s~~g~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~~  471 (540)
+                      +.. .....+.+.+.|.|.-.....+.+..=.-.+.+.....+.|.|++...+.+..  ...-.-...|.+.-.-..|-.
+T Consensus       628 l~~-~~G~~vr~rliN~g~~~~~h~~hlhG~~~~v~~~~~d~v~l~pg~~~~v~v~~--~~pG~~~~~ch~~~h~~~GM~  704 (742)
+T 2r7e_A          628 LSV-CLHEVAYWYILSIGAQTDFLSVFFSGYTFKHKMVYEDTLTLFPFSGETVFMSM--ENPGLWILGCHNSDFRNRGMT  704 (742)
+T ss_dssp             CCC-CSSCCCEEEEEECSSCCCCCCCEESSSCCCCBSSSBCSSCCCCCSSEECCEEC--CCCCCSCCEECCCSTTHHHHS
+T ss_pred             cee-cCCCEEEEEEEeCCCCccceeeEEcCcEEEecCceeeeEEECCCcEEEEEEEC--CCCEEEEEEECCChhhhcCCE
+Confidence            111 12223467777777654445555522222233334445557777776554432  111222356876655455532
+
+
+Q ss_pred             heeEEEeeccCcccccC
+Q A0A0K2SR10      472 IDSIRINFNTSDTEIDN  488 (540)
+Q Consensus       472 ld~~~~~f~t~~t~~~~  488 (540)
+                      .     .|.........
+T Consensus       705 ~-----~~~V~~~~~~~  716 (742)
+T 2r7e_A          705 A-----LLKVSSCDKNT  716 (742)
+T ss_dssp             C-----CCCCCCCCCCC
+T ss_pred             E-----EEEEecCCCCc
+Confidence            2     12222111111
+
+
+No 16 
+>4nss_A Mycobacterial protein; mycobacterial surviVal, unknown function; 2.40A {Mycobacterium smegmatis}
+Probab=0.47  E-value=2.2e+03  Score=14.54  Aligned_cols=48  Identities=10%  Similarity=0.209  Sum_probs=21.5
+
+Q ss_pred             eecCceeeeEeeccccccccCceEEEEeeeeeeeecceeEEEEeecCCccccCCceEEEeeeeeEEEEEEEEeecccCCc
+Q A0A0K2SR10      378 NISPGKIINYQIDRFESMSKNGVLRVNVQNTGTINADYTMTIINCTGDINPINNQQVTIKSKEIYSFVFQVYTTSKLDSS  457 (540)
+Q Consensus       378 ~~s~G~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~  457 (540)
+                      .+.||.-+++.||-|-+                        | +|-.+-..-..                     ..-..
+T Consensus        69 ~~aPG~sVEVRVPPf~A------------------------V-Qci~GP~HtRG---------------------TPPNV  102 (148)
+T 4nss_A           69 AVAPGASVEVRVPPFVA------------------------V-QCISGPKHTRG---------------------TPPNV  102 (148)
+T ss_dssp             HHSCSSSEEEEETTTEE------------------------E-EESCC-----C---------------------CCSEE
+T ss_pred             HhCCCCceEEecCCcee------------------------e-EecccCCCCCC---------------------CCCCe
+Confidence            13699999999998844                        4 77654321000                     00011
+
+
+Q ss_pred             ccchhhhhHHHHHh
+Q A0A0K2SR10      458 YHCFGDLYNEVAQV  471 (540)
+Q Consensus       458 ~~C~v~L~ds~~~~  471 (540)
+                      .++....|=....=
+T Consensus       103 VEtdp~tWL~LAtG  116 (148)
+T 4nss_A          103 VETDARTWLLLATG  116 (148)
+T ss_dssp             EECCHHHHHHHHHT
+T ss_pred             EEeCHHHHHHHHhC
+Confidence            12233333333311
+
+
+No 17 
+>3s4k_A Putative esterase RV1847/MT1895; seattle structural genomics center for infectious disease, S hydrolase; 1.70A {Mycobacterium tuberculosis}
+Probab=0.24  E-value=2.2e+03  Score=11.82  Aligned_cols=115  Identities=10%  Similarity=0.065  Sum_probs=31.2
+
+Q ss_pred             ccceEEeecCCCCCcceeEEeeccccccCCceecceeeeeeccccCCCchhHhhhhhhhhhhhhhhcceEEEEecCCCcc
+Q A0A0K2SR10      252 TDKKVVFPYNQPNSINTCMVLDQNFFDLSGLTCNKIGVSYSAFQNQPNSCAALFGSCLQNQIADYYNADVALISSGKKGN  331 (540)
+Q Consensus       252 ~~~yL~iP~~~~~~~~~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~  331 (540)
+                      .-+...+..   +....-+-+...+.+..|.-=+-      ++   -..+....+.++...+.+     .     +. +.
+T Consensus        26 ~~~~~~~~~---~~~~~~~~~~~~~~~~~g~v~gg------~~---~~~~d~~~~~~~~~~~~~-----~-----~~-~~   82 (144)
+T 3s4k_A           26 GLQFTELGP---DGARAQLDVRPKLLQLTGVVHGG------VY---CAMIESIASMAAFAWLNS-----H-----GE-GG   82 (144)
+T ss_dssp             TCEEEEEET---TEEEEEEEECGGGBCTTSSBCHH------HH---HHHHHHHHHHHHHHHHTC------------C-CC
+T ss_pred             CeEEEEEcC---CeEEEEEEcCHHHcCCCCcCcHH------HH---HHHHHHHHHHHHHhcccc-----c-----CC-Cc
+Confidence            122333331   11223355555555433320000      00   003444444455433321     0     11 11
+
+
+Q ss_pred             eeeccccceEEEeeccCcceeEEEeccccc-eEEEEEEeccceeeEEeecCceeeeEeeccccccccCceEEEEeee-ee
+Q A0A0K2SR10      332 YIASQLGTKVQIAGNQDSRSLKIRFDESHR-TMLTITLKADSLQYIVNISPGKIINYQIDRFESMSKNGVLRVNVQN-TG  409 (540)
+Q Consensus       332 Y~~~~~g~~~~~~~~~~~~~l~~~~~~~~~-s~i~ie~~Ad~l~~v~~~s~G~I~~~~i~~fe~~s~~g~l~v~v~N-~G  409 (540)
+                      .        ....      .+.+.+-.+-. -.|+++..     .+....                ....+.+.+.| .|
+T Consensus        83 ~--------~~~~------~~~i~f~~pv~~g~l~~~~~-----v~~~~~----------------~~~~~~~~i~~~~g  127 (144)
+T 3s4k_A           83 S--------VVGV------NNNTDFVRSISSGMVYGTAE-----PLHRGR----------------RQQLWLVTITDDTD  127 (144)
+T ss_dssp             E--------EEEE------EEEEEECCCCCSEEEEEEEE-----EEEECS----------------SEEEEEEEEECTTS
+T ss_pred             e--------EEEE------EEEeEEecCCCCCEEEEEEE-----EEeCCc----------------EEEEEEEEEEcCCC
+Confidence            1        1111      13333333322 12332211     111110                11112333333 23
+
+
+Q ss_pred             eeecceeEEEEeecCC
+Q A0A0K2SR10      410 TINADYTMTIINCTGD  425 (540)
+Q Consensus       410 ~~~a~y~v~v~~Cs~~  425 (540)
+                      .+-+.-...+ -+.+.
+T Consensus       128 ~~va~a~~~~-~~~~~  142 (144)
+T 3s4k_A          128 RVVARGQVRL-QNLEA  142 (144)
+T ss_dssp             CEEEEEEEEE-EEECC
+T ss_pred             CEEEEEEEEE-EEecC
+Confidence            3333222222 11111
+
+
+No 18 
+>3e38_A Two-domain protein containing predicted PHP-like dependent phosphoesterase; structural genomics; 2.20A {Bacteroides vulgatus atcc 8482}
+Probab=0.21  E-value=3.1e+03  Score=13.22  Aligned_cols=206  Identities=9%  Similarity=0.013  Sum_probs=61.1
+
+Q ss_pred             EEEEEEeecCCcccceeeecCCCCC--CcchHHHHHHhhhccccccceecccccceEEeecCCCCCc---ceeEEeec--
+Q A0A0K2SR10      202 TATLTYSYNQNPITQDIILSNSAPM--GMDTFSQAIVRIIGDFQSSTQINQFTDKKVVFPYNQPNSI---NTCMVLDQ--  274 (540)
+Q Consensus       202 ~v~v~~~~~~~~~~~~~~l~ps~~~--~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~~---~~~mll~~--  274 (540)
+                      -+++.   ........+.+..+...  .......+..++.            +...+.++.-|....   ..+...+.  
+T Consensus        91 G~Ei~---~~~~~~Hil~~~~~~~~~~~~~~~~~~i~~~~------------~~g~i~iiaHp~~~~~~~~~~~~~~~~~  155 (343)
+T 3e38_A           91 GSEIT---RAMAPGHFNAIFLSDSNPLEQKDYKDAFREAK------------KQGAFMFWNHPGWDSQQPDTTKWWPEHT  155 (343)
+T ss_dssp             EEEEE---CSTTTCEEEEESCSCSGGGCCSSHHHHHHHHH------------HTTCEEEECCTTCTTTSSSCCCCCHHHH
+T ss_pred             eEeec---cCCCCCCeEEEEcCcccccchHhHHHHHHHHH------------HcCCceEEECCChhhcCCCcccccHHHH
+Confidence            11111   11111223333333211  1112233332331            123466666554321   11000000  
+
+
+Q ss_pred             cccccCCceecceeeeeeccccCCCchhHhhhhhhhhhhhhhhcceEEEEecC--CCcce--e-eccc-cceEEEeec--
+Q A0A0K2SR10      275 NFFDLSGLTCNKIGVSYSAFQNQPNSCAALFGSCLQNQIADYYNADVALISSG--KKGNY--I-ASQL-GTKVQIAGN--  346 (540)
+Q Consensus       275 ~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g--~~~~Y--~-~~~~-g~~~~~~~~--  346 (540)
+                      +++..  ...+-|.|.-..... +    .....+++     + ..- --..+.  ....+  . ...+ .........  
+T Consensus       156 ~l~~~--~~~~~iEv~~~~~~~-~----~~~~~~~~-----~-~l~-~v~gSDaH~~~~~~~~~~~~~g~~~t~v~~~~~  221 (343)
+T 3e38_A          156 ALYQE--GCMHGIEVANGHLYM-P----EAIQWCLD-----K-NLT-MIGTSDIHQPIQTDYDFEKGEHRTMTFVFAKER  221 (343)
+T ss_dssp             HHHHT--TCCSEEEEEETTEEC-T----HHHHHHHH-----H-TCE-EEEECCBCSCHHHHCCGGGTCCCCEEEEEESSS
+T ss_pred             HHHHh--cCceEEEEeCCCCCh-H----HHHHHHHh-----c-CCE-EEeeccCCCCccccccccccCCCceEEEEeCCC
+Confidence            00000  112334443322221 1    22222322     2 222 223332  21100  0 0112 334444322  
+
+
+Q ss_pred             ----------cCcceeEE---------------------EeccccceEEEEEEeccceeeEEeecCceeeeEeecccccc
+Q A0A0K2SR10      347 ----------QDSRSLKI---------------------RFDESHRTMLTITLKADSLQYIVNISPGKIINYQIDRFESM  395 (540)
+Q Consensus       347 ----------~~~~~l~~---------------------~~~~~~~s~i~ie~~Ad~l~~v~~~s~G~I~~~~i~~fe~~  395 (540)
+                                ++..+..+                     .......-.+.|+++....-++-.+..||.+-+....+-..
+T Consensus       222 s~~~l~~Al~~g~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~i~~s~~~n~~ig~rg~GKs~~~~~~~~~~~  301 (343)
+T 3e38_A          222 SLQGIREALDNRRTAAYFHELLIGREDLLRPFFEKCVKIEEVSRNEQGVTLSITNVTDLVLKLKKTAHDTLLVYFRDMTL  301 (343)
+T ss_dssp             SHHHHHHHHHTTCEEEEETTEEECCHHHHHHHHHHHEEEEEEEEETTEEEEEEEECSSSCEEEEECSCCTTEECCSEEEE
+T ss_pred             CHHHHHHHHHcCCEEEEeCCceechHHHHHHHHHHheEEEeeeeccCceEEEEcCCCcEEEEcccCCchhhhhcccceEe
+Confidence                      23333222                     11110001244444444434444444444322222111111
+
+
+Q ss_pred             ccCceEEEEeeee-eeeecceeEEEEeecCCccccCCceEEEeeeeeEEEEEEE
+Q A0A0K2SR10      396 SKNGVLRVNVQNT-GTINADYTMTIINCTGDINPINNQQVTIKSKEIYSFVFQV  448 (540)
+Q Consensus       396 s~~g~l~v~v~N~-G~~~a~y~v~v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i  448 (540)
+                      ......++..... |.-.+...+.|.+            ..+.|++-..+.|.+
+T Consensus       302 ~~~~~~~~~~~~~~~~~~~~~~~~~~~------------~~~~~~~~~~~~~~~  343 (343)
+T 3e38_A          302 KPHTRYTVRIGFKQGIKGGDVNFEVTN------------FIVAPDKGLKYTISL  343 (343)
+T ss_dssp             CTTEEEEEEEEECTTCCCCEEEEEEEE------------EEEETTEEEEEEEEC
+T ss_pred             cCCCeEEEEEecccccccceeEEEEEE------------EEECCCCceEEEeeC
+Confidence            2333334433332 1111333444433            336666655555541
+
+
+No 19 
+>2q78_A Uncharacterized protein; structural genomics, joint center for structural genomics, J protein structure initiative, PSI-2, hydrolase; HET: MSE MLC; 2.20A {Thermotoga maritima MSB8} SCOP: d.38.1.7
+Probab=0.16  E-value=3.3e+03  Score=11.62  Aligned_cols=125  Identities=9%  Similarity=0.115  Sum_probs=31.7
+
+Q ss_pred             cccccceEEeecCCCCCcceeEEeecccccc-CCceecceeeeeeccccCCCchhHh-hhhhhhhhhhhhhcceEEEEec
+Q A0A0K2SR10      249 NQFTDKKVVFPYNQPNSINTCMVLDQNFFDL-SGLTCNKIGVSYSAFQNQPNSCAAL-FGSCLQNQIADYYNADVALISS  326 (540)
+Q Consensus       249 ~~l~~~yL~iP~~~~~~~~~~mll~~~~v~l-~G~eCnKIGVsy~aF~~Q~~~C~~~-~gSCL~nQl~~~~~~D~~~~~~  326 (540)
+                      .-|+.+.+-.-          .-+|. .+.. +....|.-|+=.       +..... ...+...-+..+..        
+T Consensus        17 ~~~~~~~~~~~----------~~~d~-~~~~~~~~~~~~~givh-------Gg~~~~l~D~a~~~a~~~~~~--------   70 (153)
+T 2q78_A           17 DFLEGKRLTED----------VALDE-TMVWNEDIEMLDLHLVA-------TSALIGVVHRVSYELLSRYLP--------   70 (153)
+T ss_dssp             GGGTTCEEEEE----------EEECG-GGBCCSCGGGGGGCBBC-------HHHHHHHHHHHHHHHHHTTSC--------
+T ss_pred             hhhcCceeEEE----------EcCCc-eEEecccccCCcCCeec-------HHHHHHHHHHHHHHHHHHhcC--------
+Confidence            11232222221          12222 1111 111112222211       111111 33333333333210        
+
+
+Q ss_pred             CCCcceeeccccceEEEeeccCcceeEEEeccccceEEEEEEeccceeeEEeecCceeeeEeeccccccccCceEEEEee
+Q A0A0K2SR10      327 GKKGNYIASQLGTKVQIAGNQDSRSLKIRFDESHRTMLTITLKADSLQYIVNISPGKIINYQIDRFESMSKNGVLRVNVQ  406 (540)
+Q Consensus       327 g~~~~Y~~~~~g~~~~~~~~~~~~~l~~~~~~~~~s~i~ie~~Ad~l~~v~~~s~G~I~~~~i~~fe~~s~~g~l~v~v~  406 (540)
+                                                      .....+++++   .++|+.+..+|..+.+.              ..+.
+T Consensus        71 --------------------------------~g~~~vt~~l---~v~f~~Pv~~Gd~I~v~--------------a~v~  101 (153)
+T 2q78_A           71 --------------------------------NDYTAVVVET---LARHVKAVPTGTRVAVG--------------VRVV  101 (153)
+T ss_dssp             --------------------------------TTEEEEEEEE---EEEECSCCBSSEEEEEE--------------EEEE
+T ss_pred             --------------------------------CCceEEEEEE---EEEEecCCCCCCEEEEE--------------EEEE
+Confidence                                            0112333333   23343333445444332              2222
+
+
+Q ss_pred             eeeeeecceeEEEEeecCCccccCCceEEEeeeeeEEEEEEEEeecccCCcccchhhhhHHHHHhheeE
+Q A0A0K2SR10      407 NTGTINADYTMTIINCTGDINPINNQQVTIKSKEIYSFVFQVYTTSKLDSSYHCFGDLYNEVAQVIDSI  475 (540)
+Q Consensus       407 N~G~~~a~y~v~v~~Cs~~i~~i~~q~~~i~p~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~~ld~~  475 (540)
+                      -.|.-...+.+.+.+        .. .+...    ....+-+..              .......+..+
+T Consensus       102 ~~g~~~~~~~~~v~~--------~~-~lva~----a~~~~v~v~--------------~~~~~~~~~~~  143 (153)
+T 2q78_A          102 GVVGNRVKFRGIVMS--------GD-EKILE----AEFVRAIVP--------------REKLRRLALEK  143 (153)
+T ss_dssp             EEETTEEEEEEEEEE--------TT-EEEEE----EEEEEEEEE--------------HHHHHHHHHC-
+T ss_pred             EECCcEEEEEEEEEE--------CC-EEEEE----EEEEEEEEC--------------HHHHHHHHHHh
+Confidence            222222233333322        12 22111    122222222              11122212111
+
+
+No 20 
+>2v1o_A Cytosolic acyl coenzyme A thioester hydrolase; acyl-COA thioesterase 7, serine esterase, protein structure, domain duplication, ACOT7, macrophage; HET: COA; 1.78A {Mus musculus}
+Probab=0.15  E-value=2.9e+03  Score=10.95  Aligned_cols=130  Identities=4%  Similarity=0.013  Sum_probs=31.4
+
+Q ss_pred             eeEEeeccccccCCceecceeeeeeccccCCCchhHh-hhhhhhhhhhhhhcceEEEEecCCCcceeeccccceEEEeec
+Q A0A0K2SR10      268 TCMVLDQNFFDLSGLTCNKIGVSYSAFQNQPNSCAAL-FGSCLQNQIADYYNADVALISSGKKGNYIASQLGTKVQIAGN  346 (540)
+Q Consensus       268 ~~mll~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~-~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~~~~~g~~~~~~~~  346 (540)
+                      .=+.+...+.|..|.              -.+..... ...+....+..+....           +              
+T Consensus         2 ~~~~v~~~~~d~~g~--------------v~~~~~~~~~~~~~~~~~~~~~~~~-----------~--------------   42 (151)
+T 2v1o_A            2 AMRIMRPDDANVAGN--------------VHGGTILKMIEEAGAIISTRHCNSQ-----------N--------------   42 (151)
+T ss_dssp             EEEECCGGGBCTTSB--------------BCHHHHHHHHHHHHHHHHHHHHTTT-----------C--------------
+T ss_pred             ceEEeCHHHCCccCe--------------EhHHHHHHHHHHHHHHHHHHHhccc-----------C--------------
+Confidence            112333333332221              00111111 1122222222222110           0              
+
+
+Q ss_pred             cCcceeEEEeccccceEEEEEEeccceeeEEeecCceeeeEeeccccccccCceEEEEeeeeeeeecceeEEEEeecCCc
+Q A0A0K2SR10      347 QDSRSLKIRFDESHRTMLTITLKADSLQYIVNISPGKIINYQIDRFESMSKNGVLRVNVQNTGTINADYTMTIINCTGDI  426 (540)
+Q Consensus       347 ~~~~~l~~~~~~~~~s~i~ie~~Ad~l~~v~~~s~G~I~~~~i~~fe~~s~~g~l~v~v~N~G~~~a~y~v~v~~Cs~~i  426 (540)
+                                 +  ...+.+.++.+.+.|..+..+|..+.+.              ..+...|.-...+.+.+.+-..+ 
+T Consensus        43 -----------~--~~~~~v~~~~~~~~f~~pv~~gd~i~i~--------------~~v~~~~~~~~~~~~~i~~~~~~-   94 (151)
+T 2v1o_A           43 -----------G--ERCVAALARVERTDFLSPMCIGEVAHVS--------------AEITYTSKHSVEVQVHVMSENIL-   94 (151)
+T ss_dssp             -----------C--SCEEEEEEEECCEECCSCCBTTCEEEEE--------------EEEEEECSSCEEEEEEEEEECTT-
+T ss_pred             -----------C--CCceEEEEEEccEEEECCcCCCCEEEEE--------------EEEEEecCCEEEEEEEEEEecCC-
+Confidence                       0  0122233333455555444455544443              22223332222222223221111 
+
+
+Q ss_pred             cccCCceEEEeeeeeEEEEEEEEeec--c----cCCcccchh-hhhHHHHH
+Q A0A0K2SR10      427 NPINNQQVTIKSKEIYSFVFQVYTTS--K----LDSSYHCFG-DLYNEVAQ  470 (540)
+Q Consensus       427 ~~i~~q~~~i~p~~~~~~~f~i~~~~--~----~~~~~~C~v-~L~ds~~~  470 (540)
+                         ......+ ..  ..+.+-..-..  .    ......=.. .+.+..-+
+T Consensus        95 ---~~~~~~~-~~--~~~~~~~~~~~~~~~~~~~p~~~~~~~~~~~~~~~~  139 (151)
+T 2v1o_A           95 ---TGTKKLT-NK--ATLWYVPLSLKNVDKVLEVPPIVYLRQEQEEEGRKR  139 (151)
+T ss_dssp             ---TCCEEEE-EE--EEEEEEEEESSSTTCBCCCCCCCCSSHHHHHHHHHH
+T ss_pred             ---CCceEEE-EE--EEEEEEEecccccCCcccCCCccccchhhhHHHHHH
+Confidence               0111111 11  11111111100  0    000000011 12222111
+
+
+Done!

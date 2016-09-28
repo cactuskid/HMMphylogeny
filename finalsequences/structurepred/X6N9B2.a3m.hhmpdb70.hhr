@@ -1,0 +1,470 @@
+Query         X6N9B2
+Match_columns 211
+No_of_seqs    161 out of 205
+Neff          7.1 
+Searched_HMMs 92
+Date          Mon Aug 22 17:24:36 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./finalsequences/models/X6N9B2.a3m.hhm -ohhm ./finalsequences/structurepred/X6N9B2.a3m.hhm -o ./finalsequences/structurepred/X6N9B2.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4c9v_A RNF43; signaling protei   1.1 9.4E+02    0.12   15.1  17.5   79   74-152    12-92  (180)
+  2 1rjt_A Small inducible cytokin   0.7 7.6E+02    0.11   11.8   5.8   22  133-154    20-41  (73)
+  3 3m95_A Autophagy related prote   0.7 1.1E+03    0.15   13.0  12.8   28   94-121    36-63  (125)
+  4 2e7m_A Protein KIAA0319; PKD d   0.4 1.3E+03    0.18   11.8  13.4   29   54-101    79-107 (113)
+  5 3j7y_a ML42; mitochondria, lar   0.4 7.6E+02   0.099   14.9   0.0   58   30-87      2-59  (142)
+  6 1pa2_A Peroxidase, ATP A2; oxi   0.2 2.7E+03    0.38   12.1   1.8   23   28-52    170-192 (306)
+  7 1lv9_A Small inducible cytokin   0.2 2.1E+03     0.3    9.5  10.4   49  136-187    23-74  (77)
+  8 1qgj_A Peroxidase N; oxidoredu   0.2 3.2E+03    0.45   11.4   2.6   22   28-51    165-186 (300)
+  9 4cdj_A E3 ubiquitin-protein li   0.1 3.5E+03    0.45   11.1  25.4  121   54-209     3-156 (164)
+ 10 1iv3_A 2-C-methyl-D-erythritol   0.1 4.1E+03    0.55    9.9  18.0   50  113-162    95-148 (152)
+ 11 3m8j_A FOCB protein; all-alpha   0.1 4.2E+03    0.55    9.5   3.9   17  175-191    91-108 (111)
+ 12 2wao_A Endoglucanase E; plant    0.1   4E+03     0.6    9.9  23.7  173   26-210    26-261 (341)
+ 13 3ead_A Na/Ca exchange protein;   0.1 3.4E+03    0.52    8.1  23.3   44   58-101    69-115 (137)
+ 14 3klq_A Putative pilus anchorin   0.1 4.1E+03    0.58    8.8  28.3   84   29-124    35-131 (141)
+ 15 2w0t_A Lethal(3)malignant brai   0.1 4.2E+03    0.56    7.3   6.6   35  138-175     1-35  (43)
+ 16 5b8f_A Mecps, 2-C-methyl-D-ery   0.1 5.2E+03    0.68    9.2  18.6   58   90-162    94-159 (164)
+ 17 1yqn_A 2-C-methyl-D-erythritol   0.1 5.1E+03    0.68    9.1  19.2   58   90-162    89-154 (161)
+ 18 1w55_A ISPD/ISPF bifunctional    0.1 5.2E+03    0.76    9.3  18.6  121   31-168   176-370 (371)
+ 19 1t0a_A 2C-methyl-D-erythritol    0.1 5.4E+03    0.72    8.8  19.3   58   90-162    89-154 (159)
+ 20 1fm0_D Molybdopterin convertin   0.0 4.8E+03    0.72    6.0  15.9   58   60-123     1-81  (81)
+
+No 1  
+>4c9v_A RNF43; signaling protein, WNT, ZNRF3, RNF43, LGR4, LGR5, LGR6, receptor, MEM signalling; 2.70A {Silurana}
+Probab=1.12  E-value=9.4e+02  Score=15.10  Aligned_cols=79  Identities=10%  Similarity=0.051  Sum_probs=0.0
+
+Q ss_pred             EeeeEeccCCCCccccCCcEEEEEecccccccCCCCCCceeeecC-CCCCCChHHHhhhhccccc-ccceeeeeccCcCc
+Q X6N9B2           74 QETVSISPQNTGATTQDGKIVVRLIGDLVSYQDAPDLNNLYYFCP-SSPQTDPRVKNYLKNSMLI-PQSAVTLTGQDCDK  151 (211)
+Q Consensus        74 ~~~~~l~p~~~~~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP-~~~~~~~~~~~~~~~~mll-~~~~v~l~G~eCnK  151 (211)
+                      +..|.+=+.++...-....+...|-|.|++.......++++++++ ...-....-..-...|+=| +-..-+.++..|..
+T Consensus        12 ~AiVeVvl~~~~~~G~~~~~~~~L~G~fs~aG~~~~AEG~L~lv~p~~~c~~~~d~~~~~gWIgVv~le~~~~~~~~c~s   91 (180)
+T 4c9v_A           12 KALIRVTPLQAEESGGVGQGNLTLEGLFARVAEISPAEGRLLQFHPLSLCNTSEDDQTKPGFISIVKLETPDRDTQPCLS   91 (180)
+T ss_dssp             EEEEEEEEC-----------CEEEEEEECTTBCCCCEEEEEEECCTTTSCCC------CSCEEEEEECCCC------CSC
+T ss_pred             ceEEEEEEeecCCCCccceeeeEEEEEEecccCccccCceEEeecccccCCccccccccCCcEEEEEccccccCCCccHh
+
+
+Q ss_pred             c
+Q X6N9B2          152 I  152 (211)
+Q Consensus       152 I  152 (211)
+                      +
+T Consensus        92 v   92 (180)
+T 4c9v_A           92 L   92 (180)
+T ss_dssp             H
+T ss_pred             H
+
+
+No 2  
+>1rjt_A Small inducible cytokine B11; chemokine; NMR {Synthetic} SCOP: d.9.1.1
+Probab=0.71  E-value=7.6e+02  Score=11.84  Aligned_cols=22  Identities=27%  Similarity=0.519  Sum_probs=0.0
+
+Q ss_pred             cccccccceeeeeccCcCccce
+Q X6N9B2          133 NSMLIPQSAVTLTGQDCDKIGV  154 (211)
+Q Consensus       133 ~~mll~~~~v~l~G~eCnKIGV  154 (211)
+                      .+-.|..-.+...+..|++-+|
+T Consensus        20 ~~~~i~~~~~~~~~~~C~~~ai   41 (73)
+T 1rjt_A           20 KVADIEKASIMYPSNNCDKIEV   41 (73)
+T ss_dssp             CBTTBCCBCCCBCTTTSSSCBC
+T ss_pred             ChhHeeEEEEEcCCCCCCccEE
+
+
+No 3  
+>3m95_A Autophagy related protein ATG8; alpha slash beta, receptor, transport protein; 2.40A {Bombyx mori}
+Probab=0.66  E-value=1.1e+03  Score=13.05  Aligned_cols=28  Identities=25%  Similarity=0.287  Sum_probs=0.0
+
+Q ss_pred             EEEEecccccccCCCCCCceeeecCCCC
+Q X6N9B2           94 VVRLIGDLVSYQDAPDLNNLYYFCPSSP  121 (211)
+Q Consensus        94 ~v~ligd~~~~~~~~~l~~~yL~iP~~~  121 (211)
+                      +|-++-...+...+|.|..+-.+||...
+T Consensus        36 kIpVi~e~~~~~~~p~L~k~Kf~V~~~~   63 (125)
+T 3m95_A           36 RVPVIVEKAPKARLGDLDKKKYLVPSDL   63 (125)
+T ss_dssp             EEEEEEEECTTCSSCCCSCCEEEEETTS
+T ss_pred             ceEEEEEECCCCCCccccCcEEEeCCCC
+
+
+No 4  
+>2e7m_A Protein KIAA0319; PKD domain, structural genomics, NPPSFA, national project on protein structural and functional analyses; NMR {Homo sapiens}
+Probab=0.43  E-value=1.3e+03  Score=11.80  Aligned_cols=29  Identities=17%  Similarity=0.178  Sum_probs=11.3
+
+Q ss_pred             ceeEEEeeEEEEecCCcceEEeeeEeccCCCCccccCCcEEEEEeccc
+Q X6N9B2           54 ETFFQIGITVLRTNDNSTQIQETVSISPQNTGATTQDGKIVVRLIGDL  101 (211)
+Q Consensus        54 ~~~f~i~v~i~~~~~~~~~~~~~~~l~p~~~~~~~~~~~v~v~ligd~  101 (211)
+                      .-.|.++++|.. .                 ...+ ...+.|.+....
+T Consensus        79 ~G~y~f~LtVtD-~-----------------g~~~-s~~v~vtV~~~~  107 (113)
+T 2e7m_A           79 VGLYVFKVTVSS-E-----------------NAFG-EGFVNVTVKPAR  107 (113)
+T ss_dssp             SEEEEECCEEEE-T-----------------TEEE-ECCEEEEEECCC
+T ss_pred             cEEEEEEEEEEe-C-----------------CCcE-EeEEEEEEecCC
+Confidence            114555555555 2                 1111 123555554321
+
+
+No 5  
+>3j7y_a ML42; mitochondria, large subunit, rRNA, tRNA, ribosome; HET: A; 3.40A {Homo sapiens} PDB: 4v1a_f
+Probab=0.40  E-value=7.6e+02  Score=14.95  Aligned_cols=58  Identities=2%  Similarity=-0.016  Sum_probs=0.0
+
+Q ss_pred             cccceeeeeeeccccccCccccccceeEEEeeEEEEecCCcceEEeeeEeccCCCCcc
+Q X6N9B2           30 QQSAHCLSFAVDPLWYSGYSIGPCETFFQIGITVLRTNDNSTQIQETVSISPQNTGAT   87 (211)
+Q Consensus        30 ~~sahCLrf~~~~~wY~vy~i~~~~~~f~i~v~i~~~~~~~~~~~~~~~l~p~~~~~~   87 (211)
+                      ...|+=+..+.+..|=|.|-|++.-+.+..+..-+....++......+.|..+.++++
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~sl~~~~~~~~~i~vT~DG~tIV   59 (142)
+T 3j7y_a            2 AVAAVKWVMSKRTILKHLFPVQNGALYCVCHKSTYSPLPDDYNCNVELALTSDGRTIV   59 (142)
+T ss_dssp             ----------------------------------------------------------
+T ss_pred             chHHHHHHHHHHHHHHHhcccccCcEEEEEEecccccCCcccCCceeEEEecCCcEEE
+Confidence            1122223333323577777777665555444433221100000111122221111111
+
+
+No 6  
+>1pa2_A Peroxidase, ATP A2; oxidoreductase; HET: HEM; 1.45A {Arabidopsis thaliana} SCOP: a.93.1.1 PDB: 1qo4_A* 4a5g_A*
+Probab=0.18  E-value=2.7e+03  Score=12.08  Aligned_cols=23  Identities=17%  Similarity=0.147  Sum_probs=12.3
+
+Q ss_pred             CCcccceeeeeeeccccccCccccc
+Q X6N9B2           28 SGQQSAHCLSFAVDPLWYSGYSIGP   52 (211)
+Q Consensus        28 ~~~~sahCLrf~~~~~wY~vy~i~~   52 (211)
+                      .....+||..|.+  ..|..-.-+.
+T Consensus       170 HtiG~a~c~~f~~--rl~~~~~~~~  192 (306)
+T 1pa2_A          170 HTFGRARCGVFNN--RLFNFSGTGN  192 (306)
+T ss_dssp             GGSSEEEGGGTGG--GTSSGGGSSS
+T ss_pred             ccccccccccchh--hhcCCCCCCC
+Confidence            1456778887766  5554332221
+
+
+No 7  
+>1lv9_A Small inducible cytokine B10; chemokine; HET: MLE; NMR {Synthetic} SCOP: d.9.1.1 PDB: 1o7y_A 1o7z_A 1o80_A
+Probab=0.18  E-value=2.1e+03  Score=9.54  Aligned_cols=49  Identities=16%  Similarity=0.326  Sum_probs=27.6
+
+Q ss_pred             ccccceeeeeccCcCccceeeEEEEee---ccccccchhhhhhhhhhhhhcccce
+Q X6N9B2          136 LIPQSAVTLTGQDCDKIGVSYYAFRYQ---SQACLKPVGACLSNQLEDFHNTGLK  187 (211)
+Q Consensus       136 ll~~~~v~l~G~eCnKIGVsy~aF~~Q---~~~C~~~~gSCL~nQl~~f~~~D~~  187 (211)
+                      .|..-.++..|..|++-+|   -|...   ...|..|...=.+.-+..+......
+T Consensus        23 ~I~~~~~~~~~~~C~~~av---I~~tk~~g~~vC~dP~~~wvk~~~~~l~~~~~~   74 (77)
+T 1lv9_A           23 SLEKLEIIPASQFCPRVEI---IATMKKKGEKRCLNPESKAIKNLLKAVSKEMSK   74 (77)
+T ss_dssp             SCSEEEEEECCSSCSSEEE---EEEETTTTEEEEECCCSSTHHHHHHHHHC----
+T ss_pred             HeeEEEEEcCCCCCCCcEE---EEEEccCCCEEccCCChHHHHHHHHHHHHhccc
+Confidence            1233444555999998888   55554   2689988765555545444432111
+
+
+No 8  
+>1qgj_A Peroxidase N; oxidoreductase; HET: HEM GSH; 1.90A {Arabidopsis thaliana} SCOP: a.93.1.1
+Probab=0.15  E-value=3.2e+03  Score=11.37  Aligned_cols=22  Identities=18%  Similarity=0.240  Sum_probs=11.1
+
+Q ss_pred             CCcccceeeeeeeccccccCcccc
+Q X6N9B2           28 SGQQSAHCLSFAVDPLWYSGYSIG   51 (211)
+Q Consensus        28 ~~~~sahCLrf~~~~~wY~vy~i~   51 (211)
+                      .....+||..|..  ..|..-.-+
+T Consensus       165 HtiG~~~c~~f~~--rl~~~~~~~  186 (300)
+T 1qgj_A          165 HTFGQAKCAVFSN--RLFNFTGAG  186 (300)
+T ss_dssp             GGSSEEEGGGTGG--GTSCSSSSS
+T ss_pred             ccccccccccccc--cccCCcCCC
+Confidence            1345677777766  555432211
+
+
+No 9  
+>4cdj_A E3 ubiquitin-protein ligase ZNRF3; WNT signaling, adult stem cells, E3 ligase, protease associated domain, zinc ring finger, LGR5, R-spondin; HET: EDO; 1.50A {Mus musculus} PDB: 4cdk_A 4c86_A 4c8a_A 4c8c_A 4c8f_A 4c99_A 4c9a_A 4c9e_A 4ufs_C 4c8p_A 4c84_A 4c85_A
+Probab=0.15  E-value=3.5e+03  Score=11.08  Aligned_cols=121  Identities=6%  Similarity=0.067  Sum_probs=41.7
+
+Q ss_pred             ceeEEEeeEEEEecCCcceEEeeeEeccCCCCccccCCcEEEEEecccccccCCCCCCceeeecC---------CCCCCC
+Q X6N9B2           54 ETFFQIGITVLRTNDNSTQIQETVSISPQNTGATTQDGKIVVRLIGDLVSYQDAPDLNNLYYFCP---------SSPQTD  124 (211)
+Q Consensus        54 ~~~f~i~v~i~~~~~~~~~~~~~~~l~p~~~~~~~~~~~v~v~ligd~~~~~~~~~l~~~yL~iP---------~~~~~~  124 (211)
+                      .-.--|.|-++..+.+...+                  ..+..|-|.|++....+.++++.++++         ......
+T Consensus         3 ~~~A~VEV~l~~~~p~g~~~------------------t~~l~L~G~~s~ag~~~~aeG~L~~~hp~~lc~~~dd~~~~~   64 (164)
+T 4cdj_A            3 KETAFVEVVLFESSPSGDYT------------------THTTGLTGRFSRAGAMLSAEGEIVQMHPLGLCNNNDEEDLYE   64 (164)
+T ss_dssp             CCEEEEEEEEEECCTTSCCE------------------EEEEEEEEEECTTSCCCCEEEEEEECCGGGGSSSSCCCCCCC
+T ss_pred             cceEEEEEEEeecCCCCCcc------------------eeeEEEEEEEccccCcCCCCceeecccccccCCccccccccc
+Confidence            11223555555544332222                  233333344433333333334434333         000000
+
+
+Q ss_pred             hHHHhhhhccccc-ccceeeeeccCcCcc----------ceeeEEEEeeccccccchhhhhhhhhhhhhccc--c---e-
+Q X6N9B2          125 PRVKNYLKNSMLI-PQSAVTLTGQDCDKI----------GVSYYAFRYQSQACLKPVGACLSNQLEDFHNTG--L---K-  187 (211)
+Q Consensus       125 ~~~~~~~~~~mll-~~~~v~l~G~eCnKI----------GVsy~aF~~Q~~~C~~~~gSCL~nQl~~f~~~D--~---~-  187 (211)
+                             ..|+=| .-..-+.++..|..+          |-+.--|----|          .+=+..+....  .   - 
+T Consensus        65 -------~gWIgVv~lE~~~~~~~~c~sv~~KaKrAl~~GAsAvifd~~~n----------~~a~~EL~~~~~~~l~rPV  127 (164)
+T 4cdj_A           65 -------YGWVGVVKLEQPELDPKPCLTVLGKAKRAVQRGATAVIFDVSEN----------PEAIDQLNQGSEDPLKRPV  127 (164)
+T ss_dssp             -------SSEEEEEECCCGGGCSSCSSCHHHHHHHHHHTTEEEEEEECTTC----------TTHHHHHTSCCSSCCSSCE
+T ss_pred             -------CCeEEEEEccccccCCCcchhHHHHHHHHHhcCCceEEEEeecC----------hhHHHHhccccccccCCCE
+Confidence                   122211 000001246777765          778777743110          11233333311  2   2 
+
+
+Q ss_pred             Eeechhhhh-----hhccccce--eeeee
+Q X6N9B2          188 ISLNDMALF-----EQNKQKKE--ILFKC  209 (211)
+Q Consensus       188 i~~g~~~~f-----~~~~~~p~--~~y~~  209 (211)
+                      +----.+.+     ...+.+-.  |.|..
+T Consensus       128 vli~~~~a~~Lm~~~~~~~~A~~~I~~~~  156 (164)
+T 4cdj_A          128 VYVKGADAIKLMNIVNKQKVARARIQHLA  156 (164)
+T ss_dssp             EEECHHHHHHHHHHHTSSSCEEEEEEEC-
+T ss_pred             EEEeCCcHHHHHHHHhhCceEEEEEEeec
+Confidence            332223331     11232222  44421
+
+
+No 10 
+>1iv3_A 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase; isoprenoid, non-mevalonate, riken structural genomics/proteomics initiative, RSGI; 1.52A {Thermus thermophilus} SCOP: d.79.5.1 PDB: 1iv2_A 1iv4_A* 1iv1_A
+Probab=0.09  E-value=4.1e+03  Score=9.89  Aligned_cols=50  Identities=16%  Similarity=0.147  Sum_probs=30.8
+
+Q ss_pred             eeeecCCCCCCC---hHHHhhhhcccccccceeeeeccCcCccce-eeEEEEee
+Q X6N9B2          113 LYYFCPSSPQTD---PRVKNYLKNSMLIPQSAVTLTGQDCDKIGV-SYYAFRYQ  162 (211)
+Q Consensus       113 ~yL~iP~~~~~~---~~~~~~~~~~mll~~~~v~l~G~eCnKIGV-sy~aF~~Q  162 (211)
+                      ...++...|.=.   +..+..+++-|=++.+.|.++..+=+|.|- +-.++..=
+T Consensus        95 D~tii~e~Pkl~p~~~~m~~~la~~L~i~~~~I~iKatT~E~lg~~gi~~~avv  148 (152)
+T 1iv3_A           95 SLVLTLDRPKLGPHRKALVDSLSRLMRLPQDRIGLTFKTSEGLAPSHVQARAVV  148 (152)
+T ss_dssp             EEEEECSSSCCGGGHHHHHHHHHHHHTCCGGGEEEEEECCTTSSTTEEEEEEEE
+T ss_pred             EEEEEeCCCcchHHHHHHHHHHHHHhCCCCCeEEEEEeeCCCCCceeEEEEEEE
+Confidence            123455444433   567778888888899999997666655542 44555431
+
+
+No 11 
+>3m8j_A FOCB protein; all-alpha, helix-turn-helix, transcription; 1.40A {Escherichia coli}
+Probab=0.09  E-value=4.2e+03  Score=9.46  Aligned_cols=17  Identities=12%  Similarity=0.221  Sum_probs=4.4
+
+Q ss_pred             hhhhhhhhcccce-Eeec
+Q X6N9B2          175 SNQLEDFHNTGLK-ISLN  191 (211)
+Q Consensus       175 ~nQl~~f~~~D~~-i~~g  191 (211)
+                      --+|..||..... |+..
+T Consensus        91 V~~L~~~Y~~~~~~~~~~  108 (111)
+T 3m8j_A           91 VARLAPYYTDSVSAIAEA  108 (111)
+T ss_dssp             HHHHGGGGSCC-------
+T ss_pred             HHHHHHHHccchhHHHHh
+Confidence            1234444444333 2211
+
+
+No 12 
+>2wao_A Endoglucanase E; plant cell WALL degradation, carbohydrate metabolism, polysaccharide degradation, esterase, hydrolase, cellulases; HET: BGC; 1.80A {Clostridium thermocellum} PDB: 2wab_A*
+Probab=0.08  E-value=4e+03  Score=9.92  Aligned_cols=173  Identities=14%  Similarity=0.072  Sum_probs=40.3
+
+Q ss_pred             ccCCcccceeeeeeec----------cccccCccccccceeEEEee---EEEEecCCcceEEeeeEeccCCCCccccCCc
+Q X6N9B2           26 LGSGQQSAHCLSFAVD----------PLWYSGYSIGPCETFFQIGI---TVLRTNDNSTQIQETVSISPQNTGATTQDGK   92 (211)
+Q Consensus        26 ~~~~~~sahCLrf~~~----------~~wY~vy~i~~~~~~f~i~v---~i~~~~~~~~~~~~~~~l~p~~~~~~~~~~~   92 (211)
+                      .+.-..+.--++|.+.          ..|+.|+-=|.+...+.+..   .+.-...-. ....+++|---+ +.  ....
+T Consensus        26 ~~~w~g~~~~~~f~g~~~~~~~~~~~~~~~~v~vdg~~~~~~~~~~~~~~~~~~~~l~-~~~h~v~v~~~~-e~--~~~~  101 (341)
+T 2wao_A           26 KCAWSGSNVELNFYGTEASVTIKSGGENWFQAIVDGNPLPPFSVNATTSTVKLVSGLA-EGAHHLVLWKRT-EA--SLGE  101 (341)
+T ss_dssp             EECSTTCEEEEEEEESCEEEEEEEEEEEEEEEEETTEECCCEEEEEEEEEEEEECSCC-SEEEEEEEEECS-CG--GGCC
+T ss_pred             EEECCceEEEEEEEcCEEEEEEEcCCCcEEEEEECCcEeeEEEecCCCceEEeccCCC-CCcEEEEEEEec-cc--ccCc
+Confidence            1112222333333321          14444432222222233321   111111111 112222221111 01  1123
+
+
+Q ss_pred             EEEEEec-ccccccCCC-CCCceeeecCCCCCCChHHHhhhhcccccccceeeeeccCc---------CccceeeEEEEe
+Q X6N9B2           93 IVVRLIG-DLVSYQDAP-DLNNLYYFCPSSPQTDPRVKNYLKNSMLIPQSAVTLTGQDC---------DKIGVSYYAFRY  161 (211)
+Q Consensus        93 v~v~lig-d~~~~~~~~-~l~~~yL~iP~~~~~~~~~~~~~~~~mll~~~~v~l~G~eC---------nKIGVsy~aF~~  161 (211)
+                      +.+.=+. +-......| .-.-+++++      ++.+..+.....-.....++..+...         .+.|..+... .
+T Consensus       102 ~~~~~i~~~~~~~~~~~~~~~~~i~~i------GDSit~G~g~~~~~~~~~~~~~~~~~~~s~~~~la~~l~~~~~~~-a  174 (341)
+T 2wao_A          102 VQFLGFDFGSGKLLAAPKPLERKIEFI------GDSITCAYGNEGTSKEQSFTPKNENSYMSYAAITARNLNASANMI-A  174 (341)
+T ss_dssp             EEEEEEECTTSEECCCCCCCSEEEEEE------ESHHHHTTTTTCCCTTSCCCGGGCCGGGSHHHHHHHHTTEEEEEE-E
+T ss_pred             EEEEEEEECCCcccCCCCCCceeEEEE------ECchhhCCCccCCcCCCCCccccccchhhHHHHHHHHhCCcEEEE-e
+Confidence            3332121 111111112 223333333      01111111000000000000000000         0112222211 1
+
+
+Q ss_pred             eccccccch-hhh----hh----------hhhhhh--hcccce-Eeechhhh---------h-------hhc-----ccc
+Q X6N9B2          162 QSQACLKPV-GAC----LS----------NQLEDF--HNTGLK-ISLNDMAL---------F-------EQN-----KQK  202 (211)
+Q Consensus       162 Q~~~C~~~~-gSC----L~----------nQl~~f--~~~D~~-i~~g~~~~---------f-------~~~-----~~~  202 (211)
+                      .++.+-... +.+    +.          ...+++  +..|.- +.-|..-.         |       ...     ++.
+T Consensus       175 ~sG~g~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~pd~Vvi~lG~ND~~~~~~~~~~~~~~~~~~i~~ir~~~p~a  254 (341)
+T 2wao_A          175 WSGIGLTMNYGGAPGPLIMDRYPYTLPYSGVRWDFSKYVPQVVVINLGTNDFSTSFADKTKFVTAYKNLISEVRRNYPDA  254 (341)
+T ss_dssp             CTTCCSSCCGGGCCCCCHHHHTTEEETTTTEECCGGGCCCSEEEEECCHHHHSSSCCCHHHHHHHHHHHHHHHHHHCTTC
+T ss_pred             ecCcEEEeCCCCCCCCCHHHHHhhhcCCCCCcCccccCCCCEEEEECCCcCCCCCCCCHHHHHHHHHHHHHHHHHHCCCC
+Confidence            222222110 000    11          111233  456777 77775433         1       111     222
+
+
+Q ss_pred             ceeeeeec
+Q X6N9B2          203 KEILFKCH  210 (211)
+Q Consensus       203 p~~~y~~~  210 (211)
+                      +. -....
+T Consensus       255 ~I-i~~~~  261 (341)
+T 2wao_A          255 HI-FCCVG  261 (341)
+T ss_dssp             EE-EEEEC
+T ss_pred             eE-EEEEC
+Confidence            32 22211
+
+
+No 13 
+>3ead_A Na/Ca exchange protein; CBD1, calcium regulation, membrane, transmembrane, membrane; 2.25A {Drosophila melanogaster}
+Probab=0.07  E-value=3.4e+03  Score=8.06  Aligned_cols=44  Identities=9%  Similarity=0.034  Sum_probs=12.2
+
+Q ss_pred             EEeeEEEEecCC--cceEEeeeEeccCCCC-ccccCCcEEEEEeccc
+Q X6N9B2           58 QIGITVLRTNDN--STQIQETVSISPQNTG-ATTQDGKIVVRLIGDL  101 (211)
+Q Consensus        58 ~i~v~i~~~~~~--~~~~~~~~~l~p~~~~-~~~~~~~v~v~ligd~  101 (211)
+                      ...+.+......  .....-.+.|.+.... ........++.+..+-
+T Consensus        69 ~~~i~i~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~vti~~~~  115 (137)
+T 3ead_A           69 EQRFRIEVIDDDVFEEDECFYIRLFNPSEGVKLAVPMIATVMILDDD  115 (137)
+T ss_dssp             EEEEEEEBCCCSSCCCCEEEEEEEECCCTTCEECSCSEEEEEEECCC
+T ss_pred             EEEEEEEEeCCCCCCCceEEEEEEECCCCCCEeCCCcEEEEEEECCC
+Confidence            112222221111  1123333333332221 2222233444443221
+
+
+No 14 
+>3klq_A Putative pilus anchoring protein; CNAB fold, inverse IGG fold, polyproline-II-like helix, cell; 1.90A {Streptococcus pyogenes}
+Probab=0.07  E-value=4.1e+03  Score=8.84  Aligned_cols=84  Identities=15%  Similarity=0.187  Sum_probs=34.7
+
+Q ss_pred             CcccceeeeeeeccccccCccccccceeE----EEeeEEEEecCC-------cceEEeeeEeccCCCCccccCCcEEEEE
+Q X6N9B2           29 GQQSAHCLSFAVDPLWYSGYSIGPCETFF----QIGITVLRTNDN-------STQIQETVSISPQNTGATTQDGKIVVRL   97 (211)
+Q Consensus        29 ~~~sahCLrf~~~~~wY~vy~i~~~~~~f----~i~v~i~~~~~~-------~~~~~~~~~l~p~~~~~~~~~~~v~v~l   97 (211)
+                      .....+-+....  .|-..|    ..+.|    .-+-+|.+...+       ...-..++++....      +..+.+.+
+T Consensus        35 ~~p~~~~~~~~~--~g~~~F----~~i~f~~~G~Y~YtV~E~~~~~~g~tYD~~~y~vtV~V~~~~------~g~l~~~v  102 (141)
+T 3klq_A           35 AMKTIEEITIAG--SGKASF----SPLTFTTVGQYTYRVYQKPSQNKDYQADTTVFDVLVYVTYDE------DGTLVAKV  102 (141)
+T ss_dssp             TTEEEEEEEEES--SEEEEC----CCEEECSCEEEEEEEEECCCSSTTEECCCCEEEEEEEEEECT------TSCEEEEE
+T ss_pred             CCcceeEEEEcC--CCcEEe----eeEEeCCCeEEEEEEEEccCCCCCeEEcCCEEEEEEEEEECC------CCcEEEEE
+Confidence            100111122222  221111    01111    445566664322       23334444444322      45677766
+
+
+Q ss_pred             eccc--ccccCCCCCCceeeecCCCCCCC
+Q X6N9B2           98 IGDL--VSYQDAPDLNNLYYFCPSSPQTD  124 (211)
+Q Consensus        98 igd~--~~~~~~~~l~~~yL~iP~~~~~~  124 (211)
+                      ...-  ......+.|.|.|-..|..+..+
+T Consensus       103 ~~~~~~~~~~~~~~FtNtY~~~~~~~~~~  131 (141)
+T 3klq_A          103 ISRRAGDEEKSAITFKPKRLVKPIPPRQP  131 (141)
+T ss_dssp             EEEETTCSSCCCCEECCEECSCCCCCCCC
+T ss_pred             EEccCCCCccCCceEEEeecCCCCCCCCC
+Confidence            5432  11223444789997666666543
+
+
+No 15 
+>2w0t_A Lethal(3)malignant brain tumor-like 2 protein; zinc, YACG, LMBL2, nucleus, zinc-finger, RNA binding, MBT repeats, PCG proteins, polymorphism; NMR {Homo sapiens}
+Probab=0.07  E-value=4.2e+03  Score=7.33  Aligned_cols=35  Identities=14%  Similarity=0.264  Sum_probs=12.4
+
+Q ss_pred             ccceeeeeccCcCccceeeEEEEeeccccccchhhhhh
+Q X6N9B2          138 PQSAVTLTGQDCDKIGVSYYAFRYQSQACLKPVGACLS  175 (211)
+Q Consensus       138 ~~~~v~l~G~eCnKIGVsy~aF~~Q~~~C~~~~gSCL~  175 (211)
+                      +...-.+.=.-|.|+|+--..|.....||+.   +|-+
+T Consensus         1 ~~~~~~~kCe~CGk~~~~~~f~~ksKRFCS~---~Cak   35 (43)
+T 2w0t_A            1 GSGSEPAVCEMCGIVGTREAFFSKTKRFCSV---SCSR   35 (43)
+T ss_dssp             CCSCCEEECTTTCCEEETTTSCTTTSSSSSH---HHHH
+T ss_pred             CCcCccceeccCCCccccccccCCcCCcccc---hhcC
+Confidence            1122234556677775310000011245543   2221
+
+
+No 16 
+>5b8f_A Mecps, 2-C-methyl-D-erythritol 2,4-cyclodiphosphate SYNT; ssgcid, psuedomonas aeruginosa, structural genomics; HET: C5P; 1.45A {Pseudomonas aeruginosa} PDB: 3ghz_A* 3t80_A* 3ern_A* 3eor_A* 3elc_A* 3esj_A* 3fba_A* 1h47_A* 1h48_A* 1gx1_A* 2amt_A* 1knj_A* 1knk_A 1u3l_A* 1u3p_A 1u40_A* 1u43_A* 1jy8_A* 2gzl_A*
+Probab=0.06  E-value=5.2e+03  Score=9.23  Aligned_cols=58  Identities=7%  Similarity=0.128  Sum_probs=36.0
+
+Q ss_pred             CCcEEEEEecccccccCCCCCCceeeecCCCCCCC---hHHHhhhhcccccccceeeeeccCcCcc-----ceeeEEEEe
+Q X6N9B2           90 DGKIVVRLIGDLVSYQDAPDLNNLYYFCPSSPQTD---PRVKNYLKNSMLIPQSAVTLTGQDCDKI-----GVSYYAFRY  161 (211)
+Q Consensus        90 ~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~---~~~~~~~~~~mll~~~~v~l~G~eCnKI-----GVsy~aF~~  161 (211)
+                      .+.-.+++-               ..++...|.=.   +.....+++-|=++.+.|+++..+=+|.     |-+-.++..
+T Consensus        94 ~g~~I~NiD---------------~tIi~e~PKl~p~~~~m~~~la~~L~i~~~~V~IKAtT~E~lg~~G~~egIa~~av  158 (164)
+T 5b8f_A           94 KGWKVGNVD---------------ATIVAQAPKMAPHIETMRGLIAEDLGVAVDQVNVKATTTERLGFTGREEGIAVHAV  158 (164)
+T ss_dssp             TTEEEEEEE---------------EEEECSSSCCGGGHHHHHHHHHHHHTSCGGGEEEEEECCTTCHHHHTTSEEEEEEE
+T ss_pred             CCcEEEEEE---------------EEEEeCCcccHHHHHHHHHHHHHHHCCCCceEEEEEeecCCcCcccCCcEEEEEEE
+Confidence            222222222               24455555433   5677788888878899999998888888     455555554
+
+
+Q ss_pred             e
+Q X6N9B2          162 Q  162 (211)
+Q Consensus       162 Q  162 (211)
+                      =
+T Consensus       159 v  159 (164)
+T 5b8f_A          159 A  159 (164)
+T ss_dssp             E
+T ss_pred             E
+Confidence            1
+
+
+No 17 
+>1yqn_A 2-C-methyl-D-erythritol 2,4-cyclodiphosphate SYNT; 2C-methyl-D-erythriol-2, 4-cyclodiphosphate synthase R142M/E (ISPF mutant); HET: CDP GPP; 3.11A {Escherichia coli}
+Probab=0.06  E-value=5.1e+03  Score=9.08  Aligned_cols=58  Identities=10%  Similarity=0.202  Sum_probs=36.9
+
+Q ss_pred             CCcEEEEEecccccccCCCCCCceeeecCCCCCCC---hHHHhhhhcccccccceeeeeccCcCcc-----ceeeEEEEe
+Q X6N9B2           90 DGKIVVRLIGDLVSYQDAPDLNNLYYFCPSSPQTD---PRVKNYLKNSMLIPQSAVTLTGQDCDKI-----GVSYYAFRY  161 (211)
+Q Consensus        90 ~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~---~~~~~~~~~~mll~~~~v~l~G~eCnKI-----GVsy~aF~~  161 (211)
+                      .+.-.+++-               ..++...|.=.   +.....+++-|=++.+.|+++..+=+|.     |-+-.+|..
+T Consensus        89 ~g~~i~niD---------------~tii~e~Pkl~p~~~~m~~~la~~L~i~~~~VsIKAtT~E~lG~iGrgegIa~~av  153 (161)
+T 1yqn_A           89 KGYTLGNVD---------------VTIIAQAPKMLPHIPQMRVFIAEDLGCHMDDVNVKATTTEKLGFTGMGLGIACEAV  153 (161)
+T ss_dssp             TTCEEEEEE---------------EEEECSSSCCGGGHHHHHHHHHHHTTSCGGGEEEEEECCTTCHHHHTTSEEEEEEE
+T ss_pred             CCcEEEEEE---------------EEEEeCCCCchHHHHHHHHHHHHHhCCCcceEEEEEecCCCCCcccCccEEEEEEE
+Confidence            333333332               23455444333   5777788999999999999999888888     345555544
+
+
+Q ss_pred             e
+Q X6N9B2          162 Q  162 (211)
+Q Consensus       162 Q  162 (211)
+                      =
+T Consensus       154 v  154 (161)
+T 1yqn_A          154 A  154 (161)
+T ss_dssp             E
+T ss_pred             E
+Confidence            1
+
+
+No 18 
+>1w55_A ISPD/ISPF bifunctional enzyme; biosynthetic pathway, isoprenoids, nonmevalonate, transferase; HET: C GPP; 2.3A {Campylobacter jejuni} SCOP: c.68.1.13 d.79.5.1 PDB: 1w57_A*
+Probab=0.05  E-value=5.2e+03  Score=9.35  Aligned_cols=121  Identities=8%  Similarity=0.045  Sum_probs=50.2
+
+Q ss_pred             ccceeeeeeeccccccCcccccc----------ceeEEEeeEEEEecCCcceEEeeeEeccCCCCccccCCcEEE----E
+Q X6N9B2           31 QSAHCLSFAVDPLWYSGYSIGPC----------ETFFQIGITVLRTNDNSTQIQETVSISPQNTGATTQDGKIVV----R   96 (211)
+Q Consensus        31 ~sahCLrf~~~~~wY~vy~i~~~----------~~~f~i~v~i~~~~~~~~~~~~~~~l~p~~~~~~~~~~~v~v----~   96 (211)
+                      .............|..+-.....          .....+-..+....     ....+.|+           .+.+    .
+T Consensus       176 ~g~~v~~v~~~~~~~dIdtpeDl~~ae~~l~~~~~~ig~g~dih~~~-----~~~~l~l~-----------gv~i~~~~~  239 (371)
+T 1w55_A          176 MGGKIWFVEGEENARKLTFKEDLKKLDLPTPSFEIFTGNGFDVHEFG-----ENRPLLLA-----------GVQIHPTMG  239 (371)
+T ss_dssp             TTCCEEEEECCGGGCCCCSGGGGGGSCCCCBCCCEEEEEEEEEEEEE-----EESCEEET-----------TEEEESSEE
+T ss_pred             CCCcEEEEECChHhcCCCCHHHHHHHHhhccccceeeccCeeeeecc-----CCccceeC-----------cEEeccCCC
+Confidence            11122222232245544332221          11122222222211     11112211           1111    1
+
+
+Q ss_pred             Eecc-------------------------cccccCCCCCC------------------c------eeeecCCCCCCC---
+Q X6N9B2           97 LIGD-------------------------LVSYQDAPDLN------------------N------LYYFCPSSPQTD---  124 (211)
+Q Consensus        97 ligd-------------------------~~~~~~~~~l~------------------~------~yL~iP~~~~~~---  124 (211)
+                      +.|.                         .-|.+. |.+.                  +      ...++...|.-.   
+T Consensus       240 ~~~~sd~dv~~ha~~da~l~a~~~~d~g~~f~~~~-~~~~~~~s~~~l~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~~  318 (371)
+T 1w55_A          240 LKAHSDGDVLAHSLTDAILGAAGLGDIGELYPDTD-MKFKNANSMELLKQAYDKVREIGFELINIDICVMAQSPKLKDFK  318 (371)
+T ss_dssp             ECSSTTCCHHHHHHHHHHHHHTTCCCHHHHSCCTT-STTTTCCHHHHHHHHHHHHHHTTEEEEEEEEEEECSSSCCGGGH
+T ss_pred             ccccCchhHHHHHHHHHHHhhccCCchhhhCCCcC-cccCCCChHHHHHHHHHHHHHCCCEEEEEEEEEEeCCCccHHHH
+Confidence            1111                         001111 1111                  1      124566555433   
+
+
+Q ss_pred             hHHHhhhhcccccccceeeeeccCcCcc-----ceeeEEEEe---ecccccc
+Q X6N9B2          125 PRVKNYLKNSMLIPQSAVTLTGQDCDKI-----GVSYYAFRY---QSQACLK  168 (211)
+Q Consensus       125 ~~~~~~~~~~mll~~~~v~l~G~eCnKI-----GVsy~aF~~---Q~~~C~~  168 (211)
+                      +.....+++-|=++.+.|.++..+=.|+     |-+..++..   +.....+
+T Consensus       319 ~~~~~~~~~~l~~~~~~~~~~~~t~e~~~~~g~~~~~~~~~~~~~~~~~~~~  370 (371)
+T 1w55_A          319 QAMQSNIAHTLDLDEFRINVKATTTEKLGFIGRKEGMAVLSSVNLKYFDWTR  370 (371)
+T ss_dssp             HHHHHHHHHHHTCCGGGEEEEEECCTTCHHHHTTSEEEEEEEEEEEECCTTC
+T ss_pred             HHHHHHHHHHhCCCCceEEEEEeeCCCCCccCCccEEEEEEEEEEEecCcCC
+Confidence            5777788999999999999999888887     455566554   2222111
+
+
+No 19 
+>1t0a_A 2C-methyl-D-erythritol 2,4-cyclodiphosphate synth; mixed alpha beta, homotrimer, synthase, lyase; HET: FPP; 1.60A {Shewanella oneidensis} SCOP: d.79.5.1 PDB: 1vh8_A* 1vha_A* 1jn1_A 3fpi_A* 3f6m_A*
+Probab=0.05  E-value=5.4e+03  Score=8.82  Aligned_cols=58  Identities=9%  Similarity=0.077  Sum_probs=36.5
+
+Q ss_pred             CCcEEEEEecccccccCCCCCCceeeecCCCCCCC---hHHHhhhhcccccccceeeeeccCcCcc-----ceeeEEEEe
+Q X6N9B2           90 DGKIVVRLIGDLVSYQDAPDLNNLYYFCPSSPQTD---PRVKNYLKNSMLIPQSAVTLTGQDCDKI-----GVSYYAFRY  161 (211)
+Q Consensus        90 ~~~v~v~ligd~~~~~~~~~l~~~yL~iP~~~~~~---~~~~~~~~~~mll~~~~v~l~G~eCnKI-----GVsy~aF~~  161 (211)
+                      .+.-.+++-               ..++...|.=.   +.....+++-|=++.+.|+++..+=+|.     |-+-.+|..
+T Consensus        89 ~g~~i~niD---------------~tIi~e~Pkl~p~~~~m~~~la~~L~i~~~~V~iKatT~E~lg~~G~~egI~~~av  153 (159)
+T 1t0a_A           89 KGFELGNLD---------------VTIIAQAPKMAPHIEDMRQVLAADLNADVADINVKATTTEKLGFTGRKEGIAVEAV  153 (159)
+T ss_dssp             TTEEEEEEE---------------EEEECSSSCCGGGHHHHHHHHHHHTTCCGGGEEEEEECCTTCHHHHTTSEEEEEEE
+T ss_pred             CCcEEEEEE---------------EEEEeCCCcchHHHHHHHHHHHHHhCCCCceEEEEEeecCCcCcccCCcEEEEEEE
+Confidence            222222222               23444444333   5677788888989999999999988888     456666654
+
+
+Q ss_pred             e
+Q X6N9B2          162 Q  162 (211)
+Q Consensus       162 Q  162 (211)
+                      =
+T Consensus       154 v  154 (159)
+T 1t0a_A          154 V  154 (159)
+T ss_dssp             E
+T ss_pred             E
+Confidence            1
+
+
+No 20 
+>1fm0_D Molybdopterin convertin factor, subunit 1; molybdenum cofactor biosynthesis, transferase; 1.45A {Escherichia coli} SCOP: d.15.3.1 PDB: 1fma_D 1jw9_D 1jwa_D* 1jwb_D* 3bii_D 1nvi_D
+Probab=0.04  E-value=4.8e+03  Score=6.04  Aligned_cols=58  Identities=21%  Similarity=0.191  Sum_probs=27.3
+
+Q ss_pred             eeEEEEe-------cCCcceEEeeeEeccCCCCcc----------------ccCCcEEEEEecccccccCCCCCCceeee
+Q X6N9B2           60 GITVLRT-------NDNSTQIQETVSISPQNTGAT----------------TQDGKIVVRLIGDLVSYQDAPDLNNLYYF  116 (211)
+Q Consensus        60 ~v~i~~~-------~~~~~~~~~~~~l~p~~~~~~----------------~~~~~v~v~ligd~~~~~~~~~l~~~yL~  116 (211)
+                      .|+|.-.       +.    ....+.+..  .+..                ..+..+.+.+-|..........=.+...+
+T Consensus         1 ~i~v~~~~~l~~~~g~----~~~~~~~~~--~tv~~ll~~l~~~~p~~~~~~~~~~~~v~vn~~~~~~~~~l~~gd~v~i   74 (81)
+T 1fm0_D            1 MIKVLFFAQVRELVGT----DATEVAADF--PTVEALRQHMAAQSDRWALALEDGKLLAAVNQTLVSFDHPLTDGDEVAF   74 (81)
+T ss_dssp             CEEEEECHHHHHHHTC----SEEEECSCC--SBHHHHHHHHHTTCHHHHHHHCCTTCEEEETTEECCTTCBCCTTCEEEE
+T ss_pred             CEEEEEhHHHHHHhCC----CeEEEECCC--CCHHHHHHHHHHhCchhhhhccCCCEEEEECCEEcCCCCCcCCcCEEEE
+Confidence            2444441       11    122344331  1100                00234566666666655555566778888
+
+
+Q ss_pred             cCCCCCC
+Q X6N9B2          117 CPSSPQT  123 (211)
+Q Consensus       117 iP~~~~~  123 (211)
+                      +|-....
+T Consensus        75 ~ppv~GG   81 (81)
+T 1fm0_D           75 FPPVTGG   81 (81)
+T ss_dssp             ECCCCCC
+T ss_pred             eCCCCCC
+Confidence            8765532
+
+
+Done!

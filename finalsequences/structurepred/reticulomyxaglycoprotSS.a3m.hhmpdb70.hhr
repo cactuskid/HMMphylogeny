@@ -1,0 +1,323 @@
+Query         reticulomyxaglycoprotSS
+Match_columns 722
+No_of_seqs    2056 out of 13376
+Neff          5.3 
+Searched_HMMs 4325
+Date          Wed Aug  3 00:44:34 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/reticulomyxaglycoprotSS.a3m.hhm -ohhm ./structurepred/reticulomyxaglycoprotSS.a3m.hhm -o ./structurepred/reticulomyxaglycoprotSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .2 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4feb_A Maltose-binding peripla  94.4  0.0023 4.1E-07   62.4   1.9   11  372-382   263-273 (452)
+  2 1qb3_A Cyclin-dependent kinase  93.5  0.0041 5.5E-07   55.2   0.6   10  548-557    96-105 (150)
+  3 4feb_A Maltose-binding peripla  92.6  0.0056 9.9E-07   59.4   0.9    9  439-448   241-249 (452)
+  4 1qb3_A Cyclin-dependent kinase  91.4   0.011 1.4E-06   52.4   0.5    6  498-503    72-77  (150)
+  5 1lsh_B Lipovitellin (LV-2); vi  34.9      24  0.0038   31.5   8.7   11  544-554    51-61  (319)
+  6 1ytv_M V1AR, vasopressin V1A r  34.2      47  0.0065   24.9   8.5   32  182-224     5-37  (84)
+  7 4ljo_A E3 ubiquitin-protein li  31.8      35  0.0051   29.7   8.7   46    1-46    172-220 (223)
+  8 2jro_A Uncharacterized protein  25.4      82   0.011   23.3  19.3   55    1-55      7-77  (78)
+  9 1gku_B Reverse gyrase, TOP-RG;  25.3      13  0.0021   39.1   5.3    9  685-693    15-23  (1054)
+ 10 3m92_A Protein YCIN; DUF2498,   16.9      60  0.0076   25.4   5.6   39  240-290    17-55  (107)
+ 11 1lsh_B Lipovitellin (LV-2); vi  16.1     6.6  0.0011   35.8   0.0    6  637-642   147-152 (319)
+ 12 2jug_A TUBC protein; docking d  16.0   1E+02   0.015   21.4  22.0   48    1-54      5-70  (78)
+ 13 3c8f_A Pyruvate formate-lyase   14.8 1.4E+02   0.024   23.0  18.6   39    1-39     50-95  (245)
+ 14 4i2u_A Glutaredoxin; cell redo  11.0 1.3E+02   0.022   20.6   7.7   54    4-57     60-113 (114)
+ 15 4fo9_A E3 SUMO-protein ligase   10.4      54  0.0081   30.1   4.8   42  341-390   239-281 (360)
+ 16 4beh_A 60S acidic ribosomal pr  10.0 1.9E+02   0.029   21.2  13.0   29  666-694    64-92  (114)
+ 17 3kd6_A Carbohydrate kinase, PF   9.5      83   0.014   26.2   6.1   24   31-54    288-311 (313)
+ 18 4mvt_A E3 SUMO-protein ligase    9.0      58  0.0087   30.0   4.4   41  341-389   255-296 (374)
+ 19 1zbo_A Hypothetical protein BP   6.4 2.7E+02   0.046   20.9   7.9   30   25-54    180-209 (210)
+ 20 1vmj_A Hypothetical protein TM   6.4 3.5E+02    0.05   21.1  20.4   34    3-36     34-81  (151)
+
+No 1  
+>4feb_A Maltose-binding periplasmic protein, huntingtin; alpha helix, loop, beta-strand hairpin, beta strand hairpin, signaling protein; 2.80A {Escherichia coli} PDB: 4fe8_A 4fec_A 4fed_A
+Probab=94.45  E-value=0.0023  Score=62.40  Aligned_cols=11  Identities=9%  Similarity=0.093  Sum_probs=3.2
+
+Q ss_pred             EeecccccCCh
+Q reticulomyxagl  372 RLEYNSQRQDP  382 (722)
+Q Consensus       372 kl~~~sq~~~p  382 (722)
+                      -+........+
+T Consensus       263 ~~~i~~~~~~~  273 (452)
+T 4feb_A          263 SAGINAASPNK  273 (452)
+T ss_dssp             EEEEBTTCTTH
+T ss_pred             EEEEeCCCCCH
+Confidence            22223323332
+
+
+No 2  
+>1qb3_A Cyclin-dependent kinases regulatory subunit; cell cycle mutagenesis domain swapping, cyclin-dependent KIN cycle; 3.00A {Saccharomyces cerevisiae} SCOP: d.97.1.1
+Probab=93.53  E-value=0.0041  Score=55.20  Aligned_cols=10  Identities=0%  Similarity=-0.287  Sum_probs=3.5
+
+Q ss_pred             ceeeEEeecc
+Q reticulomyxagl  548 STTTTITTTG  557 (722)
+Q Consensus       548 ~~~~~~~~~q  557 (722)
+                      ..--...+..
+T Consensus        96 hILlFRRp~~  105 (150)
+T 1qb3_A           96 HILLFKRPLN  105 (150)
+T ss_dssp             TEEEEEEETT
+T ss_pred             chhhhhcccC
+Confidence            2333344432
+
+
+No 3  
+>4feb_A Maltose-binding periplasmic protein, huntingtin; alpha helix, loop, beta-strand hairpin, beta strand hairpin, signaling protein; 2.80A {Escherichia coli} PDB: 4fe8_A 4fec_A 4fed_A
+Probab=92.57  E-value=0.0056  Score=59.45  Aligned_cols=9  Identities=11%  Similarity=0.110  Sum_probs=2.4
+
+Q ss_pred             ceeeeCCCCc
+Q reticulomyxagl  439 PLVIASPTPG  448 (722)
+Q Consensus       439 p~vIaSPtpg  448 (722)
+                      ...+. +.+.
+T Consensus       241 ~~~~~-~~P~  249 (452)
+T 4feb_A          241 NYGVT-VLPT  249 (452)
+T ss_dssp             CEEEE-CCCB
+T ss_pred             CeEEE-eCCC
+Confidence            23332 2222
+
+
+No 4  
+>1qb3_A Cyclin-dependent kinases regulatory subunit; cell cycle mutagenesis domain swapping, cyclin-dependent KIN cycle; 3.00A {Saccharomyces cerevisiae} SCOP: d.97.1.1
+Probab=91.44  E-value=0.011  Score=52.39  Aligned_cols=6  Identities=33%  Similarity=0.424  Sum_probs=1.9
+
+Q ss_pred             hhhhhh
+Q reticulomyxagl  498 TELNSL  503 (722)
+Q Consensus       498 q~lqSL  503 (722)
+                      .+...|
+T Consensus        72 ~EWR~L   77 (150)
+T 1qb3_A           72 DEWRGL   77 (150)
+T ss_dssp             HHHHHT
+T ss_pred             HHHHHh
+Confidence            233333
+
+
+No 5  
+>1lsh_B Lipovitellin (LV-2); vitellogenin, lipoprotein, plasma apolipoprote apolipoprotein B, APOB; HET: PLD UPL; 1.90A {Ichthyomyzon unicuspis} SCOP: f.7.1.1
+Probab=34.85  E-value=24  Score=31.51  Aligned_cols=11  Identities=9%  Similarity=0.012  Sum_probs=3.2
+
+Q ss_pred             ccccceeeEEe
+Q reticulomyxagl  544 VTPVSTTTTIT  554 (722)
+Q Consensus       544 ~~~~~~~~~~~  554 (722)
+                      ..|.-......
+T Consensus        51 ~~~~~~~~~ra   61 (319)
+T 1lsh_B           51 SKPKVVIVLRA   61 (319)
+T ss_dssp             CCCCEEEEEEE
+T ss_pred             CCceEEEEEEE
+Confidence            22333332222
+
+
+No 6  
+>1ytv_M V1AR, vasopressin V1A receptor; GPCR, fusion protein, maltose- binding protein, sugar binding protein, hormone receptor; HET: MAL; 1.80A {Homo sapiens}
+Probab=34.19  E-value=47  Score=24.86  Aligned_cols=32  Identities=34%  Similarity=0.356  Sum_probs=15.7
+
+Q ss_pred             CCCCCCCCCccCCCCCcchhhhcchhhccccce-EEEecCcccc
+Q reticulomyxagl  182 NNNAHNNNGNLGLNETPTLHAMHSIESVRSQKT-VVEVDTEPEM  224 (722)
+Q Consensus       182 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~  224 (722)
+                      +++-.++|++||+.|.-.           .|-+ +..|||..|.
+T Consensus         5 ~~~~~~~~~~~~~~~~~~-----------~~~~~~f~Cc~~~~~   37 (84)
+T 1ytv_M            5 NNNNNNNNNNLGIEENLY-----------FQGQGSFPCCQNMKE   37 (84)
+T ss_pred             ccCcCCcccccccceeee-----------eeceeEEeecccccc
+Confidence            222234677899776533           3433 4455544232
+
+
+No 7  
+>4ljo_A E3 ubiquitin-protein ligase RNF31; E3 ligase-ubiquitin complex, ligase, HOIP, RNF31, ligase, E3 ligase, ring domain, IBR domain, zinc finger; 1.56A {Homo sapiens} PDB: 4ljq_B 4ljp_A
+Probab=31.78  E-value=35  Score=29.74  Aligned_cols=46  Identities=11%  Similarity=0.211  Sum_probs=31.7
+
+Q ss_pred             CChHHHHHHhhcceeEEE---ecCCchHHHHHhHHHHHHHHHHhhcCCC
+Q reticulomyxagl    1 MSTEQVIRELQHRRVKVT---VNDGDTLLKSQLVKEVEKELKLLRNAPK   46 (722)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~   46 (722)
+                      |+.++++.||+..+..+.   ..+.|-..+.||++.|.+|+-|=..-++
+T Consensus       172 ~~~~~~~~~~~r~~~~~~~~~~~~~~~~y~~rl~~~~~~~~pl~~~~~~  220 (223)
+T 4ljo_A          172 YEVEELETATERYLHVRPQPLAGEDPPAYQARLLQKLTEEVPLGQSIPR  220 (223)
+T ss_dssp             CCHHHHHHHHHHHHSCCCCCCTTCCHHHHHHHHHHHHHHHSCSCSSSCC
+T ss_pred             CCHHHHHHHHHHhccCCCCCCCCCCHHHHHHHHHHHHHHcCCCCCcCcc
+Confidence            899999999986442222   2456789999999999998643222222
+
+
+No 8  
+>2jro_A Uncharacterized protein; solution structure, structural genomics, PSI-2, protein initiative, northeast structural genomics consortium; NMR {Shewanella oneidensis}
+Probab=25.43  E-value=82  Score=23.30  Aligned_cols=55  Identities=9%  Similarity=0.100  Sum_probs=34.5
+
+Q ss_pred             CChHHHHHHh--hcceeE-------EEecCCc-------hHHHHHhHHHHHHHHHHhhcCCCCCCCCcccc
+Q reticulomyxagl    1 MSTEQVIREL--QHRRVK-------VTVNDGD-------TLLKSQLVKEVEKELKLLRNAPKEKDGSSFQN   55 (722)
+Q Consensus         1 ~~~~~~~~~~--~~~~~~-------~~~~~~~-------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   55 (722)
+                      ...-||-|=.  -.|+.=       .....|-       .--.-..|+||-.|++.|+.-+|.+-.|.||.
+T Consensus         7 Y~P~qIAk~Vk~~F~Gr~~I~giG~FEFd~GkillP~~~d~~~l~v~sEVN~~I~~L~~~~~~~~~~~~~~   77 (78)
+T 2jro_A            7 YAPKLIVKHARIFLTGVIWVKDLGRLEFEKGRFLLPRKSLPKVKQAILELNELIEAQNHQTKTALEHHHHH   77 (78)
+T ss_dssp             CCHHHHHHHHHHHCSEEEEETTTEEEEEETTEECCCSSCCHHHHHHHHHHHHHHHHHHCCCCCSSCCC---
+T ss_pred             cCHHHHHHHHHHhcceeEEEEeeccEEEcCCEEECCCccCHHHHHHHHHHHHHHHHHHhhhHHHHhhcccC
+Confidence            2345655432  245442       2344442       24566789999999999999999998876653
+
+
+No 9  
+>1gku_B Reverse gyrase, TOP-RG; topoisomerase, DNA supercoiling, archaea, helicase; 2.7A {Archaeoglobus fulgidus} SCOP: c.37.1.16 c.37.1.16 e.10.1.1 PDB: 1gl9_B*
+Probab=25.32  E-value=13  Score=39.07  Aligned_cols=9  Identities=33%  Similarity=0.231  Sum_probs=1.9
+
+Q ss_pred             CccCCCcee
+Q reticulomyxagl  685 ATAATPNVF  693 (722)
+Q Consensus       685 AAAAAAAAA  693 (722)
+                      +++++++++
+T Consensus        15 ~~~~~~~~~   23 (1054)
+T 1gku_B           15 AAAAAAAAA   23 (1054)
+T ss_dssp             CCBCCCCEE
+T ss_pred             chhhhhhhh
+Confidence            222222222
+
+
+No 10 
+>3m92_A Protein YCIN; DUF2498, structural genomics, PSI-2, protein structure initi midwest center for structural genomics, MCSG, unknown funct; HET: MSE; 2.05A {Shigella flexneri 2A}
+Probab=16.85  E-value=60  Score=25.45  Aligned_cols=39  Identities=13%  Similarity=0.334  Sum_probs=18.9
+
+Q ss_pred             cccccccccccccccccccccCchHHHHHHHhhhhhhcccchhhhhhcccc
+Q reticulomyxagl  240 NFFNSDVFGDKLQLKWNKEEFDGDAQIKQAIMLKEMEVGKEHEDFIQNQSK  290 (722)
+Q Consensus       240 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  290 (722)
+                      -+|.+..-.++-++.            |+.++...-.|=++|+|||..|--
+T Consensus        17 ~~~~~~M~~~t~pIs------------r~~LL~~AN~iIreHeDYi~GM~A   55 (107)
+T 3m92_A           17 LYFQGHMNKETQPID------------RETLLKEANKIIREHEDTLAGIEA   55 (107)
+T ss_dssp             --------CCCEEEC------------HHHHHHHHHHHHHHHHHHHTTCCE
+T ss_pred             eeeeeeecCCCcccC------------HHHHHHHHHHHHHhhhhhhCcceE
+Confidence            244444444444443            334444444566789999999862
+
+
+No 11 
+>1lsh_B Lipovitellin (LV-2); vitellogenin, lipoprotein, plasma apolipoprote apolipoprotein B, APOB; HET: PLD UPL; 1.90A {Ichthyomyzon unicuspis} SCOP: f.7.1.1
+Probab=16.09  E-value=6.6  Score=35.78  Aligned_cols=6  Identities=33%  Similarity=0.772  Sum_probs=1.4
+
+Q ss_pred             eeeecc
+Q reticulomyxagl  637 IIEWHD  642 (722)
+Q Consensus       637 ~~~~~s  642 (722)
+                      ...+..
+T Consensus       147 ~v~y~~  152 (319)
+T 1lsh_B          147 DIKWGR  152 (319)
+T ss_dssp             EEEECC
+T ss_pred             EEEecc
+Confidence            222222
+
+
+No 12 
+>2jug_A TUBC protein; docking domain, dimer, nonribosomal peptide synthetase, tubulysin, ligase, phosphopantetheine, biosynthetic protein; NMR {Angiococcus disciformis}
+Probab=16.04  E-value=1e+02  Score=21.41  Aligned_cols=48  Identities=19%  Similarity=0.297  Sum_probs=29.4
+
+Q ss_pred             CChHHHHHHhhcceeEEEecCCc-----------hHH-------HHHhHHHHHHHHHHhhcCCCCCCCCccc
+Q reticulomyxagl    1 MSTEQVIRELQHRRVKVTVNDGD-----------TLL-------KSQLVKEVEKELKLLRNAPKEKDGSSFQ   54 (722)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~-----------~~~-------~~~~~~~~~~~~~~~~~~~~~~~~~~~~   54 (722)
+                      |+.+++|.+|..+++.+++.+|-           ..+       |..|+..++.    .  ...++.+..|+
+T Consensus         5 m~~~~ll~~L~~~GI~l~~~~g~L~~~ap~g~lt~~~~~~l~~~K~~ii~~L~~----~--~~~~~~~~~~~   70 (78)
+T 2jug_A            5 SSAGALLAHAASLGVRLWVEGERLRFQAPPGVMTPELQSRLGGARHELIALLRQ----L--QPSSQGGSLLA   70 (78)
+T ss_dssp             SSHHHHHHHHHHHTCEEEEETTEEEEECCTTTTCHHHHHHHTTCHHHHHHHHHH----H--CCCCCSSSSCC
+T ss_pred             cCHHHHHHHHHHCCCEEEEeCCEEeecCcccCCCHHHHHHHHHhHHHHHHHHHH----h--hcccCccccCC
+Confidence            99999999999999999999884           222       3333333322    1  22333332222
+
+
+No 13 
+>3c8f_A Pyruvate formate-lyase 1-activating enzyme; adoMet radical, SAM radical, activase, glycyl radical, carbo metabolism, glucose metabolism, iron; HET: MT2 PGE; 2.25A {Escherichia coli} PDB: 3cb8_A*
+Probab=14.77  E-value=1.4e+02  Score=23.03  Aligned_cols=39  Identities=21%  Similarity=0.423  Sum_probs=28.1
+
+Q ss_pred             CChHHHHHHhhc-------ceeEEEecCCchHHHHHhHHHHHHHHH
+Q reticulomyxagl    1 MSTEQVIRELQH-------RRVKVTVNDGDTLLKSQLVKEVEKELK   39 (722)
+Q Consensus         1 ~~~~~~~~~~~~-------~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (722)
+                      |+.|+++.++..       +...|..-.|+.++...+++++-+.|+
+T Consensus        50 ~~~~~~~~~i~~~~~~~~~~~~~i~~~GGEP~~~~~~~~~l~~~l~   95 (245)
+T 3c8f_A           50 VTVEDLMKEVVTYRHFMNASGGGVTASGGEAILQAEFVRDWFRACK   95 (245)
+T ss_dssp             ECHHHHHHHHGGGHHHHTSTTCEEEEEESCGGGGHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHhHHhhccCCCeEEEeCcccccCHHHHHHHHHHHH
+Confidence            368999888765       334555556999998888777766666
+
+
+No 14 
+>4i2u_A Glutaredoxin; cell redox homeostasis, thioredoxin fold, oxidoreductase, GL binding; HET: GSH; 1.30A {Chlorella sorokiniana} PDB: 4i2t_A*
+Probab=11.01  E-value=1.3e+02  Score=20.60  Aligned_cols=54  Identities=11%  Similarity=0.008  Sum_probs=0.0
+
+Q ss_pred             HHHHHHhhcceeEEEecCCchHHHHHhHHHHHHHHHHhhcCCCCCCCCccccCC
+Q reticulomyxagl    4 EQVIRELQHRRVKVTVNDGDTLLKSQLVKEVEKELKLLRNAPKEKDGSSFQNNK   57 (722)
+Q Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   57 (722)
+                      ..+-+.+.-+..-..+-+|..+.-..=...+..+-++.....++..+.+||+.+
+T Consensus        60 ~~l~~~~~~~~~P~i~~~g~~i~~~~~~~~~~~~~~l~~~l~~~~~~~~~~~~~  113 (114)
+T 4i2u_A           60 DYLLELTGGRSVPRVFIDGQFIGGGDDTDALARNGKLEVMLRNAGVLLEHHHHH  113 (114)
+T ss_dssp             HHHHHHHSCCCSCEEEETTEEEESHHHHHHHHHHSHHHHHHHHTTSCCCCC---
+T ss_pred             HHHHHHhCCCCCCeEEECCEEEcCHHHHHHHHHCCCHHHHHHhcccchhhcccC
+
+
+No 15 
+>4fo9_A E3 SUMO-protein ligase PIAS2; E3 ligase, pinit domain, SP-ring domain, structural GE consortium, SGC; 2.39A {Homo sapiens}
+Probab=10.42  E-value=54  Score=30.14  Aligned_cols=42  Identities=19%  Similarity=0.318  Sum_probs=0.0
+
+Q ss_pred             HHhHHHHHHHHHHhhhhccccccccCCCceEE-eecccccCChhhhhhhhc
+Q reticulomyxagl  341 VEDQMEIVALQRQIADSKKTQDNAQNCPMYYR-LEYNSQRQDPLFDRVMAS  390 (722)
+Q Consensus       341 ~~d~~~~~~l~~~~~~~~~~~~~a~~C~m~~k-l~~~sq~~~pLiDr~L~S  390 (722)
+                      |||...+..+..+        ...|.||.|++ ..+.....+.+|..++..
+T Consensus       239 CFDl~~~l~~~~~--------~~~w~CPvC~~~~~~~~L~iD~~~~~il~~  281 (360)
+T 4fo9_A          239 CFDAALYLQMNEK--------KPTWICPVCDKKAAYESLILDGLFMEILND  281 (360)
+T ss_dssp             CEEHHHHHHHHHH--------SCCCBCTTTCSBCCGGGEEEBHHHHHHHTT
+T ss_pred             cCCHHHHHHHHhc--------CCCeECCCCCCcCChhhEEEeHHHHHHHHh
+
+
+No 16 
+>4beh_A 60S acidic ribosomal protein P1; stalk, ribosome, translation; NMR {Homo sapiens}
+Probab=10.03  E-value=1.9e+02  Score=21.20  Aligned_cols=29  Identities=21%  Similarity=0.204  Sum_probs=0.0
+
+Q ss_pred             ccccccCCCCCCcccccCCCccCCCceee
+Q reticulomyxagl  666 YSSGYYTPDNPNACTRASPATAATPNVFT  694 (722)
+Q Consensus       666 sssaaaa~AAAAAAAAAAAAAAAAAAAAA  694 (722)
+                      ++.+....++++++++++++++++++.+.
+T Consensus        64 ~~~~~~~~~~a~~aa~~a~~~~a~~~~~~   92 (114)
+T 4beh_A           64 GAGGPAPAAGAAPAGGPAPSTAAAPAEEK   92 (114)
+T ss_dssp             TCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+T ss_pred             cccCccccccccccccccccccchhhhhh
+
+
+No 17 
+>3kd6_A Carbohydrate kinase, PFKB family; nucleoside kinase, AMP, PSI-II, NYSGXRC, struc genomics, protein structure initiative; HET: AMP; 1.88A {Chlorobaculum tepidum}
+Probab=9.48  E-value=83  Score=26.18  Aligned_cols=24  Identities=13%  Similarity=0.290  Sum_probs=0.0
+
+Q ss_pred             HHHHHHHHHHhhcCCCCCCCCccc
+Q reticulomyxagl   31 VKEVEKELKLLRNAPKEKDGSSFQ   54 (722)
+Q Consensus        31 ~~~~~~~~~~~~~~~~~~~~~~~~   54 (722)
+                      .+||+++|+.++.-.+-..||.||
+T Consensus       288 ~~~~~~~~~~~~~~~~~~~~~~~~  311 (313)
+T 3kd6_A          288 LLEVDDRYQSFLELSRIEEGHHHH  311 (313)
+T ss_dssp             HHHHHHHHHHHHHHC---------
+T ss_pred             HHHHHHHHHHHHHHHHHhhccccc
+
+
+No 18 
+>4mvt_A E3 SUMO-protein ligase PIAS3; E3 ligase, pinit domain, SP-ring domain, structural GE structural genomics consortium, SGC; 2.30A {Homo sapiens} PDB: 2asq_B
+Probab=8.97  E-value=58  Score=29.96  Aligned_cols=41  Identities=20%  Similarity=0.345  Sum_probs=0.0
+
+Q ss_pred             HHhHHHHHHHHHHhhhhccccccccCCCceEE-eecccccCChhhhhhhh
+Q reticulomyxagl  341 VEDQMEIVALQRQIADSKKTQDNAQNCPMYYR-LEYNSQRQDPLFDRVMA  389 (722)
+Q Consensus       341 ~~d~~~~~~l~~~~~~~~~~~~~a~~C~m~~k-l~~~sq~~~pLiDr~L~  389 (722)
+                      |||.+.+..+.++        ...|.||.|++ ..+.....+.+|..++.
+T Consensus       255 CFDl~~~l~~~~~--------~~~w~CPiC~~~~~~~~L~iD~~~~~il~  296 (374)
+T 4mvt_A          255 SFDAALYLQMNEK--------KPTWTCPVCDKKAPYESLIIDGLFMEILS  296 (374)
+T ss_dssp             CEEHHHHHHHHHH--------SCCCBCTTTCSBCCGGGEEEBHHHHHHHH
+T ss_pred             eECHHHHHHHHhc--------CCCeECCCCCCCCChhhEEEeHHHHHHHh
+
+
+No 19 
+>1zbo_A Hypothetical protein BPP1347; alpha-beta protein, structural genomics, PSI, protein struct initiative; 2.60A {Bordetella parapertussis} SCOP: b.122.1.10
+Probab=6.44  E-value=2.7e+02  Score=20.85  Aligned_cols=30  Identities=10%  Similarity=0.045  Sum_probs=0.0
+
+Q ss_pred             HHHHHhHHHHHHHHHHhhcCCCCCCCCccc
+Q reticulomyxagl   25 LLKSQLVKEVEKELKLLRNAPKEKDGSSFQ   54 (722)
+Q Consensus        25 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   54 (722)
+                      ||+..+.+.+++-+++|++.-..-+.|.||
+T Consensus       180 lL~~~~~~Rl~~l~~~l~~~~~~~~~~~~~  209 (210)
+T 1zbo_A          180 LLLLPPLDRLREIDAVLAADGHALEHHHHH  209 (210)
+T ss_dssp             HHHSCHHHHHHHHHHHHHC-----------
+T ss_pred             HHcCCHHHHHHHHHHHHHHHHHHHhhcccC
+
+
+No 20 
+>1vmj_A Hypothetical protein TM0723; putative thiamin phosphate synthase, structural genomics, JO center for structural genomics, JCSG; 1.52A {Thermotoga maritima} SCOP: d.273.1.1
+Probab=6.37  E-value=3.5e+02  Score=21.06  Aligned_cols=34  Identities=24%  Similarity=0.228  Sum_probs=0.0
+
+Q ss_pred             hHHHHHHhh--------------cceeEEEecCCchHHHHHhHHHHHH
+Q reticulomyxagl    3 TEQVIRELQ--------------HRRVKVTVNDGDTLLKSQLVKEVEK   36 (722)
+Q Consensus         3 ~~~~~~~~~--------------~~~~~~~~~~~~~~~~~~~~~~~~~   36 (722)
+                      |++|-+.+.              |--+-+++|++|.-+..-|.+.+|+
+T Consensus        34 T~~V~~~v~~sgi~~Giv~vf~~HTTaal~inE~dp~l~~Dl~~~l~r   81 (151)
+T 1vmj_A           34 TPLLEECVRESGIKEGLLLCNAMHITASVFINDDEPGLHHDFEVWLEK   81 (151)
+T ss_dssp             HHHHHHHHHHHCCSSEEEEEEESSTTEEEEEECCCHHHHHHHHHHHHH
+T ss_pred             cHHHHHHHHHhCCCcEEEEEEeCCCeeeEEeecCChHHHHHHHHHHHH
+
+
+Done!

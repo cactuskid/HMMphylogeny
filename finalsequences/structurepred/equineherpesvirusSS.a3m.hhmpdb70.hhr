@@ -1,0 +1,595 @@
+Query         equineherpesvirusSS
+Match_columns 754
+No_of_seqs    2099 out of 4487
+Neff          4.8 
+Searched_HMMs 20000
+Date          Wed Aug  3 00:46:29 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/equineherpesvirusSS.a3m.hhm -ohhm ./structurepred/equineherpesvirusSS.a3m.hhm -o ./structurepred/equineherpesvirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .2 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 5a2e_A T-cell differentiation  100.0 4.2E-38 7.2E-42  330.1  20.3  254  415-729    13-362 (371)
+  2 5a2e_A T-cell differentiation   99.9 2.5E-26 4.2E-30  239.5  22.1  204  502-750    42-316 (371)
+  3 1z8g_A Serine protease hepsin;  99.5 8.2E-12 1.5E-15  124.7  34.9  133  500-677     4-146 (372)
+  4 1by2_A MAC-2 binding protein;   99.5 6.6E-15 1.2E-18  121.9   7.3  108  500-641     5-113 (119)
+  5 2jop_A T-cell surface glycopro  99.5 1.2E-12   2E-16  117.1  20.4  108  486-639    16-131 (131)
+  6 2xrc_A Human complement factor  99.4 4.7E-12 8.1E-16  135.8  23.7  107  500-641    91-200 (565)
+  7 2ja4_A T-cell surface glycopro  99.3 3.1E-12 5.8E-16  102.4  10.5   96  500-638     3-100 (101)
+  8 2oya_A Macrophage receptor mar  99.2 2.9E-12 5.6E-16  100.6   5.4   88  516-638    14-102 (102)
+  9 2xrc_A Human complement factor  98.8   4E-08   7E-12  104.0  20.9  112  608-732    40-201 (565)
+ 10 1by2_A MAC-2 binding protein;   98.7 2.3E-08 4.2E-12   80.9  12.5   90  642-732     4-115 (119)
+ 11 2jop_A T-cell surface glycopro  98.7 8.2E-08 1.3E-11   84.5  14.5   85  643-728    27-130 (131)
+ 12 2ja4_A T-cell surface glycopro  98.5   5E-07 9.4E-11   70.5  14.8   81  643-728     3-100 (101)
+ 13 2oya_A Macrophage receptor mar  98.1 8.9E-07 1.7E-10   67.6   6.6   80  646-728     5-102 (102)
+ 14 1z8g_A Serine protease hepsin;  80.3      10  0.0018   33.3  65.9   82  450-554     4-162 (372)
+ 15 4k1f_A Tryparedoxin peroxidase   3.3 1.7E+02    0.03   22.0   3.8   31  487-527   169-199 (199)
+ 16 2nqa_A Calpain 8; calpain, cal   1.4   1E+03    0.17   18.5  10.9   29  517-552   116-146 (326)
+ 17 2nq2_A Hypothetical ABC transp   1.4 1.2E+03    0.19   18.7   9.9   26  729-754   311-336 (337)
+ 18 1ziv_A Calpain 9; cysteine pro   1.1 1.3E+03    0.21   18.1  12.1   30  516-552   119-150 (339)
+ 19 2r9f_A Calpain-1 catalytic sub   1.1 1.3E+03    0.21   18.1  11.8   30  516-552   120-151 (339)
+ 20 3wsc_A Alginate-binding protei   1.0 2.1E+02   0.033   24.1   0.0   18    1-18      1-19  (283)
+
+No 1  
+>5a2e_A T-cell differentiation antigen CD6; immune system, scavenger receptor cysteine rich, SRCR; HET: NAG; 3.15A {Homo sapiens}
+Probab=100.00  E-value=4.2e-38  Score=330.15  Aligned_cols=254  Identities=13%  Similarity=0.061  Sum_probs=175.7
+
+Q ss_pred             eeeeccCCccccCccccCCCCCccccceeeeeEEEecccccccccccCCCCCccCCCCCCCCcCCCCCCCCccceeeecC
+Q equineherpesvi  415 TTYTTPTNALSSTNVWPARDNSSTQQTTQHDYIVTTQKLTGHLHQHKGRANGRNVNNKSHPSVRPDRLTPHTDYHYYYDD  494 (754)
+Q Consensus       415 ~~y~~p~g~~~lgnV~c~gsesslq~~~~~~~i~~~~~~~VRLvgGss~CeGRVE~~~~~~~~~p~V~~~G~WGTVCDD~  494 (754)
+                      +.+..+.+++|++++.|.+.|..+.++        .....|||++|..+|+||||           |+++|+||+||+|+
+T Consensus        13 ~~~~~~~~~~~~~~~~c~~~~~~~~~~--------~~~~~vrL~~g~~~~~Grve-----------v~~~g~Wg~VC~~~   73 (371)
+T 5a2e_A           13 AALSGHPSPAPPDQLNTSSAESELWEP--------GERLPVRLTNGSSSCSGTVE-----------VRLEASWEPACGAL   73 (371)
+T ss_dssp             --------------------------------------CCEEEESSSSTTEEEEE-----------ECCSSCCEECBSTT
+T ss_pred             eeccCCCCCcCcCCCCcCCCcchhhcC--------CCCCceEECCCCCCCeEEEE-----------EEECCEEEeeeCCc
+Confidence            224445799999999999999877773        34578999999999999999           99999999999999
+
+
+Q ss_pred             CC------------CCC---------C----------------------CCc----------------------------
+Q equineherpesvi  495 TD------------YPQ---------D----------------------GSF----------------------------  503 (754)
+Q Consensus       495 Wd------------~~~---------~----------------------~dA----------------------------  503 (754)
+                      |+            +..         .                      ...                            
+T Consensus        74 w~~~~A~vvCrqLG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C~g~e~sl~~c~~~~c~~~~~~~~v  153 (371)
+T 5a2e_A           74 WDSRAAEAVCRALGCGGAEAASQLAPPTPELPPPPAAGNTSVAANATLAGAPALLCSGAEWRLCEVVEHACRSDGRRARV  153 (371)
+T ss_dssp             CCHHHHHHHHHHHTCCSEEEEEEECCC---------------------CCCCEEEESSSSSTTEEEESSCSCSSSCEEEE
+T ss_pred             cChhhhhhhhhccCCCcccccccccccCCCCCCccccCcceecccccccccCcceeCCCcCccccccCCCcCCCCCceEE
+Confidence            95            110         0                      000                            
+
+
+Q ss_pred             ------eecCCCCCCCCccchhhheeeceeEEEEeeeeeecceeeEEeeccccccccccCcceeeeeccCCceeEEeecc
+Q equineherpesvi  504 ------ERVTPPPQGRPNIELGVATLRKNFLVATCTVEATMGLSFFWKIGNASVDAFSRGTTHTRVMRNGSPVYALISTL  577 (754)
+Q Consensus       504 ------~VrlqLG~G~~~~eGRVEV~~nG~WGTVCt~~~~~~~DD~Wd~~dA~VVc~~lG~~~CRQLGcG~a~sa~~~a~  577 (754)
+                            .|||.+|  ...++||||||++|+||+||        ++.|+..+|+||        ||||||+.+........
+T Consensus       154 ~C~~~~~~rL~~g--~~~~~G~vev~~~g~Wg~VC--------~~~w~~~~a~vv--------CrqLG~~~~~~~~~~~~  215 (371)
+T 5a2e_A          154 TCAENRALRLVDG--GGACAGRVEMLEHGEWGSVC--------DDTWDLEDAHVV--------CRQLGCGWAVQALPGLH  215 (371)
+T ss_dssp             EETTCEEEEEESS--SSTTEEEEEEEESSCEEEEB--------STTCCHHHHHHH--------HHHHTCCSEEECCCTTS
+T ss_pred             EeCCCCcEEECCC--CCCcEEEEEEEECCEEEEee--------CCCCCccccEEE--------ecccCCCCccccccccc
+Confidence                  0111111  22467999999999999999        888999999999        99999999876544456
+
+
+Q ss_pred             ccceeeeeeccceeccccccccccccCccceeeeecccccCCCcceeEEEEEeeCCeeEEEeeccCCCCeEEEecccccc
+Q equineherpesvi  578 KIPWVNVIPLTEITCAACKDNFIGNEADLTSCTVKSTTIPCPGQQRTHIFFSMKGDRAVCITSELASPPTITWSVGSNRL  657 (754)
+Q Consensus       578 FG~GsGpIwLd~V~CsGt~sn~sGnEssL~~C~~~~~~~~C~H~~~~~i~~s~eDAGVvCs~~~~~~~~~VRLv~Gss~c  657 (754)
+                      |+.+.+++|+.++.|.|       +|..|++|.+......|.|.         ++++|+|.     ....+||++|...+
+T Consensus       216 ~~~~~~~~~~~~~~C~g-------~e~~l~~C~~~~~~~~C~~~---------~~~~v~C~-----~~~~~rL~~g~~~~  274 (371)
+T 5a2e_A          216 FTPGRGPIHRDQVNCSG-------AEAYLWDCPGLPGQHYCGHK---------EDAGVVCS-----EHQSWRLTGGADRC  274 (371)
+T ss_dssp             SCCCCSCEEESEECCCS-------CCSSSTTSCEECCCSSSCGG---------GBCEEEET-----TCCEEEEEESSSTT
+T ss_pred             cCCCCCCEEEecceecC-------CCCccccCcCCCCCCCCCcc---------ccceEEcc-----ccceeeccCCCcce
+Confidence            78888899999999986       59999999987656789988         89999994     35799999999999
+
+
+Q ss_pred             ccCCceeeEEeecCceeeee----eceeeecC---C------ccccCCCCccceeeeeeccccccCceeccCccc-----
+Q equineherpesvi  658 HNNGFTQTWYEIQPGVCGIL----RSEVHISR---P------SWRVGAPTRDYLCEATVSDAKTSDYKVLPNAYS-----  719 (754)
+Q Consensus       658 eeGRVEV~~nG~WGTVCDD~----dA~VVCRq---~------~a~FG~GsGpIwLDV~CsG~EsSL~~C~~~~~~-----  719 (754)
+                      + |||||+++|+||.||++.    +|+|||||   .      ...+..+.+++  .+.|.|.|..|.+|....+.     
+T Consensus       275 ~-G~vev~~~g~W~~vC~~~~~~~~a~vvCrqlG~~~~~~~~~~~~~~~~~~~--~~~C~g~e~~l~~C~~~~~~~~~C~  351 (371)
+T 5a2e_A          275 E-GQVEVHFRGVWNTVCDSEWYPSEAKVLCQSLGCGTAVERPKGLPHSLSGRM--YYSCNGEELTLSNCSWRFNNSNLCS  351 (371)
+T ss_dssp             E-EEEEEEETTEEEEEBSTTCCHHHHHHHHHHHTSCSEEECCCCBCCCSSCEE--EEECCSCCSSGGGSEEEESCTTTSS
+T ss_pred             e-EEEEEEECCEEccccCCCCCcchhhhhhhhcCCCCccccccccCCCCCCcE--EeEecCCcCCHHHCCCCCCCCCCCC
+Confidence            8 999999999999999985    78899975   1      12233444444  47899999999988643221     
+
+
+Q ss_pred             -ccceeeeeeh
+Q equineherpesvi  720 -TSNFALVAAT  729 (754)
+Q Consensus       720 -tsncglVcSh  729 (754)
+                       ....+++|..
+T Consensus       352 ~~~~a~v~c~~  362 (371)
+T 5a2e_A          352 QSLAARVLCSA  362 (371)
+T ss_dssp             SCCBCEEEESS
+T ss_pred             CCCccEEEcCC
+Confidence             2247888852
+
+
+No 2  
+>5a2e_A T-cell differentiation antigen CD6; immune system, scavenger receptor cysteine rich, SRCR; HET: NAG; 3.15A {Homo sapiens}
+Probab=99.94  E-value=2.5e-26  Score=239.47  Aligned_cols=204  Identities=13%  Similarity=0.120  Sum_probs=144.1
+
+Q ss_pred             CceecCCCCCCCCccchhhheeeceeEEEEeeeeeecceeeEEeeccccccccccCcceeeeeccCCceeEEeeccccce
+Q equineherpesvi  502 SFERVTPPPQGRPNIELGVATLRKNFLVATCTVEATMGLSFFWKIGNASVDAFSRGTTHTRVMRNGSPVYALISTLKIPW  581 (754)
+Q Consensus       502 dA~VrlqLG~G~~~~eGRVEV~~nG~WGTVCt~~~~~~~DD~Wd~~dA~VVc~~lG~~~CRQLGcG~a~sa~~~a~FG~G  581 (754)
+                      ...|||..|..  .++||||||++|+||+||        ++.|+.++|+||        ||||||+.+........|+++
+T Consensus        42 ~~~vrL~~g~~--~~~Grvev~~~g~Wg~VC--------~~~w~~~~A~vv--------CrqLG~~~~~~~~~~~~~~~~  103 (371)
+T 5a2e_A           42 RLPVRLTNGSS--SCSGTVEVRLEASWEPAC--------GALWDSRAAEAV--------CRALGCGGAEAASQLAPPTPE  103 (371)
+T ss_dssp             -CCEEEESSSS--TTEEEEEECCSSCCEECB--------STTCCHHHHHHH--------HHHHTCCSEEEEEEECCC---
+T ss_pred             CCceEECCCCC--CCeEEEEEEECCEEEeee--------CCccChhhhhhh--------hhccCCCcccccccccccCCC
+Confidence            23366656554  467999999999999999        888999999999        999999999888776666543
+
+
+Q ss_pred             e---------------eeeeccceeccccccccccccCccceeeeecccccCC-CcceeEEEEEeeCCeeEEEeeccCCC
+Q equineherpesvi  582 V---------------NVIPLTEITCAACKDNFIGNEADLTSCTVKSTTIPCP-GQQRTHIFFSMKGDRAVCITSELASP  645 (754)
+Q Consensus       582 s---------------GpIwLd~V~CsGt~sn~sGnEssL~~C~~~~~~~~C~-H~~~~~i~~s~eDAGVvCs~~~~~~~  645 (754)
+                      .               .++|+.++.|.|       +|.+|++|.+    +.|. |.         ++++|.|.     ..
+T Consensus       104 ~~~~~~~~~~~~~~~~~~~~~~~~~C~g-------~e~sl~~c~~----~~c~~~~---------~~~~v~C~-----~~  158 (371)
+T 5a2e_A          104 LPPPPAAGNTSVAANATLAGAPALLCSG-------AEWRLCEVVE----HACRSDG---------RRARVTCA-----EN  158 (371)
+T ss_dssp             ------------------CCCCEEEESS-------SSSTTEEEES----SCSCSSS---------CEEEEEET-----TC
+T ss_pred             CCCccccCcceecccccccccCcceeCC-------CcCccccccC----CCcCCCC---------CceEEEeC-----CC
+Confidence            2               235789999996       5999999984    4575 44         34466662     23
+
+
+Q ss_pred             CeEEEeccccccccCCceeeEEeecCceeeee----eceeeecC----------CccccCCCCcccee-eeeeccccccC
+Q equineherpesvi  646 PTITWSVGSNRLHNNGFTQTWYEIQPGVCGIL----RSEVHISR----------PSWRVGAPTRDYLC-EATVSDAKTSD  710 (754)
+Q Consensus       646 ~~VRLv~Gss~ceeGRVEV~~nG~WGTVCDD~----dA~VVCRq----------~~a~FG~GsGpIwL-DV~CsG~EsSL  710 (754)
+                      ..+||++|...++ |||||+++|+||+||++.    +|+|||||          ....|+.+.+++|+ ++.|.|.|.++
+T Consensus       159 ~~~rL~~g~~~~~-G~vev~~~g~Wg~VC~~~w~~~~a~vvCrqLG~~~~~~~~~~~~~~~~~~~~~~~~~~C~g~e~~l  237 (371)
+T 5a2e_A          159 RALRLVDGGGACA-GRVEMLEHGEWGSVCDDTWDLEDAHVVCRQLGCGWAVQALPGLHFTPGRGPIHRDQVNCSGAEAYL  237 (371)
+T ss_dssp             EEEEEESSSSTTE-EEEEEEESSCEEEEBSTTCCHHHHHHHHHHHTCCSEEECCCTTSSCCCCSCEEESEECCCSCCSSS
+T ss_pred             CcEEECCCCCCcE-EEEEEEECCEEEEeeCCCCCccccEEEecccCCCCccccccccccCCCCCCEEEecceecCCCCcc
+Confidence            4799999999998 999999999999999975    67888874          23457788889998 59999999988
+
+
+Q ss_pred             ceeccCc--ccc---cc-------------------------------eeeeee---hhhhhHHHHHHHHhhhh-ccccC
+Q equineherpesvi  711 YKVLPNA--YST---SN-------------------------------FALVAA---TTLTVTILCLLCCLYCM-LTRPR  750 (754)
+Q Consensus       711 ~~C~~~~--~~t---sn-------------------------------cglVcS---h~~dagVvCll~c~~~~-L~r~k  750 (754)
+                      .+|....  ...   ..                               -+.||.   ...++-|+|... +|.. +.+++
+T Consensus       238 ~~C~~~~~~~~C~~~~~~~v~C~~~~~~rL~~g~~~~~G~vev~~~g~W~~vC~~~~~~~~a~vvCrql-G~~~~~~~~~  316 (371)
+T 5a2e_A          238 WDCPGLPGQHYCGHKEDAGVVCSEHQSWRLTGGADRCEGQVEVHFRGVWNTVCDSEWYPSEAKVLCQSL-GCGTAVERPK  316 (371)
+T ss_dssp             TTSCEECCCSSSCGGGBCEEEETTCCEEEEEESSSTTEEEEEEEETTEEEEEBSTTCCHHHHHHHHHHH-TSCSEEECCC
+T ss_pred             ccCcCCCCCCCCCccccceEEccccceeeccCCCcceeEEEEEEECCEEccccCCCCCcchhhhhhhhc-CCCCcccccc
+Confidence            7663211  000   01                               123443   235677888653 2221 22222
+
+
+No 3  
+>1z8g_A Serine protease hepsin; serine protease hepsin, protease, hydrolase-hydrolase inhibi complex; HET: AR7; 1.55A {Homo sapiens} SCOP: b.47.1.2 d.170.1.2 PDB: 3t2n_A 1o5e_H* 1o5f_H* 1p57_B* 1o5e_L* 1o5f_L* 1p57_A*
+Probab=99.52  E-value=8.2e-12  Score=124.74  Aligned_cols=133  Identities=11%  Similarity=0.052  Sum_probs=96.5
+
+Q ss_pred             CCCceecCCCCCCCCccchhhheee--ceeEEEEeeeeeecceeeEEeeccccccccccCcceeeeeccCCceeEEeecc
+Q equineherpesvi  500 DGSFERVTPPPQGRPNIELGVATLR--KNFLVATCTVEATMGLSFFWKIGNASVDAFSRGTTHTRVMRNGSPVYALISTL  577 (754)
+Q Consensus       500 ~~dA~VrlqLG~G~~~~eGRVEV~~--nG~WGTVCt~~~~~~~DD~Wd~~dA~VVc~~lG~~~CRQLGcG~a~sa~~~a~  577 (754)
+                      ..+.+||+..|.      |||||++  +|+|+.||        ++.|+..+|+||        ||||||+.+........
+T Consensus         4 ~~~~~~rl~~~~------g~vev~~~~~g~W~~vC--------~~~w~~~~a~~v--------C~~LG~~~~~~~~~~~~   61 (372)
+T 1z8g_A            4 EPLYPVQVSSAD------ARLMVFDKTEGTWRLLC--------SSRSNARVAGLS--------CEEMGFLRALTHSELDV   61 (372)
+T ss_dssp             CCCCSEEECTTT------CBEEEEETTTTEEEEEB--------CCTTHHHHHHHH--------HHHHTCSCEEEEEEEEH
+T ss_pred             CCcccEEEeCCC------ceEEEEeCCCCcEeeee--------cCCCChhhhccc--------HHhcCcccccccceeee
+Confidence            345668876653      9999999  99999999        766766778999        99999999876554332
+
+
+Q ss_pred             cc----ceeeeeeccceeccccccccccccCccceeeeecccccCCCcceeEEEEEeeCCeeEEEeeccCCCCeEEEecc
+Q equineherpesvi  578 KI----PWVNVIPLTEITCAACKDNFIGNEADLTSCTVKSTTIPCPGQQRTHIFFSMKGDRAVCITSELASPPTITWSVG  653 (754)
+Q Consensus       578 FG----~GsGpIwLd~V~CsGt~sn~sGnEssL~~C~~~~~~~~C~H~~~~~i~~s~eDAGVvCs~~~~~~~~~VRLv~G  653 (754)
+                      ++    ....++|++++.|.+       +|..|.+|...    +|.+.         +.+.+.|..........+||++|
+T Consensus        62 ~~~~~~~~~~~~~~~~~~c~~-------~~~~l~~~~~~----~c~~~---------~~~~~~c~~cg~~~~~~~~~~~g  121 (372)
+T 1z8g_A           62 RTAGAAGTSGFFCVDEGRLPH-------TQRLLEVISVC----DCPRG---------RFLAAICQDCGRRKLPVDRIVGG  121 (372)
+T ss_dssp             HHHCCSSCCSEEEECTTTGGG-------CSCGGGGEEEE----CCTTC---------EEEEEEECCCSCCCCC---CBSC
+T ss_pred             eccccccccccEEecccccCC-------ccceeeecccc----CCCCC---------cEeeeecccCCCcCCCCCCeECC
+Confidence            22    236788999999986       59999999864    79988         44567776543333456788777
+
+
+Q ss_pred             ccccccCC----ceeeEEeecCceeeee
+Q equineherpesvi  654 SNRLHNNG----FTQTWYEIQPGVCGIL  677 (754)
+Q Consensus       654 ss~ceeGR----VEV~~nG~WGTVCDD~  677 (754)
+                      ...++ |+    |+|++++.|  +|...
+T Consensus       122 ~~~~~-~~~Pw~~~~~~~~~~--~C~g~  146 (372)
+T 1z8g_A          122 RDTSL-GRWPWQVSLRYDGAH--LCGGS  146 (372)
+T ss_dssp             EECCT-TSSTTEEEEEETTEE--EEEEE
+T ss_pred             eECCC-CCcCeEEEEEECCce--EEeeE
+Confidence            77776 99    999887666  66654
+
+
+No 4  
+>1by2_A MAC-2 binding protein; extracellular module, scavenger receptor, tumour-associated extracellular matrix, glycosylated protein; HET: NAG; 2.00A {Homo sapiens} SCOP: d.170.1.1
+Probab=99.48  E-value=6.6e-15  Score=121.90  Aligned_cols=108  Identities=19%  Similarity=0.223  Sum_probs=87.6
+
+Q ss_pred             CCCceecCCCCCCCCccchhhheeeceeEEEEeeeeeecceeeEEeeccccccccccCcceeeeeccCCceeEEeecccc
+Q equineherpesvi  500 DGSFERVTPPPQGRPNIELGVATLRKNFLVATCTVEATMGLSFFWKIGNASVDAFSRGTTHTRVMRNGSPVYALISTLKI  579 (754)
+Q Consensus       500 ~~dA~VrlqLG~G~~~~eGRVEV~~nG~WGTVCt~~~~~~~DD~Wd~~dA~VVc~~lG~~~CRQLGcG~a~sa~~~a~FG  579 (754)
+                      +...+|++..|.+.  ++|||||++++.|+.||        ++.|+..++.|+        ||+|||+..........|+
+T Consensus         5 ~~~~~v~l~~~~~~--~~g~~~~~~~~~w~~vc--------~~~~~~~~a~v~--------C~~lg~~~~~~~~~~~~~~   66 (119)
+T 1by2_A            5 VNDGDMRLADGGAT--NQGRVEIFYRGQWGTVC--------DNLWDLTDASVV--------CRALGFENATQALGRAAFG   66 (119)
+T ss_dssp             CCTTCEEEESCSST--TEEEEEEEETTEEEEEB--------CTTCCHHHHHHH--------HHHTTCSCEEEEECTTTTC
+T ss_pred             ccCCcEEECCCCCC--CeEEEEEEECCEEecee--------CCCCChhHHhhH--------HHHcCCCCccCcccccccC
+Confidence            34455554444444  56999999999999999        767877788999        9999999987766556788
+
+
+Q ss_pred             ceeeeeeccceeccccccccccccCccceeeeecc-cccCCCcceeEEEEEeeCCeeEEEeec
+Q equineherpesvi  580 PWVNVIPLTEITCAACKDNFIGNEADLTSCTVKST-TIPCPGQQRTHIFFSMKGDRAVCITSE  641 (754)
+Q Consensus       580 ~GsGpIwLd~V~CsGt~sn~sGnEssL~~C~~~~~-~~~C~H~~~~~i~~s~eDAGVvCs~~~  641 (754)
+                      ++..++|+..+.|.|       +|..|++|.+..| ...|.+.         +++++.|....
+T Consensus        67 ~~~~~~~~~~~~C~g-------~~~~l~~C~~~~~~~~~c~~~---------~~~~~~c~~~~  113 (119)
+T 1by2_A           67 QGSGPIMLDEVQCTG-------TEASLADCKSLGWLKSNCRHE---------RDAGVVCTNET  113 (119)
+T ss_dssp             CCCSCEEECSCBCCS-------CCSSGGGSBCSCTTCCCCCGG---------GBCEEEECSCC
+T ss_pred             CCCccEEEEccEEec-------CCCcHhhCCCCCCCCCCCCCC---------CcEEEEcCCCC
+Confidence            888889999999996       5999999999988 6789888         88999995432
+
+
+No 5  
+>2jop_A T-cell surface glycoprotein CD5; domain 1, scavenger receptor cysteine rich, SRCR, immune system; NMR {Homo sapiens} PDB: 2jp0_A
+Probab=99.46  E-value=1.2e-12  Score=117.14  Aligned_cols=108  Identities=14%  Similarity=0.143  Sum_probs=75.8
+
+Q ss_pred             ccceeeecCCCCCCCCCceecCCCCCCCCccchhhheeeceeEEEEeeeeeecceeeEEe--------eccccccccccC
+Q equineherpesvi  486 TDYHYYYDDTDYPQDGSFERVTPPPQGRPNIELGVATLRKNFLVATCTVEATMGLSFFWK--------IGNASVDAFSRG  557 (754)
+Q Consensus       486 ~WGTVCDD~Wd~~~~~dA~VrlqLG~G~~~~eGRVEV~~nG~WGTVCt~~~~~~~DD~Wd--------~~dA~VVc~~lG  557 (754)
+                      .|+.+=...|.   ..+..|++..|...  ++|+|||++++.|+.||        ++.|+        ..+|.||     
+T Consensus        16 ~~~~~~~~~~~---~~~~~~~l~~g~~~--~~G~vev~~~~~w~~vC--------~~~~~~~~~~~~~~~~a~vv-----   77 (131)
+T 2jop_A           16 PRGSHMRLSWY---DPDFQARLTRSNSK--CQGQLEVYLKDGWHMVC--------SQSWGRSSKQWEDPSQASKV-----   77 (131)
+T ss_dssp             ------CCCTT---CTTCCEEECSSSBT--TBBSEEEEETTEEEECC--------SSTBTCCCSSCSCCCSCHHH-----
+T ss_pred             hheeeeccCCC---CCCCcEEECCCCCC--CeEEEEEEECCEEEEEE--------CCcCCcccccccChhhhhee-----
+Confidence            23322122222   34455776655444  57999999999999999        77787        7799999     
+
+
+Q ss_pred             cceeeeeccCCceeEEeeccccceeeeeeccceeccccccccccccCccceeeeecccccCCCcceeEEEEEeeCCeeEE
+Q equineherpesvi  558 TTHTRVMRNGSPVYALISTLKIPWVNVIPLTEITCAACKDNFIGNEADLTSCTVKSTTIPCPGQQRTHIFFSMKGDRAVC  637 (754)
+Q Consensus       558 ~~~CRQLGcG~a~sa~~~a~FG~GsGpIwLd~V~CsGt~sn~sGnEssL~~C~~~~~~~~C~H~~~~~i~~s~eDAGVvC  637 (754)
+                         ||||||+.+........     ..+|++++.|.|       +|..|++|.+..|.  +  .         ++++|+|
+T Consensus        78 ---C~~lG~~~~~~~~~~~~-----~~~~~~~~~C~g-------~e~~l~~C~~~~~~--~--~---------~~~~v~C  129 (131)
+T 2jop_A           78 ---CQRLNCGDPLSLGPFLK-----TYTPQSSIICYG-------QLGSFSNCSHSRND--M--C---------HSLGLTC  129 (131)
+T ss_dssp             ---HHHTTSSSCEEEEECSS-----CSCTTTSEEEBS-------STTCCSCEEECCSS--S--C---------SSEEEEE
+T ss_pred             ---hhhCCCCCceeeeccCC-----CccccCCCEeCC-------CCCcHHHCCCCCCC--C--c---------eeEEEEe
+Confidence               99999999987644211     224789999996       59999999998762  2  3         6778888
+
+
+Q ss_pred             Ee
+Q equineherpesvi  638 IT  639 (754)
+Q Consensus       638 s~  639 (754)
+                      ++
+T Consensus       130 s~  131 (131)
+T 2jop_A          130 LE  131 (131)
+T ss_dssp             CC
+T ss_pred             Cc
+Confidence            42
+
+
+No 6  
+>2xrc_A Human complement factor I; immune system, hydrolase, conglutinogen activating factor, S protease, complement system; HET: NAG; 2.69A {Homo sapiens}
+Probab=99.39  E-value=4.7e-12  Score=135.78  Aligned_cols=107  Identities=16%  Similarity=0.104  Sum_probs=81.4
+
+Q ss_pred             CCCceecCCCCCCCCccchhhheeecee--EEEEeeeeeecceeeEEeeccccccccccCcceeeeeccCCceeEEeecc
+Q equineherpesvi  500 DGSFERVTPPPQGRPNIELGVATLRKNF--LVATCTVEATMGLSFFWKIGNASVDAFSRGTTHTRVMRNGSPVYALISTL  577 (754)
+Q Consensus       500 ~~dA~VrlqLG~G~~~~eGRVEV~~nG~--WGTVCt~~~~~~~DD~Wd~~dA~VVc~~lG~~~CRQLGcG~a~sa~~~a~  577 (754)
+                      ..+.+|||..|...  ++|||||+++|.  ||.||        ++.|++.+|+||        ||||||+.+.......+
+T Consensus        91 ~~~~~~rl~~g~~~--~~Grvev~~~g~w~~~~vC--------~~~w~~~~A~Vv--------Cr~lG~~~~~~~~~~~~  152 (565)
+T 2xrc_A           91 EGKFSVSLKHGNTD--SEGIVEVKLVDQDKTMFIC--------KSSWSMREANVA--------CLDLGFQQGADTQRRFK  152 (565)
+T ss_dssp             SCCCEEEEESCSST--TEEEEEEECTTCSSCEEBC--------TTSCCHHHHHHH--------HHHTTCTTCBCSSCCCC
+T ss_pred             CCceEEEECCCCCC--CcceEEEEEeCCceEEEEE--------CCCCChhhhhhh--------hhcCCCcchhhhccccc
+Confidence            34567776665544  679999999885  99999        888999999999        99999998754322233
+
+
+Q ss_pred             ccceee-eeeccceeccccccccccccCccceeeeecccccCCCcceeEEEEEeeCCeeEEEeec
+Q equineherpesvi  578 KIPWVN-VIPLTEITCAACKDNFIGNEADLTSCTVKSTTIPCPGQQRTHIFFSMKGDRAVCITSE  641 (754)
+Q Consensus       578 FG~GsG-pIwLd~V~CsGt~sn~sGnEssL~~C~~~~~~~~C~H~~~~~i~~s~eDAGVvCs~~~  641 (754)
+                      |+.+.. ++|+++|+|.|       +|.+|++|.+..| ..|.+.         ++++|+|....
+T Consensus       153 ~~~~~~~~~~~~~v~C~G-------~E~sL~~C~~~~~-~~~~~~---------~~a~v~C~~~~  200 (565)
+T 2xrc_A          153 LSDLSINSTECLHVHCRG-------LETSLAECTFTKR-RTMGYQ---------DFADVVCYTQK  200 (565)
+T ss_dssp             CCSSSCCCCCCBEEECCS-------CCSCGGGSEEECC-CCCSSC---------CCCEEEBCCC-
+T ss_pred             cCCCCCCceEeEeeeecC-------CccccceeEeecc-ccCCCc---------cccceEecccc
+Confidence            443332 46888999996       5999999999987 345556         89999997543
+
+
+No 7  
+>2ja4_A T-cell surface glycoprotein CD5; SRCR, membrane, polymorphism, crystallography, transmembrane, innate immunity, phosphorylation, immune system; 2.21A {Homo sapiens} PDB: 2ott_X
+Probab=99.28  E-value=3.1e-12  Score=102.41  Aligned_cols=96  Identities=14%  Similarity=-0.014  Sum_probs=69.2
+
+Q ss_pred             CCCceecCCCCCCCCccchhhheeeceeEEEEeeeeeecceeeEEeec--cccccccccCcceeeeeccCCceeEEeecc
+Q equineherpesvi  500 DGSFERVTPPPQGRPNIELGVATLRKNFLVATCTVEATMGLSFFWKIG--NASVDAFSRGTTHTRVMRNGSPVYALISTL  577 (754)
+Q Consensus       500 ~~dA~VrlqLG~G~~~~eGRVEV~~nG~WGTVCt~~~~~~~DD~Wd~~--dA~VVc~~lG~~~CRQLGcG~a~sa~~~a~  577 (754)
+                      ..+..+++..|..  .++|||||++++.|+.||        ++.|+..  +|+|+        ||||||+.+........
+T Consensus         3 ~~~~~~~~~~~~~--~~~g~~~~~~~~~w~~vc--------~~~~~~~~~~a~v~--------C~~lg~~~~~~~~~~~~   64 (101)
+T 2ja4_A            3 QPKVQSRLVGGSS--ICEGTVEVRQGAQWAALC--------DSSSARSSLRWEEV--------CREQQCGSVNSYRVLDA   64 (101)
+T ss_dssp             CCCCEEEEESCSS--TTEEEEEEESSSCCEEEE--------CCCSSCCSHHHHHH--------HHHTTCCSEEEEEEEST
+T ss_pred             CCCCceEECCCCC--CccEEEEEEECCEEcccc--------cCccCCccchHHhH--------HHhCCCCCccceeeccc
+Confidence            2344555444444  367999999999999999        8888774  78999        99999999887766534
+
+
+Q ss_pred             ccceeeeeeccceeccccccccccccCccceeeeecccccCCCcceeEEEEEeeCCeeEEE
+Q equineherpesvi  578 KIPWVNVIPLTEITCAACKDNFIGNEADLTSCTVKSTTIPCPGQQRTHIFFSMKGDRAVCI  638 (754)
+Q Consensus       578 FG~GsGpIwLd~V~CsGt~sn~sGnEssL~~C~~~~~~~~C~H~~~~~i~~s~eDAGVvCs  638 (754)
+                      ++.+.     +++.|.         |.+|++|.+..|...  |.         ++++|+|.
+T Consensus        65 ~~~~~-----~~~~C~---------e~~l~~C~~~~~~~~--~~---------~~~~v~c~  100 (101)
+T 2ja4_A           65 GDPTS-----RGLFCP---------HQKLSQCHELWERNS--YC---------KKVFVTCQ  100 (101)
+T ss_dssp             TCTTC-----CEEECC---------SSSGGGCSCCEEECS--CC---------CEEEEEEC
+T ss_pred             CCCCC-----cccEEC---------CCchhhCCCCCCCCC--CC---------CCeEEEeC
+Confidence            44432     889995         789999998877322  44         33455663
+
+
+No 8  
+>2oya_A Macrophage receptor marco; extracellular matrix, scavenger receptor cysteine-rich (SRCR macrophage receptor, ligand binding, basic cluster; 1.77A {Mus musculus} PDB: 2oy3_A
+Probab=99.18  E-value=2.9e-12  Score=100.60  Aligned_cols=88  Identities=17%  Similarity=0.158  Sum_probs=74.3
+
+Q ss_pred             cchhhheeeceeEEEEeeeeeecceeeEEeeccccccccccCcceeeeeccCCceeEEeeccccceeeeeeccceecccc
+Q equineherpesvi  516 IELGVATLRKNFLVATCTVEATMGLSFFWKIGNASVDAFSRGTTHTRVMRNGSPVYALISTLKIPWVNVIPLTEITCAAC  595 (754)
+Q Consensus       516 ~eGRVEV~~nG~WGTVCt~~~~~~~DD~Wd~~dA~VVc~~lG~~~CRQLGcG~a~sa~~~a~FG~GsGpIwLd~V~CsGt  595 (754)
+                      .+|+||+++++.|+.||        ++.|+..++.|+        |++|||+...   ....|+.+..++|+..+.|.| 
+T Consensus        14 ~~g~~~~~~~~~w~~~c--------~~~~~~~~~~~~--------c~~~g~~~~~---~~~~~~~~~~~~~~~~~~c~g-   73 (102)
+T 2oya_A           14 NRGRAEVYYNNEWGTIC--------DDDWDNNDATVF--------CRMLGYSRGR---ALSSYGGGSGNIWLDNVNCRG-   73 (102)
+T ss_dssp             EEEEEEEEETTEEEEEB--------CTTCCHHHHHHH--------HHHTTCSCEE---EETTCCCCCSCEEECSCBCCS-
+T ss_pred             CceEEEEEECCEEeCee--------CCCCChhheEEe--------hhhcCCCCcc---eeeeccCCCCCEEEEcCEEcC-
+Confidence            24899999999999999        667877788899        9999998743   345677777889999999996 
+
+
+Q ss_pred             ccccccccCccceeeeecc-cccCCCcceeEEEEEeeCCeeEEE
+Q equineherpesvi  596 KDNFIGNEADLTSCTVKST-TIPCPGQQRTHIFFSMKGDRAVCI  638 (754)
+Q Consensus       596 ~sn~sGnEssL~~C~~~~~-~~~C~H~~~~~i~~s~eDAGVvCs  638 (754)
+                            +|..|++|.+..| ...|.+.         +++++.|.
+T Consensus        74 ------~~~~l~~c~~~~~~~~~c~~~---------~~~~~~c~  102 (102)
+T 2oya_A           74 ------TENSLWDCSKNSWGNHNCVHN---------EDAGVECS  102 (102)
+T ss_dssp             ------CCSSGGGSBCSCTTCCCCCGG---------GBCEEEEC
+T ss_pred             ------CcCCHHHCCCCCCCCCCcCCC---------CceEEEEC
+Confidence                  5999999999998 6789988         78888883
+
+
+No 9  
+>2xrc_A Human complement factor I; immune system, hydrolase, conglutinogen activating factor, S protease, complement system; HET: NAG; 2.69A {Homo sapiens}
+Probab=98.80  E-value=4e-08  Score=104.04  Aligned_cols=112  Identities=15%  Similarity=0.186  Sum_probs=73.0
+
+Q ss_pred             eeeeecccccCCCcceeEEEEEeeCCeeEEEe-------------------------ec---cCCCCeEEEecccccccc
+Q equineherpesvi  608 SCTVKSTTIPCPGQQRTHIFFSMKGDRAVCIT-------------------------SE---LASPPTITWSVGSNRLHN  659 (754)
+Q Consensus       608 ~C~~~~~~~~C~H~~~~~i~~s~eDAGVvCs~-------------------------~~---~~~~~~VRLv~Gss~cee  659 (754)
+                      .|.-+. ..+|++.         .+  ++|..                         ..   ......+||++|...++ 
+T Consensus        40 ~~~c~~-~~~Cp~~---------~~--~~C~~~~~~~~~~c~~~~~~c~~~~~~~~~~~~c~~~~~~~~rl~~g~~~~~-  106 (565)
+T 2xrc_A           40 TCVCKL-PYQCPKN---------GT--AVCATNRRSFPTYCQQKSLECLHPGTKFLNNGTCTAEGKFSVSLKHGNTDSE-  106 (565)
+T ss_dssp             EEEECC-GGGSCSC---------CC--CEEETTTEEESSHHHHHHHHHHSTTCCEEEESSCCSSCCCEEEEESCSSTTE-
+T ss_pred             eEeccC-cccCCCC---------CC--ccccCCCCcchhhhhhcchhhccCCcccccCcccccCCceEEEECCCCCCCc-
+Confidence            233322 3566665         22  44441                         11   12357999999999998 
+
+
+Q ss_pred             CCceeeEEeecCc--eeeee----eceeeecCCc----------cccCCCCc-ccee-eeeeccccccCceeccCcccc-
+Q equineherpesvi  660 NGFTQTWYEIQPG--VCGIL----RSEVHISRPS----------WRVGAPTR-DYLC-EATVSDAKTSDYKVLPNAYST-  720 (754)
+Q Consensus       660 GRVEV~~nG~WGT--VCDD~----dA~VVCRq~~----------a~FG~GsG-pIwL-DV~CsG~EsSL~~C~~~~~~t-  720 (754)
+                      |||||+++|+|+.  ||++.    +|+|||||++          ..|+.+.. ++|+ ++.|.|.|.+|++|....|.. 
+T Consensus       107 Grvev~~~g~w~~~~vC~~~w~~~~A~VvCr~lG~~~~~~~~~~~~~~~~~~~~~~~~~v~C~G~E~sL~~C~~~~~~~~  186 (565)
+T 2xrc_A          107 GIVEVKLVDQDKTMFICKSSWSMREANVACLDLGFQQGADTQRRFKLSDLSINSTECLHVHCRGLETSLAECTFTKRRTM  186 (565)
+T ss_dssp             EEEEEECTTCSSCEEBCTTSCCHHHHHHHHHHTTCTTCBCSSCCCCCCSSSCCCCCCBEEECCSCCSCGGGSEEECCCCC
+T ss_pred             ceEEEEEeCCceEEEEECCCCChhhhhhhhhcCCCcchhhhccccccCCCCCCceEeEeeeecCCccccceeEeeccccC
+Confidence            9999999999999  99976    8999998522          12333322 3355 599999999999996655432 
+
+
+Q ss_pred             ---cceeeeeehhhh
+Q equineherpesvi  721 ---SNFALVAATTLT  732 (754)
+Q Consensus       721 ---sncglVcSh~~d  732 (754)
+                         ...+++|.....
+T Consensus       187 ~~~~~a~v~C~~~~~  201 (565)
+T 2xrc_A          187 GYQDFADVVCYTQKA  201 (565)
+T ss_dssp             SSCCCCEEEBCCC--
+T ss_pred             CCccccceEeccccc
+Confidence               347788864332
+
+
+No 10 
+>1by2_A MAC-2 binding protein; extracellular module, scavenger receptor, tumour-associated extracellular matrix, glycosylated protein; HET: NAG; 2.00A {Homo sapiens} SCOP: d.170.1.1
+Probab=98.73  E-value=2.3e-08  Score=80.87  Aligned_cols=90  Identities=11%  Similarity=0.074  Sum_probs=66.5
+
+Q ss_pred             cCCCCeEEEeccccccccCCceeeEEeecCceeeee----eceeeecC----------CccccCCCCccceee-eeeccc
+Q equineherpesvi  642 LASPPTITWSVGSNRLHNNGFTQTWYEIQPGVCGIL----RSEVHISR----------PSWRVGAPTRDYLCE-ATVSDA  706 (754)
+Q Consensus       642 ~~~~~~VRLv~Gss~ceeGRVEV~~nG~WGTVCDD~----dA~VVCRq----------~~a~FG~GsGpIwLD-V~CsG~  706 (754)
+                      ......+||++|...|+ |||||++++.|+.||++.    ++.|+|++          ....|+.+..++|+. +.|.|.
+T Consensus         4 ~~~~~~v~l~~~~~~~~-g~~~~~~~~~w~~vc~~~~~~~~a~v~C~~lg~~~~~~~~~~~~~~~~~~~~~~~~~~C~g~   82 (119)
+T 1by2_A            4 AVNDGDMRLADGGATNQ-GRVEIFYRGQWGTVCDNLWDLTDASVVCRALGFENATQALGRAAFGQGSGPIMLDEVQCTGT   82 (119)
+T ss_dssp             CCCTTCEEEESCSSTTE-EEEEEEETTEEEEEBCTTCCHHHHHHHHHHTTCSCEEEEECTTTTCCCCSCEEECSCBCCSC
+T ss_pred             cccCCcEEECCCCCCCe-EEEEEEECCEEeceeCCCCChhHHhhHHHHcCCCCccCcccccccCCCCccEEEEccEEecC
+Confidence            23567899999999998 999999999999999853    34555543          224577788888886 999999
+
+
+Q ss_pred             cccCceeccCccccc------ceeeeee-hhhh
+Q equineherpesvi  707 KTSDYKVLPNAYSTS------NFALVAA-TTLT  732 (754)
+Q Consensus       707 EsSL~~C~~~~~~ts------ncglVcS-h~~d  732 (754)
+                      |..+++|....+...      ..+++|. +..+
+T Consensus        83 ~~~l~~C~~~~~~~~~c~~~~~~~~~c~~~~~~  115 (119)
+T 1by2_A           83 EASLADCKSLGWLKSNCRHERDAGVVCTNETRS  115 (119)
+T ss_dssp             CSSGGGSBCSCTTCCCCCGGGBCEEEECSCC--
+T ss_pred             CCcHhhCCCCCCCCCCCCCCCcEEEEcCCCCCC
+Confidence            999999988776422      3567775 2222
+
+
+No 11 
+>2jop_A T-cell surface glycoprotein CD5; domain 1, scavenger receptor cysteine rich, SRCR, immune system; NMR {Homo sapiens} PDB: 2jp0_A
+Probab=98.66  E-value=8.2e-08  Score=84.54  Aligned_cols=85  Identities=6%  Similarity=-0.099  Sum_probs=62.4
+
+Q ss_pred             CCCCeEEEeccccccccCCceeeEEeecCceeeee------------eceeeecCCcc----cc-CCCCcccee-eeeec
+Q equineherpesvi  643 ASPPTITWSVGSNRLHNNGFTQTWYEIQPGVCGIL------------RSEVHISRPSW----RV-GAPTRDYLC-EATVS  704 (754)
+Q Consensus       643 ~~~~~VRLv~Gss~ceeGRVEV~~nG~WGTVCDD~------------dA~VVCRq~~a----~F-G~GsGpIwL-DV~Cs  704 (754)
+                      .....+||+.|...++ |+|||++++.|+.||.+.            ++.|+|++++.    .+ -.+...+|+ .+.|.
+T Consensus        27 ~~~~~~~l~~g~~~~~-G~vev~~~~~w~~vC~~~~~~~~~~~~~~~~a~vvC~~lG~~~~~~~~~~~~~~~~~~~~~C~  105 (131)
+T 2jop_A           27 DPDFQARLTRSNSKCQ-GQLEVYLKDGWHMVCSQSWGRSSKQWEDPSQASKVCQRLNCGDPLSLGPFLKTYTPQSSIICY  105 (131)
+T ss_dssp             CTTCCEEECSSSBTTB-BSEEEEETTEEEECCSSTBTCCCSSCSCCCSCHHHHHHTTSSSCEEEEECSSCSCTTTSEEEB
+T ss_pred             CCCCcEEECCCCCCCe-EEEEEEECCEEEEEECCcCCcccccccChhhhheehhhCCCCCceeeeccCCCccccCCCEeC
+Confidence            2356799998888998 999999999999999752            57778875321    10 112333344 49999
+
+
+Q ss_pred             cccccCceeccCcccc-cceeeeee
+Q equineherpesvi  705 DAKTSDYKVLPNAYST-SNFALVAA  728 (754)
+Q Consensus       705 G~EsSL~~C~~~~~~t-sncglVcS  728 (754)
+                      |.|..+.+|.+..+.. ...+++|.
+T Consensus       106 g~e~~l~~C~~~~~~~~~~~~v~Cs  130 (131)
+T 2jop_A          106 GQLGSFSNCSHSRNDMCHSLGLTCL  130 (131)
+T ss_dssp             SSTTCCSCEEECCSSSCSSEEEEEC
+T ss_pred             CCCCcHHHCCCCCCCCceeEEEEeC
+Confidence            9999999998877654 45888885
+
+
+No 12 
+>2ja4_A T-cell surface glycoprotein CD5; SRCR, membrane, polymorphism, crystallography, transmembrane, innate immunity, phosphorylation, immune system; 2.21A {Homo sapiens} PDB: 2ott_X
+Probab=98.53  E-value=5e-07  Score=70.50  Aligned_cols=81  Identities=7%  Similarity=-0.102  Sum_probs=58.1
+
+Q ss_pred             CCCCeEEEeccccccccCCceeeEEeecCceeeee------eceeeecCCcc-------ccCC-CCccceeeeeeccccc
+Q equineherpesvi  643 ASPPTITWSVGSNRLHNNGFTQTWYEIQPGVCGIL------RSEVHISRPSW-------RVGA-PTRDYLCEATVSDAKT  708 (754)
+Q Consensus       643 ~~~~~VRLv~Gss~ceeGRVEV~~nG~WGTVCDD~------dA~VVCRq~~a-------~FG~-GsGpIwLDV~CsG~Es  708 (754)
+                      .....+||++|...|+ |||||++++.|+.||++.      +|+|+||+++.       .+.. +.+.  ..+.|.  |.
+T Consensus         3 ~~~~~~~~~~~~~~~~-g~~~~~~~~~w~~vc~~~~~~~~~~a~v~C~~lg~~~~~~~~~~~~~~~~~--~~~~C~--e~   77 (101)
+T 2ja4_A            3 QPKVQSRLVGGSSICE-GTVEVRQGAQWAALCDSSSARSSLRWEEVCREQQCGSVNSYRVLDAGDPTS--RGLFCP--HQ   77 (101)
+T ss_dssp             CCCCEEEEESCSSTTE-EEEEEESSSCCEEEECCCSSCCSHHHHHHHHHTTCCSEEEEEEESTTCTTC--CEEECC--SS
+T ss_pred             CCCCceEECCCCCCcc-EEEEEEECCEEcccccCccCCccchHHhHHHhCCCCCccceeecccCCCCC--cccEEC--CC
+Confidence            2357899999999998 999999999999999986      23678875321       1101 2232  679998  89
+
+
+Q ss_pred             cCceeccCcccc---cceeeeee
+Q equineherpesvi  709 SDYKVLPNAYST---SNFALVAA  728 (754)
+Q Consensus       709 SL~~C~~~~~~t---sncglVcS  728 (754)
+                      .+++|....+..   ...+++|.
+T Consensus        78 ~l~~C~~~~~~~~~~~~~~v~c~  100 (101)
+T 2ja4_A           78 KLSQCHELWERNSYCKKVFVTCQ  100 (101)
+T ss_dssp             SGGGCSCCEEECSCCCEEEEEEC
+T ss_pred             chhhCCCCCCCCCCCCCeEEEeC
+Confidence            999998876532   34667774
+
+
+No 13 
+>2oya_A Macrophage receptor marco; extracellular matrix, scavenger receptor cysteine-rich (SRCR macrophage receptor, ligand binding, basic cluster; 1.77A {Mus musculus} PDB: 2oy3_A
+Probab=98.09  E-value=8.9e-07  Score=67.58  Aligned_cols=80  Identities=9%  Similarity=0.092  Sum_probs=55.7
+
+Q ss_pred             CeEEEeccccccccCCceeeEEeecCceeeee----eceeeecCCc-------cccCCCCccceee-eeeccccccCcee
+Q equineherpesvi  646 PTITWSVGSNRLHNNGFTQTWYEIQPGVCGIL----RSEVHISRPS-------WRVGAPTRDYLCE-ATVSDAKTSDYKV  713 (754)
+Q Consensus       646 ~~VRLv~Gss~ceeGRVEV~~nG~WGTVCDD~----dA~VVCRq~~-------a~FG~GsGpIwLD-V~CsG~EsSL~~C  713 (754)
+                      ..+||++|..  . |+||+++++.|+.||.+.    ++.|+|++.+       ..|+.+..++|+. +.|.|.+..+++|
+T Consensus         5 ~~~~~~~~~~--~-g~~~~~~~~~w~~~c~~~~~~~~~~~~c~~~g~~~~~~~~~~~~~~~~~~~~~~~c~g~~~~l~~c   81 (102)
+T 2oya_A            5 QRVRIMGGTN--R-GRAEVYYNNEWGTICDDDWDNNDATVFCRMLGYSRGRALSSYGGGSGNIWLDNVNCRGTENSLWDC   81 (102)
+T ss_dssp             GSEEEEEEEE--E-EEEEEEETTEEEEEBCTTCCHHHHHHHHHHTTCSCEEEETTCCCCCSCEEECSCBCCSCCSSGGGS
+T ss_pred             ccEEEcCCCC--c-eEEEEEECCEEeCeeCCCCChhheEEehhhcCCCCcceeeeccCCCCCEEEEcCEEcCCcCCHHHC
+Confidence            2478876543  3 899999999999999753    3444443211       1356677778885 9999999999999
+
+
+Q ss_pred             ccCccccc------ceeeeee
+Q equineherpesvi  714 LPNAYSTS------NFALVAA  728 (754)
+Q Consensus       714 ~~~~~~ts------ncglVcS  728 (754)
+                      ....+...      ..+++|.
+T Consensus        82 ~~~~~~~~~c~~~~~~~~~c~  102 (102)
+T 2oya_A           82 SKNSWGNHNCVHNEDAGVECS  102 (102)
+T ss_dssp             BCSCTTCCCCCGGGBCEEEEC
+T ss_pred             CCCCCCCCCcCCCCceEEEEC
+Confidence            98877533      2455553
+
+
+No 14 
+>1z8g_A Serine protease hepsin; serine protease hepsin, protease, hydrolase-hydrolase inhibi complex; HET: AR7; 1.55A {Homo sapiens} SCOP: b.47.1.2 d.170.1.2 PDB: 3t2n_A 1o5e_H* 1o5f_H* 1p57_B* 1o5e_L* 1o5f_L* 1p57_A*
+Probab=80.31  E-value=10  Score=33.35  Aligned_cols=82  Identities=11%  Similarity=-0.106  Sum_probs=54.5
+
+Q ss_pred             ecccccccccccCCCCCccCCCCCCCCcCCCCCC--CCccceeeecCC------------CCCC------------C---
+Q equineherpesvi  450 TQKLTGHLHQHKGRANGRNVNNKSHPSVRPDRLT--PHTDYHYYYDDT------------DYPQ------------D---  500 (754)
+Q Consensus       450 ~~~~~VRLvgGss~CeGRVE~~~~~~~~~p~V~~--~G~WGTVCDD~W------------d~~~------------~---  500 (754)
+                      ..+.+|||++|.    ||||           |++  +|.|+.||+|.|            ++..            .   
+T Consensus         4 ~~~~~~rl~~~~----g~ve-----------v~~~~~g~W~~vC~~~w~~~~a~~vC~~LG~~~~~~~~~~~~~~~~~~~   68 (372)
+T 1z8g_A            4 EPLYPVQVSSAD----ARLM-----------VFDKTEGTWRLLCSSRSNARVAGLSCEEMGFLRALTHSELDVRTAGAAG   68 (372)
+T ss_dssp             CCCCSEEECTTT----CBEE-----------EEETTTTEEEEEBCCTTHHHHHHHHHHHHTCSCEEEEEEEEHHHHCCSS
+T ss_pred             CCcccEEEeCCC----ceEE-----------EEeCCCCcEeeeecCCCChhhhcccHHhcCcccccccceeeeecccccc
+Confidence            235679999875    9999           887  999999999999            3211            0   
+
+
+Q ss_pred             CCceec-C--------------------C--------CCCCCC------------ccchh----hheeeceeE---EEEe
+Q equineherpesvi  501 GSFERV-T--------------------P--------PPQGRP------------NIELG----VATLRKNFL---VATC  532 (754)
+Q Consensus       501 ~dA~Vr-l--------------------q--------LG~G~~------------~~eGR----VEV~~nG~W---GTVC  532 (754)
+                      ....+. .                    .        ..||..            ..+|+    |+|++++.|   |+||
+T Consensus        69 ~~~~~~~~~~~c~~~~~~l~~~~~~~c~~~~~~~~~c~~cg~~~~~~~~~~~g~~~~~~~~Pw~~~~~~~~~~~C~g~li  148 (372)
+T 1z8g_A           69 TSGFFCVDEGRLPHTQRLLEVISVCDCPRGRFLAAICQDCGRRKLPVDRIVGGRDTSLGRWPWQVSLRYDGAHLCGGSLL  148 (372)
+T ss_dssp             CCSEEEECTTTGGGCSCGGGGEEEECCTTCEEEEEEECCCSCCCCC---CBSCEECCTTSSTTEEEEEETTEEEEEEEES
+T ss_pred             ccccEEecccccCCccceeeeccccCCCCCcEeeeecccCCCcCCCCCCeECCeECCCCCcCeEEEEEECCceEEeeEEe
+Confidence            000000 0                    0        112221            13577    999999999   8888
+
+
+Q ss_pred             eeeeecceeeEEeecccccccc
+Q equineherpesvi  533 TVEATMGLSFFWKIGNASVDAF  554 (754)
+Q Consensus       533 t~~~~~~~DD~Wd~~dA~VVc~  554 (754)
+                              +..|.+..|+.|..
+T Consensus       149 --------~~~~~lt~~~C~~~  162 (372)
+T 1z8g_A          149 --------SGDWVLTAAHCFPE  162 (372)
+T ss_dssp             --------SSSEEEECGGGCCG
+T ss_pred             --------eCCEEEEChHhccc
+Confidence                    77899999988822
+
+
+No 15 
+>4k1f_A Tryparedoxin peroxidase; thioredoxin fold, oxidoreductase; HET: PGE PE8; 2.34A {Leishmania major} PDB: 3tue_A 1e2y_A 4llr_A
+Probab=3.28  E-value=1.7e+02  Score=22.01  Aligned_cols=31  Identities=10%  Similarity=-0.014  Sum_probs=17.6
+
+Q ss_pred             cceeeecCCCCCCCCCceecCCCCCCCCccchhhheeecee
+Q equineherpesvi  487 DYHYYYDDTDYPQDGSFERVTPPPQGRPNIELGVATLRKNF  527 (754)
+Q Consensus       487 WGTVCDD~Wd~~~~~dA~VrlqLG~G~~~~eGRVEV~~nG~  527 (754)
+                      ||..|...|.   .....+       ....+|++|.|+..+
+T Consensus       169 ~~~~~~~~~~---~~~~~~-------~~~~~~~~~~~~~~~  199 (199)
+T 4k1f_A          169 HGEVCPANWK---KGDPGM-------KPEPNASVEGYFSKQ  199 (199)
+T ss_dssp             HSCBBCTTCC---TTSCCB-------CSSHHHHHHHTGGGC
+T ss_pred             cCCcCCCCCc---CCCCcc-------cCChhHhHHHHhhcC
+Confidence            2355666776   333333       234579999887532
+
+
+No 16 
+>2nqa_A Calpain 8; calpain, calcium-dependent cytoplasmic cysteine proteinases, like, EF-hand, structural genomics, structural genomics CON SGC; HET: AR7; 2.20A {Homo sapiens}
+Probab=1.42  E-value=1e+03  Score=18.46  Aligned_cols=29  Identities=7%  Similarity=-0.212  Sum_probs=17.7
+
+Q ss_pred             ch--hhheeeceeEEEEeeeeeecceeeEEeecccccc
+Q equineherpesvi  517 EL--GVATLRKNFLVATCTVEATMGLSFFWKIGNASVD  552 (754)
+Q Consensus       517 eG--RVEV~~nG~WGTVCt~~~~~~~DD~Wd~~dA~VV  552 (754)
+                      .|  +|.+|.+|.|..|..       ||..-..+...+
+T Consensus       116 ~G~y~v~~~~~G~w~~V~V-------Dd~lP~~~~~~~  146 (326)
+T 2nqa_A          116 AGIFHFQFWQYGEWVEVVI-------DDRLPTKNGQLL  146 (326)
+T ss_dssp             SSEEEEEEECSSSEEEEEE-------ECCEEEETTEES
+T ss_pred             CCeEEEEEeeCCeEEEEEE-------cceEeecCCcEE
+Confidence            24  466778999999993       554443333222
+
+
+No 17 
+>2nq2_A Hypothetical ABC transporter permease protein HI1471; putative iron chelatin ABC transporter, nucleotide binding domain; 2.40A {Haemophilus influenzae}
+Probab=1.36  E-value=1.2e+03  Score=18.71  Aligned_cols=26  Identities=4%  Similarity=-0.017  Sum_probs=12.8
+
+Q ss_pred             hhhhhHHHHHHHHhhhhccccCCcCC
+Q equineherpesvi  729 TTLTVTILCLLCCLYCMLTRPRASVY  754 (754)
+Q Consensus       729 h~~dagVvCll~c~~~~L~r~k~~~~  754 (754)
+                      ......+++...+.+..++|+|.+.|
+T Consensus       311 ~G~~~alig~p~fl~ll~~~~~~~~~  336 (337)
+T 2nq2_A          311 ISILTALIGAPLFGVLVYKLKRGGMN  336 (337)
+T ss_dssp             HHHHHHHHHHHHHHHHHHCC------
+T ss_pred             HHHHHHHHHHHHHHHHHHHhcccccC
+Confidence            23344456666677888888887766
+
+
+No 18 
+>1ziv_A Calpain 9; cysteine protease, papain, calcium-dependent, thiol protease, structural genomics consortium, SGC, hydrolase; 2.31A {Homo sapiens} SCOP: d.3.1.3 PDB: 2p0r_A*
+Probab=1.12  E-value=1.3e+03  Score=18.08  Aligned_cols=30  Identities=0%  Similarity=-0.318  Sum_probs=19.9
+
+Q ss_pred             cchh--hheeeceeEEEEeeeeeecceeeEEeecccccc
+Q equineherpesvi  516 IELG--VATLRKNFLVATCTVEATMGLSFFWKIGNASVD  552 (754)
+Q Consensus       516 ~eGR--VEV~~nG~WGTVCt~~~~~~~DD~Wd~~dA~VV  552 (754)
+                      ..|.  |.+|.+|.|..|..       ||..-......+
+T Consensus       119 ~~G~y~v~~~~~G~w~~V~V-------DD~lP~~~~~~~  150 (339)
+T 1ziv_A          119 YAGIFHFQFWQHSEWLDVVI-------DDRLPTFRDRLV  150 (339)
+T ss_dssp             CCSEEEEEEECSSSEEEEEE-------ECCEEESSSSBS
+T ss_pred             ccceEEEEEccCCeEEEEEe-------CCcccccCCcEE
+Confidence            2354  56677999999993       776766554443
+
+
+No 19 
+>2r9f_A Calpain-1 catalytic subunit; protease, peptidase, inhibitor, alpha-ketoamide, hydrolase, thiol protease; HET: K2Z; 1.60A {Rattus norvegicus} SCOP: d.3.1.3 PDB: 1tlo_A* 2g8e_A* 1tl9_A* 2nqg_A* 2nqi_A* 2r9c_A* 2g8j_A* 1kxr_A 2ary_A 1zcm_A* 1mdw_A
+Probab=1.12  E-value=1.3e+03  Score=18.05  Aligned_cols=30  Identities=3%  Similarity=-0.196  Sum_probs=17.8
+
+Q ss_pred             cchh--hheeeceeEEEEeeeeeecceeeEEeecccccc
+Q equineherpesvi  516 IELG--VATLRKNFLVATCTVEATMGLSFFWKIGNASVD  552 (754)
+Q Consensus       516 ~eGR--VEV~~nG~WGTVCt~~~~~~~DD~Wd~~dA~VV  552 (754)
+                      ..|+  |.+|++|.|..|..       ||..-..+...+
+T Consensus       120 ~~G~y~v~l~~~G~~~~V~V-------DD~lP~~~~~~~  151 (339)
+T 2r9f_A          120 YAGIFHFQLWQFGEWVDVVV-------DDLLPTKDGKLV  151 (339)
+T ss_dssp             CCSEEEEEEEETTEEEEEEE-------ESCEEEETTEES
+T ss_pred             cCccEEEEEecCCeEEEEEe-------cceeccCCCcEE
+Confidence            2354  55678999999993       544433333333
+
+
+No 20 
+>3wsc_A Alginate-binding protein; two UP-and-DOWN four-helical bundles; 1.99A {Sphingomonas} PDB: 3at7_A
+Probab=1.05  E-value=2.1e+02  Score=24.08  Aligned_cols=18  Identities=28%  Similarity=0.272  Sum_probs=0.0
+
+Q ss_pred             CceeeehhhHHHh-hheee
+Q equineherpesvi    1 MGFIYVSRILLCL-AVGIY   18 (754)
+Q Consensus         1 ~~~~~~~~~~~~~-~~~~~   18 (754)
+                      .||+|...|.+++ .++|-
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~   19 (283)
+T 3wsc_A            1 VMKQYLSRLASLTLFVGFM   19 (283)
+T ss_dssp             -------------------
+T ss_pred             CchhHHHHHHHHHHHHHhc
+Confidence            4899999983332 33332
+
+
+Done!

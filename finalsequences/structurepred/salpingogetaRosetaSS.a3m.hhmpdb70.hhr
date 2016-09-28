@@ -1,0 +1,545 @@
+Query         salpingogetaRosetaSS
+Match_columns 585
+No_of_seqs    193 out of 243
+Neff          7.3 
+Searched_HMMs 69
+Date          Thu Aug  4 12:33:49 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/salpingogetaRosetaSS.a3m.hhm -ohhm ./structurepred/salpingogetaRosetaSS.a3m.hhm -o ./structurepred/salpingogetaRosetaSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 2e6j_A Hydin protein; PAPD, st  12.1 1.2E+02   0.017   20.0  30.8   91  435-542    16-112 (112)
+  2 2ys4_A Hydrocephalus-inducing   10.5 1.4E+02   0.021   19.9  24.2   85  443-533    31-115 (122)
+  3 2qsv_A Uncharacterized protein   1.5 8.2E+02    0.12   16.9  43.6  116  419-540    81-219 (220)
+  4 2r39_A FIXG-related protein; s   1.2 8.1E+02    0.12   15.4  42.1  113  413-541     4-118 (118)
+  5 2rcf_A Unidentified carboxysom   1.0 1.1E+03    0.14   15.2  14.7   73  272-353     1-82  (91)
+  6 3vhj_A BFPC; type IV pilus bio   0.8 1.4E+03    0.19   15.6   7.8  142   84-339     7-162 (172)
+  7 3qbt_B Inositol polyphosphate    0.8 1.1E+03    0.16   14.7  29.9   95  417-544    24-138 (140)
+  8 2l0d_A Cell surface protein; s   0.3 1.8E+03    0.26   12.3  41.4  100  429-542     3-109 (114)
+  9 2xzz_A Protein-glutamine gamma   0.3 2.1E+03     0.3   12.6  30.2   90  416-530     4-98  (102)
+ 10 3cue_B Transport protein parti   0.2 3.7E+03    0.48   14.1   8.5   58  314-433   203-266 (283)
+ 11 3op3_A M-phase inducer phospha   0.2 3.5E+03    0.49   12.7   8.7  140  255-419    14-189 (216)
+ 12 3pe9_A Fibronectin(III)-like m   0.2 2.8E+03    0.42   10.7  35.9   93  419-546     1-93  (98)
+ 13 2qrr_A Methionine import ATP-b   0.0 6.7E+03    0.98    5.2  21.4   60  409-476    13-99  (101)
+ 14 4xfd_A NH(3)-dependent NAD(+)    0.0 6.9E+03       1    6.0  10.7   87  289-390    87-224 (283)
+ 15 1fzc_A Fibrin; blood coagulati   0.0 7.8E+03       1    5.5   9.0   22  356-377    50-75  (87)
+ 16 3gio_A Putative uncharacterize   0.0 8.2E+03       1    6.6  17.5   69  201-279    35-140 (186)
+ 17 3ldh_A Lactate dehydrogenase;    0.0 6.8E+03       1    5.3   9.0  140  277-438     8-206 (330)
+ 18 1lwu_A Fibrinogen alpha-1 chai   0.0 7.9E+03       1    5.7   9.8   40  351-398    74-113 (119)
+ 19 4ok7_A Endolysin; helical prot   0.0 7.1E+03       1    4.0   6.4   33  361-397   160-198 (223)
+ 20 4jen_A CMP N-glycosidase; baci   0.0   7E+03       1    3.4   7.6   13   49-62    123-135 (176)
+
+No 1  
+>2e6j_A Hydin protein; PAPD, structural genomics, NPPSFA, national project on protein structural and functional analyses; NMR {Homo sapiens}
+Probab=12.08  E-value=1.2e+02  Score=19.98  Aligned_cols=91  Identities=3%  Similarity=-0.144  Sum_probs=0.0
+
+Q ss_pred             EeeeeeEEeeeeeeecccceeeeeeeeccccCCCceEEEEEE-----ecceeeecccceeeeeecCCCcccceeeecccc
+Q salpingogetaRo  435 DVSFSIFELGVYGLASVSRDIFLWIELARLDKRPSTVYLSVE-----CSDLVLPVPTTAISWKQTDTGHLRDAIIPLRTS  509 (585)
+Q Consensus       435 ~~~i~~fea~~~g~~~i~v~v~~~~~~~N~G~~~a~y~v~~~-----Cs~~i~pi~~~~~~i~p~~~~~~~f~~i~l~~~  509 (585)
+                      .+..........-..  ++.++      |.|.+...|.+...     +.-.+.|...   .|.|++...+.+   .+.  
+T Consensus        16 ~i~fg~v~~~~~~~~--~i~i~------N~~~~~~~~~~~~~~~~~~~~~~i~p~~g---~i~p~~~~~i~v---~~~--   79 (112)
+T 2e6j_A           16 LLDIGKVFTGSAHCY--EAILY------NKGSIDALFNMTPPTSALGACFVFSPKEG---IIEPSGVQAIQI---SFS--   79 (112)
+T ss_dssp             EEEEEEEESSCCEEE--EEEEE------ECCSSCEEEEECCCSSHHHHHCEEESSEE---EECTTBCCEEEE---EEC--
+T ss_pred             eEeccCEEECceEEE--EEEEE------CCCCCceEEEEEcCCccCcceEEEECCcC---EECCCCEEEEEE---EEE--
+
+
+Q ss_pred             ccceeeEeeeeeeccccc-eeeeeeeeEEeecce
+Q salpingogetaRo  510 STQEVVHTCRVEAKNARG-RITDTGFVAFKTTAT  542 (585)
+Q Consensus       510 ~~~~~~~~C~v~L~ds~~-~~ld~~~i~f~t~~~  542 (585)
+                      ......+...+.+.-..+ +.+ ...+.=....+
+T Consensus        80 p~~~g~~~~~~~~~~~~~~~~~-~i~v~g~~~~p  112 (112)
+T 2e6j_A           80 SIILGNFEEEFLVNVNGSPEPV-KLTIRGCVIGP  112 (112)
+T ss_dssp             CCCCEEEEEEECEEESSCSSCC-CEEEEEEEECC
+T ss_pred             CCCcCcEEEEEEEEECCCCcCE-EEEEEEEEECc
+
+
+No 2  
+>2ys4_A Hydrocephalus-inducing protein homolog; hydin, PAPD-like, NPPSFA, national project on protein structural and functional analyses; NMR {Homo sapiens}
+Probab=10.48  E-value=1.4e+02  Score=19.91  Aligned_cols=85  Identities=6%  Similarity=-0.055  Sum_probs=0.0
+
+Q ss_pred             eeeeeeecccceeeeeeeeccccCCCceEEEEEEecceeeecccceeeeeecCCCcccceeeeccccccceeeEeeeeee
+Q salpingogetaRo  443 LGVYGLASVSRDIFLWIELARLDKRPSTVYLSVECSDLVLPVPTTAISWKQTDTGHLRDAIIPLRTSSTQEVVHTCRVEA  522 (585)
+Q Consensus       443 a~~~g~~~i~v~v~~~~~~~N~G~~~a~y~v~~~Cs~~i~pi~~~~~~i~p~~~~~~~f~~i~l~~~~~~~~~~~C~v~L  522 (585)
+                      ....|.+.+.-.+.-.+.+.|.|.....|.....-.-.+.|   ....|+|+++..+.+   .+.+.........-.+.+
+T Consensus        31 ~i~fg~~~~~~~~~~~~~i~N~g~~~~~~~~~~~~~f~i~p---~~g~l~~~~~~~i~v---~f~p~~~~~~~~~~~~~~  104 (122)
+T 2ys4_A           31 KLNFSTCPVKYSTQKILLVRNIGNKNAVFHIKTCRPFSIEP---AIGTLNVGESMQLEV---EFEPQSVGDHSGRLIVCY  104 (122)
+T ss_dssp             EECCCSEESSSCEEEEEEEECCSSSCEEEEEECCTTEEEES---SEEEECTTCEEEEEE---EECCSSSBCCCCBCEEEE
+T ss_pred             eEEECCeEcCCEEEEEEEEEeCCCCcEEEEEecCCCeEEEC---CeEEECCCCEEEEEE---EEEcCCcCcEEEEEEEEE
+
+
+Q ss_pred             ccccceeeeee
+Q salpingogetaRo  523 KNARGRITDTG  533 (585)
+Q Consensus       523 ~ds~~~~ld~~  533 (585)
+                      .+..-..+.-+
+T Consensus       105 ~~~~~~~i~l~  115 (122)
+T 2ys4_A          105 DTGEKVFVSLY  115 (122)
+T ss_dssp             SSSCEECCEEC
+T ss_pred             CCCCEEEEEEE
+
+
+No 3  
+>2qsv_A Uncharacterized protein; MCSG, structural genomics, porphyromonas gingivalis W83, PSI protein structure initiative; 2.10A {Porphyromonas gingivalis}
+Probab=1.52  E-value=8.2e+02  Score=16.95  Aligned_cols=116  Identities=12%  Similarity=0.090  Sum_probs=0.0
+
+Q ss_pred             eeEEEEeecC-----ceEEEEEeee------------eeEE---eeeeeeecccceeeeeeeeccccCCCceEEEEEEec
+Q salpingogetaRo  419 LYTLEIEADD-----SRIFVLDVSF------------SIFE---LGVYGLASVSRDIFLWIELARLDKRPSTVYLSVECS  478 (585)
+Q Consensus       419 ~i~ie~~Ad~-----v~~vI~~~~i------------~~fe---a~~~g~~~i~v~v~~~~~~~N~G~~~a~y~v~~~Cs  478 (585)
+                      .+.+++++..     -.-+-+.+.+            |.++   ...+|.+.+ -.+.--+.|.|.|.....|. .+...
+T Consensus        81 ~~~~~~~~~~~~~~~~~~l~v~~~v~~~f~~~~~~~~p~~~~~~~l~fG~~~~-~~~~~~~~i~N~g~~~l~i~-~i~~~  158 (220)
+T 2qsv_A           81 PLVLEVTSPETGKKAVDSVMVSLPLVDNFPALTAAQTGVMELSTYLDMGQLDG-ETTKAAIEIRNVGAGPLRLH-SVTTR  158 (220)
+T ss_dssp             EEEEEEECTTTCCEEEEEEEEEEEECCCGGGCCGGGCCCEECCCEEEEEECTT-SCEEEEEEEEECSSSCEEEE-EEEEC
+T ss_pred             EEEEEEeCCCCCcccceEEEEEEEeccCCCCCccccCCEEEEeeeEecccCcC-ceeEEEEEEEECCCCcEEEE-EEecC
+
+
+Q ss_pred             ceeeecccceeeeeecCCCcccceeeeccccccc--ee-eEeeeeeeccccceeeeeeeeEEeec
+Q salpingogetaRo  479 DLVLPVPTTAISWKQTDTGHLRDAIIPLRTSSTQ--EV-VHTCRVEAKNARGRITDTGFVAFKTT  540 (585)
+Q Consensus       479 ~~i~pi~~~~~~i~p~~~~~~~f~~i~l~~~~~~--~~-~~~C~v~L~ds~~~~ld~~~i~f~t~  540 (585)
+                      .....+......|.|+++..+.+   .+......  +. .+.|.+.+.-.+-..-... +.++-.
+T Consensus       159 ~~~~~i~~~~~~l~pg~~~~i~v---~~~p~~~~~~~~~~~~~~l~~~~nd~~~p~~~-i~v~~~  219 (220)
+T 2qsv_A          159 NPALTAVPDRTEIKPGGSTLLRI---AVDPQVMKAEGWQSIAADISIICNDPQAPLRR-IKVKAE  219 (220)
+T ss_dssp             STTEEEEESCSEECTTCEEEEEE---EECHHHHHHTTCSEEEEEEEEEESCTTCSEEE-EEEEEE
+T ss_pred             CCCEEEECCCceECCCCEEEEEE---EEEcCccccCCccceeeEEEEEECCCCCCEEE-EEEEEE
+
+
+No 4  
+>2r39_A FIXG-related protein; structural GE PSI-2, protein structure initiative, midwest center for STR genomics, MCSG, iron, iron-sulfur; 2.02A {Vibrio parahaemolyticus}
+Probab=1.22  E-value=8.1e+02  Score=15.44  Aligned_cols=113  Identities=10%  Similarity=-0.031  Sum_probs=63.6
+
+Q ss_pred             CCCCCceeEEEEeecCc-eEE-EEEeeeeeEEeeeeeeecccceeeeeeeeccccCCCceEEEEEEecceeeecccceee
+Q salpingogetaRo  413 DIPQESLYTLEIEADDS-RIF-VLDVSFSIFELGVYGLASVSRDIFLWIELARLDKRPSTVYLSVECSDLVLPVPTTAIS  490 (585)
+Q Consensus       413 ~~~~~s~i~ie~~Ad~v-~~v-I~~~~i~~fea~~~g~~~i~v~v~~~~~~~N~G~~~a~y~v~~~Cs~~i~pi~~~~~~  490 (585)
+                      .-.....+.+++.-|.- .|. ...-.       -....  ++.+.      |...-+..|.+.+.=..++.-+..+.+.
+T Consensus         4 ~~~~r~~~~~~V~R~r~~ly~~~~~g~-------I~N~Y--~lki~------Nkt~~~~~~~l~v~g~~~~~l~~~~~i~   68 (118)
+T 2r39_A            4 QIAAVDPAGMSVIRDRNQLFRVNSAGE-------VENTY--TLKVI------NKTQQVQEYNLDVKGLNDVSWYGKQTIQ   68 (118)
+T ss_dssp             ----CCSEEEEEEECSSCCCCC--CCS-------EEEEE--EEEEE------ECSSSCEEEEEEEESCSSCEEESCCEEE
+T ss_pred             eeeecCcEEEEEEeCCCCceEECCCCc-------EEEEE--EEEEE------eCCCCCEEEEEEEecCCCeEEecCceEE
+Confidence            11224566677665432 111 00000       11123  55566      9999999999988765544434568899
+
+
+Q ss_pred             eeecCCCcccceeeeccccccceeeEeeeeeeccccceeeeeeeeEEeecc
+Q salpingogetaRo  491 WKQTDTGHLRDAIIPLRTSSTQEVVHTCRVEAKNARGRITDTGFVAFKTTA  541 (585)
+Q Consensus       491 i~p~~~~~~~f~~i~l~~~~~~~~~~~C~v~L~ds~~~~ld~~~i~f~t~~  541 (585)
+                      |+|++.....| .+.+...........=.+.+++..+...+++...|....
+T Consensus        69 v~~g~~~~~~v-~v~~p~~~~~~~~~~i~~~v~~~~~~~~~~~~s~F~~~~  118 (118)
+T 2r39_A           69 VEPGEVLNLPM-SLGADPDKLNSAITTIQFILTDKSNEFTIEVESRFIKKL  118 (118)
+T ss_dssp             ECTTCEEEEEE-EEEECGGGCSSSEEEEEEEEEEGGGTEEEEEEEEEECCC
+T ss_pred             ECCCceEEEEE-EEEeChhhccCCceeEEEEEEECCCCeEEEEEEEEEccC
+Confidence            99999887766 333332211125566666666644457788888886421
+
+
+No 5  
+>2rcf_A Unidentified carboxysome polypeptide; cyclic pentamer, structural protein; 2.15A {Halothiobacillus neapolitanus} SCOP: b.40.15.1
+Probab=0.98  E-value=1.1e+03  Score=15.19  Aligned_cols=73  Identities=12%  Similarity=0.149  Sum_probs=32.1
+
+Q ss_pred             eEEeeeccccCCCcCCCCcee--eEEeccceeecccCCCCC----CccccCCceeEEeeccc---cccCCcccCCCCcee
+Q salpingogetaRo  272 TVIATYLGDLAPSIFPHDLTT--RVLLTPNFYQFENSTDPM----FPFRRSPAHWLLLDKTD---VDLSGETCNKPGVSF  342 (585)
+Q Consensus       272 ~v~~~l~gd~~~~~~~~~l~~--~yL~iP~~~~~~~~~~~~----~~~~~~~~~~mll~~~~---v~l~G~eCnKIGVs~  342 (585)
+                      ...++.+|......-.|.|.+  .+++-|.    .  ....    +.+..|..+|.++-...   ..+ |.+=--|=-.-
+T Consensus         1 M~lakViG~vvsT~K~~~L~G~kLlvVq~~----~--~g~~~VA~D~vGAG~Gd~Vlv~~Gs~Ar~~~-~~~~~PvDa~I   73 (91)
+T 2rcf_A            1 MKIMQVEKTLVSTNRIADMGHKPLLVVWEK----P--GAPRQVAVDAIGCIPGDWVLCVGSSAAREAA-GSKSYPSDLTI   73 (91)
+T ss_dssp             CEEEEEEEECCSEEECTTSCSSCEEEEESS----T--TSCCEEEEESSCCCTTCEEEEEETTHHHHHT-TCTTCCCSEEE
+T ss_pred             CEEEEEEEEEEEeeEcccCCCCEEEEEEEc----c--CCCeEEEEECCCCCCCCEEEEeCCHHHHHhh-CCCCCccEeEE
+Confidence            134555555555544455532  2333332    1  1111    36677888888887552   111 22112233344
+
+
+Q ss_pred             EEeeecCCCCC
+Q salpingogetaRo  343 TAFYQHGKSGG  353 (585)
+Q Consensus       343 ~aF~~~~Q~~~  353 (585)
+                      -+.-.  +...
+T Consensus        74 vGIVD--~~~~   82 (91)
+T 2rcf_A           74 IGIID--QWNG   82 (91)
+T ss_dssp             EEECC--SSCC
+T ss_pred             EEEec--cccc
+Confidence            44433  3321
+
+
+No 6  
+>3vhj_A BFPC; type IV pilus biogenesis, BFPD, membrane, membrane protein; 1.90A {Escherichia coli}
+Probab=0.80  E-value=1.4e+03  Score=15.62  Aligned_cols=142  Identities=14%  Similarity=0.048  Sum_probs=40.9
+
+Q ss_pred             CeeeeeccCCccccccceeeeecCCCCc------------c-cce-EeeeeccceEEEeeccCCCCCCCCCCccccceec
+Q salpingogetaRo   84 QRYRIYPTKSDAFVNYPLVYQSSINSLP------------Y-EHW-FKVKRSNTQIAFFFDPCRDAPTAEHPTCGYFVRK  149 (585)
+Q Consensus        84 ~~l~~pi~Ks~v~~~YpL~Y~~~vn~kp------------~-E~~-i~~~~~~~~i~~~~~~c~d~~~~~~~tCg~~~~~  149 (585)
+                      ..+..  .|  -...-.|..+.-.+...            . +.+ +.....-.++++. .   -   .          .
+T Consensus         7 ~~v~i--~~--~~~v~GL~W~~l~~~~~~~~ear~~a~~~~~~~~~i~~~~~~~q~G~~-~---~---~----------~   65 (172)
+T 3vhj_A            7 GVAVI--GS--KQYAVNLLWGSSQDTETTNQALNKSLTLMSSKLYSVIGRFQGEQFAVG-D---K---N----------I   65 (172)
+T ss_dssp             TEEEE--TT--EEEECSCEEECCCTTCCHHHHHHHHHHHHTCCEEEEEEETTEEEEEEC-C---G---G----------G
+T ss_pred             EEEEE--CC--EEEEEeCEeeccCCcchHHHHHHHHHHHcCCCEEEEEeCCCceEEEEE-E---C---c----------c
+Confidence            11111  11  12333444444333222            1 122 2222011133321 0   0   0          0
+
+
+Q ss_pred             ccccCCCCcceeeeeeeecCCCcccccceeeeEeccccCcccccccCccccccccccccceeeEEEEEEeeeeccccCCC
+Q salpingogetaRo  150 GERIPNSQGFCCKCKFFSGGGNNAYRGNLKCRLYSPHYSSAHCLRFWPNWYDAWELDRAQVSHTIRLAVYKETSFNGTIP  229 (585)
+Q Consensus       150 g~~i~~sqGfCC~C~~~~~~~~~~~R~~~~C~~~~~~~~SahCLrf~~~wY~vy~I~~~~~~~~i~v~i~~~~~~~~~~~  229 (585)
+                      |.                      +|+...       ...+-+-. .+.||.+|.+++..+   .-|-+.     ++.+ 
+T Consensus        66 g~----------------------~~~~~S-------LAa~va~~-~~~~~gv~~l~~~~y---~~vAv~-----~G~l-  106 (172)
+T 3vhj_A           66 GH----------------------KRGQVT-------LLSAIDFD-GSSFCGLFPADNELW---LVIGVD-----KDGM-  106 (172)
+T ss_dssp             TC----------------------CTTCEE-------HHHHBCCC-SCCEEEEEECSSSCE---EEEEEC-----TTSC-
+T ss_pred             CC----------------------ccchhh-------HHHHHhcC-CCCEEEEEEeCCCeE---EEEEEE-----CCcc-
+Confidence            00                      021010       00011112 478999999997543   333333     2211 
+
+
+Q ss_pred             CCccccccCCCCcceeecceEEEEEEEEEEeeecceeeccCCeEEeeeccccCCCcCCCCceeeEEeccceeecccCCCC
+Q salpingogetaRo  230 EPTQACKDSNARPTRRVNGFAFYCVDVLLIGVQNKVARSTNGTVIATYLGDLAPSIFPHDLTTRVLLTPNFYQFENSTDP  309 (585)
+Q Consensus       230 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~L~p~~~~~~~~~~~v~~~l~gd~~~~~~~~~l~~~yL~iP~~~~~~~~~~~  309 (585)
+                                           .  ...-.+++.... +        ..+-.|..+  ..+  ...++.|.    +-  ..
+T Consensus       107 ---------------------~--~~ddvvgs~eei-~--------~~~~~~~~~--~~~--~~~v~aP~----~~--~~  144 (172)
+T 3vhj_A          107 ---------------------V--HFDKSFHSKDDA-K--------KFFFDHVAY--GYP--WDRTYSPS----DV--GV  144 (172)
+T ss_dssp             ---------------------E--EEEEEESCHHHH-H--------HHHHHHTTT--TSC--CSEEECCT----TT--CS
+T ss_pred             ---------------------C--CCccccCCHHHH-H--------HHHHHHHhh--cCC--CCEEEeCC----cc--CC
+Confidence                                 0  111122221000 0        000011110  001  34455664    22  11
+
+
+Q ss_pred             CCccccCCceeEEeeccccccCCcccCCCC
+Q salpingogetaRo  310 MFPFRRSPAHWLLLDKTDVDLSGETCNKPG  339 (585)
+Q Consensus       310 ~~~~~~~~~~~mll~~~~v~l~G~eCnKIG  339 (585)
+                          ...       + ++-++-...|.||-
+T Consensus       145 ----~~~-------~-~l~~ll~~~~~~~~  162 (172)
+T 3vhj_A          145 ----GES-------R-SISELSLIKGKKLK  162 (172)
+T ss_dssp             ----SBC-------C-CGGGSCBCCCCBCE
+T ss_pred             ----CCc-------c-cHHHHhCcccceee
+Confidence                000       1 12233333444431
+
+
+No 7  
+>3qbt_B Inositol polyphosphate 5-phosphatase OCRL-1; protein transport, vesicular trafficking, GTPase, LOWE syndr immunoglobulin fold, RAB8A, endocytosis; HET: GNP; 2.00A {Homo sapiens}
+Probab=0.79  E-value=1.1e+03  Score=14.69  Aligned_cols=95  Identities=15%  Similarity=0.132  Sum_probs=42.8
+
+Q ss_pred             CceeEEEEeecCceEEEEEeeeeeEEee---eeeeecccceeeeeeeeccccCCCceEEEEEE------ecceeeecccc
+Q salpingogetaRo  417 ESLYTLEIEADDSRIFVLDVSFSIFELG---VYGLASVSRDIFLWIELARLDKRPSTVYLSVE------CSDLVLPVPTT  487 (585)
+Q Consensus       417 ~s~i~ie~~Ad~v~~vI~~~~i~~fea~---~~g~~~i~v~v~~~~~~~N~G~~~a~y~v~~~------Cs~~i~pi~~~  487 (585)
+                      ...+.+  +  . ..+       +|...   .....  .+.++      |+|.....|.+...      +...+ .+...
+T Consensus        24 ~p~l~l--~--~-~~i-------dFG~v~~~~~~~~--~~~i~------N~g~~~~~~~~~~~~~~~~~~~~~l-~i~p~   82 (140)
+T 3qbt_B           24 LPSLEL--S--R-REF-------VFENVKFRQLQKE--KFQIS------NNGQVPCHFSFIPKLNDSQYCKPWL-RAEPF   82 (140)
+T ss_dssp             SCCEEE--S--C-CEE-------EEEEECBTCCEEE--EEEEE------ECSSSCEEEEEECCTTCSSSSCTTE-EEESC
+T ss_pred             CCEEEE--e--c-CeE-------EecceecCCEEEE--EEEEE------ECcCceEEEEEEecCCCCCCCCCCE-EEECC
+Confidence            123332  1  1 111       33333   22223  55556      99998877776543      22222 23445
+
+
+Q ss_pred             eeeeeecCCCcccceeeecccc-----------ccceeeEeeeeeeccccceeeeeeeeEEeecceee
+Q salpingogetaRo  488 AISWKQTDTGHLRDAIIPLRTS-----------STQEVVHTCRVEAKNARGRITDTGFVAFKTTATCA  544 (585)
+Q Consensus       488 ~~~i~p~~~~~~~f~~i~l~~~-----------~~~~~~~~C~v~L~ds~~~~ld~~~i~f~t~~~~~  544 (585)
+                      ...|+|+++..+.+   .+...           ........|.+    ..++   ...+.++.  .+.
+T Consensus        83 ~g~l~pg~s~~i~v---~~~p~~~~~~~~~~~~g~~~~~l~v~v----~~~~---~~~i~v~g--~~~  138 (140)
+T 3qbt_B           83 EGYLEPNETVDISL---DVYVSKDSVTILNSGEDKIEDILVLHL----DRGK---DYFLTISG--NYL  138 (140)
+T ss_dssp             EEEECTTCEEEEEE---EECBCHHHHHHHHHSSSCSCEEEEEEE----TTSC---EEEEEEEE--EEC
+T ss_pred             eeEECCCCEEEEEE---EEEECHHHHHHhccCCCcccEEEEEEe----cCCc---cEEEEEEE--EEE
+Confidence            67788887665554   43311           23344555554    2333   12333333  221
+
+
+No 8  
+>2l0d_A Cell surface protein; structural genomics, northeast structural genomics consortiu PSI-2, protein structure initiative; NMR {Methanosarcina acetivorans}
+Probab=0.33  E-value=1.8e+03  Score=12.35  Aligned_cols=100  Identities=10%  Similarity=0.079  Sum_probs=48.0
+
+Q ss_pred             ceEEEEEeeeeeEEeeeeeeecccceeeeeeeeccccCCC-ceEEEEEEecceeeeccccee-eeeecCCCcccceeeec
+Q salpingogetaRo  429 SRIFVLDVSFSIFELGVYGLASVSRDIFLWIELARLDKRP-STVYLSVECSDLVLPVPTTAI-SWKQTDTGHLRDAIIPL  506 (585)
+Q Consensus       429 v~~vI~~~~i~~fea~~~g~~~i~v~v~~~~~~~N~G~~~-a~y~v~~~Cs~~i~pi~~~~~-~i~p~~~~~~~f~~i~l  506 (585)
+                      -.+.+.++. +. .......+.|.+.|+      |.|... ..+.+.+........  .+.+ .|.|+++..+.|   .+
+T Consensus         3 ~dl~v~~~~-~~-~~~~g~~~~v~~~v~------N~g~~~~~~~~v~l~~~~~~~~--~~~~~~l~~g~~~~~~~---~~   69 (114)
+T 2l0d_A            3 PDLVPVSLT-PV-TVVPNTVNTMTATIE------NQGNKDSTSFNVSLLVDGIVVD--TQTVTSLESENSTNVDF---HW   69 (114)
+T ss_dssp             CCEEEEEEE-CS-EECTTSEEEEEEEEE------ECSSSCBCCEEEEEEETTEEEE--EEEESCBCBTCEEEEEE---EE
+T ss_pred             CCEEEeccc-cC-ccCCCCEEEEEEEEE------EcCccccccEEEEEEECCEEEc--ceEccccCCCCeEEEEE---EE
+Confidence            112233332 21 111223333466777      999996 589999999887643  2222 366777666666   43
+
+
+Q ss_pred             cccccceeeEeeeeeeccc-cceee----eeeeeEEeecce
+Q salpingogetaRo  507 RTSSTQEVVHTCRVEAKNA-RGRIT----DTGFVAFKTTAT  542 (585)
+Q Consensus       507 ~~~~~~~~~~~C~v~L~ds-~~~~l----d~~~i~f~t~~~  542 (585)
+                      ..... .+.+.=.+.+... +..++    .+....+.+-..
+T Consensus        70 ~~~~~-~G~~~i~~~v~~~~~~~e~~~~NN~~~~~~~~~~~  109 (114)
+T 2l0d_A           70 TLDGT-ANSYTLTVNVDPENAVNEGNESNNTLTALVGTLEH  109 (114)
+T ss_dssp             ECCCS-CSEEEEEEEECTTCSSCCSSGGGSEEEEEEEECSS
+T ss_pred             ecCCC-CccEEEEEEECCCCceeecccCCchhheechhhhc
+Confidence            32221 3445556666432 22222    222223333111
+
+
+No 9  
+>2xzz_A Protein-glutamine gamma-glutamyltransferase K; 2.30A {Homo sapiens}
+Probab=0.30  E-value=2.1e+03  Score=12.59  Aligned_cols=90  Identities=16%  Similarity=0.049  Sum_probs=36.3
+
+Q ss_pred             CCceeEEEEeecCceEEEEEeeeeeEEeeeeeeecccceeeeeeeeccccCCC-ceEEEEEEecceeeecccceeeeeec
+Q salpingogetaRo  416 QESLYTLEIEADDSRIFVLDVSFSIFELGVYGLASVSRDIFLWIELARLDKRP-STVYLSVECSDLVLPVPTTAISWKQT  494 (585)
+Q Consensus       416 ~~s~i~ie~~Ad~v~~vI~~~~i~~fea~~~g~~~i~v~v~~~~~~~N~G~~~-a~y~v~~~Cs~~i~pi~~~~~~i~p~  494 (585)
+                      ....|.|++. +..              .....+++.|++.      |..... .+-.+.+..+.-..+.....-.|+|+
+T Consensus         4 ~~~~l~I~v~-~~~--------------~vg~~~~v~vsf~------Npl~~~Lt~~~l~veG~Gl~~~~~~~~~~v~pg   62 (102)
+T 2xzz_A            4 FQSMLSLTLL-GAA--------------VVGQECEVQIVFK------NPLPVTLTNVVFRLEGSGLQRPKILNVGDIGGN   62 (102)
+T ss_dssp             --CEEEEEES-SCC--------------CSSSCEEEEEEEE------CCSSSCBCSEEEEEEETTTEEEEEEEECCBCTT
+T ss_pred             cCCcEEEEEC-CCe--------------eCCCeEEEEEEEE------CCCCcEeEEEEEEEECCCCcccceeEcCCcCCC
+Confidence            1123333331 110              0122222244444      877765 34666777775222211124456666
+
+
+Q ss_pred             CCCcccceeeecc---ccc-cceeeEeeeeeeccccceee
+Q salpingogetaRo  495 DTGHLRDAIIPLR---TSS-TQEVVHTCRVEAKNARGRIT  530 (585)
+Q Consensus       495 ~~~~~~f~~i~l~---~~~-~~~~~~~C~v~L~ds~~~~l  530 (585)
+                      ++..+.|   ++.   .+. .......| -+|+|-.|...
+T Consensus        63 ~~~~~~~---~~tP~~~G~~~l~a~f~~-~~l~~i~g~~~   98 (102)
+T 2xzz_A           63 ETVTLRQ---SFVPVRPGPRQLIASLDS-PQLSQVHGVIQ   98 (102)
+T ss_dssp             CEEEEEE---EECCCSCSSCCCEEEEEC-GGGGSCCCCCC
+T ss_pred             CEEEEEE---EEEeCCcccEEEEEEEEc-CCcCCcEEEEE
+Confidence            6665555   333   222 33333444 34444443311
+
+
+No 10 
+>3cue_B Transport protein particle 31 kDa subunit; membrane traffic, GEF, tethering complex, RAB activation, GU nucleotide exchange factor; HET: PLM; 3.70A {Saccharomyces cerevisiae}
+Probab=0.23  E-value=3.7e+03  Score=14.07  Aligned_cols=58  Identities=10%  Similarity=0.122  Sum_probs=18.2
+
+Q ss_pred             ccCCceeEEeeccccccCCcccCCCCceeEEeeecCCCCCCCCCCCcccCCCccchhhhhhhHhhhhhhhHhhhcccCCc
+Q salpingogetaRo  314 RRSPAHWLLLDKTDVDLSGETCNKPGVSFTAFYQHGKSGGCNMDPFSCLDNQPAHLVAQDLDRLAAGRAAQYMAGRLGPP  393 (585)
+Q Consensus       314 ~~~~~~~mll~~~~v~l~G~eCnKIGVs~~aF~~~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~l~~~g~~  393 (585)
+                      .+...+|||+|...+-                     ..|-..       .+               ....||+      
+T Consensus       203 se~~neYmI~Dn~p~L---------------------tqfi~~-------~~---------------~sc~~Fv------  233 (283)
+T 3cue_B          203 SERDNEYMIVDNFPTL---------------------TQFIPG-------EN---------------VSCEYFV------  233 (283)
+T ss_dssp             SSCSSCEEEEESSCSS---------------------SCSSCT-------TC---------------CHHHHHH------
+T ss_pred             cCCCceEEEECCchHH---------------------hhcccc-------cC---------------cceeeeH------
+Confidence            1135789999986441                     122111       01               1123331      
+
+
+Q ss_pred             chhhhhhHHHhHh---hhhhccCCCCCceeEEEEeec---CceEEE
+Q salpingogetaRo  394 LVKRQAVGERVQN---MLAFKADIPQESLYTLEIEAD---DSRIFV  433 (585)
+Q Consensus       394 ~~~~~~~~~~~~~---~L~~~~~~~~~s~i~ie~~Ad---~v~~vI  433 (585)
+                            -|. -++   .+.|  .    ..++......   .-+.++
+T Consensus       234 ------cGI-I~G~L~~agF--~----c~Vtah~~~~~~~~~rtvf  266 (283)
+T 3cue_B          234 ------CGI-IKGFLFNAGF--P----CGVTAHRMPQGGHSQRTVY  266 (283)
+T ss_dssp             ------HHH-HHHHHHHHTS--C----CCCEEECCCCSSCTTCEEE
+T ss_pred             ------HHH-HHHHHHHCCC--c----eEEEEEeccCCCCCCceEE
+Confidence                  110 011   2222  1    1222222211   011111
+
+
+No 11 
+>3op3_A M-phase inducer phosphatase 3; structural genomics, structural genomics consortium, SGC, Al alpha sandwich, kinase, cytosol, hydrolase; 2.63A {Homo sapiens}
+Probab=0.18  E-value=3.5e+03  Score=12.66  Aligned_cols=140  Identities=7%  Similarity=0.004  Sum_probs=34.3
+
+Q ss_pred             EEEEEeeecceeeccCCeEEeeeccccCCCcCCCCceee----EEeccceeecccCCCCCCccccCCceeEEeeccc---
+Q salpingogetaRo  255 DVLLIGVQNKVARSTNGTVIATYLGDLAPSIFPHDLTTR----VLLTPNFYQFENSTDPMFPFRRSPAHWLLLDKTD---  327 (585)
+Q Consensus       255 ~~~~L~p~~~~~~~~~~~v~~~l~gd~~~~~~~~~l~~~----yL~iP~~~~~~~~~~~~~~~~~~~~~~mll~~~~---  327 (585)
+                      .++-|+-...+..-....-.-.|+|||......|.+..+    -.+.|......- .   .........++|||-..   
+T Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~lig~~s~~~~lp~~~~~~~~~~~Is~~eL~~ll-~---~~~~~~~~~~~IIDvR~~~e   89 (216)
+T 3op3_A           14 GTENLYFQSMTQMLEEDSNQGHLIGDFSKVCALPTVSGKHQDLKYVNPETVAALL-S---GKFQGLIEKFYVIDCRYPYE   89 (216)
+T ss_dssp             --------------------CCBCTTSSSBCSSCCCCCSCSSSEEECHHHHHHHH-T---TTTTTTEEEEEEEECSCHHH
+T ss_pred             hhccchHHHHHHHhcccCcchhhccccccccccccCCCCCcccCccCHHHHHHHH-h---ccccccCCCEEEEECCCHHH
+Confidence            111111111110001112233679999877666643310    000000000000 0   00001115788887642   
+
+
+Q ss_pred             ---------cccCC-------------cccCCCCceeEEeeecCCCCCCCCCCCcccCCCccchhhhhhhHhhhhhhhHh
+Q salpingogetaRo  328 ---------VDLSG-------------ETCNKPGVSFTAFYQHGKSGGCNMDPFSCLDNQPAHLVAQDLDRLAAGRAAQY  385 (585)
+Q Consensus       328 ---------v~l~G-------------~eCnKIGVs~~aF~~~~Q~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y  385 (585)
+                               +.+.-             ..=++-.--.-.|.-  +..        ..    .   .....+.-+ ..-..
+T Consensus        90 y~~gHI~gAini~~~~~l~~~~~~~~~~~~~~~k~~iIV~~c--~~s--------~~----r---~~~~a~~Lr-~~~r~  151 (216)
+T 3op3_A           90 YLGGHIQGALNLYSQEELFNFFLKKPIVPLDTQKRIIIVFHC--EFS--------SE----R---GPRMCRCLR-EEDRS  151 (216)
+T ss_dssp             HHTSEETTCEECCSHHHHHHHHTSSCCCCSSTTSEEEEEEEC--CC----------C----C---HHHHHHHHH-HHHHH
+T ss_pred             HcCCCCCCcEECChhHHHHHHHhhhhhcccCCCCCeEEEEEC--CCC--------Cc----c---HHHHHHHHH-HhHHh
+Confidence                     21111             011222233445665  310        00    0   111111111 01011
+
+
+Q ss_pred             hhcccC---C--c--chhhhhhHHHhHhhhhhccCCCCCce
+Q salpingogetaRo  386 MAGRLG---P--P--LVKRQAVGERVQNMLAFKADIPQESL  419 (585)
+Q Consensus       386 ~l~~~g---~--~--~~~~~~~~~~~~~~L~~~~~~~~~s~  419 (585)
+                      + ..|.   .  .  ......  .....+..+.-......+
+T Consensus       152 ~-n~yp~lg~~~v~iL~GG~~--~w~~~~~~~~~~~~y~~m  189 (216)
+T 3op3_A          152 L-NQYPALYYPELYILKGGYR--DFFPEYMELCEPQSYCPM  189 (216)
+T ss_dssp             T-SSTTCCSCCCEEEETTHHH--HHTTTCGGGEESSCBCCC
+T ss_pred             h-ccccccCCCeEEEECCcHH--HHHHHCcCccCCCCcccC
+Confidence            1 1222   1  1  111111  011123333211111111
+
+
+No 12 
+>3pe9_A Fibronectin(III)-like module; CBHA, beta-sandwich, cellulosome, unknown function; 1.69A {Clostridium thermocellum}
+Probab=0.15  E-value=2.8e+03  Score=10.66  Aligned_cols=93  Identities=8%  Similarity=-0.063  Sum_probs=44.7
+
+Q ss_pred             eeEEEEeecCceEEEEEeeeeeEEeeeeeeecccceeeeeeeeccccCCCceEEEEEEecceeeecccceeeeeecCCCc
+Q salpingogetaRo  419 LYTLEIEADDSRIFVLDVSFSIFELGVYGLASVSRDIFLWIELARLDKRPSTVYLSVECSDLVLPVPTTAISWKQTDTGH  498 (585)
+Q Consensus       419 ~i~ie~~Ad~v~~vI~~~~i~~fea~~~g~~~i~v~v~~~~~~~N~G~~~a~y~v~~~Cs~~i~pi~~~~~~i~p~~~~~  498 (585)
+                      .+.|..-++.-.+.   .         .+.+  .+...      =......--.+.+.-...         .+.+.....
+T Consensus         1 ~v~i~sP~~~~~~~---~---------g~~v--~i~~~------a~~~~~~i~~v~~~vdg~---------~i~~~~~~p   51 (98)
+T 3pe9_A            1 MVKLTAPKSNVVAY---G---------NEFL--KITAT------ASDSDGKISRVDFLVDGE---------VIGSDREAP   51 (98)
+T ss_dssp             CEEEEECCTTCCEE---T---------TSEE--EEEEE------ECCSSSCEEEEEEEETTE---------EEEEECSSS
+T ss_pred             CEEEEeCCCCCEEe---C---------CCEE--EEEEE------EEcCCCCEEEEEEEECCE---------EEeCccCCC
+Confidence            13333333333221   0         0011  11111      111122334444443322         133334445
+
+
+Q ss_pred             ccceeeeccccccceeeEeeeeeeccccceeeeeeeeEEeecceeecc
+Q salpingogetaRo  499 LRDAIIPLRTSSTQEVVHTCRVEAKNARGRITDTGFVAFKTTATCACL  546 (585)
+Q Consensus       499 ~~f~~i~l~~~~~~~~~~~C~v~L~ds~~~~ld~~~i~f~t~~~~~~~  546 (585)
+                      +.+   .+..   ..+.+...|...|..|....+..+.|....+.+.-
+T Consensus        52 ~~~---~~~~---~~G~~~i~v~a~D~~G~~~~s~~v~v~~~~~~~~~   93 (98)
+T 3pe9_A           52 YEY---EWKA---VEGNHEISVIAYDDDDAASTPDSVKIFVKQARLEH   93 (98)
+T ss_dssp             EEE---EEEC---CSEEEEEEEEEEETTCCBCCCEEEEEEEECCC---
+T ss_pred             EEE---EEEc---CCceEEEEEEEEECCCCEEeeeEEEEEEcCccccc
+Confidence            445   4432   24789999999999999998888999987655421
+
+
+No 13 
+>2qrr_A Methionine import ATP-binding protein METN; alpha-beta structure, structural genomics, PSI-2, protein ST initiative; 1.71A {Vibrio parahaemolyticus} SCOP: d.58.18.13
+Probab=0.02  E-value=6.7e+03  Score=5.23  Aligned_cols=60  Identities=10%  Similarity=0.133  Sum_probs=27.5
+
+Q ss_pred             hhccCCC--CCceeEEEEeec--------------CceEEEEEeeeeeEEeeeeeeecccceeeeeeeecccc-------
+Q salpingogetaRo  409 AFKADIP--QESLYTLEIEAD--------------DSRIFVLDVSFSIFELGVYGLASVSRDIFLWIELARLD-------  465 (585)
+Q Consensus       409 ~~~~~~~--~~s~i~ie~~Ad--------------~v~~vI~~~~i~~fea~~~g~~~i~v~v~~~~~~~N~G-------  465 (585)
+                      .+.-...  ....+++.+..+              ++.+-|+.+.+..+.....|.+  .+.+.      ...       
+T Consensus        13 ~l~~~~~~~~~~i~~l~~~~~~~~~~~is~l~~~~~~~i~Il~g~i~~i~~~~~G~l--~l~v~------g~~~~~~~~~   84 (101)
+T 2qrr_A           13 RLQPNRVEGSYPLVRMEFTGATVDAPLMSQISRKYNIDVSILSSDLDYAGGVKFGMM--VAELF------GNEQDDSAAI   84 (101)
+T ss_dssp             HEESSCCTTCEEEEEEEECTTSCSSCHHHHHHHHSCCEEEEEEEEEEEETTEEEEEE--EEEEE------SCHHHHHHHH
+T ss_pred             hhccccCCCCcEEEEEEECCCccCccHHHHHHHHcCCeEEEEEeeeeecCCCcEEEE--EEEEe------cCHHHHHHHH
+Confidence            1112222  234455555432              5666688887765433355656  44444      210       
+
+
+Q ss_pred             ----CCCceEEEEEE
+Q salpingogetaRo  466 ----KRPSTVYLSVE  476 (585)
+Q Consensus       466 ----~~~a~y~v~~~  476 (585)
+                          ...-.+.+.-.
+T Consensus        85 ~~L~~~~v~~~~l~~   99 (101)
+T 2qrr_A           85 EYLRENNVKVEVLGY   99 (101)
+T ss_dssp             HHHHHTTCEEEEEEE
+T ss_pred             HHHHHcCCEEEEeec
+Confidence                02345554321
+
+
+No 14 
+>4xfd_A NH(3)-dependent NAD(+) synthetase; cofactor biosynthesis, ligase, ATP-binding; 1.55A {Pseudomonas aeruginosa}
+Probab=0.01  E-value=6.9e+03  Score=5.98  Aligned_cols=87  Identities=8%  Similarity=-0.017  Sum_probs=30.0
+
+Q ss_pred             CceeeEEeccceeecccCCCCCCc--------ccc-CCceeEEeecc--------ccccCCcccCCCC------------
+Q salpingogetaRo  289 DLTTRVLLTPNFYQFENSTDPMFP--------FRR-SPAHWLLLDKT--------DVDLSGETCNKPG------------  339 (585)
+Q Consensus       289 ~l~~~yL~iP~~~~~~~~~~~~~~--------~~~-~~~~~mll~~~--------~v~l~G~eCnKIG------------  339 (585)
+                      ...-..+.+|.    ..     ..        +.. .--++..++-.        .+.   ...+...            
+T Consensus        87 ~~~v~~v~~~~----~~-----~~~~~~a~~~~~~~~gi~~~~v~i~~~~~~~~~~~~---~~~~~~p~~~~~~~~n~~~  154 (283)
+T 4xfd_A           87 AYRFIAVRLPY----QV-----QQDEADAQASLATIRADEEQTVNIGPSVKALAEQLE---ALEGLEPAKSDFVIGNIKA  154 (283)
+T ss_dssp             TCEEEEEECCC----SC-----HHHHHHHHHHHHHHCCSEEEECCCHHHHHHHHTTCG---GGTTCCHHHHHHHHHHHHH
+T ss_pred             cceEEEEECCC----CC-----CcCHHHHHHHHHHhcCCceEEEehHHHHHHHHHHHH---HhccCCCcccchhhhhHHH
+Confidence            11222233332    00     00        000 01233333321        010   0000000            
+
+
+Q ss_pred             -------------ceeEEeeecCCC-------CCCCC-CCCcccCCCccchhhhhhhHhhhhh-hhHhhhccc
+Q salpingogetaRo  340 -------------VSFTAFYQHGKS-------GGCNM-DPFSCLDNQPAHLVAQDLDRLAAGR-AAQYMAGRL  390 (585)
+Q Consensus       340 -------------Vs~~aF~~~~Q~-------~~C~~-~~gSCL~nQl~~~~~~D~~~~~~g~-~~~Y~l~~~  390 (585)
+                                   .++..-..   +       +.+.. ..+.+.-.=|.++.+.+...+++-. .|.+++..-
+T Consensus       155 r~r~~~l~~~A~~~g~~vl~t---gn~~E~~~G~~t~~gd~~~~i~Pl~~l~K~eV~~la~~~glp~~i~~~~  224 (283)
+T 4xfd_A          155 RIRMVAQYAIAGARGGLVIGT---DHAAEAVMGFFTKFGDGACDLAPLSGLAKHQVRALARALGAPENLVEKI  224 (283)
+T ss_dssp             HHHHHHHHHHHHHHTEEEBCC---CCHHHHHHTCSCTTTTTCCSBCTTTTCCHHHHHHHHHHTTCCHHHHTC-
+T ss_pred             HHHHHHHHHHHhhCCcEEECC---CCccchhhcchhccCCCCcceeccccCcHHHHHHHHHHcCCCHHHhcCC
+Confidence                         00111111   1       22222 2456777778889999998776532 343332221
+
+
+No 15 
+>1fzc_A Fibrin; blood coagulation, plasma protein, crosslinking; HET: NAG MAN; 2.30A {Homo sapiens} SCOP: h.1.8.1 PDB: 1fzb_A* 1fza_A* 1fze_A* 1fzf_A* 1fzg_A* 1n86_A* 2h43_A* 2hlo_A* 2hod_A* 2hpc_A* 2q9i_A* 2xnx_A 2xny_A 2z4e_A* 3e1i_A* 1n8e_A 2oyh_A* 1ltj_A* 1lt9_A* 1re4_A* 1rf0_A* 1rf1_A* 2ffd_A* 1re3_A* 2oyi_A* 3hus_A* 3bvh_A*
+Probab=0.01  E-value=7.8e+03  Score=5.52  Aligned_cols=22  Identities=14%  Similarity=0.027  Sum_probs=6.6
+
+Q ss_pred             CCCCcccC---CCccch-hhhhhhHh
+Q salpingogetaRo  356 MDPFSCLD---NQPAHL-VAQDLDRL  377 (585)
+Q Consensus       356 ~~~gSCL~---nQl~~~-~~~D~~~~  377 (585)
+                      +-.|||-.   -|...= |+.-.+.+
+T Consensus        50 sCKGSCa~~~~y~vD~~~y~~~qkqL   75 (87)
+T 1fzc_A           50 SCRGSCSRALAREVDLKDYEDQQKQL   75 (87)
+T ss_dssp             TTTTTBSCCCCCCCCTHHHHHHHHHH
+T ss_pred             hccchhhcchhheechhhHHHHHHHH
+Confidence            23466655   222221 11111111
+
+
+No 16 
+>3gio_A Putative uncharacterized protein; antiparallel beta sheet, four-helix bundle, loop, DNA binding protein; 2.40A {Helicobacter pylori}
+Probab=0.01  E-value=8.2e+03  Score=6.55  Aligned_cols=69  Identities=14%  Similarity=0.087  Sum_probs=19.9
+
+Q ss_pred             ccccccccceeeEEEEEEeeeeccccCCCCCccc-------------------------cccCCCCcceeecc-------
+Q salpingogetaRo  201 DAWELDRAQVSHTIRLAVYKETSFNGTIPEPTQA-------------------------CKDSNARPTRRVNG-------  248 (585)
+Q Consensus       201 ~vy~I~~~~~~~~i~v~i~~~~~~~~~~~~~~~~-------------------------~~~~~~~~~~~~~~-------  248 (585)
+                      -.|.++.++..-+--|.=..-  -++-   ++..                         ..+.++.--.+++.       
+T Consensus        35 p~wm~~~rs~yvTQGiDSSHv--idGq---~~ersE~IAreRArfRVA~hI~~KiKe~Y~~sqN~~qk~~d~eiF~qitQ  109 (186)
+T 3gio_A           35 PYWMLQNRSEYITQGVDSSHI--VDGK---KTEEIEKIATKRATIRVAQNIVHKLKEAYLSKTNRIKQKITNEMFIQMTQ  109 (186)
+T ss_dssp             EGGGBCSCCCCTTEEEEEEEC--CTTC---CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTCCCCSCCCHHHHHHHHH
+T ss_pred             hHHHHhhhhHHHHcCCchhhh--ccch---hHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhccccccCcccHHHHHHHHH
+Confidence            112233332222222222211  1111   1000                         12333322222211       
+
+
+Q ss_pred             -----eEEEEEEEEEEeeecceeeccCCeEEeeecc
+Q salpingogetaRo  249 -----FAFYCVDVLLIGVQNKVARSTNGTVIATYLG  279 (585)
+Q Consensus       249 -----~~~~~~~~~~L~p~~~~~~~~~~~v~~~l~g  279 (585)
+                           ......--.-++|+|.++     ++.+|.-|
+T Consensus       110 aI~~SL~~~~qLGeYINPNN~EV-----F~LVRv~~  140 (186)
+T 3gio_A          110 PIYDSLMNVDRLGIYINPNNEEV-----FALVRARG  140 (186)
+T ss_dssp             HHHHHEEEEEEEEEEEETTTTEE-----EEEEEEEE
+T ss_pred             HHHHHHhhHHHhcceeCCCCcee-----EEEEEecc
+Confidence                 122222233455665555     23344332
+
+
+No 17 
+>3ldh_A Lactate dehydrogenase; oxidoreductase, CHOH donor, NAD acceptor; HET: NAD; 3.00A {Squalus acanthias} SCOP: i.12.1.1
+Probab=0.01  E-value=6.8e+03  Score=5.26  Aligned_cols=140  Identities=11%  Similarity=0.060  Sum_probs=29.2
+
+Q ss_pred             eccccCCCcCCCCceeeEEeccceeecccCCCCCCcc----------ccCCceeEEeeccc------c-c--cCCcccCC
+Q salpingogetaRo  277 YLGDLAPSIFPHDLTTRVLLTPNFYQFENSTDPMFPF----------RRSPAHWLLLDKTD------V-D--LSGETCNK  337 (585)
+Q Consensus       277 l~gd~~~~~~~~~l~~~yL~iP~~~~~~~~~~~~~~~----------~~~~~~~mll~~~~------v-~--l~G~eCnK  337 (585)
+                      |+|.+...........=.++  -       .  | .+          .....+-.++|.+.      . +  .....+ +
+T Consensus         8 ~~~~~~~~~~~~~~~kI~Ii--G-------a--G-~vG~~la~~l~~~~~~~~V~l~d~~~~~~~~~~~~l~~~~~~~-~   74 (330)
+T 3ldh_A            8 LIGHLATSQEPRSYNKITVV--G-------C--D-AVGMADAISVLMKDLADEVALVDVMEDKLKGEMMDLEHGSLFL-H   74 (330)
+T ss_dssp             HSCCCSCCCCCCCCCEEEEE--S-------T--T-HHHHHHHHHHHHHCCCSEEEEECSCHHHHHHHHHHHHHHGGGS-C
+T ss_pred             HHhhhcccccccCCCEEEEE--C-------C--C-HHHHHHHHHHHhCCCCCEEEEEeCChHHHHHHHHHHhhhcccc-C
+Confidence            12333222221111111111  0       0  0 00          00124555555431      0 0  000001 1
+
+
+Q ss_pred             CCceeEEeeecCCCCC-----------CCCCCCcccCCCccchhhhhhhHhhh--hhhhHhh------------------
+Q salpingogetaRo  338 PGVSFTAFYQHGKSGG-----------CNMDPFSCLDNQPAHLVAQDLDRLAA--GRAAQYM------------------  386 (585)
+Q Consensus       338 IGVs~~aF~~~~Q~~~-----------C~~~~gSCL~nQl~~~~~~D~~~~~~--g~~~~Y~------------------  386 (585)
+                      . ..+.....  ....           ...+++    ..-.++...+...+.+  .....|.                  
+T Consensus        75 ~-~~i~~~~d--~~~l~~aDiVIi~~~~~~~~~----~~r~~~l~~n~~~~~~i~~~i~~~~~~~~~Iv~snp~~~~~~~  147 (330)
+T 3ldh_A           75 T-AKIVSGKD--YSVSAGSKLVVITAGARQQEG----ESRLNLVQRNVNIFKFIIPNIVKHSPDCLKELHPELGTDKNKQ  147 (330)
+T ss_dssp             C-SEEEEESS--SCSCSSCSEEEECCSCCCCSS----CCTTGGGHHHHHHHHHHHHHHHHHCTTCEEEECSSSHHHHHHH
+T ss_pred             C-CeEEeCCC--HHHhcCCCEEEEecCCCCCCC----CCHHHHHHHHHHHHHHHHHHHHHhCCCcEEEEeCCCcHHHHHH
+Confidence            1 12222211  1110           011121    1234455555443321  0011121                  
+
+
+Q ss_pred             h---cccCCc--chh-hhhhHHHhHhhhhhccCCCCCceeEEEEee---cCceEEEEEeee
+Q salpingogetaRo  387 A---GRLGPP--LVK-RQAVGERVQNMLAFKADIPQESLYTLEIEA---DDSRIFVLDVSF  438 (585)
+Q Consensus       387 l---~~~g~~--~~~-~~~~~~~~~~~L~~~~~~~~~s~i~ie~~A---d~v~~vI~~~~i  438 (585)
+                      +   ..+..-  -+. .......-...|+-..... ...++..+-+   +... .+.+...
+T Consensus       148 l~~~~~~~~~riiG~g~~ld~~r~~~~la~~l~~~-~~~v~~~v~G~h~~~~v-~~~s~~~  206 (330)
+T 3ldh_A          148 DWKLSGLPMHRIIGSGCNLDSARFRYLMGERLGVH-SCLVIGWVIGQHGDSVP-SVWSGMW  206 (330)
+T ss_dssp             HHHHHCCCGGGEECCTTHHHHHHHHHHHHHHHTSC-TTTCCEEECSSSSTTCC-EEEEEEE
+T ss_pred             HHHHcCCCcccEEeccccccchHHHHHHHHHhCCC-cccccceEecccCCcee-eehhhhh
+Confidence            0   111110  000 0000001122222211111 1122222331   2211 1222211
+
+
+No 18 
+>1lwu_A Fibrinogen alpha-1 chain; heterotrimer, protein-peptide complex, blood clotting; HET: NDG MAN NAG BMA GAL; 2.80A {Petromyzon marinus} SCOP: h.1.8.1 PDB: 1n73_A*
+Probab=0.01  E-value=7.9e+03  Score=5.72  Aligned_cols=40  Identities=13%  Similarity=-0.026  Sum_probs=10.6
+
+Q ss_pred             CCCCCCCCCcccCCCccchhhhhhhHhhhhhhhHhhhcccCCcchhhh
+Q salpingogetaRo  351 SGGCNMDPFSCLDNQPAHLVAQDLDRLAAGRAAQYMAGRLGPPLVKRQ  398 (585)
+Q Consensus       351 ~~~C~~~~gSCL~nQl~~~~~~D~~~~~~g~~~~Y~l~~~g~~~~~~~  398 (585)
+                      ++.|.+..-.=..  ...|-+.++...   +.|..   .+..|+...+
+T Consensus        74 KGSCar~~~y~VD--~~sy~~~~kql~---ql~~l---km~~~~d~~v  113 (119)
+T 1lwu_A           74 KGSCARYLEYRLD--KEKNLQLEKAAS---YIANL---KFERFEEVVV  113 (119)
+T ss_dssp             GGTBSSCCCCCCC--CCHHHHHHHHHH---HCCGG---GCCCSTTCC-
+T ss_pred             cchhhccceeeec--hHHHHHHHHHHH---hcccc---ccccCccccC
+Confidence            2344444332222  223333332222   12222   2222221111
+
+
+No 19 
+>4ok7_A Endolysin; helical protein, hydrolase; 1.90A {Salmonella phage SPN1S}
+Probab=0.01  E-value=7.1e+03  Score=3.96  Aligned_cols=33  Identities=24%  Similarity=0.194  Sum_probs=7.5
+
+Q ss_pred             ccCCCccchhhhhhhHhhhhhhhHhhhcc------cCCcchhh
+Q salpingogetaRo  361 CLDNQPAHLVAQDLDRLAAGRAAQYMAGR------LGPPLVKR  397 (585)
+Q Consensus       361 CL~nQl~~~~~~D~~~~~~g~~~~Y~l~~------~g~~~~~~  397 (585)
+                      =+-++|..... |...+   ..+.|+-..      -+.+....
+T Consensus       160 d~v~~Pdlv~~-~~~a~---~sA~wfW~~~~~~~~~~~~~~vt  198 (223)
+T 4ok7_A          160 DLVAQPELLAQ-DEYAA---RSAAWFFSSKGCMKYTGDLVRVT  198 (223)
+T ss_dssp             CTTTCGGGGGS-HHHHH---HHHHHHHHHTTGGGGTTCHHHHH
+T ss_pred             cccCCHHHhcc-CHHHH---HHHHHHHhcCCccccccCHHhHh
+Confidence            12234433322 22222   112222111      11111111
+
+
+No 20 
+>4jen_A CMP N-glycosidase; bacimethrin biosynthesis, hydrolase; 3.00A {Clostridium botulinum A}
+Probab=0.01  E-value=7e+03  Score=3.40  Aligned_cols=13  Identities=23%  Similarity=0.291  Sum_probs=4.1
+
+Q ss_pred             cceEEEEEEecCCc
+Q salpingogetaRo   49 KKKLVMTLSIGNGQ   62 (585)
+Q Consensus        49 ~~Klvv~l~V~~g~   62 (585)
+                      .+++ +-+.-+...
+T Consensus       123 gKpI-i~~~~~~~~  135 (176)
+T 4jen_A          123 GKKI-ILLLAEKEE  135 (176)
+T ss_dssp             TCEE-EEEEEC---
+T ss_pred             CCEE-EEEecCCcc
+Confidence            1444 434444221
+
+
+Done!

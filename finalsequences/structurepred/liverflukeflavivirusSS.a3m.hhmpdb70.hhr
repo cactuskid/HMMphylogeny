@@ -1,0 +1,541 @@
+Query         liverflukeflavivirusSS
+Match_columns 155
+No_of_seqs    1 out of 6
+Neff          1.0 
+Searched_HMMs 40
+Date          Thu Aug  4 12:30:45 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/liverflukeflavivirusSS.a3m.hhm -ohhm ./structurepred/liverflukeflavivirusSS.a3m.hhm -o ./structurepred/liverflukeflavivirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4cbf_A Envelope protein E; fla  97.0   0.022 3.3E-06   45.9  18.9   95   48-143    81-175 (495)
+  2 4cct_A Dengue virus 1 E protei  97.0   0.025 3.7E-06   45.6  18.8  101   48-149    81-181 (495)
+  3 3j27_A Envelope protein E; fla  96.6   0.017 2.5E-06   46.6  14.8   94   48-142    81-176 (495)
+  4 1ok8_A Major envelope protein   96.2  0.0097 1.5E-06   46.8  10.8  128    9-153    45-186 (394)
+  5 3uaj_B Envelope protein; dengu  95.8   0.018 2.6E-06   45.9  10.6  128    9-153    45-186 (433)
+  6 1svb_A TICK-borne encephalitis  95.8  0.0063 9.5E-07   48.1   7.6  131    7-154    43-188 (395)
+  7 4fg0_A Polyprotein; viral enve  95.8   0.049 7.4E-06   42.7  13.1  131    8-153    44-191 (407)
+  8 4gsx_A Envelope protein E; vir  95.8   0.019 2.8E-06   45.6  10.6  128    9-153    61-202 (427)
+  9 3p54_A Envelope glycoprotein;   95.0    0.18 2.8E-05   39.1  14.0  130    9-153    45-191 (406)
+ 10 4fas_D NE1300, hydroxylamine o  88.6     1.2 0.00014   28.1   8.6   38   36-73     11-48  (69)
+ 11 3ijl_A Muconate cycloisomerase  17.2      48    0.01   19.8   6.6  113   12-147   126-258 (338)
+ 12 2lfe_A E3 ubiquitin-protein li   5.1 2.3E+02   0.033   17.6  22.6  107    2-112    27-138 (138)
+ 13 2jug_A TUBC protein; docking d   1.1 1.9E+02   0.035   14.3   0.1   39   86-136    20-72  (78)
+ 14 4it5_A CO-chaperone protein HS   0.7 6.2E+02    0.12   12.7   5.3   32  102-133     9-44  (174)
+ 15 3uo3_A J-type CO-chaperone JAC   0.6 7.1E+02    0.14   12.6   6.9   39   97-135    11-58  (181)
+ 16 3evy_A Putative type I restric   0.5 7.5E+02    0.14   13.4   1.7   36  114-149    86-121 (239)
+ 17 4ro1_A DIS3-like exonuclease 2   0.2 2.3E+03    0.45   12.4  23.7  121    3-127   169-416 (764)
+ 18 3rwl_A Cytochrome P450 alkane    0.1 2.5E+03    0.61    8.9   7.8   83    4-111   315-426 (426)
+ 19 3sz3_A Tryptophanyl-tRNA synth   0.1 3.4E+03    0.69    8.9   7.3  122    2-127     6-234 (341)
+ 20 3n9i_A Tryptophanyl-tRNA synth   0.1 3.4E+03     0.7    8.9   5.6   26   52-79      2-27  (346)
+
+No 1  
+>4cbf_A Envelope protein E; flavivirus; 4.10A {Dengue virus 2}
+Probab=97.04  E-value=0.022  Score=45.89  Aligned_cols=95  Identities=20%  Similarity=0.380  Sum_probs=0.0
+
+Q ss_pred             cCCCcccceeeccccCCCceeeeeeeeeeeCceeeeeEEEEEecCcccceeeeeecCceeeeeccchhHHhhhhcCcccc
+Q liverflukeflav   48 DHTKREDTVFSQHRRNGDTAWGVQCGFVTKGSRITTTVELICFKGLRGLEVAFRSIGYPVAVDEHRITYQELQDNFTPTR  127 (155)
+Q Consensus        48 dhtkredtvfsqhrrngdtawgvqcgfvtkgsritttvelicfkglrglevafrsigypvavdehrityqelqdnftptr  127 (155)
+                      .-.++.|.-|-=+|-.-|-.||--||..-||| |-|-+++-|-+.+.|.++.-..|-|-|.+.-|..++.+....-...+
+T Consensus        81 ~l~e~~~~~~vCkr~~~DRGWGNGCgLFGkGs-i~tCakf~C~~~~~g~~i~~~~I~y~V~v~vH~~~~~~~~~~~~~~~  159 (495)
+T 4cbf_A           81 YLKEEQDQQYICRRDVVDRGWGNGCGLFGKGG-VVTCAKFLCSGKITGNLVQIENLEYTVAVTVHNGDTHAVGNDTSSHG  159 (495)
+T ss_pred             CChhhccCCeeecCCCCCCCcccccccccCcc-eEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCcccccccccccce
+
+
+Q ss_pred             ccccccceeeeEEeeh
+Q liverflukeflav  128 KATSKAQSISTITFGL  143 (155)
+Q Consensus       128 katskaqsistitfgl  143 (155)
+                      +..+-..+-...+|-|
+T Consensus       160 ~~~~~t~~s~~~t~~l  175 (495)
+T 4cbf_A          160 VTATITPRSPSVEVKL  175 (495)
+T ss_pred             eEEEEecCCCcEEEEc
+
+
+No 2  
+>4cct_A Dengue virus 1 E protein; flavivirus; 4.50A {Dengue virus 1} PDB: 4b03_A 4c2i_A* 3j6s_A 3j6t_A 3j6u_A
+Probab=97.00  E-value=0.025  Score=45.63  Aligned_cols=101  Identities=24%  Similarity=0.382  Sum_probs=0.0
+
+Q ss_pred             cCCCcccceeeccccCCCceeeeeeeeeeeCceeeeeEEEEEecCcccceeeeeecCceeeeeccchhHHhhhhcCcccc
+Q liverflukeflav   48 DHTKREDTVFSQHRRNGDTAWGVQCGFVTKGSRITTTVELICFKGLRGLEVAFRSIGYPVAVDEHRITYQELQDNFTPTR  127 (155)
+Q Consensus        48 dhtkredtvfsqhrrngdtawgvqcgfvtkgsritttvelicfkglrglevafrsigypvavdehrityqelqdnftptr  127 (155)
+                      .-.++.|.-|-=+|-.-|-.||--||..-||| |-|-+++-|-+.+.|.++.-..|-|-|.+.-|.-++.+-..+-...+
+T Consensus        81 ~l~e~~~~~~vCkr~~~DRGWGNGCgLFGkGs-i~tCakftC~~~~~g~~i~~enI~y~V~v~vH~~~~~~~~~~~~~~~  159 (495)
+T 4cct_A           81 TLVEEQDTNFVCRRTFVDRGWGNGCGLFGKGS-LITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGNETTEHG  159 (495)
+T ss_pred             CChhhccCCeeecCCCCCCCCccccccccCcc-eEEEEeEEcCCcceEEEEecceEEEEEEEEEECCcccccccccccce
+
+
+Q ss_pred             ccccccceeeeEEeehhccccc
+Q liverflukeflav  128 KATSKAQSISTITFGLKKVKNA  149 (155)
+Q Consensus       128 katskaqsistitfglkkvkna  149 (155)
+                      +..+-..+-...+|-|-+.-++
+T Consensus       160 ~~~~~Tp~s~~~t~~lgdyG~v  181 (495)
+T 4cct_A          160 TTATITPQAPTSEIQLTDYGAL  181 (495)
+T ss_pred             eEEEEecCCCcEEEEcCCceEE
+
+
+No 3  
+>3j27_A Envelope protein E; flavivirus, fusion protein, protein complex, membrane, chape virus; HET: NAG; 3.60A {Dengue virus 2} PDB: 3j2p_A* 4uih_A 1p58_A 3zko_A 4uif_A 5a1z_A
+Probab=96.61  E-value=0.017  Score=46.64  Aligned_cols=94  Identities=21%  Similarity=0.387  Sum_probs=0.0
+
+Q ss_pred             cCCCcccceeeccccCCCceeeeeeeeeeeCceeeeeEEEEEecCcccceeeeeecCceeeeeccchhHHhhhhcCcccc
+Q liverflukeflav   48 DHTKREDTVFSQHRRNGDTAWGVQCGFVTKGSRITTTVELICFKGLRGLEVAFRSIGYPVAVDEHRITYQELQDNFTPTR  127 (155)
+Q Consensus        48 dhtkredtvfsqhrrngdtawgvqcgfvtkgsritttvelicfkglrglevafrsigypvavdehrityqelqdnftptr  127 (155)
+                      .-.++.|.-|-=+|-.-|-.||--||..-||| |-|-+++-|-+.+.|.++.-..|-|-|.+--|..++.+...+....+
+T Consensus        81 ~l~e~~~~~~vCkr~~~DRGWGNGCgLFGkGs-i~tCakftC~~~~~g~~i~~enI~y~V~v~vH~~~~~~~~~~~~~~~  159 (495)
+T 3j27_A           81 SLNEEQDKRFVCKHSMVDRGWGNGCGLFGKGG-IVTCAMFTCKKNMKGKVVQPENLEYTIVITPHSGEEHAVGNDTGKHG  159 (495)
+T ss_dssp             CCGGGGBTTSCEEEEEECCCGGGTSSSCSCEE-EEEEEEEEEEEECCCCEECSTTCCEEEEEEECCCCTTCSSCSSSCSS
+T ss_pred             CChhhccCCeeecCCCCCCCcccccccccCcc-eEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCcccccccccccce
+
+
+Q ss_pred             ccc--cccceeeeEEee
+Q liverflukeflav  128 KAT--SKAQSISTITFG  142 (155)
+Q Consensus       128 kat--skaqsistitfg  142 (155)
+                      +..  +......++.||
+T Consensus       160 ~~~~~Tp~s~~~t~~lg  176 (495)
+T 3j27_A          160 KEIKITPQSSITEAELT  176 (495)
+T ss_dssp             CCEEECTTSCEEEEEET
+T ss_pred             eEEEEecCCCcEEEECC
+
+
+No 4  
+>1ok8_A Major envelope protein E; viral protein, membrane fusion, flavivirus, fusion peptide, low-PH conformational change, class 2 fusion protein,; HET: NAG; 2.0A {Dengue virus type 2} SCOP: b.1.18.4 f.10.1.1 PDB: 1oan_A* 1oke_A* 2b6b_A 3j8d_G 1tge_A 1tg8_A* 1thd_A 3c5x_A* 3c6e_A* 3c6d_A 3c6r_A 3ixy_A 3iya_A 3j35_A 4uta_A* 4ut9_A* 4utc_A* 4utb_A* 4ut6_A* 2r6p_A 3j42_A 2jsf_A 2r29_A 2r69_A
+Probab=96.23  E-value=0.0097  Score=46.82  Aligned_cols=128  Identities=23%  Similarity=0.357  Sum_probs=65.3
+
+Q ss_pred             cceeeeccccchhhhhhcccceEE----EeeccchhhhhhhhccC------CCcccceeeccccCCCceeeeeeeeeeeC
+Q liverflukeflav    9 FDELMISGNHRNQRKRERNVRRLR----ITWGKTRDVLRWLACDH------TKREDTVFSQHRRNGDTAWGVQCGFVTKG   78 (155)
+Q Consensus         9 fdelmisgnhrnqrkrernvrrlr----itwgktrdvlrwlacdh------tkredtvfsqhrrngdtawgvqcgfvtkg   78 (155)
+                      .+..-+++        ..-+|.+=    |+=-++.+     .|--      .|+.|.-|-=+|-.-|-.||--||..-||
+T Consensus        45 l~~~~~~~--------~a~~R~yc~~a~vs~~~s~~-----~CPt~Gea~l~e~~~~~~vCkr~~~DRGWGNGCgLFGKG  111 (394)
+T 1ok8_A           45 LIKTEAKQ--------PATLRKYCIEAKLTNTTTES-----RCPTQGEPTLNEEQDKRFVCKHSMVDRGWGNGCGLFGKG  111 (394)
+T ss_dssp             EEEEEEES--------CEEEEEEEEEEEEEEEEEEE-----CCTTSCCCCCGGGGCTTEEEEEEEEEECGGGTCSSCEEE
+T ss_pred             EEEEEEec--------chhhhheeeeeEEeccEEcc-----cCCCCCccCChhhccCCeEecCCCCCCCCccccccccCc
+Confidence            12223332        23344432    22223333     2432      34445555445555566799999999999
+
+
+Q ss_pred             ceeeeeEEEEEecCcccceeeeeecCceeeeeccchhHHhhhhcCc-ccc-ccccccc-eeeeEEeehhcccc-ccccc
+Q liverflukeflav   79 SRITTTVELICFKGLRGLEVAFRSIGYPVAVDEHRITYQELQDNFT-PTR-KATSKAQ-SISTITFGLKKVKN-AVRCS  153 (155)
+Q Consensus        79 sritttvelicfkglrglevafrsigypvavdehrityqelqdnft-ptr-katskaq-sistitfglkkvkn-avrcs  153 (155)
+                      | |-|-+++-|-+.+.|.++.-..|-|-|.+--|..++.+. .|-+ ..+ +++--++ ...++.||  ..-+ .+.|.
+T Consensus       112 s-i~tCaKftC~~~~~g~~i~~enI~y~V~v~vH~~~~~~~-~~~~~~~~~~~~~t~~s~~~t~~lg--dyG~vtl~C~  186 (394)
+T 1ok8_A          112 G-IVTCAMFTCKKNMEGKIVQPENLEYTVVITPHSGEEHAV-GNDTGKHGKEVKITPQSSITEAELT--GYGTVTMECS  186 (394)
+T ss_dssp             E-EEEEEEEEEEEEEEEEECCGGGEEEEEEEEEC---------------CEEEEECSSCCEEEEEET--TTEEEEEEEE
+T ss_pred             c-EEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCccccc-ccccccceeEEEEecCCCCEEEEcC--CceEEEEEEE
+Confidence            7 667899999998888888888889999999999988552 2212 111 1221222 22344443  2111 12221
+
+
+No 5  
+>3uaj_B Envelope protein; dengue antibody membrane fusion, viral protein-immune system; HET: NAG; 3.23A {Dengue virus 4}
+Probab=95.81  E-value=0.018  Score=45.91  Aligned_cols=128  Identities=20%  Similarity=0.325  Sum_probs=63.4
+
+Q ss_pred             cceeeeccccchhhhhhcccceEE----EeeccchhhhhhhhccC------CCcccceeeccccCCCceeeeeeeeeeeC
+Q liverflukeflav    9 FDELMISGNHRNQRKRERNVRRLR----ITWGKTRDVLRWLACDH------TKREDTVFSQHRRNGDTAWGVQCGFVTKG   78 (155)
+Q Consensus         9 fdelmisgnhrnqrkrernvrrlr----itwgktrdvlrwlacdh------tkredtvfsqhrrngdtawgvqcgfvtkg   78 (155)
+                      .+..-+++        ..-+|.+=    |+=-|+.+     .|--      .++.|.-|-=+|-.-|-.||--||..-||
+T Consensus        45 l~~~~~~~--------~a~~R~yC~~a~vs~t~s~~-----rCPt~GeA~l~e~~~~~~vCkr~~sDRGWGNGCgLFGKG  111 (433)
+T 3uaj_B           45 LTKTTAKE--------VALLRTYCIEASISNITTAT-----RCPTQGEPYLKEEQDQQYICRRDVVDRGWGNGCGLFGKG  111 (433)
+T ss_dssp             EEEEECCS--------CEEEEEEEEEEEEEEEEEEE-----CCTTSCCCCCGGGTCTTEEEEEEEEEESTTTTCSSCEEE
+T ss_pred             EEEEEEec--------chHhhhheeeeEEeccEEcc-----cCCCCCccCChhhccCCeeecCCCCCCCCccccccccCc
+Confidence            12222222        23344442    23233333     2432      23334444334443455688889999999
+
+
+Q ss_pred             ceeeeeEEEEEecCcccceeeeeecCceeeeeccchhHHhhhhcCcccc-c-cccccc-eeeeEEeehhcccc-ccccc
+Q liverflukeflav   79 SRITTTVELICFKGLRGLEVAFRSIGYPVAVDEHRITYQELQDNFTPTR-K-ATSKAQ-SISTITFGLKKVKN-AVRCS  153 (155)
+Q Consensus        79 sritttvelicfkglrglevafrsigypvavdehrityqelqdnftptr-k-atskaq-sistitfglkkvkn-avrcs  153 (155)
+                      | |-|-+++-|-+.+.|.++.-..|-|-|.+.-|..++.+. .|.+... + ++--++ ...++.||  +.-+ .+.|.
+T Consensus       112 S-IvTCaKftC~~~~~g~~i~~enI~y~V~v~vH~~~~~~~-~~~~~~~~~~~~~Tp~s~~~t~~lg--dyG~vtl~C~  186 (433)
+T 3uaj_B          112 G-VVTCAKFSCSGKITGNLVQIENLEYTVVVTVHNGDTHAV-GNDTSNHGVTAMITPRSPSVEVKLP--DYGELTLDCE  186 (433)
+T ss_dssp             E-EEEEEEEEEEEEEEEEECCSSSCEEEEEEEECC-------------CCEEEEEBTTBCEEEEEET--TTEEEEEEEE
+T ss_pred             c-eEEEEeEEcCCceEEEEEeeeeEEEEEEEEEeCCccccc-ccccccceeEEEEecCCCCEEEEcC--CCcEEEEEEE
+Confidence            7 667899999999888888888899999999999986652 3333211 1 111122 22344443  2211 12221
+
+
+No 6  
+>1svb_A TICK-borne encephalitis virus glycoprotein; viral protein; HET: NAG; 1.90A {Tick-borne encephalitis virus} SCOP: b.1.18.4 f.10.1.1 PDB: 1k4r_A 1na4_A 1n6g_A* 1urz_A 1z3r_A 2gg1_A 1z66_A
+Probab=95.78  E-value=0.0063  Score=48.06  Aligned_cols=131  Identities=22%  Similarity=0.329  Sum_probs=70.6
+
+Q ss_pred             eccceeeeccccchhhhhhcccceE----EEeeccchhhhhhhhccC------CCcccceeeccccCCCceeeeeeeeee
+Q liverflukeflav    7 KGFDELMISGNHRNQRKRERNVRRL----RITWGKTRDVLRWLACDH------TKREDTVFSQHRRNGDTAWGVQCGFVT   76 (155)
+Q Consensus         7 kgfdelmisgnhrnqrkrernvrrl----ritwgktrdvlrwlacdh------tkredtvfsqhrrngdtawgvqcgfvt   76 (155)
+                      --.+..-+++-        .-+|.+    -|+=-|+.+     .|--      .++.|.-|-=+|-.-|-.||--||..-
+T Consensus        43 i~l~~~~~~~~--------a~~R~yc~~a~vs~~~s~~-----~CPt~Gea~l~e~~~~~~vCkr~~~DRGWGNGCgLFG  109 (395)
+T 1svb_A           43 VWLDAIYQENP--------AKTREYCLHAKLSDTKVAA-----RCPTMGPATLAEEHQGGTVCKRDQSDRGWGNHCGLFG  109 (395)
+T ss_dssp             EEEEEEEEESC--------EEEEEEESSEEEEEEEEEE-----CCTTSCCCCCGGGGSTTEEEEEEEEEESGGGTCSSCE
+T ss_pred             EEEeeEEEeCc--------HHhhhheeeeEEeccEEcc-----cCCCCCccCChhhhcCCeeecCCCCCCCccccccccc
+Confidence            11233333331        233333    233333333     2432      234444444444444667999999999
+
+
+Q ss_pred             eCceeeeeEEEEEe--cCcccceeeeeecCceeeeeccchhHHhhhhcCcccc--ccccccceeeeEEeehhcccc-ccc
+Q liverflukeflav   77 KGSRITTTVELICF--KGLRGLEVAFRSIGYPVAVDEHRITYQELQDNFTPTR--KATSKAQSISTITFGLKKVKN-AVR  151 (155)
+Q Consensus        77 kgsritttvelicf--kglrglevafrsigypvavdehrityqelqdnftptr--katskaqsistitfglkkvkn-avr  151 (155)
+                      ||| |-|-+++-|-  |.+.|.++.-..|-|-|.+.-|..++.+  .|-+...  +++..++|. ..+|-|-+.-+ .+.
+T Consensus       110 KGs-i~tCaKf~C~~~~~~~g~~i~~e~I~y~V~v~vH~~~~~~--~~~~~~~~~~~~~t~~s~-~~t~~lgdYGtvTle  185 (395)
+T 1svb_A          110 KGS-IVACVKAACEAKKKATGHVYDANKIVYTVKVEPHTGDYVA--ANETHSGRKTASFTISSE-KTILTMGEYGDVSLL  185 (395)
+T ss_dssp             EEE-EEEEEEEEECTTCEEEEEECCTTTCEEEEEEEECCSCCCC--TTSCCTTCEEEEEBTTBC-EEEEECGGGBEEEEE
+T ss_pred             Ccc-eEEEEeEEeCCCCeeeEEEEeeeeEEEEEEEEEECCcccc--ccccccceeeEEEecCCC-CEEEECCCceEEEEE
+Confidence            997 6678999998  6677777777778899999999876544  2322222  222222332 33444444332 233
+
+
+Q ss_pred             ccc
+Q liverflukeflav  152 CSR  154 (155)
+Q Consensus       152 csr  154 (155)
+                      |.-
+T Consensus       186 Cr~  188 (395)
+T 1svb_A          186 CRV  188 (395)
+T ss_dssp             EEG
+T ss_pred             Ecc
+Confidence            321
+
+
+No 7  
+>4fg0_A Polyprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 3.90A {St}
+Probab=95.77  E-value=0.049  Score=42.66  Aligned_cols=131  Identities=25%  Similarity=0.359  Sum_probs=66.8
+
+Q ss_pred             ccceeeeccccchhhhhhcccceEE----Eeeccchhhhhhhhcc------CCCcccceeeccccCCCceeeeeeeeeee
+Q liverflukeflav    8 GFDELMISGNHRNQRKRERNVRRLR----ITWGKTRDVLRWLACD------HTKREDTVFSQHRRNGDTAWGVQCGFVTK   77 (155)
+Q Consensus         8 gfdelmisgnhrnqrkrernvrrlr----itwgktrdvlrwlacd------htkredtvfsqhrrngdtawgvqcgfvtk   77 (155)
+                      -.+..-+++-        .-+|.+=    |+=-|+.+     .|-      -.++.|.-|-=+|-.-|-.||--||..-|
+T Consensus        44 ~l~~~~~~~~--------a~~R~yc~~a~vs~~~~~~-----~CPt~Gea~l~e~~~~~~vCkr~~~DRGWGNGCgLFGK  110 (407)
+T 4fg0_A           44 KVMKMEAAEL--------ATVREYCYEATLDTLSTVA-----RCPTTGEAHNTKRSDPTFVCKRDVVDRGWGNGCGLFGK  110 (407)
+T ss_dssp             EEEEEEECCC--------EEEEEEEEEEEEEEEEEEE-----CCSSSCCCCCTTTTSTTEEEEEEEEECCTTTTCSSSSE
+T ss_pred             EEEEEEEeCc--------HHhhhheeeeEEeccEecc-----cCCCCCccCChhhhcCCeEecCCCCCCCccccCccccC
+Confidence            1233334332        3345442    33333333     253      23455554544444445568888999999
+
+
+Q ss_pred             CceeeeeEEEEEecCcccceeeeeecCceeeeeccchhHHhhhhcCcccc--c----cccccceeeeEEeehhccccc-c
+Q liverflukeflav   78 GSRITTTVELICFKGLRGLEVAFRSIGYPVAVDEHRITYQELQDNFTPTR--K----ATSKAQSISTITFGLKKVKNA-V  150 (155)
+Q Consensus        78 gsritttvelicfkglrglevafrsigypvavdehrityqelqdnftptr--k----atskaqsistitfglkkvkna-v  150 (155)
+                      || |-|-+++-|-+.+.|.++.-..|-|-|.+.-|..+..+--.|.+...  |    ++--+++ ...++-|-..-++ +
+T Consensus       111 Gs-i~tCakf~C~~~~~g~~i~~e~I~y~V~v~vH~~~~~~~~~~~~~~~~~~~~~~~t~t~~s-~~~t~~lgdyG~vtl  188 (407)
+T 4fg0_A          111 GS-IDTCAKFTCKNKATGKTILRENIKYEVAIFVHGSTDSTSHGNYFEQIGKNQAARFTISPQA-PSFTANMGEYGTVTI  188 (407)
+T ss_dssp             EE-EEEEEEEEEEEEEEEEECCGGGEEEEEEEEECC-----------------CEEEEEECSSC-CEEEEECGGGCEEEE
+T ss_pred             cc-EEEEEeEEcCCceeEEEEecceEEEEEEEEecCCcccccccccccccccceeeEEEEecCC-CCEEEEcCCCcEEEE
+Confidence            97 67789999999888888888888999999999987776555555421  1    1111111 1244444444322 2
+
+
+Q ss_pred             ccc
+Q liverflukeflav  151 RCS  153 (155)
+Q Consensus       151 rcs  153 (155)
+                      .|.
+T Consensus       189 ~C~  191 (407)
+T 4fg0_A          189 DCE  191 (407)
+T ss_dssp             EEE
+T ss_pred             EEe
+Confidence            221
+
+
+No 8  
+>4gsx_A Envelope protein E; viral fusion protein, viral protein; HET: NAG; 1.90A {Dengue virus 1} PDB: 4gt0_A* 3g7t_A 3j05_A 4cau_A 1uzg_A*
+Probab=95.77  E-value=0.019  Score=45.56  Aligned_cols=128  Identities=27%  Similarity=0.390  Sum_probs=65.1
+
+Q ss_pred             cceeeeccccchhhhhhcccceEE----EeeccchhhhhhhhccC------CCcccceeeccccCCCceeeeeeeeeeeC
+Q liverflukeflav    9 FDELMISGNHRNQRKRERNVRRLR----ITWGKTRDVLRWLACDH------TKREDTVFSQHRRNGDTAWGVQCGFVTKG   78 (155)
+Q Consensus         9 fdelmisgnhrnqrkrernvrrlr----itwgktrdvlrwlacdh------tkredtvfsqhrrngdtawgvqcgfvtkg   78 (155)
+                      .+..-+++        ..-+|.+=    |+=-|+.+     .|--      .++.|.-|-=+|-.-|-.||--||..-||
+T Consensus        61 l~~~~~~~--------~a~~R~yc~~a~vs~~~s~~-----~CPt~Gea~l~e~~~~~~vCkr~~~DRGWGNGCgLFGKG  127 (427)
+T 4gsx_A           61 LLKTEVTN--------PAVLRKLCIEAKISNTTTDS-----RCPTQGEATLVEEQDTNFVCRRTFVDRGHGNGCGLFGKG  127 (427)
+T ss_dssp             EEEEEEES--------CEEEEEEEEEEEEEEEEEEE-----CCTTSCCCCCGGGGCTTEEEEEEEEEECGGGTCSSCEEE
+T ss_pred             EEEEEEec--------chHhhheeeeeEEeccEEcc-----cCCCCCcccChhhhcCCeEecCCCCCCCcccccccccCc
+Confidence            11222222        12344432    22223333     2432      23444444444444466799999999999
+
+
+Q ss_pred             ceeeeeEEEEEecCcccceeeeeecCceeeeeccchhHHhhhhcCc-cccc-cccccc-eeeeEEeehhcccc-ccccc
+Q liverflukeflav   79 SRITTTVELICFKGLRGLEVAFRSIGYPVAVDEHRITYQELQDNFT-PTRK-ATSKAQ-SISTITFGLKKVKN-AVRCS  153 (155)
+Q Consensus        79 sritttvelicfkglrglevafrsigypvavdehrityqelqdnft-ptrk-atskaq-sistitfglkkvkn-avrcs  153 (155)
+                      | |-|-+++-|-+.+.|.++.-..|-|-|.+.-|..++.+- .|-+ ..++ ++--++ .-.++.||  ..-+ .+.|.
+T Consensus       128 s-i~tCaKftC~~~~~g~~i~~e~I~y~V~v~vH~~~~~~~-~~~~~~~~~~atfTp~Sp~~tv~Lg--DYGtvtl~C~  202 (427)
+T 4gsx_A          128 S-LITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQV-GNETTEHGTIATITPQAPTSEIQLT--DYGALTLDCS  202 (427)
+T ss_dssp             E-EEEEEEEEEEEEEEEEECCGGGEEEEEEEEECCC-------------CEEEEECSSCCEEEEEET--TTEEEEEEEE
+T ss_pred             c-EEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCccccc-ccccccceeEEEEecCCCCEEEEcC--CCcEEEEEec
+Confidence            7 667899999999888888888889999999999988653 2211 1111 111112 22334443  2111 12221
+
+
+No 9  
+>3p54_A Envelope glycoprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 2.10A {Japanese encephalitis virus} PDB: 2i69_A* 3i50_E 3iyw_A* 3j0b_A 2of6_A 3ixx_A 2hg0_A* 1pjw_A 1s6n_A 2p5p_A 1ztx_E
+Probab=94.96  E-value=0.18  Score=39.12  Aligned_cols=130  Identities=26%  Similarity=0.385  Sum_probs=66.0
+
+Q ss_pred             cceeeeccccchhhhhhcccceEE----EeeccchhhhhhhhccC------CCcccceeeccccCCCceeeeeeeeeeeC
+Q liverflukeflav    9 FDELMISGNHRNQRKRERNVRRLR----ITWGKTRDVLRWLACDH------TKREDTVFSQHRRNGDTAWGVQCGFVTKG   78 (155)
+Q Consensus         9 fdelmisgnhrnqrkrernvrrlr----itwgktrdvlrwlacdh------tkredtvfsqhrrngdtawgvqcgfvtkg   78 (155)
+                      .+...+++        ..-+|.+=    |+=-|+.+     .|--      .++.|.-|-=+|-.-|-.||--||..-||
+T Consensus        45 l~~~~~~~--------~a~~R~yc~~a~vs~~~s~~-----~CPt~Gea~l~e~~~~~~vCkr~~~DRGWGNGCgLFGKG  111 (406)
+T 3p54_A           45 MINIEASQ--------LAEVRSYCYHASVTDISTVA-----RCPTTGEAHNEKRADSSYVCKQGFTDRGWGNGCGFFGKG  111 (406)
+T ss_dssp             EEEEEECC--------CEEEEEEEEEEEEEEEEEEE-----CCTTSCCCCCGGGGCTTEEEEEEEEEESGGGTCSSCEEE
+T ss_pred             EEEEEEeC--------cHHhhhheeccEEeccEEcc-----cCCCCCccCChhhhcCCeEecCCCCCCCcccccccccCc
+Confidence            11222221        23344432    22223333     2432      23444444444444456799999999999
+
+
+Q ss_pred             ceeeeeEEEEEecCcccceeeeeecCceeeeeccchhHHhhhhcC------ccccccccccceeeeEEeehhccccc-cc
+Q liverflukeflav   79 SRITTTVELICFKGLRGLEVAFRSIGYPVAVDEHRITYQELQDNF------TPTRKATSKAQSISTITFGLKKVKNA-VR  151 (155)
+Q Consensus        79 sritttvelicfkglrglevafrsigypvavdehrityqelqdnf------tptrkatskaqsistitfglkkvkna-vr  151 (155)
+                      | |-|-+++-|-+.+.|.++.-..|-|-|.+.-|..+..+--.|.      .-.-+++--+++. ..+|-|-+.-++ +.
+T Consensus       112 s-i~tCakftC~~~~~g~~i~~e~I~y~V~v~vH~~~~~~~~~n~~~~~~~~~~~~~~~tp~a~-~~t~~lgdyG~vtl~  189 (406)
+T 3p54_A          112 S-IDTCAKFSCTSKAIGRTIQPENIKYKVGIFVHGTTTSENHGNYSAQVGASQAAKFTVTPNAP-SVTLKLGDYGEVTLD  189 (406)
+T ss_dssp             E-EEEEEEEEEEEEEEEEECCTTSEEEEEEEEECCSCCTTTTTCHHHHHHTTCEEEEEECSSSC-EEEEECGGGBEEEEE
+T ss_pred             c-EEEEEeEEcCCceeEEEEeeeeEEEEEEEEEeCCcccccccccccccccceeeEEEEcCCCC-CEEEEccCccEEEEE
+Confidence            7 6678999999988887777777889999998876443211111      0111111111221 223333333221 22
+
+
+Q ss_pred             cc
+Q liverflukeflav  152 CS  153 (155)
+Q Consensus       152 cs  153 (155)
+                      |.
+T Consensus       190 C~  191 (406)
+T 3p54_A          190 CE  191 (406)
+T ss_dssp             EE
+T ss_pred             EE
+Confidence            21
+
+
+No 10 
+>4fas_D NE1300, hydroxylamine oxidoreductase; hydroxylamine oxidation, heme C binding; HET: HEC ISW PGE P6G PG4; 2.10A {Nitrosomonas europaea} PDB: 4n4n_B* 4n4o_B*
+Probab=88.59  E-value=1.2  Score=28.08  Aligned_cols=38  Identities=32%  Similarity=0.531  Sum_probs=24.7
+
+Q ss_pred             ccchhhhhhhhccCCCcccceeeccccCCCceeeeeee
+Q liverflukeflav   36 GKTRDVLRWLACDHTKREDTVFSQHRRNGDTAWGVQCG   73 (155)
+Q Consensus        36 gktrdvlrwlacdhtkredtvfsqhrrngdtawgvqcg   73 (155)
+                      =...|.|.+|||...|..|.|-|...-.....--|.||
+T Consensus        11 isakdmldylackdkkptdvvkshtevengkivrvkcg   48 (69)
+T 4fas_D           11 ISAKDMLDYLACKDKKPTDVVKSHTEVENGKIVRVKCG   48 (69)
+T ss_dssp             CCHHHHHHHHTTTTSCTTCEEEEEEEEETTEEEEEEHH
+T ss_pred             ccHHHHHHHHhhccCCcchhhhccceeeCCeEEEEecc
+Confidence            13479999999999999998877543222233334333
+
+
+No 11 
+>3ijl_A Muconate cycloisomerase; enolase superfamily, dipeptide epimerase, L-Pro-D-Glu, nonpr binding; HET: DGL; 1.50A {Bacteroides thetaiotaomicron} PDB: 3iji_A* 3ijq_A*
+Probab=17.22  E-value=48  Score=19.83  Aligned_cols=113  Identities=12%  Similarity=0.162  Sum_probs=47.8
+
+Q ss_pred             eeecc--ccc----hh-hhhhcccceEEEeeccch--hhhhhhhccCCCcccceeeccccCCCceeeeee---ee---ee
+Q liverflukeflav   12 LMISG--NHR----NQ-RKRERNVRRLRITWGKTR--DVLRWLACDHTKREDTVFSQHRRNGDTAWGVQC---GF---VT   76 (155)
+Q Consensus        12 lmisg--nhr----nq-rkrernvrrlritwgktr--dvlrwlacdhtkredtvfsqhrrngdtawgvqc---gf---vt   76 (155)
+                      ...+.  ..-    .+ +..+...+.+.+..|+..  +.++-+.--  .  |..+. .--|+  +|-..-   -|   +.
+T Consensus       126 ~~~~~~~~~~~~~~~~~~~~~~G~~~~KiKvg~~~d~~~l~~vr~~--~--~~~l~-lDaN~--~~~~~~~a~~~~~~l~  198 (338)
+T 3ijl_A          126 TTFTIGIDTPDVVRAKTKECAGLFNILKVKLGRDNDKEMIETIRSV--T--DLPIA-VDANQ--GWKDRQYALDMIHWLK  198 (338)
+T ss_dssp             BCCBCCCCCHHHHHHHHHHHHTTCSSEEEECSSSCHHHHHHHHHTT--C--CCCEE-EECTT--CCCCHHHHHHHHHHHH
+T ss_pred             eEEEeeCCCHHHHHHHHHHHhcCceeEEEEcCCCchHHHHHHHhcc--c--CCeEE-EECCC--CCCchHHHHHHHHHHH
+Confidence            11111  110    11 334677999999999863  345555411  1  22221 12222  221100   00   00
+
+
+Q ss_pred             eCceeeeeEEEEEecCccccee----ee-eecCceeeeeccchhHHhhhhcCccccccccccceeeeEEeehhccc
+Q liverflukeflav   77 KGSRITTTVELICFKGLRGLEV----AF-RSIGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKVK  147 (155)
+Q Consensus        77 kgsritttvelicfkglrglev----af-rsigypvavdehrityqelqdnftptrkatskaqsistitfglkkvk  147 (155)
+                      + ..    ++.|-=.-... ..    ++ +..+.||+.||+-.+.++++.-        .  +....+..-+.++.
+T Consensus       199 ~-~~----i~~iEqP~~~~-~~~~~~~l~~~~~~pia~dE~~~~~~~~~~~--------~--~~~~~i~~k~~~~G  258 (338)
+T 3ijl_A          199 E-KG----IVMIEQPMPKE-QLDDIAWVTQQSPLPVFADESLQRLGDVAAL--------K--GAFTGINIKLMKCT  258 (338)
+T ss_dssp             H-TT----EEEEECCSCTT-CHHHHHHHHHTCSSCEEESTTCCSGGGTGGG--------B--TTBSEEEECHHHHT
+T ss_pred             h-CC----ceEEEcCCCcc-cHHHHHHHHhccCCCEecccccCCHHHHHHH--------H--hhCCEEEEehhhhC
+Confidence            0 01    33333222221 10    01 2358999999998788777642        1  23445554332211
+
+
+No 12 
+>2lfe_A E3 ubiquitin-protein ligase HECW2; structural genomics, northeast structural genomics consortiu SGC; NMR {Homo sapiens}
+Probab=5.14  E-value=2.3e+02  Score=17.62  Aligned_cols=107  Identities=21%  Similarity=0.220  Sum_probs=57.1
+
+Q ss_pred             eeeEEeccceeeeccccchhhhhhcccceEEEeeccc--hhhhhhhhc---cCCCcccceeeccccCCCceeeeeeeeee
+Q liverflukeflav    2 QLLIIKGFDELMISGNHRNQRKRERNVRRLRITWGKT--RDVLRWLAC---DHTKREDTVFSQHRRNGDTAWGVQCGFVT   76 (155)
+Q Consensus         2 qlliikgfdelmisgnhrnqrkrernvrrlritwgkt--rdvlrwlac---dhtkredtvfsqhrrngdtawgvqcgfvt   76 (155)
+                      .|+.-..---|++|-+.-.-.    .-.-|.|.|---  -+-..|+++   |-+.-+--+-..-|+-..+.=|---=-++
+T Consensus        27 ~l~~~~~rS~LtvS~~~y~lg----~~q~i~VsWdIkeev~~~DWIGLy~~dE~~~~~~ld~Knrgv~G~~~GqI~W~Ld  102 (138)
+T 2lfe_A           27 DLVTSESRSSLTASMYEYTLG----QAQNLIIFWDIKEEVDPSDWIGLYHIDENSPANFWDSKNRGVTGTQKGQIVWRIE  102 (138)
+T ss_dssp             ------CCCEEEESCSEEETT----CSCCEEEEEECCSCCCTTCEEEEEECCSSCTTCCCEECCTTCSSCSEEEEEECCC
+T ss_pred             cccccCceeeEEEEeeEEEeC----CccEEEEEEEeccccCCCceEEEEECCCCChhhheeecccCcCCCccceEEEEec
+Confidence            122233445677776644331    123589999643  356778876   44444444433334432222222222223
+
+
+Q ss_pred             eCceeeeeEEEEEecCcccceeeeeecCceeeeecc
+Q liverflukeflav   77 KGSRITTTVELICFKGLRGLEVAFRSIGYPVAVDEH  112 (155)
+Q Consensus        77 kgsritttvelicfkglrglevafrsigypvavdeh  112 (155)
+                      ..+-.......||||=.-|+.-+.|..--||.|..-
+T Consensus       103 ~~~~f~~~et~iCFrYY~G~SG~lrA~Sp~i~V~n~  138 (138)
+T 2lfe_A          103 PGPYFMEPEIKICFKYYHGISGALRATTPCITVKNP  138 (138)
+T ss_dssp             SSTTCCSSEEEEEEEEEETTTTEEEEECCCEEEECC
+T ss_pred             CcccccCccceEeEEEeccCcceeEecCCceEeeCC
+Confidence            344445567889998666666688888889988631
+
+
+No 13 
+>2jug_A TUBC protein; docking domain, dimer, nonribosomal peptide synthetase, tubulysin, ligase, phosphopantetheine, biosynthetic protein; NMR {Angiococcus disciformis}
+Probab=1.06  E-value=1.9e+02  Score=14.29  Aligned_cols=39  Identities=15%  Similarity=0.127  Sum_probs=7.9
+
+Q ss_pred             EEEEecCcccceeeeeecCceeeeeccchh--------------HHhhhhcCcccccccccccee
+Q liverflukeflav   86 ELICFKGLRGLEVAFRSIGYPVAVDEHRIT--------------YQELQDNFTPTRKATSKAQSI  136 (155)
+Q Consensus        86 elicfkglrglevafrsigypvavdehrit--------------yqelqdnftptrkatskaqsi  136 (155)
+                      +|.+-    |=...|++       ....+|              -+.|+..-.. ....+.-|.+
+T Consensus        20 ~l~~~----~g~L~~~a-------p~g~lt~~~~~~l~~~K~~ii~~L~~~~~~-~~~~~~~~~~   72 (78)
+T 2jug_A           20 RLWVE----GERLRFQA-------PPGVMTPELQSRLGGARHELIALLRQLQPS-SQGGSLLAPV   72 (78)
+T ss_dssp             EEEEE----TTEEEEEC-------CTTTTCHHHHHHHTTCHHHHHHHHHHHCCC-CCSSSSCCCS
+T ss_pred             EEEEe----CCEEeecC-------cccCCCHHHHHHHHHhHHHHHHHHHHhhcc-cCccccCCcc
+Confidence            11111    22233332       122221              1112221111 1111111111
+
+
+No 14 
+>4it5_A CO-chaperone protein HSCB homolog; structural genomics, niaid, national institute of allergy and infectious diseases; 2.15A {Vibrio cholerae}
+Probab=0.73  E-value=6.2e+02  Score=12.71  Aligned_cols=32  Identities=25%  Similarity=0.396  Sum_probs=17.6
+
+Q ss_pred             ecCcee----eeeccchhHHhhhhcCcccccccccc
+Q liverflukeflav  102 SIGYPV----AVDEHRITYQELQDNFTPTRKATSKA  133 (155)
+Q Consensus       102 sigypv----avdehrityqelqdnftptrkatska  133 (155)
+                      -.|.|.    ..++-+-.|.+++..+.|.+...+..
+T Consensus         9 iLgl~~~~~i~~~~lkk~yr~l~~~~HPD~~~~~~~   44 (174)
+T 4it5_A            9 LFGLPIQFELDGSLLSSQFRALQKRFHPDNFATASE   44 (174)
+T ss_dssp             HTTCCSSSCCCHHHHHHHHHHHHHHTCGGGGTTSCH
+T ss_pred             HcCcCCCCCCCHHHHHHHHHHHHHHHCcCCCCCCCH
+Confidence            122222    11122346889999999988765421
+
+
+No 15 
+>3uo3_A J-type CO-chaperone JAC1, mitochondrial; structural genomics, PSI-biology, midwest center for structu genomics, MCSG, J-protein; 1.85A {Saccharomyces cerevisiae} PDB: 3uo2_A
+Probab=0.65  E-value=7.1e+02  Score=12.64  Aligned_cols=39  Identities=21%  Similarity=0.314  Sum_probs=19.3
+
+Q ss_pred             eeeeeecCcee-------eee--ccchhHHhhhhcCccccccccccce
+Q liverflukeflav   97 EVAFRSIGYPV-------AVD--EHRITYQELQDNFTPTRKATSKAQS  135 (155)
+Q Consensus        97 evafrsigypv-------avd--ehrityqelqdnftptrkatskaqs  135 (155)
+                      .-.|.-.|.|-       .+|  +-+-.|..|+-.+.|.+.......+
+T Consensus        11 ~d~f~lLgl~~~~~~~~f~~d~~~l~k~yr~l~~~~HPD~~~~~~~~~   58 (181)
+T 3uo3_A           11 STFYELFPKTFPKKLPIWTIDQSRLRKEYRQLQAQHHPDMAQQGSEQS   58 (181)
+T ss_dssp             CCTGGGCTTTCTTCSCCSCCCHHHHHHHHHHHHHTCCTTSCCSCSSGG
+T ss_pred             CCHHHHcCCCCccCCCCCCCCHHHHHHHHHHHHHHHCcCCCCChHHHH
+Confidence            11122233321       222  2334689999999998765432111
+
+
+No 16 
+>3evy_A Putative type I restriction enzyme R protein; structural genomics, unknown function, PSI-2, protein structure initiative; 1.95A {Bacteroides fragilis nctc 9343}
+Probab=0.53  E-value=7.5e+02  Score=13.42  Aligned_cols=36  Identities=19%  Similarity=0.373  Sum_probs=3.3
+
+Q ss_pred             hhHHhhhhcCccccccccccceeeeEEeehhccccc
+Q liverflukeflav  114 ITYQELQDNFTPTRKATSKAQSISTITFGLKKVKNA  149 (155)
+Q Consensus       114 ityqelqdnftptrkatskaqsistitfglkkvkna  149 (155)
+                      --|.++.+.+.+......+.....-|.|-+.-++..
+T Consensus        86 ~~Y~~i~~~~k~~~~~~~~~~i~~didf~le~i~~~  121 (239)
+T 3evy_A           86 SKYLDMSNEFAITSEKEDAESILQDIDFELELVHRD  121 (239)
+T ss_dssp             HHHHHHC-----------------------------
+T ss_pred             HHHHHHHHHHHhcccccCCCCcccccceeeeeeecc
+Confidence            125556555554433222322333444544332211
+
+
+No 17 
+>4ro1_A DIS3-like exonuclease 2; OB-folds and RNB, RNA digestion, hydrolase; 2.80A {Schizosaccharomyces pombe}
+Probab=0.18  E-value=2.3e+03  Score=12.35  Aligned_cols=121  Identities=21%  Similarity=0.207  Sum_probs=45.7
+
+Q ss_pred             eeEEeccc----eeeeccccchh----------hhhhcccceEEEe-eccch--------hhhh----------------
+Q liverflukeflav    3 LLIIKGFD----ELMISGNHRNQ----------RKRERNVRRLRIT-WGKTR--------DVLR----------------   43 (155)
+Q Consensus         3 lliikgfd----elmisgnhrnq----------rkrernvrrlrit-wgktr--------dvlr----------------   43 (155)
+                      .....-.|    -+.|.-....+          .......-..+|+ |.+..        .+|-                
+T Consensus       169 ~~~~~P~d~r~p~i~i~~~~~~~~~~~~~~~~~~~~~~~~~~v~i~~w~~~~~~p~g~i~~~lG~~~~~~~~~~~il~~~  248 (764)
+T 4ro1_A          169 YAIFIPKDKRLPFITIHKNDLSDLSGENWIENILKHHDQLFSVEITRWSIYSRWPMGVLGEKLGNITDVEAYTNALLLEN  248 (764)
+T ss_dssp             EEEECCSCTTSCCEEEETTCCTTSCSSSHHHHTTTTSSCCEEEEECCCCTTCSSCEEEEEEECHHHHHHHHHHHHHHHHT
+T ss_pred             eEEEEECCCCCCcEEeeccchhhhccchhhhhhhhcCCCEEEEEEeeecCCCccceEEEEEEecCcCcchHHHHHHHHHc
+Confidence            11111111    12232221110          1112223334442 44211        0000                
+
+
+Q ss_pred             ----------hhhc-----------------------------cCCCcccceeecccc-CCCceeeeee-----------
+Q liverflukeflav   44 ----------WLAC-----------------------------DHTKREDTVFSQHRR-NGDTAWGVQC-----------   72 (155)
+Q Consensus        44 ----------wlac-----------------------------dhtkredtvfsqhrr-ngdtawgvqc-----------   72 (155)
+                                -++|                             ..++--|--+|-..- +|..--||-.           
+T Consensus       249 ~i~~~~f~~~v~~~l~~~~~~~~~~~~~~R~Dlr~~~v~tID~~~a~DiDDAisi~~~~~g~~~l~VHIADvs~~V~~~s  328 (764)
+T 4ro1_A          249 GISSSPFSDEVLNCLPPDDWIISHEEIKKRRDLRNELIITIDPETARDLDDAVSCRALDNGTYEVGVHIADVTHFVKPDS  328 (764)
+T ss_dssp             TCCCSCCCTTTTTSSCCTTCCCCHHHHHTSEEETTSCEEEEECSCSSCCCEEEEEEECSSSCEEEEEEEECGGGTSCTTS
+T ss_pred             CCCCCCCCHHHHhhcCCCCCcCCchhhhcceecccCcEEEEcCCCCCcccceEEEEEcCCCeEEEEEEEcchhheecCCC
+Confidence                      0111                             122223334444443 4444445542           
+
+
+Q ss_pred             --------------------------------eeeeeCceeeeeEEEEEec-Ccccceeee-eecCceeeeeccchhHHh
+Q liverflukeflav   73 --------------------------------GFVTKGSRITTTVELICFK-GLRGLEVAF-RSIGYPVAVDEHRITYQE  118 (155)
+Q Consensus        73 --------------------------------gfvtkgsritttvelicfk-glrglevaf-rsigypvavdehrityqe  118 (155)
+                                                      .+.....|.+-++.+.--+ |---...-| +|    +.-.-+++||++
+T Consensus       329 ~LD~eA~~R~tSvYl~~~~ipMLP~~Ls~~lcSL~p~~~rla~S~~~~i~~~G~~~~~~~~~~s----iI~s~~~ltY~~  404 (764)
+T 4ro1_A          329 ALDKEAASRATTVYLVQKAIPMLPPLLCERLCSLNPNVERLAFSVFWKLDSNGKEIGKRWFGKT----VIKTCARLAYSE  404 (764)
+T ss_dssp             HHHHHHHHHCBCEECSSCEECSSCHHHHTTTTCCCTTSCEEEEEEEEEECTTCCCCSCCEEEEE----EECCCEEEEHHH
+T ss_pred             HHHHHHHHcCCcEecCCEEEcCccHHHHhcccCCCCCCceeEEEEEEEEecCCCEEeeEEEcce----EEEEcceEcHHH
+Confidence                                            2222235888888777764 422111222 32    344577899999
+
+
+Q ss_pred             hhh---cCcccc
+Q liverflukeflav  119 LQD---NFTPTR  127 (155)
+Q Consensus       119 lqd---nftptr  127 (155)
+                      +|+   +-....
+T Consensus       405 v~~~l~~~~~~~  416 (764)
+T 4ro1_A          405 AQGVIEGKSWDD  416 (764)
+T ss_dssp             HHHHHHTCCTTT
+T ss_pred             HHHHhcCCCccc
+Confidence            874   222111
+
+
+No 18 
+>3rwl_A Cytochrome P450 alkane hydroxylase 1 CYP153A7; P450 monooxygenase, oxidoreductase; HET: HEM; 2.00A {Sphingopyxis macrogoltabida}
+Probab=0.07  E-value=2.5e+03  Score=8.87  Aligned_cols=83  Identities=14%  Similarity=0.131  Sum_probs=18.4
+
+Q ss_pred             eEEeccceeeeccccchhhhhhcccceEEEeeccchhh-hhhhhccCCCcc-cceeeccccCCC--ceeee---ee----
+Q liverflukeflav    4 LIIKGFDELMISGNHRNQRKRERNVRRLRITWGKTRDV-LRWLACDHTKRE-DTVFSQHRRNGD--TAWGV---QC----   72 (155)
+Q Consensus         4 liikgfdelmisgnhrnqrkrernvrrlritwgktrdv-lrwlacdhtkre-dtvfsqhrrngd--tawgv---qc----   72 (155)
+                      +.-.--.++-|.|              ..|.=|-.--+ +..+..|-..-+ -..|...|.+..  ..||.   +|    
+T Consensus       315 ~~r~~~~d~~i~g--------------~~IpkG~~v~~~~~~~~~d~~~~~~p~~f~p~R~~~~~~~~Fg~G~~~C~G~~  380 (426)
+T 3rwl_A          315 MRRTAIADSELGG--------------KTIRKGDKVVMWYYSGNRDDEVIDRPEEFIIDRPRPRQHLSFGFGIHRCVGNR  380 (426)
+T ss_dssp             EEEEESSCEEETT--------------EEECTTCEEEECHHHHTTCTTTSSSTTSCCTTCSCTTCCSTTCCSTTSCSSHH
+T ss_pred             cceecCCCeEECC--------------EEECCCCEEEEchHhhcCCccccCChhhcCCCCCCCCCCCCCCCCCccCCcHH
+Confidence            1111111122211              11111110000 111112221111 112333232111  11221   01    
+
+
+Q ss_pred             ------------------eeeeeCceeeeeEEEEEecCcccceeeeeecCceeeeec
+Q liverflukeflav   73 ------------------GFVTKGSRITTTVELICFKGLRGLEVAFRSIGYPVAVDE  111 (155)
+Q Consensus        73 ------------------gfvtkgsritttvelicfkglrglevafrsigypvavde  111 (155)
+                                        .+.-.|.-    .. ----.++|++      ..||.+++
+T Consensus       381 la~~~~~~~l~~ll~~f~~~~~~~~~----~~-~~~~~~~~~~------~~p~~~~~  426 (426)
+T 3rwl_A          381 LAEMQLRILWEEILTRFSRIEVMAEP----ER-VRSNFVRGYA------KMMVRVHA  426 (426)
+T ss_dssp             HHHHHHHHHHHHHHTTCSEEEECSCC----EE-CCCSSBCCEE------ECEEEEEC
+T ss_pred             HHHHHHHHHHHHHHHhCCCceecCCc----cc-cccccccCcc------cceeEecC
+Confidence                              01111110    00 0011334433      25777775
+
+
+No 19 
+>3sz3_A Tryptophanyl-tRNA synthetase; structural genomics, center for structural genomics of infec diseases, csgid, rossmann fold; HET: TRP; 1.50A {Vibrio cholerae o1 biovar el tor}
+Probab=0.06  E-value=3.4e+03  Score=8.87  Aligned_cols=122  Identities=16%  Similarity=0.142  Sum_probs=37.1
+
+Q ss_pred             eeeEEeccceeeecccc---------chhhhhhcccceEEEeec--------cch--------h-hhhhhhccCCCcccc
+Q liverflukeflav    2 QLLIIKGFDELMISGNH---------RNQRKRERNVRRLRITWG--------KTR--------D-VLRWLACDHTKREDT   55 (155)
+Q Consensus         2 qlliikgfdelmisgnh---------rnqrkrernvrrlritwg--------ktr--------d-vlrwlacdhtkredt   55 (155)
+                      ...+.-||+-   ||.-         ++-.+=... -..-+--+        +..        . +..|+||--....=.
+T Consensus         6 ~~~~~~G~~P---sg~lHlG~~~~~l~~~~~lq~~-~~~~~~iaD~~a~~~~~~~~~i~~~~~~~~~~~la~G~d~~~~~   81 (341)
+T 3sz3_A            6 KPIVLSGVQP---SGELSIGNYLGALRQWQQMQDD-YDCQYCVVDLHAITVRQDPQALHEATLDALAICLAVGVDPKKST   81 (341)
+T ss_dssp             SCEEEEEECS---SSCCBHHHHHHTGGGHHHHHHH-SEEEEEECHHHHTTSCCCHHHHHHHHHHHHHHHHHTTCCTTTSE
+T ss_pred             CCEEEEeeCC---CCcccHHHHHHHHHHHHHHhhc-cCcEEEEeehhhhhcCCChHHHHHHHHHHHHHHHHhCCCCCccE
+Confidence            1234444443   4421         111000000 11222111        111        2 456889876544446
+
+
+Q ss_pred             eeecccc------------CC-------------------C--ce-------------eeeeeeeeeeCc----------
+Q liverflukeflav   56 VFSQHRR------------NG-------------------D--TA-------------WGVQCGFVTKGS----------   79 (155)
+Q Consensus        56 vfsqhrr------------ng-------------------d--ta-------------wgvqcgfvtkgs----------   79 (155)
+                      +|.|..-            -+                   +  ..             +...+-++--|.          
+T Consensus        82 i~~~S~~~~~~~~~~~l~~~~~~~~l~r~~~~~~~~~~~~~~~~~~~~~YP~lQaaDil~~~~~~~~~G~DQ~~~~~l~r  161 (341)
+T 3sz3_A           82 LFVQSHVPEHAQLGWVLNCYTQMGELSRMTQFKDKSARYANDVNAGLFGYPVLMAADILLYGAHQVPVGSDQKQHLELAR  161 (341)
+T ss_dssp             EEEGGGCTHHHHHHHHHHTTSCHHHHHTCHHHHHHHHHHGGGCCHHHHHHHHHHHHHHHTTTCSEECCCGGGHHHHHHHH
+T ss_pred             EEecCccchhhHHHHHHHHHHHHHHHHhhhhHHHHHhhccCCCCccchhchHHHhhhHHhcCCceeecccchHHHHHHHH
+Confidence            6766431            00                   0  00             000011221111          
+
+
+Q ss_pred             ---------------eeeeeEEEEE--ecCcccc-e-eeeeecCce-----eeeecc-chhHHhhhhcCcccc
+Q liverflukeflav   80 ---------------RITTTVELIC--FKGLRGL-E-VAFRSIGYP-----VAVDEH-RITYQELQDNFTPTR  127 (155)
+Q Consensus        80 ---------------ritttvelic--fkglrgl-e-vafrsigyp-----vavdeh-rityqelqdnftptr  127 (155)
+                                     .+..+..++.  ..-+.|| . -.--|-..|     +.+++. ..-++-+...||+..
+T Consensus       162 ~i~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~l~~~~~KMSkS~~~~~~~I~l~d~~~~i~~KI~~a~td~~  234 (341)
+T 3sz3_A          162 DIATRFNNIYSPEQPIFTIPEPYIPTVNARVMSLQDATKKMSKSDDNRKNVITLLEDPKSIIKKINKAQTDAE  234 (341)
+T ss_dssp             HHHHHHHHHHCSSSCSSCCCEECCCSCCCCCEETTEEEEECCTTCSCGGGCCBTTCCHHHHHHHHHTCCCCCC
+T ss_pred             HHHHHHHhhhCCCCccCCCCccccccccccccccCCCCcCCCCCCCCCCCeEEeCCCHHHHHHHHHhhccCcc
+Confidence                           0111111111  0111122 1 111122222     333232 233555556677641
+
+
+No 20 
+>3n9i_A Tryptophanyl-tRNA synthetase; tryptophan-tRNA ligase, csgid, structural genomics, niaid, center for structural genomics infectious diseases; 1.95A {Yersinia pestis}
+Probab=0.05  E-value=3.4e+03  Score=8.85  Aligned_cols=26  Identities=23%  Similarity=0.142  Sum_probs=4.5
+
+Q ss_pred             cccceeeccccCCCceeeeeeeeeeeCc
+Q liverflukeflav   52 REDTVFSQHRRNGDTAWGVQCGFVTKGS   79 (155)
+Q Consensus        52 redtvfsqhrrngdtawgvqcgfvtkgs   79 (155)
+                      .|..+|++-..+.-  ..+-+||-..|+
+T Consensus         2 ~~~~~~~~~~~~~~--~~v~~G~~Ptg~   27 (346)
+T 3n9i_A            2 SEPMVLSKPTVSSK--PIVFSGAQPSGE   27 (346)
+T ss_dssp             -------------C--CEEEEEECSCSC
+T ss_pred             CChhhhhhhhcCCC--cEEEEccCCCCc
+Confidence            11223333333211  344444433321
+
+
+Done!

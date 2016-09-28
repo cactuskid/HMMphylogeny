@@ -1,0 +1,501 @@
+Query         d2orf.fasta
+Match_columns 434
+No_of_seqs    117 out of 146
+Neff          3.4 
+Searched_HMMs 28
+Date          Tue Aug  2 18:35:15 2016
+Command       hhsearch -cpu 30 -d ./structurepred/hhmdb.pal -i ./structurepred/d2orfSS.a3m.hhm.hhm -o ./structurepred/thrombocytopeniaSS.a3m.hhr -ssm 3 -ssw .5 -mact .0001 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d2orf.fasta                    100.0  2E-193  6E-195 1420.1 150.3  434    1-434     1-434 (434)
+  2 thrombocytopenia.fasta         100.0 1.8E-52 6.5E-54  399.1  58.2  181  243-434     1-188 (445)
+  3 RifttvalleyFever.fasta         100.0 2.1E-51 7.5E-53  398.8  55.4  179  245-434     1-184 (506)
+  4 tenuivirus.fasta               100.0 1.6E-35 5.8E-37  292.1  53.7  382    1-434     9-500 (784)
+  5 wuhanmosquito.fasta            100.0 5.7E-34 2.1E-35  266.1  35.6  119  300-434     1-124 (426)
+  6 mcfa.fasta                      83.1   0.044  0.0016   34.4  18.6  139  259-434     1-166 (427)
+  7 NaegleriaEFF.fasta              71.2   0.092  0.0033   31.8  23.3  189  216-434     1-208 (638)
+  8 bunyaG1.fasta                   27.5     0.7   0.025   28.3  28.9  358    1-434   431-1052(2165)
+  9 orthobunyavirus2.fasta          10.1     1.1   0.039   22.8  22.8  123  283-434     1-157 (375)
+ 10 togavirus.fasta                  7.8     1.6   0.058   23.1  15.4  181    1-195   127-439 (439)
+
+No 1  
+>d2orf.fasta
+Probab=100.00  E-value=1.8e-193  Score=1420.08  Aligned_cols=434  Identities=100%  Similarity=1.541  Sum_probs=428.6
+
+Q ss_pred             CchhhHHHHHHHHHHHhhhhcccCCcccccccCCCCccccccccCccccccccccccccccccccccCCCCCcccccccc
+Q d2orf.fasta       1 MNICIKLLVVLYLLVIFIEDISSNTYDSVHIDDDGSSWVSNKENNYIPEKKNWYSFSQEFTPTSKRQTLPDNKATHHYAV   80 (434)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (434)
+                      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (434)
+T d2orf.fasta       1 MNICIKLLVVLYLLVIFIEDISSNTYDSVHIDDDGSSWVSNKENNYIPEKKNWYSFSQEFTPTSKRQTLPDNKATHHYAV   80 (434)
+T ss_pred             CchhhHHHHHHHHHHHhhhhcccCCcccccccCCCCccccccccCccccccccccccccccccccccCCCCCcccccccc
+Confidence            89999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ccccccccccceeeeecccccceeeecccccccccccccceecccccccccccccccccccccccccccccCCCchhhhh
+Q d2orf.fasta      81 PLKATIRWNELELIFSDLTTRNITVFNKGLGFSIVTDKRKVNIDVDDLCKLGRSFQLVIGASGNQHHSRKWCTGSRDELS  160 (434)
+Q Consensus        81 ~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~s  160 (434)
+                      ||||||||||||||||||||||||||||||||||||||||||||||||||+||||||||||+||||||||||||||||+|
+T Consensus        81 ~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~s  160 (434)
+T d2orf.fasta      81 PLKATIRWNELELIFSDLTTRNITVFNKGLGFSIVTDKRKVNIDVDDLCKLGRSFQLVIGASGNQHHSRKWCTGSRDELS  160 (434)
+T ss_pred             ccccccccccceeeeecccccceeeecccccccccccccceecccccccccccccccccccccccccccccCCCchhhhh
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhhhHHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhhhHHHHHHHHHhhhhcCCcccccchhhHHHHHHHHHHhhcc
+Q d2orf.fasta     161 SWVDKILNIEVLNSLMLFVILNILVCVYLKVVKIKNNTKNLMFQDLQREIKNEANGGIRYNTALSTLISFLMVGMCVSEL  240 (434)
+Q Consensus       161 ~~~~~~~~i~~~~~~~~~~~~~i~~~v~lk~vk~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  240 (434)
+                      |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||+
+T Consensus       161 ~~~~~~~~i~~~~~~~~~~~~~i~~~v~lk~vk~~~~~~~~~~~~~~r~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  240 (434)
+T d2orf.fasta     161 SWVDKILNIEVLNSLMLFVILNILVCVYLKVVKIKNNTKNLMFQDLQREIKNEANGGIRYNTALSTLISFLMVGMCVSEL  240 (434)
+T ss_pred             hhhhhhhhHHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhhhHHHHHHHHHhhhhcCCcccccchhhHHHHHHHHHHhhcc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCcccccccccCcccccccccccccceeeeeeceeeeeccCccccceeeeccccCCcccceEEEeecceeeccccccccc
+Q d2orf.fasta     241 PYGHCDVYHRLGEGIEKHTSYLKNNVTKTEYVGYVSFELPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTRSRYDYTT  320 (434)
+Q Consensus       241 ~~~sCqev~~l~S~~tvCt~~~g~~~Cki~y~t~v~L~LnpiGQEsCLrLk~~ngt~ig~IKIKiksI~LkC~K~tlYFT  320 (434)
+                      ||++||+++++++.+++|++++++++|+++||+.++|+|+|+|||+||++++++|++++.|+||+++++++|+|+++|||
+T Consensus       241 ~~~sCqev~~l~S~~tvCt~~~g~~~Cki~y~t~v~L~LnpiGQEsCLrLk~~ngt~ig~IKIKiksI~LkC~K~tlYFT  320 (434)
+T d2orf.fasta     241 PYGHCDVYHRLGEGIEKHTSYLKNNVTKTEYVGYVSFELPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTRSRYDYTT  320 (434)
+T ss_pred             CCcccccccccCcccccccccccccceeeeeeceeeeeccCccccceeeeccccCCcccceEEEeecceeeccccccccc
+Confidence            99999999999999999999888899999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ccccccccccccccCCCCCCcCCCccCCCCCCCCCcccccccccccccCCCCcccccCCCCcccccccccccccccceee
+Q d2orf.fasta     321 SSWNGHMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCESPFSGIKLKCLRLDTICVFTRRC  400 (434)
+Q Consensus       321 RD~e~kv~SskRC~~a~~GSCs~dkC~~I~~Ns~~~~~~ipELs~~~~~~PG~TgC~eSCGGiGCGCF~~spSCLFYRiy  400 (434)
+                      ||++++++|++|||+||||||++++|+++++|+++|||++|||++.++++||+++|+++|||+|||||+++|+|+|||+|
+T Consensus       321 RD~e~kv~SskRC~~a~~GSCs~dkC~~I~~Ns~~~~~~ipELs~~~~~~PG~TgC~eSCGGiGCGCF~~spSCLFYRiy  400 (434)
+T d2orf.fasta     321 SSWNGHMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCESPFSGIKLKCLRLDTICVFTRRC  400 (434)
+T ss_pred             ccccccccccccccCCCCCCcCCCccCCCCCCCCCcccccccccccccCCCCcccccCCCCcccccccccccccccceee
+Confidence            99999999999999999999999999999999999999999998666545799999999999999999999999999999
+
+
+Q ss_pred             cccCCCccceeeeeeeeeeeeeeEeeccccccCC
+Q d2orf.fasta     401 AIPVDTHVDVSTVYAVDSYYNKSCYFNGKKIQFD  434 (434)
+Q Consensus       401 a~PtS~~~~IYEVFsW~~~V~leVT~n~~~~~~~  434 (434)
+                      ++|+++||++||||+|+++++++|+.+++|||||
+T Consensus       401 a~PtS~~~~IYEVFsW~~~V~leVT~n~~~~~~~  434 (434)
+T d2orf.fasta     401 AIPVDTHVDVSTVYAVDSYYNKSCYFNGKKIQFD  434 (434)
+T ss_pred             cccCCCccceeeeeeeeeeeeeeEeeccccccCC
+Confidence            9999999999999999999999999999999998
+
+
+No 2  
+>thrombocytopenia.fasta
+Probab=100.00  E-value=1.8e-52  Score=399.12  Aligned_cols=181  Identities=15%  Similarity=0.156  Sum_probs=170.6
+
+Q ss_pred             cccccccccCcccccccc-cccccceeeeeeceeeeeccCccccceeeeccccCCcccceEEEeecceeecccccccccc
+Q d2orf.fasta     243 GHCDVYHRLGEGIEKHTS-YLKNNVTKTEYVGYVSFELPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTRSRYDYTTS  321 (434)
+Q Consensus       243 ~sCqev~~l~S~~tvCt~-~~g~~~Cki~y~t~v~L~LnpiGQEsCLrLk~~ngt~ig~IKIKiksI~LkC~K~tlYFTR  321 (434)
+                      ++||+++.+++.+++|++ ++++..|+++  +.++|+|+|+|||+||++++++|++++.||||+++++|+|+|+++||||
+T Consensus         1 ~~C~~~~~~~s~~~~C~~~~~~~~~C~~~--~~~~l~l~~~~~e~Cl~l~~~~~~~~~~ikIk~~~i~l~C~k~~~yfTr   78 (445)
+T thrombocytopen    1 TGCDEMVHADSKLVSCRQGSGNMKECVTT--GRALLPAVNPGQEACLHFTAPGSPDSKCLKIKVKRINLKCKKSSSYFVP   78 (445)
+T ss_pred             CCCcccccccccceeeccCCCCCcceeec--ceeeecccCCCccceeeecCCCCCCcceeEEEEeeeeeccccccccccc
+Confidence            489999999999999998 8878999999  9999999999999999999998899999999999999999999999999
+
+
+Q ss_pred             cccccccccccccCCCCCCcCCCccCCCCCCCCCccccccccccccc-CCCCcccccCCCCcccccccccccccccceee
+Q d2orf.fasta     322 SWNGHMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELSKSSNKCV-YYPGESMCESPFSGIKLKCLRLDTICVFTRRC  400 (434)
+Q Consensus       322 D~e~kv~SskRC~~a~~GSCs~dkC~~I~~Ns~~~~~~ipELs~~~~-~~PG~TgC~eSCGGiGCGCF~~spSCLFYRiy  400 (434)
+                      |++++++|++|||+|  |||++++|++|++|+.     +|||+..++ ++||+++|+++|||+|||||||+|||||||+|
+T Consensus        79 d~~~~~~s~kRC~~~--GsC~~~~C~~i~~~~~-----ipEl~~~~~~~~~g~t~C~~sCGg~gCgCF~~~psClFyR~y  151 (445)
+T thrombocytopen   79 DARSRCTSVRRCRWA--GDCQSGCPPHFTSNSF-----SDDWAGKMDRAGLGFSGCSDGCGGAACGCFNAAPSCIFWRKW  151 (445)
+T ss_pred             CcccceecccccCCC--CCCCCCCCCCCCCCCc-----ccccccccccCCCCcccccCCCCCCcccccCCCCccceeeee
+Confidence            999999999999999  9999999999999999     999998777 77899999999999999999999999999999
+
+
+Q ss_pred             cccCCCccceeeee---eeeeeeeeeEeecccccc-C-C
+Q d2orf.fasta     401 AIPVDTHVDVSTVY---AVDSYYNKSCYFNGKKIQ-F-D  434 (434)
+Q Consensus       401 a~PtS~~~~IYEVF---sW~~~V~leVT~n~~~~~-~-~  434 (434)
+                      ++|+++  ++||||   +|+++++++|+.++++-. + +
+T Consensus       152 ~~p~s~--~iyeVf~C~~W~~~v~i~vt~~~~~~~~~~~  188 (445)
+T thrombocytopen  152 VENPHG--IIWKVSPCAAWVPSAVIELTMPSGEVRTFHP  188 (445)
+T ss_pred             ecCCCc--ceeeeeecccccceeEEEEecCCCceeeeec
+Confidence            999999  999999   999999999998654310 0 0
+
+
+No 3  
+>RifttvalleyFever.fasta
+Probab=100.00  E-value=2.1e-51  Score=398.84  Aligned_cols=179  Identities=15%  Similarity=0.181  Sum_probs=169.2
+
+Q ss_pred             cccccccCcccccccccccccceeeeeeceeeeeccCccccceeeeccccCCcccceEEEeecceeeccccccccccccc
+Q d2orf.fasta     245 CDVYHRLGEGIEKHTSYLKNNVTKTEYVGYVSFELPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTRSRYDYTTSSWN  324 (434)
+Q Consensus       245 Cqev~~l~S~~tvCt~~~g~~~Cki~y~t~v~L~LnpiGQEsCLrLk~~ngt~ig~IKIKiksI~LkC~K~tlYFTRD~e  324 (434)
+                      |||+++++|.+++|+++++++.|+++  +.++|+|+|+|||+||++++++|++++.||||+++++|+|+|+++|||||++
+T Consensus         1 C~~~~~~~s~~~vC~~~~~~~~C~~~--~~~~l~l~~~gqe~Cl~l~~~~~~~~~~ikIk~~~i~l~C~k~~~yfTrd~~   78 (506)
+T RifttvalleyFev    1 CSELIQASSRITTCSTEGVNTKCRLS--GTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFS   78 (506)
+T ss_pred             CcccccccccceecccCCCccceeec--cceeeeecccCccceeeecccCcccceeEEEEeeccccccccCccccccCCC
+Confidence            99999999999999998888999999  9999999999999999999998899999999999999999999999999999
+
+
+Q ss_pred             ccccccccccCCCCCCcCCCccCCCCCCCCCccccccccccccc-CCCCcccccCCCCcccccccccccccccceeeccc
+Q d2orf.fasta     325 GHMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELSKSSNKCV-YYPGESMCESPFSGIKLKCLRLDTICVFTRRCAIP  403 (434)
+Q Consensus       325 ~kv~SskRC~~a~~GSCs~dkC~~I~~Ns~~~~~~ipELs~~~~-~~PG~TgC~eSCGGiGCGCF~~spSCLFYRiya~P  403 (434)
+                      ++++|++|||+|  |||++++|+++++|+.     +|||+..++ ++||+++|+++|||+|||||||+|||+|||+|++|
+T Consensus        79 ~~~~sskRC~~a--GSC~~~kC~~i~~~~~-----ipEl~~~~~~~~~G~t~C~esCGg~gCGCF~~~psClFyRiy~~P  151 (506)
+T RifttvalleyFev   79 PKCLSSRRCHLV--GECHVNRCLSWRDNET-----SAEFSFVGESTIMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQS  151 (506)
+T ss_pred             cccccccccccc--ccccccccccccCCCc-----cccccccccccccccccccccCCCccccccccCCccceeeeeeec
+Confidence            999999999999  9999999999999999     999998777 77899999999999999999999999999999999
+
+
+Q ss_pred             CCCccceeeee---eeeeeeeeeEeecccccc-CC
+Q d2orf.fasta     404 VDTHVDVSTVY---AVDSYYNKSCYFNGKKIQ-FD  434 (434)
+Q Consensus       404 tS~~~~IYEVF---sW~~~V~leVT~n~~~~~-~~  434 (434)
+                      +++  ++||||   +|+++++++|+.++++-. ++
+T Consensus       152 ~s~--~iyeVF~C~~W~~~v~i~vt~~~~~~~~~~  184 (506)
+T RifttvalleyFev  152 VRK--EALRVFNCIDWVHKLTLEITDFDGSVSTID  184 (506)
+T ss_pred             ccc--ceeeeeeeccceeeEEEEEEecCCceeeee
+Confidence            999  999999   999999999998654310 00
+
+
+No 4  
+>tenuivirus.fasta
+Probab=100.00  E-value=1.6e-35  Score=292.12  Aligned_cols=382  Identities=19%  Similarity=0.197  Sum_probs=192.9
+
+Q ss_pred             CchhhHHHHHHHHHHHhhh---------------hcccCCccc---cccc---CCCCccccccccCcccccccccccc-c
+Q d2orf.fasta       1 MNICIKLLVVLYLLVIFIE---------------DISSNTYDS---VHID---DDGSSWVSNKENNYIPEKKNWYSFS-Q   58 (434)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~---------------~~~~~~~~~---~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~-~   58 (434)
+                      .-- -||..  -|--.|||               .--...||-   .|-.   -.|.-++|-.+.  |-..-...... .
+T Consensus         9 ~~~-~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~   83 (784)
+T tenuivirus.fas    9 APP-CKLTY--ELNGYFIENGLICYNRASVNYFETCYTGNYDYKLPLHPSFSKFGGHVYLSCDDA--ILQNVSLVGIQQT   83 (784)
+T ss_pred             CCC-Ccccc--cccceeeccccccccccccccccccccCCCCCCCCCCccccccCcccccccccc--ccccceeeeeecc
+Confidence            000 00000  00001111               111111221   0000   000000000000  00000000000 0
+
+
+Q ss_pred             ccccc------cc--c---cCCCCCccccccccccccccccccc---eeeeecccccceeeecccccccccccccceecc
+Q d2orf.fasta      59 EFTPT------SK--R---QTLPDNKATHHYAVPLKATIRWNEL---ELIFSDLTTRNITVFNKGLGFSIVTDKRKVNID  124 (434)
+Q Consensus        59 ~~~~~------~~--~---~~~~~~~~~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~t~~~~~~~~~~~~~~~~~~~~  124 (434)
+                      |+|..      |.  .   ..|...-..--|||.-.|-|.=...   |.|...-..-.-.|-||-|-.-    ...-|+.
+T Consensus        84 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~  159 (784)
+T tenuivirus.fas   84 EYTSSPLLITNSNSEKISYSNLKTGFLGIVYAVETRACIQPDQAKKPEEIINHGVAIKPSCTDGVLYYI----NSACEVN  159 (784)
+T ss_pred             cccccccccccCCCcccccccccccceeeeeeeccccccCCCCCCCcchhcccccccCCcccccceeec----ccccccc
+Confidence            11100      00  0   0011111122355555555543221   1121111111112222222110    0112333
+
+
+Q ss_pred             cccccccc---ccccccc-----ccccccccccccCCCch--hhhhhhhhhhhhHH----------HHHHHH--------
+Q d2orf.fasta     125 VDDLCKLG---RSFQLVI-----GASGNQHHSRKWCTGSR--DELSSWVDKILNIE----------VLNSLM--------  176 (434)
+Q Consensus       125 ~~~~c~~~---~~~~~~~-----~~~~~~~~~~~~c~~~~--~~~s~~~~~~~~i~----------~~~~~~--------  176 (434)
+                      ++|.=-+-   .+-|||-     .+-.|..--.--|.|..  |.. .-||-|..|.          .|-+++        
+T Consensus       160 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  238 (784)
+T tenuivirus.fas  160 VSDQTFSIPSCESVKLPTYDDTIEVCDKGGCQNVTCHPGEICDKY-ERMDMIMRIKNYQCSHIYRYSLYSIILFFVIVIV  238 (784)
+T ss_pred             ccCccccccCCCccccccccceeeeecCCccceeecCCCcccccc-cchhhhhhcccccccchhhhhhHHHHHHHHHHHH
+Confidence            33321111   1113321     11111100011333332  111 1233222221          112222        
+
+
+Q ss_pred             --HHHHHHHHH------HHHhhh--------hhhh--hh-hhhhHHHHHHHHHh---hhhcCCcccccc-----------
+Q d2orf.fasta     177 --LFVILNILV------CVYLKV--------VKIK--NN-TKNLMFQDLQREIK---NEANGGIRYNTA-----------  223 (434)
+Q Consensus       177 --~~~~~~i~~------~v~lk~--------vk~~--~~-~~~~~~~~~~r~~~---~~~~~~~~~~~~-----------  223 (434)
+                        +.+|.|||.      |..-|+        -+||  .| .-.|---.+-.|.|   .-+..+|.||+-           
+T Consensus       239 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  318 (784)
+T tenuivirus.fas  239 FTLITIMNILFFLKPAFWLLKKVLYSMVGLCHRRPVVDEVSVDMSTVRVVDEAEEGLLVVEDSIAPNTNVSDKVKRKGRK  318 (784)
+T ss_pred             HHHHHHHHHHHhhhhhHHHHHHHHHhhhcccccCcceeeeecccchhhhhhhhhccccccccccCCCCCccccccccccc
+Confidence              222333332      221132        2333  11 11221101111111   112345555543           
+
+
+Q ss_pred             ----hhhHHHHHHHHHHhhccCCcccccccccCcccccccccccccceeeeeeceeeeeccCccccceeeeccccCCccc
+Q d2orf.fasta     224 ----LSTLISFLMVGMCVSELPYGHCDVYHRLGEGIEKHTSYLKNNVTKTEYVGYVSFELPRESVSICVEMTDEKGKSMG  299 (434)
+Q Consensus       224 ----~~~~~~~~~~~~~~~~~~~~sCqev~~l~S~~tvCt~~~g~~~Cki~y~t~v~L~LnpiGQEsCLrLk~~ngt~ig  299 (434)
+                          ++-+--+||.+|++-  .|++||++++++|.+++|+    ++.|+++  +.+.|+|+|+|||+||+++      ++
+T Consensus       319 ~~~~~~~~~~~~~~~~~~~--~~~sCQevv~i~S~~tvCt----~~~C~~~--ts~~L~LnpiGQEaCLrLk------ig  384 (784)
+T tenuivirus.fas  319 VENGLIFIPYVLMILLLVC--SAESCQDLVSSISNIERCT----NNSCDFI--SKMKLTLLNTPQDFCFKTS------TD  384 (784)
+T ss_pred             cccchhhhhHHHHHHHhhh--ccccccccccccccccccC----Ccccccc--eeeeeeccCCCcccccccc------cc
+Confidence                333445678777764  5899999999999999998    4799999  9999999999999999999      79
+
+
+Q ss_pred             ceEEEeecceeecccccccccccccccccccccccCCCCCCcCC-CccCCCCCCCCCcccccccccccccCCCCcccccC
+Q d2orf.fasta     300 PLIFKIEDLKFKTRSRYDYTTSSWNGHMSVKSACHKGSHTKCGT-GVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCES  378 (434)
+Q Consensus       300 ~IKIKiksI~LkC~K~tlYFTRD~e~kv~SskRC~~a~~GSCs~-dkC~~I~~Ns~~~~~~ipELs~~~~~~PG~TgC~e  378 (434)
+                      .||||+++++++|+|+++|||||++++   ++|||+    ||++ ++|+   +|++     +|||+. ++ +||+++|++
+T Consensus       385 ~IKIK~ksI~L~C~K~tLYFTRD~k~k---sKRC~~----SCsg~dkC~---~nst-----IPELs~-a~-~pG~TgC~e  447 (784)
+T tenuivirus.fas  385 VYKIRFNSVRVMCLSVPLYYTNSFKRV---ISREEW----KCFEGEGCR---TDGT-----HSIWGE-ST-SLSFDYCVT  447 (784)
+T ss_pred             eeEEEEecceeeccccccccccccccc---cccccc----cccCCCCcc---CCCC-----cccccc-cC-CCCcccccc
+Confidence            999999999999999999999999999   999999    8999 9999   7888     999997 65 679999999
+
+
+Q ss_pred             CCCcccccccccccccccce-----eecccCCCccceeeee---eeeeeeeeeEeeccccccCC
+Q d2orf.fasta     379 PFSGIKLKCLRLDTICVFTR-----RCAIPVDTHVDVSTVY---AVDSYYNKSCYFNGKKIQFD  434 (434)
+Q Consensus       379 SCGGiGCGCF~~spSCLFYR-----iya~PtS~~~~IYEVF---sW~~~V~leVT~n~~~~~~~  434 (434)
+                      +|     |||+|   |+|||     +|++|+++  ++||||   +|+++++++|+.++ +..++
+T Consensus       448 SC-----GCF~~---CLFYR~~~~~IYa~PtS~--~IYEVFkC~sW~~eV~IeVT~n~-~~ti~  500 (784)
+T tenuivirus.fas  448 DF-----HIFSY---CPAYHYNWKRIEYEPTSS--RACTIMKCMDTKFEIVGYIQKNG-HVLKE  500 (784)
+T ss_pred             cc-----ccccc---cccccccceeeeeccCCC--cceeeeeeccceeeEEEEEeecc-ceeee
+Confidence            99     79998   99999     99999999  999999   99999999998765 20000
+
+
+No 5  
+>wuhanmosquito.fasta
+Probab=100.00  E-value=5.7e-34  Score=266.06  Aligned_cols=119  Identities=18%  Similarity=0.222  Sum_probs=107.4
+
+Q ss_pred             ceEEEeecceeecccccccccccccccccccccccCCCCCCcCCCccCCCCCCCCCcccccccccccccCCCCcccccCC
+Q d2orf.fasta     300 PLIFKIEDLKFKTRSRYDYTTSSWNGHMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCESP  379 (434)
+Q Consensus       300 ~IKIKiksI~LkC~K~tlYFTRD~e~kv~SskRC~~a~~GSCs~dkC~~I~~Ns~~~~~~ipELs~~~~~~PG~TgC~eS  379 (434)
+                      +||||+++++|+|+|+++|||||++++++|++|||+|  |||++++|++++   .     +|||+..++++||+++|++ 
+T Consensus         1 ~ikIk~~~i~l~C~k~~~yfTrd~~~~~~sskRC~~a--GSC~~~kC~~i~---~-----ipEl~~~~~~~~g~t~C~e-   69 (426)
+T wuhanmosquito.    1 MMRFKIDAAYIRTRYHLVYYTSEYEIKTSYTSNCKGS--GSCWSGGCRDIG---V-----HPRLRAIANSSIMGYGCET-   69 (426)
+T ss_pred             CceeeeeeeeeecccceeeecccceeeeeccccCCCC--CccCCCcccCcc---c-----ccchhhhhccccccccccc-
+Confidence            4899999999999999999999999999999999999  999999999998   5     9999865543469999999 
+
+
+Q ss_pred             CCcccc-c-ccccccccccceeecccCCCccceeeee---eeeeeeeeeEeeccccccCC
+Q d2orf.fasta     380 FSGIKL-K-CLRLDTICVFTRRCAIPVDTHVDVSTVY---AVDSYYNKSCYFNGKKIQFD  434 (434)
+Q Consensus       380 CGGiGC-G-CF~~spSCLFYRiya~PtS~~~~IYEVF---sW~~~V~leVT~n~~~~~~~  434 (434)
+                       ||+|| | ||| +|||+|||+||+|++   ++||||   +|+++++++|+.++++..++
+T Consensus        70 -Gg~gC~G~CF~-~psClFyR~y~~P~s---~iyeVF~C~~W~~~v~l~vt~~~~~~~~~  124 (426)
+T wuhanmosquito.   70 -DNLGCDDWCFM-KTSCTWYKWDIKSKG---VYGKVYEKSSEIWEVILRIDYQNVTTRHK  124 (426)
+T ss_pred             -CCCCCCCcccc-cccccceeeeecccc---cceeeeeccccceEEEEEEEeeccceeee
+Confidence             99999 9 999 999999999999999   599999   99999999999876440000
+
+
+No 6  
+>mcfa.fasta
+Probab=83.09  E-value=0.044  Score=34.42  Aligned_cols=139  Identities=14%  Similarity=0.103  Sum_probs=50.9
+
+Q ss_pred             cccccccceeeeeeceeeee-ccCccccceeeeccccCCcccceEEEeecceeeccc-ccccccccccccccccccccCC
+Q d2orf.fasta     259 TSYLKNNVTKTEYVGYVSFE-LPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTRS-RYDYTTSSWNGHMSVKSACHKG  336 (434)
+Q Consensus       259 t~~~g~~~Cki~y~t~v~L~-LnpiGQEsCLrLk~~ngt~ig~IKIKiksI~LkC~K-~tlYFTRD~e~kv~SskRC~~a  336 (434)
+                      +--.+-+.=+-+  +..-+. +- ...++|+.+. ++    ..|-|++..+..+=.. .-.|-+.-.--...+.-|||.+
+T Consensus         1 Dfveg~~~~~~~--G~Twvd~vv-Le~~~CVTi~-~k----ptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~   72 (427)
+T mcfa.fasta        1 EFVEPLYTLKAE--QMTMLQTIV-RPEEGYVVAT-PN----GLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGG   72 (427)
+T ss_pred             CCCccccccccc--ccceeeeee-cCCCceeeec-cC----cceeeeeccceeecchhhhhhhcccccccccccccCCCC
+Confidence            000000000000  111111 11 3578999999 33    4555665555543211 1122333333445788999999
+
+
+Q ss_pred             CCCCcCCCccCCCCCCCCCcccccccccccccCCCCcccccC--CCCcccccccccccccccceeecccCCCccceeeee
+Q d2orf.fasta     337 SHTKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCES--PFSGIKLKCLRLDTICVFTRRCAIPVDTHVDVSTVY  414 (434)
+Q Consensus       337 ~~GSCs~dkC~~I~~Ns~~~~~~ipELs~~~~~~PG~TgC~e--SCGGiGCGCF~~spSCLFYRiya~PtS~~~~IYEVF  414 (434)
+                        |+=.                 +||-...      ..-|..  +=-|||+|||...-+=+-  ..++=+-.  ..++++
+T Consensus        73 --Gea~-----------------l~e~~~~------~~vCk~~~~dRGWGnGCglfGkGsi~--tCakf~C~--~~~~~~  123 (427)
+T mcfa.fasta       73 --SQLN-----------------MADIMAK------ERVCSTQPYNRGWGTGCFKWGIGFVG--TCVELHCD--RGFNVS  123 (427)
+T ss_pred             --cccc-----------------hhhhhcc------cccccCCCCcCCCccccccccccccc--cccccccc--cCcccc
+Confidence              6633                 3333211      122442  235888888885443111  11111111  112222
+
+
+Q ss_pred             ---eeeeeeeeeEeecc--------------------ccccCC
+Q d2orf.fasta     415 ---AVDSYYNKSCYFNG--------------------KKIQFD  434 (434)
+Q Consensus       415 ---sW~~~V~leVT~n~--------------------~~~~~~  434 (434)
+                         .=+-++++.++..+                    +++.|+
+T Consensus       124 ~i~~enI~y~V~v~vH~~~~~~~~~~a~~~t~~lgdYG~vtl~  166 (427)
+T mcfa.fasta      124 SIARSAIVMNVTASFHSVSDTQQMVGDIPLTFRFAKLGNAAMT  166 (427)
+T ss_pred             cceeceeEEEEEEeeccccccccccCCCceeeeecccceeeee
+Confidence               11111111111100                    111110
+
+
+No 7  
+>NaegleriaEFF.fasta
+Probab=71.21  E-value=0.092  Score=31.76  Aligned_cols=189  Identities=15%  Similarity=0.166  Sum_probs=76.1
+
+Q ss_pred             CCcccccchhhHHHHHHHHHHhh--ccCCcccccccccCcccccccccccccceeeeeeceeeeeccCccccceeeeccc
+Q d2orf.fasta     216 GGIRYNTALSTLISFLMVGMCVS--ELPYGHCDVYHRLGEGIEKHTSYLKNNVTKTEYVGYVSFELPRESVSICVEMTDE  293 (434)
+Q Consensus       216 ~~~~~~~~~~~~~~~~~~~~~~~--~~~~~sCqev~~l~S~~tvCt~~~g~~~Cki~y~t~v~L~LnpiGQEsCLrLk~~  293 (434)
+                      -...|.+.  .|... ..-|+++  ....+.|-.+.....+...|++    ..|.++  ...-|.-.-.|..-||++++.
+T Consensus         1 mqltpttv--vllli-lscllvsissthqqdclpvsisptkqiscsd----tacvyn--intalttsytgdnycfkltdd   71 (638)
+T NaegleriaEFF.f    1 MQLTPTTV--VLLLI-LSCLLVSISSTHQQDCLPVSISPTKQISCSD----TACVYN--INTALTTSYTGDNYCFKLTDD   71 (638)
+T ss_pred             CCCcchhH--HHHHH-HHHHHhhhcccccccCCccccCCCCcccccc----cccccc--cccccccccCCCccccccccC
+Confidence            00011111  11111 1122333  3567788888888899999986    789998  778888888999999999987
+
+
+Q ss_pred             cCCcccceEEEeec-ceeecccccccccccccccccccccccCCCCCCcCCCccC--CCCCCCCCcccccccccccccCC
+Q d2orf.fasta     294 KGKSMGPLIFKIED-LKFKTRSRYDYTTSSWNGHMSVKSACHKGSHTKCGTGVCQ--GMDPNSPDCEGELSKSSNKCVYY  370 (434)
+Q Consensus       294 ngt~ig~IKIKiks-I~LkC~K~tlYFTRD~e~kv~SskRC~~a~~GSCs~dkC~--~I~~Ns~~~~~~ipELs~~~~~~  370 (434)
+                      .    .++.|++-+ ..-.=.+..-|||.|--++.  .--|...       +.|.  +...|..     -..|+.....|
+T Consensus        72 s----smvnitlgddfsavlsssycyytddplpry--tafcsst-------dvctppsftgnty-----pssfsyktpty  133 (638)
+T NaegleriaEFF.f   72 S----SMVNITLGDDFSAVLSSSYCYYTDDPLPRY--TAFCSST-------DVCTPPSFTGNTY-----PSSFSYKTPTY  133 (638)
+T ss_pred             C----cceeeeccCccceeeccccccccCCCCCcc--ccccCCC-------CCCCCCCCCCCCC-----CCcccccCCcc
+Confidence            4    344454432 33334556778988866543  2223333       3332  2222222     22222111100
+
+
+Q ss_pred             CCcccccCCCCcccccccccccccccce--------------eecccCCCccceeeeeeeeeeeeeeEeeccccccCC
+Q d2orf.fasta     371 PGESMCESPFSGIKLKCLRLDTICVFTR--------------RCAIPVDTHVDVSTVYAVDSYYNKSCYFNGKKIQFD  434 (434)
+Q Consensus       371 PG~TgC~eSCGGiGCGCF~~spSCLFYR--------------iya~PtS~~~~IYEVFsW~~~V~leVT~n~~~~~~~  434 (434)
+                       -..+-..-|-...-.-|.-.--|..-+              .|..|....|-+.+.=.--..+.+..+  ...+.|.
+T Consensus       134 -kqqgysracynvafeafrrfkvcklnkptysgsviatyqeltytipiannvgvvklgtsgvsvvvnlt--sstlpfs  208 (638)
+T NaegleriaEFF.f  134 -KQQGYSRACYNVAFEAFRRFKVCKLNKPTYSGSVIATYQELTYTIPIANNVGVVKLGTSGVSVVVNLT--SSTLPFS  208 (638)
+T ss_pred             -cccCcccccchhhhhccccccccccCCCCCCcceEEEeeccccccccccccccccccCcceeEEEecc--CCCCCCc
+Confidence             011111111111111111111111100              011111110000000000000000000  0000000
+
+
+No 8  
+>bunyaG1.fasta
+Probab=27.48  E-value=0.7  Score=28.26  Aligned_cols=358  Identities=24%  Similarity=0.270  Sum_probs=80.8
+
+Q ss_pred             CchhhHHHHHH-----------------H-----------------------------------------HHHHhhhhcc
+Q d2orf.fasta       1 MNICIKLLVVL-----------------Y-----------------------------------------LLVIFIEDIS   22 (434)
+Q Consensus         1 ~~~~~~~~~~~-----------------~-----------------------------------------~~~~~~~~~~   22 (434)
+                      -.|--||-.-|                 |                                         -|+-.|.-+.
+T Consensus       431 kaitqklqtslslfkyaktknlphikpiykyitiegtetaegiesayiesevpalagtsigfkinskegkhlldviayvk  510 (2165)
+T bunyaG1.fasta   431 KAITQKLQTSLSLFKYAKTKNLPHIKPIYKYITIEGTETAEGIESAYIESEVPALAGTSIGFKINSKEGKHLLDVIAYVK  510 (2165)
+T ss_pred             HHHHHhhhhcccccccccccCCCCcccccceeeeeccccccccccceeecccccccccccceeecccCCcccceEEEEEE
+Confidence            00000000000                 0                                         0000011112
+
+
+Q ss_pred             cCCcccccccC--CC-Ccccccccc--------CccccccccccccccccccccccC-----CCCCc--------ccccc
+Q d2orf.fasta      23 SNTYDSVHIDD--DG-SSWVSNKEN--------NYIPEKKNWYSFSQEFTPTSKRQT-----LPDNK--------ATHHY   78 (434)
+Q Consensus        23 ~~~~~~~~~~~--~~-~~~~~~~~~--------~~~~~~~~~~~~~~~~~~~~~~~~-----~~~~~--------~~~~~   78 (434)
+                      |..|.||...-  .| .|=+..|..        .-|...-.|..|..|-|..-.-..     ..|.-        .....
+T Consensus       511 sasyssvytklystgptsgintkhdelctgpcpaninhqvgwltfarertsswgceefgclavsdgcvfgscqdiikeel  590 (2165)
+T bunyaG1.fasta   511 SASYSSVYTKLYSTGPTSGINTKHDELCTGPCPANINHQVGWLTFARERTSSWGCEEFGCLAVSDGCVFGSCQDIIKEEL  590 (2165)
+T ss_pred             eeeeeeccccccccCCccccccccCccccCCCCCcccccccccccccccCCcccccccccccccCCcccccccccccccc
+Confidence            22333322110  00 000000000        011122234444433322110000     00000        00000
+
+
+Q ss_pred             cccccccccc--ccceeeeecccccceeeecccccccccccc--------------------------------------
+Q d2orf.fasta      79 AVPLKATIRW--NELELIFSDLTTRNITVFNKGLGFSIVTDK--------------------------------------  118 (434)
+Q Consensus        79 ~~~~~~~~~~--~~~~~~~~~~~~~~~t~~~~~~~~~~~~~~--------------------------------------  118 (434)
+                      .|--|.|-.-  -||-|.|||-|-    |-|-.--+.|+||-                                      
+T Consensus       591 svyrketeevtdvelcltfsdkty----ctnlnpvtpiitdlfevqfktvetyslprivavqnheikigqindlgvyskg  666 (2165)
+T bunyaG1.fasta   591 SVYRKETEEVTDVELCLTFSDKTY----CTNLNPVTPIITDLFEVQFKTVETYSLPRIVAVQNHEIKIGQINDLGVYSKG  666 (2165)
+T ss_pred             chhhcccccceeeeeecccCCCcc----cccCCCCccccccceeEEeeccccccccchhhhcccccccccccccccccCC
+Confidence            0111111111  112223333221    00000000000000                                      
+
+
+Q ss_pred             ----ccee--------cccccccccccccccccccccccccccccCC------------Cch---hhhhhhh---h--hh
+Q d2orf.fasta     119 ----RKVN--------IDVDDLCKLGRSFQLVIGASGNQHHSRKWCT------------GSR---DELSSWV---D--KI  166 (434)
+Q Consensus       119 ----~~~~--------~~~~~~c~~~~~~~~~~~~~~~~~~~~~~c~------------~~~---~~~s~~~---~--~~  166 (434)
+                          .+||        -.||-+|.+...          +.-+-|-|-            |+.   ||-|.-|   |  +|
+T Consensus       667 cgnvqkvngtiygngvprfdylchlasr----------kevivrkcfdndyqackflqspasyrleedsgtvtiidykki  736 (2165)
+T bunyaG1.fasta   667 CGNVQKVNGTIYGNGVPRFDYLCHLASR----------KEVIVRKCFDNDYQACKFLQSPASYRLEEDSGTVTIIDYKKI  736 (2165)
+T ss_pred             CCccccccccccCCCCCCcccccccccc----------ceeeeeccccccchhhccccCCCccccccCCCceEEeecccc
+Confidence                0000        011112211100          000001110            110   2222111   1  11
+
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHhhhhhhhhhhhhhHHHHHHHHHhhhh-cCCcccccchhhHHHHHHHHH----------
+Q d2orf.fasta     167 LNIEVLNSLMLFVILNILVCVYLKVVKIKNNTKNLMFQDLQREIKNEA-NGGIRYNTALSTLISFLMVGM----------  235 (434)
+Q Consensus       167 ~~i~~~~~~~~~~~~~i~~~v~lk~vk~~~~~~~~~~~~~~r~~~~~~-~~~~~~~~~~~~~~~~~~~~~----------  235 (434)
+                      +.                                        -|||.| +|...|++..-+|-.- .-|-          
+T Consensus       737 lg----------------------------------------tikmkailgdvkyktfadsvdit-aegsctgcincfen  775 (2165)
+T bunyaG1.fasta   737 LG----------------------------------------TIKMKAILGDVKYKTFADSVDIT-AEGSCTGCINCFEN  775 (2165)
+T ss_pred             cc----------------------------------------eeeeEEeeccccccccccccccc-cccccCCccCcccc
+Confidence            10                                        222222 2333333332222111 0111          
+
+
+Q ss_pred             -----------------------------------------------------------------HhhccCC---ccccc
+Q d2orf.fasta     236 -----------------------------------------------------------------CVSELPY---GHCDV  247 (434)
+Q Consensus       236 -----------------------------------------------------------------~~~~~~~---~sCqe  247 (434)
+                                                                                       +|-++|-   .-=++
+T Consensus       776 ihceltlhttieascpikssctvfhdrilvtpnehkyalkmvctekpgntltikvcntkveasmalvdakpiielapvdq  855 (2165)
+T bunyaG1.fasta   776 IHCELTLHTTIEASCPIKSSCTVFHDRILVTPNEHKYALKMVCTEKPGNTLTIKVCNTKVEASMALVDAKPIIELAPVDQ  855 (2165)
+T ss_pred             cccceeecccccccccccccccccccceeeccCcccceeeeeecCCCCCceeEEeeccccccccccccccccccccCCCc
+Confidence                                                                             1222221   11223
+
+
+Q ss_pred             ccccCcccccccccccccceeee--------------eeceeeeeccCccccceeeeccccCCcccceEEEeecceeecc
+Q d2orf.fasta     248 YHRLGEGIEKHTSYLKNNVTKTE--------------YVGYVSFELPRESVSICVEMTDEKGKSMGPLIFKIEDLKFKTR  313 (434)
+Q Consensus       248 v~~l~S~~tvCt~~~g~~~Cki~--------------y~t~v~L~LnpiGQEsCLrLk~~ngt~ig~IKIKiksI~LkC~  313 (434)
+                      +..+..+.+.|..    -.|++.              |....+-.|- -|-..=|.+.+....+....-|-++++-..-+
+T Consensus       856 tayirekderckt----wmcrvrdeggptswvvvdgkyrymieqsll-ggggtifmlndktsetakkfviyiksvgihye  930 (2165)
+T bunyaG1.fasta   856 TAYIREKDERCKT----WMCRVRDEGGPTSWVVVDGKYRYMIEQSLL-GGGGTIFMLNDKTSETAKKFVIYIKSVGIHYE  930 (2165)
+T ss_pred             ccccccccccccc----ccccccccCCccceeeccccceeeehhccc-CCCcceeecccccccccceeeeeeeccceeee
+Confidence            3333334444421    111110              0000111110 01111122222222222333333444433333
+
+
+Q ss_pred             ccccccccccc-ccccccccccCCCCCCcCCCccCCCCCCCCCcccccccccccccCCCCcccccC-----CCCccccc-
+Q d2orf.fasta     314 SRYDYTTSSWN-GHMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELSKSSNKCVYYPGESMCES-----PFSGIKLK-  386 (434)
+Q Consensus       314 K~tlYFTRD~e-~kv~SskRC~~a~~GSCs~dkC~~I~~Ns~~~~~~ipELs~~~~~~PG~TgC~e-----SCGGiGCG-  386 (434)
+                      -..-|.|-..+ .+..-...|.+.    |  +.|.+-+.        +..|......+-++-+|.|     --.|..|| 
+T Consensus       931 vsekyttapiqsthtdfystctgn----c--dtcrknqa--------ltgfqdfcvtptsywgceeawcfainegatcgf  996 (2165)
+T bunyaG1.fasta   931 VSEKYTTAPIQSTHTDFYSTCTGN----C--DTCRKNQA--------LTGFQDFCVTPTSYWGCEEAWCFAINEGATCGF  996 (2165)
+T ss_pred             ecccccCCCcccccccccccCCCC----C--cccccccc--------ccccccccccCCCcccccccchhcccccCcccc
+Confidence            33344444333 122223334332    2  23433333        4444422221112333332     22334444 
+
+
+Q ss_pred             ccccccccccceeecccCCCccceeeee----------eeeeeeeeeEeeccccccCC
+Q d2orf.fasta     387 CLRLDTICVFTRRCAIPVDTHVDVSTVY----------AVDSYYNKSCYFNGKKIQFD  434 (434)
+Q Consensus       387 CF~~spSCLFYRiya~PtS~~~~IYEVF----------sW~~~V~leVT~n~~~~~~~  434 (434)
+                      |-+....=.-||+|..-++.  .+-.|-          +-.+++--+-+.....||-|
+T Consensus       997 crniydmdksyriysvlkst--ivadvcisgilggqcsriteevpyentlfqadiqad 1052 (2165)
+T bunyaG1.fasta   997 CRNIYDMDKSYRIYSVLKST--IVADVCISGILGGQCSRITEEVPYENTLFQADIQAD 1052 (2165)
+T ss_pred             ccccccccccchhhheeecc--eeeeecccccCCCcccccccccccccccceeeeecc
+Confidence            33322222335555555554  222222          11222222222222333321
+
+
+No 9  
+>orthobunyavirus2.fasta
+Probab=10.11  E-value=1.1  Score=22.76  Aligned_cols=123  Identities=16%  Similarity=0.109  Sum_probs=55.4
+
+Q ss_pred             cccceeeeccccCCcccceEEEeecceeeccccccccccccc-ccccccccccCCCCCCcCCCccCCCCCCCCCcccccc
+Q d2orf.fasta     283 SVSICVEMTDEKGKSMGPLIFKIEDLKFKTRSRYDYTTSSWN-GHMSVKSACHKGSHTKCGTGVCQGMDPNSPDCEGELS  361 (434)
+Q Consensus       283 GQEsCLrLk~~ngt~ig~IKIKiksI~LkC~K~tlYFTRD~e-~kv~SskRC~~a~~GSCs~dkC~~I~~Ns~~~~~~ip  361 (434)
+                      |-..=+.++..+|.++-.|.+-++-.++.-....+|-|..+- +.+.+...|.+.         |.    ++.+-   -.
+T Consensus         1 glslglhlttkngdplfdiivfvktahyeavydeiyqtgptiginvqhdeqctgk---------cp----sslmk---tg   64 (375)
+T orthobunyaviru    1 GLSLGLHLTTKNGDPLFDIIVFVKTAHYEAVYDEIYQTGPTIGINVQHDEQCTGK---------CP----SSLMK---TG   64 (375)
+T ss_pred             CCccccccccCCCCCceeeEEEEeeeeeeeeeeeecccCCceeeeeccccccccC---------CC----Ccccc---cc
+Confidence            000114556667788888888777777777777888887665 455555555433         21    12100   00
+
+
+Q ss_pred             cccccccCCCCcccccCCCCcccc---cccccccccccceee--cccCCCccceeeee-eeeeeeeeeEeec--------
+Q d2orf.fasta     362 KSSNKCVYYPGESMCESPFSGIKL---KCLRLDTICVFTRRC--AIPVDTHVDVSTVY-AVDSYYNKSCYFN--------  427 (434)
+Q Consensus       362 ELs~~~~~~PG~TgC~eSCGGiGC---GCF~~spSCLFYRiy--a~PtS~~~~IYEVF-sW~~~V~leVT~n--------  427 (434)
+                      =|+...+          --.-|||   ||+-.+.+|+|-+--  .+|.-.   +..-- +--+.+.+-++.+        
+T Consensus        65 wlsfake----------htsqwgceefgclainegcvfghckdiikpemt---ilrknqeelpviricislpqetfcqpi  131 (375)
+T orthobunyaviru   65 WLSFAKE----------HTSQWGCEEFGCLAINEGCVFGHCKDIIKPEMT---ILRKNQEELPVIRICISLPQETFCQPI  131 (375)
+T ss_pred             ccccccc----------cCCcccccccccccccccccccccccccccccc---eeeccccccceeeeeecCCCCcccccc
+Confidence            1222222          1234555   688899999997532  222110   10000 0001111111110        
+
+
+Q ss_pred             -------------------cccccCC
+Q d2orf.fasta     428 -------------------GKKIQFD  434 (434)
+Q Consensus       428 -------------------~~~~~~~  434 (434)
+                                         .+||.--
+T Consensus       132 naftaiitdkietqfisneagkipkl  157 (375)
+T orthobunyaviru  132 NAFTAIITDKIETQFISNEAGKIPKL  157 (375)
+T ss_pred             cccccccccceeEEEeecccccccch
+Confidence                               1111000
+
+
+No 10 
+>togavirus.fasta
+Probab=7.81  E-value=1.6  Score=23.10  Aligned_cols=181  Identities=15%  Similarity=0.235  Sum_probs=40.0
+
+Q ss_pred             CchhhHHH------------------------------------------HHHHHH--------------HHhhhhcccC
+Q d2orf.fasta       1 MNICIKLL------------------------------------------VVLYLL--------------VIFIEDISSN   24 (434)
+Q Consensus         1 ~~~~~~~~------------------------------------------~~~~~~--------------~~~~~~~~~~   24 (434)
+                      ...=.+|.                                          +|.|--              ---..||.+.
+T Consensus       127 as~~a~l~it~G~~~~~~~~yvNG~t~~~~~~~k~i~GPiStawsPFD~KiV~y~~~VYNyDfP~yGag~pG~FGDiQ~r  206 (439)
+T togavirus.fast  127 AALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLKVIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQAS  206 (439)
+T ss_pred             cceeeeeeEeeccccceeeeEecccCCCCcCcceeeecccccccCCCccceeeeccccccccCCcccCCCCCCccccccc
+Confidence            00000000                                          000000              0001233333
+
+
+Q ss_pred             CcccccccCCCCcccccc--ccCccc-----c-ccccccccccccccccccCCC------------CCcccccccccccc
+Q d2orf.fasta      25 TYDSVHIDDDGSSWVSNK--ENNYIP-----E-KKNWYSFSQEFTPTSKRQTLP------------DNKATHHYAVPLKA   84 (434)
+Q Consensus        25 ~~~~~~~~~~~~~~~~~~--~~~~~~-----~-~~~~~~~~~~~~~~~~~~~~~------------~~~~~~~~~~~~~~   84 (434)
+                      |-+|-.+=.+-.--+...  .+--.|     . -+.|-   ++ .+.+-..|-|            .|=|--  .+|+.-
+T Consensus       207 t~~s~DlyAnT~l~L~rP~~g~iHVPYTq~pSGf~~W~---~~-~g~~L~~tAPfGC~I~~nPvrA~nCavG--~IPiS~  280 (439)
+T togavirus.fast  207 SLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGYEMWK---NN-SGRPLQETAPFGCKIEVEPLRASNCAYG--HIPISI  280 (439)
+T ss_pred             cccchhhhhhccccccCCCCcccccccccccchhhhhh---cc-CCCCCCCCCCCccccccccccccccCCc--cccccc
+Confidence            322211000000000000  000000     0 00010   00 0000000000            000000  011111
+
+
+Q ss_pred             cc------ccccceeeeecccccceee-----eccccccccccccc-------------------------ceecccccc
+Q d2orf.fasta      85 TI------RWNELELIFSDLTTRNITV-----FNKGLGFSIVTDKR-------------------------KVNIDVDDL  128 (434)
+Q Consensus        85 ~~------~~~~~~~~~~~~~~~~~t~-----~~~~~~~~~~~~~~-------------------------~~~~~~~~~  128 (434)
+                      .|      |-.|-- ..|+|.-+=..|     |.|....+-..||.                         .+.|-||--
+T Consensus       281 DIPDA~FtRv~daP-~vs~l~Ctv~~CtySsDFGGvatl~Y~a~k~GkCavHs~S~~atl~es~v~v~~~G~~t~hFSTA  359 (439)
+T togavirus.fast  281 DIPDAAFVRSSESP-TILEVSCTVADCIYSADFGGSLTLQYKADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTS  359 (439)
+T ss_pred             cccccccccccCCc-ccccccccccccccccCCccceeeeeeccCCCCCCcccccccceeecceeeeeecceeeEeeecC
+Confidence            11      111100 011221111111     33333322222221                         111222110
+
+
+Q ss_pred             cccccccccccccccccccccccCCCchhhhh-------------------hhhhhh-hhHHHHHHHHHHHHHHHHHHHH
+Q d2orf.fasta     129 CKLGRSFQLVIGASGNQHHSRKWCTGSRDELS-------------------SWVDKI-LNIEVLNSLMLFVILNILVCVY  188 (434)
+Q Consensus       129 c~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~s-------------------~~~~~~-~~i~~~~~~~~~~~~~i~~~v~  188 (434)
+                      =-   +-....++-+.+.+=.-+|.|..||.-                   +|+-.+ |....+.++-+++.+ |..||.
+T Consensus       360 s~---~p~F~v~vC~~~vtC~~~C~PPkdHiV~~p~~H~~~~~~aIS~TAwSWl~~l~GG~ssli~IaliVlv-vV~cVv  435 (439)
+T togavirus.fast  360 SP---QANFIVSLCGKKTTCNAECKPPADHIIGEPHKVDQEFQAAVSKTSWNWLLALFGGASSLIVVGLIVLV-CSSMLI  435 (439)
+T ss_pred             CC---CcceeeeeccCCccccCCCCCCCccccCCCCCchhhhhhhhhhhhhHHHHHhhcchhHHHHHHHHHHH-HHHhhh
+Confidence            00   001222333334444448888777643                   677544 665444433322222 222332
+
+
+Q ss_pred             hhhhhhh
+Q d2orf.fasta     189 LKVVKIK  195 (434)
+Q Consensus       189 lk~vk~~  195 (434)
+                      ++.   .
+T Consensus       436 ~~R---r  439 (439)
+T togavirus.fast  436 NTR---R  439 (439)
+T ss_pred             ccc---C
+Confidence            221   0
+
+
+Done!

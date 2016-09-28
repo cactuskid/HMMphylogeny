@@ -1,0 +1,385 @@
+Query         RifttvalleyFeverSS
+Match_columns 506
+No_of_seqs    494 out of 568
+Neff          8.4 
+Searched_HMMs 512
+Date          Thu Aug  4 12:31:32 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/RifttvalleyFeverSS.a3m.hhm -ohhm ./structurepred/RifttvalleyFeverSS.a3m.hhm -o ./structurepred/RifttvalleyFeverSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4hj1_A Envelope glycoprotein;  100.0 2.7E-97  4E-101  771.6  57.7  428    1-429     4-432 (432)
+  2 4hw9_A Mechanosensitive channe  69.6      17  0.0023   30.7  13.4   57  442-499    15-71  (309)
+  3 2knc_A Integrin alpha-IIB; tra  56.6      12  0.0016   22.9  17.0   31  464-494    10-42  (54)
+  4 2l8s_A Integrin alpha-1; trans  54.5      13  0.0017   22.8  17.2   30  465-494     8-39  (54)
+  5 2m3e_A Integrin alpha-L; integ  51.3      14  0.0018   22.2  19.6   31  464-494    10-40  (50)
+  6 2knc_B Integrin beta-3; transm  45.7      22  0.0029   22.9  17.0   31  464-494     8-38  (79)
+  7 2m20_A Epidermal growth factor  40.2      21  0.0029   21.3  16.0   34  467-505     3-36  (60)
+  8 2knc_B Integrin beta-3; transm  28.4      43  0.0058   21.2  14.5   40  450-500     8-48  (79)
+  9 3dl8_E Protein-export membrane  28.3      59  0.0076   22.5   7.8   17  467-483     5-21  (107)
+ 10 2l2t_A Receptor tyrosine-prote  27.8      27  0.0037   18.8  16.7   28  467-494    10-37  (44)
+ 11 2l8s_A Integrin alpha-1; trans  26.2      43  0.0055   20.2  14.5   37  465-506     5-41  (54)
+ 12 2knc_A Integrin alpha-IIB; tra  22.6      50  0.0064   19.7  15.2   40  462-506     5-44  (54)
+ 13 2mfr_A Insulin receptor, IR; i  21.5      57  0.0072   19.9  15.8   40  454-494     4-44  (57)
+ 14 4xtr_G PEP12P; membrane protei  20.9      43  0.0051   17.9  13.3   23  466-488    13-35  (37)
+ 15 2m3e_A Integrin alpha-L; integ  18.7      59  0.0076   19.0  15.2   37  464-506     7-44  (50)
+ 16 2ks1_B Epidermal growth factor  14.4      54  0.0075   17.0  14.3   25  467-494    14-38  (44)
+ 17 5aji_A MSCS, small-conductance  14.3 1.8E+02   0.024   22.9  17.9   48  456-505    10-61  (286)
+ 18 3din_E Preprotein translocase   11.8 1.1E+02   0.015   19.0   7.0   21  468-488     2-22  (76)
+ 19 1pi7_A VPU protein, U ORF prot  11.0      87   0.011   17.0  13.7   33  469-505     4-36  (36)
+ 20 2l34_A TYRO protein tyrosine k   9.7      69  0.0095   15.4  18.0   28  466-493     6-33  (33)
+
+No 1  
+>4hj1_A Envelope glycoprotein; class II fusion protein, membrane fusion, viral envelope, VI protein; HET: NAG BMA MES; 1.90A {Rift valley fever virus} PDB: 4hjc_A
+Probab=100.00  E-value=2.7e-97  Score=771.62  Aligned_cols=428  Identities=98%  Similarity=1.521  Sum_probs=397.4
+
+Q ss_pred             ChhhhccccceeeeccccccceeeecceeEeeeccccchhhhhhcccccccceeEEEEeeccccccccCceeeeccCCcc
+Q RifttvalleyFev    1 CSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFSPK   80 (506)
+Q Consensus         1 C~~~~~~~~~~~~C~~~~~~~~C~~~~~~~l~~~~~~~~~cl~l~~~~~~~~~~i~i~~~~~~~~c~~~~~y~T~~~~~~   80 (506)
+                      |||++++++.+++|++.+++..|.+++.++|+|+|+|||+||+|++++|++++.|+|++++++|+|+|+++|||||++++
+T Consensus         4 C~~~~~~~s~~~~C~~~~~~~~C~~~~~~~l~l~~~~~e~Cl~l~~~~~~~~~~i~I~~~~i~l~C~k~~~yfTrd~~~~   83 (432)
+T 4hj1_A            4 CSELIQASSRITTCSTEGVNTKCRLSGTALIRAGSVGAEACLMLKGVKEDQTKFLKIKTVSSELSCREGQSYWTGSFSPK   83 (432)
+T ss_dssp             EEEEEECCGGGEEEEESSSCEEEEEEEEEEEECCCBTSEEEEEEECSSTTCEEEEEEEEEEEEEEEEEEEEEEECCEEEE
+T ss_pred             CCceeEEEecccEEeCCCCCCEEEEeEEEEEEeecCCcEEeEEEECCCCCeEEEEEEEEEeeEEEEecccEEEecceeEE
+Confidence            68899999999999998888999999999999999999999999999889999999999999999999999999999999
+
+
+Q ss_pred             cccccceeeeeeeecceeeecccCCceeeEEeeecceeeecchhhhhcCCccccccccCCceeehhhHHHHHHHhhhhhe
+Q RifttvalleyFev   81 CLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTIMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVF  160 (506)
+Q Consensus        81 ~~~~~rC~~~GsC~~~~C~~~~~~~~ipel~~~~~~~~~g~t~C~e~cg~~gCgCf~~~~~ClF~r~~~~p~~~~~yeVf  160 (506)
+                      ++|++||++||||.+++|++|++++.+|||+..+++.+||+++|+|+|||||||||+|+|||||||+|++|+++++||||
+T Consensus        84 ~~s~~RC~~~GsC~~~~C~~i~~~~~~pEl~~~~~~~~~g~t~C~~sCGg~gCgCF~~~~sClFyR~y~~p~s~~iyeVf  163 (432)
+T 4hj1_A           84 CLSSRRCHLVGECHVNRCLSWRDNETSAEFSFVGESTTMRENKCFEQCGGWGCGCFNVNPSCLFVHTYLQSVRKEALRVF  163 (432)
+T ss_dssp             EEEEEECTTSTTCSTTTTTTCCTTCCCGGGGGGCCCCBCEEEEEEEECCSGGGTCSSSSCEEEEEEEEEEESSSCCEEEE
+T ss_pred             EeeEeECCCCCccccCcccccCCcCcchhhccccccCCCccceeccccCCCCcCeeCcCcchhEEEEEEEcCCCCEEEEE
+Confidence            99999999999999999999999999999975444567899999999999999999999999999999888877899999
+
+
+Q ss_pred             ehhhhheeeeEEEeecCCceeeeecCCcccccccceeeEEeeecccccCCcceEEeecCCceeeeecCCCcCCCCCccce
+Q RifttvalleyFev  161 NCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLG  240 (506)
+Q Consensus       161 ~C~~W~~~v~~~i~~~~~~~~~~~l~~~~~~~~~~~~i~ltl~s~~~~~~p~l~Fi~~~~~~~ai~~~~~~g~~~~g~ig  240 (506)
+                      +|++|+++++++|++..+.+++..+...+++++.|++++|+|+++++|++|...|++.+++.+|+|+.+++|+|.+|++|
+T Consensus       164 ~C~~W~~~v~i~vt~~~~~~~~~~l~~~~~~~~~~~~i~itl~~~~~~~~~~~~fi~~~~~~~a~~~~~~~~~p~~g~ig  243 (432)
+T 4hj1_A          164 NCIDWVHKLTLEITDFDGSVSTIDLGASSSRFTNWGSVSLSLDAEGISGSNSFSFIESPGKGYAIVDEPFSEIPRQGFLG  243 (432)
+T ss_dssp             EEEEEEEEEEEEEECTTSCEEEEEECTTCEEEETTEEEEEEEECCSCTTGGGCEEEEETTTEEEEESSCCCSSCCTTSTT
+T ss_pred             ECCCccEEEEEEEEecCCceEEEEeccCCceEEeeccEEEEEEeeeecCCCCcEEEEeCCceEEEecccccCCcCcCccc
+Confidence            99999999999999988877777888878888999999999999999987777999877679999999999999999999
+
+
+Q ss_pred             eeeecCcccccccccccccCCCcccccccccceeccccccCceEEeecCCCCcccCccceecccCCcceeeecccceeee
+Q RifttvalleyFev  241 EIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQAD  320 (506)
+Q Consensus       241 ~lqC~s~~~A~~~~~~C~~~~~~C~c~~~~d~v~C~C~~~~~~~~~~~~~LP~~~~~~~~~~~~~~~~v~a~~~~~~~~~  320 (506)
+                      +|||+++++|.+.+.+|.+++++|.|.|+++.+.|.|++.|+.+++++++||++++++.|..+.++.+|+|+++.++.++
+T Consensus       244 ~lqC~t~~~A~~~~~~C~~~~~~c~c~~~~~~~~C~c~~~~~~~~~~~~~LP~~~~~~~~~~~~~~~~V~a~~~~~~~~~  323 (432)
+T 4hj1_A          244 EIRCNSESSVLSAHESCLRAPNLISYKPMIDQLECTTNLIDPFVVFERGSLPQTRNDKTFAASKGNRGVQAFSKGSVQAD  323 (432)
+T ss_dssp             SEEBSSHHHHHTTBTTSEECTTCEEEEEETTEEEEEECCCCHHHHHHHTBSSEEETTEEEEECSSSCCEEEEECSCCCEE
+T ss_pred             ceeeCChHHhHhhcCceeeccccceEEcccceEEeeCCCCCHHHHhhcCCCceEeCcceEEEecCCCeEEEEeccceEEE
+Confidence            99999999998766799999999999999999999999999843222599999999999998777778999999999999
+
+
+Q ss_pred             eeeeeeceeeeeeeeeeecccceeccccceecCCCceEEEEEeecceeee-eeecCCCcEEEEeeCCCCCccceeEEEee
+Q RifttvalleyFev  321 LTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGTL-SAHNKDGSLHIVLPSENGTKDQCQILHFT  399 (506)
+Q Consensus       321 l~i~l~~~~~~~~~~~~~C~i~~~~l~GCY~C~~GA~~~i~c~S~~~~~~-~~~~C~~~~~~~i~c~~~~~~~~i~l~f~  399 (506)
+                      |+|++++++++.++++++|++++++++|||+|.+||++.|+|+|+.+++. +...|+ .++|.+.|.++++.+.++|||+
+T Consensus       324 l~i~~~~~~~~~~~~~~~C~i~~~~l~GCYsC~~GA~~~i~C~S~~~~~~~~~~~~~-~~~~~~~~~~g~~~~~~~~~f~  402 (432)
+T 4hj1_A          324 LTLMFDNFEVDFVGAAVSCDAAFLNLTGCYSCNAGARVCLSITSTGTGSLSAHNKDG-SLHIVLPSENGTKDQCQILHFT  402 (432)
+T ss_dssp             EEEEEEEEEEECCSCCCCCEEEEEEEEEBSSSSSCEEEEEEEEESSCEEEEEEETTS-SCEEEEEECBEEEEEEEEECCS
+T ss_pred             EEEEecceEEEEEEeCCcceEEeccceEecccccCCEEEEEEEeCCCCeEEEEEcCC-CEEEEEecCCCCeeEEEEEEcC
+Confidence            99999999999999999999999999999999999999999999987655 678887 5899999887666667999999
+
+
+Q ss_pred             ccchhhhcccccCCCCceeEEeeeEEEeCC
+Q RifttvalleyFev  400 VPEVEEEFMYSCDGDERPLLVKGTLIAIDP  429 (506)
+Q Consensus       400 ~a~v~~~C~~~Cg~~~~~~~i~G~L~~~~~  429 (506)
+                      +|+++++|++.||+.++.|+|+|+|+|+++
+T Consensus       403 ~a~v~~~C~v~CG~~~~~f~i~G~L~~~~~  432 (432)
+T 4hj1_A          403 VPEVEEEFMYSCDGDERPLLVKGTLIAIDP  432 (432)
+T ss_dssp             SSEEEEEEEEESSSCCEEEEEEEECBCCC-
+T ss_pred             CCeEeeEEEEECCCCcEEEEEEEEEEecCC
+Confidence            999999999999999999999999999863
+
+
+No 2  
+>4hw9_A Mechanosensitive channel MSCS; membrane, membrane protein; 4.14A {Helicobacter pylori}
+Probab=69.58  E-value=17  Score=30.68  Aligned_cols=57  Identities=14%  Similarity=0.095  Sum_probs=8.2
+
+Q ss_pred             eecCCCCCcchhhhhhhhhhhcCCchhHHHHHHHHHHHHHHHHHHHHhhcccchhhhH
+Q RifttvalleyFev  442 VVNPKSGSWNFFDWFSGLMSWFGGPLKTILLICLYVALSIGLFFLLIYLGRTGLSKMW  499 (506)
+Q Consensus       442 ~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~ii~~i~~~ii~i~i~~~l~~~~~~~~~  499 (506)
+                      +-.+....+++-.+.+.+..|+.....+...++.+++++++++++...+.+.+ .+.+
+T Consensus        15 ~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~i~i~~i~~~l~~~~~~~~-~~~~   71 (309)
+T 4hw9_A           15 VPRGSHTLINMDEIKTLLVDFFPQAKHFGIILIKAVIVFCIGFYFSFFLRNKT-MKLL   71 (309)
+T ss_dssp             ---------------------------CHHHHHHHHHHHHHHHHHHHHHHTTH-HHHT
+T ss_pred             cccchhhhccHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHh
+Confidence            11222223455555666666665432223233333333333333333222211 1111
+
+
+No 3  
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=56.59  E-value=12  Score=22.92  Aligned_cols=31  Identities=10%  Similarity=-0.072  Sum_probs=12.5
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHHHHHHHhhc--ccc
+Q RifttvalleyFev  464 GGPLKTILLICLYVALSIGLFFLLIYLG--RTG  494 (506)
+Q Consensus       464 ~~~~~~~~~ii~~i~~~ii~i~i~~~l~--~~~  494 (506)
+                      -..|-+++.++++++++++++++++.+-  |+-
+T Consensus        10 ~~~wiii~s~i~GlllL~li~~iL~K~GFFkRk   42 (54)
+T 2knc_A           10 IPIWWVLVGVLGGLLLLTILVLAMWKVGFFKRN   42 (54)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHTTTT
+T ss_pred             CchhHHHHHHHHHHHHHHHHHHHHHHcCCcccC
+Confidence            1113344555555555555555444321  111
+
+
+No 4  
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=54.48  E-value=13  Score=22.78  Aligned_cols=30  Identities=13%  Similarity=-0.042  Sum_probs=13.5
+
+Q ss_pred             CchhHHHHHHHHHHHHHHHHHHHHhh--cccc
+Q RifttvalleyFev  465 GPLKTILLICLYVALSIGLFFLLIYL--GRTG  494 (506)
+Q Consensus       465 ~~~~~~~~ii~~i~~~ii~i~i~~~l--~~~~  494 (506)
+                      ..|-+++.++++++++++++++++-+  +++-
+T Consensus         8 ~~wiIi~s~i~GlllL~iii~iL~K~GFFkRk   39 (54)
+T 2l8s_A            8 PLWVILLSAFAGLLLLMLLILALWKIGFFKRP   39 (54)
+T ss_dssp             CTHHHHHHHHHHHHHHHHHHHHHHHHHHTTSC
+T ss_pred             cchhhHHHHHHHHHHHHHHHHHHHHcCCCCCC
+Confidence            12335555555555555555555432  2211
+
+
+No 5  
+>2m3e_A Integrin alpha-L; integrin alpah L TM domain, polar interaction, membrane PROT; NMR {Homo sapiens}
+Probab=51.30  E-value=14  Score=22.19  Aligned_cols=31  Identities=16%  Similarity=-0.032  Sum_probs=16.0
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHHHHHHHhhcccc
+Q RifttvalleyFev  464 GGPLKTILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       464 ~~~~~~~~~ii~~i~~~ii~i~i~~~l~~~~  494 (506)
+                      -..|.+++.++++++++++++++++.+-.+-
+T Consensus        10 ~~~wiii~s~i~GlllL~~ii~iL~K~GFFk   40 (50)
+T 2m3e_A           10 QMLYLYVLSGIGGLLLLLLIFIVLYKVGFFK   40 (50)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHHHHHHTSGG
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHHHHHHcCccc
+Confidence            1113355556666666666666666654322
+
+
+No 6  
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=45.68  E-value=22  Score=22.93  Aligned_cols=31  Identities=19%  Similarity=-0.102  Sum_probs=10.6
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHHHHHHHhhcccc
+Q RifttvalleyFev  464 GGPLKTILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       464 ~~~~~~~~~ii~~i~~~ii~i~i~~~l~~~~  494 (506)
+                      ...+.++..+++.++++.+++++++.+.++.
+T Consensus         8 ~~~~~I~~~vi~~iv~l~ll~~~~~~~~~~~   38 (79)
+T 2knc_B            8 PDILVVLLSVMGAILLIGLAALLIWKLLITI   38 (79)
+T ss_dssp             SCSHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CchheehhhHHHHHHHHHHHHHHHHHHHHHh
+Confidence            1122333444444444444333333322111
+
+
+No 7  
+>2m20_A Epidermal growth factor receptor; transmembrane, cell signaling, juxtamembrane, signaling PROT; NMR {Homo sapiens}
+Probab=40.24  E-value=21  Score=21.27  Aligned_cols=34  Identities=9%  Similarity=-0.072  Sum_probs=9.6
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHhhcccchhhhHHhhhcc
+Q RifttvalleyFev  467 LKTILLICLYVALSIGLFFLLIYLGRTGLSKMWLAATKK  505 (506)
+Q Consensus       467 ~~~~~~ii~~i~~~ii~i~i~~~l~~~~~~~~~~~~~k~  505 (506)
+                      ..++..+++.++++++++++++++.|+    ..+ ++|+
+T Consensus         3 ~~i~g~vvg~~~~~~~i~~~~~~~~rr----r~~-~~~~   36 (60)
+T 2m20_A            3 PSIATGLVGALLLLLVVALGIGLFIRR----RHI-VRKR   36 (60)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHHHHHHHHT----HHH-HSCT
+T ss_pred             ceEEEehHHHHHHHHHHHHHHHHHHHH----hhh-hhhh
+Confidence            113333334333333332222322221    111 2111
+
+
+No 8  
+>2knc_B Integrin beta-3; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=28.39  E-value=43  Score=21.22  Aligned_cols=40  Identities=15%  Similarity=0.107  Sum_probs=8.4
+
+Q ss_pred             cchhhhhhhhhhhcCCchhHHHHHHHHHHHHHHHHHHHHhhc-ccchhhhHH
+Q RifttvalleyFev  450 WNFFDWFSGLMSWFGGPLKTILLICLYVALSIGLFFLLIYLG-RTGLSKMWL  500 (506)
+Q Consensus       450 ~~i~~~~~~~~~~~~~~~~~~~~ii~~i~~~ii~i~i~~~l~-~~~~~~~~~  500 (506)
+                      ...+-++-.          .+..++++.++++++..+....- |+-.. .+.
+T Consensus         8 ~~~~~I~~~----------vi~~iv~l~ll~~~~~~~~~~~r~~~e~~-~~~   48 (79)
+T 2knc_B            8 PDILVVLLS----------VMGAILLIGLAALLIWKLLITIHDRKEFA-KFE   48 (79)
+T ss_dssp             SCSHHHHHH----------HHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHH
+T ss_pred             Cchheehhh----------HHHHHHHHHHHHHHHHHHHHHhhcchhHH-HHH
+Confidence            112222222          22222222222222222221111 11101 111
+
+
+No 9  
+>3dl8_E Protein-export membrane protein SECG; RECA-type ATPase membrane protein translocation protein-PROT complex, ATP-binding, cell membrane; 7.50A {Aquifex aeolicus}
+Probab=28.33  E-value=59  Score=22.51  Aligned_cols=17  Identities=29%  Similarity=0.313  Sum_probs=2.4
+
+Q ss_pred             hhHHHHHHHHHHHHHHH
+Q RifttvalleyFev  467 LKTILLICLYVALSIGL  483 (506)
+Q Consensus       467 ~~~~~~ii~~i~~~ii~  483 (506)
+                      +.++++++.++++++++
+T Consensus         5 L~ii~iIisv~LI~lVL   21 (107)
+T 3dl8_E            5 LLTLFVIIAVVLIISTL   21 (107)
+T ss_dssp             ---CHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHhe
+Confidence            11222222111111111
+
+
+No 10 
+>2l2t_A Receptor tyrosine-protein kinase ERBB-4; transmembrane dimer, membrane domain, membrane protei; NMR {Homo sapiens} PDB: 2lcx_A
+Probab=27.82  E-value=27  Score=18.76  Aligned_cols=28  Identities=4%  Similarity=-0.253  Sum_probs=6.7
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHhhcccc
+Q RifttvalleyFev  467 LKTILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       467 ~~~~~~ii~~i~~~ii~i~i~~~l~~~~  494 (506)
+                      ..++..+++.++++++++.+++++.++.
+T Consensus        10 ~~i~g~~vg~~~~~~~~~~~~~~~~rrr   37 (44)
+T 2l2t_A           10 PLIAAGVIGGLFILVIVGLTFAVYVRRK   37 (44)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHHHHHHTT
+T ss_pred             ceEEEehHHHHHHHHHHHHHHHHHhhhh
+Confidence            1122223333332222222222221111
+
+
+No 11 
+>2l8s_A Integrin alpha-1; transmembrane region, detergent micelle, CE adhesion; NMR {Homo sapiens}
+Probab=26.25  E-value=43  Score=20.18  Aligned_cols=37  Identities=19%  Similarity=0.205  Sum_probs=15.0
+
+Q ss_pred             CchhHHHHHHHHHHHHHHHHHHHHhhcccchhhhHHhhhccC
+Q RifttvalleyFev  465 GPLKTILLICLYVALSIGLFFLLIYLGRTGLSKMWLAATKKA  506 (506)
+Q Consensus       465 ~~~~~~~~ii~~i~~~ii~i~i~~~l~~~~~~~~~~~~~k~~  506 (506)
+                      ... ..+++++.++++++++.++..+..+  ...+  |+|++
+T Consensus         5 ~~~-~~wiIi~s~i~GlllL~iii~iL~K--~GFF--kRk~~   41 (54)
+T 2l8s_A            5 GRV-PLWVILLSAFAGLLLLMLLILALWK--IGFF--KRPLK   41 (54)
+T ss_dssp             CCC-CTHHHHHHHHHHHHHHHHHHHHHHH--HHHT--TSCCS
+T ss_pred             ccC-cchhhHHHHHHHHHHHHHHHHHHHH--cCCC--CCCCh
+Confidence            111 1345555665555555554443211  1122  44432
+
+
+No 12 
+>2knc_A Integrin alpha-IIB; transmembrane signaling, protein structure, cell A cleavage on PAIR of basic residues, disease mutation, disul bond, glycoprotein; NMR {Homo sapiens}
+Probab=22.56  E-value=50  Score=19.70  Aligned_cols=40  Identities=10%  Similarity=0.035  Sum_probs=16.2
+
+Q ss_pred             hcCCchhHHHHHHHHHHHHHHHHHHHHhhcccchhhhHHhhhccC
+Q RifttvalleyFev  462 WFGGPLKTILLICLYVALSIGLFFLLIYLGRTGLSKMWLAATKKA  506 (506)
+Q Consensus       462 ~~~~~~~~~~~ii~~i~~~ii~i~i~~~l~~~~~~~~~~~~~k~~  506 (506)
+                      -..... ..+++++.++++++++.++..+..   +--+. |+|++
+T Consensus         5 ~~~~~~-~~wiii~s~i~GlllL~li~~iL~---K~GFF-kRk~~   44 (54)
+T 2knc_A            5 SEERAI-PIWWVLVGVLGGLLLLTILVLAMW---KVGFF-KRNRP   44 (54)
+T ss_dssp             CTTTTC-CHHHHHHHHHHHHHHHHHHHHHHH---HHHHT-TTTCC
+T ss_pred             ccCCcC-chhHHHHHHHHHHHHHHHHHHHHH---HcCCc-ccCCc
+Confidence            112222 245565666666555555444321   21121 44432
+
+
+No 13 
+>2mfr_A Insulin receptor, IR; insulin recepotr, membrane protein, detergent micelles, TRAN; NMR {Homo sapiens}
+Probab=21.50  E-value=57  Score=19.86  Aligned_cols=40  Identities=13%  Similarity=-0.001  Sum_probs=11.3
+
+Q ss_pred             hhhhhhhhhcCCch-hHHHHHHHHHHHHHHHHHHHHhhcccc
+Q RifttvalleyFev  454 DWFSGLMSWFGGPL-KTILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       454 ~~~~~~~~~~~~~~-~~~~~ii~~i~~~ii~i~i~~~l~~~~  494 (506)
+                      ..... ..+...+. ++++..++++++...++..++++.|+.
+T Consensus         4 FyV~~-~~~~~~~~~liii~pVi~iili~g~i~~ly~~~kk~   44 (57)
+T 2mfr_A            4 FYVTD-YLDVPSNIAKIIIGPLIFVFLFSVVIGSIYLFLRKR   44 (57)
+T ss_dssp             HHHHH-TTCCCTHHHHHHHHHHHHHHHHHHHHHHHHHHHTSS
+T ss_pred             EEecC-CCccccccchhHHHHHHHHHHHHHHHHHhhhhhhhh
+Confidence            11111 23334332 122233333222222233333332221
+
+
+No 14 
+>4xtr_G PEP12P; membrane protein targeting complex, hydrolase-transport PROT complex; HET: ADP ATP; 2.05A {Saccharomyces cerevisiae}
+Probab=20.90  E-value=43  Score=17.88  Aligned_cols=23  Identities=9%  Similarity=0.267  Sum_probs=6.6
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHHHH
+Q RifttvalleyFev  466 PLKTILLICLYVALSIGLFFLLI  488 (506)
+Q Consensus       466 ~~~~~~~ii~~i~~~ii~i~i~~  488 (506)
+                      .-+|-.+.++.+++.++++++++
+T Consensus        13 tsrwrvyllivllvml~fiflim   35 (37)
+T 4xtr_G           13 TSRWRVYLLIVLLVMLLFIFLIM   35 (37)
+T ss_dssp             --CHHHHHHHHHHHHHHHHHHHC
+T ss_pred             hhhHHHHHHHHHHHHHHHHHHHh
+Confidence            11133333333333333332221
+
+
+No 15 
+>2m3e_A Integrin alpha-L; integrin alpah L TM domain, polar interaction, membrane PROT; NMR {Homo sapiens}
+Probab=18.70  E-value=59  Score=19.03  Aligned_cols=37  Identities=19%  Similarity=0.128  Sum_probs=15.1
+
+Q ss_pred             CCchhHHHHHHHHHHHHHHHHHH-HHhhcccchhhhHHhhhccC
+Q RifttvalleyFev  464 GGPLKTILLICLYVALSIGLFFL-LIYLGRTGLSKMWLAATKKA  506 (506)
+Q Consensus       464 ~~~~~~~~~ii~~i~~~ii~i~i-~~~l~~~~~~~~~~~~~k~~  506 (506)
+                      .... ..+++++.++++++++.+ ++.+.+..+.     |+|++
+T Consensus         7 ~~~~-~~wiii~s~i~GlllL~~ii~iL~K~GFF-----kR~~~   44 (50)
+T 2m3e_A            7 YEKQ-MLYLYVLSGIGGLLLLLLIFIVLYKVGFF-----KRNLK   44 (50)
+T ss_dssp             TTCC-CHHHHHHHHHHHHHHHHHHHHHHHHHTSG-----GGSCC
+T ss_pred             cccc-cHHHHHHHHHHHHHHHHHHHHHHHHcCcc-----ccCCc
+Confidence            1112 244555555555554444 3444344432     33321
+
+
+No 16 
+>2ks1_B Epidermal growth factor receptor; ERBB1, ERBB2, transmembrane, heterodimer, complex, tyrosine receptor, bicelles, transferase; NMR {Homo sapiens} PDB: 2m0b_A
+Probab=14.42  E-value=54  Score=17.00  Aligned_cols=25  Identities=8%  Similarity=0.109  Sum_probs=4.2
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHhhcccc
+Q RifttvalleyFev  467 LKTILLICLYVALSIGLFFLLIYLGRTG  494 (506)
+Q Consensus       467 ~~~~~~ii~~i~~~ii~i~i~~~l~~~~  494 (506)
+                      ...++..+++++  ++++.++++. ++.
+T Consensus        14 ~~~~v~~~~~~~--~~~~~~~~~~-rrr   38 (44)
+T 2ks1_B           14 ATGMVGALLLLL--VVALGIGLFM-RRR   38 (44)
+T ss_dssp             THHHHHHHHHHH--HHHHHHHHHH-HTT
+T ss_pred             EEeeHHHHHHHH--HHHHHHHHHH-Hhh
+Confidence            111111111111  1111111111 111
+
+
+No 17 
+>5aji_A MSCS, small-conductance mechanosensitive channel; transport protein; HET: R1A D10; 2.99A {Escherichia coli} PDB: 2oau_A 4hwa_A 4age_A 4agf_A 2vv5_A
+Probab=14.32  E-value=1.8e+02  Score=22.86  Aligned_cols=48  Identities=15%  Similarity=0.226  Sum_probs=7.4
+
+Q ss_pred             hhhhhhhcCCchh----HHHHHHHHHHHHHHHHHHHHhhcccchhhhHHhhhcc
+Q RifttvalleyFev  456 FSGLMSWFGGPLK----TILLICLYVALSIGLFFLLIYLGRTGLSKMWLAATKK  505 (506)
+Q Consensus       456 ~~~~~~~~~~~~~----~~~~ii~~i~~~ii~i~i~~~l~~~~~~~~~~~~~k~  505 (506)
+                      +++..+|+.+...    ++.-++.+++++++.+++...+ .+++++.+. +.+.
+T Consensus        10 ~~~~~~~~~~~~~~~~~~~~~i~~~~iii~~~~~~~~~~-~~~~~~~~~-~~~~   61 (286)
+T 5aji_A           10 INGAGSWLVANQALLLSYAVNIVAALAIIIVGLIIARMI-SNAVNRLMI-SRKI   61 (286)
+T ss_dssp             --------CCCCHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHH-HTTC
+T ss_pred             HhhHHHHHHhhhhHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHh-hcCC
+Confidence            1122233333211    1111222221111111111111 111122221 1111
+
+
+No 18 
+>3din_E Preprotein translocase subunit SECG; protein translocation, membrane protein, ATPase, ATP-binding membrane, nucleotide-binding, protein transport; HET: ADP; 4.50A {Thermotoga SP}
+Probab=11.80  E-value=1.1e+02  Score=19.04  Aligned_cols=21  Identities=19%  Similarity=0.314  Sum_probs=2.1
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHHH
+Q RifttvalleyFev  468 KTILLICLYVALSIGLFFLLI  488 (506)
+Q Consensus       468 ~~~~~ii~~i~~~ii~i~i~~  488 (506)
+                      ++++.++.+++..++++.+++
+T Consensus         2 ~~il~il~ii~si~LI~~ILl   22 (76)
+T 3din_E            2 KTFFLIVHTIISVALIYMVQV   22 (76)
+T ss_dssp             -------CHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHHhee
+Confidence            111111111111111111111
+
+
+No 19 
+>1pi7_A VPU protein, U ORF protein; alpha helix, viral protein; NMR {Human immunodeficiency virus 1} SCOP: j.35.1.1 PDB: 1pi8_A 1pje_A 2gof_A 2goh_A 2jpx_A
+Probab=10.98  E-value=87  Score=16.98  Aligned_cols=33  Identities=9%  Similarity=-0.025  Sum_probs=7.9
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHhhcccchhhhHHhhhcc
+Q RifttvalleyFev  469 TILLICLYVALSIGLFFLLIYLGRTGLSKMWLAATKK  505 (506)
+Q Consensus       469 ~~~~ii~~i~~~ii~i~i~~~l~~~~~~~~~~~~~k~  505 (506)
+                      ..+ .++++++++++.++++.+..   ....+-++.|
+T Consensus         4 l~~-~i~alvv~liiaIvVWtiv~---ieYrkl~rQ~   36 (36)
+T 1pi7_A            4 IQI-AIVALVVAIIIAIVVWSIVI---IEGRGGKKKK   36 (36)
+T ss_pred             HHH-HHHHHHHHHHHHHHHHHHHH---HHHHHHHhcC
+Confidence            122 22233333333333332210   1111102211
+
+
+No 20 
+>2l34_A TYRO protein tyrosine kinase-binding protein; immunoreceptor, transmembrane assembly, DAP12, protein bindi; NMR {Homo sapiens} PDB: 4wo1_A* 4wol_A* 2l35_B
+Probab=9.73  E-value=69  Score=15.42  Aligned_cols=28  Identities=18%  Similarity=0.255  Sum_probs=10.5
+
+Q ss_pred             chhHHHHHHHHHHHHHHHHHHHHhhccc
+Q RifttvalleyFev  466 PLKTILLICLYVALSIGLFFLLIYLGRT  493 (506)
+Q Consensus       466 ~~~~~~~ii~~i~~~ii~i~i~~~l~~~  493 (506)
+                      ...++..+++.+++.+++..+++++.|+
+T Consensus         6 ~~~i~g~vv~~~~~~~~~~~~~~~~~rr   33 (33)
+T 2l34_A            6 PGVLAGIVVGDLVLTVLIALAVYFLGRL   33 (33)
+T ss_dssp             THHHHHHHHHHHHHHHHHHHHHHHHCC-
+T ss_pred             ccEEEEEEhHHHHHHHHHHHHhheeEeC
+Confidence            1123333334444433333344555543
+
+
+Done!

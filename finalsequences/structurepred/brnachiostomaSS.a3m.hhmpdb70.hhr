@@ -1,0 +1,807 @@
+Query         brnachiostomaSS
+Match_columns 711
+No_of_seqs    151 out of 184
+Neff          5.8 
+Searched_HMMs 106
+Date          Thu Aug  4 12:33:10 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/brnachiostomaSS.a3m.hhm -ohhm ./structurepred/brnachiostomaSS.a3m.hhm -o ./structurepred/brnachiostomaSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4cyl_A EFF-1A; cell adhesion,  100.0  1E-140  2E-144 1180.7  68.9  549    1-573    24-612 (658)
+  2 4ojd_H EFF-1A; class II fusion 100.0  3E-126  4E-130 1047.7  85.1  470    1-489     4-505 (526)
+  3 4cyl_A EFF-1A; cell adhesion,  100.0 6.3E-50 8.5E-54  445.7 101.8  436  172-711    52-562 (658)
+  4 4ojd_H EFF-1A; class II fusion 100.0 1.2E-36 1.6E-40  332.7  95.3  394  209-684    25-516 (526)
+  5 2krx_A ASL3597 protein; struct   9.7 1.6E+02   0.021   21.9   6.3   39   32-96     54-93  (94)
+  6 3zyj_B Netrin-G1; cell adhesio   6.4 4.6E+02    0.07   22.8  14.2  112   12-150   201-342 (426)
+  7 2n17_A Lysozyme-protease inhib   3.9 3.2E+02   0.048   17.7   6.0   49   98-157     5-65  (75)
+  8 2p9m_A Hypothetical protein MJ   0.2 2.5E+03    0.41   11.7   5.2   26  445-479    78-103 (138)
+  9 1vdh_A Muconolactone isomerase   0.1 5.7E+03     0.8   11.5  14.9  156  319-526     4-217 (249)
+ 10 2c9r_A COPC, copper resistance   0.0 5.3E+03    0.81    8.9  33.4   48  195-246     6-83  (102)
+ 11 2lix_A IMKTX104, potassium cha   0.0 7.1E+03    0.92    7.0  11.6   25  106-130     3-27  (27)
+ 12 1lyq_A PCOC copper resistance    0.0 6.5E+03    0.99    5.8  36.3   54  193-246     5-85  (104)
+ 13 1zat_A L,D-transpeptidase; L,D   0.0 6.5E+03       1    6.7  36.7  129  154-323    70-227 (250)
+ 14 1toc_R Ornithodorin; vitamin K   0.0 8.4E+03       1    6.3  19.1  102  411-639    11-119 (120)
+ 15 3i08_A Neurogenic locus notch    0.0 7.2E+03       1    6.7  26.7   83  454-550    56-166 (220)
+ 16 3w9i_A Multidrug resistance pr   0.0   6E+03       1    7.5  16.5  101  350-478   765-870 (1046)
+ 17 2mmp_A Uncharacterized protein   0.0 7.8E+03       1    5.7  20.0   72  375-485     5-76  (77)
+ 18 4lm9_A Nucleoprotein; HCOV-OC4   0.0 7.6E+03       1    6.1  32.0   84  216-333     5-95  (135)
+ 19 1hbn_C Methyl-coenzyme M reduc   0.0 8.1E+03       1    7.0  16.6  111   49-234    78-203 (248)
+ 20 4i1l_A Scurfin, forkhead box p   0.0 7.6E+03       1    5.6  19.2   49  482-539     7-64  (93)
+
+No 1  
+>4cyl_A EFF-1A; cell adhesion, cell-CELL fusion, extracellular fusion, membr fusion, PRE-fusion state; 22.20A {Caenorhabditis elegans}
+Probab=100.00  E-value=1.2e-140  Score=1180.73  Aligned_cols=549  Identities=22%  Similarity=0.375  Sum_probs=392.8
+
+Q ss_pred             CeeEEEEeeccccCCccccccCCccceeecchhhHHHHHHHHHhccCCCCCeEEEEEeeccCCCCCCceEEEeeecCCce
+Q brnachiostomaS    1 RAVLLWASISGIHGNRCTKTLPTTGHVRYSSRESAQALVETFIQSSIKPGETLCFILHDVTNDDASSDVSISMATNGSVP   80 (711)
+Q Consensus         1 ~~~~~~~~~~~~~~~~Ct~~~~~~g~~~~~~~~~~~~~~~~~~q~~i~l~~t~Cf~l~~~~~~~~~~~~~~~~~~~~~~~   80 (711)
+                      |.+..|..++++.||||+|+++|+|+++. +..+.. .+.|+||++|+||||+||+|++++++.++.+++ +++++++++
+T Consensus        24 ~~~~~~~~~~~~~~~hc~~~~~~~~~~~~-n~~~s~-~~~~~~q~~igL~eT~Cf~L~~~~~~~~s~~~~-~~~~~~~~~  100 (658)
+T 4cyl_A           24 PLEEKFDGLFRAEPPHCSKTPIVRAQTSQ-NAMSSI-ARGMQMQFSIGLHTAVCFRLYEDTQLASQEIND-DENAGNQTS  100 (658)
+T ss_dssp             ----------CCCCCCBCCCCCEEECCCC-CSCC----CCCEEEEEECTTCEEEEEEC----------------------
+T ss_pred             chhhhhcccccCCCCccccchhhcchhcc-cccCcc-eeeEEEEEEeccCceEEEEEecCCccccccccc-hhhcccccc
+Confidence            34667899999999999999999999884 333310 000016899999999999999999987777666 567788899
+
+
+Q ss_pred             eeEeeeecceeeeccccceeeeccccCCcccccCCCCCCCcccCCCCC---Cccc----cccceeecccCCCCCcceEEE
+Q brnachiostomaS   81 LLWQLTYEGIEMDYGVKNRYSFYRPKYESKCVCDCPQYGDYCNSKTNR---CTDH----ELDFCYNTYIPDQTAHGCTVY  153 (711)
+Q Consensus        81 ~lhtl~~~~le~~~pI~~~Y~F~iP~v~~~CiCdC~~~~~~C~~~~~~---C~~~----~~~~Cyrty~~~qs~~gC~~~  153 (711)
+                      |||||+|++|||||||+|+|+||||+|+++|||||+|++++|++++|+   |+++    ++++|||||||+|++.||+  
+T Consensus       101 ~lHti~~~rlEq~yPI~~~Y~F~IP~v~t~CiCdC~g~~~~C~~~~y~~~nC~~~~~~~~~~~CYrTYh~~Qs~~gC~--  178 (658)
+T 4cyl_A          101 LLHTIRLEKLEHHHPITQRYTFGIPEVHASCICECDATSSTCTAESHQFTACPESDKSDETSSCYRTFFPNQTPIGCS--  178 (658)
+T ss_dssp             CEEEEEEEEEEECCCSCCEEEECCEEEEEECCEESSTTCSSSCHHHHTTBCCCCCSSSCSSCEEEEEEEESCCCTTSC--
+T ss_pred             eEEEEEEeehhccCccceeEEecCCccccceEEeCCCCCCcccccccccccCCCccccccccceeEEecCCCCCCCCC--
+Confidence            999999999999999999999999999999999999999999995333   9886    4899999999999999997  
+
+
+Q ss_pred             ecCCCceeeEEEecccCCCCCCcceEEEcCCCcceeE--EEeeeecccCce-EEEeeceEEEEecCccccc----cceEE
+Q brnachiostomaS  154 WNSEESEVCCALYVGKHPESPKYDAVYLSSDGKPIVK--LALKVYDSRTDE-VVYSYPTFTVALNDRTHRA----QHSVR  226 (711)
+Q Consensus       154 ~~~~~s~~CC~v~~~p~~~n~~y~AvkL~~~~qP~t~--~~y~~y~~~~~~-~~~~~~~~~v~ln~g~~~~----~~~i~  226 (711)
+                       ..++|++||+|+|+|| +||+|+||||+   ||+|+  |+|++||+++|+ +++++++|+|+||+|++++    +|+|+
+T Consensus       179 -~~s~s~lCCeV~~~Py-~n~~y~AVKL~---QP~t~a~f~y~iyd~~~~~W~~~~~~~f~v~l~~g~~~~~~~~~~~i~  253 (658)
+T 4cyl_A          179 -EDDIPKLCCDVRFKPY-KNMTFLAVKLE---QPTTYATFVYAAYDFVNGYWVEKDKTKIRSQLDGGTQDRHLDQKRRIS  253 (658)
+T ss_dssp             -TTCCCEEEEEEEEEES-TTCEEEEEECC---CCCEEEEEEEEEEEECSSSEEEEEEEEEEEECSSSCEEEECSTTCCCE
+T ss_pred             -CCCCcccceEEEEEcC-CCcEEEEEEec---CCCEEEEEEEEEEeccCCceEEecccEEEEEccCCcceeEeccCCcEE
+Confidence             3468999999999999 99999999999   99999  999999999999 9999999999999999988    89999
+
+
+Q ss_pred             EEEe-CCCC-ceecceeEEEeccc---eeEeecccccCCCCCCCCcceeEEec-cCCcccCCCcceeeeeeeeccccccC
+Q brnachiostomaS  227 MEVT-GDTP-TQIDSGYYYATSEG---TQLYTDASINGLNEFDPRKMGWLKVR-DDGTVERPPERTVLGAFHLKTHKCHN  300 (711)
+Q Consensus       227 l~v~-~~r~-~qL~~GmYf~~~~~---~~l~~~~pINei~E~nl~KLGW~R~~-~g~~~i~~g~~ki~~~h~v~v~NCk~  300 (711)
+                      |+|+ |||+ +||++||||+.+++   .++++.+||||++|+|++||||||++ +|+|+|+||.+||++||||+|+|||+
+T Consensus       254 l~v~a~gr~~~qL~~GMYF~~~~~~ge~~~Lr~vpiNei~E~nl~KLGWfR~~~~g~w~vrnG~ikI~~aH~V~V~NCK~  333 (658)
+T 4cyl_A          254 LAVTAGGRASHQLETGMYFSRTSNGGETEELRMQPLNEITDNNFDRLGWYRMDDSGHFHVNNGVVKMDDIHKAKVKNCKE  333 (658)
+T ss_dssp             EEEECSSSCSCCCCCSEEEEEECC--CCCBCBCCCBCCTTCCCTTSBCSEEECTTSCEEETTHHHHHHHHEEEEEEETTT
+T ss_pred             EEEecCCccccccCCcceEEecCCCCcchhhhcccccccCCCCccccceeEEcCCCCEEEeCcceehhhcCeeeeccCcc
+Confidence            9998 9999 99999999998763   34556899999999999999999997 78999999999999999999999999
+
+
+Q ss_pred             CcCccceeEE--EecCcccccCCCccccceeeeeeeeec-ccceeeEeecccceeEEEEEeeecc-----eeEEEEEecC
+Q brnachiostomaS  301 KFDYSETWQI--YGHGNLKHHSGSRVEDFYGWVRRVTYS-PLRRTVTVIPRYDRLVTVKIGINTT-----TNVLFFYHDS  372 (711)
+Q Consensus       301 q~~y~s~~~a--y~~~~~~~~lg~~le~~~~WI~~v~~~-~~~r~V~V~h~E~p~t~i~v~l~~~-----~~~~~~~~~S  372 (711)
+                      | +|+++|+|  |  .++++++|.+|++.+|||++|++. +..|+|+|+|+|  ||+|+|+++.+     ++++|+||+|
+T Consensus       334 Q-~y~s~lnA~~y--~~~~~~lg~~ve~~~~WI~s~~v~d~s~R~V~V~H~E--gt~v~V~l~~~~~~~~~~l~~~~h~S  408 (658)
+T 4cyl_A          334 Q-TYKSILSANHY--MPGHFNLTRPLEVIKPWIQSARIFDSSLRQAVVTHAE--GTNLQISIHLDDEVESQNLVFFHNAS  408 (658)
+T ss_dssp             T-EEEEEESCSSB--BTTBCCCCCBHHHHCTTEEEEEECSTTCCCEEEEESS--CCCEEEEEEC----CCCCEEEECCCC
+T ss_pred             c-eeeeeecceee--ccccccccCcccccCCCeeeEEEecCCccEEEEEecC--CCeEEEEEEecccccccceEEEEcce
+Confidence            9 88888888  3  367999999999889999999876 667999999999  55555555433     5999999999
+
+
+Q ss_pred             cccccceeEEeecccccccceeeeehhcccccccccccCCCCCc-ceeEEEEEEeecCCCCCCceeeecccccc-ccccc
+Q brnachiostomaS  373 DLIDFTAEVRVDRHSNRFANITLVAAVGSLVGSITPYNGADGDR-SATVHRFELHVDSPPASNTIKRISLPKMI-NGTSR  450 (711)
+Q Consensus       373 ~l~~F~G~I~vD~~SNR~lnitv~~a~Gtl~G~V~~~~~~s~~k-~~~~~~Fs~~v~~~~~~n~~~~i~lP~~i-n~~r~  450 (711)
+                      +|.+|+|+|+||++|||||||||+||+|+|+|.||.    ++++ +.++++|+++|+++++++++++|+||++| +|+||
+T Consensus       409 ~l~~FtGtI~vD~~SNR~LNITi~~AkGtLiG~V~~----s~~~~s~~~~~Ft~~v~~~~~~n~t~~I~LPa~I~ng~r~  484 (658)
+T 4cyl_A          409 RIRDFSGSIIVDSKSNRLFNLTVYEASGKIDGSVKM----STGFGSDTIHTFTAYVSDLHASNRSMIIPLPAIVGQGARA  484 (658)
+T ss_dssp             BCSEEECEEEECTTCCEEEEEEEEEEBEEEEEEEES----SSSTTSCEEEEEEEEECCSSCEEEEEEEECCTTSCSSCEE
+T ss_pred             eeeeeeEEEEEcCCCccEEEEEEEccccEEEEEEEe----cCCCCccceEEEEEEecCcCcccceEEEecCceecCCceE
+Confidence            999999999999999999999999999999999999    7776 88999999999999999999999999997 79999
+
+
+Q ss_pred             eeecCCCCC-CccccccchhHHHHhhccccCCCCCCCCCCCCCCCccchhhhhhhccCCchhhhhhhHHHHHHHHHHHHH
+Q brnachiostomaS  451 MCLSPLSKP-NNEVCKTVPFLQEALQDFFVPPTWRPGNPEDAGPGFNFNWLFDFFGFLNPAEWFDGIQGWLELFAMLLDI  529 (711)
+Q Consensus       451 VCi~p~~~~-~~e~CK~~~Y~s~~l~~~~v~~~w~~g~g~~~c~~cN~~~~~~f~~~Lnp~~Wi~~v~s~~e~V~v~~~i  529 (711)
+                      |||+|++++ +.|+|||++|.++||+++.++|+|++|+|+  ||+||++++++|+++|||++|++||++++|+|||++||
+T Consensus       485 VCl~P~~~~~~~eiCk~i~Y~~~pL~~~~~~~~W~~~~G~--C~~CNe~~~~~f~~~LnP~~W~~gi~s~~e~v~~~~ei  562 (658)
+T 4cyl_A          485 ICLRADSMADIDKICHVIEYFESPLEIDLVEGKWHEMIGT--CPTCNQINFNGMMKFLNPAHWIKGISSIGDGVMIATDI  562 (658)
+T ss_dssp             EEEEETTCCTTTCEEEEEEEEECCC--------------------------------------CCCCEECSSCCSCCC--
+T ss_pred             EEEeeCCCCcccccceEEeeEEeccccccccCceeecCCC--CCCccccChhhhhhhcCHHHHHhcCCCHHHHHHHHHHH
+Confidence            999999999 789999999999999999999999999999  99999999999999999999999873322222222357
+
+
+Q ss_pred             HHHHhHhhhheeeeeeee--------cccccccccccCCcchh-hhhhhcccc
+Q brnachiostomaS  530 ALFIAGIFLFIKVSLLVT--------SGLCLDSLSHLGDFTAE-VVLDRFSNL  573 (711)
+Q Consensus       530 ~v~i~~~l~~~~~~~~~t--------c~~c~~~~s~~~~F~g~-I~vD~~SNr  573 (711)
+                      ++|+++++++|   ++||        |++|+.+.-....+... ..-|++.|-
+T Consensus       563 ~~~i~~l~i~~---li~tkciipl~~c~ic~~~~~~~~~~~~~~~~~~~~~~~  612 (658)
+T 4cyl_A          563 VVYLGVLCILY---LLITKIIVPLVRCWVCPMSIFCNGSSSSSKNKNDKRRKE  612 (658)
+T ss_dssp             -----------------------------------------------------
+T ss_pred             HHHHHHHHHHH---HHHHhheeccceeEEccccccccccccccccccchhhhh
+Confidence            88888888888   8888        78888876554422210 111111111
+
+
+No 2  
+>4ojd_H EFF-1A; class II fusion protein, membrane fusion protein, cell surfa membrane protein; HET: NAG BMA; 2.26A {Caenorhabditis elegans} PDB: 4oje_H* 4ojc_A*
+Probab=100.00  E-value=3.2e-126  Score=1047.72  Aligned_cols=470  Identities=21%  Similarity=0.372  Sum_probs=405.3
+
+Q ss_pred             CeeEEEEeeccccCCccccccCCccceeecchhhHHHHHHHHHhccCCCCCeEEEEEeeccCCCCCCceEEEeeecCCce
+Q brnachiostomaS    1 RAVLLWASISGIHGNRCTKTLPTTGHVRYSSRESAQALVETFIQSSIKPGETLCFILHDVTNDDASSDVSISMATNGSVP   80 (711)
+Q Consensus         1 ~~~~~~~~~~~~~~~~Ct~~~~~~g~~~~~~~~~~~~~~~~~~q~~i~l~~t~Cf~l~~~~~~~~~~~~~~~~~~~~~~~   80 (711)
+                      |+|++||+||++++|||+|+++|+||+|+ |+++++ +++|+||++||||||+||+|++++++++|+++| +++++++++
+T Consensus         4 ~~~~~~~~~~~~~~~hc~~~~~~~~~~~~-~~~~~~-~~~~~~q~~i~L~eT~Cf~l~~~~~~~~s~~~~-~~~~~~~~~   80 (526)
+T 4ojd_H            4 PLEEKFDGLFRAEPPHCSKTPIVRAQTSQ-NAMSSI-ARGMQMQFSIGLHTAVCFRLYEDTQLASQEIND-DENAGNQTS   80 (526)
+T ss_dssp             ----------CCCCCCBCCCCCEEEECCC-CCC------CEEEEEEECTTCEEEEEEC---------------------C
+T ss_pred             chhhhhcccccCCCCccccchhhhchhcc-cccccc-eeeEEEEEEeccCceEEEEEEcccccccccccc-ccccccccc
+Confidence            58999999999999999999999999998 888876 445558999999999999999999999999999 888999999
+
+
+Q ss_pred             eeEeeeecceeeeccccceeeeccccCCcccccCCCCCCCcccCCC--CC-Cccc----cccceeecccCCCCCcceEEE
+Q brnachiostomaS   81 LLWQLTYEGIEMDYGVKNRYSFYRPKYESKCVCDCPQYGDYCNSKT--NR-CTDH----ELDFCYNTYIPDQTAHGCTVY  153 (711)
+Q Consensus        81 ~lhtl~~~~le~~~pI~~~Y~F~iP~v~~~CiCdC~~~~~~C~~~~--~~-C~~~----~~~~Cyrty~~~qs~~gC~~~  153 (711)
+                      +||||+|++|||||||+++|+||||+|+++|||||+|++|+|++++  |. |+++    ++++|||||||+|+++||+  
+T Consensus        81 ~lHti~~~~leq~ypI~~~Y~F~IP~v~t~CiCdC~g~~~~C~~~~y~~~nC~~~~~~~~~~~CYrTYh~~qs~~gC~--  158 (526)
+T 4ojd_H           81 LLHTIRLEKLEHHHPITQRYTFGIPEVHASCICECDATSSTCTAESHQFTACPESDKSDETSSCYRTFFPNQTPIGCS--  158 (526)
+T ss_dssp             CEEEEEEEEEEEEEEEEEEEEECCEEEEEEEEEESCTTCSSSCHHHHSSCBCCC----CTTCEEEEEEECSCCCTTSC--
+T ss_pred             eEEEEEEeehhccCccceeEEecCCccccceEEeCCCCCCccccccccccccCcccccccccceeEEecCCCCCCCCC--
+Confidence            9999999999999999999999999999999999999999999953  44 9986    6999999999999999999  
+
+
+Q ss_pred             ecCCCceeeEEEecccCCCCCCcceEEEcCCCcceeE--EEeeeecccCce-EEEeeceEEEEecCccccc----cceEE
+Q brnachiostomaS  154 WNSEESEVCCALYVGKHPESPKYDAVYLSSDGKPIVK--LALKVYDSRTDE-VVYSYPTFTVALNDRTHRA----QHSVR  226 (711)
+Q Consensus       154 ~~~~~s~~CC~v~~~p~~~n~~y~AvkL~~~~qP~t~--~~y~~y~~~~~~-~~~~~~~~~v~ln~g~~~~----~~~i~  226 (711)
+                       ++++|++||+|+|+|| +||+|+||||+   ||+|+  |+|++||+++|+ +++++++|+++||+|++++    +|+|+
+T Consensus       159 -~~~~s~~CCeV~~~P~-~n~~y~AVkL~---QP~t~~~f~y~iyd~~~~~W~~~~~~~f~v~l~~g~~~~~~~~~~~i~  233 (526)
+T 4ojd_H          159 -EDDIPKLCCDVRFKPY-KNMTFLAVKLE---QPTTYATFVYAAYDFVNGYWVEKDKTKIRSQLDGGTQDRHLDQKRRIS  233 (526)
+T ss_dssp             -TTCCCEEEEEEEEEEG-GGCEEEEEEEC---CCEEEEEEEEEEEEEETTEEEEEEEEEEEEECSSSCEEEECSTTSCCE
+T ss_pred             -CcccccccEEEEEEcC-CCcEEEEEEec---CCCEEEEEEEEEEeccCCceEEecccEEEEEccCCcceeEEccCCeEE
+Confidence             9999999999999999 99999999999   99999  999999999999 9999999999999999988    89999
+
+
+Q ss_pred             EEEe-CCCC-ceecceeEEEeccc---eeEeecccccCCCCCCCCcceeEEec-cCCcccCCCcceeeeeeeeccccccC
+Q brnachiostomaS  227 MEVT-GDTP-TQIDSGYYYATSEG---TQLYTDASINGLNEFDPRKMGWLKVR-DDGTVERPPERTVLGAFHLKTHKCHN  300 (711)
+Q Consensus       227 l~v~-~~r~-~qL~~GmYf~~~~~---~~l~~~~pINei~E~nl~KLGW~R~~-~g~~~i~~g~~ki~~~h~v~v~NCk~  300 (711)
+                      |+|+ |||+ +||+|||||+++++   +++||++|||||+|+|++|||||||+ +|+|+|+||.+||++||||+|+|||+
+T Consensus       234 l~v~~g~r~~~qL~~GMYf~~~~~~~~~~~lr~v~iNei~E~nl~KLGWfR~~~~g~w~irnG~iki~~aH~V~v~NCk~  313 (526)
+T 4ojd_H          234 LAVTAGARASHQLETGMYFSRTSNGGETEELRMQPLNEITDNNFDRLGWYRMDDSGHFHVNNGVVKMEEIHKAKVKNCKE  313 (526)
+T ss_dssp             EEEECSSSCSCCCCSEEEEEEECTTCCCCBCBCCCBCCTTCCCTTSBTSEEECSSSCEEETTHHHHHHHHEEEEEEETTT
+T ss_pred             EEEecCCcchhhcCCcceEEEcCCCCcchhhhcccccccCCCCccccceeEEcCCCCEEEeCCcEehhhcCeeeeccCcc
+Confidence            9999 8899 99999999999875   78999999999999999999999999 78999999999999999999999999
+
+
+Q ss_pred             CcCccceeEE--EecCcccccCCCccccceeeeeeeeec-ccceeeEeecccceeEEEEEeeecc-----eeEEEEEecC
+Q brnachiostomaS  301 KFDYSETWQI--YGHGNLKHHSGSRVEDFYGWVRRVTYS-PLRRTVTVIPRYDRLVTVKIGINTT-----TNVLFFYHDS  372 (711)
+Q Consensus       301 q~~y~s~~~a--y~~~~~~~~lg~~le~~~~WI~~v~~~-~~~r~V~V~h~E~p~t~i~v~l~~~-----~~~~~~~~~S  372 (711)
+                      | +|+++|||  |  ++++|+||++|++.++||++|+++ +++|+|+|+|+|  ||+|+|+|+++     ++|+|+||+|
+T Consensus       314 Q-~y~~~~nA~~y--~~~~~~lg~~ve~~~~WI~s~~i~d~~~R~V~V~h~E--g~~v~V~l~~~~~~~~~~l~~~~h~S  388 (526)
+T 4ojd_H          314 Q-TYKSILSANHY--MPGHFNLTRPLEVIKPWIQSARIFDSSLRQAVVTHAE--GTNLQISIHLDDEVESQNLVFFHNAS  388 (526)
+T ss_dssp             T-EEEEEECSSSB--BTTBCCCCCCHHHHCTTEEEEEECSTTCCEEEEEESS--CCCEEEEEEC----CCCCEEEECCCC
+T ss_pred             c-eeeeeecceee--ecccccccCceeecCCcceeEEeecCCccEEEEEeCC--CCeEEEEEEecccccccceEEEEccc
+Confidence            9 99999999  7  788999999999999999999999 889999999999  99999999887     6999999999
+
+
+Q ss_pred             cccccceeEEeecccccccceeeeehhcccccccccccCCCCCc-ceeEEEEEEeecCCCCCCceeeecccccc-ccccc
+Q brnachiostomaS  373 DLIDFTAEVRVDRHSNRFANITLVAAVGSLVGSITPYNGADGDR-SATVHRFELHVDSPPASNTIKRISLPKMI-NGTSR  450 (711)
+Q Consensus       373 ~l~~F~G~I~vD~~SNR~lnitv~~a~Gtl~G~V~~~~~~s~~k-~~~~~~Fs~~v~~~~~~n~~~~i~lP~~i-n~~r~  450 (711)
+                      +|.+|+|+|+||++|||||||||++|+|||||+|++    ++++ ++++++||+||+++++++++++|+||++| ||+||
+T Consensus       389 ~l~~FtG~I~vD~~SNR~LNITi~~akGtLiG~V~~----s~~~~s~~~~~Fs~~v~~~~~~n~~~~I~LPa~I~~g~r~  464 (526)
+T 4ojd_H          389 RIRDFSGSIIVDSKSNRLFNLTVYEASGKIDGSVKM----STGFGSDTIHTFTAYVSDLHASNRSMIIPLPAIVGQGARA  464 (526)
+T ss_dssp             BCSEEEEEEEECTTCCEEEEEEEEEEBEEEEEEEES----SSSTTSCEEEEEEEEECCSSCEEEEEEEECCTTSCSSCEE
+T ss_pred             eeeceeEEEEEcCCCccEEEEEEEccccEEEEEEEe----cCCccccceEEEEEEecCCCcccceEEEecCceecCCceE
+Confidence            999999999999999999999999999999999999    8888 99999999999999999999999999999 69999
+
+
+Q ss_pred             eeecCCCCC-CccccccchhHHHHhhcccc-CCCCCCCCCC
+Q brnachiostomaS  451 MCLSPLSKP-NNEVCKTVPFLQEALQDFFV-PPTWRPGNPE  489 (711)
+Q Consensus       451 VCi~p~~~~-~~e~CK~~~Y~s~~l~~~~v-~~~w~~g~g~  489 (711)
+                      |||||++++ ++|+|||++|+++||+++++ +|+|+-.+=+
+T Consensus       465 VCl~P~~~~~~~eiCk~i~Y~~~pl~~~~~~~~~W~~~~~~  505 (526)
+T 4ojd_H          465 ICLRADSMADIDKICHVIEYFESPLFEDDDDKAGWSHPQFE  505 (526)
+T ss_dssp             EEEEETTCCGGGCEEEEECEEECCCC---------------
+T ss_pred             EEEeeCCCCcccceeeEEeeEeeecccCccccccccccccc
+Confidence            999999999 89999999999999999996 9999753322
+
+
+No 3  
+>4cyl_A EFF-1A; cell adhesion, cell-CELL fusion, extracellular fusion, membr fusion, PRE-fusion state; 22.20A {Caenorhabditis elegans}
+Probab=100.00  E-value=6.3e-50  Score=445.67  Aligned_cols=436  Identities=14%  Similarity=0.169  Sum_probs=188.4
+
+Q ss_pred             CCCCcceEEEcCCCcceeE-EEeeeecccCceEEEeeceEEEEecCcc----------------ccccceEEEE-EeCCC
+Q brnachiostomaS  172 ESPKYDAVYLSSDGKPIVK-LALKVYDSRTDEVVYSYPTFTVALNDRT----------------HRAQHSVRME-VTGDT  233 (711)
+Q Consensus       172 ~n~~y~AvkL~~~~qP~t~-~~y~~y~~~~~~~~~~~~~~~v~ln~g~----------------~~~~~~i~l~-v~~~r  233 (711)
+                      .| ..-+++..     ..+ +...+           .+|+=+.|....                ..+-|.|++. +.-  
+T Consensus        52 ~n-~~~s~~~~-----~~~q~~igL-----------~eT~Cf~L~~~~~~~~s~~~~~~~~~~~~~~lHti~~~rlEq--  112 (658)
+T 4cyl_A           52 QN-AMSSIARG-----MQMQFSIGL-----------HTAVCFRLYEDTQLASQEINDDENAGNQTSLLHTIRLEKLEH--  112 (658)
+T ss_dssp             CC-SCC---CC-----CEEEEEECT-----------TCEEEEEEC---------------------CEEEEEEEEEEE--
+T ss_pred             cc-ccCcceee-----EEEEEEecc-----------CceEEEEEecCCccccccccchhhcccccceEEEEEEeehhc--
+Confidence            12 33333322     112 33222           235555554321                1123555555 210  
+
+
+Q ss_pred             CceecceeEEEeccceeEeecccccCCCCCCCCcceeEEeccCCcccCCCcceeeeeeeeccccccCCc---CccceeEE
+Q brnachiostomaS  234 PTQIDSGYYYATSEGTQLYTDASINGLNEFDPRKMGWLKVRDDGTVERPPERTVLGAFHLKTHKCHNKF---DYSETWQI  310 (711)
+Q Consensus       234 ~~qL~~GmYf~~~~~~~l~~~~pINei~E~nl~KLGW~R~~~g~~~i~~g~~ki~~~h~v~v~NCk~q~---~y~s~~~a  310 (711)
+                       +-.=.++|-+..   .++...=|.|=+-.+              ++=+       +=.-+..||-.-=   .-..=|.-
+T Consensus       113 -~yPI~~~Y~F~I---P~v~t~CiCdC~g~~--------------~~C~-------~~~y~~~nC~~~~~~~~~~~CYrT  167 (658)
+T 4cyl_A          113 -HHPITQRYTFGI---PEVHASCICECDATS--------------STCT-------AESHQFTACPESDKSDETSSCYRT  167 (658)
+T ss_dssp             -CCCSCCEEEECC---EEEEEECCEESSTTC--------------SSSC-------HHHHTTBCCCCCSSSCSSCEEEEE
+T ss_pred             -cCccceeEEecC---CccccceEEeCCCCC--------------Cccc-------ccccccccCCCccccccccceeEE
+Confidence             222346787764   455543343331111              1100       0001124565420   23445566
+
+
+Q ss_pred             EecCcccccCCCccccceeeeeeeeec-ccceeeEeecccceeEEEEEeeec----ceeEEEEEecCcccccceeEEeec
+Q brnachiostomaS  311 YGHGNLKHHSGSRVEDFYGWVRRVTYS-PLRRTVTVIPRYDRLVTVKIGINT----TTNVLFFYHDSDLIDFTAEVRVDR  385 (711)
+Q Consensus       311 y~~~~~~~~lg~~le~~~~WI~~v~~~-~~~r~V~V~h~E~p~t~i~v~l~~----~~~~~~~~~~S~l~~F~G~I~vD~  385 (711)
+                      |  -+.+-+.|=+.++.-.===.|++. ..++.-+=+--+.|.|-+...+.+    ..+....+.    ..|  +|.||+
+T Consensus       168 Y--h~~Qs~~gC~~~s~s~lCCeV~~~Py~n~~y~AVKL~QP~t~a~f~y~iyd~~~~~W~~~~~----~~f--~v~l~~  239 (658)
+T 4cyl_A          168 F--FPNQTPIGCSEDDIPKLCCDVRFKPYKNMTFLAVKLEQPTTYATFVYAAYDFVNGYWVEKDK----TKI--RSQLDG  239 (658)
+T ss_dssp             E--EESCCCTTSCTTCCCEEEEEEEEEESTTCEEEEEECCCCCEEEEEEEEEEEECSSSEEEEEE----EEE--EEECSS
+T ss_pred             e--cCCCCCCCCCCCCCcccceEEEEEcCCCcEEEEEEecCCCEEEEEEEEEEeccCCceEEecc----cEE--EEEccC
+Confidence            6  345666677666422211223333 222333333333334544444311    011111111    111  234433
+
+
+Q ss_pred             c-------cccccceeeeehhcccccccccccCCCCCcceeEEEEEEeecCCCCCC----ceeeeccccc-cccccceee
+Q brnachiostomaS  386 H-------SNRFANITLVAAVGSLVGSITPYNGADGDRSATVHRFELHVDSPPASN----TIKRISLPKM-INGTSRMCL  453 (711)
+Q Consensus       386 ~-------SNR~lnitv~~a~Gtl~G~V~~~~~~s~~k~~~~~~Fs~~v~~~~~~n----~~~~i~lP~~-in~~r~VCi  453 (711)
+                      -       +=|-+.|.+. |-|..+    .       .-+.-+=|.. - +.....    ...+-.+... ++---|.=.
+T Consensus       240 g~~~~~~~~~~~i~l~v~-a~gr~~----~-------qL~~GMYF~~-~-~~~ge~~~Lr~vpiNei~E~nl~KLGWfR~  305 (658)
+T 4cyl_A          240 GTQDRHLDQKRRISLAVT-AGGRAS----H-------QLETGMYFSR-T-SNGGETEELRMQPLNEITDNNFDRLGWYRM  305 (658)
+T ss_dssp             SCEEEECSTTCCCEEEEE-CSSSCS----C-------CCCCSEEEEE-E-CC--CCCBCBCCCBCCTTCCCTTSBCSEEE
+T ss_pred             CcceeEeccCCcEEEEEe-cCCccc----c-------ccCCcceEEe-c-CCCCcchhhhcccccccCCCCccccceeEE
+Confidence            3       3344566652 212111    1       1122233332 1 211111    1222222222 122235555
+
+
+Q ss_pred             cCCCCCCccccccchhHHHHhhc-------------cccCCCCCCCCCCCCCCCccchhhhhhhccCCchhhhhhh----
+Q brnachiostomaS  454 SPLSKPNNEVCKTVPFLQEALQD-------------FFVPPTWRPGNPEDAGPGFNFNWLFDFFGFLNPAEWFDGI----  516 (711)
+Q Consensus       454 ~p~~~~~~e~CK~~~Y~s~~l~~-------------~~v~~~w~~g~g~~~c~~cN~~~~~~f~~~Lnp~~Wi~~v----  516 (711)
+                      ...++   ...|-=.-+-+..-.             ..-++-|..++..      .+..++..    .  .|+..+    
+T Consensus       306 ~~~g~---w~vrnG~ikI~~aH~V~V~NCK~Q~y~s~lnA~~y~~~~~~------lg~~ve~~----~--~WI~s~~v~d  370 (658)
+T 4cyl_A          306 DDSGH---FHVNNGVVKMDDIHKAKVKNCKEQTYKSILSANHYMPGHFN------LTRPLEVI----K--PWIQSARIFD  370 (658)
+T ss_dssp             CTTSC---EEETTHHHHHHHHEEEEEEETTTTEEEEEESCSSBBTTBCC------CCCBHHHH----C--TTEEEEEECS
+T ss_pred             cCCCC---EEEeCcceehhhcCeeeeccCccceeeeeecceeecccccc------ccCccccc----C--CCeeeEEEec
+Confidence            55332   333333333333332             3345556323222      11122222    0  132210    
+
+
+Q ss_pred             -HHHHHHHHHHHHHHHHHhHhhhheee------eeeee--ccc-----c---cccccccCCcchhhhhhhcccccceeee
+Q brnachiostomaS  517 -QGWLELFAMLLDIALFIAGIFLFIKV------SLLVT--SGL-----C---LDSLSHLGDFTAEVVLDRFSNLYANITL  579 (711)
+Q Consensus       517 -~s~~e~V~v~~~i~v~i~~~l~~~~~------~~~~t--c~~-----c---~~~~s~~~~F~g~I~vD~~SNrylNiT~  579 (711)
+                       ..                   =-+.|      ++-++  ...     =   .-+.+...+|+.....|+++|.|.|||+
+T Consensus       371 ~s~-------------------R~V~V~H~Egt~v~V~l~~~~~~~~~~l~~~~h~S~l~~FtGtI~vD~~SNR~LNITi  431 (658)
+T 4cyl_A          371 SSL-------------------RQAVVTHAEGTNLQISIHLDDEVESQNLVFFHNASRIRDFSGSIIVDSKSNRLFNLTV  431 (658)
+T ss_dssp             TTC-------------------CCEEEEESSCCCEEEEEEC----CCCCEEEECCCCBCSEEECEEEECTTCCEEEEEEE
+T ss_pred             CCc-------------------cEEEEEecCCCeEEEEEEecccccccceEEEEcceeeeeeeEEEEEcCCCccEEEEEE
+Confidence             00                   01111      11111  110     0   1134444577888889999999999999
+
+
+Q ss_pred             hhhhccccccccccccccc-cCcceEEEEeecCCCceeeeeEeecCCCc-ccccccccCCCCccc-ccccccCCcccccc
+Q brnachiostomaS  580 VAAVGSLAGTIAPLVTENQ-HGIPFTFELLVDSPSRVTSVKRVSLPSNI-HGHSRMCLSPLSRPD-MQICKKVPFVEEPI  656 (711)
+Q Consensus       580 ~~a~Gtl~G~v~~s~~~~~-~~~~~~fs~~v~~~~~~~~~~~i~lp~~i-~g~r~vC~~p~~~~~-~~~Ck~i~y~~~~l  656 (711)
+                      ..|-|.|-|.|-.  .+.. --.-|+|.+.|++.+.--.-.+++||+.| -|-..+||.|+.+|+ -++||.++|.|+|.
+T Consensus       432 ~~AkGtLiG~V~~--s~~~~s~~~~~Ft~~v~~~~~~n~t~~I~LPa~I~ng~r~VCl~P~~~~~~~eiCk~i~Y~~~pL  509 (658)
+T 4cyl_A          432 YEASGKIDGSVKM--STGFGSDTIHTFTAYVSDLHASNRSMIIPLPAIVGQGARAICLRADSMADIDKICHVIEYFESPL  509 (658)
+T ss_dssp             EEEBEEEEEEEES--SSSTTSCEEEEEEEEECCSSCEEEEEEEECCTTSCSSCEEEEEEETTCCTTTCEEEEEEEEECCC
+T ss_pred             EccccEEEEEEEe--cCCCCccceEEEEEEecCcCcccceEEEecCceecCCceEEEEeeCCCCcccccceEEeeEEecc
+Confidence            9999999998843  2222 34569999999998877778999999998 567778999999995 67999999999998
+
+
+Q ss_pred             cccccCCCcccccccccccccCCceEeEeeeccCcCcccccccCcccccceeecC
+Q brnachiostomaS  657 GRFLAPSEPKLRAGESQKQRSNNGTILSFQEYMNPGQWLDGVQTPLESAAIAVDV  711 (711)
+Q Consensus       657 ~~~~~~~~~~w~~~~g~c~~cn~~~~~~f~~~lnP~~w~~gv~s~~e~~~~~~~v  711 (711)
+                      --..-  +.+...|..-=..-|.-..-+|-.||||-+|++|++++.|.+++|+||
+T Consensus       510 ~~~~~--~~~W~~~~G~C~~CNe~~~~~f~~~LnP~~W~~gi~s~~e~v~~~~ei  562 (658)
+T 4cyl_A          510 EIDLV--EGKWHEMIGTCPTCNQINFNGMMKFLNPAHWIKGISSIGDGVMIATDI  562 (658)
+T ss_dssp             --------------------------------------CCCCEECSSCCSCCC--
+T ss_pred             ccccc--cCceeecCCCCCCccccChhhhhhhcCHHHHHhcCCCHHHHHHHHHHH
+Confidence            65443  334444443322222223445899999999999999999999999886
+
+
+No 4  
+>4ojd_H EFF-1A; class II fusion protein, membrane fusion protein, cell surfa membrane protein; HET: NAG BMA; 2.26A {Caenorhabditis elegans} PDB: 4oje_H* 4ojc_A*
+Probab=100.00  E-value=1.2e-36  Score=332.73  Aligned_cols=394  Identities=15%  Similarity=0.182  Sum_probs=0.0
+
+Q ss_pred             eEEEEecCccccc---cceEEEEEeCCCC--ceecc-------------------eeEEEeccceeEeecccccCCCCCC
+Q brnachiostomaS  209 TFTVALNDRTHRA---QHSVRMEVTGDTP--TQIDS-------------------GYYYATSEGTQLYTDASINGLNEFD  264 (711)
+Q Consensus       209 ~~~v~ln~g~~~~---~~~i~l~v~~~r~--~qL~~-------------------GmYf~~~~~~~l~~~~pINei~E~n  264 (711)
+                      ..+-++-...-..   ...|++++.=+..  -.|+.                   ++.|+... ..|.+..||-+.|+|.
+T Consensus        25 ~~~~~~~~~~~~~~~~~~~~q~~i~L~eT~Cf~l~~~~~~~~s~~~~~~~~~~~~~~lHti~~-~~leq~ypI~~~Y~F~  103 (526)
+T 4ojd_H           25 IVRAQTSQNAMSSIARGMQMQFSIGLHTAVCFRLYEDTQLASQEINDDENAGNQTSLLHTIRL-EKLEHHHPITQRYTFG  103 (526)
+T ss_dssp             CEEEECCCCCC-----CEEEEEEECTTCEEEEEEC--------------------CCEEEEEE-EEEEEEEEEEEEEEEC
+T ss_pred             hhhchhcccccccceeeEEEEEEeccCceEEEEEEccccccccccccccccccccceEEEEEE-eehhccCccceeEEec
+
+
+Q ss_pred             CCcceeEEe-c-cCCcccCCCcceeeeeeeeccccccC------CcCccceeEEEecCcccccCCCccccceeeeeeeee
+Q brnachiostomaS  265 PRKMGWLKV-R-DDGTVERPPERTVLGAFHLKTHKCHN------KFDYSETWQIYGHGNLKHHSGSRVEDFYGWVRRVTY  336 (711)
+Q Consensus       265 l~KLGW~R~-~-~g~~~i~~g~~ki~~~h~v~v~NCk~------q~~y~s~~~ay~~~~~~~~lg~~le~~~~WI~~v~~  336 (711)
+                      +|++---|+ + .|..+.|+-+       .++++||..      +..|+.||++     .|.+.||+.++ .     +++
+T Consensus       104 IP~v~t~CiCdC~g~~~~C~~~-------~y~~~nC~~~~~~~~~~~CYrTYh~-----~qs~~gC~~~~-~-----s~~  165 (526)
+T 4ojd_H          104 IPEVHASCICECDATSSTCTAE-------SHQFTACPESDKSDETSSCYRTFFP-----NQTPIGCSEDD-I-----PKL  165 (526)
+T ss_dssp             CEEEEEEEEEESCTTCSSSCHH-------HHSSCBCCC----CTTCEEEEEEEC-----SCCCTTSCTTC-C-----CEE
+T ss_pred             CCccccceEEeCCCCCCccccc-------cccccccCcccccccccceeEEecC-----CCCCCCCCCcc-c-----ccc
+
+
+Q ss_pred             cccceeeEeecccc-eeEEEEEeeecceeEEEEEec----------Cccccc-----ceeEEeecccccccceeeeehhc
+Q brnachiostomaS  337 SPLRRTVTVIPRYD-RLVTVKIGINTTTNVLFFYHD----------SDLIDF-----TAEVRVDRHSNRFANITLVAAVG  400 (711)
+Q Consensus       337 ~~~~r~V~V~h~E~-p~t~i~v~l~~~~~~~~~~~~----------S~l~~F-----~G~I~vD~~SNR~lnitv~~a~G  400 (711)
+                         +|.|+|+|+++ +.+||+|++ +.+-.+|.|.+          .+-+.|     .|+..++.++.|.++|.+.++  
+T Consensus       166 ---CCeV~~~P~~n~~y~AVkL~Q-P~t~~~f~y~iyd~~~~~W~~~~~~~f~v~l~~g~~~~~~~~~~~i~l~v~~g--  239 (526)
+T 4ojd_H          166 ---CCDVRFKPYKNMTFLAVKLEQ-PTTYATFVYAAYDFVNGYWVEKDKTKIRSQLDGGTQDRHLDQKRRISLAVTAG--  239 (526)
+T ss_dssp             ---EEEEEEEEGGGCEEEEEEECC-CEEEEEEEEEEEEEETTEEEEEEEEEEEEECSSSCEEEECSTTSCCEEEEECS--
+T ss_pred             ---cEEEEEEcCCCcEEEEEEecC-CCEEEEEEEEEEeccCCceEEecccEEEEEccCCcceeEEccCCeEEEEEecC--
+
+
+Q ss_pred             ccccccccccCCCCCcceeEEEEEEeecCCCCCCceeeeccccc-ccccc-----ceeecCCCCC---C-----------
+Q brnachiostomaS  401 SLVGSITPYNGADGDRSATVHRFELHVDSPPASNTIKRISLPKM-INGTS-----RMCLSPLSKP---N-----------  460 (711)
+Q Consensus       401 tl~G~V~~~~~~s~~k~~~~~~Fs~~v~~~~~~n~~~~i~lP~~-in~~r-----~VCi~p~~~~---~-----------  460 (711)
+                                |....+.+.+|+|.-.-  .++....++ ..|.+ +++..     |....+.++-   +           
+T Consensus       240 ----------~r~~~qL~~GMYf~~~~--~~~~~~~lr-~v~iNei~E~nl~KLGWfR~~~~g~w~irnG~iki~~aH~V  306 (526)
+T 4ojd_H          240 ----------ARASHQLETGMYFSRTS--NGGETEELR-MQPLNEITDNNFDRLGWYRMDDSGHFHVNNGVVKMEEIHKA  306 (526)
+T ss_dssp             ----------SSCSCCCCSEEEEEEEC--TTCCCCBCB-CCCBCCTTCCCTTSBTSEEECSSSCEEETTHHHHHHHHEEE
+T ss_pred             ----------CcchhhcCCcceEEEcC--CCCcchhhh-cccccccCCCCccccceeEEcCCCCEEEeCCcEehhhcCee
+
+
+Q ss_pred             -ccccccchhHHHHhhccccCCCCCCCCCCCCCCCccchhhhhhhccCCchhhhhhhHHHHHHHHHHHHHHHHHhHhhhh
+Q brnachiostomaS  461 -NEVCKTVPFLQEALQDFFVPPTWRPGNPEDAGPGFNFNWLFDFFGFLNPAEWFDGIQGWLELFAMLLDIALFIAGIFLF  539 (711)
+Q Consensus       461 -~e~CK~~~Y~s~~l~~~~v~~~w~~g~g~~~c~~cN~~~~~~f~~~Lnp~~Wi~~v~s~~e~V~v~~~i~v~i~~~l~~  539 (711)
+                       +++||-|+|.+...++++.....--|..-         ...        .+||+.|                       
+T Consensus       307 ~v~NCk~Q~y~~~~nA~~y~~~~~~lg~~v---------e~~--------~~WI~s~-----------------------  346 (526)
+T 4ojd_H          307 KVKNCKEQTYKSILSANHYMPGHFNLTRPL---------EVI--------KPWIQSA-----------------------  346 (526)
+T ss_dssp             EEEETTTTEEEEEECSSSBBTTBCCCCCCH---------HHH--------CTTEEEE-----------------------
+T ss_pred             eeccCccceeeeeecceeeecccccccCce---------eec--------CCcceeE-----------------------
+
+
+Q ss_pred             eee------eeeee--------------------cccccccccccCCcchhhhhhhcccccceeeehhhhcccccccccc
+Q brnachiostomaS  540 IKV------SLLVT--------------------SGLCLDSLSHLGDFTAEVVLDRFSNLYANITLVAAVGSLAGTIAPL  593 (711)
+Q Consensus       540 ~~~------~~~~t--------------------c~~c~~~~s~~~~F~g~I~vD~~SNrylNiT~~~a~Gtl~G~v~~s  593 (711)
+                       .+      +++++                    -+.-.+|.|+|.+|+|+|+||++||||||||||||+|||+|.|+.+
+T Consensus       347 -~i~d~~~R~V~V~h~Eg~~v~V~l~~~~~~~~~~l~~~~h~S~l~~FtG~I~vD~~SNR~LNITi~~akGtLiG~V~~s  425 (526)
+T 4ojd_H          347 -RIFDSSLRQAVVTHAEGTNLQISIHLDDEVESQNLVFFHNASRIRDFSGSIIVDSKSNRLFNLTVYEASGKIDGSVKMS  425 (526)
+T ss_dssp             -EECSTTCCEEEEEESSCCCEEEEEEC----CCCCEEEECCCCBCSEEEEEEEECTTCCEEEEEEEEEEBEEEEEEEESS
+T ss_pred             -EeecCCccEEEEEeCCCCeEEEEEEecccccccceEEEEccceeeceeEEEEEcCCCccEEEEEEEccccEEEEEEEec
+
+
+Q ss_pred             ccccccCcceEEEEeecCCCceeeeeEeecCCCcc-cccccccCCCCcc-cccccccCCccccccccccc-CCCcccccc
+Q brnachiostomaS  594 VTENQHGIPFTFELLVDSPSRVTSVKRVSLPSNIH-GHSRMCLSPLSRP-DMQICKKVPFVEEPIGRFLA-PSEPKLRAG  670 (711)
+Q Consensus       594 ~~~~~~~~~~~fs~~v~~~~~~~~~~~i~lp~~i~-g~r~vC~~p~~~~-~~~~Ck~i~y~~~~l~~~~~-~~~~~w~~~  670 (711)
+                      ++++ +..+++||++|++.++++++++|+||++|+ |+||||+||++++ +.++|||++|+++||++++. +++  |+--
+T Consensus       426 ~~~~-s~~~~~Fs~~v~~~~~~n~~~~I~LPa~I~~g~r~VCl~P~~~~~~~eiCk~i~Y~~~pl~~~~~~~~~--W~~~  502 (526)
+T 4ojd_H          426 TGFG-SDTIHTFTAYVSDLHASNRSMIIPLPAIVGQGARAICLRADSMADIDKICHVIEYFESPLFEDDDDKAG--WSHP  502 (526)
+T ss_dssp             SSTT-SCEEEEEEEEECCSSCEEEEEEEECCTTSCSSCEEEEEEETTCCGGGCEEEEECEEECCCC--------------
+T ss_pred             CCcc-ccceEEEEEEecCCCcccceEEEecCceecCCceEEEEeeCCCCcccceeeEEeeEeeecccCcccccc--cccc
+
+
+Q ss_pred             cccccccCCceEeE
+Q brnachiostomaS  671 ESQKQRSNNGTILS  684 (711)
+Q Consensus       671 ~g~c~~cn~~~~~~  684 (711)
+                      +-+.-++.-++..+
+T Consensus       503 ~~~~~~~~~~~~~~  516 (526)
+T 4ojd_H          503 QFEKGGGSGGGSGG  516 (526)
+T ss_dssp             --------------
+T ss_pred             ccccCCCCCCCCCC
+
+
+No 5  
+>2krx_A ASL3597 protein; structural genomics, PSI-2, protein structure initiative, no structural genomics consortium, NESG, unknown function; NMR {Nostoc SP}
+Probab=9.66  E-value=1.6e+02  Score=21.90  Aligned_cols=39  Identities=18%  Similarity=0.083  Sum_probs=19.5
+
+Q ss_pred             hhhHHHHHHHHHhccCCCCCeEE-EEEeeccCCCCCCceEEEeeecCCceeeEeeeecceeeeccc
+Q brnachiostomaS   32 RESAQALVETFIQSSIKPGETLC-FILHDVTNDDASSDVSISMATNGSVPLLWQLTYEGIEMDYGV   96 (711)
+Q Consensus        32 ~~~~~~~~~~~~q~~i~l~~t~C-f~l~~~~~~~~~~~~~~~~~~~~~~~~lhtl~~~~le~~~pI   96 (711)
+                      +...+|+.-.-+         +| +.+.                 .+.+-.-+.+++++|||||--
+T Consensus        54 s~e~qaq~Lldt---------~CELei~-----------------pG~~lQWYaVRL~~~~~~~~~   93 (94)
+T 2krx_A           54 SLPAQAQHLIDT---------SCELDVG-----------------AGKYLQWYAVRLEKLEHHHHH   93 (94)
+T ss_dssp             CHHHHHHHHHHH---------CCCEEEE-----------------TTEEEEEEECCCCCSTTCCCC
+T ss_pred             CHHHHHHHHHhc---------ceeeecC-----------------CCCEEEEEEEEhhhhhhcccC
+Confidence            111121222111         12 2232                 344567788999999998742
+
+
+No 6  
+>3zyj_B Netrin-G1; cell adhesion, synapse; HET: NAG BMA MAN; 3.25A {Homo sapiens}
+Probab=6.38  E-value=4.6e+02  Score=22.80  Aligned_cols=112  Identities=14%  Similarity=0.193  Sum_probs=43.6
+
+Q ss_pred             ccCCcccc----ccCCcccee-ecchhhHHHH-----------HH------HHHhccCCCCCeEEEEEeeccCCCCCCce
+Q brnachiostomaS   12 IHGNRCTK----TLPTTGHVR-YSSRESAQAL-----------VE------TFIQSSIKPGETLCFILHDVTNDDASSDV   69 (711)
+Q Consensus        12 ~~~~~Ct~----~~~~~g~~~-~~~~~~~~~~-----------~~------~~~q~~i~l~~t~Cf~l~~~~~~~~~~~~   69 (711)
+                      ...+-|+.    ..+..|.+- . ........           ..      ..+|--   ..-.-+++..          
+T Consensus       201 ~~~~~Ct~~~s~~~p~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~s~~lq~~---~tat~iRi~~----------  266 (426)
+T 3zyj_B          201 VLEIICTEEYSTGYTTNSKIIHF-EIKDRFAFFAGPRLRNMASLYGQLDTTKKLRDF---FTVTDLRIRL----------  266 (426)
+T ss_dssp             SSCCCEECTTTCSSSTTTTEEEE-CSHHHHHHHHCSSCCCHHHHHHHHHHCHHHHHH---SEEEEEEEEE----------
+T ss_pred             CccccccCCCCCCCCCCCceeee-ecccccccccCCccccCcccccccccCHHHHhh---eecceEEEEE----------
+Confidence            23455753    345555443 4 32221100           00      011200   0112455532          
+
+
+Q ss_pred             EEEeeecCCceeeEeeeecceeeeccccceeeeccccCCcccccCCCCCCCcccCCCCC----Cccc-cccce---eecc
+Q brnachiostomaS   70 SISMATNGSVPLLWQLTYEGIEMDYGVKNRYSFYRPKYESKCVCDCPQYGDYCNSKTNR----CTDH-ELDFC---YNTY  141 (711)
+Q Consensus        70 ~~~~~~~~~~~~lhtl~~~~le~~~pI~~~Y~F~iP~v~~~CiCdC~~~~~~C~~~~~~----C~~~-~~~~C---yrty  141 (711)
+                        .....+.           +-..-.....|.|+|..+...-.|.|.|....|......    |..+ .+..|   -..|
+T Consensus       267 --~~~~~~~-----------~~~~~~~~~~~~yai~d~~v~g~C~C~gha~~C~~~~~~~~C~C~~~t~G~~Ce~C~~~~  333 (426)
+T 3zyj_B          267 --LRPAVGE-----------IFVDELHLARYFYAISDIKVRGRCKCNLHATVCVYDNSKLTCECEHNTTGPDCGKCKKNY  333 (426)
+T ss_dssp             --EECCCSS-----------SSCCSSCGGGCCCEEEEEECEEEECCSSSCSCEEEETTEEEECCCTTEESSSSCEECTTC
+T ss_pred             --ecccCCc-----------cccCccccccccccccccccCcccCCCCCCCcccCcccccccccCCCccCCCcCcCcCcc
+Confidence              1100000           001124556788888888888888888877777432111    3332 11112   1122
+
+
+Q ss_pred             cCCCCCcce
+Q brnachiostomaS  142 IPDQTAHGC  150 (711)
+Q Consensus       142 ~~~qs~~gC  150 (711)
+                      ....-..|-
+T Consensus       334 ~~~p~~~g~  342 (426)
+T 3zyj_B          334 QGRPWSPGS  342 (426)
+T ss_dssp             CSSCCCCCB
+T ss_pred             cCCccCCCc
+Confidence            211111111
+
+
+No 7  
+>2n17_A Lysozyme-protease inhibitor protein; kazal-type, serine protease inhibitor, chymotrypsin, elastas termite, soldier, defense gland; NMR {Coptotermes formosanus}
+Probab=3.89  E-value=3.2e+02  Score=17.71  Aligned_cols=49  Identities=12%  Similarity=0.145  Sum_probs=15.1
+
+Q ss_pred             ceeeeccccCCcccccCCCCC-CCcccCCCCCCccccccceeecccC-----------CCCCcceEEEecCC
+Q brnachiostomaS   98 NRYSFYRPKYESKCVCDCPQY-GDYCNSKTNRCTDHELDFCYNTYIP-----------DQTAHGCTVYWNSE  157 (711)
+Q Consensus        98 ~~Y~F~iP~v~~~CiCdC~~~-~~~C~~~~~~C~~~~~~~Cyrty~~-----------~qs~~gC~~~~~~~  157 (711)
+                      .+|-|-.=.-...|.+.|+.. .-+       |..  ...||+||..           ......=. + .+.
+T Consensus         5 ~~~~~~~~~~~~~C~~~C~~~~~PV-------Cgs--dg~~~~Ty~N~C~l~~~~C~~~~~~i~~~-~-~G~   65 (75)
+T 2n17_A            5 HHHHVDDDDKPEDCQLFCPMIYAPI-------CAT--DGVSQRTFSNPCDLKVYNCWNPDNPYKEV-K-VGE   65 (75)
+T ss_dssp             -------------CCCCCCSCCCCE-------EEC--SSSSCEEESSHHHHHHHHHHCSSSCCCEE-E-SSC
+T ss_pred             cceEEEeccccCCCCCCCCCCCCCc-------eec--CCCccceECCHHHhhHhhhcCCCCceEEE-E-CCC
+Confidence            112222222234566666652 222       433  2237888863           22233211 1 111
+
+
+No 8  
+>2p9m_A Hypothetical protein MJ0922; structural genomics, collaboratory for structural genomics, secsg; 2.59A {Methanocaldococcus jannaschii dsm 2661ORGANISM_TAXID}
+Probab=0.18  E-value=2.5e+03  Score=11.73  Aligned_cols=26  Identities=4%  Similarity=-0.132  Sum_probs=4.9
+
+Q ss_pred             cccccceeecCCCCCCccccccchhHHHHhhcccc
+Q brnachiostomaS  445 INGTSRMCLSPLSKPNNEVCKTVPFLQEALQDFFV  479 (711)
+Q Consensus       445 in~~r~VCi~p~~~~~~e~CK~~~Y~s~~l~~~~v  479 (711)
+                      +-....+.+.++..         -.++-..-....
+T Consensus        78 ~~~~~~~~~~~~~~---------l~~~~~~l~~~~  103 (138)
+T 2p9m_A           78 VMTKDVITIHEDAS---------ILEAIKKMDISG  103 (138)
+T ss_dssp             HSCSSCCCEETTSB---------HHHHHHHHTCC-
+T ss_pred             hccCCCEEECCCCC---------HHHHHHHHHhcC
+Confidence            11122222222211         112111111111
+
+
+No 9  
+>1vdh_A Muconolactone isomerase-like protein; beta barrel, structural genomics, riken structural genomics/proteomics initiative, RSGI; 2.00A {Thermus thermophilus} SCOP: d.58.4.10
+Probab=0.07  E-value=5.7e+03  Score=11.48  Aligned_cols=156  Identities=10%  Similarity=0.070  Sum_probs=50.0
+
+Q ss_pred             cCCCccccceeeeeeeeecccceeeEeec-----------------------------ccceeEEEEEeeec-ceeEEEE
+Q brnachiostomaS  319 HSGSRVEDFYGWVRRVTYSPLRRTVTVIP-----------------------------RYDRLVTVKIGINT-TTNVLFF  368 (711)
+Q Consensus       319 ~lg~~le~~~~WI~~v~~~~~~r~V~V~h-----------------------------~E~p~t~i~v~l~~-~~~~~~~  368 (711)
+                      ....++.....|-+--.+      +++-.                             ....+......+.- ...+.+.
+T Consensus         4 ~~~~~~~t~eGw~~lh~f------~~id~~~w~~l~~~eR~~~~~e~~~~~~~~~~~~~~~~~~~~~Y~~~G~~aDl~~w   77 (249)
+T 1vdh_A            4 HVPEPTHTLEGWHVLHDF------RLLDFARWFSAPLEAREDAWEELKGLVREWRELEEAGQGSYGIYQVVGHKADLLFL   77 (249)
+T ss_dssp             CCCCCCEEEEEEEEEEEE------EEECHHHHHHSCHHHHHHHHHHHHHHHHHHHHHHHTTSCEEEEEEECSTTCSEEEE
+T ss_pred             CCCCCCcCCcceEEEEEE------eecCHHHHhcCCHHHHHHHHHHHHHHHHHhhhhcccCceEEEEEEeecCCccEEEE
+Confidence            112233334566554322      33321                             02224444444432 2555555
+
+
+Q ss_pred             EecCcccccceeEEeecccccccceeeeehhcccccccccccCCCCCcceeEEE-EEEee-----cCCC--CCCceeeec
+Q brnachiostomaS  369 YHDSDLIDFTAEVRVDRHSNRFANITLVAAVGSLVGSITPYNGADGDRSATVHR-FELHV-----DSPP--ASNTIKRIS  440 (711)
+Q Consensus       369 ~~~S~l~~F~G~I~vD~~SNR~lnitv~~a~Gtl~G~V~~~~~~s~~k~~~~~~-Fs~~v-----~~~~--~~n~~~~i~  440 (711)
+                      ..+..++.+..       -.+.|       ..+.+|.          -+.+.++ ++++.     .+..  +....  ..
+T Consensus        78 ~~~~~~~~lq~-------~~~~l-------~~t~lg~----------~l~~~~s~~sv~~~~~y~~~~~~~s~~~~--~~  131 (249)
+T 1vdh_A           78 NLRPGLDPLLE-------AEARL-------SRSAFAR----------YLGRSYSFYSVVELGSQEKPLDPESPYVK--PR  131 (249)
+T ss_dssp             EEESSHHHHHH-------HHHHH-------HHSSGGG----------GEEEEEEEEEEEEEEESSSCCCTTCTTTG--GG
+T ss_pred             EeCCCHHHHHH-------HHHHH-------Hhccccc----------cccccEEEEEEEecccccccccccchhhh--cc
+Confidence            55444432200       00000       1223332          1445553 33322     1111  11212  23
+
+
+Q ss_pred             cccccccccceeecCCCCC--CccccccchhHHHHhhc--------cccCCC-----CCCCCCCCCCCCccchhhhhhhc
+Q brnachiostomaS  441 LPKMINGTSRMCLSPLSKP--NNEVCKTVPFLQEALQD--------FFVPPT-----WRPGNPEDAGPGFNFNWLFDFFG  505 (711)
+Q Consensus       441 lP~~in~~r~VCi~p~~~~--~~e~CK~~~Y~s~~l~~--------~~v~~~-----w~~g~g~~~c~~cN~~~~~~f~~  505 (711)
+                      +...+-...|+|++|=.+.  ....=.-.+++++.-..        .+...-     ..-|-++                
+T Consensus       132 l~~~~p~~~y~~~YPm~K~r~~~~~WY~L~~~ER~~mm~eHg~~G~~y~g~v~~~~t~SfGldD----------------  195 (249)
+T 1vdh_A          132 LTPRVPKSGYVCFYPMNKRRQGQDNWYMLPAKERASLMKAHGETGRKYQGEVMQVISGAQGLDD----------------  195 (249)
+T ss_dssp             GSCCCCSSSEEEEEEEEECEETTEEGGGSCHHHHHHHHHHHHHHHHTTTTTCEEEEEECTTTSS----------------
+T ss_pred             cCCCCCCCcEEEEEeEeeCCCCCcChhhCCHHHHHHHHHHHHHHHHhCchhhhhheeecccCCc----------------
+Confidence            4444456999999993110  10011112222222110        111000     0111111                
+
+
+Q ss_pred             cCCchhhhh-----hhHHHHHHHHHH
+Q brnachiostomaS  506 FLNPAEWFD-----GIQGWLELFAML  526 (711)
+Q Consensus       506 ~Lnp~~Wi~-----~v~s~~e~V~v~  526 (711)
+                        +  +|+-     ....+.+.+.-.
+T Consensus       196 --~--Ew~v~leadd~~~~~~lv~~m  217 (249)
+T 1vdh_A          196 --W--EWGVDLFSEDPVQFKKIVYEM  217 (249)
+T ss_dssp             --S--SEEEEEEESCHHHHHHHHHHH
+T ss_pred             --c--eeEEEEecCCHHHHHHHHHHH
+Confidence              1  3321     112211111111
+
+
+No 10 
+>2c9r_A COPC, copper resistance protein C; copper transport, copper proteins, copper dissociation const metal-binding, electron transport; 2.0A {Pseudomonas syringae PV} PDB: 1m42_A 1nm4_A 1ot4_A 2c9p_A 2c9q_A
+Probab=0.04  E-value=5.3e+03  Score=8.91  Aligned_cols=48  Identities=4%  Similarity=0.036  Sum_probs=16.7
+
+Q ss_pred             eecccCceEEEeeceEEEEecCcccccc------------------------------ceEEEEEeCCCCceecceeEEE
+Q brnachiostomaS  195 VYDSRTDEVVYSYPTFTVALNDRTHRAQ------------------------------HSVRMEVTGDTPTQIDSGYYYA  244 (711)
+Q Consensus       195 ~y~~~~~~~~~~~~~~~v~ln~g~~~~~------------------------------~~i~l~v~~~r~~qL~~GmYf~  244 (711)
+                      --+...|.+....+++.+.++.......                              ..+.+.+.    .-|.+|.|..
+T Consensus         6 ~s~Pa~g~~~~~P~~v~L~Fse~v~~~~s~~~v~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~l~----~~l~~G~Y~V   81 (102)
+T 2c9r_A            6 SSTPAEGSEGAAPAKIELHFSENLVTQFSGAKLVMTAMPGMEHSPMAVKAAVSGGGDPKTMVITPA----SPLTAGTYKV   81 (102)
+T ss_dssp             EEESCTTCEESCCSCEEEEESSCCCGGGCEEEEEEEECC-----CEEECEEEEECSSTTEEEEEES----SCCCSEEEEE
+T ss_pred             ccCCCCCCEECCCCEEEEEcCCcccccCceEEEEEcCCCCceeccccccceeccCCCCcEEEEeCC----CCCCCeeEEE
+Confidence            1111222211233344444443332222                              33444442    2355555544
+
+
+Q ss_pred             ec
+Q brnachiostomaS  245 TS  246 (711)
+Q Consensus       245 ~~  246 (711)
+                      .-
+T Consensus        82 ~w   83 (102)
+T 2c9r_A           82 DW   83 (102)
+T ss_dssp             EE
+T ss_pred             EE
+Confidence            31
+
+
+No 11 
+>2lix_A IMKTX104, potassium channel toxins; disulfide bond stabilized structure; NMR {Lychas mucronatus}
+Probab=0.02  E-value=7.1e+03  Score=6.96  Aligned_cols=25  Identities=16%  Similarity=0.337  Sum_probs=16.9
+
+Q ss_pred             cCCcccccCCCCCCCcccCCCCCCc
+Q brnachiostomaS  106 KYESKCVCDCPQYGDYCNSKTNRCT  130 (711)
+Q Consensus       106 ~v~~~CiCdC~~~~~~C~~~~~~C~  130 (711)
+                      +-+-+|.=.|.++..-|-.+.=.|+
+T Consensus         3 ~T~~DC~l~C~~~~~~Cv~~qC~C~   27 (27)
+T 2lix_A            3 VTHEDCTLLCYDTIGTCVDGKCKCM   27 (27)
+T ss_dssp             CSSGGGTTSSSCSSSSCBTTBCCCC
+T ss_pred             cccccceeEecCCCcceeCCEeecC
+Confidence            3455888888888888877543342
+
+
+No 12 
+>1lyq_A PCOC copper resistance protein; beta barrel, IG domain, metal binding protein; 1.50A {Escherichia coli} SCOP: b.1.18.17 PDB: 1ix2_A
+Probab=0.01  E-value=6.5e+03  Score=5.75  Aligned_cols=54  Identities=13%  Similarity=0.178  Sum_probs=16.8
+
+Q ss_pred             eeeecccCceEEEeeceEEEEecCccccccceEEEEEe--CCCC-------------------------ceecceeEEEe
+Q brnachiostomaS  193 LKVYDSRTDEVVYSYPTFTVALNDRTHRAQHSVRMEVT--GDTP-------------------------TQIDSGYYYAT  245 (711)
+Q Consensus       193 y~~y~~~~~~~~~~~~~~~v~ln~g~~~~~~~i~l~v~--~~r~-------------------------~qL~~GmYf~~  245 (711)
+                      +.--+...|.+....+++.+.++.......-+++|.+.  .|..                         ..|.+|.|...
+T Consensus         5 l~~s~Pa~g~~~~~P~~v~L~F~e~v~~~~~~~~l~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~v~~~~~l~~G~Y~V~   84 (104)
+T 1lyq_A            5 LKSSVPQADSAVAAPEKIQLNFSENLTVKFSGAKLTMTGMKGMSSHSPMPVAAKVAPGADPKSMVIIPREPLPAGTYRVD   84 (104)
+T ss_dssp             EEEEESCTTCEESCCCCEEEEESSCCCGGGCEEEEEEEEEC---CCCCEECCEEEEECSSTTEEEEEESSCCCSEEEEEE
+T ss_pred             ccccCCCCcCEECCCCEEEEEcCCccccccceeEEEEeCCCCcEecccccccccccccCCCCEEEEeCCCCCCCeeEEEE
+Confidence            11112222221123444444444433322223333321  1111                         23444555442
+
+
+Q ss_pred             c
+Q brnachiostomaS  246 S  246 (711)
+Q Consensus       246 ~  246 (711)
+                      -
+T Consensus        85 w   85 (104)
+T 1lyq_A           85 W   85 (104)
+T ss_dssp             E
+T ss_pred             E
+Confidence            1
+
+
+No 13 
+>1zat_A L,D-transpeptidase; L,D-transpeptidation, peptidoglycan, beta-lactam insensitive transpeptidase, antibiotic resistance, transferase; 2.40A {Enterococcus faecium} SCOP: b.160.1.1 d.335.1.1 PDB: 2hkl_A 3zg4_A 3zgp_A*
+Probab=0.01  E-value=6.5e+03  Score=6.68  Aligned_cols=129  Identities=13%  Similarity=0.187  Sum_probs=44.1
+
+Q ss_pred             ecCCCceeeEEEecccCCCCCCcceEEEcC------------CCcceeE---EEeee--ecc-cCce-EEEeece--EEE
+Q brnachiostomaS  154 WNSEESEVCCALYVGKHPESPKYDAVYLSS------------DGKPIVK---LALKV--YDS-RTDE-VVYSYPT--FTV  212 (711)
+Q Consensus       154 ~~~~~s~~CC~v~~~p~~~n~~y~AvkL~~------------~~qP~t~---~~y~~--y~~-~~~~-~~~~~~~--~~v  212 (711)
+                      -.....    .|.+.+-    .|. .+++.            .|++.+.   +.-..  +.. .++. ++++-..  +.+
+T Consensus        70 ~~~~~g----~v~v~~g----~yG-~~id~~~~~~~l~~~l~~g~~~~~~~~~~~~~~~~~~~~~~~~I~Vdls~q~l~~  140 (250)
+T 1zat_A           70 KSTKRG----EVTVPVG----TYS-WTIQTDSETEALKKAILAGQDFTRSPIVQGGTTADHPLIEDTYIEVDLENQHMWY  140 (250)
+T ss_dssp             ECSSSS----EEEECCC----SSC-EEECHHHHHHHHHHHHHHTSCEEECCCEEESSCSSSCSSCSCEEEEETTTTEEEE
+T ss_pred             EECCCC----eEEEcCC----ccC-eEECHHHHHHHHHHHHHcCCCcccceEEecccccccCCCCCeEEEEECCCCEEEE
+Confidence            112221    1444322    333 44420            1445555   32211  111 1233 5555443  333
+
+
+Q ss_pred             EecCccccccceEEEE--EeCCCC-ceecceeEEEeccceeEeecccccCC-CCCCCCcceeEEeccCCcccCCCcceee
+Q brnachiostomaS  213 ALNDRTHRAQHSVRME--VTGDTP-TQIDSGYYYATSEGTQLYTDASINGL-NEFDPRKMGWLKVRDDGTVERPPERTVL  288 (711)
+Q Consensus       213 ~ln~g~~~~~~~i~l~--v~~~r~-~qL~~GmYf~~~~~~~l~~~~pINei-~E~nl~KLGW~R~~~g~~~i~~g~~ki~  288 (711)
+                      --+       .++-..  +..|++ +.-..|.|..... ...-....-+.. ...+..---|+++..       +.+   
+T Consensus       141 y~~-------g~~v~~~~v~~G~~~~~TP~G~y~I~~k-~~~~~~~g~~~~g~~y~~~~~~~~~~~~-------~gi---  202 (250)
+T 1zat_A          141 YKD-------GKVALETDIVSGKPTTPTPAGVFYVWNK-EEDATLKGTNDDGTPYESPVNYWMPIDW-------TGV---  202 (250)
+T ss_dssp             EET-------TEEEEEEECBCBCTTSCCCCEEEECCCC-EEEEECCBCC--CCCBCCEEEEEEECSS-------SSC---
+T ss_pred             EEC-------CEEEEEeeEEeeCCCCCCCCcEEEEEEE-ECCceeeccCCCCCCCCCCCceeEEecC-------CEE---
+Confidence            332       223334  346677 7777798876542 222222111111 111111122444421       111   
+
+
+Q ss_pred             eeeeeccccccCCcCccceeEEEecCcc----cccCCCc
+Q brnachiostomaS  289 GAFHLKTHKCHNKFDYSETWQIYGHGNL----KHHSGSR  323 (711)
+Q Consensus       289 ~~h~v~v~NCk~q~~y~s~~~ay~~~~~----~~~lg~~  323 (711)
+                      ..|.....+   .         |  ...    ....||-
+T Consensus       203 giH~~~~~~---~---------~--g~~~~~~~~ShGCI  227 (250)
+T 1zat_A          203 GIHDSDWQP---E---------Y--GGDLWKTRGSHGCI  227 (250)
+T ss_dssp             EEEECTTCS---C---------C--STTHHHHHCBSSSE
+T ss_pred             EEECCCccc---c---------c--cccCCCCCCCcCCc
+Confidence            244322110   0         0  000    1234551
+
+
+No 14 
+>1toc_R Ornithodorin; vitamin K, zymogen, gamma-carboxyglutamic acid, acute phase, liver, hydrolase, serine protease kunitz-like inhibitor, kringle; 3.10A {Ornithodoros moubata} SCOP: g.8.1.2 g.8.1.2
+Probab=0.01  E-value=8.4e+03  Score=6.25  Aligned_cols=102  Identities=22%  Similarity=0.170  Sum_probs=40.0
+
+Q ss_pred             CCCCCc-ceeEEEEEEeecCCCCCCceeeeccccccccccceeecCCCCCCccccccchhHHHHhhccccCCCCCCCCCC
+Q brnachiostomaS  411 GADGDR-SATVHRFELHVDSPPASNTIKRISLPKMINGTSRMCLSPLSKPNNEVCKTVPFLQEALQDFFVPPTWRPGNPE  489 (711)
+Q Consensus       411 ~~s~~k-~~~~~~Fs~~v~~~~~~n~~~~i~lP~~in~~r~VCi~p~~~~~~e~CK~~~Y~s~~l~~~~v~~~w~~g~g~  489 (711)
+                      .|+-.. -+-+.||-.   +     .+-+.+ |+. -+.||        +       .+-+-+++-       +.-|..+
+T Consensus        11 tadcnndaqvdryfre---g-----ttclms-pac-tsegy--------a-------sqhecqqac-------fvggedh   58 (120)
+T 1toc_R           11 TADCNNDAQVDRYFRE---G-----TTCLMS-PAC-TSEGY--------A-------SQHECQQAC-------FVGGEDH   58 (120)
+T ss_dssp             CSCCTTSCEEEEEEEE---T-----TEEEEE-EEE-TTSSB--------S-------SHHHHHHHS-------SCCCCSC
+T ss_pred             ccccCchHHHHHHHhc---C-----CeEecc-ccc-ccccc--------c-------hHhHHhHhh-------cccCccc
+Confidence            111112 445556654   2     333222 111 11121        1       123444442       2222222
+
+
+Q ss_pred             CCCCCccchhhhhhhccCCchhhhhhhHHHHHHHHHHHHHHHHHhHhhhheeeeeeeecccccccccccCCcchhhhhhh
+Q brnachiostomaS  490 DAGPGFNFNWLFDFFGFLNPAEWFDGIQGWLELFAMLLDIALFIAGIFLFIKVSLLVTSGLCLDSLSHLGDFTAEVVLDR  569 (711)
+Q Consensus       490 ~~c~~cN~~~~~~f~~~Lnp~~Wi~~v~s~~e~V~v~~~i~v~i~~~l~~~~~~~~~tc~~c~~~~s~~~~F~g~I~vD~  569 (711)
+                                        .                                          .-+|.|.+++         
+T Consensus        59 ------------------s------------------------------------------semhssclgd---------   69 (120)
+T 1toc_R           59 ------------------S------------------------------------------SEMHSSCLGD---------   69 (120)
+T ss_dssp             ------------------C------------------------------------------CCCCGGGGSC---------
+T ss_pred             ------------------c------------------------------------------hhhhhhhcCC---------
+Confidence                              1                                          1233443332         
+
+
+Q ss_pred             cccccceeeehhhhccccccccccccccccCcceEEEEeecCCCceeeeeEeecCCCcccc------cccccCCCC
+Q brnachiostomaS  570 FSNLYANITLVAAVGSLAGTIAPLVTENQHGIPFTFELLVDSPSRVTSVKRVSLPSNIHGH------SRMCLSPLS  639 (711)
+Q Consensus       570 ~SNrylNiT~~~a~Gtl~G~v~~s~~~~~~~~~~~fs~~v~~~~~~~~~~~i~lp~~i~g~------r~vC~~p~~  639 (711)
+                                            +  -+  +-.+-+=-.|-++-+..-++...+-|+.-|--      |..|--|.+
+T Consensus        70 ----------------------p--pt--scaegtdityydsdsktckvlaascpsgentfesevecqvacgapie  119 (120)
+T 1toc_R           70 ----------------------P--PT--SCAEGTDITYYDSDSKTCKVLAASCPSGENTFESEVECQVACGAPIE  119 (120)
+T ss_dssp             ----------------------C--CB--CCTTCEEEEEEETTTTEEEEEEEEBCSSSCCBSSHHHHHHHTTCCCC
+T ss_pred             ----------------------C--Cc--ccccCcceeEecCCCchhhhhhccCCCCcccccceeeEeeeecCccC
+Confidence                                  1  11  12222222345677779999999999986421      112333322
+
+
+No 15 
+>3i08_A Neurogenic locus notch homolog protein 1; SEA domain, LIN-12 notch repeat, LNR, heterodimerization domain, HD, activator, ANK repeat, calcium; 3.20A {Homo sapiens}
+Probab=0.01  E-value=7.2e+03  Score=6.73  Aligned_cols=83  Identities=8%  Similarity=0.015  Sum_probs=40.9
+
+Q ss_pred             cCCCCCCccccccc-----------------hhHHHHhhccccCCCCCCCCCCCCCC-Cccchhhh--hhh--ccCCchh
+Q brnachiostomaS  454 SPLSKPNNEVCKTV-----------------PFLQEALQDFFVPPTWRPGNPEDAGP-GFNFNWLF--DFF--GFLNPAE  511 (711)
+Q Consensus       454 ~p~~~~~~e~CK~~-----------------~Y~s~~l~~~~v~~~w~~g~g~~~c~-~cN~~~~~--~f~--~~Lnp~~  511 (711)
+                      .-+|. =.+.|.+.                 +....--.      . +.++|+  |+ +||...-.  +..  .. .|..
+T Consensus        56 f~dG~-CD~~Cn~~~ClfDG~DC~~~~~~C~~~~~~yC~------~-~~gDG~--CD~~CN~~eCgwDGgDC~~~-~~~~  124 (220)
+T 3i08_A           56 FSDGH-CDSQCNSAGCLFDGFDCQRAEGQCNPLYDQYCK------D-HFSDGH--CDQGCNSAECEWDGLDCAEH-VPER  124 (220)
+T ss_dssp             TTSSS-CCGGGCSGGGGGGGGTTCTTCCSCCHHHHHHHH------T-TTTSSS--CCGGGCSGGGGGGGGTTCTT-SCCC
+T ss_pred             cCCCc-cchhhCchhccCCCcccccCccccccchhhhhh------h-hcCCCc--cccccCccccccCCCccccc-CCcc
+Confidence            11111 01223221                 11111111      1 247777  98 66665322  110  11 1334
+
+
+Q ss_pred             hhhhh------HHHHHHHHHHHHHHHHHhHhhhheeeeeeeeccc
+Q brnachiostomaS  512 WFDGI------QGWLELFAMLLDIALFIAGIFLFIKVSLLVTSGL  550 (711)
+Q Consensus       512 Wi~~v------~s~~e~V~v~~~i~v~i~~~l~~~~~~~~~tc~~  550 (711)
+                      |..+.      -.+.+++......+..+..+++..   |.|.-..
+T Consensus       125 ~~~G~l~lvVl~~p~~f~~~~~~fL~~Ls~~Lrt~---Vrik~d~  166 (220)
+T 3i08_A          125 LAAGTLVVVVLMPPEQLRNSSFHFLRELSRVLHTN---VVFKRDA  166 (220)
+T ss_dssp             BCBSEEEEEEESCHHHHHHTHHHHHHHHHHHHTSE---EEECBCT
+T ss_pred             ccCceEEEEEecCHHHHHHhHHHHHHHHHHHhcCe---eEEeEcC
+Confidence            66662      347788888888999999999987   5554221
+
+
+No 16 
+>3w9i_A Multidrug resistance protein MEXB; efflux pump, transporter, multidrug efflux pump, MEXA, inner membrane, transport protein; HET: LMT; 2.71A {Pseudomonas aeruginosa} PDB: 2v50_A* 3w9j_A*
+Probab=0.01  E-value=6e+03  Score=7.53  Aligned_cols=101  Identities=13%  Similarity=-0.000  Sum_probs=18.1
+
+Q ss_pred             ceeEEEEEeeecceeEEEEEecCcccccce-eEEeecccccc----cceeeeehhcccccccccccCCCCCcceeEEEEE
+Q brnachiostomaS  350 DRLVTVKIGINTTTNVLFFYHDSDLIDFTA-EVRVDRHSNRF----ANITLVAAVGSLVGSITPYNGADGDRSATVHRFE  424 (711)
+Q Consensus       350 ~p~t~i~v~l~~~~~~~~~~~~S~l~~F~G-~I~vD~~SNR~----lnitv~~a~Gtl~G~V~~~~~~s~~k~~~~~~Fs  424 (711)
+                      .....+.+......       ...++++.. .+..+.+....    ..++...+..    .|.++|      ......+.
+T Consensus       765 ~~~~~i~v~~~~~~-------~~~~~~l~~~~v~~~~g~~v~L~~~a~~~~~~~~~----~i~r~d------~~~~i~v~  827 (1046)
+T 3w9i_A          765 GRVKRVYLQGRPDA-------RMNPDDLSKWYVRNDKGEMVPFNAFATGKWEYGSP----KLERYN------GVPAMEIL  827 (1046)
+T ss_dssp             TEEEEEEEEECGGG-------SSSGGGGGSCEEECTTSCEEEGGGSEEEECCEECS----BCEEES------SSEEEEEE
+T ss_pred             CeEEEEEEEeChhh-------cCCHHHHhccEeeCCCCcEEEhhheEEEEEccCcc----eeEEec------CcceEEEE
+Confidence            11122222221100       012222221 12211111101    1111111111    122311      12333333
+
+
+Q ss_pred             EeecCCCCCCceeeeccccccccccceeecCCCCCCccccccchhHHHHhhccc
+Q brnachiostomaS  425 LHVDSPPASNTIKRISLPKMINGTSRMCLSPLSKPNNEVCKTVPFLQEALQDFF  478 (711)
+Q Consensus       425 ~~v~~~~~~n~~~~i~lP~~in~~r~VCi~p~~~~~~e~CK~~~Y~s~~l~~~~  478 (711)
+                      ... ..+.........+.+.+++      .|.+-    ...+............
+T Consensus       828 ~~~-~~~~~~~~~~~~i~~~~~~------~p~~~----~~~~~g~~~~~~~~~~  870 (1046)
+T 3w9i_A          828 GEP-APGLSSGDAMAAVEEIVKQ------LPKGV----GYSWTGLSYEERLSGS  870 (1046)
+T ss_dssp             CCB-CTTSCTTTHHHHHHHHGGG------SCSSC----CEEECHHHHHHHHCC-
+T ss_pred             EEe-CCCCcHHHHHHHHHHHHhh------CCCCc----EEEecchhHHHHHHHH
+Confidence            211 1111000000000000111      13221    2222222222222211
+
+
+No 17 
+>2mmp_A Uncharacterized protein; ribosomal protein; NMR {Sulfolobus solfataricus}
+Probab=0.01  E-value=7.8e+03  Score=5.72  Aligned_cols=72  Identities=10%  Similarity=0.146  Sum_probs=29.3
+
+Q ss_pred             cccceeEEeecccccccceeeeehhcccccccccccCCCCCcceeEEEEEEeecCCCCCCceeeeccccccccccceeec
+Q brnachiostomaS  375 IDFTAEVRVDRHSNRFANITLVAAVGSLVGSITPYNGADGDRSATVHRFELHVDSPPASNTIKRISLPKMINGTSRMCLS  454 (711)
+Q Consensus       375 ~~F~G~I~vD~~SNR~lnitv~~a~Gtl~G~V~~~~~~s~~k~~~~~~Fs~~v~~~~~~n~~~~i~lP~~in~~r~VCi~  454 (711)
+                      ..   -|-||++...|+-+.+...         +      ++..++-|    +--    +.....  |+  -+..-+.+.
+T Consensus         5 gK---YVYV~r~dg~YvKVRvLk~---------R------den~PdrY----IV~----g~~~kk--~p--~~a~Vik~e   54 (77)
+T 2mmp_A            5 GK---YVYIDLNNGKYVKVRILKS---------R------DDNSVEKY----VLT----SHVSKN--RP--KNAIVIKMD   54 (77)
+T ss_dssp             EE---EEEEECCSSCEEEEEEEEE---------T------TTSSEEEE----CSC----CCEESC--CC--SSSCEEEGG
+T ss_pred             ce---EEEEEcCCCeEEEEEEecc---------C------CCCCCceE----EEe----Cccccc--CC--CCceEEEhh
+Confidence            12   4788999999999999833         2      13334443    311    111111  11  133334443
+
+
+Q ss_pred             CCCCCCccccccchhHHHHhhccccCCCCCC
+Q brnachiostomaS  455 PLSKPNNEVCKTVPFLQEALQDFFVPPTWRP  485 (711)
+Q Consensus       455 p~~~~~~e~CK~~~Y~s~~l~~~~v~~~w~~  485 (711)
+                      ....       -++=++..+  .+.++.-+.
+T Consensus        55 dLP~-------EVr~kl~k~--~~~~~~~~~   76 (77)
+T 2mmp_A           55 NLPI-------EVKDKLTRF--FLLEHHHHH   76 (77)
+T ss_dssp             GSCH-------HHHHHHHHH--HTCCCSSSC
+T ss_pred             hCcH-------HHHHHHHHH--HhhhhcccC
+Confidence            3321       011122222  233332211
+
+
+No 18 
+>4lm9_A Nucleoprotein; HCOV-OC43 nucleocapsid protein, N-terminal domain, RNA bindi binding protein; HET: 5GP; 1.60A {Human coronavirus} PDB: 4lmc_A* 4li4_A* 4kxj_A* 4j3k_A* 4lm7_A* 4lmt_A* 3hd4_A
+Probab=0.01  E-value=7.6e+03  Score=6.06  Aligned_cols=84  Identities=13%  Similarity=0.192  Sum_probs=35.0
+
+Q ss_pred             CccccccceEEEEEeCCCC-ceecceeEEEeccceeEeecccccCCCCCCCCcce-eEEeccCCccc--CCCcceeeeee
+Q brnachiostomaS  216 DRTHRAQHSVRMEVTGDTP-TQIDSGYYYATSEGTQLYTDASINGLNEFDPRKMG-WLKVRDDGTVE--RPPERTVLGAF  291 (711)
+Q Consensus       216 ~g~~~~~~~i~l~v~~~r~-~qL~~GmYf~~~~~~~l~~~~pINei~E~nl~KLG-W~R~~~g~~~i--~~g~~ki~~~h  291 (711)
+                      ....++...|.  ..+..+ ....+|      +      .+|||.=.... +..| |.||  .+|..  ..|+       
+T Consensus         5 ~~~~Swf~pl~--~~~~~~~~~~~~g------~------GVP~~~g~~~~-~q~GYW~rq--~R~~~~~~~G~-------   60 (135)
+T 4lm9_A            5 VPYYSWFSGIT--QFQKGKEFEFVEG------Q------GVPIAPGVPAT-EAKGYWYRH--NRRSFKTADGN-------   60 (135)
+T ss_dssp             CCCCCSBCCEE--ECSTTCCCCCCTT------C------CCCCCTTCCGG-GCEEEEEEE--CCCCCCCSCC--------
+T ss_pred             cCCeeeeehee--ecCCCCCCccCCC------C------ccccCCCCChH-Hhccceeee--eeccccCCCCc-------
+Confidence            11123333222  233221 111111      1      46665422111 2455 8888  34444  3322       
+
+
+Q ss_pred             eeccccccCCcCccceeEEEe--cCc-ccccCCCccccceeeeee
+Q brnachiostomaS  292 HLKTHKCHNKFDYSETWQIYG--HGN-LKHHSGSRVEDFYGWVRR  333 (711)
+Q Consensus       292 ~v~v~NCk~q~~y~s~~~ay~--~~~-~~~~lg~~le~~~~WI~~  333 (711)
+                              .. .....|.-|.  ..| .+...|...+. --|+-.
+T Consensus        61 --------rk-~l~p~WyFYYlGTGP~adl~yg~~~dg-V~WVa~   95 (135)
+T 4lm9_A           61 --------QR-QLLPRWYFYYLGTGPHAKDQYGTDIDG-VYWVAS   95 (135)
+T ss_dssp             -----------CCCCEEEEEETTCSTTTTSCTTCCCTT-EEEEEC
+T ss_pred             --------ee-ecCCceEEEEcCCCccccCcccccCCC-EEEEec
+Confidence                    01 4778999987  222 25556666554 233332
+
+
+No 19 
+>1hbn_C Methyl-coenzyme M reductase I gamma subunit; methanogenesis, biological methanogenesis, NI-enzyme, oxidoreductase; HET: MHS AGM MGN F43 TP7; 1.16A {Methanothermobacterthermautotrophicus} SCOP: d.58.31.1 PDB: 1hbm_C* 1hbo_C* 1hbu_C* 3m1v_C* 3m2r_C* 3m2u_C* 3m2v_C* 3m30_C* 3m32_C* 3pot_C* 1mro_C*
+Probab=0.01  E-value=8.1e+03  Score=7.01  Aligned_cols=111  Identities=13%  Similarity=0.127  Sum_probs=37.1
+
+Q ss_pred             CCCeEEEEEeeccCCCCCC-------------ceEEEeeecCCceeeEeeeecceeee--ccccceeeeccccCCccccc
+Q brnachiostomaS   49 PGETLCFILHDVTNDDASS-------------DVSISMATNGSVPLLWQLTYEGIEMD--YGVKNRYSFYRPKYESKCVC  113 (711)
+Q Consensus        49 l~~t~Cf~l~~~~~~~~~~-------------~~~~~~~~~~~~~~lhtl~~~~le~~--~pI~~~Y~F~iP~v~~~CiC  113 (711)
+                      -+..-=+.+-+.--.+++.             -.| .-...+. .++- .+=.+||+-  .-|..       ++-     
+T Consensus        78 GdRvRYiQf~DSMy~AP~~PY~Ra~~~~~r~RGvD-~GTLSGR-QiiE-~RErDlE~~sK~liet-------E~f-----  142 (248)
+T 1hbn_C           78 GDRVRYIQFTDSMYFAPAQPYVRSRAYLCRYRGAD-AGTLSGR-QIIE-TRERDLEKISKELLET-------EFF-----  142 (248)
+T ss_dssp             TBCEEEEEEEECTTTCSSCHHHHHHHHHHHCSSCE-EEECSSC-EEEE-EEHHHHHHHHHHHHHB-------TTC-----
+T ss_pred             CCeEEEEEechhhccCCCCHHHHHHHHHHhccCCC-CCccccc-eeee-hhhhhHHHHHHHHhhh-------hcc-----
+Confidence            1223334444444444432             233 3333333 3322 222222110  00000       000     
+
+
+Q ss_pred             CCCCCCCcccCCCCCCccccccceeecccCCCCCcceEEEecCCCceeeEEEecccCCCCCCcceEEEcCCCcceeEEEe
+Q brnachiostomaS  114 DCPQYGDYCNSKTNRCTDHELDFCYNTYIPDQTAHGCTVYWNSEESEVCCALYVGKHPESPKYDAVYLSSDGKPIVKLAL  193 (711)
+Q Consensus       114 dC~~~~~~C~~~~~~C~~~~~~~Cyrty~~~qs~~gC~~~~~~~~s~~CC~v~~~p~~~n~~y~AvkL~~~~qP~t~~~y  193 (711)
+                       ||+   -|.++                       ||+   ...-|     +++.-  .+++|+|  |.          -
+T Consensus       143 -DpA---~~g~R-----------------------GaT---VHGHS-----lRLdE--nG~MFD~--Lq----------R  173 (248)
+T 1hbn_C          143 -DPA---RSGVR-----------------------GKS---VHGHS-----LRLDE--DGMMFDM--LR----------R  173 (248)
+T ss_dssp             -CTT---TEEEC-----------------------SSC---CCCTT-----SCBCT--TSCCCCT--TC----------C
+T ss_pred             -Chh---hhccc-----------------------ccc---eecce-----eeecC--CChhHHH--HH----------H
+Confidence             000   01111                       222   11111     11111  3456665  22          1
+
+
+Q ss_pred             eeecccCceEEEeeceEEEEecCccccccceEEEEEeCCCC
+Q brnachiostomaS  194 KVYDSRTDEVVYSYPTFTVALNDRTHRAQHSVRMEVTGDTP  234 (711)
+Q Consensus       194 ~~y~~~~~~~~~~~~~~~v~ln~g~~~~~~~i~l~v~~~r~  234 (711)
+                      .+||..+|.+.+-++.           ....|-=.|.-|.|
+T Consensus       174 ~~~~~~~G~V~yvKDQ-----------vG~plD~~V~~GkP  203 (248)
+T 1hbn_C          174 QIYNKDTGRVEMVKNQ-----------IGDELDEPVDLGEP  203 (248)
+T ss_dssp             EEECTTTCCEEEEECT-----------TSCEEEEEEECCCC
+T ss_pred             HhhccCCCcEEEeccc-----------cCCccCCcccCCCc
+Confidence            4466666665554442           34556656664443
+
+
+No 20 
+>4i1l_A Scurfin, forkhead box protein P3; FOXP3, dimerization, complex ensemble, stability, regulatory activity, acetyation, DNA-binding, metal-binding; 2.10A {Mus musculus}
+Probab=0.01  E-value=7.6e+03  Score=5.58  Aligned_cols=49  Identities=8%  Similarity=-0.072  Sum_probs=20.3
+
+Q ss_pred             CCCCCCCCCCC--CCccchhhhhhhccCCchhhhhhh-------HHHHHHHHHHHHHHHHHhHhhhh
+Q brnachiostomaS  482 TWRPGNPEDAG--PGFNFNWLFDFFGFLNPAEWFDGI-------QGWLELFAMLLDIALFIAGIFLF  539 (711)
+Q Consensus       482 ~w~~g~g~~~c--~~cN~~~~~~f~~~Lnp~~Wi~~v-------~s~~e~V~v~~~i~v~i~~~l~~  539 (711)
+                      .=..++|.  |  |+|... .++|.      .+++.+       ...+.-..+-++++-.+=.-+..
+T Consensus         7 h~Ly~~g~--CkWPgCe~~-~ed~~------~FlkHL~~eH~lddrstaQ~rvQ~qvV~qLE~qL~~   64 (93)
+T 4i1l_A            7 YPLLANGV--CKWPGCEKV-FEEPE------EFLKHCQADHLLDEKGKAQCLLQREVVQSLEQQLEL   64 (93)
+T ss_dssp             -------------CCSTTT-THHHH------HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CccccCCc--ccCCCCCCc-cccHH------HHHHHhcccCCCchhHHHHHHHHHHHHHHHHHHHHH
+Confidence            11124555  7  899874 44432      455554       22334455555666555444321
+
+
+Done!

@@ -1,0 +1,86 @@
+Query         G5EGL9
+Match_columns 543
+No_of_seqs    88 out of 111
+Neff          5.2 
+Searched_HMMs 1
+Date          Tue Aug 23 14:50:18 2016
+Command       hhalign -i ./finalsequences/models/G5EGL9.a3m.hhm -t ./finalsequences/models/T1ISJ2.a3m.hhm -o ./finalsequences/results/G5EGL9_T1ISJ2_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 T1ISJ2                         100.0  8E-153  8E-153 1191.3  20.0  456   44-538     1-487 (487)
+
+No 1  
+>T1ISJ2
+Probab=100.00  E-value=7.6e-153  Score=1191.29  Aligned_cols=456  Identities=18%  Similarity=0.261  Sum_probs=437.0
+
+Q ss_pred             chhhhhhhHHHHhccCCcceeeeeeeeeccccceeEEEeeeee----------------eeeeehhcccccccccceEee
+Q G5EGL9           44 SAHAQSQFEEERESNSSKVSSVHSTQFNWGLDNTICIKLQNVV----------------HVLKYERLEQRYPIENSYTFS  107 (543)
+Q Consensus        44 ~~~~~~~~~~~~d~~~~~~~~~~~~~~~i~L~~t~C~~l~~~~----------------htl~~~~leq~~pI~~~Y~F~  107 (543)
+                      +++|+|+++++ |++|+.  ++++||++|+||+|+||+|++++                |||+|+||||||||+|+|+||
+T Consensus         1 ~~~~~g~~~~~-d~~~~~--~~~~~q~~i~L~et~Cf~l~~~~~~~~~~~~~~~~~~~lhtl~~~~leq~~pI~~~Y~F~   77 (487)
+T T1ISJ2            1 MTSYPLEVISN-SKSGNT--FHTTVTTSLKPKEKVCGELLLEKSDRNDNITIEKSDRRFLHIQLANVAQEYLIQSDYNFT   77 (487)
+T ss_pred             CCccCeeeeec-CCCCce--EEEEEeecccccccccccccccccCCCCCeeeeecCceeeeeeehhhhhHhhhhcccccc
+Confidence            47899999999 888887  99999999999999999999933                999999999999999999999
+
+
+Q ss_pred             eeeeecCceeeeeeccCCccccceeccCCCCCcccC---CCCcccccccCCcCCCCCCcccccccccccceeccCC-Ccc
+Q G5EGL9          108 VPLIDTNCKCHCYGFGTNDVCNVEKYADDRNCTTSS---EFPTCYTKYHPAVEPLDCPVTSIPAKACCDIKLKPRD-GRM  183 (543)
+Q Consensus       108 IP~v~t~CiCdC~g~~~~~~C~~~~~~~y~nC~~~~---~~~~Cyrtyh~~qs~~gC~~~s~~s~~CC~v~~~py~-n~~  183 (543)
+                      ||+|+|+|||||+|  ++++|++++|+ |+||++++   ++++|||||||+|+++||+++|++|++||+|+|+||+ ||+
+T Consensus        78 iP~v~t~CiCdC~g--~~~~C~~~~~~-y~~C~~~~~~~~~~~Cyrtyh~~qs~~gC~~~s~~s~~CC~v~~~P~~~n~~  154 (487)
+T T1ISJ2           78 IPTIAVQCFCDCPG--GSDYCTKNFED-NSECETSKKRLPSVSCFRQYSYGHASKSCFIGHDLAGLCCAVAMYRDTTSVV  154 (487)
+T ss_pred             ccceeEEeeccCCC--CCcccccccCC-CcccccccccCCcceeeeecccccCccccccccCcccceeeeEEeeccceee
+Confidence            99999999999999  99999999999 99999976   5889999999999999999999999999999999999 999
+
+
+Q ss_pred             eeeeeccCcccceeeeeeeeecCcccceeeccCcceeeeeccccceeeeeeeEEEEEEEEecCcHHHhhccccccccCCc
+Q G5EGL9          184 FRAVKLQQPINDMIISHSIFANNSGKMMKVLGPDEFRINLLKGKEQFELTEYHRISVQLVASSPQQQLREGMYYFPEENH  263 (543)
+Q Consensus       184 y~AVkL~QP~t~~~f~y~~yd~~~~~~w~~~~~~~~~v~ln~g~~~~~~~~~~~i~l~vtggr~~~qL~~GmYf~~~~~~  263 (543)
+                      |+||||+||+|+|+|+|++||++  |+|+++++++|+|+||+|++++++++  +|+|+|+              -+++.+
+T Consensus       155 y~AVkL~QP~t~~~f~y~~yd~~--~~w~~~~~~~~~v~ln~g~~~~~~~~--~i~l~vs--------------~~~g~~  216 (487)
+T T1ISJ2          155 YRALYLDSPRTHYTYVIELLDGT--GKVLIKKPLNLTSTVAGTLDVKDEED--ALNVSLT--------------SKNFHL  216 (487)
+T ss_pred             eeeeeecCCCcceEEEEEeecCc--cceEEecccccccccceeecccCccc--ccceeee--------------cccccc
+Confidence            99999999999999999999999  99999999999999999999999999  9999995              122455
+
+
+Q ss_pred             ccccccccccccccccccccceeee-cCceeeeecceeeeccceeeeecccceeeeecccCccceEEec-cc--cccccc
+Q G5EGL9          264 NDLREGKINEITESDLDKLGWYRRV-GNDWQVATSGLLLRNAHKVVIKNCKGQVHMDQFSGTKNFVLRG-TQ--YNDTYN  339 (543)
+Q Consensus       264 ~l~~~~~iNei~E~nl~KLGW~R~~-~g~w~vrng~iki~~ah~v~v~nCk~Q~y~s~~nA~~yv~~~~-~~--~~~~~l  339 (543)
+                      ++|+++|||||+|+||+|||||||+ +|+|+||  .+||++||||+|+|||+|+|+++|||+|||++++ ++  ++++++
+T Consensus       217 ~l~~~~piNei~E~nl~KLGW~R~~~~g~w~ir--~iki~~ah~v~v~nCk~Q~y~s~~na~~yv~~~~~~~~~~~~~~l  294 (487)
+T T1ISJ2          217 EDTLSRNWCLQYETNLNKLGWFKVDNKQNRKVH--DNTARAALTVVVENCGDDIIRDNWDFNAVAWRKKGEIAELNDIEK  294 (487)
+T ss_pred             ccccccceeeeeeccccceeeeEeccccccccc--ccccceeeEEeeecccccccccCCCcceeeeecccccccccccch
+Confidence            9999999999999999999999998 9999999  9999999999999999999999999999999987 33  789999
+
+
+Q ss_pred             ceeccC-CcceeEEeec-CCcceEEEEeec--CceeeEeeccCCCCCcccccccccccceeeEeecCCCeeEEEEEEeee
+Q G5EGL9          340 ERRVSD-NNFVRSVKVD-ESSREITIVHEH--GTAAQVSLKTDTRPNLTKSQSLLANFTGSITLDHDGNRMLNVTFFGVK  415 (543)
+Q Consensus       340 g~~l~~-~~WI~~v~~~-~~~R~V~V~h~E--g~~i~v~l~~~~~~~~~~~~S~l~~F~G~I~vD~~SNR~LNiT~~~a~  415 (543)
+                      |++|++ ||||++|+|. +++|+|+|+|+|  |++|+|+|+++++|+++||+|+|++|+|+|+||++|||||||||+||+
+T Consensus       295 g~~l~~~~~WI~~~~~~d~~~R~V~V~h~Espg~~i~v~l~~~~~~~~~~~~S~l~~F~G~I~vD~~SNR~lNiT~~~a~  374 (487)
+T T1ISJ2          295 GVLLQNLYGAMVENVYFSKNDRYVTIVPKNTISVPITLNLDFSAKLLVYFDESVFEKFTGIISVDEFSNRLLYLKIEMAM  374 (487)
+T ss_pred             hhhHHHhhhhhheeEEeecCCeeEEEeeCCceeeeEEEccccceeEEEEechhhhhhhcceeEecccccceeeeeeeecc
+Confidence            999999 9999999985 579999999999  999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeEEEEEEeecceeEEeeeeccccCc-c-ccCCCceeeccccccceeEEEEcCCCCCCcccccccccchhhhccCccccc
+Q G5EGL9          416 GTVHIKMYVNDRKLIATFACTAQFGT-S-LKDDGSRISLPSTINQAQWVCILPDEQPTKSEICKWIPYEEKAMRTPRQEQ  493 (543)
+Q Consensus       416 Gtl~G~V~~s~~k~~~~~~Fs~~v~~-~-~~~~~~~i~lPa~in~~r~VCl~p~~~~~~~eiCk~i~y~~~pl~~~~~~~  493 (543)
+                      |||+|+||++++++.+  +||+ |++ . +++++++|||||+|||+|||||||++++ +.|+|||++|+++||+++++++
+T Consensus       375 GtL~G~V~~s~~~~~~--~Fs~-v~~~~~~~~~~~~i~lPa~in~~r~VCl~p~~~~-~~eiCk~i~y~~~pl~~~~~~~  450 (487)
+T T1ISJ2          375 GSINVVIGDRTSCAVE--QITI-VTNSLKPAQWQQSIRINSCFVGMQTVCLETSPTT-KIRHCKKIAYQEKYFSGPNARK  450 (487)
+T ss_pred             ceeeEEecccceeeee--EEEE-eecCCccccceeeeeeeeeeeeeeeEEeecCCcc-cccccchhhhhccccCCCCCCC
+Confidence            9999999999999776  9999 987 3 7899999999999999999999999999 9999999999999999999999
+
+
+Q ss_pred             ccccCCCCCChhhhccccccccccccchhhhhhhhhccCC-cceee
+Q G5EGL9          494 SWSKGHSPCSQAECNSLKSGVSDLFPWIMNFDYFMAHGGD-FTEWL  538 (543)
+Q Consensus       494 ~W~~~~g~C~~~~CN~~~~~~~~~f~~~lnP~~W~~gi~s-~~e~v  538 (543)
+                      +|  ++|+|  |+||++  ++++ |+++|  ++|++||+| ++|+|
+T Consensus       451 ~W--~~g~C--~~cN~~--~~~~-f~~~l--~~W~~gi~s~~~e~~  487 (487)
+T T1ISJ2          451 PP--SKSEV--ETLDNM--KSNS-LLDKI--KKWIKSLKDDFMESV  487 (487)
+T ss_pred             CC--Ccccc--cccccc--Ccch-hHHHH--HHHHHHhhhhhhhcC
+Confidence            99  99999  999999  9999 99999  999999999 99986
+
+
+Done!

@@ -1,0 +1,66 @@
+Query         P13897
+Match_columns 439
+No_of_seqs    33 out of 105
+Neff          2.7 
+Searched_HMMs 1
+Date          Tue Aug 23 14:50:14 2016
+Command       hhalign -i ./finalsequences/models/P13897.a3m.hhm -t ./finalsequences/models/P03315.a3m.hhm -o ./finalsequences/results/P13897_P03315_merge.hhm 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 P03315                         100.0  4E-237  4E-237 1681.8  27.2  391    1-391     1-391 (391)
+
+No 1  
+>P03315
+Probab=100.00  E-value=4.2e-237  Score=1681.81  Aligned_cols=391  Identities=52%  Similarity=1.015  Sum_probs=390.4
+
+Q ss_pred             CCccccCCCCCCCchHHHHhhhCcccceeEEEEEeeecccCCCcceEEEEeeeeecCCCcccccceeeccccCCceeeee
+Q P13897            1 FEHATTVPNVPGIPYKALVERAGYAPLNLEITVVSSELTPSTNKEYVTCRFHTVIPSPQVKCCGSLECKASSKADYTCRV   80 (439)
+Q Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~VkCCGs~EC~~~~~pDy~CkV   80 (439)
+                      |||++||||+||+|||||||||||+||+|||+|++++|+||||||||||+||||||||+|||||++||+++++|||||||
+T Consensus         1 YEH~~~~PN~vg~pyka~V~R~GYaPl~L~i~v~~~~l~Ptl~leYiTC~ykTvvpSP~vkCCG~~EC~~~~~pDy~CkV   80 (391)
+T P03315            1 YEHSTVMPNVVGFPYKAHIERPGYSPLTLQMQVVETSLEPTLNLEYITCEYKTVVPSPYVKCCGASECSTKEKPDYQCKV   80 (391)
+T ss_pred             CCccccCCccccccceecccCCCCCcceEEEEEEeeccccccceeeEEEeeeeeecCCceeccCCCcccCCCCCCceeeE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eccccceeecceeeeccCCcccccceeeecCCCCcchheehhheecceeeeeeEEEEcccceeecceecccCCCCcccce
+Q P13897           81 FGGVYPFMWGGAQCFCDSENTQLSEAYVEFAPDCTIDHAVALKVHTAALKVGLRIVYGNTTAHLDTFVNGVTPGSSRDLK  160 (439)
+Q Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeaYV~~s~~C~~dhA~AykaHTas~ka~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (439)
+                      ||||||||||||||||||||||||||||||||+|++|||+|||+|||||||+|||||||+++++++|||||||++++|+|
+T Consensus        81 ftGVYPfMWGGAyCFCdtENTQ~SeayV~~s~~C~~dhA~AykaHTas~~a~l~it~G~~~~~v~~yVNG~t~~~~~~~K  160 (391)
+T P03315           81 YTGVYPFMWGGAYCFCDSENTQLSEAYVDRSDVCRHDHASAYKAHTASLKAKVRVMYGNVNQTVDVYVNGDHAVTIGGTQ  160 (391)
+T ss_pred             eeeeeeeeecceeeeecCCcccccceeecccccccccchhhhhhhcccceeeEEEEeeccceeEEEEEcCceeEEEccee
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             EeecccccccCCCCceEEEEeeeeeecCCCCcCCCCCCcccccccccCCccceeeeccceecCccceeeeecceecccce
+Q P13897          161 VIAGPISAAFSPFDHKVVIRKGLVYNYDFPEYGAMKPGAFGDIQASSLDATDIVARTDIRLLKPSVKNIHVPYTQAVSGY  240 (439)
+Q Consensus       161 ~i~GPiStawsPFD~KiVvyk~eVYNyDfP~YGAG~pG~FGDIQart~~s~DlyAnT~l~L~RP~ag~iHVPYTQapSGf  240 (439)
+                      ||+||||+||||||||||+|||||||||||||||||||+|||||+||++|+||||||+|+|+||++|+||||||||||||
+T Consensus       161 ~i~GPiStawsPFD~KiVvy~~eVYNyDfP~YGag~pG~FGDIQart~~s~DlyAnT~l~L~rP~~g~iHVPYTQapSGf  240 (391)
+T P03315          161 FIFGPLSSAWTPFDNKIVVYKDEVFNQDFPPYGSGQPGRFGDIQSRTVESNDLYANTALKLARPSPGMVHVPYTQTPSGF  240 (391)
+T ss_pred             EEeecCCccccccCceEEEeecccccCCCCCCCCCCCCCcccccceeeecccccccccccccCCCCCeeeeccccCCccc
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eecccCCCCCccccCCCceeeeeeeccccCccccceeeeeecCCcceeecCCCCeEEEEEeeeeeeeeeccCCcceEEEe
+Q P13897          241 EMWKNNSGRPLQETAPFGCKIEVEPLRASNCAYGHIPISIDIPDAAFVRSSESPTILEVSCTVADCIYSADFGGSLTLQY  320 (439)
+Q Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvRA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGGva~~~Y  320 (439)
+                      +|||||+|+|||+||||||+|++||||||||||||||||||||||+|||++|+|++|+|+|++++|+|||||||+|+|+|
+T Consensus       241 ~~W~~~~g~~L~~tAPFGC~I~~nPvrA~nCavG~IPiS~DIPDA~FTRv~d~P~vs~~~Ctv~~C~~SsdfGG~a~~~Y  320 (391)
+T P03315          241 KYWLKEKGTALNTKAPFGCQIKTNPVRAMNCAVGNIPVSMNLPDSAFTRIVEAPTIIDLTCTVATCTHSSDFGGVLTLTY  320 (391)
+T ss_pred             eeeeeccCcccccCCCcceeeecCcceeeeecccccceeccCCCccceeeeeCCeEEEeeeeEeeeeccCCccceEEEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecccCCCCcccccchhhhhcccceeEEEeeeEEEEeecCCCcccEEEeeccCccccccccCCCCCcccCCC
+Q P13897          321 KADREGHCPVHSHSTTAVLKEATTHVTAVGSITLHFSTSSPQANFIVSLCGKKTTCNAECKPPADHIIGEP  391 (439)
+Q Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkDHIV~~p  391 (439)
+                      ++||+|||+|||||++|+|||++|+|+++|++|+||||||+||+|+||||++++||+++|+|||||||++|
+T Consensus       321 ~a~k~GkCavHs~S~~atl~es~v~v~~~g~~t~hFSTas~~~~F~v~iC~~~vtC~~~C~PPkdHIv~~p  391 (391)
+T P03315          321 KTNKNGDCSVHSHSNVATLQEATAKVKTAGKVTLHFSTASASPSFVVSLCSARATCSASCEPPKDHIVPYA  391 (391)
+T ss_pred             EecCCCCceeeecCchhhHHHHhhheeccceEEEEEeeccCCCceEEEecccccccccccCCCCCCcccCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999987
+
+
+Done!

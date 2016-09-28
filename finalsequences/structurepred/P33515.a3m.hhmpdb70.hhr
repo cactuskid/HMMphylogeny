@@ -1,0 +1,988 @@
+Query         P33515
+Match_columns 427
+No_of_seqs    94 out of 372
+Neff          4.9 
+Searched_HMMs 92
+Date          Mon Aug 22 17:22:14 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./finalsequences/models/P33515.a3m.hhm -ohhm ./finalsequences/structurepred/P33515.a3m.hhm -o ./finalsequences/structurepred/P33515.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4cct_A Dengue virus 1 E protei 100.0  6E-163  8E-167 1251.1  77.9  426    1-427     4-495 (495)
+  2 4cbf_A Envelope protein E; fla 100.0  1E-162  1E-166 1249.1  76.1  426    1-427     4-495 (495)
+  3 3j27_A Envelope protein E; fla 100.0  5E-161  7E-165 1236.6  23.1  419    1-420     4-484 (495)
+  4 4gsx_A Envelope protein E; vir 100.0  8E-142  1E-145 1079.4  39.9  366    1-367    20-427 (427)
+  5 3p54_A Envelope glycoprotein;  100.0  2E-139  2E-143 1057.8  42.4  356    1-357     4-406 (406)
+  6 4fg0_A Polyprotein; viral enve 100.0  1E-140  2E-144 1065.8  28.5  354    1-357     4-407 (407)
+  7 3uaj_B Envelope protein; dengu 100.0  2E-137  3E-141 1045.9  38.9  373    1-390     4-427 (433)
+  8 1ok8_A Major envelope protein  100.0  4E-138  5E-142 1044.7  32.0  349    1-350     4-394 (394)
+  9 1svb_A TICK-borne encephalitis 100.0  2E-136  3E-140 1031.1  37.3  346    1-350     4-395 (395)
+ 10 2jqm_A Envelope protein E; yel 100.0 1.9E-41 2.6E-45  287.4  25.9   98  258-356     1-112 (112)
+ 11 3uzq_B Envelope protein; dengu 100.0 1.3E-39 1.8E-43  276.6  36.9  100  264-363     1-113 (114)
+ 12 3vtt_A Envelope protein E; imm 100.0   7E-39 9.5E-43  269.7  39.5   94  263-356     1-107 (107)
+ 13 3uzv_A Envelope protein; dengu 100.0 2.2E-38   3E-42  269.0  39.8   97  264-360     1-110 (114)
+ 14 3uyp_B Envelope protein; dengu 100.0 1.7E-38 2.3E-42  269.7  38.4   97  264-360     1-110 (114)
+ 15 3uze_C Envelope protein; dengu 100.0 5.7E-37 7.6E-41  267.1  37.3  105  264-368     1-124 (139)
+ 16 3uc0_A Envelope protein; dengu 100.0   3E-29 3.9E-33  222.9  21.5  129    1-212     4-162 (165)
+ 17 2l36_A MSI594; antimicrobial p  37.9      21  0.0024   19.7   6.6   24  353-376     1-24  (24)
+ 18 4jdn_A Virulence plasmid prote  37.7      58   0.007   25.0  27.1   74  274-349    37-145 (152)
+ 19 2p6c_A AQ_2013 protein; NPPSFA   8.9   2E+02   0.029   20.5   7.3   98   26-232     7-137 (137)
+ 20 1vmj_A Hypothetical protein TM   8.8 2.2E+02   0.032   20.9   7.3   96   26-232    19-151 (151)
+
+No 1  
+>4cct_A Dengue virus 1 E protein; flavivirus; 4.50A {Dengue virus 1} PDB: 4b03_A 4c2i_A* 3j6s_A 3j6t_A 3j6u_A
+Probab=100.00  E-value=5.6e-163  Score=1251.08  Aligned_cols=426  Identities=13%  Similarity=0.137  Sum_probs=411.4
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||+|||||++++|++||.+|+||++|+|||++++|||||||||||+
+T Consensus         4 v~i~nRDFveG~sG~TwvdvvLe~~gCVTi~a~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~   83 (495)
+T 4cct_A            4 VGISNRDFVEGLSATGWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTNPAILRKLCIEAKISNTTTDSRCPTQGEATLV   83 (495)
+T ss_pred             ccccCCcccccCCCCEEEEEEEcCCcEEEEEcCCCCeEEEEEEEEEEeccHHhhhheeeeEEeccEEcccCCCCCccCCh
+Confidence            589999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeeccc------ccccc----
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSD------TQQMV----  148 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~~------t~~~~----  148 (427)
+                      ||++++|||||+||||||||||||||||||+|||||+|++++++++||+|||+|+|++++|+++.      ++++.    
+T Consensus        84 e~~~~~~vCkr~~~DRGWGNGCgLFGkGsi~tCakftC~~~~~g~~i~~enI~y~V~v~vH~~~~~~~~~~~~~~~~~~~  163 (495)
+T 4cct_A           84 EEQDTNFVCRRTFVDRGWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGNETTEHGTTAT  163 (495)
+T ss_pred             hhccCCeeecCCCCCCCCccccccccCcceEEEEeEEcCCcceEEEEecceEEEEEEEEEECCcccccccccccceeEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999992      22221    
+
+
+Q ss_pred             ---cCcceeeeeeccccceeeecccccceeeeeeeeecCCcccee-eeeccC----CCCCccc-ccCCCCCceeEEEeec
+Q P33515          149 ---GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLF-LRSQVD----SWPGVHS-TASGRHGMEKVVVWGD  219 (427)
+Q Consensus       149 ---~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl-~R~W~~----PW~~~~~-~~~~w~~~e~LV~f~~  219 (427)
+                         +|+++|++|||||+++|+|||+|++|++|||+++++ +|.|| |||||+    ||+++.. .++.|||+||||||+|
+T Consensus       164 ~Tp~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~-~k~wLV~R~Wf~DL~LPW~~~~~~~~~~W~~~e~LVeF~e  242 (495)
+T 4cct_A          164 ITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMK-EKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKT  242 (495)
+T ss_pred             EecCCCcEEEEcCCceEEEEEEEeccCcccccEEEEEeC-CcEEEEcHHHHhcCccCccCCCCCcccccccceeEEEECC
+Confidence               999999999999999999999999999999999999 89999 999999    9999921 2479999999999999
+
+
+Q ss_pred             ccccceeeecccCCCCchhhHhhh-------cCCccchhh-hHHHHHhhhhcccccCCCCCcceeeccCC--CcceeEEE
+Q P33515          220 ARSNEILVKNVIEPSLSWEDAIAT-------HGGFRDISF-VCQIMLDKLVSGAFRDCPGPKISTFSQDG--FGYSGVVI  289 (427)
+Q Consensus       220 phA~k~~V~~lg~~~i~~~~~~~~-------~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~~f~f~k~p--tgh~tVV~  289 (427)
+                      ||||||+|++|||++..|..|+.+       +++.+.+|| +|||+|||||+||+||.||+++|+|+|+|  ||||||||
+T Consensus       243 pHA~k~~V~~lg~Qega~~~ALaga~~~~~~~~~~l~~Ghl~Crv~ldkL~lkG~TY~~C~~~fs~~k~p~dtgHgTVV~  322 (495)
+T 4cct_A          243 AHAKKQEVVVLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGVSYVMCTGSFKLEKEVAETQHGTVLV  322 (495)
+T ss_pred             CceeEEEEEEecCchHHHHHHhcCCeEEeecCceEEeeeEEEEEEEecCeEECccChhcCCCceeEEECCCCCCCCeEEE
+Confidence            999999999999999999988874       358999999 99999999999999999999999999999  99999999
+
+
+Q ss_pred             EEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCceeeEEEece----eeEEEeeecccchhh
+Q P33515          290 TTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGST----SVSIECALNPISQGW  358 (427)
+Q Consensus       290 ~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G~s~I~VG~g----~~~w~~~gSsIg~af  358 (427)
+                      ||+|+++++||||||++++       |+|||+|||+++++++++||||||||||||+||++    +|||||+|||||+||
+T Consensus       323 ev~y~gt~~PCripv~~~~~~~~~~~G~liT~nPiv~~~~~~v~iE~epP~G~s~I~vG~g~~~l~~~W~~~GSsIG~af  402 (495)
+T 4cct_A          323 QVKYEGTDAPCKIPFSSQDEKGVIQNGRLITANPIVTDKEKPVNIEAEPPFGESYIVVGAGEKALKLSWFKKGSSIGKMF  402 (495)
+T ss_pred             EEEEccCCCCeEeEEEEEeCCCCccceEEEecCCEEEcCCCceEEEecCCCCceEEEEccCCCeEEEEecCCCccHHHHH
+Confidence            9999999999999999996       99999999999999999999999999999999986    999999999999999
+
+
+Q ss_pred             hhhhhhh--------------------hhhhhccccchhhhhhhhhcceecceeecchhHHHHHHHHHHhhhhhhhHeee
+Q P33515          359 RLARHVV--------------------DRYRRFGVSGVAGVWQDLVGKFSVGAFFSNTALLVILVLAALIDKRIAFLLVL  418 (427)
+Q Consensus       359 ~~t~~ga--------------------~s~gK~~h~v~Gg~f~~lfGg~s~~~k~l~g~llvwlg~n~r~~~~~~~ll~v  418 (427)
+                      +.|+||+                    ||+|||+||+||++|+.||||+||++|+|||+||+|||+|+||++++++||++
+T Consensus       403 ~~t~kG~~r~a~lgd~aWdfgsvGGvf~s~gkavH~vfG~~F~~lFgg~swi~kiliG~ll~Wlgin~R~~t~s~~~l~v  482 (495)
+T 4cct_A          403 EATARGARRMAILGDTAWDFGSIGGVFTSVGKLVHQIFGTAYGVLFSGVSWTMKIGIGILLTWLGLNSRSTSLSMTCIAV  482 (495)
+T ss_pred             HHHHHHHHHHHHhhcccccCCCcceeEeccchhHHHHhcchhhhhhccHHHHHHHHHHHHHheEEEeccCchhhhHHHHH
+Confidence            9999999                    99999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             c----cEEEEEeC
+Q P33515          419 G----GYFYYVRA  427 (427)
+Q Consensus       419 g----~l~~~V~A  427 (427)
+                      |    ||+++|+|
+T Consensus       483 G~ill~l~~~V~A  495 (495)
+T 4cct_A          483 GMVTLYLGVMVQA  495 (495)
+T ss_pred             HHHHheeEeeccC
+Confidence            9    99999998
+
+
+No 2  
+>4cbf_A Envelope protein E; flavivirus; 4.10A {Dengue virus 2}
+Probab=100.00  E-value=1e-162  Score=1249.09  Aligned_cols=426  Identities=12%  Similarity=0.129  Sum_probs=411.2
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||+|||||++++|++||.+||||++|+|||++++|||||||||||+
+T Consensus         4 v~i~nRDFveG~sG~TwvdvvLe~~gCVTi~a~~kptlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~   83 (495)
+T 4cbf_A            4 VGVGNRDFVEGVSGGAWVDLVLEHGGCVTTMAQGKPTLDFELTKTTAKEVALLRTYCIEASISNITTATRCPTQGEPYLK   83 (495)
+T ss_pred             ccccCCcccccCCCCEEEEEEEcCCcEEEEEcCCCCeEEEEEEEEEEeccHHhhhheeeeEEeccEecccCCCCCccCCh
+Confidence            589999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeeccc------ccccc----
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSD------TQQMV----  148 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~~------t~~~~----  148 (427)
+                      ||++++|||||+||||||||||||||||||+|||||+|++++++++||+|||+|+|++++|+++.      +.+++    
+T Consensus        84 e~~~~~~vCkr~~~DRGWGNGCgLFGkGsi~tCakf~C~~~~~g~~i~~~~I~y~V~v~vH~~~~~~~~~~~~~~~~~~~  163 (495)
+T 4cbf_A           84 EEQDQQYICRRDVVDRGWGNGCGLFGKGGVVTCAKFLCSGKITGNLVQIENLEYTVAVTVHNGDTHAVGNDTSSHGVTAT  163 (495)
+T ss_pred             hhccCCeeecCCCCCCCcccccccccCcceEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCcccccccccccceeEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999992      22221    
+
+
+Q ss_pred             ---cCcceeeeeeccccceeeecccccceeeeeeeeecCCcccee-eeeccC----CCCCcc-cccCCCCCceeEEEeec
+Q P33515          149 ---GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLF-LRSQVD----SWPGVH-STASGRHGMEKVVVWGD  219 (427)
+Q Consensus       149 ---~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl-~R~W~~----PW~~~~-~~~~~w~~~e~LV~f~~  219 (427)
+                         +|+++|++|||||+++|+|||+|++|++|||+++++ +|.|| |||||+    ||+++. .+++.|||+||||||+|
+T Consensus       164 ~t~~s~~~t~~lgdYGtvtl~Cr~~Sg~D~~~~Y~vt~~-~k~wlV~r~W~~Dl~lPW~~~~~~~~~~W~~~e~lVeF~~  242 (495)
+T 4cbf_A          164 ITPRSPSVEVKLPDYGELTLDCEPRSGIDFNEMILMKMK-KKTWLVHKQWFLDLPLPWTAGADTSEVHWNHKERMVTFKV  242 (495)
+T ss_pred             EecCCCcEEEEcccCeEEEEEEeeccccchhhEEEEEeC-CeEEEEEHHHhhcCCCCcccCCCCcccccccceeEEEeCC
+Confidence               999999999999999999999999999999999999 89999 999999    899883 12468999999999999
+
+
+Q ss_pred             ccccceeeecccCCCCchhhHhhh-------cCCccchhh-hHHHHHhhhhcccccCCCCCcceeeccCC--CcceeEEE
+Q P33515          220 ARSNEILVKNVIEPSLSWEDAIAT-------HGGFRDISF-VCQIMLDKLVSGAFRDCPGPKISTFSQDG--FGYSGVVI  289 (427)
+Q Consensus       220 phA~k~~V~~lg~~~i~~~~~~~~-------~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~~f~f~k~p--tgh~tVV~  289 (427)
+                      ||||||+|++|||++..|..|+.+       +++.+.+|| +|||+|||||+||+||.||.++|+|+|+|  ||||||||
+T Consensus       243 phA~k~~V~~lg~Qegal~~ALaga~~~~~~~~~~l~~Ghl~Crv~l~kL~lkG~TY~~C~~~fs~~k~p~dtgHgTVVm  322 (495)
+T 4cbf_A          243 PHAKRQDVTVLGSQEGAMHSALAGATEVDSGDGNHMFAGHLKCKVRMEKLRIKGMSYTMCSGKFSIDKEMAETQHGTTVV  322 (495)
+T ss_pred             CeEEEEEEEEecChhHHHHHHhcCCeEeecCCceEEeeeeEEEEEEecCeEEcccChhhCCCcceEEECCCCCCCCeEEE
+Confidence            999999999999999999888774       578999999 99999999999999999999999999999  99999999
+
+
+Q ss_pred             EEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCceeeEEEece----eeEEEeeecccchhh
+Q P33515          290 TTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGST----SVSIECALNPISQGW  358 (427)
+Q Consensus       290 ~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G~s~I~VG~g----~~~w~~~gSsIg~af  358 (427)
+                      ||+|+++++||||||++++       |+|||+|||+++++++++||||||||||||+||++    +|||||+|||||+||
+T Consensus       323 ev~y~gt~~PCripv~~~~~~~~~~~G~liT~nPiv~~~~~~v~iE~epP~G~s~I~vG~g~~~l~~~W~~~GSsIG~af  402 (495)
+T 4cbf_A          323 KVKYEGAGAPCKVPIEIRDVNKEKVVGRIISSTPFAENTNSVTNIELEPPFGDSYIVIGVGESALTLHWFRKGSSIGKMF  402 (495)
+T ss_pred             EEEEccCCCCeEeEEEEEeCCCCccceEEEecCCEEEcCCCceEEEecCCCCceEEEEcCCCCeEEEEecCCCccHHHHH
+Confidence            9999999999999999996       99999999999999999999999999999999977    999999999999999
+
+
+Q ss_pred             hhhhhhh--------------------hhhhhccccchhhhhhhhhcceecceeecchhHHHHHHHHHHhhhhhhhHeee
+Q P33515          359 RLARHVV--------------------DRYRRFGVSGVAGVWQDLVGKFSVGAFFSNTALLVILVLAALIDKRIAFLLVL  418 (427)
+Q Consensus       359 ~~t~~ga--------------------~s~gK~~h~v~Gg~f~~lfGg~s~~~k~l~g~llvwlg~n~r~~~~~~~ll~v  418 (427)
+                      +.|+||+                    ||+|||+|++||++|+.||||+||++|+|||+||+|||+|+||++++++||++
+T Consensus       403 ~~t~kG~~r~~~lgd~aWdfgsvGGvf~sigkavH~vfG~~~~~lFgg~swi~kiliG~ll~Wlgin~R~~t~s~~~~~v  482 (495)
+T 4cbf_A          403 ESTYRGAKRMAILGETAWDFGSVGGLFTSLGKAVHQVFGSVYTTMFGGVSWMVRILIGFLVLWIGTNSRNTSMAMTCIAV  482 (495)
+T ss_pred             HHHHHHHHHHHHhhhccccCCCCceeEeccchHHHHHhhhhHHhhhcchHHHHHHHHHHHHheEEEeccCchHhhHHHHH
+Confidence            9999999                    99999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             c----cEEEEEeC
+Q P33515          419 G----GYFYYVRA  427 (427)
+Q Consensus       419 g----~l~~~V~A  427 (427)
+                      |    ||+++|+|
+T Consensus       483 G~ill~l~~~V~A  495 (495)
+T 4cbf_A          483 GGITLFLGFTVQA  495 (495)
+T ss_pred             HHHHheeEeeccC
+Confidence            9    99999998
+
+
+No 3  
+>3j27_A Envelope protein E; flavivirus, fusion protein, protein complex, membrane, chape virus; HET: NAG; 3.60A {Dengue virus 2} PDB: 3j2p_A* 4uih_A 1p58_A 3zko_A 4uif_A 5a1z_A
+Probab=100.00  E-value=5e-161  Score=1236.55  Aligned_cols=419  Identities=12%  Similarity=0.124  Sum_probs=399.2
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||+|||||++++|++||++||||++|+|||++++|||||||||||+
+T Consensus         4 v~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~   83 (495)
+T 3j27_A            4 IGISNRDFVEGVSGGSWVDIVLEHGSCVTTMAKNKPTLDFELIETEAKQPATLRKYCIEAKLTNTTTDSRCPTQGEPSLN   83 (495)
+T ss_dssp             SSCSSCCEEECCTTTTEEEEECCSSCEEEEECSSSCCEEEEEEEECCCSEECCCCBEEEEEEEEEEEEECCSSSCCCCCG
+T ss_pred             ccccCCcccccCCCCEEEEEEecCCcEEEEEcCCCceEEEEEeeEEEeccHHhhheeeeeEEeccEEcccCCCCCccCCh
+Confidence            689999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeeccc------ccccc----
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSD------TQQMV----  148 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~~------t~~~~----  148 (427)
+                      ||++++|||||+||||||||||||||||||+|||||+|++++++++||+|||+|+|++++|+++.      +++++    
+T Consensus        84 e~~~~~~vCkr~~~DRGWGNGCgLFGkGsi~tCakftC~~~~~g~~i~~enI~y~V~v~vH~~~~~~~~~~~~~~~~~~~  163 (495)
+T 3j27_A           84 EEQDKRFVCKHSMVDRGWGNGCGLFGKGGIVTCAMFTCKKNMKGKVVQPENLEYTIVITPHSGEEHAVGNDTGKHGKEIK  163 (495)
+T ss_dssp             GGGBTTSCEEEEEECCCGGGTSSSCSCEEEEEEEEEEEEEECCCCEECSTTCCEEEEEEECCCCTTCSSCSSSCSSCCEE
+T ss_pred             hhccCCeeecCCCCCCCcccccccccCcceEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCcccccccccccceeEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999992      22221    
+
+
+Q ss_pred             ---cCcceeeeeeccccceeeecccccceeeeeeeeecCCcccee-eeeccC----CCCCccc-ccCCCCCceeEEEeec
+Q P33515          149 ---GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLF-LRSQVD----SWPGVHS-TASGRHGMEKVVVWGD  219 (427)
+Q Consensus       149 ---~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl-~R~W~~----PW~~~~~-~~~~w~~~e~LV~f~~  219 (427)
+                         +|+++|++|||||+++|+|||+|++|++|||+++++ +|.|| |||||+    ||+++.. .++.|||+||||||+|
+T Consensus       164 ~Tp~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~-~k~wLVhR~Wf~DL~LPW~~~~~~~~~~W~~~e~LVeF~~  242 (495)
+T 3j27_A          164 ITPQSSITEAELTGYGTVTMECSPRTGLDFNEMVLLQME-NKAWLVHRQWFLDLPLPWLPGADTQGSNWIQKETLVTFKN  242 (495)
+T ss_dssp             ECTTSCEEEEEETTTEEEEEEECTTSSSCCSSBCCEESS-SCEECCBHHHHTTSCSCBCCSCCSSCCCCBCSCSSCEEEC
+T ss_pred             EecCCCcEEEECCCceEEEEEEEeccCcccccEEEEEeC-CeEEEEEHHHhhcCCCCcccCCCCcccccccceeEEEeCC
+Confidence               999999999999999999999999999999999999 89999 999999    8888831 2469999999999999
+
+
+Q ss_pred             ccccceeeecccCCCCchhhHhhh-------cCCccchhh-hHHHHHhhhhcccccCCCCCcceeeccCC--CcceeEEE
+Q P33515          220 ARSNEILVKNVIEPSLSWEDAIAT-------HGGFRDISF-VCQIMLDKLVSGAFRDCPGPKISTFSQDG--FGYSGVVI  289 (427)
+Q Consensus       220 phA~k~~V~~lg~~~i~~~~~~~~-------~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~~f~f~k~p--tgh~tVV~  289 (427)
+                      ||||||+|++|||++..|..|+.+       +++.|.+|| +|||+|||||+||+||.||+++|+|+|+|  ||||||||
+T Consensus       243 pHA~k~~V~~lg~Qega~~~ALaga~~~~~~~~~~l~~Ghl~Cri~l~kL~lkG~TY~~C~~~fs~~k~p~~tgHgTVVm  322 (495)
+T 3j27_A          243 PHAKKQDVVVLGSQEGAMHTALTGATEIQMSSGNLLFTGHLKCRLRMDKLQLKGMSYSMCTGKFKVVKEIAETQHGTIVI  322 (495)
+T ss_dssp             STTSSCEEECCCCTHHHHHHHHTTSCBCCCSSSCCCCCCCCEEEEECSCCCCSSTTCCCCCSEEEESSCCCCSSSSCBCC
+T ss_pred             CeEEEEEEEEecChhHHHHHHhcCCeEEeecCcceEeeeEEEEEEEecCeEEcccChhcCCCceeEEECCCCCCCCeEEE
+Confidence            999999999999944444444443       468999999 99999999999999999999999999999  99999999
+
+
+Q ss_pred             EEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCceeeEEEece----eeEEEeeecccchhh
+Q P33515          290 TTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGST----SVSIECALNPISQGW  358 (427)
+Q Consensus       290 ~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G~s~I~VG~g----~~~w~~~gSsIg~af  358 (427)
+                      ||+|+++++||||||++++       |+|||+|||+++++++++||||||||||||+||++    +|||||+|||||+||
+T Consensus       323 ev~y~gt~~PCripv~~~~~~~~~~~G~liT~nPiv~~~~~~v~iE~epP~Gds~I~vG~g~~~l~~~W~~~GSsIG~af  402 (495)
+T 3j27_A          323 RVQYEGDGSPCKIPFEIMDLEKRHVLGRLITVNPIVTEKDSPVNIEAEPPFGDSYIIIGVEPGQLKLNWFKKGSSIGQMI  402 (495)
+T ss_dssp             CEEEESCCSSBCCCCEEECSSSCCCCCCBCSSSCCBCSSSCCCCCCBCCCSSCCEEECCCTTCCCEEECCCCCCHHHHHH
+T ss_pred             EEEEccCCCCeEeEEEEEeCCCCccceEEEecCCEEEcCCCceEEEecCCCCceEEEEcCCCCeEEEEecCCCccHHHHH
+Confidence            9999999999999999996       99999999999999999999999999999999976    999999999999999
+
+
+Q ss_pred             hhhhhhh--------------------hhhhhccccchhhhhhhhhcceecceeecchhHHHHHHHHHHhhhhhhhHeee
+Q P33515          359 RLARHVV--------------------DRYRRFGVSGVAGVWQDLVGKFSVGAFFSNTALLVILVLAALIDKRIAFLLVL  418 (427)
+Q Consensus       359 ~~t~~ga--------------------~s~gK~~h~v~Gg~f~~lfGg~s~~~k~l~g~llvwlg~n~r~~~~~~~ll~v  418 (427)
+                      +.|+||+                    ||+|||+||+||++|+.||||+||++|+|||+||+|||+|+||++++++||++
+T Consensus       403 ~~t~kG~~r~a~lgd~aWdfgsvGGvf~s~gka~H~vfG~~~~~lFgg~swi~kiliG~ll~Wlgin~R~~t~s~~~l~v  482 (495)
+T 3j27_A          403 ETTMRGAKRMAILGDTAWDFGSLGGVFTSIGKALHQVFGAIYGAAFSGVSWIMKILIGVIITWIGMNSRSTSLSVSLVLV  482 (495)
+T ss_dssp             HHHHHHHHHHTTTSGGGGGGSCSCSSHHHHHHHHHHHHHHTGGGTSTBCCHHHHHHHHHHHHHHHHSSSSSTHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhhhccccCCCCceeEeccchHHHHHhhhhHHhhhcchHHHHHHHHHHHHheEEEeccCchhhhHHHHH
+Confidence            9999999                    99999999999999999999999999999999999999999999999999998
+
+
+Q ss_pred             cc
+Q P33515          419 GG  420 (427)
+Q Consensus       419 g~  420 (427)
+                      |+
+T Consensus       483 G~  484 (495)
+T 3j27_A          483 GV  484 (495)
+T ss_dssp             TT
+T ss_pred             HH
+Confidence            82
+
+
+No 4  
+>4gsx_A Envelope protein E; viral fusion protein, viral protein; HET: NAG; 1.90A {Dengue virus 1} PDB: 4gt0_A* 3g7t_A 3j05_A 4cau_A 1uzg_A*
+Probab=100.00  E-value=7.6e-142  Score=1079.36  Aligned_cols=366  Identities=12%  Similarity=0.147  Sum_probs=339.1
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||+|||||++++|++||.+|+||++|+|||++++|||||||||+|+
+T Consensus        20 ~~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~   99 (427)
+T 4gsx_A           20 VGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTNPAVLRKLCIEAKISNTTTDSRCPTQGEATLV   99 (427)
+T ss_dssp             EECCGGGEEECSSSEEEEEEEEESSCCEEECBTTSCCEEEEEEEEEEESCEEEEEEEEEEEEEEEEEEECCTTSCCCCCG
+T ss_pred             ccccccceeecCCCCEEEEEEEcCCcEEEEEcCCCCeEEEEEEEEEEecchHhhheeeeeEEeccEEcccCCCCCcccCh
+Confidence            258999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeeccc------ccccc----
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSD------TQQMV----  148 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~~------t~~~~----  148 (427)
+                      ||++++|||||+||||||||||||||||||+|||||+|++++++++||+|||+|+|++++|+++.      +++++    
+T Consensus       100 e~~~~~~vCkr~~~DRGWGNGCgLFGKGsi~tCaKftC~~~~~g~~i~~e~I~y~V~v~vH~~~~~~~~~~~~~~~~~at  179 (427)
+T 4gsx_A          100 EEQDTNFVCRRTFVDRGHGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGNETTEHGTIAT  179 (427)
+T ss_dssp             GGGCTTEEEEEEEEEECGGGTCSSCEEEEEEEEEEEEEEEEEEEEECCGGGEEEEEEEEECCC------------CEEEE
+T ss_pred             hhhcCCeEecCCCCCCCcccccccccCccEEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCcccccccccccceeEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999992      22221    
+
+
+Q ss_pred             ---cCcceeeeeeccccceeeecccccceeeeeeeeecCCcccee-eeeccCCCCCccccc-----CCCCCceeEEEeec
+Q P33515          149 ---GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLF-LRSQVDSWPGVHSTA-----SGRHGMEKVVVWGD  219 (427)
+Q Consensus       149 ---~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl-~R~W~~PW~~~~~~~-----~~w~~~e~LV~f~~  219 (427)
+                         +||+++++|||||+++|+||++|++||+|||+++++ +|.|| |||||+.|+.|-+.+     +.|||+||||+|+|
+T Consensus       180 fTp~Sp~~tv~LgDYGtvtl~C~~~sg~d~~~~y~~~~~-~k~wlV~r~W~~Dl~LPW~~~~~~~~~~W~~~e~LVeF~~  258 (427)
+T 4gsx_A          180 ITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTME-KKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKT  258 (427)
+T ss_dssp             ECSSCCEEEEEETTTEEEEEEEEECSCCCTTTEEEEEET-TEEEEEEHHHHHTCCSCEEESSCCSSCCCBCGGGTEEECC
+T ss_pred             EecCCCCEEEEcCCCcEEEEEeccccCcChhhEEEEEec-CcEEEEeHHHHhcCccCccCCCCCcccccccceeEEEeCC
+Confidence               999999999999999999999999999999999999 89999 999999665555332     57999999999999
+
+
+Q ss_pred             ccccceeeecccCCCCchhhHhhh-------cCCccchhh-hHHHHHhhhhcccccCCCCCcceeeccCC--CcceeEEE
+Q P33515          220 ARSNEILVKNVIEPSLSWEDAIAT-------HGGFRDISF-VCQIMLDKLVSGAFRDCPGPKISTFSQDG--FGYSGVVI  289 (427)
+Q Consensus       220 phA~k~~V~~lg~~~i~~~~~~~~-------~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~~f~f~k~p--tgh~tVV~  289 (427)
+                      ||||||+|++|||++..|..|+.+       +++.|.+|| +|||+||||||||+||.||.++|+|+|+|  ||||||||
+T Consensus       259 pHA~k~~V~~lg~Qegal~~ALagA~~~~~~~~~~l~~Ghl~Crv~l~kLklkG~TY~~C~g~fs~~k~p~dtgHgTVVm  338 (427)
+T 4gsx_A          259 AHAKKQEVVVLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGMSYVMCTGSFKLEKEVAETQHGTVLV  338 (427)
+T ss_dssp             CCSSCCCEEECCCCHHHHHHHTTTSEEEEEETTEEEECCEEEEEEEEESCCBCCCCCCBCCSCEEESSCCEECTTSCEEE
+T ss_pred             CeEEEEEEEEecCchHHHHHHhcCCeEEeecCceEEEeeeEEEEEEecceEEcccChhcCCCceeEEECCCCCCCCeEEE
+Confidence            999999999999999999888775       257899999 99999999999999999999999999999  99999999
+
+
+Q ss_pred             EEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCceeeEEEece----eeEEEeeecccchhh
+Q P33515          290 TTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGST----SVSIECALNPISQGW  358 (427)
+Q Consensus       290 ~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G~s~I~VG~g----~~~w~~~gSsIg~af  358 (427)
+                      ||+|+|+++||||||++++       |+|||+|||+++++++++||||||||||||+||++    +|||||+|||||+||
+T Consensus       339 ev~y~gt~~PCripv~~~~~~~~~~~G~liT~nPiv~~~~~~v~iE~epPfGds~I~vG~g~~~l~~~W~~~GSsIG~af  418 (427)
+T 4gsx_A          339 QVKYEGTDAPCKIPFSSQDEKGVTQNGRLITANPIVTDKEKPVNIEAEPPFGESYIVVGAGEKALKLSWFKKGSSIGKMF  418 (427)
+T ss_dssp             EEEECSSCCSEECCEEEEETTCCBCSCCBCCSCCEESCTTSCEEEEECCCSEEEEEEESSGGGCEEEEEEECCCCCCCCC
+T ss_pred             EEEEccCCCCeEeEEEEEeCCCCccceEEEeCCCEEEcCCCceEEEecCCCCceEEEEcCCCCeEEEEecCCCccHHHHH
+Confidence            9999999999999999997       99999999999999999999999999999999986    999999999999999
+
+
+Q ss_pred             hhhhhhhhh
+Q P33515          359 RLARHVVDR  367 (427)
+Q Consensus       359 ~~t~~ga~s  367 (427)
+                      +.|+||+.|
+T Consensus       419 ~~t~kG~~r  427 (427)
+T 4gsx_A          419 EATARGARR  427 (427)
+T ss_dssp             C--------
+T ss_pred             HHHHHhhcC
+Confidence            999999854
+
+
+No 5  
+>3p54_A Envelope glycoprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 2.10A {Japanese encephalitis virus} PDB: 2i69_A* 3i50_E 3iyw_A* 3j0b_A 2of6_A 3ixx_A 2hg0_A* 1pjw_A 1s6n_A 2p5p_A 1ztx_E
+Probab=100.00  E-value=1.7e-139  Score=1057.83  Aligned_cols=356  Identities=15%  Similarity=0.186  Sum_probs=336.3
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||+|||||++++|++||.+|+||++|+|||+++++||||||||||+
+T Consensus         4 v~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~kPtlDv~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~   83 (406)
+T 3p54_A            4 LGMGNRDFIEGASGATWVDLVLEGDSCLTIMANDKPTLDVRMINIEASQLAEVRSYCYHASVTDISTVARCPTTGEAHNE   83 (406)
+T ss_dssp             TTCSSEEEEECCTTCSEEEEEEESSCEEEEECTTSCCEEEEEEEEEECCCEEEEEEEEEEEEEEEEEEECCTTSCCCCCG
+T ss_pred             ccccccceeecCCCCEEEEEEecCCcEEEEEcCCCceEEEEEEEEEEeCcHHhhhheeccEEeccEEcccCCCCCccCCh
+Confidence            689999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeecccc-----------ccc
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSDT-----------QQM  147 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~~t-----------~~~  147 (427)
+                      ||++++|||||+||||||||||||||||||+|||||+|++++++++||+|||+|+|++++|+++..           +++
+T Consensus        84 e~~~~~~vCkr~~~DRGWGNGCgLFGKGsi~tCakftC~~~~~g~~i~~e~I~y~V~v~vH~~~~~~~~~n~~~~~~~~~  163 (406)
+T 3p54_A           84 KRADSSYVCKQGFTDRGWGNGCGFFGKGSIDTCAKFSCTSKAIGRTIQPENIKYKVGIFVHGTTTSENHGNYSAQVGASQ  163 (406)
+T ss_dssp             GGGCTTEEEEEEEEEESGGGTCSSCEEEEEEEEEEEEEEEEEEEEECCTTSEEEEEEEEECCSCCTTTTTCHHHHHHTTC
+T ss_pred             hhhcCCeEecCCCCCCCcccccccccCccEEEEEeEEcCCceeEEEEeeeeEEEEEEEEEeCCcccccccccccccccce
+Confidence            999999999999999999999999999999999999999999999999999999999999999931           111
+
+
+Q ss_pred             c-------cCcceeeeeeccccceeeecccccceeeeeeeeecCCcccee-eeeccCCCCCccccc--CCCCCceeEEEe
+Q P33515          148 V-------GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLF-LRSQVDSWPGVHSTA--SGRHGMEKVVVW  217 (427)
+Q Consensus       148 ~-------~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl-~R~W~~PW~~~~~~~--~~w~~~e~LV~f  217 (427)
+                      .       +|++++++|||||+++|+|||+|++||+|||+++++ +|.|| |||||+.|+.|-+.+  +.|||+||||+|
+T Consensus       164 ~~~~~~tp~a~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~-~k~wlV~r~W~~Dl~LPW~~~~~~~W~~~e~LVeF  242 (406)
+T 3p54_A          164 AAKFTVTPNAPSVTLKLGDYGEVTLDCEPRSGLNTEAFYVMTVG-SKSFLVHREWFHDLALPWTSPSSTAWRNRELLMEF  242 (406)
+T ss_dssp             EEEEEECSSSCEEEEECGGGBEEEEEEEGGGSCCTTSEEEEEET-TEEEEEETTTTTTCCSCEEETTEEEEECGGGGEEE
+T ss_pred             eeEEEEcCCCCCEEEEccCccEEEEEEEeccCcccccEEEEEeC-CcEEEEcHHHHhcCccCcccCCCCccccceeEEEE
+Confidence            1       999999999999999999999999999999999999 89999 999999666666444  559999999999
+
+
+Q ss_pred             ecccccceeeecccCCCCchhhHhhh-------cCCccchhh-hHHHHHhhhhcccccCCCCCcceeeccCC--CcceeE
+Q P33515          218 GDARSNEILVKNVIEPSLSWEDAIAT-------HGGFRDISF-VCQIMLDKLVSGAFRDCPGPKISTFSQDG--FGYSGV  287 (427)
+Q Consensus       218 ~~phA~k~~V~~lg~~~i~~~~~~~~-------~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~~f~f~k~p--tgh~tV  287 (427)
+                      ++||||||+|++|||++..|..|+.+       +++.+.+|| +|||+||||+|||+||.||.++|+|+|+|  ||||||
+T Consensus       243 ~~pHA~k~~V~~lG~Qegal~~ALagA~~~~~~~~~~l~~Ghl~Cri~ldkLklkG~TY~~C~~~fs~~k~p~dtgHgTV  322 (406)
+T 3p54_A          243 EGAHATKQSVVALGSQEGGLHQALAGAIVVEYSSSVMLTSGHLKCRLKMDKLALKGTTYGMCTEKFSFAKNPVDTGHGTV  322 (406)
+T ss_dssp             EEEETTEEEEEECCCCHHHHHHHCSSSEEEEESSSEEESCCEEEEEEECTTBCCTTTTSCBCCSCEEEEEEEEECSSSCE
+T ss_pred             CCCceeEEEEEEecCchHHHHHHhcCceEEeecCceEEEeeEEEEEEEecCeEECccChhhCCCceEEEECCCCCCCCeE
+Confidence            99999999999999988888776553       368999999 99999999999999999999999999999  999999
+
+
+Q ss_pred             EEEEeeccCcceeeeeeeeee--------eecccceEEEEec--ccccceeeeecCceeeEEEece----eeEEEeeecc
+Q P33515          288 VITTLTASSNETCSLSLTCHG--------CLLQSTKMIFLAG--KTTSRAFVKCGNHTSTLLVGST----SVSIECALNP  353 (427)
+Q Consensus       288 V~~v~y~g~~~pCripv~~~~--------g~LiT~npiv~~~--~~~v~iev~pp~G~s~I~VG~g----~~~w~~~gSs  353 (427)
+                      ||||+|+|+++||||||++++        |||||+|||++++  +.+++||||||||||||+||++    +|||||+|||
+T Consensus       323 V~ev~y~gs~~PCripv~~~~~~~~~~~~G~liT~nPiv~~~~~~~~~~iE~epPfGds~I~vG~g~~~l~~~W~~~GSs  402 (406)
+T 3p54_A          323 VIELSYSGSDGPCKIPIVSVASLNDMTPVGRLVTVNPFVATSSANSKVLVEMEPPFGDSYIVVGRGDKQINHHWHKAGST  402 (406)
+T ss_dssp             EEEEEECCSSCSEECCEEEEEETTEEEECSEESSCSCEECCSSTTEEEEEEEECCSEEEEEEESSGGGCEEEEEEECCCC
+T ss_pred             EEEEEEccCCCCeEeEEEEEccCCCCccceEEEeCCCEEecccCCcceEEEEeCCCCceEEEEcCCCCeEEEEeccCCcc
+Confidence            999999999999999999984        9999999999999  6789999999999999999976    9999999999
+
+
+Q ss_pred             cchh
+Q P33515          354 ISQG  357 (427)
+Q Consensus       354 Ig~a  357 (427)
+                      ||+|
+T Consensus       403 IG~a  406 (406)
+T 3p54_A          403 LGKA  406 (406)
+T ss_dssp             CC--
+T ss_pred             cccC
+Confidence            9986
+
+
+No 6  
+>4fg0_A Polyprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 3.90A {St}
+Probab=100.00  E-value=1.5e-140  Score=1065.85  Aligned_cols=354  Identities=18%  Similarity=0.240  Sum_probs=329.5
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||+|||||++++|++||.+|+||++|+|||+++++||||||||||+
+T Consensus         4 ~~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~~~~~CPt~Gea~l~   83 (407)
+T 4fg0_A            4 LGTSNRDFVEGASGATWIDLVLEGGSCVTVMAPEKPTLDFKVMKMEAAELATVREYCYEATLDTLSTVARCPTTGEAHNT   83 (407)
+T ss_dssp             EECCGGGEEECSSSEEEEEEEEESSCCEEEEETTEEEEEEEEEEEEECCCEEEEEEEEEEEEEEEEEEECCSSSCCCCCT
+T ss_pred             ccccCCceeecCCCCEEEEEEecCCcEEEEEcCCCCeEEEEEEEEEEeCcHHhhhheeeeEEeccEecccCCCCCccCCh
+Confidence            258999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeeccc-------c----ccc
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSD-------T----QQM  147 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~~-------t----~~~  147 (427)
+                      ||++++|||||+||||||||||||||||||+|||||+|++++++++||+|||+|+|++++|+++.       +    +++
+T Consensus        84 e~~~~~~vCkr~~~DRGWGNGCgLFGKGsi~tCakf~C~~~~~g~~i~~e~I~y~V~v~vH~~~~~~~~~~~~~~~~~~~  163 (407)
+T 4fg0_A           84 KRSDPTFVCKRDVVDRGWGNGCGLFGKGSIDTCAKFTCKNKATGKTILRENIKYEVAIFVHGSTDSTSHGNYFEQIGKNQ  163 (407)
+T ss_dssp             TTTSTTEEEEEEEEECCTTTTCSSSSEEEEEEEEEEEEEEEEEEEECCGGGEEEEEEEEECC-----------------C
+T ss_pred             hhhcCCeEecCCCCCCCccccCccccCccEEEEEeEEcCCceeEEEEecceEEEEEEEEecCCcccccccccccccccce
+Confidence            99999999999999999999999999999999999999999999999999999999999999871       1    122
+
+
+Q ss_pred             c-------cCcceeeeeeccccceeeecccccceeeeeeeeecCCcccee-eeeccC----CCCCcccccCCCCCceeEE
+Q P33515          148 V-------GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLF-LRSQVD----SWPGVHSTASGRHGMEKVV  215 (427)
+Q Consensus       148 ~-------~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl-~R~W~~----PW~~~~~~~~~w~~~e~LV  215 (427)
+                      .       +|++++++|||||+++|+||++|++||+|||+++++ +++|| |||||+    ||+++  +++.|||+||||
+T Consensus       164 ~~~~t~t~~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~-~k~wLV~R~Wf~DL~LPW~~~--~~~~W~~~e~LV  240 (407)
+T 4fg0_A          164 AARFTISPQAPSFTANMGEYGTVTIDCEARSGINTEDYYVFTVK-EKSWLVNRDWFHDLNLPWTSP--ATTDWRNRETLV  240 (407)
+T ss_dssp             EEEEEECSSCCEEEEECGGGCEEEEEEEEESSCCGGGEEEEECS-SCEEEEEHHHHHSCCSCEECS--SCCSCBCCTTSE
+T ss_pred             eeEEEEecCCCCEEEEcCCCcEEEEEEecccCcchhhEEEEEeC-CcEEEEcHHHHhcCccCcccC--CCCccccceeEE
+Confidence            1       999999999999999999999999999999999999 89999 999999    77777  778899999999
+
+
+Q ss_pred             EeecccccceeeecccCCCCchhhHhh--------hcCCccchhh-hHHHHHhhhhcccccCCCCCcceeeccCC--Ccc
+Q P33515          216 VWGDARSNEILVKNVIEPSLSWEDAIA--------THGGFRDISF-VCQIMLDKLVSGAFRDCPGPKISTFSQDG--FGY  284 (427)
+Q Consensus       216 ~f~~phA~k~~V~~lg~~~i~~~~~~~--------~~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~~f~f~k~p--tgh  284 (427)
+                      ||++||||||+|++|||++..|..|+.        ++++.|.+|| +|||+||||||||+||.||.++|+|+|+|  |||
+T Consensus       241 eF~epHA~k~~V~~lG~Qegal~~ALaga~~~~~~~~~~~l~~Ghl~Crv~l~kLklkG~TY~~C~~~fs~~k~p~dtgH  320 (407)
+T 4fg0_A          241 EFEEPHATKQTVVALGSQEGALHTALAGAIPATVSSSTLTLQSGHLKCRAKLDKVKIKGTTYGMCDSAFTFSKNPTDTGH  320 (407)
+T ss_dssp             EECSCCSSCCCEEECCCTHHHHHHHCSSSEECEECTTCCEECCCEEEEEEEEESCCCCCCCCCBCCSCEEESSCCCCCTT
+T ss_pred             EECCCceeEEEEEEecCchHHHHHHhcCCeeeeecCCeeEEeeeEEEEEEEecceEEcccChhhCCCceeEEECCCCCCC
+Confidence            999999999999999995555544443        4689999999 99999999999999999999999999999  999
+
+
+Q ss_pred             eeEEEEEeeccCcceeeeeeeeee--------eecccceEEEEec--ccccceeeeecCceeeEEEece----eeEEEee
+Q P33515          285 SGVVITTLTASSNETCSLSLTCHG--------CLLQSTKMIFLAG--KTTSRAFVKCGNHTSTLLVGST----SVSIECA  350 (427)
+Q Consensus       285 ~tVV~~v~y~g~~~pCripv~~~~--------g~LiT~npiv~~~--~~~v~iev~pp~G~s~I~VG~g----~~~w~~~  350 (427)
+                      |||||||+|+|+++||||||++++        |||||+|||++++  +.+++||||||||||||+||++    +|||||+
+T Consensus       321 gTVVmev~y~gs~~PCripv~~~~~~~~~~~~G~liT~nPiv~~~~~~~~~~iE~epPfGds~I~vG~g~~~l~~~W~~~  400 (407)
+T 4fg0_A          321 GTVIVELQYTGSNGPCRVPISVTANLMDLTPVGRLVTVNPFISTGGANNKVMIEVEPPFGDSYIVVGRGTTQINYHWHKE  400 (407)
+T ss_dssp             SCEEEEEEEESSCCSCBCCEEEESSTTCCCCCSEESSSCCBCSCCSSEEEEEEEEECCSEEEEEEECCSSSCBCCEEEEC
+T ss_pred             CeEEEEEEEccCCCCeEeEEEEEccCCCCccceEEEeCCCEEEccCCCceeEEEecCCCCceEEEEccCCCeEEEEeccC
+Confidence            999999999999999999999994        9999999999987  5688999999999999999986    9999999
+
+
+Q ss_pred             ecccchh
+Q P33515          351 LNPISQG  357 (427)
+Q Consensus       351 gSsIg~a  357 (427)
+                      |||||+|
+T Consensus       401 GSsIG~a  407 (407)
+T 4fg0_A          401 GSSIGKA  407 (407)
+T ss_dssp             CCCC---
+T ss_pred             CcccccC
+Confidence            9999986
+
+
+No 7  
+>3uaj_B Envelope protein; dengue antibody membrane fusion, viral protein-immune system; HET: NAG; 3.23A {Dengue virus 4}
+Probab=100.00  E-value=2.1e-137  Score=1045.87  Aligned_cols=373  Identities=12%  Similarity=0.151  Sum_probs=319.9
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||+|||||++++|++||.+|+||++|+|||++++|||||||||||+
+T Consensus         4 vgi~nRDFVeGvsG~TwvdvVLE~ggCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yC~~a~vs~t~s~~rCPt~GeA~l~   83 (433)
+T 3uaj_B            4 VGVGNRDFVEGVSGGAWVDLVLEHGGCVTTMAQGKPTLDFELTKTTAKEVALLRTYCIEASISNITTATRCPTQGEPYLK   83 (433)
+T ss_dssp             TTCSSEEEEECCSSCSEEEEEECTTCEEEEEETTEEEEEEEEEEEECCSCEEEEEEEEEEEEEEEEEEECCTTSCCCCCG
+T ss_pred             ccccCCcceecCCCCEEEEEEecCCcEEEEEcCCCCeEEEEEEEEEEecchHhhhheeeeEEeccEEcccCCCCCccCCh
+Confidence            689999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeeccc------ccccc----
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSD------TQQMV----  148 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~~------t~~~~----  148 (427)
+                      ||++++|||||+|+||||||||||||||||+|||||+|++++++++||+|||+|+|+++||+++.      +.++.    
+T Consensus        84 e~~~~~~vCkr~~sDRGWGNGCgLFGKGSIvTCaKftC~~~~~g~~i~~enI~y~V~v~vH~~~~~~~~~~~~~~~~~~~  163 (433)
+T 3uaj_B           84 EEQDQQYICRRDVVDRGWGNGCGLFGKGGVVTCAKFSCSGKITGNLVQIENLEYTVVVTVHNGDTHAVGNDTSNHGVTAM  163 (433)
+T ss_dssp             GGTCTTEEEEEEEEEESTTTTCSSCEEEEEEEEEEEEEEEEEEEEECCSSSCEEEEEEEECC------------CCEEEE
+T ss_pred             hhccCCeeecCCCCCCCCccccccccCcceEEEEeEEcCCceEEEEEeeeeEEEEEEEEEeCCcccccccccccceeEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999991      22221    
+
+
+Q ss_pred             ---cCcceeeeeeccccceeeecccccceeeeeeeeecCCcccee-eeeccCCCCCccccc-----CCCCCceeEEEeec
+Q P33515          149 ---GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLF-LRSQVDSWPGVHSTA-----SGRHGMEKVVVWGD  219 (427)
+Q Consensus       149 ---~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl-~R~W~~PW~~~~~~~-----~~w~~~e~LV~f~~  219 (427)
+                         +|+++|++|||||+++|+|||+|++||+|||+++++ +|.|| |||||+.|+.|-+.+     +.|||+||||+|++
+T Consensus       164 ~Tp~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~-~k~wLV~R~Wf~DL~LPW~~~~~~~~~~W~~~e~LVeF~e  242 (433)
+T 3uaj_B          164 ITPRSPSVEVKLPDYGELTLDCEPRSGIDFNEMILMKMK-KKTWLVHKQWFLDLPLPWTAGADTSEVHWNYKERMVTFKV  242 (433)
+T ss_dssp             EBTTBCEEEEEETTTEEEEEEEEEECSSCGGGEEEEEET-TEEEEEEHHHHHTCCSCEEC-------CCBCGGGTEEECC
+T ss_pred             EecCCCCEEEEcCCCcEEEEEEEeccCcchhhEEEEEeC-CcEEEEeHHHHhcCccCccCCCCCcccccccceeEEEECC
+Confidence               999999999999999999999999999999999999 89999 999999555444332     48999999999999
+
+
+Q ss_pred             ccccceeeecccC------------CCCchhhHhhhcCCccchhh-hHHHHHhhhhcccccCCCCCcceeeccCC--Ccc
+Q P33515          220 ARSNEILVKNVIE------------PSLSWEDAIATHGGFRDISF-VCQIMLDKLVSGAFRDCPGPKISTFSQDG--FGY  284 (427)
+Q Consensus       220 phA~k~~V~~lg~------------~~i~~~~~~~~~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~~f~f~k~p--tgh  284 (427)
+                      ||||||+|++|||            ++++.     ++++.|.+|| +|||+||||||||+||.||.++|+|+|+|  |||
+T Consensus       243 pHA~k~~V~~LG~Qegal~~ALagA~~~~~-----~~~~~l~~GHl~Crv~ldkLklKG~TY~~C~g~fs~~k~p~dTGH  317 (433)
+T 3uaj_B          243 PHAKRQDVTVLGSQEGAMHSALAGATEVDS-----GDGNHMFAGHLKCKVRMEKLRIKGMSYTMCSGKFSIDKEMAETQH  317 (433)
+T ss_dssp             C-----CEEECCBCHHHHHHHTSSSCBSBC-----SSSCBCCSCEEEEEEECTTBCCTTTTCCBCCSCEEEEEEEEECTT
+T ss_pred             CceeEEEEEEecChhHHHHHHhcCCeEEee-----cCceEEeeeEEEEEEEecCeEECccChhcCCCceEEEECCCCCCC
+Confidence            9999999999999            66653     4689999999 99999999999999999999999999999  999
+
+
+Q ss_pred             eeEEEEEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCceeeEEEece----eeEEEeeecc
+Q P33515          285 SGVVITTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGST----SVSIECALNP  353 (427)
+Q Consensus       285 ~tVV~~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G~s~I~VG~g----~~~w~~~gSs  353 (427)
+                      |||||||+|+++++||||||++++       |||||+|||+++++++++||||||||||||+||++    +|||||+|||
+T Consensus       318 gTVVmev~y~gt~~PCrIpv~~~~~~~~~~~G~lIT~NPiv~~~~~~v~iE~epPfGdS~I~vG~g~~~l~~~W~k~GSs  397 (433)
+T 3uaj_B          318 GTTVVKVKYEGAGAPCKVPIEIRDVNKEKVVGRIISSTPLAENTNSVTNIELEPPFGDSYIVIGVGNSALTLHWFRKGPF  397 (433)
+T ss_dssp             SCEEEEEEECSSCCSEECCEEEECTTSCSBCCEESSSSCEECSTTCEEEEEEECCSEEEEEEESSTTSSEEEEEEECC--
+T ss_pred             CeEEEEEEEccCCCCeEeEEEEEcCCCCccceEEEeCCCEEEcCCCceEEEecCCCCceEEEEcCCCCeEEEEeccCCCc
+Confidence            999999999999999999999996       99999999999999999999999999999999976    9999999999
+
+
+Q ss_pred             cc----hhhhhhhhhhhhhhhccccchhhhhhhhhcceecc
+Q P33515          354 IS----QGWRLARHVVDRYRRFGVSGVAGVWQDLVGKFSVG  390 (427)
+Q Consensus       354 Ig----~af~~t~~ga~s~gK~~h~v~Gg~f~~lfGg~s~~  390 (427)
+                      |-    |+|++..-     -|.+-.+=|      -||=||.
+T Consensus       398 i~~~~~~~w~~~~~-----~~~~~~~~~------~~~~~~~  427 (433)
+T 3uaj_B          398 EDDDDKAGWSHPQF-----EKGGGSGGG------SGGGSWS  427 (433)
+T ss_dssp             -----------------------------------------
+T ss_pred             eehhHhhcccchhh-----hccCCCCCC------CCCCCcc
+Confidence            84    67766431     111111100      1222221
+
+
+No 8  
+>1ok8_A Major envelope protein E; viral protein, membrane fusion, flavivirus, fusion peptide, low-PH conformational change, class 2 fusion protein,; HET: NAG; 2.0A {Dengue virus type 2} SCOP: b.1.18.4 f.10.1.1 PDB: 1oan_A* 1oke_A* 2b6b_A 3j8d_G 1tge_A 1tg8_A* 1thd_A 3c5x_A* 3c6e_A* 3c6d_A 3c6r_A 3ixy_A 3iya_A 3j35_A 4uta_A* 4ut9_A* 4utc_A* 4utb_A* 4ut6_A* 2r6p_A 3j42_A 2jsf_A 2r29_A 2r69_A
+Probab=100.00  E-value=3.8e-138  Score=1044.71  Aligned_cols=349  Identities=13%  Similarity=0.162  Sum_probs=328.3
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||+|||||++++|++||.+|+||++|+|||++++|||||||||||+
+T Consensus         4 vgi~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~   83 (394)
+T 1ok8_A            4 IGISNRDFVEGVSGGSWVDIVLEHGSCVTTMAKNKPTLDFELIKTEAKQPATLRKYCIEAKLTNTTTESRCPTQGEPTLN   83 (394)
+T ss_dssp             EECCGGGEEECSSSEEEEEEEEETTCCEEEEBTTSCEEEEEEEEEEEESCEEEEEEEEEEEEEEEEEEECCTTSCCCCCG
+T ss_pred             ccccCCcceecCCCCEEEEEEecCCcEEEEEcCCCCeEEEEEEEEEEecchhhhheeeeeEEeccEEcccCCCCCccCCh
+Confidence            258999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeeccc------ccccc----
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVSD------TQQMV----  148 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~~------t~~~~----  148 (427)
+                      ||++++|||||+|+||||||||||||||||+|||||+|++++++++||+|||+|+|++++|+++.      +++++    
+T Consensus        84 e~~~~~~vCkr~~~DRGWGNGCgLFGKGsi~tCaKftC~~~~~g~~i~~enI~y~V~v~vH~~~~~~~~~~~~~~~~~~~  163 (394)
+T 1ok8_A           84 EEQDKRFVCKHSMVDRGWGNGCGLFGKGGIVTCAMFTCKKNMEGKIVQPENLEYTVVITPHSGEEHAVGNDTGKHGKEVK  163 (394)
+T ss_dssp             GGGCTTEEEEEEEEEECGGGTCSSCEEEEEEEEEEEEEEEEEEEEECCGGGEEEEEEEEEC--------------CEEEE
+T ss_pred             hhccCCeEecCCCCCCCCccccccccCccEEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCcccccccccccceeEEE
+Confidence            99999999999999999999999999999999999999999999999999999999999999992      22221    
+
+
+Q ss_pred             ---cCcceeeeeeccccceeeecccccceeeeeeeeecCCcccee-eeeccC----CCCCccc-ccCCCCCceeEEEeec
+Q P33515          149 ---GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLF-LRSQVD----SWPGVHS-TASGRHGMEKVVVWGD  219 (427)
+Q Consensus       149 ---~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl-~R~W~~----PW~~~~~-~~~~w~~~e~LV~f~~  219 (427)
+                         +|++++++|||||+++|+|||+|++||+|||+++++ +|+|| |||||+    ||+++.. .++.|||+||||||+|
+T Consensus       164 ~t~~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~-~k~wLV~r~Wf~Dl~LPW~~~~~~~~~~W~~~e~LVeF~e  242 (394)
+T 1ok8_A          164 ITPQSSITEAELTGYGTVTMECSPRTGLDFNEMVLLQMK-DKAWLVHRQWFLDLPLPWLPGADTQGSNWIQKETLVTFKN  242 (394)
+T ss_dssp             ECSSCCEEEEEETTTEEEEEEEEECSCCCTTTEEEEEET-TEEEEEEHHHHHHCSSCEEETTCCSCCSCBCGGGTEEECC
+T ss_pred             EecCCCCEEEEcCCceEEEEEEEeccCcccccEEEEEeC-CcEEEEcHHHHhcCccCcccCCCccccccccceeEEEECC
+Confidence               999999999999999999999999999999999999 89999 999999    7777721 1468999999999999
+
+
+Q ss_pred             ccccceeeecccCCCCchhhHhhh-------cCCccchhh-hHHHHHhhhhcccccCCCCCcceeeccCC--CcceeEEE
+Q P33515          220 ARSNEILVKNVIEPSLSWEDAIAT-------HGGFRDISF-VCQIMLDKLVSGAFRDCPGPKISTFSQDG--FGYSGVVI  289 (427)
+Q Consensus       220 phA~k~~V~~lg~~~i~~~~~~~~-------~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~~f~f~k~p--tgh~tVV~  289 (427)
+                      ||||||+|++|||++..|..|+.+       +++.|.+|| +|||+||||+|||+||.||.++|+|+|+|  ||||||||
+T Consensus       243 pHA~k~~V~~lg~Qegal~~ALagA~~~~~~~~~~l~~Ghl~Crv~ldkLklKG~TY~~C~~~fs~~k~p~dtgHgTVV~  322 (394)
+T 1ok8_A          243 PHAKKQDVVVLGSQEGAMHTALTGATEIQMSSGNLLFTGHLKCRLRMDKLQLKGMSYSMCTGKFKVVKEIAETQHGTIVI  322 (394)
+T ss_dssp             CCSSCCCEEECCCCHHHHHHHTTTSEEECBSSSEEEECCEEEEEEEEESCCBCCCCCCBCCSCEEEEEEEEECTTSCEEE
+T ss_pred             CceeEEEEEEecChhHHHHHHhcCCeEEEecCccEEeeeEEEEEEEecCeEECccChhcCCCceEEEECCCCCCCCeEEE
+Confidence            999999999999988888888775       468999999 99999999999999999999999999999  99999999
+
+
+Q ss_pred             EEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCceeeEEEece----eeEEEee
+Q P33515          290 TTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGST----SVSIECA  350 (427)
+Q Consensus       290 ~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G~s~I~VG~g----~~~w~~~  350 (427)
+                      ||+|+|+++||||||++++       |||||+|||+++++++++||||||||||||+||++    +|||||+
+T Consensus       323 ev~y~gt~~PCripi~~~~~~~~~~~G~liT~nPiv~~~~~~v~iE~epPfGds~I~vG~g~~~l~~~W~~~  394 (394)
+T 1ok8_A          323 RVQYEGDGSPCKIPFEIMDLEKRHVLGRLITVNPIVTEKDSPVNIEAEPPFGDSYIIIGVEPGQLKLNWFKK  394 (394)
+T ss_dssp             EEEECSSSCSEECCEEEEESSSCBCSSCBSSCSCEECSTTCCEEEEECCCSEEEEEEESCSTTCEEEEEEEC
+T ss_pred             EEEEccCCCCeEeEEEEEeCCCCccceEEEeCCCEEEcCCCceEEEecCCCCcEEEEEccCCCeEEEEeecC
+Confidence            9999999999999999996       99999999999999999999999999999999986    9999996
+
+
+No 9  
+>1svb_A TICK-borne encephalitis virus glycoprotein; viral protein; HET: NAG; 1.90A {Tick-borne encephalitis virus} SCOP: b.1.18.4 f.10.1.1 PDB: 1k4r_A 1na4_A 1n6g_A* 1urz_A 1z3r_A 2gg1_A 1z66_A
+Probab=100.00  E-value=2.2e-136  Score=1031.11  Aligned_cols=346  Identities=15%  Similarity=0.188  Sum_probs=327.5
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+|+||||||+ ||||||||++++|++||.+|+||++|+|||++++|||||||||||+
+T Consensus         4 v~v~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~   83 (395)
+T 1svb_A            4 THLENRDFVTGTQGTTRVTLVLELGGCVTITAEGKPSMDVWLDAIYQENPAKTREYCLHAKLSDTKVAARCPTMGPATLA   83 (395)
+T ss_dssp             GGCSCCEEEEECSSCCEEEEEEETTCCEEEEETTEEEEEEEEEEEEEESCEEEEEEESSEEEEEEEEEECCTTSCCCCCG
+T ss_pred             ccccCCceeecCCCCEEEEEEecCCcEEEEEcCCCceEEEEEeeEEEeCcHHhhhheeeeEEeccEEcccCCCCCccCCh
+Confidence            379999999999 99999999999999999999 9999999999999999999999999999999999999999999999
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeec--CCCccccccceeEEEEeeeeeeeccc-----cccc----
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCD--RGFNVSSIARSAIVMNVTASFHSVSD-----TQQM----  147 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~--~~~~~~~i~~e~I~y~V~v~vH~~~~-----t~~~----  147 (427)
+                      ||++++|||||+||||||||||||||||||+|||||+|+  +++++++||+|||+|+|++++|+++.     +.++    
+T Consensus        84 e~~~~~~vCkr~~~DRGWGNGCgLFGKGsi~tCaKf~C~~~~~~~g~~i~~e~I~y~V~v~vH~~~~~~~~~~~~~~~~~  163 (395)
+T 1svb_A           84 EEHQGGTVCKRDQSDRGWGNHCGLFGKGSIVACVKAACEAKKKATGHVYDANKIVYTVKVEPHTGDYVAANETHSGRKTA  163 (395)
+T ss_dssp             GGGSTTEEEEEEEEEESGGGTCSSCEEEEEEEEEEEEECTTCEEEEEECCTTTCEEEEEEEECCSCCCCTTSCCTTCEEE
+T ss_pred             hhhcCCeeecCCCCCCCcccccccccCcceEEEEeEEeCCCCeeeEEEEeeeeEEEEEEEEEECCccccccccccceeeE
+Confidence            999999999999999999999999999999999999999  44999999999999999999999992     2222    
+
+
+Q ss_pred             --c-cCcceeeeeeccccceeeecccccceeeeeeeeecCC-----cccee-eeeccC----CCCCcccccCCCCCceeE
+Q P33515          148 --V-GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSS-----HEGLF-LRSQVD----SWPGVHSTASGRHGMEKV  214 (427)
+Q Consensus       148 --~-~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~-----~k~wl-~R~W~~----PW~~~~~~~~~w~~~e~L  214 (427)
+                        . +|++++++|||||+++|+|||+|++||+|||++++++     +|.|| |||||+    ||+++  +++.|||+|||
+T Consensus       164 ~~t~~s~~~t~~lgdYGtvTleCr~~SGlD~~~~Ylvt~~~~~~~~~k~wlV~r~W~~Dl~LPW~~~--~~~~W~~~e~L  241 (395)
+T 1svb_A          164 SFTISSEKTILTMGEYGDVSLLCRVASGVDLAQTVILELDKTVEHLPTAWQVHRDWFNDLALPWKHE--GAQNWNNAERL  241 (395)
+T ss_dssp             EEBTTBCEEEEECGGGBEEEEEEEGGGSCCCTTEEEEESCTTCTTSCSEEEEEHHHHHTCCSCEECT--TCSSCBTGGGG
+T ss_pred             EEecCCCCEEEECCCceEEEEEEccccCcchhhEEEEEEccccCCCCeEeEEeHHHhhcCCCCccCC--CCCccccceeE
+Confidence              2 9999999999999999999999999999999999994     29999 999999    66666  67889999999
+
+
+Q ss_pred             EEeecccccceeeecccCCCCchhhHhhh--------cCCccchhh-hHHHHHhhhhcccccCCCCCc-ceeeccCC--C
+Q P33515          215 VVWGDARSNEILVKNVIEPSLSWEDAIAT--------HGGFRDISF-VCQIMLDKLVSGAFRDCPGPK-ISTFSQDG--F  282 (427)
+Q Consensus       215 V~f~~phA~k~~V~~lg~~~i~~~~~~~~--------~~~~l~~Gh-~Cri~ldkL~lkg~ty~~c~~-~f~f~k~p--t  282 (427)
+                      |+|++||||||+|++|||++..|..|+.+        +++.+.+|| +|||+||||||||+||.||.+ +|+|+|+|  |
+T Consensus       242 VeF~~pHA~k~~V~~lg~Qega~~~ALagA~~~~~~~~~~~l~~Ghl~Crv~l~kLklkG~TY~~C~~~~fs~~k~p~dt  321 (395)
+T 1svb_A          242 VEFGAPHAVKMDVYNLGDQTGVLLKALAGVPVAHIEGTKYHLKSGHVTCEVGLEKLKMKGLTYTMCDKTKFTWKRAPTDS  321 (395)
+T ss_dssp             EEECCCBTTBCCEEECCCCHHHHHHHTTTSCEEEEETTEEECSSCEEEEEEECTTBCCSCTTSCBCCTTSEEEEEEEEEC
+T ss_pred             EEECCCceeEEEEEEecChhHHHHHHhcCCcEEEecCCeEEEeeeEEEEEEEecceEECccCcccCCCCceEEEECCCCC
+Confidence            99999999999999999977777777664        357999999 999999999999999999999 99999999  9
+
+
+Q ss_pred             cceeEEEEEeeccCcceeeeeeeeee--------eecccceEEEEecccccceeeeecCceeeEEEeceeeEEEee
+Q P33515          283 GYSGVVITTLTASSNETCSLSLTCHG--------CLLQSTKMIFLAGKTTSRAFVKCGNHTSTLLVGSTSVSIECA  350 (427)
+Q Consensus       283 gh~tVV~~v~y~g~~~pCripv~~~~--------g~LiT~npiv~~~~~~v~iev~pp~G~s~I~VG~g~~~w~~~  350 (427)
+                      |||||||||+|+++ +||||||++++        |+|||+|||+++++ .++||||||||||||+||.-+|||||+
+T Consensus       322 gHgTVVmev~y~g~-~PCripv~~~~~~~~~~~~G~liT~nPiv~~~~-~~~iE~epp~Gds~I~vG~~~~~W~~~  395 (395)
+T 1svb_A          322 GHDTVVMEVTFSGT-KPCRIPVRAVAHGSPDVNVAMLITPNPTIENNG-GGFIEMQLPPGDNIIYVGELSHQWFQK  395 (395)
+T ss_dssp             SSSCEEEEEEECSC-SSEECCEEEEETTBTTSCCCEESSSSCEEETTE-ECEEEEECCSEEEEEEETTEEEEEEEC
+T ss_pred             CCCeEEEEEEecCC-cCeEEEEEEEecCCCccceeEEEecCCEEEcCC-CEEEEEeCCCCCeEEEEeeEEeEeccC
+Confidence            99999999999996 99999999996        99999999999875 899999999999999999999999996
+
+
+No 10 
+>2jqm_A Envelope protein E; yellow fever envelope protein domain III, asibi strain, structure, transferase; NMR {Yellow fever virus} PDB: 2jv6_A
+Probab=100.00  E-value=1.9e-41  Score=287.44  Aligned_cols=98  Identities=13%  Similarity=0.105  Sum_probs=95.0
+
+Q ss_pred             HhhhhcccccCCCCCcceeeccCC--CcceeEEEEEeeccCcceeeeeeeeee--------eecccceEEEEecccccce
+Q P33515          258 LDKLVSGAFRDCPGPKISTFSQDG--FGYSGVVITTLTASSNETCSLSLTCHG--------CLLQSTKMIFLAGKTTSRA  327 (427)
+Q Consensus       258 ldkL~lkg~ty~~c~~~f~f~k~p--tgh~tVV~~v~y~g~~~pCripv~~~~--------g~LiT~npiv~~~~~~v~i  327 (427)
+                      ||||++||+||.||.++|+|+|+|  ||||||||||+|++ ++||||||++++        |||||+|||+++++++++|
+T Consensus         1 mdkL~lkG~TY~~C~~~fs~~k~p~dtgHgTVV~ev~y~~-~~PCripi~~~~~~~~~~~~G~liT~nPiv~~~~~~v~i   79 (112)
+T 2jqm_A            1 MSALTLKGTSYKMCTDKMSFVKNPTDTGHGTVVMQVKVPK-GAPCKIPVIVADDLTAAINKGILVTVNPIASTNDDEVLI   79 (112)
+T ss_dssp             CCSSCCTTTSCCCCCSCCEEEEEEEECSSSCEEEEEECCS-SCCCBCCEEEESSTTCSSCCCEESSCCCBCSSTTCCCEE
+T ss_pred             CCceEEcccChhhCCCceEEEECCCCCCCCeEEEEEEECC-CCCeEeEEEEEecCCCCccceEEEeCCCEEEcCCCcEEE
+Confidence            489999999999999999999999  99999999999997 899999999996        9999999999999999999
+
+
+Q ss_pred             eeeecCceeeEEEece----eeEEEeeecccch
+Q P33515          328 FVKCGNHTSTLLVGST----SVSIECALNPISQ  356 (427)
+Q Consensus       328 ev~pp~G~s~I~VG~g----~~~w~~~gSsIg~  356 (427)
+                      |||||||||||+||++    +|||||+|||||+
+T Consensus        80 E~epPfGds~I~vG~g~~~l~~~W~~~GSsIG~  112 (112)
+T 2jqm_A           80 EVNPPFGDSYIIVGTGDSRLTYQWHKEGSSIGK  112 (112)
+T ss_dssp             EEECCSEEEEEEECSSTTCEEEEEEECCTTTCC
+T ss_pred             EeeCCCCcEEEEEcCCCCeEEEEeccCCcccCC
+Confidence            9999999999999976    9999999999995
+
+
+No 11 
+>3uzq_B Envelope protein; dengue antibody neutralization, immune system; HET: MES; 1.60A {Dengue virus 1} PDB: 4ffz_A 4l5f_E 4ffy_A 3irc_A 4al8_C 3j8d_B
+Probab=100.00  E-value=1.3e-39  Score=276.63  Aligned_cols=100  Identities=10%  Similarity=0.028  Sum_probs=80.9
+
+Q ss_pred             ccccCCCCCcceeeccCC--CcceeEEEEEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCc
+Q P33515          264 GAFRDCPGPKISTFSQDG--FGYSGVVITTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNH  334 (427)
+Q Consensus       264 kg~ty~~c~~~f~f~k~p--tgh~tVV~~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G  334 (427)
+                      -|+||.||.++|+|+|+|  ||||||||||+|+++++||||||++++       |||||+||++++++++++||||||||
+T Consensus         1 ~G~TY~mC~~~fs~~k~p~dtGHgTVVmev~y~gt~~PCrIPi~~~~~~~~~~~G~lIT~NPiV~~~~~~v~iE~epPfG   80 (114)
+T 3uzq_B            1 MGMSYVMCTGSFKLEKEVAETQHGTVLVQVKYEGTDAPCKIPFSTQDEKGVTQNGRLITANPIVTDKEKPVNIETEPPFG   80 (114)
+T ss_dssp             ----CCBCCSCEEESSCCEECTTSCEEEEEEECCSCCSEECCEEEEETTCCEECSCBCSSSCEESCTTSCEEEEECCCSS
+T ss_pred             CCcccccCCCceEEEECCCCCCCCeEEEEEEEccCCCCeEeEEEEEcCCCCccceEEEeCCCEEEcCCCceEEEecCCCC
+Confidence            289999999999999999  999999999999999999999999996       99999999999999999999999999
+
+
+Q ss_pred             eeeEEEece----eeEEEeeecccchhhhhhhh
+Q P33515          335 TSTLLVGST----SVSIECALNPISQGWRLARH  363 (427)
+Q Consensus       335 ~s~I~VG~g----~~~w~~~gSsIg~af~~t~~  363 (427)
+                      ||||+||++    +|||||+||||||||.---|
+T Consensus        81 dS~I~vG~g~~~l~~~W~k~GSsIG~~~~~~~~  113 (114)
+T 3uzq_B           81 ESYIIVGAGEKALKLSWFKKGSSIGKLEHHHHH  113 (114)
+T ss_dssp             EEEEEESSSTTSEEEEEEC--------------
+T ss_pred             cEEEEEcCCCCeEEEEecCCCcchhhhhhcccC
+Confidence            999999977    99999999999999964211
+
+
+No 12 
+>3vtt_A Envelope protein E; immunoglobin like domain, epitope presentation, cellular ATT viral protein, structural protein; 1.70A {Dengue virus type 3} PDB: 4ala_C*
+Probab=100.00  E-value=7e-39  Score=269.70  Aligned_cols=94  Identities=6%  Similarity=0.051  Sum_probs=85.7
+
+Q ss_pred             cccccCCCCCcceeeccCC--CcceeEEEEEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecC
+Q P33515          263 SGAFRDCPGPKISTFSQDG--FGYSGVVITTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGN  333 (427)
+Q Consensus       263 lkg~ty~~c~~~f~f~k~p--tgh~tVV~~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~  333 (427)
+                      =||+||.||.++|+|+|+|  ||||||||||+|+++++||||||++++       |||||+||++++++++++|||||||
+T Consensus         1 ~kG~TY~~C~~~fs~~k~p~dtGHgTVV~ev~y~gt~~PCrIpi~~~~~~~~~~~G~liT~nPiv~~~~~~~~iE~epPf   80 (107)
+T 3vtt_A            1 GSGMSYAMCLNTFVLKKEVSETQHGTILIKVEYKGEDAPCKIPFSTEDGQGKAHNGRLITANPVVTKKEEPVNIEAEPPF   80 (107)
+T ss_dssp             ----CCCBCCSCEEECSCCEECTTSCEEEEEEECCSCCSEECCEEEECTTSCBCCCEESSCSCEESCTTSCEEEEEECCS
+T ss_pred             CCCcccccCCCceEEEECCCCCCCCeEEEEEEEccCCCCeEeEEEEEcCCCCccceEEEeCCCEEEcCCCceEEEecCCC
+Confidence            1899999999999999999  999999999999999999999999996       9999999999999999999999999
+
+
+Q ss_pred             ceeeEEEece----eeEEEeeecccch
+Q P33515          334 HTSTLLVGST----SVSIECALNPISQ  356 (427)
+Q Consensus       334 G~s~I~VG~g----~~~w~~~gSsIg~  356 (427)
+                      |||||+||++    +|||||+|||||+
+T Consensus        81 Gds~I~vG~g~~~l~~~W~~~GSsIG~  107 (107)
+T 3vtt_A           81 GESNIVIGIGDKALKINWYRKGSSIGK  107 (107)
+T ss_dssp             EEEEEEESSSTTCEEEEEEECCCC---
+T ss_pred             CcEEEEEcCCCCeEEEEeccCCcccCC
+Confidence            9999999977    9999999999995
+
+
+No 13 
+>3uzv_A Envelope protein; dengue antibody neutralization, immune system; 2.10A {Dengue virus 2}
+Probab=100.00  E-value=2.2e-38  Score=268.95  Aligned_cols=97  Identities=9%  Similarity=-0.023  Sum_probs=84.7
+
+Q ss_pred             ccccCCCCCcceeeccCC--CcceeEEEEEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCc
+Q P33515          264 GAFRDCPGPKISTFSQDG--FGYSGVVITTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNH  334 (427)
+Q Consensus       264 kg~ty~~c~~~f~f~k~p--tgh~tVV~~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G  334 (427)
+                      -|+||.||.++|+|+|+|  ||||||||||+|+|+++||||||++++       |||||+||++++++++++||||||||
+T Consensus         1 ~G~TY~mC~g~fs~~k~p~dtGHgTVVmev~y~gt~~PCrIPi~~~~~~~~~~~G~lIT~NPiV~~~~~~v~iE~epPfG   80 (114)
+T 3uzv_A            1 MGMSYSMCTGKFKIVKEIAETQHGTIVIRVQYEGDGSPCKIPFEIMDLEKRHVLGRLITVNPIVTEKDSPVNIEAEPPFG   80 (114)
+T ss_dssp             CCCCCCBCCSCEEECSCCEECTTSCEEEEEEECSSSCSEECCEEEECC---CBCCEESSSSCEECSTTCCEEEEEECCSE
+T ss_pred             CCcccccCCCceEEEECCCCCCCCeEEEEEEEccCCCCeEeEEEEEeCCCCccceEEEeCCCEEEcCCCceEEEecCCCC
+Confidence            389999999999999999  999999999999999999999999995       99999999999999999999999999
+
+
+Q ss_pred             eeeEEEece----eeEEEeeecccchhhhh
+Q P33515          335 TSTLLVGST----SVSIECALNPISQGWRL  360 (427)
+Q Consensus       335 ~s~I~VG~g----~~~w~~~gSsIg~af~~  360 (427)
+                      ||||+||++    +|||||+|||||+.=.-
+T Consensus        81 dS~I~vG~g~~~l~~~W~~~GSsIG~~~~~  110 (114)
+T 3uzv_A           81 DSYIIIGVEPGQLKLNWFKKGSSIGQLEHH  110 (114)
+T ss_dssp             EEEEEESCSSSCEEEEEEEC----------
+T ss_pred             CEEEEEccCCCeEEEEecCCCccccccccc
+Confidence            999999976    99999999999985321
+
+
+No 14 
+>3uyp_B Envelope protein; dengue antibody neutralization, immune system; 2.00A {Dengue virus 4} PDB: 2h0p_A 5aam_C 4udz_J 3we1_A 4am0_Q 4bz1_A* 4bz2_A*
+Probab=100.00  E-value=1.7e-38  Score=269.72  Aligned_cols=97  Identities=6%  Similarity=-0.034  Sum_probs=81.6
+
+Q ss_pred             ccccCCCCCcceeeccCC--CcceeEEEEEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCc
+Q P33515          264 GAFRDCPGPKISTFSQDG--FGYSGVVITTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNH  334 (427)
+Q Consensus       264 kg~ty~~c~~~f~f~k~p--tgh~tVV~~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G  334 (427)
+                      -|+||.||.++|+|+|+|  ||||||||||+|+++++||||||++++       |||||+||++++++++++||||||||
+T Consensus         1 ~G~TY~mC~g~fs~~k~p~dtGHgTVVmev~y~gt~~PCrIPi~~~~~~~~~~~G~lIT~NPiV~~~~~~v~iE~epPfG   80 (114)
+T 3uyp_B            1 MGMSYTMCSGKFSIDKEMAETQHGTTVVKVKYEGAGAPCKVPIEIRDVNKEKVVGRIISSTPFAENTNSVTNIELEPPFG   80 (114)
+T ss_dssp             ----CCBCCSCEEESSCCEECTTSCEEEEEEECSSSCSEECCEEEECTTSCSEESEECSSSCEECSSSSCEEEEEECCSE
+T ss_pred             CCcccccCCCceeEEECCCCCCCCeEEEEEEEccCCCCeEeEEEEEcCCCCccceEEEeCCCEEEcCCCceEEEecCCCC
+Confidence            289999999999999999  999999999999999999999999995       99999999999999999999999999
+
+
+Q ss_pred             eeeEEEece----eeEEEeeecccchhhhh
+Q P33515          335 TSTLLVGST----SVSIECALNPISQGWRL  360 (427)
+Q Consensus       335 ~s~I~VG~g----~~~w~~~gSsIg~af~~  360 (427)
+                      ||||+||++    +|||||+||||||.=.-
+T Consensus        81 dS~I~vG~g~~~l~~~W~k~GSsIGk~~~~  110 (114)
+T 3uyp_B           81 DSYIVIGVGDSALTLHWFRKGSSIGKLEHH  110 (114)
+T ss_dssp             EEEEEESSGGGSEEEEEEEC----------
+T ss_pred             cEEEEEcCCCCeEEEEecCCCccceeeccc
+Confidence            999999976    99999999999986321
+
+
+No 15 
+>3uze_C Envelope protein; dengue antibody neutralization, immune system; HET: EPE; 2.04A {Dengue virus 3}
+Probab=100.00  E-value=5.7e-37  Score=267.08  Aligned_cols=105  Identities=6%  Similarity=0.007  Sum_probs=79.6
+
+Q ss_pred             ccccCCCCCcceeeccCC--CcceeEEEEEeeccCcceeeeeeeeee-------eecccceEEEEecccccceeeeecCc
+Q P33515          264 GAFRDCPGPKISTFSQDG--FGYSGVVITTLTASSNETCSLSLTCHG-------CLLQSTKMIFLAGKTTSRAFVKCGNH  334 (427)
+Q Consensus       264 kg~ty~~c~~~f~f~k~p--tgh~tVV~~v~y~g~~~pCripv~~~~-------g~LiT~npiv~~~~~~v~iev~pp~G  334 (427)
+                      ||+||.||.++|+|+|+|  ||||||||||+|+++++||||||+|++       |||||+|||+++++++++||||||||
+T Consensus         1 KG~TY~mC~g~Fs~~K~PtdTGHgTVVmev~ytgtd~PCrIPi~~~~~~~~~~vGrLITaNPiV~~~~~~v~IE~epPfG   80 (139)
+T 3uze_C            1 KGMSYAMCLNTFVLKKEVSETQHGTILIKVEYKGEDAPCKIPFSTEDGQGKAHNGRLITANPVVTKKEEPVNIEAEPPFG   80 (139)
+T ss_dssp             ----CCBCCSCEEESSCCBC--CCCEEEEEEECCSCCSEECCEEEECTTSCBCCCEECSSSCEESCC---CEEEEECCSE
+T ss_pred             CCcccccCCCceeEEECCCCCCCCeEEEEEEEccCCCCeEeEEEEEcCCCCccceEEEeCCCEEEcCCCceEEEecCCCC
+Confidence            799999999999999999  999999999999999999999999996       99999999999999999999999999
+
+
+Q ss_pred             eeeEEEece----eeEEEeeecccchh----hhhh--hhhhhhh
+Q P33515          335 TSTLLVGST----SVSIECALNPISQG----WRLA--RHVVDRY  368 (427)
+Q Consensus       335 ~s~I~VG~g----~~~w~~~gSsIg~a----f~~t--~~ga~s~  368 (427)
+                      ||||+||++    +|||||+||||--+    |++-  -||-.|=
+T Consensus        81 dS~I~VG~Gt~~L~~~W~q~GSsi~~~~~~~~~~~~~~~~~~~~  124 (139)
+T 3uze_C           81 ESNIVIGIGDKALKINWYRKGPFEDDDDKAGWSHPQFEKGGGSG  124 (139)
+T ss_dssp             EEEEEESSTTTSEEEEEEECCCC---------------------
+T ss_pred             cEEEEEccCCCeEEEeecCCCCccccchhcccccccccccCCCC
+Confidence            999999976    99999999999655    3221  1111111
+
+
+No 16 
+>3uc0_A Envelope protein; dengue antibody membrane fusion, viral protein-immune system; 2.71A {Dengue virus 4}
+Probab=99.96  E-value=3e-29  Score=222.89  Aligned_cols=129  Identities=11%  Similarity=0.108  Sum_probs=86.1
+
+Q ss_pred             CCcccccccchh-hhhhhhhhccCCCceEEeCC-CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchh
+Q P33515            1 EFVEPLYTLKAE-QMTMLQTIVRPEEGYVVATP-NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMA   78 (427)
+Q Consensus         1 ~~ie~rdfv~g~-G~Twv~~vLe~g~cvti~a~-kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~   78 (427)
+                      ++|+|||||||+ |+||||+|||+++||||||+ ||+|||||+++++                                 
+T Consensus         4 v~v~nRDFVeG~sG~TwvdvVLe~ggCVTita~~KPtlDi~l~~~~A---------------------------------   50 (165)
+T 3uc0_A            4 VGVGNRDFVEGVSGGAWVDLVLEHGGCVTTMAQGKPTLDFELTKTTA---------------------------------   50 (165)
+T ss_dssp             EEEECTTCCTTTSSSCCEEEEEEBTCEEEEEETTEEEEEEEEEEECT---------------------------------
+T ss_pred             cccccCceeecCCCCEEEEEEecCCcEEEEEcCCCceEEEEeeeeEE---------------------------------
+Confidence            147899999999 99999999999999999999 9999999998774                                 
+
+
+Q ss_pred             hhhhhhccccCCCcccccccceeeecceeeeeeEEEeecCCCccccccceeEEEEeeeeeeecc-c-----ccccc----
+Q P33515           79 DIMAKERVCSTQPYNRGWGTGCFKWGIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVS-D-----TQQMV----  148 (427)
+Q Consensus        79 e~~~~~~vCk~~~~dRGWGnGCglFGkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~-~-----t~~~~----  148 (427)
+                                                                       +||+|+|.|+||+++ .     +++++    
+T Consensus        51 -------------------------------------------------~nIeY~V~VeVHgg~~~~~~n~t~k~~a~~t   81 (165)
+T 3uc0_A           51 -------------------------------------------------GGLEYTVVVTVHNGDTHAVGNDTSNHGVTAM   81 (165)
+T ss_dssp             -------------------------------------------------TSCCEEEEEEEC--------------CEEEE
+T ss_pred             -------------------------------------------------cceEEEEEEEecCCccccccCccccceeEEE
+Confidence                                                             168899999999998 1     22332    
+
+
+Q ss_pred             ---cCcceeeeeeccccceeeecccccceeeeeeeeecCC--cccee-eeeccC--CCCCcc----------cccCCCCC
+Q P33515          149 ---GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSS--HEGLF-LRSQVD--SWPGVH----------STASGRHG  210 (427)
+Q Consensus       149 ---~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~--~k~wl-~R~W~~--PW~~~~----------~~~~~w~~  210 (427)
+                         +||+++++|||||+++|+|||+|++|+ ..-...|++  -|+.- -.|==+  .|.+|.          ..++.|..
+T Consensus        82 fTP~Apk~ta~LGDYGeVTLeCeprSG~d~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  160 (165)
+T 3uc0_A           82 ITPRSPSVEVKLPDYGELTLDCEPRSGTGH-LKCKVRMEKLRIKGMSPFEDDDDKAGWSHPQFEKGGGSGGGSGGGSWSH  160 (165)
+T ss_dssp             ECSSCCEEEEEETTTEEEEEEEECCSSSSE-EEEEEECTTBCCCC-----------------------------------
+T ss_pred             EecCCCcEEEEcCCCceeEEEEEeccCcch-HHhhhhhHhheecccCCcccCcccccccCccccccCCCCCCCCCCcccC
+Confidence               999999999999999999999999994 556667776  34433 222111  565553          12344542
+
+
+Q ss_pred             ce
+Q P33515          211 ME  212 (427)
+Q Consensus       211 ~e  212 (427)
+                      ..
+T Consensus       161 ~~  162 (165)
+T 3uc0_A          161 PQ  162 (165)
+T ss_dssp             --
+T ss_pred             cc
+Confidence            21
+
+
+No 17 
+>2l36_A MSI594; antimicrobial peptides, LPS, AMP, TR-NOE, antimicrobial PROT; NMR {Synthetic}
+Probab=37.92  E-value=21  Score=19.74  Aligned_cols=24  Identities=13%  Similarity=0.206  Sum_probs=18.8
+
+Q ss_pred             ccchhhhhhhhhhhhhhhccccch..
+Q P33515          353 PISQGWRLARHVVDRYRRFGVSGV..  376 (427)
+Q Consensus       353 sIg~af~~t~~ga~s~gK~~h~v~..  376 (427)
+                      -||+|.....+|+..+=|-+.+++  
+T Consensus         1 gigkalkkakkgigavlkvlttgl..   24 (24)
+T 2l36_A            1 GIGKALKKAKKGIGAVLKVLTTGLxx   26 (26)
+T ss_dssp             CTHHHHHHHGGGGGHHHHTGGGTC..
+T ss_pred             ChhHHHHHHHhhhhHHHHHHhccC..
+Confidence            389999999999887777766542  
+
+
+No 18 
+>4jdn_A Virulence plasmid protein PGP3-D; virulence factor, secreted protein, inflammatory TNF, cell invasion; HET: MSE; 2.00A {Chlamydia trachomatis}
+Probab=37.73  E-value=58  Score=25.00  Aligned_cols=74  Identities=23%  Similarity=0.355  Sum_probs=40.5
+
+Q ss_pred             ceeeccCC--C--------------cceeEEEEEeeccCcceeeeeeeeee-----eecccc------eEEEEe----cc
+Q P33515          274 ISTFSQDG--F--------------GYSGVVITTLTASSNETCSLSLTCHG-----CLLQST------KMIFLA----GK  322 (427)
+Q Consensus       274 ~f~f~k~p--t--------------gh~tVV~~v~y~g~~~pCripv~~~~-----g~LiT~------npiv~~----~~  322 (427)
+                      --+|+-+|  +              =-|+||+.+-.+|..+||.|.--...     |+|=|+      +|+-.+    +-
+T Consensus        37 Ig~ftiTPdn~nSmfLi~aDIIAsRMEG~VvLaLVkeGD~~PCaiSYGYSsG~PN~csLrt~v~n~g~~P~tfSLRvGGm  116 (152)
+T 4jdn_A           37 IGKFTVTPKSSGSMFLVSADIIASRMEGGVVLALVREGDSKPCAISYGYSSGVPNLCSLRTSITNTGLTPTTYSLRVGGL  116 (152)
+T ss_dssp             EEEEEECCSSTTCEEEEEEEEEEECSSEEEEEEEEETTCSSCSEEEEEEESSSCEEEEEEEEEECCSSSCEEEEEEEEEB
+T ss_pred             EeEEEeccCCCCcEEEEEhhhhhhhccCcEEEEEEecCCCCccEEEecccCCCCceeEEEEeecCCCCCceEEEEEeccc
+Confidence            11222222  2              25899999999999999999998885     555432      222211    12
+
+
+Q ss_pred             cccceeee-ecCceeeEEEece---eeEEEe
+Q P33515          323 TTSRAFVK-CGNHTSTLLVGST---SVSIEC  349 (427)
+Q Consensus       323 ~~v~iev~-pp~G~s~I~VG~g---~~~w~~  349 (427)
+                      +...++|. .+|||+.+  |..   ++..--
+T Consensus       117 dSGvVWvNAlaNGd~IL--G~~~tSnisfLE  145 (152)
+T 4jdn_A          117 ESGVVWVNALSNGNDIL--GITNTSNVSFLE  145 (152)
+T ss_dssp             SSCCEEESSCTTSCCBT--TBCCCEEEEEEE
+T ss_pred             ccceEEEEcccCCCcee--ccccccceEEEE
+Confidence            45556665 46776532  221   221111
+
+
+No 19 
+>2p6c_A AQ_2013 protein; NPPSFA, national project on protein structural and functiona analyses, riken structural genomics/proteomics initiative; 2.00A {Aquifex aeolicus}
+Probab=8.92  E-value=2e+02  Score=20.53  Aligned_cols=98  Identities=11%  Similarity=0.242  Sum_probs=33.6
+
+Q ss_pred             ceEEeCC--CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchhhhhhhhccccCCCcccccccceeee
+Q P33515           26 GYVVATP--NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMADIMAKERVCSTQPYNRGWGTGCFKW  103 (427)
+Q Consensus        26 cvti~a~--kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~e~~~~~~vCk~~~~dRGWGnGCglF  103 (427)
+                      -++|.|+  ...+||         ...++++..+..+.+                                    |    
+T Consensus         7 ~i~v~t~~~~~~~dI---------T~~V~~~v~~sgi~~------------------------------------G----   37 (137)
+T 2p6c_A            7 YLTFNTKKRRELIRI---------TDEVKKAVEESEVKE------------------------------------G----   37 (137)
+T ss_dssp             EEEECCSSSSEEEEC---------HHHHHHHHHHHTCSS------------------------------------E----
+T ss_pred             EEEEeCCCCCeEEEC---------hHHHHHHHHHcCCCc------------------------------------E----
+Confidence            1344444  233333         456777766643321                                    1    
+
+
+Q ss_pred             cceeeeeeEEEeecCCCccccccceeEEEEeeeeeeecc---------------------------cccccc----cCcc
+Q P33515          104 GIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVS---------------------------DTQQMV----GDIP  152 (427)
+Q Consensus       104 GkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~---------------------------~t~~~~----~s~~  152 (427)
+                            .|.=| +.+ ....++-.||          -..                           +...+.    -.++
+T Consensus        38 ------~~~v~-~~H-TTa~l~inE~----------~p~l~~Dl~~~l~rlvP~~~~y~H~~~~~~n~~aHiks~l~g~S   99 (137)
+T 2p6c_A           38 ------LCLVS-SMH-LTSSVIIQDD----------EEGLHEDIWEWLEKLAPYRPDYKHHRTGEDNGDAHLKNLLTHLQ   99 (137)
+T ss_dssp             ------EEEEE-ESS-TTEEEEEECC----------CHHHHHHHHHHHHHHSCCCTTCGGGGGTCCCHHHHHHHHHHCSE
+T ss_pred             ------EEEEE-eCC-CeEEEEeccC----------CccHHHHHHHHHHHhcCcccccccCcccCCChHHHHHHHhhCCc
+Confidence                  23333 333 2211111111          000                           000000    1233
+
+
+Q ss_pred             eeeeeeccccceeeecccccceeeeeeeeecCCccceeeeeccCCCCCcccccCCCCCceeEEEeecccccceeeecccC
+Q P33515          153 LTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASGRHGMEKVVVWGDARSNEILVKNVIE  232 (427)
+Q Consensus       153 ~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl~R~W~~PW~~~~~~~~~w~~~e~LV~f~~phA~k~~V~~lg~  232 (427)
+                      .++-+-| |.+.|      | .+...|                                  |+||..|+.-++-|..+|+
+T Consensus       100 ~tipi~~-G~L~L------G-~wQ~I~----------------------------------l~E~d~~r~R~v~v~i~G~  137 (137)
+T 2p6c_A          100 VVLPITN-GKLDL------G-PWQEIF----------------------------------YAEFDGQRPKRVVIKIIGE  137 (137)
+T ss_dssp             EEEEECS-SSBCC------C-SSCEEE----------------------------------EEESSCSSCEEEEEEEEEC
+T ss_pred             EEEEEEC-CEEcc------C-CcceEE----------------------------------EEEcCCCCceEEEEEEeeC
+Confidence            4444433 33222      1 234444                                  4555555444444443332
+
+
+No 20 
+>1vmj_A Hypothetical protein TM0723; putative thiamin phosphate synthase, structural genomics, JO center for structural genomics, JCSG; 1.52A {Thermotoga maritima} SCOP: d.273.1.1
+Probab=8.80  E-value=2.2e+02  Score=20.86  Aligned_cols=96  Identities=9%  Similarity=0.071  Sum_probs=35.0
+
+Q ss_pred             ceEEeCC--CceeeeecccceeehhHHHHHHhhhcccccccccccCCCCCccchhhhhhhhccccCCCcccccccceeee
+Q P33515           26 GYVVATP--NGLLEFKTGPAEIYGGQWLRELLADCHVNASYSTDVCPGGSQLNMADIMAKERVCSTQPYNRGWGTGCFKW  103 (427)
+Q Consensus        26 cvti~a~--kptlDi~l~~~~~~~~a~~R~~c~~a~vs~~~s~~~CPt~gea~l~e~~~~~~vCk~~~~dRGWGnGCglF  103 (427)
+                      -.+|.|+  ...+||         ...++++..+..+.+                                         
+T Consensus        19 ~l~i~T~~~~~~~dI---------T~~V~~~v~~sgi~~-----------------------------------------   48 (151)
+T 1vmj_A           19 ELWFHTKRRREFINI---------TPLLEECVRESGIKE-----------------------------------------   48 (151)
+T ss_dssp             EEEECCSSSSEEEEC---------HHHHHHHHHHHCCSS-----------------------------------------
+T ss_pred             EEEEECCCCCeEEEC---------cHHHHHHHHHhCCCc-----------------------------------------
+Confidence            1344444  344444         466777776644431                                         
+
+
+Q ss_pred             cceeeeeeEEEeecCCCccccccceeEEEEeeeeeeecc--c-------ccccc--------------------------
+Q P33515          104 GIGFVGTCVELHCDRGFNVSSIARSAIVMNVTASFHSVS--D-------TQQMV--------------------------  148 (427)
+Q Consensus       104 GkGsi~tCakf~C~~~~~~~~i~~e~I~y~V~v~vH~~~--~-------t~~~~--------------------------  148 (427)
+                            ..+-+.|.. ....      |      .+--.+  .       -++.+                          
+T Consensus        49 ------Giv~vf~~H-TTaa------l------~inE~dp~l~~Dl~~~l~rlvP~~~~~~y~H~~~~~~n~~aHiks~L  109 (151)
+T 1vmj_A           49 ------GLLLCNAMH-ITAS------V------FINDDEPGLHHDFEVWLEKLAPEKPYSQYKHNDTGEDNADAHLKRTI  109 (151)
+T ss_dssp             ------EEEEEEESS-TTEE------E------EEECCCHHHHHHHHHHHHHHSCCCCGGGCGGGTTSCCCHHHHHHHHH
+T ss_pred             ------EEEEEEeCC-Ceee------E------EeecCChHHHHHHHHHHHHhCCCCCCccceeccccCCChHHhhhhhh
+Confidence                  223333454 2221      1      111112  0       00000                          
+
+
+Q ss_pred             cCcceeeeeeccccceeeecccccceeeeeeeeecCCccceeeeeccCCCCCcccccCCCCCceeEEEeecccccceeee
+Q P33515          149 GDIPLTFRFAKLGNAAMTCRLESEQLLLDYYHVTGSSHEGLFLRSQVDSWPGVHSTASGRHGMEKVVVWGDARSNEILVK  228 (427)
+Q Consensus       149 ~s~~~t~~~gdyG~~t~~C~~~s~~d~~~~y~v~~~~~k~wl~R~W~~PW~~~~~~~~~w~~~e~LV~f~~phA~k~~V~  228 (427)
+                      -.++.++-+-| |++.|      | .+...                                  .|+||..|+.-++.|.
+T Consensus       110 ~G~SltiPi~d-G~L~L------G-~wQ~I----------------------------------~l~Efdg~r~R~v~v~  147 (151)
+T 1vmj_A          110 MGREVVIAITD-RKMDL------G-PWEQV----------------------------------FYGEFDGMRPKRVLVK  147 (151)
+T ss_dssp             HCSEEEEEEET-TEECC------C-TTCEE----------------------------------EEEESSCSSCEEEEEE
+T ss_pred             cCccEEEEEEC-CEEcc------C-CCCEE----------------------------------EEEECCCCCceEEEEE
+Confidence            12233333332 22111      1 12333                                  5555555544444444
+
+
+Q ss_pred             cccC
+Q P33515          229 NVIE  232 (427)
+Q Consensus       229 ~lg~  232 (427)
+                      .+|+
+T Consensus       148 i~Ge  151 (151)
+T 1vmj_A          148 IIGE  151 (151)
+T ss_dssp             EEEC
+T ss_pred             EeeC
+Confidence            4332
+
+
+Done!

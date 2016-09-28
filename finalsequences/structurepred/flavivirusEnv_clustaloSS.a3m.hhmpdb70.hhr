@@ -1,0 +1,2002 @@
+Query         flavivirusEnv_clustaloSS
+Match_columns 841
+No_of_seqs    232 out of 738
+Neff          2.8 
+Searched_HMMs 48
+Date          Wed Aug  3 00:47:46 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/flavivirusEnv_clustaloSS.a3m.hhm -ohhm ./structurepred/flavivirusEnv_clustaloSS.a3m.hhm -o ./structurepred/flavivirusEnv_clustaloSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .2 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4cct_A Dengue virus 1 E protei 100.0  3E-105  4E-109  860.8 123.1  340   66-835     1-346 (495)
+  2 4cbf_A Envelope protein E; fla 100.0  5E-105  7E-109  858.4 122.2  341   66-836     1-347 (495)
+  3 1ok8_A Major envelope protein  100.0  2E-106  3E-110  852.6 107.3  344   66-839     1-352 (394)
+  4 4gsx_A Envelope protein E; vir 100.0  3E-104  4E-108  842.2 119.2  348   64-841    15-370 (427)
+  5 4fg0_A Polyprotein; viral enve 100.0  7E-106  1E-109  851.0  99.4  347   66-836     1-351 (407)
+  6 3p54_A Envelope glycoprotein;  100.0  4E-105  5E-109  845.1 101.8  339   66-833     1-346 (406)
+  7 1svb_A TICK-borne encephalitis 100.0  2E-105  3E-109  844.3  97.6  350   66-840     1-359 (395)
+  8 3uaj_B Envelope protein; dengu 100.0  2E-105  3E-109  850.3  90.5  345   66-840     1-353 (433)
+  9 3j27_A Envelope protein E; fla 100.0  4E-103  5E-107  844.0  98.7  346   66-841     1-354 (495)
+ 10 3p54_A Envelope glycoprotein;  100.0 1.6E-63 2.3E-67  525.9  29.5  211  389-838    93-305 (406)
+ 11 4fg0_A Polyprotein; viral enve 100.0 1.1E-61 1.6E-65  512.0  43.5  206  411-838    98-306 (407)
+ 12 1ok8_A Major envelope protein  100.0 2.2E-62 3.2E-66  515.7  37.7  288  203-840     1-305 (394)
+ 13 1svb_A TICK-borne encephalitis 100.0 3.3E-61 4.8E-65  506.7  32.6  211  389-838    93-308 (395)
+ 14 4cct_A Dengue virus 1 E protei 100.0   5E-51 7.1E-55  437.7  84.9  293  203-840     1-305 (495)
+ 15 4cbf_A Envelope protein E; fla 100.0 1.4E-50 2.1E-54  434.1  82.7  294  203-841     1-306 (495)
+ 16 4gsx_A Envelope protein E; vir 100.0   8E-49 1.1E-52  415.1  81.0  203  412-838   115-319 (427)
+ 17 3uaj_B Envelope protein; dengu 100.0 7.3E-45   1E-48  384.7 101.7  233    9-573     2-255 (433)
+ 18 3j27_A Envelope protein E; fla 100.0 1.4E-46 2.1E-50  403.0  86.5  374    9-797     2-429 (495)
+ 19 3uc0_A Envelope protein; dengu 100.0 1.3E-28 1.8E-32  232.8  43.7   50   66-115     1-50  (165)
+ 20 3uc0_A Envelope protein; dengu  99.9   2E-21 2.7E-25  183.3  38.1  133    8-551     1-133 (165)
+ 21 3c5x_C PRM; beta barrel, helic  99.3 8.2E-11 1.2E-14  106.2  19.5   60   25-99     20-84  (130)
+ 22 4b03_D Dengue virus 1 PRM prot  99.2   6E-10 8.8E-14  103.9  22.5   60   25-99     20-84  (166)
+ 23 2jqm_A Envelope protein E; yel  98.3 1.6E-06 2.3E-10   76.0  12.7   59  773-840     1-65  (112)
+ 24 3ixx_D Peptide PR; WEST NIle v  95.2    0.02 2.9E-06   46.6   8.8   25   23-47     29-61  (80)
+ 25 3ixx_D Peptide PR; WEST NIle v  94.9    0.45 6.4E-05   38.2  19.9   58   25-96     18-80  (80)
+ 26 4b03_D Dengue virus 1 PRM prot  94.6   0.027 3.9E-06   50.8   8.9   11   35-46     51-61  (166)
+ 27 3c5x_C PRM; beta barrel, helic  94.5   0.018 2.7E-06   50.1   7.3   42   19-72     36-84  (130)
+
+No 1  
+>4cct_A Dengue virus 1 E protein; flavivirus; 4.50A {Dengue virus 1} PDB: 4b03_A 4c2i_A* 3j6s_A 3j6t_A 3j6u_A
+Probab=100.00  E-value=2.5e-105  Score=860.82  Aligned_cols=340  Identities=62%  Similarity=1.019  Sum_probs=311.5
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDT  145 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~  145 (841)
+                      +||++|+|||||||++|+||||+|||+++|||+||++||+|||||.+++++                             
+T Consensus         1 ~~Cv~i~nRDFveG~sG~TwvdvvLe~~gCVTi~a~~kptlDi~l~~~~~~-----------------------------   51 (495)
+T 4cct_A            1 MRCVGISNRDFVEGLSATGWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVT-----------------------------   51 (495)
+T ss_pred             CccccccCCcccccCCCCEEEEEEEcCCcEEEEEcCCCCeEEEEEEEEEEe-----------------------------
+Confidence            489999999999999999999999999999999999999999999999875                             
+
+
+Q ss_pred             eeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccc
+Q flavivirusEnv_  146 AWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKR  225 (841)
+Q Consensus       146 ~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr  225 (841)
+                                                                                                      
+T Consensus        52 --------------------------------------------------------------------------------   51 (495)
+T 4cct_A           52 --------------------------------------------------------------------------------   51 (495)
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             cccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhh
+Q flavivirusEnv_  226 TYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRS  305 (841)
+Q Consensus       226 ~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~  305 (841)
+                                     +||.+|+||++|+|+|+++++|||++|||+|+||+|++|||||+++|||||              
+T Consensus        52 ---------------~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGWG--------------  102 (495)
+T 4cct_A           52 ---------------NPAILRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWG--------------  102 (495)
+T ss_pred             ---------------ccHHhhhheeeeEEeccEEcccCCCCCccCChhhccCCeeecCCCCCCCCc--------------
+Confidence                           799999999999999999999999999999999999999999999999998              
+
+
+Q ss_pred             cCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEE
+Q flavivirusEnv_  306 IGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEV  385 (841)
+Q Consensus       306 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~  385 (841)
+                                                                          |||||||||||+|||||+|++++.+++|
+T Consensus       103 ----------------------------------------------------NGCgLFGkGsi~tCakftC~~~~~g~~i  130 (495)
+T 4cct_A          103 ----------------------------------------------------NGCGLFGKGSLITCAKFKCVTKLEGKIV  130 (495)
+T ss_pred             ----------------------------------------------------cccccccCcceEEEEeEEcCCcceEEEE
+Confidence                                                                9999999999999999999999999888
+
+
+Q ss_pred             ecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccccc
+Q flavivirusEnv_  386 DQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVG  465 (841)
+Q Consensus       386 ~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g  465 (841)
+                      |+|||+|+|.+++|++...+.                                                           
+T Consensus       131 ~~enI~y~V~v~vH~~~~~~~-----------------------------------------------------------  151 (495)
+T 4cct_A          131 QYENLKYSVIVTVHTGDQHQV-----------------------------------------------------------  151 (495)
+T ss_pred             ecceEEEEEEEEEECCccccc-----------------------------------------------------------
+Confidence            888888888888887644321                                                           
+
+
+Q ss_pred             CcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCC
+Q flavivirusEnv_  466 YBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDE  545 (841)
+Q Consensus       466 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~  545 (841)
+                                                                                                      
+T Consensus       152 --------------------------------------------------------------------------------  151 (495)
+T 4cct_A          152 --------------------------------------------------------------------------------  151 (495)
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccccc
+Q flavivirusEnv_  546 NWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDL  625 (841)
+Q Consensus       546 ~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL  625 (841)
+                        .|++.+++++++|||+||+.+++|+|||+++|+|+|++++||++||+++|+.             ++||||||||+||
+T Consensus       152 --~~~~~~~~~~~~~Tp~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~~-------------k~wLV~R~Wf~DL  216 (495)
+T 4cct_A          152 --GNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMKE-------------KSWLVHKQWFLDL  216 (495)
+T ss_pred             --ccccccceeEEEEecCCCcEEEEcCCceEEEEEEEeccCcccccEEEEEeCC-------------cEEEEcHHHHhcC
+Confidence              1234457789999999999999999999999999999999999999999975             5999999999999
+
+
+Q ss_pred             ceecccCCC---chheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCcccccccc
+Q flavivirusEnv_  626 TLPWQSGSG---GVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWN  702 (841)
+Q Consensus       626 ~LPW~~gs~---~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~  702 (841)
+                      ||||+++++   ..|||+|+||||++|||+||+|++|||||                                       
+T Consensus       217 ~LPW~~~~~~~~~~W~~~e~LVeF~epHA~k~~V~~lg~Qe---------------------------------------  257 (495)
+T 4cct_A          217 PLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVVLGSQE---------------------------------------  257 (495)
+T ss_pred             ccCccCCCCCcccccccceeEEEECCCceeEEEEEEecCch---------------------------------------
+Confidence            999999986   69999999999999999999999999999                                       
+
+
+Q ss_pred             ccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCC
+Q flavivirusEnv_  703 RQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPO  782 (841)
+Q Consensus       703 ~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~t  782 (841)
+                                                         |+|++||+||++++++    ++|.|++|||+||||||||+|||+|
+T Consensus       258 -----------------------------------ga~~~ALaga~~~~~~----~~~~l~~Ghl~Crv~ldkL~lkG~T  298 (495)
+T 4cct_A          258 -----------------------------------GAMHTALTGATEIQTS----GTTTIFAGHLKCRLKMDKLTLKGVS  298 (495)
+T ss_pred             -----------------------------------HHHHHHhcCCeEEeec----CceEEeeeEEEEEEEecCeEECccC
+Confidence                                               6999999999999874    4899999999999999999999999
+
+
+Q ss_pred             CCCC--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeeeccCC
+Q flavivirusEnv_  783 LGDE--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGGY  835 (841)
+Q Consensus       783 y~~~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lkg~~  835 (841)
+                      |+|+  ++.+ ..|.++.|..+  +|+++|+|++      .|||||+.-.+..+..
+T Consensus       299 Y~~C~~~fs~~k~p~dtgHgTV--V~ev~y~gt~------~PCripv~~~~~~~~~  346 (495)
+T 4cct_A          299 YVMCTGSFKLEKEVAETQHGTV--LVQVKYEGTD------APCKIPFSSQDEKGVI  346 (495)
+T ss_pred             hhcCCCceeEEECCCCCCCCeE--EEEEEEccCC------CCeEeEEEEEeCCCCc
+Confidence            9995  4444 67888888766  9999999987      8999999998764422
+
+
+No 2  
+>4cbf_A Envelope protein E; flavivirus; 4.10A {Dengue virus 2}
+Probab=100.00  E-value=5.1e-105  Score=858.43  Aligned_cols=341  Identities=46%  Similarity=0.885  Sum_probs=326.6
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDT  145 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~  145 (841)
+                      .||+||.|||||||+||+||||||||||+|||+||++||+|||+|.+++++                             
+T Consensus         1 ~~Cv~i~nRDFveG~sG~TwvdvvLe~~gCVTi~a~~kptlDi~l~~~~~~-----------------------------   51 (495)
+T 4cbf_A            1 MRCVGVGNRDFVEGVSGGAWVDLVLEHGGCVTTMAQGKPTLDFELTKTTAK-----------------------------   51 (495)
+T ss_pred             CccccccCCcccccCCCCEEEEEEEcCCcEEEEEcCCCCeEEEEEEEEEEe-----------------------------
+Confidence            489999999999999999999999999999999999999999999999998                             
+
+
+Q ss_pred             eeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccc
+Q flavivirusEnv_  146 AWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKR  225 (841)
+Q Consensus       146 ~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr  225 (841)
+                                                                                                      
+T Consensus        52 --------------------------------------------------------------------------------   51 (495)
+T 4cbf_A           52 --------------------------------------------------------------------------------   51 (495)
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             cccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhh
+Q flavivirusEnv_  226 TYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRS  305 (841)
+Q Consensus       226 ~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~  305 (841)
+                                     +||.+|+||++|+||++++++||||||||+|.||+|.+|||+|+|+|||||              
+T Consensus        52 ---------------~~a~~R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGWG--------------  102 (495)
+T 4cbf_A           52 ---------------EVALLRTYCIEASISNITTATRCPTQGEPYLKEEQDQQYICRRDVVDRGWG--------------  102 (495)
+T ss_pred             ---------------ccHHhhhheeeeEEeccEecccCCCCCccCChhhccCCeeecCCCCCCCcc--------------
+Confidence                           899999999999999999999999999999999999999999999999999              
+
+
+Q ss_pred             cCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEE
+Q flavivirusEnv_  306 IGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEV  385 (841)
+Q Consensus       306 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~  385 (841)
+                                                                          |||||||||||++||||+|+++|..+++
+T Consensus       103 ----------------------------------------------------NGCgLFGkGsi~tCakf~C~~~~~g~~i  130 (495)
+T 4cbf_A          103 ----------------------------------------------------NGCGLFGKGGVVTCAKFLCSGKITGNLV  130 (495)
+T ss_pred             ----------------------------------------------------cccccccCcceEEEEeEEcCCceeEEEE
+Confidence                                                                9999999999999999999999999999
+
+
+Q ss_pred             ecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccccc
+Q flavivirusEnv_  386 DQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVG  465 (841)
+Q Consensus       386 ~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g  465 (841)
+                      |++||+|+|.+++|.+...+.                                                           
+T Consensus       131 ~~~~I~y~V~v~vH~~~~~~~-----------------------------------------------------------  151 (495)
+T 4cbf_A          131 QIENLEYTVAVTVHNGDTHAV-----------------------------------------------------------  151 (495)
+T ss_pred             ecceEEEEEEEEEeCCccccc-----------------------------------------------------------
+Confidence            999999999999999977654                                                           
+
+
+Q ss_pred             CcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCC
+Q flavivirusEnv_  466 YBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDE  545 (841)
+Q Consensus       466 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~  545 (841)
+                                                                                                      
+T Consensus       152 --------------------------------------------------------------------------------  151 (495)
+T 4cbf_A          152 --------------------------------------------------------------------------------  151 (495)
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccccc
+Q flavivirusEnv_  546 NWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDL  625 (841)
+Q Consensus       546 ~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL  625 (841)
+                        .|++.+|+++++|||+||+.+++|+|||.++|+|+||+|+||+++|+++|+.             ++|+|+|||++||
+T Consensus       152 --~~~~~~~~~~~~~t~~s~~~t~~lgdYGtvtl~Cr~~Sg~D~~~~Y~vt~~~-------------k~wlV~r~W~~Dl  216 (495)
+T 4cbf_A          152 --GNDTSSHGVTATITPRSPSVEVKLPDYGELTLDCEPRSGIDFNEMILMKMKK-------------KTWLVHKQWFLDL  216 (495)
+T ss_pred             --ccccccceeEEEEecCCCcEEEEcccCeEEEEEEeeccccchhhEEEEEeCC-------------eEEEEEHHHhhcC
+Confidence              3456789999999999999999999999999999999999999999999998             9999999999999
+
+
+Q ss_pred             ceecccCCC---chheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCcccccccc
+Q flavivirusEnv_  626 TLPWQSGSG---GVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWN  702 (841)
+Q Consensus       626 ~LPW~~gs~---~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~  702 (841)
+                      +|||+++++   +.||+|++||||++|||++|.|++||+||                                       
+T Consensus       217 ~lPW~~~~~~~~~~W~~~e~lVeF~~phA~k~~V~~lg~Qe---------------------------------------  257 (495)
+T 4cbf_A          217 PLPWTAGADTSEVHWNHKERMVTFKVPHAKRQDVTVLGSQE---------------------------------------  257 (495)
+T ss_pred             CCCcccCCCCcccccccceeEEEeCCCeEEEEEEEEecChh---------------------------------------
+Confidence            999999996   68999999999999999999999999999                                       
+
+
+Q ss_pred             ccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCC
+Q flavivirusEnv_  703 RQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPO  782 (841)
+Q Consensus       703 ~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~t  782 (841)
+                                                         |+|++||+||+.+. .   +|.|+|++||++|||||++|+|||.|
+T Consensus       258 -----------------------------------gal~~ALaga~~~~-~---~~~~~l~~Ghl~Crv~l~kL~lkG~T  298 (495)
+T 4cbf_A          258 -----------------------------------GAMHSALAGATEVD-S---GDGNHMFAGHLKCKVRMEKLRIKGMS  298 (495)
+T ss_pred             -----------------------------------HHHHHHhcCCeEee-c---CCceEEeeeeEEEEEEecCeEEcccC
+Confidence                                               99999999999995 2   37899999999999999999999999
+
+
+Q ss_pred             CCCC--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeeeccCCc
+Q flavivirusEnv_  783 LGDE--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGGYB  836 (841)
+Q Consensus       783 y~~~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lkg~~~  836 (841)
+                      |.+|  ++++ +.|.+++|+++  ++|++++|++      .|||+|+...++.+..+
+T Consensus       299 Y~~C~~~fs~~k~p~dtgHgTV--Vmev~y~gt~------~PCripv~~~~~~~~~~  347 (495)
+T 4cbf_A          299 YTMCSGKFSIDKEMAETQHGTT--VVKVKYEGAG------APCKVPIEIRDVNKEKV  347 (495)
+T ss_pred             hhhCCCcceEEECCCCCCCCeE--EEEEEEccCC------CCeEeEEEEEeCCCCcc
+Confidence            9999  7888 99999999999  9999999998      99999999987655432
+
+
+No 3  
+>1ok8_A Major envelope protein E; viral protein, membrane fusion, flavivirus, fusion peptide, low-PH conformational change, class 2 fusion protein,; HET: NAG; 2.0A {Dengue virus type 2} SCOP: b.1.18.4 f.10.1.1 PDB: 1oan_A* 1oke_A* 2b6b_A 3j8d_G 1tge_A 1tg8_A* 1thd_A 3c5x_A* 3c6e_A* 3c6d_A 3c6r_A 3ixy_A 3iya_A 3j35_A 4uta_A* 4ut9_A* 4utc_A* 4utb_A* 4ut6_A* 2r6p_A 3j42_A 2jsf_A 2r29_A 2r69_A
+Probab=100.00  E-value=1.8e-106  Score=852.63  Aligned_cols=344  Identities=50%  Similarity=0.891  Sum_probs=312.0
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDT  145 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~  145 (841)
+                      .||+||.|||||||+||+||||||||||+|||+||++||+|||+|.++++++-                           
+T Consensus         1 ~~Cvgi~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~---------------------------   53 (394)
+T 1ok8_A            1 MRCIGISNRDFVEGVSGGSWVDIVLEHGSCVTTMAKNKPTLDFELIKTEAKQP---------------------------   53 (394)
+T ss_dssp             CCCEECCGGGEEECSSSEEEEEEEEETTCCEEEEBTTSCEEEEEEEEEEEESC---------------------------
+T ss_pred             CccccccCCcceecCCCCEEEEEEecCCcEEEEEcCCCCeEEEEEEEEEEecc---------------------------
+Confidence            48999999999999999999999999999999999999999999999999821                           
+
+
+Q ss_pred             eeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccc
+Q flavivirusEnv_  146 AWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKR  225 (841)
+Q Consensus       146 ~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr  225 (841)
+                                      +.+                                                             
+T Consensus        54 ----------------a~~-------------------------------------------------------------   56 (394)
+T 1ok8_A           54 ----------------ATL-------------------------------------------------------------   56 (394)
+T ss_dssp             ----------------EEE-------------------------------------------------------------
+T ss_pred             ----------------hhh-------------------------------------------------------------
+Confidence                            111                                                             
+
+
+Q ss_pred             cccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhh
+Q flavivirusEnv_  226 TYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRS  305 (841)
+Q Consensus       226 ~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~  305 (841)
+                                          |+||++|+||++++++||||||||+|.||+|.+|||+|+|+|||||              
+T Consensus        57 --------------------R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGWG--------------  102 (394)
+T 1ok8_A           57 --------------------RKYCIEAKLTNTTTESRCPTQGEPTLNEEQDKRFVCKHSMVDRGWG--------------  102 (394)
+T ss_dssp             --------------------EEEEEEEEEEEEEEEECCTTSCCCCCGGGGCTTEEEEEEEEEECGG--------------
+T ss_pred             --------------------hheeeeeEEeccEEcccCCCCCccCChhhccCCeEecCCCCCCCCc--------------
+Confidence                                2468999999999999999999999999999999999999999999              
+
+
+Q ss_pred             cCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEE
+Q flavivirusEnv_  306 IGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEV  385 (841)
+Q Consensus       306 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~  385 (841)
+                                                                          |||||||||||++||||+|+++|..+++
+T Consensus       103 ----------------------------------------------------NGCgLFGKGsi~tCaKftC~~~~~g~~i  130 (394)
+T 1ok8_A          103 ----------------------------------------------------NGCGLFGKGGIVTCAMFTCKKNMEGKIV  130 (394)
+T ss_dssp             ----------------------------------------------------GTCSSCEEEEEEEEEEEEEEEEEEEEEC
+T ss_pred             ----------------------------------------------------cccccccCccEEEEEeEEcCCceeEEEE
+Confidence                                                                9999999999999999999999999999
+
+
+Q ss_pred             ecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccccc
+Q flavivirusEnv_  386 DQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVG  465 (841)
+Q Consensus       386 ~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g  465 (841)
+                      |++||+|+|.+++|.+...+.                                                           
+T Consensus       131 ~~enI~y~V~v~vH~~~~~~~-----------------------------------------------------------  151 (394)
+T 1ok8_A          131 QPENLEYTVVITPHSGEEHAV-----------------------------------------------------------  151 (394)
+T ss_dssp             CGGGEEEEEEEEEC------------------------------------------------------------------
+T ss_pred             ecceEEEEEEEEEeCCccccc-----------------------------------------------------------
+Confidence            999999999999999976542                                                           
+
+
+Q ss_pred             CcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCC
+Q flavivirusEnv_  466 YBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDE  545 (841)
+Q Consensus       466 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~  545 (841)
+                                                                                                      
+T Consensus       152 --------------------------------------------------------------------------------  151 (394)
+T 1ok8_A          152 --------------------------------------------------------------------------------  151 (394)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccccc
+Q flavivirusEnv_  546 NWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDL  625 (841)
+Q Consensus       546 ~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL  625 (841)
+                        +|++.+|+++++|||+||+.+++|+|||.++|+|+||+|+||+++|+++|+.             ++|+|+|||++||
+T Consensus       152 --~~~~~~~~~~~~~t~~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~~-------------k~wLV~r~Wf~Dl  216 (394)
+T 1ok8_A          152 --GNDTGKHGKEVKITPQSSITEAELTGYGTVTMECSPRTGLDFNEMVLLQMKD-------------KAWLVHRQWFLDL  216 (394)
+T ss_dssp             ---------CEEEEECSSCCEEEEEETTTEEEEEEEEECSCCCTTTEEEEEETT-------------EEEEEEHHHHHHC
+T ss_pred             --ccccccceeEEEEecCCCCEEEEcCCceEEEEEEEeccCcccccEEEEEeCC-------------cEEEEcHHHHhcC
+Confidence              3456789999999999999999999999999999999999999999999998             9999999999999
+
+
+Q ss_pred             ceecccCCC---chheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCcccccccc
+Q flavivirusEnv_  626 TLPWQSGSG---GVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWN  702 (841)
+Q Consensus       626 ~LPW~~gs~---~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~  702 (841)
+                      +|||.++++   +.||+|++||||++|||++|.|++||+||                                       
+T Consensus       217 ~LPW~~~~~~~~~~W~~~e~LVeF~epHA~k~~V~~lg~Qe---------------------------------------  257 (394)
+T 1ok8_A          217 PLPWLPGADTQGSNWIQKETLVTFKNPHAKKQDVVVLGSQE---------------------------------------  257 (394)
+T ss_dssp             SSCEEETTCCSCCSCBCGGGTEEECCCCSSCCCEEECCCCH---------------------------------------
+T ss_pred             ccCcccCCCccccccccceeEEEECCCceeEEEEEEecChh---------------------------------------
+Confidence            999999996   69999999999999999999999999999                                       
+
+
+Q ss_pred             ccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCC
+Q flavivirusEnv_  703 RQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPO  782 (841)
+Q Consensus       703 ~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~t  782 (841)
+                                                         |+|++||+||+.+.++    +.|.|++||++|||||++|+|||.|
+T Consensus       258 -----------------------------------gal~~ALagA~~~~~~----~~~~l~~Ghl~Crv~ldkLklKG~T  298 (394)
+T 1ok8_A          258 -----------------------------------GAMHTALTGATEIQMS----SGNLLFTGHLKCRLRMDKLQLKGMS  298 (394)
+T ss_dssp             -----------------------------------HHHHHHTTTSEEECBS----SSEEEECCEEEEEEEEESCCBCCCC
+T ss_pred             -----------------------------------HHHHHHhcCCeEEEec----CccEEeeeEEEEEEEecCeEECccC
+Confidence                                               9999999999999543    3699999999999999999999999
+
+
+Q ss_pred             CCCC--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeeeccCCc--CCC
+Q flavivirusEnv_  783 LGDE--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGGYB--CLO  839 (841)
+Q Consensus       783 y~~~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lkg~~~--c~g  839 (841)
+                      |.+|  .|++ +.|.+++|+++  ++|++++|++      .|||+|+...++.+..+  ||.
+T Consensus       299 Y~~C~~~fs~~k~p~dtgHgTV--V~ev~y~gt~------~PCripi~~~~~~~~~~~G~li  352 (394)
+T 1ok8_A          299 YSMCTGKFKVVKEIAETQHGTI--VIRVQYEGDG------SPCKIPFEIMDLEKRHVLGRLI  352 (394)
+T ss_dssp             CCBCCSCEEEEEEEEECTTSCE--EEEEEECSSS------CSEECCEEEEESSSCBCSSCBS
+T ss_pred             hhcCCCceEEEECCCCCCCCeE--EEEEEEccCC------CCeEeEEEEEeCCCCccceEEE
+Confidence            9999  8888 99999999999  9999999998      99999999987765333  332
+
+
+No 4  
+>4gsx_A Envelope protein E; viral fusion protein, viral protein; HET: NAG; 1.90A {Dengue virus 1} PDB: 4gt0_A* 3g7t_A 3j05_A 4cau_A 1uzg_A*
+Probab=100.00  E-value=2.5e-104  Score=842.25  Aligned_cols=348  Identities=61%  Similarity=0.978  Sum_probs=323.2
+
+Q ss_pred             CCeeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCC
+Q flavivirusEnv_   64 ENWRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNG  143 (841)
+Q Consensus        64 ~~~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsv  143 (841)
+                      -..||+||.|||||||++|+||||||||||+|||+||++||+|||+|.+++++++                         
+T Consensus        15 y~~~C~~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~-------------------------   69 (427)
+T 4gsx_A           15 NGMRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTNP-------------------------   69 (427)
+T ss_dssp             ---CCEECCGGGEEECSSSEEEEEEEEESSCCEEECBTTSCCEEEEEEEEEEESC-------------------------
+T ss_pred             hheEEccccccceeecCCCCEEEEEEEcCCcEEEEEcCCCCeEEEEEEEEEEecc-------------------------
+Confidence            2469999999999999999999999999999999999999999999999999999                         
+
+
+Q ss_pred             CceeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccc
+Q flavivirusEnv_  144 DTAWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNAC  223 (841)
+Q Consensus       144 d~~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~C  223 (841)
+                                        +.+                                                           
+T Consensus        70 ------------------a~~-----------------------------------------------------------   72 (427)
+T 4gsx_A           70 ------------------AVL-----------------------------------------------------------   72 (427)
+T ss_dssp             ------------------EEE-----------------------------------------------------------
+T ss_pred             ------------------hHh-----------------------------------------------------------
+Confidence                              888                                                           
+
+
+Q ss_pred             cccccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhh
+Q flavivirusEnv_  224 KRTYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAF  303 (841)
+Q Consensus       224 kr~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~  303 (841)
+                                            |+||++|+||++++++||||||||+|.||+|.+|||+|+|+|||||            
+T Consensus        73 ----------------------R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGWG------------  118 (427)
+T 4gsx_A           73 ----------------------RKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGHG------------  118 (427)
+T ss_dssp             ----------------------EEEEEEEEEEEEEEEECCTTSCCCCCGGGGCTTEEEEEEEEEECGG------------
+T ss_pred             ----------------------hheeeeeEEeccEEcccCCCCCcccChhhhcCCeEecCCCCCCCcc------------
+Confidence                                  7789999999999999999999999999999999999999999999            
+
+
+Q ss_pred             hhcCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceE
+Q flavivirusEnv_  304 RSIGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLF  383 (841)
+Q Consensus       304 ~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~  383 (841)
+                                                                            |||||||||||++||||+|+++|.++
+T Consensus       119 ------------------------------------------------------NGCgLFGKGsi~tCaKftC~~~~~g~  144 (427)
+T 4gsx_A          119 ------------------------------------------------------NGCGLFGKGSLITCAKFKCVTKLEGK  144 (427)
+T ss_dssp             ------------------------------------------------------GTCSSCEEEEEEEEEEEEEEEEEEEE
+T ss_pred             ------------------------------------------------------cccccccCccEEEEEeEEcCCceeEE
+Confidence                                                                  99999999999999999999999999
+
+
+Q ss_pred             EEecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccc
+Q flavivirusEnv_  384 EVDQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQ  463 (841)
+Q Consensus       384 ~~~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~  463 (841)
+                      ++|++||+|+|.+++|.+...+.                                                         
+T Consensus       145 ~i~~e~I~y~V~v~vH~~~~~~~---------------------------------------------------------  167 (427)
+T 4gsx_A          145 IVQYENLKYSVIVTVHTGDQHQV---------------------------------------------------------  167 (427)
+T ss_dssp             ECCGGGEEEEEEEEECCC--------------------------------------------------------------
+T ss_pred             EEecceEEEEEEEEEeCCccccc---------------------------------------------------------
+Confidence            99999999999999999876553                                                         
+
+
+Q ss_pred             ccCcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCC
+Q flavivirusEnv_  464 VGYBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLG  543 (841)
+Q Consensus       464 ~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~  543 (841)
+                                                                                                      
+T Consensus       168 --------------------------------------------------------------------------------  167 (427)
+T 4gsx_A          168 --------------------------------------------------------------------------------  167 (427)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccc
+Q flavivirusEnv_  544 DENWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQ  623 (841)
+Q Consensus       544 ~~~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~  623 (841)
+                          .|++.+|+++++|||+||+.+++|+|||.++|+|+||+|+||+++|+++|+.             ++|+|+|||++
+T Consensus       168 ----~~~~~~~~~~atfTp~Sp~~tv~LgDYGtvtl~C~~~sg~d~~~~y~~~~~~-------------k~wlV~r~W~~  230 (427)
+T 4gsx_A          168 ----GNETTEHGTIATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMEK-------------KSWLVHKQWFL  230 (427)
+T ss_dssp             -----------CEEEEECSSCCEEEEEETTTEEEEEEEEECSCCCTTTEEEEEETT-------------EEEEEEHHHHH
+T ss_pred             ----ccccccceeEEEEecCCCCEEEEcCCCcEEEEEeccccCcChhhEEEEEecC-------------cEEEEeHHHHh
+Confidence                3456789999999999999999999999999999999999999999999999             99999999999
+
+
+Q ss_pred             ccceecccCCC---chheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCcccccc
+Q flavivirusEnv_  624 DLTLPWQSGSG---GVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQET  700 (841)
+Q Consensus       624 DL~LPW~~gs~---~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~  700 (841)
+                      ||+|||+++++   +.||+|++||||++|||++|.|++||+||                                     
+T Consensus       231 Dl~LPW~~~~~~~~~~W~~~e~LVeF~~pHA~k~~V~~lg~Qe-------------------------------------  273 (427)
+T 4gsx_A          231 DLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVVLGSQE-------------------------------------  273 (427)
+T ss_dssp             TCCSCEEESSCCSSCCCBCGGGTEEECCCCSSCCCEEECCCCH-------------------------------------
+T ss_pred             cCccCccCCCCCcccccccceeEEEeCCCeEEEEEEEEecCch-------------------------------------
+Confidence            99999999997   69999999999999999999999999999                                     
+
+
+Q ss_pred             ccccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecC
+Q flavivirusEnv_  701 WNRQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKG  780 (841)
+Q Consensus       701 w~~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG  780 (841)
+                                                           |+|++||+||+.+.+++    .|.|++||++|||||++|+|||
+T Consensus       274 -------------------------------------gal~~ALagA~~~~~~~----~~~l~~Ghl~Crv~l~kLklkG  312 (427)
+T 4gsx_A          274 -------------------------------------GAMHTALTGATEIQTSG----TTTIFAGHLKCRLKMDKLTLKG  312 (427)
+T ss_dssp             -------------------------------------HHHHHHTTTSEEEEEET----TEEEECCEEEEEEEEESCCBCC
+T ss_pred             -------------------------------------HHHHHHhcCCeEEeecC----ceEEEeeeEEEEEEecceEEcc
+Confidence                                                 99999999999999983    7999999999999999999999
+
+
+Q ss_pred             CCCCCC--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeeeccCCc--CCCCC
+Q flavivirusEnv_  781 POLGDE--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGGYB--CLOSI  841 (841)
+Q Consensus       781 ~ty~~~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lkg~~~--c~g~~  841 (841)
+                      +||.+|  .|++ +.|.+++|+++  ++|++++|++      .|||||+....+.+..+  |||..
+T Consensus       313 ~TY~~C~g~fs~~k~p~dtgHgTV--Vmev~y~gt~------~PCripv~~~~~~~~~~~G~liT~  370 (427)
+T 4gsx_A          313 MSYVMCTGSFKLEKEVAETQHGTV--LVQVKYEGTD------APCKIPFSSQDEKGVTQNGRLITA  370 (427)
+T ss_dssp             CCCCBCCSCEEESSCCEECTTSCE--EEEEEECSSC------CSEECCEEEEETTCCBCSCCBCCS
+T ss_pred             cChhcCCCceeEEECCCCCCCCeE--EEEEEEccCC------CCeEeEEEEEeCCCCccceEEEeC
+Confidence            999999  8888 99999999999  9999999998      89999999988766555  77752
+
+
+No 5  
+>4fg0_A Polyprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 3.90A {St}
+Probab=100.00  E-value=6.6e-106  Score=851.01  Aligned_cols=347  Identities=41%  Similarity=0.768  Sum_probs=319.4
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDT  145 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~  145 (841)
+                      .||+||.|||||||+||+||||||||||+|||+||++||+|||+|.+++++++                           
+T Consensus         1 ~~C~~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~---------------------------   53 (407)
+T 4fg0_A            1 FNCLGTSNRDFVEGASGATWIDLVLEGGSCVTVMAPEKPTLDFKVMKMEAAEL---------------------------   53 (407)
+T ss_dssp             -CCEECCGGGEEECSSSEEEEEEEEESSCCEEEEETTEEEEEEEEEEEEECCC---------------------------
+T ss_pred             CccccccCCceeecCCCCEEEEEEecCCcEEEEEcCCCCeEEEEEEEEEEeCc---------------------------
+Confidence            48999999999999999999999999999999999999999999999999999                           
+
+
+Q ss_pred             eeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccc
+Q flavivirusEnv_  146 AWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKR  225 (841)
+Q Consensus       146 ~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr  225 (841)
+                                      +.+                                                             
+T Consensus        54 ----------------a~~-------------------------------------------------------------   56 (407)
+T 4fg0_A           54 ----------------ATV-------------------------------------------------------------   56 (407)
+T ss_dssp             ----------------EEE-------------------------------------------------------------
+T ss_pred             ----------------HHh-------------------------------------------------------------
+Confidence                            888                                                             
+
+
+Q ss_pred             cccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhh
+Q flavivirusEnv_  226 TYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRS  305 (841)
+Q Consensus       226 ~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~  305 (841)
+                                          |+||++|+||++++++||||||||+|.||+|.+|||+|+|+|||||              
+T Consensus        57 --------------------R~yc~~a~vs~~~~~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGWG--------------  102 (407)
+T 4fg0_A           57 --------------------REYCYEATLDTLSTVARCPTTGEAHNTKRSDPTFVCKRDVVDRGWG--------------  102 (407)
+T ss_dssp             --------------------EEEEEEEEEEEEEEEECCSSSCCCCCTTTTSTTEEEEEEEEECCTT--------------
+T ss_pred             --------------------hhheeeeEEeccEecccCCCCCccCChhhhcCCeEecCCCCCCCcc--------------
+Confidence                                7789999999999999999999999999999999999999999999              
+
+
+Q ss_pred             cCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEE
+Q flavivirusEnv_  306 IGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEV  385 (841)
+Q Consensus       306 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~  385 (841)
+                                                                          |||||||||||++||||+|.++|.++++
+T Consensus       103 ----------------------------------------------------NGCgLFGKGsi~tCakf~C~~~~~g~~i  130 (407)
+T 4fg0_A          103 ----------------------------------------------------NGCGLFGKGSIDTCAKFTCKNKATGKTI  130 (407)
+T ss_dssp             ----------------------------------------------------TTCSSSSEEEEEEEEEEEEEEEEEEEEC
+T ss_pred             ----------------------------------------------------ccCccccCccEEEEEeEEcCCceeEEEE
+Confidence                                                                9999999999999999999999999999
+
+
+Q ss_pred             ecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccccc
+Q flavivirusEnv_  386 DQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVG  465 (841)
+Q Consensus       386 ~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g  465 (841)
+                      |++||+|+|.+++|.+...+..+                                                         
+T Consensus       131 ~~e~I~y~V~v~vH~~~~~~~~~---------------------------------------------------------  153 (407)
+T 4fg0_A          131 LRENIKYEVAIFVHGSTDSTSHG---------------------------------------------------------  153 (407)
+T ss_dssp             CGGGEEEEEEEEECC-----------------------------------------------------------------
+T ss_pred             ecceEEEEEEEEecCCccccccc---------------------------------------------------------
+Confidence            99999999999999998876421                                                         
+
+
+Q ss_pred             CcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCC
+Q flavivirusEnv_  466 YBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDE  545 (841)
+Q Consensus       466 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~  545 (841)
+                                                                                      |               
+T Consensus       154 ----------------------------------------------------------------~---------------  154 (407)
+T 4fg0_A          154 ----------------------------------------------------------------N---------------  154 (407)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             ----------------------------------------------------------------c---------------
+Confidence                                                                            0               
+
+
+Q ss_pred             CCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccccc
+Q flavivirusEnv_  546 NWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDL  625 (841)
+Q Consensus       546 ~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL  625 (841)
+                      .....+.+|+.+++|||+||+.+++|+|||.++|+|+||+|+||+++|+++|+.             ++|+|+|||++||
+T Consensus       155 ~~~~~~~~~~~~~t~t~~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~~-------------k~wLV~R~Wf~DL  221 (407)
+T 4fg0_A          155 YFEQIGKNQAARFTISPQAPSFTANMGEYGTVTIDCEARSGINTEDYYVFTVKE-------------KSWLVNRDWFHDL  221 (407)
+T ss_dssp             --------CEEEEEECSSCCEEEEECGGGCEEEEEEEEESSCCGGGEEEEECSS-------------CEEEEEHHHHHSC
+T ss_pred             cccccccceeeEEEEecCCCCEEEEcCCCcEEEEEEecccCcchhhEEEEEeCC-------------cEEEEcHHHHhcC
+Confidence            002346789999999999999999999999999999999999999999999998             8999999999999
+
+
+Q ss_pred             ceecccCCCchheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCccccccccccc
+Q flavivirusEnv_  626 TLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNRQD  705 (841)
+Q Consensus       626 ~LPW~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~  705 (841)
+                      +|||++++++.||+|++||||++|||++|.|++||+||                                          
+T Consensus       222 ~LPW~~~~~~~W~~~e~LVeF~epHA~k~~V~~lG~Qe------------------------------------------  259 (407)
+T 4fg0_A          222 NLPWTSPATTDWRNRETLVEFEEPHATKQTVVALGSQE------------------------------------------  259 (407)
+T ss_dssp             CSCEECSSCCSCBCCTTSEEECSCCSSCCCEEECCCTH------------------------------------------
+T ss_pred             ccCcccCCCCccccceeEEEECCCceeEEEEEEecCch------------------------------------------
+Confidence            99999999999999999999999999999999999999                                          
+
+
+Q ss_pred             eEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCCCCC
+Q flavivirusEnv_  706 LLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGD  785 (841)
+Q Consensus       706 ~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty~~  785 (841)
+                                                      |+|++||+||+.+++++   +.|.|++||++|||||++|+|||.||.+
+T Consensus       260 --------------------------------gal~~ALaga~~~~~~~---~~~~l~~Ghl~Crv~l~kLklkG~TY~~  304 (407)
+T 4fg0_A          260 --------------------------------GALHTALAGAIPATVSS---STLTLQSGHLKCRAKLDKVKIKGTTYGM  304 (407)
+T ss_dssp             --------------------------------HHHHHHCSSSEECEECT---TCCEECCCEEEEEEEEESCCCCCCCCCB
+T ss_pred             --------------------------------HHHHHHhcCCeeeeecC---CeeEEeeeEEEEEEEecceEEcccChhh
+Confidence                                            99999999999999985   6899999999999999999999999999
+
+
+Q ss_pred             C--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeee-ccCCc
+Q flavivirusEnv_  786 E--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTL-KGGYB  836 (841)
+Q Consensus       786 ~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~l-kg~~~  836 (841)
+                      |  .|++ +.|.+++|+++  ++|++++|++      .|||||+..... .+..+
+T Consensus       305 C~~~fs~~k~p~dtgHgTV--Vmev~y~gs~------~PCripv~~~~~~~~~~~  351 (407)
+T 4fg0_A          305 CDSAFTFSKNPTDTGHGTV--IVELQYTGSN------GPCRVPISVTANLMDLTP  351 (407)
+T ss_dssp             CCSCEEESSCCCCCTTSCE--EEEEEEESSC------CSCBCCEEEESSTTCCCC
+T ss_pred             CCCceeEEECCCCCCCCeE--EEEEEEccCC------CCeEeEEEEEccCCCCcc
+Confidence            9  8888 99999999999  9999999998      799999998743 44444
+
+
+No 6  
+>3p54_A Envelope glycoprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 2.10A {Japanese encephalitis virus} PDB: 2i69_A* 3i50_E 3iyw_A* 3j0b_A 2of6_A 3ixx_A 2hg0_A* 1pjw_A 1s6n_A 2p5p_A 1ztx_E
+Probab=100.00  E-value=3.7e-105  Score=845.10  Aligned_cols=339  Identities=42%  Similarity=0.798  Sum_probs=324.6
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDT  145 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~  145 (841)
+                      .||+||.|||||||+||+||||||||||+|||+||+|||+|||+|.+++++++                           
+T Consensus         1 ~~Cv~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~kPtlDv~l~~~~~~~~---------------------------   53 (406)
+T 3p54_A            1 FNCLGMGNRDFIEGASGATWVDLVLEGDSCLTIMANDKPTLDVRMINIEASQL---------------------------   53 (406)
+T ss_dssp             CCSTTCSSEEEEECCTTCSEEEEEEESSCEEEEECTTSCCEEEEEEEEEECCC---------------------------
+T ss_pred             CccccccccceeecCCCCEEEEEEecCCcEEEEEcCCCceEEEEEEEEEEeCc---------------------------
+Confidence            48999999999999999999999999999999999999999999999999999                           
+
+
+Q ss_pred             eeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccc
+Q flavivirusEnv_  146 AWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKR  225 (841)
+Q Consensus       146 ~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr  225 (841)
+                                      +.+                                                             
+T Consensus        54 ----------------a~~-------------------------------------------------------------   56 (406)
+T 3p54_A           54 ----------------AEV-------------------------------------------------------------   56 (406)
+T ss_dssp             ----------------EEE-------------------------------------------------------------
+T ss_pred             ----------------HHh-------------------------------------------------------------
+Confidence                            888                                                             
+
+
+Q ss_pred             cccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhh
+Q flavivirusEnv_  226 TYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRS  305 (841)
+Q Consensus       226 ~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~  305 (841)
+                                          |+||++|+||++++++||||||||+|.||+|.+|||+|+|+|||||              
+T Consensus        57 --------------------R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGWG--------------  102 (406)
+T 3p54_A           57 --------------------RSYCYHASVTDISTVARCPTTGEAHNEKRADSSYVCKQGFTDRGWG--------------  102 (406)
+T ss_dssp             --------------------EEEEEEEEEEEEEEEECCTTSCCCCCGGGGCTTEEEEEEEEEESGG--------------
+T ss_pred             --------------------hhheeccEEeccEEcccCCCCCccCChhhhcCCeEecCCCCCCCcc--------------
+Confidence                                7789999999999999999999999999999999999999999999              
+
+
+Q ss_pred             cCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEE
+Q flavivirusEnv_  306 IGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEV  385 (841)
+Q Consensus       306 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~  385 (841)
+                                                                          |||||||||||++||||+|+++|.++++
+T Consensus       103 ----------------------------------------------------NGCgLFGKGsi~tCakftC~~~~~g~~i  130 (406)
+T 3p54_A          103 ----------------------------------------------------NGCGFFGKGSIDTCAKFSCTSKAIGRTI  130 (406)
+T ss_dssp             ----------------------------------------------------GTCSSCEEEEEEEEEEEEEEEEEEEEEC
+T ss_pred             ----------------------------------------------------cccccccCccEEEEEeEEcCCceeEEEE
+Confidence                                                                9999999999999999999999999999
+
+
+Q ss_pred             ecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccccc
+Q flavivirusEnv_  386 DQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVG  465 (841)
+Q Consensus       386 ~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g  465 (841)
+                      |++||+|+|.+++|.+...++.                                                          
+T Consensus       131 ~~e~I~y~V~v~vH~~~~~~~~----------------------------------------------------------  152 (406)
+T 3p54_A          131 QPENIKYKVGIFVHGTTTSENH----------------------------------------------------------  152 (406)
+T ss_dssp             CTTSEEEEEEEEECCSCCTTTT----------------------------------------------------------
+T ss_pred             eeeeEEEEEEEEEeCCcccccc----------------------------------------------------------
+Confidence            9999999999999999877652                                                          
+
+
+Q ss_pred             CcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCC
+Q flavivirusEnv_  466 YBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDE  545 (841)
+Q Consensus       466 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~  545 (841)
+                                                                                                      
+T Consensus       153 --------------------------------------------------------------------------------  152 (406)
+T 3p54_A          153 --------------------------------------------------------------------------------  152 (406)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCCcc----ccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccc
+Q flavivirusEnv_  546 NWGNET----TEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQW  621 (841)
+Q Consensus       546 ~~~~~t----~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqW  621 (841)
+                        +|++    .+|+.+++|||+||+.+++|+|||.++|+|+||+|+||+++|+++|+.             ++|+|+|||
+T Consensus       153 --~n~~~~~~~~~~~~~~~tp~a~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~~-------------k~wlV~r~W  217 (406)
+T 3p54_A          153 --GNYSAQVGASQAAKFTVTPNAPSVTLKLGDYGEVTLDCEPRSGLNTEAFYVMTVGS-------------KSFLVHREW  217 (406)
+T ss_dssp             --TCHHHHHHTTCEEEEEECSSSCEEEEECGGGBEEEEEEEGGGSCCTTSEEEEEETT-------------EEEEEETTT
+T ss_pred             --cccccccccceeeEEEEcCCCCCEEEEccCccEEEEEEEeccCcccccEEEEEeCC-------------cEEEEcHHH
+Confidence              4554    689999999999999999999999999999999999999999999999             999999999
+
+
+Q ss_pred             ccccceecccCCCchheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCccccccc
+Q flavivirusEnv_  622 AQDLTLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETW  701 (841)
+Q Consensus       622 f~DL~LPW~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w  701 (841)
+                      ++||+|||++++++.||+|++||||++|||++|.|++||+||                                      
+T Consensus       218 ~~Dl~LPW~~~~~~~W~~~e~LVeF~~pHA~k~~V~~lG~Qe--------------------------------------  259 (406)
+T 3p54_A          218 FHDLALPWTSPSSTAWRNRELLMEFEGAHATKQSVVALGSQE--------------------------------------  259 (406)
+T ss_dssp             TTTCCSCEEETTEEEEECGGGGEEEEEEETTEEEEEECCCCH--------------------------------------
+T ss_pred             HhcCccCcccCCCCccccceeEEEECCCceeEEEEEEecCch--------------------------------------
+Confidence            999999999999889999999999999999999999999999                                      
+
+
+Q ss_pred             cccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCC
+Q flavivirusEnv_  702 NRQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGP  781 (841)
+Q Consensus       702 ~~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~  781 (841)
+                                                          |+|++||+||+.+.++    +.|.|++||++|||||++|+|||+
+T Consensus       260 ------------------------------------gal~~ALagA~~~~~~----~~~~l~~Ghl~Cri~ldkLklkG~  299 (406)
+T 3p54_A          260 ------------------------------------GGLHQALAGAIVVEYS----SSVMLTSGHLKCRLKMDKLALKGT  299 (406)
+T ss_dssp             ------------------------------------HHHHHHCSSSEEEEES----SSEEESCCEEEEEEECTTBCCTTT
+T ss_pred             ------------------------------------HHHHHHhcCceEEeec----CceEEEeeEEEEEEEecCeEECcc
+Confidence                                                9999999999999876    479999999999999999999999
+
+
+Q ss_pred             CCCCC--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeeecc
+Q flavivirusEnv_  782 OLGDE--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKG  833 (841)
+Q Consensus       782 ty~~~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lkg  833 (841)
+                      ||.+|  .|++ +.|.+++|+++  ++|++++|++      .|||||+.......
+T Consensus       300 TY~~C~~~fs~~k~p~dtgHgTV--V~ev~y~gs~------~PCripv~~~~~~~  346 (406)
+T 3p54_A          300 TYGMCTEKFSFAKNPVDTGHGTV--VIELSYSGSD------GPCKIPIVSVASLN  346 (406)
+T ss_dssp             TSCBCCSCEEEEEEEEECSSSCE--EEEEEECCSS------CSEECCEEEEEETT
+T ss_pred             ChhhCCCceEEEECCCCCCCCeE--EEEEEEccCC------CCeEeEEEEEccCC
+Confidence            99999  8888 99999999999  9999999998      79999999874422
+
+
+No 7  
+>1svb_A TICK-borne encephalitis virus glycoprotein; viral protein; HET: NAG; 1.90A {Tick-borne encephalitis virus} SCOP: b.1.18.4 f.10.1.1 PDB: 1k4r_A 1na4_A 1n6g_A* 1urz_A 1z3r_A 2gg1_A 1z66_A
+Probab=100.00  E-value=2.1e-105  Score=844.29  Aligned_cols=350  Identities=37%  Similarity=0.650  Sum_probs=327.4
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDT  145 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~  145 (841)
+                      .||+||.|||||||+||+||||||||||+|||+||++||+|||+|.+++++++                           
+T Consensus         1 ~~Cv~v~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~---------------------------   53 (395)
+T 1svb_A            1 SRCTHLENRDFVTGTQGTTRVTLVLELGGCVTITAEGKPSMDVWLDAIYQENP---------------------------   53 (395)
+T ss_dssp             CGGGGCSCCEEEEECSSCCEEEEEEETTCCEEEEETTEEEEEEEEEEEEEESC---------------------------
+T ss_pred             CccccccCCceeecCCCCEEEEEEecCCcEEEEEcCCCceEEEEEeeEEEeCc---------------------------
+Confidence            37999999999999999999999999999999999999999999999999999                           
+
+
+Q ss_pred             eeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccc
+Q flavivirusEnv_  146 AWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKR  225 (841)
+Q Consensus       146 ~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr  225 (841)
+                                      +.+                                                             
+T Consensus        54 ----------------a~~-------------------------------------------------------------   56 (395)
+T 1svb_A           54 ----------------AKT-------------------------------------------------------------   56 (395)
+T ss_dssp             ----------------EEE-------------------------------------------------------------
+T ss_pred             ----------------HHh-------------------------------------------------------------
+Confidence                            888                                                             
+
+
+Q ss_pred             cccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhh
+Q flavivirusEnv_  226 TYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRS  305 (841)
+Q Consensus       226 ~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~  305 (841)
+                                          |+||++|+|||+++++||||||||+|.||+|.+|||+|+|+|||||              
+T Consensus        57 --------------------R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGWG--------------  102 (395)
+T 1svb_A           57 --------------------REYCLHAKLSDTKVAARCPTMGPATLAEEHQGGTVCKRDQSDRGWG--------------  102 (395)
+T ss_dssp             --------------------EEEESSEEEEEEEEEECCTTSCCCCCGGGGSTTEEEEEEEEEESGG--------------
+T ss_pred             --------------------hhheeeeEEeccEEcccCCCCCccCChhhhcCCeeecCCCCCCCcc--------------
+Confidence                                7788999999999999999999999999999999999999999999              
+
+
+Q ss_pred             cCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccc--cccceE
+Q flavivirusEnv_  306 IGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCA--KSMSLF  383 (841)
+Q Consensus       306 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~--~~~~~~  383 (841)
+                                                                          |||||||||||++||||+|+  ++|.++
+T Consensus       103 ----------------------------------------------------NGCgLFGKGsi~tCaKf~C~~~~~~~g~  130 (395)
+T 1svb_A          103 ----------------------------------------------------NHCGLFGKGSIVACVKAACEAKKKATGH  130 (395)
+T ss_dssp             ----------------------------------------------------GTCSSCEEEEEEEEEEEEECTTCEEEEE
+T ss_pred             ----------------------------------------------------cccccccCcceEEEEeEEeCCCCeeeEE
+Confidence                                                                99999999999999999999  899999
+
+
+Q ss_pred             EEecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccc
+Q flavivirusEnv_  384 EVDQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQ  463 (841)
+Q Consensus       384 ~~~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~  463 (841)
+                      ++|++||+|+|.+++|.+...++                                                         
+T Consensus       131 ~i~~e~I~y~V~v~vH~~~~~~~---------------------------------------------------------  153 (395)
+T 1svb_A          131 VYDANKIVYTVKVEPHTGDYVAA---------------------------------------------------------  153 (395)
+T ss_dssp             ECCTTTCEEEEEEEECCSCCCCT---------------------------------------------------------
+T ss_pred             EEeeeeEEEEEEEEEECCccccc---------------------------------------------------------
+Confidence            99999999999999999877653                                                         
+
+
+Q ss_pred             ccCcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCC
+Q flavivirusEnv_  464 VGYBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLG  543 (841)
+Q Consensus       464 ~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~  543 (841)
+                                                                                                      
+T Consensus       154 --------------------------------------------------------------------------------  153 (395)
+T 1svb_A          154 --------------------------------------------------------------------------------  153 (395)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccc
+Q flavivirusEnv_  544 DENWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQ  623 (841)
+Q Consensus       544 ~~~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~  623 (841)
+                           |++++|+++++|||+||+.+++|+|||.++|+|+||+|+||+++|+++|+..-       -++.++|+|+|||++
+T Consensus       154 -----~~~~~~~~~~~~t~~s~~~t~~lgdYGtvTleCr~~SGlD~~~~Ylvt~~~~~-------~~~~k~wlV~r~W~~  221 (395)
+T 1svb_A          154 -----NETHSGRKTASFTISSEKTILTMGEYGDVSLLCRVASGVDLAQTVILELDKTV-------EHLPTAWQVHRDWFN  221 (395)
+T ss_dssp             -----TSCCTTCEEEEEBTTBCEEEEECGGGBEEEEEEEGGGSCCCTTEEEEESCTTC-------TTSCSEEEEEHHHHH
+T ss_pred             -----cccccceeeEEEecCCCCEEEECCCceEEEEEEccccCcchhhEEEEEEcccc-------CCCCeEeEEeHHHhh
+Confidence                 34667999999999999999999999999999999999999999999999733       123489999999999
+
+
+Q ss_pred             ccceecccCCCchheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCccccccccc
+Q flavivirusEnv_  624 DLTLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNR  703 (841)
+Q Consensus       624 DL~LPW~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~  703 (841)
+                      ||+|||++++++.||+|++||||++|||++|.|++||+||                                        
+T Consensus       222 Dl~LPW~~~~~~~W~~~e~LVeF~~pHA~k~~V~~lg~Qe----------------------------------------  261 (395)
+T 1svb_A          222 DLALPWKHEGAQNWNNAERLVEFGAPHAVKMDVYNLGDQT----------------------------------------  261 (395)
+T ss_dssp             TCCSCEECTTCSSCBTGGGGEEECCCBTTBCCEEECCCCH----------------------------------------
+T ss_pred             cCCCCccCCCCCccccceeEEEECCCceeEEEEEEecChh----------------------------------------
+Confidence            9999999999999999999999999999999999999999                                        
+
+
+Q ss_pred             cceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCCC
+Q flavivirusEnv_  704 QDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOL  783 (841)
+Q Consensus       704 ~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty  783 (841)
+                                                        |+|++||+||+.+++++   |.|.|++||++|||||++|+|||+||
+T Consensus       262 ----------------------------------ga~~~ALagA~~~~~~~---~~~~l~~Ghl~Crv~l~kLklkG~TY  304 (395)
+T 1svb_A          262 ----------------------------------GVLLKALAGVPVAHIEG---TKYHLKSGHVTCEVGLEKLKMKGLTY  304 (395)
+T ss_dssp             ----------------------------------HHHHHHTTTSCEEEEET---TEEECSSCEEEEEEECTTBCCSCTTS
+T ss_pred             ----------------------------------HHHHHHhcCCcEEEecC---CeEEEeeeEEEEEEEecceEECccCc
+Confidence                                              99999999999999996   79999999999999999999999999
+
+
+Q ss_pred             CCC---ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeee-ccCCc--CCCC
+Q flavivirusEnv_  784 GDE---NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTL-KGGYB--CLOS  840 (841)
+Q Consensus       784 ~~~---~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~l-kg~~~--c~g~  840 (841)
+                      .+|   .|++ +.|.+++|+++  ++|++++|+.       |||||+..... .+..+  |||.
+T Consensus       305 ~~C~~~~fs~~k~p~dtgHgTV--Vmev~y~g~~-------PCripv~~~~~~~~~~~~G~liT  359 (395)
+T 1svb_A          305 TMCDKTKFTWKRAPTDSGHDTV--VMEVTFSGTK-------PCRIPVRAVAHGSPDVNVAMLIT  359 (395)
+T ss_dssp             CBCCTTSEEEEEEEEECSSSCE--EEEEEECSCS-------SEECCEEEEETTBTTSCCCEESS
+T ss_pred             ccCCCCceEEEECCCCCCCCeE--EEEEEecCCc-------CeEEEEEEEecCCCccceeEEEe
+Confidence            999   4787 99999999999  9999999964       99999999865 44444  2332
+
+
+No 8  
+>3uaj_B Envelope protein; dengue antibody membrane fusion, viral protein-immune system; HET: NAG; 3.23A {Dengue virus 4}
+Probab=100.00  E-value=2.3e-105  Score=850.30  Aligned_cols=345  Identities=47%  Similarity=0.896  Sum_probs=305.4
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDT  145 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~  145 (841)
+                      .||+||.|||||||+||+||||||||||+|||+||++||+|||+|.+++++++                           
+T Consensus         1 ~~Cvgi~nRDFVeGvsG~TwvdvVLE~ggCVTi~a~~KPtlDi~l~~~~~~~~---------------------------   53 (433)
+T 3uaj_B            1 MRCVGVGNRDFVEGVSGGAWVDLVLEHGGCVTTMAQGKPTLDFELTKTTAKEV---------------------------   53 (433)
+T ss_dssp             CCSTTCSSEEEEECCSSCSEEEEEECTTCEEEEEETTEEEEEEEEEEEECCSC---------------------------
+T ss_pred             CccccccCCcceecCCCCEEEEEEecCCcEEEEEcCCCCeEEEEEEEEEEecc---------------------------
+Confidence            48999999999999999999999999999999999999999999999999999                           
+
+
+Q ss_pred             eeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccc
+Q flavivirusEnv_  146 AWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKR  225 (841)
+Q Consensus       146 ~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr  225 (841)
+                                      +.+                                                             
+T Consensus        54 ----------------a~~-------------------------------------------------------------   56 (433)
+T 3uaj_B           54 ----------------ALL-------------------------------------------------------------   56 (433)
+T ss_dssp             ----------------EEE-------------------------------------------------------------
+T ss_pred             ----------------hHh-------------------------------------------------------------
+Confidence                            888                                                             
+
+
+Q ss_pred             cccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhh
+Q flavivirusEnv_  226 TYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRS  305 (841)
+Q Consensus       226 ~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~  305 (841)
+                                          |+||++|+||++++++||||||||+|.||+|.+|||+|+|+|||||              
+T Consensus        57 --------------------R~yC~~a~vs~t~s~~rCPt~GeA~l~e~~~~~~vCkr~~sDRGWG--------------  102 (433)
+T 3uaj_B           57 --------------------RTYCIEASISNITTATRCPTQGEPYLKEEQDQQYICRRDVVDRGWG--------------  102 (433)
+T ss_dssp             --------------------EEEEEEEEEEEEEEEECCTTSCCCCCGGGTCTTEEEEEEEEEESTT--------------
+T ss_pred             --------------------hhheeeeEEeccEEcccCCCCCccCChhhccCCeeecCCCCCCCCc--------------
+Confidence                                7789999999999999999999999999999999999999999999              
+
+
+Q ss_pred             cCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEE
+Q flavivirusEnv_  306 IGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEV  385 (841)
+Q Consensus       306 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~  385 (841)
+                                                                          |||||||||||++||||+|+++|..+++
+T Consensus       103 ----------------------------------------------------NGCgLFGKGSIvTCaKftC~~~~~g~~i  130 (433)
+T 3uaj_B          103 ----------------------------------------------------NGCGLFGKGGVVTCAKFSCSGKITGNLV  130 (433)
+T ss_dssp             ----------------------------------------------------TTCSSCEEEEEEEEEEEEEEEEEEEEEC
+T ss_pred             ----------------------------------------------------cccccccCcceEEEEeEEcCCceEEEEE
+Confidence                                                                9999999999999999999998888888
+
+
+Q ss_pred             ecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccccc
+Q flavivirusEnv_  386 DQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVG  465 (841)
+Q Consensus       386 ~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g  465 (841)
+                      |++||+|+                                                          |.|.||+|+.++. 
+T Consensus       131 ~~enI~y~----------------------------------------------------------V~v~vH~~~~~~~-  151 (433)
+T 3uaj_B          131 QIENLEYT----------------------------------------------------------VVVTVHNGDTHAV-  151 (433)
+T ss_dssp             CSSSCEEE----------------------------------------------------------EEEEECC-------
+T ss_pred             eeeeEEEE----------------------------------------------------------EEEEEeCCccccc-
+Confidence            77666655                                                          4568999876542 
+
+
+Q ss_pred             CcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCC
+Q flavivirusEnv_  466 YBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDE  545 (841)
+Q Consensus       466 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~  545 (841)
+                                                                                                      
+T Consensus       152 --------------------------------------------------------------------------------  151 (433)
+T 3uaj_B          152 --------------------------------------------------------------------------------  151 (433)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccccc
+Q flavivirusEnv_  546 NWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDL  625 (841)
+Q Consensus       546 ~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL  625 (841)
+                        .|++.+|+++++|||+||+.+++|+|||.++|+|+||+|+||++||+++|+.             ++|+|+|||++||
+T Consensus       152 --~~~~~~~~~~~~~Tp~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~~-------------k~wLV~R~Wf~DL  216 (433)
+T 3uaj_B          152 --GNDTSNHGVTAMITPRSPSVEVKLPDYGELTLDCEPRSGIDFNEMILMKMKK-------------KTWLVHKQWFLDL  216 (433)
+T ss_dssp             --------CCEEEEEBTTBCEEEEEETTTEEEEEEEEEECSSCGGGEEEEEETT-------------EEEEEEHHHHHTC
+T ss_pred             --ccccccceeEEEEecCCCCEEEEcCCCcEEEEEEEeccCcchhhEEEEEeCC-------------cEEEEeHHHHhcC
+Confidence              3567789999999999999999999999999999999999999999999999             9999999999999
+
+
+Q ss_pred             ceecccCCC---chheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCcccccccc
+Q flavivirusEnv_  626 TLPWQSGSG---GVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWN  702 (841)
+Q Consensus       626 ~LPW~~gs~---~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~  702 (841)
+                      +|||+++++   +.||+|++||||++|||++|.|++||+||                                       
+T Consensus       217 ~LPW~~~~~~~~~~W~~~e~LVeF~epHA~k~~V~~LG~Qe---------------------------------------  257 (433)
+T 3uaj_B          217 PLPWTAGADTSEVHWNYKERMVTFKVPHAKRQDVTVLGSQE---------------------------------------  257 (433)
+T ss_dssp             CSCEEC-------CCBCGGGTEEECCC-----CEEECCBCH---------------------------------------
+T ss_pred             ccCccCCCCCcccccccceeEEEECCCceeEEEEEEecChh---------------------------------------
+Confidence            999999986   48999999999999999999999999999                                       
+
+
+Q ss_pred             ccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCC
+Q flavivirusEnv_  703 RQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPO  782 (841)
+Q Consensus       703 ~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~t  782 (841)
+                                                         |+|++||+|||.+. .   +|.|.|++||++|||||++|+|||+|
+T Consensus       258 -----------------------------------gal~~ALagA~~~~-~---~~~~~l~~GHl~Crv~ldkLklKG~T  298 (433)
+T 3uaj_B          258 -----------------------------------GAMHSALAGATEVD-S---GDGNHMFAGHLKCKVRMEKLRIKGMS  298 (433)
+T ss_dssp             -----------------------------------HHHHHHTSSSCBSB-C---SSSCBCCSCEEEEEEECTTBCCTTTT
+T ss_pred             -----------------------------------HHHHHHhcCCeEEe-e---cCceEEeeeEEEEEEEecCeEECccC
+Confidence                                               99999999999884 2   25789999999999999999999999
+
+
+Q ss_pred             CCCC--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeeeccCCc--CCCC
+Q flavivirusEnv_  783 LGDE--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGGYB--CLOS  840 (841)
+Q Consensus       783 y~~~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lkg~~~--c~g~  840 (841)
+                      |.+|  .|++ +.|.+++|+++  ++|++++|++      .|||||+...++.+..+  |||.
+T Consensus       299 Y~~C~g~fs~~k~p~dTGHgTV--Vmev~y~gt~------~PCrIpv~~~~~~~~~~~G~lIT  353 (433)
+T 3uaj_B          299 YTMCSGKFSIDKEMAETQHGTT--VVKVKYEGAG------APCKVPIEIRDVNKEKVVGRIIS  353 (433)
+T ss_dssp             CCBCCSCEEEEEEEEECTTSCE--EEEEEECSSC------CSEECCEEEECTTSCSBCCEESS
+T ss_pred             hhcCCCceEEEECCCCCCCCeE--EEEEEEccCC------CCeEeEEEEEcCCCCccceEEEe
+Confidence            9999  8888 99999999999  9999999998      89999999987766655  2332
+
+
+No 9  
+>3j27_A Envelope protein E; flavivirus, fusion protein, protein complex, membrane, chape virus; HET: NAG; 3.60A {Dengue virus 2} PDB: 3j2p_A* 4uih_A 1p58_A 3zko_A 4uif_A 5a1z_A
+Probab=100.00  E-value=3.7e-103  Score=843.97  Aligned_cols=346  Identities=50%  Similarity=0.919  Sum_probs=319.9
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDT  145 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~  145 (841)
+                      .||+||.|||||||+||+||||||||||+|||+||+|||+|||+|.+++++++                           
+T Consensus         1 ~~Cv~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~~---------------------------   53 (495)
+T 3j27_A            1 MRCIGISNRDFVEGVSGGSWVDIVLEHGSCVTTMAKNKPTLDFELIETEAKQP---------------------------   53 (495)
+T ss_dssp             CCCSSCSSCCEEECCTTTTEEEEECCSSCEEEEECSSSCCEEEEEEEECCCSE---------------------------
+T ss_pred             CccccccCCcccccCCCCEEEEEEecCCcEEEEEcCCCceEEEEEeeEEEecc---------------------------
+Confidence            48999999999999999999999999999999999999999999999999987                           
+
+
+Q ss_pred             eeeeeeeeeeeCceeeEEEEEEEecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccc
+Q flavivirusEnv_  146 AWGVQCGFVTKGSRITTTVELICFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKR  225 (841)
+Q Consensus       146 ~wh~gcGL~gKgsr~~T~vE~wc~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr  225 (841)
+                                      +.+                                                             
+T Consensus        54 ----------------a~~-------------------------------------------------------------   56 (495)
+T 3j27_A           54 ----------------ATL-------------------------------------------------------------   56 (495)
+T ss_dssp             ----------------ECC-------------------------------------------------------------
+T ss_pred             ----------------HHh-------------------------------------------------------------
+Confidence                            433                                                             
+
+
+Q ss_pred             cccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhh
+Q flavivirusEnv_  226 TYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRS  305 (841)
+Q Consensus       226 ~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~  305 (841)
+                                          |+||++|+||++++++||||||||+|.||+|.+|||+|+|+|||||              
+T Consensus        57 --------------------R~yc~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGWG--------------  102 (495)
+T 3j27_A           57 --------------------RKYCIEAKLTNTTTDSRCPTQGEPSLNEEQDKRFVCKHSMVDRGWG--------------  102 (495)
+T ss_dssp             --------------------CCBEEEEEEEEEEEEECCSSSCCCCCGGGGBTTSCEEEEEECCCGG--------------
+T ss_pred             --------------------hheeeeeEEeccEEcccCCCCCccCChhhccCCeeecCCCCCCCcc--------------
+Confidence                                7899999999999999999999999999999999999999999999              
+
+
+Q ss_pred             cCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEE
+Q flavivirusEnv_  306 IGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEV  385 (841)
+Q Consensus       306 ~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~  385 (841)
+                                                                          |||||||||||++||||+|+++|..+++
+T Consensus       103 ----------------------------------------------------NGCgLFGkGsi~tCakftC~~~~~g~~i  130 (495)
+T 3j27_A          103 ----------------------------------------------------NGCGLFGKGGIVTCAMFTCKKNMKGKVV  130 (495)
+T ss_dssp             ----------------------------------------------------GTSSSCSCEEEEEEEEEEEEEECCCCEE
+T ss_pred             ----------------------------------------------------cccccccCcceEEEEeEEcCCceeEEEE
+Confidence                                                                9999999999999999999888877777
+
+
+Q ss_pred             ecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCccccc
+Q flavivirusEnv_  386 DQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVG  465 (841)
+Q Consensus       386 ~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g  465 (841)
+                      |++||+                                                          |.|-+.||+|+.++. 
+T Consensus       131 ~~enI~----------------------------------------------------------y~V~v~vH~~~~~~~-  151 (495)
+T 3j27_A          131 QPENLE----------------------------------------------------------YTIVITPHSGEEHAV-  151 (495)
+T ss_dssp             CSTTCC----------------------------------------------------------EEEEEEECCCCTTCS-
+T ss_pred             ecceEE----------------------------------------------------------EEEEEEEeCCccccc-
+Confidence            766555                                                          455568999876542 
+
+
+Q ss_pred             CcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCC
+Q flavivirusEnv_  466 YBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDE  545 (841)
+Q Consensus       466 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~  545 (841)
+                                                                                                      
+T Consensus       152 --------------------------------------------------------------------------------  151 (495)
+T 3j27_A          152 --------------------------------------------------------------------------------  151 (495)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccccc
+Q flavivirusEnv_  546 NWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDL  625 (841)
+Q Consensus       546 ~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL  625 (841)
+                        .|++.+|.++++|||+||+.+++|+|||.++|+|+||+|+||+++|+++|+.             ++|+|+|||++||
+T Consensus       152 --~~~~~~~~~~~~~Tp~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~~-------------k~wLVhR~Wf~DL  216 (495)
+T 3j27_A          152 --GNDTGKHGKEIKITPQSSITEAELTGYGTVTMECSPRTGLDFNEMVLLQMEN-------------KAWLVHRQWFLDL  216 (495)
+T ss_dssp             --SCSSSCSSCCEEECTTSCEEEEEETTTEEEEEEECTTSSSCCSSBCCEESSS-------------CEECCBHHHHTTS
+T ss_pred             --ccccccceeEEEEecCCCcEEEECCCceEEEEEEEeccCcccccEEEEEeCC-------------eEEEEEHHHhhcC
+Confidence              4677899999999999999999999999999999999999999999999998             9999999999999
+
+
+Q ss_pred             ceecccCCC---chheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCcccccccc
+Q flavivirusEnv_  626 TLPWQSGSG---GVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWN  702 (841)
+Q Consensus       626 ~LPW~~gs~---~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~  702 (841)
+                      +|||+++++   +.||+||+||||++|||++|.|++||+||                                       
+T Consensus       217 ~LPW~~~~~~~~~~W~~~e~LVeF~~pHA~k~~V~~lg~Qe---------------------------------------  257 (495)
+T 3j27_A          217 PLPWLPGADTQGSNWIQKETLVTFKNPHAKKQDVVVLGSQE---------------------------------------  257 (495)
+T ss_dssp             CSCBCCSCCSSCCCCBCSCSSCEEECSTTSSCEEECCCCTH---------------------------------------
+T ss_pred             CCCcccCCCCcccccccceeEEEeCCCeEEEEEEEEecChh---------------------------------------
+Confidence            999999986   69999999999999999999999999999                                       
+
+
+Q ss_pred             ccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCC
+Q flavivirusEnv_  703 RQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPO  782 (841)
+Q Consensus       703 ~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~t  782 (841)
+                                                         |+|++||+||+++.++    +.|.|++||++|||||++|+|||.|
+T Consensus       258 -----------------------------------ga~~~ALaga~~~~~~----~~~~l~~Ghl~Cri~l~kL~lkG~T  298 (495)
+T 3j27_A          258 -----------------------------------GAMHTALTGATEIQMS----SGNLLFTGHLKCRLRMDKLQLKGMS  298 (495)
+T ss_dssp             -----------------------------------HHHHHHHTTSCBCCCS----SSCCCCCCCCEEEEECSCCCCSSTT
+T ss_pred             -----------------------------------HHHHHHhcCCeEEeec----CcceEeeeEEEEEEEecCeEEcccC
+Confidence                                               9999999999998544    3478999999999999999999999
+
+
+Q ss_pred             CCCC--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeeeccCCc--CCCCC
+Q flavivirusEnv_  783 LGDE--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGGYB--CLOSI  841 (841)
+Q Consensus       783 y~~~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lkg~~~--c~g~~  841 (841)
+                      |.+|  ++++ +.|.+++|+++  ++|++|+|++      .|||+|+...++.+..+  |||..
+T Consensus       299 Y~~C~~~fs~~k~p~~tgHgTV--Vmev~y~gt~------~PCripv~~~~~~~~~~~G~liT~  354 (495)
+T 3j27_A          299 YSMCTGKFKVVKEIAETQHGTI--VIRVQYEGDG------SPCKIPFEIMDLEKRHVLGRLITV  354 (495)
+T ss_dssp             CCCCCSEEEESSCCCCSSSSCB--CCCEEEESCC------SSBCCCCEEECSSSCCCCCCBCSS
+T ss_pred             hhcCCCceeEEECCCCCCCCeE--EEEEEEccCC------CCeEeEEEEEeCCCCccceEEEec
+Confidence            9999  6777 99999999999  9999999998      89999999987766665  66642
+
+
+No 10 
+>3p54_A Envelope glycoprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 2.10A {Japanese encephalitis virus} PDB: 2i69_A* 3i50_E 3iyw_A* 3j0b_A 2of6_A 3ixx_A 2hg0_A* 1pjw_A 1s6n_A 2p5p_A 1ztx_E
+Probab=100.00  E-value=1.6e-63  Score=525.93  Aligned_cols=211  Identities=45%  Similarity=0.793  Sum_probs=155.3
+
+Q ss_pred             eEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCcccccCcC
+Q flavivirusEnv_  389 KIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBC  468 (841)
+Q Consensus       389 ~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~  468 (841)
+                      |.+|+=|                 .||||||||||||+.|||||.|..+++|+++|.||++|.|.|.||+|+.       
+T Consensus        93 kr~~~DR-----------------GWGNGCgLFGKGsi~tCakftC~~~~~g~~i~~e~I~y~V~v~vH~~~~-------  148 (406)
+T 3p54_A           93 KQGFTDR-----------------GWGNGCGFFGKGSIDTCAKFSCTSKAIGRTIQPENIKYKVGIFVHGTTT-------  148 (406)
+T ss_dssp             EEEEEEE-----------------SGGGTCSSCEEEEEEEEEEEEEEEEEEEEECCTTSEEEEEEEEECCSCC-------
+T ss_pred             cCCCCCC-----------------CcccccccccCccEEEEEeEEcCCceeEEEEeeeeEEEEEEEEEeCCcc-------
+Confidence            4566655                 4999999999999999999999999999999999999999999998752       
+
+
+Q ss_pred             chhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCCCCC
+Q flavivirusEnv_  469 LOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWG  548 (841)
+Q Consensus       469 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~~~~  548 (841)
+                                                                                                      
+T Consensus       149 --------------------------------------------------------------------------------  148 (406)
+T 3p54_A          149 --------------------------------------------------------------------------------  148 (406)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeeccccccccee
+Q flavivirusEnv_  549 NETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLTLP  628 (841)
+Q Consensus       549 ~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL~LP  628 (841)
+                        +..+          .....+.++=-+.++.=+|+++     .+.+.+|.          |--+.---.-+=-.|+.  
+T Consensus       149 --~~~~----------~n~~~~~~~~~~~~~~~tp~a~-----~~t~~lgd----------yG~vtl~C~~~sg~D~~--  199 (406)
+T 3p54_A          149 --SENH----------GNYSAQVGASQAAKFTVTPNAP-----SVTLKLGD----------YGEVTLDCEPRSGLNTE--  199 (406)
+T ss_dssp             --TTTT----------TCHHHHHHTTCEEEEEECSSSC-----EEEEECGG----------GBEEEEEEEGGGSCCTT--
+T ss_pred             --cccc----------cccccccccceeeEEEEcCCCC-----CEEEEccC----------ccEEEEEEEeccCcccc--
+Confidence              1111          1000000000112222244443     55555553          33333333322222211  
+
+
+Q ss_pred             cccCCCchheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCccccccccccceEE
+Q flavivirusEnv_  629 WQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLV  708 (841)
+Q Consensus       629 W~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~~lv  708 (841)
+                                              ...++.++            +|+|||||+||.||||||++++.   ..|+..+.||
+T Consensus       200 ------------------------~~y~~~~~------------~k~wlV~r~W~~Dl~LPW~~~~~---~~W~~~e~LV  240 (406)
+T 3p54_A          200 ------------------------AFYVMTVG------------SKSFLVHREWFHDLALPWTSPSS---TAWRNRELLM  240 (406)
+T ss_dssp             ------------------------SEEEEEET------------TEEEEEETTTTTTCCSCEEETTE---EEEECGGGGE
+T ss_pred             ------------------------cEEEEEeC------------CcEEEEcHHHHhcCccCcccCCC---CccccceeEE
+Confidence                                    13445553            69999999999999999999863   5899999999
+
+
+Q ss_pred             EEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCCCCCCcc
+Q flavivirusEnv_  709 TFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGDENW  788 (841)
+Q Consensus       709 ~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty~~~~~  788 (841)
+                      .|+.+||.||.|+                                                                   
+T Consensus       241 eF~~pHA~k~~V~-------------------------------------------------------------------  253 (406)
+T 3p54_A          241 EFEGAHATKQSVV-------------------------------------------------------------------  253 (406)
+T ss_dssp             EEEEEETTEEEEE-------------------------------------------------------------------
+T ss_pred             EECCCceeEEEEE-------------------------------------------------------------------
+Confidence            9999999987653                                                                   
+
+
+Q ss_pred             eecccccchhhccccceeEeecceeEEeeceeeeeeecceeeeccC-Cc-CC
+Q flavivirusEnv_  789 VLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGG-YB-CL  838 (841)
+Q Consensus       789 ~lgsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lkg~-~~-c~  838 (841)
+                      +||+|+|++|.||+||++++.+++..++.||++||++|+||.+||. |- |-
+T Consensus       254 ~lG~Qegal~~ALagA~~~~~~~~~~l~~Ghl~Cri~ldkLklkG~TY~~C~  305 (406)
+T 3p54_A          254 ALGSQEGGLHQALAGAIVVEYSSSVMLTSGHLKCRLKMDKLALKGTTYGMCT  305 (406)
+T ss_dssp             ECCCCHHHHHHHCSSSEEEEESSSEEESCCEEEEEEECTTBCCTTTTSCBCC
+T ss_pred             EecCchHHHHHHhcCceEEeecCceEEEeeEEEEEEEecCeEECccChhhCC
+Confidence            3689999999999999999999999999999999999999999994 33 42
+
+
+No 11 
+>4fg0_A Polyprotein; viral envelope proteins, structural genomics, fusion peptide antibody epitopes, flavivirus; 3.90A {St}
+Probab=100.00  E-value=1.1e-61  Score=511.96  Aligned_cols=206  Identities=46%  Similarity=0.794  Sum_probs=149.5
+
+Q ss_pred             CCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCcccccCcCchhhhccccccCCCCCCeeeeE
+Q flavivirusEnv_  411 DENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYEFVW  490 (841)
+Q Consensus       411 dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~  490 (841)
+                      |..||||||||||||+.|||||.|..+++|+++|.||++|.|.|.||+|+.++                           
+T Consensus        98 DRGWGNGCgLFGKGsi~tCakf~C~~~~~g~~i~~e~I~y~V~v~vH~~~~~~---------------------------  150 (407)
+T 4fg0_A           98 DRGWGNGCGLFGKGSIDTCAKFTCKNKATGKTILRENIKYEVAIFVHGSTDST---------------------------  150 (407)
+T ss_dssp             ECCTTTTCSSSSEEEEEEEEEEEEEEEEEEEECCGGGEEEEEEEEECC--------------------------------
+T ss_pred             CCCccccCccccCccEEEEEeEEcCCceeEEEEecceEEEEEEEEecCCcccc---------------------------
+Confidence            23599999999999999999999999999999999999999999999986432                           
+
+
+Q ss_pred             ecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCCCCCCccccccceeEecCCCCCccee
+Q flavivirusEnv_  491 NTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWGNETTEHGTTATITPQAPTSEIQ  570 (841)
+Q Consensus       491 ~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~tp~a~~~~~~  570 (841)
+                                                                             ..+|++..+.               
+T Consensus       151 -------------------------------------------------------~~~~~~~~~~---------------  160 (407)
+T 4fg0_A          151 -------------------------------------------------------SHGNYFEQIG---------------  160 (407)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             -------------------------------------------------------cccccccccc---------------
+Confidence                                                                   3334333221               
+
+
+Q ss_pred             eeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeecccccccceecccCCCchheecccceeecCCc
+Q flavivirusEnv_  571 LTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLTLPWQSGSGGVWREMHHLVEFEPPH  650 (841)
+Q Consensus       571 l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL~LPW~~gs~~~W~n~e~LVeF~ePH  650 (841)
+                        +=-+.++.=+|..     +.+.+.+|.        +|-.-..=-+.            ++-     ++.         
+T Consensus       161 --~~~~~~~t~t~~s-----~~~t~~lgd--------yG~vtl~C~~~------------sg~-----D~~---------  199 (407)
+T 4fg0_A          161 --KNQAARFTISPQA-----PSFTANMGE--------YGTVTIDCEAR------------SGI-----NTE---------  199 (407)
+T ss_dssp             ----CEEEEEECSSC-----CEEEEECGG--------GCEEEEEEEEE------------SSC-----CGG---------
+T ss_pred             --cceeeEEEEecCC-----CCEEEEcCC--------CcEEEEEEecc------------cCc-----chh---------
+Confidence              1112222223443     355556553        23333333332            222     122         
+
+
+Q ss_pred             ceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCccccccccccceEEEEecccccccccccCcCCCCCC
+Q flavivirusEnv_  651 AATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVGYBCLOSIP  730 (841)
+Q Consensus       651 Atkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~~lv~f~~~ha~k~~v~~~~~~~~~~  730 (841)
+                        ...++.++            +|+|||||+||.||||||++++.   ..|+..+.||.|+.+||.||.|+         
+T Consensus       200 --~~y~~~~~------------~k~wLV~R~Wf~DL~LPW~~~~~---~~W~~~e~LVeF~epHA~k~~V~---------  253 (407)
+T 4fg0_A          200 --DYYVFTVK------------EKSWLVNRDWFHDLNLPWTSPAT---TDWRNRETLVEFEEPHATKQTVV---------  253 (407)
+T ss_dssp             --GEEEEECS------------SCEEEEEHHHHHSCCSCEECSSC---CSCBCCTTSEEECSCCSSCCCEE---------
+T ss_pred             --hEEEEEeC------------CcEEEEcHHHHhcCccCcccCCC---CccccceeEEEECCCceeEEEEE---------
+Confidence              24566664            47999999999999999999975   48999999999999999999763         
+
+
+Q ss_pred             CCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCCCCCCcceecccccchhhccccceeEeec
+Q flavivirusEnv_  731 OLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGDENWVLGSQEGAMHTALTGATEIQTS  810 (841)
+Q Consensus       731 ~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty~~~~~~lgsqeGalh~AltgA~ev~~S  810 (841)
+                                                                                .||+|+|++|.||+||++++++
+T Consensus       254 ----------------------------------------------------------~lG~Qegal~~ALaga~~~~~~  275 (407)
+T 4fg0_A          254 ----------------------------------------------------------ALGSQEGALHTALAGAIPATVS  275 (407)
+T ss_dssp             ----------------------------------------------------------ECCCTHHHHHHHCSSSEECEEC
+T ss_pred             ----------------------------------------------------------EecCchHHHHHHhcCCeeeeec
+Confidence                                                                      3689999999999999999998
+
+
+Q ss_pred             ce-eEEeeceeeeeeecceeeeccC-Cc-CC
+Q flavivirusEnv_  811 GT-TTIFAGHLKCRLKMDKLTLKGG-YB-CL  838 (841)
+Q Consensus       811 gt-~ti~sGh~pCRIpm~kl~lkg~-~~-c~  838 (841)
+                      +. ..++.||++||++|+||.+||. |- |-
+T Consensus       276 ~~~~~l~~Ghl~Crv~l~kLklkG~TY~~C~  306 (407)
+T 4fg0_A          276 SSTLTLQSGHLKCRAKLDKVKIKGTTYGMCD  306 (407)
+T ss_dssp             TTCCEECCCEEEEEEEEESCCCCCCCCCBCC
+T ss_pred             CCeeEEeeeEEEEEEEecceEEcccChhhCC
+Confidence            85 8999999999999999999984 32 42
+
+
+No 12 
+>1ok8_A Major envelope protein E; viral protein, membrane fusion, flavivirus, fusion peptide, low-PH conformational change, class 2 fusion protein,; HET: NAG; 2.0A {Dengue virus type 2} SCOP: b.1.18.4 f.10.1.1 PDB: 1oan_A* 1oke_A* 2b6b_A 3j8d_G 1tge_A 1tg8_A* 1thd_A 3c5x_A* 3c6e_A* 3c6d_A 3c6r_A 3ixy_A 3iya_A 3j35_A 4uta_A* 4ut9_A* 4utc_A* 4utb_A* 4ut6_A* 2r6p_A 3j42_A 2jsf_A 2r29_A 2r69_A
+Probab=100.00  E-value=2.2e-62  Score=515.75  Aligned_cols=288  Identities=50%  Similarity=0.844  Sum_probs=0.0
+
+Q ss_pred             CCCCCccccccccc----------ccCcccccccccCCCCCCCC-----CCCCCHHHHHhhheeeeeccccccCCCCCCC
+Q flavivirusEnv_  203 DKCPSTGEAHLAEE----------NEGDNACKRTYSDRGWPOLG-----DENWNPAVLRKLCIEAKISNTTTDSRCPTQG  267 (841)
+Q Consensus       203 ~rCPt~gea~~~e~----------~e~~~~Ckr~~sdrGw~n~~-----~~~~~pa~~r~~c~~a~is~~~~~~~CPt~G  267 (841)
+                      .||.++.+++|.|+          +|++ .|++.+ +.|+|.+|     .++.+||.+|+||++|+|+|++++++||++|
+T Consensus         1 ~~Cvgi~nRDFveG~sG~TwvdvVLe~~-gCVTi~-a~~KPtlDi~l~~~~~~~~a~~R~yc~~a~vs~~~s~~~CPt~G   78 (394)
+T 1ok8_A            1 MRCIGISNRDFVEGVSGGSWVDIVLEHG-SCVTTM-AKNKPTLDFELIKTEAKQPATLRKYCIEAKLTNTTTESRCPTQG   78 (394)
+T ss_dssp             CCCEECCGGGEEECSSSEEEEEEEEETT-CCEEEE-BTTSCEEEEEEEEEEEESCEEEEEEEEEEEEEEEEEEECCTTSC
+T ss_pred             CccccccCCcceecCCCCEEEEEEecCC-cEEEEE-cCCCCeEEEEEEEEEEecchhhhheeeeeEEeccEEcccCCCCC
+
+
+Q ss_pred             ceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhhcCceeeeeccchhHHhhhccCccccccccccceeeEEEeccc
+Q flavivirusEnv_  268 EATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRSIGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLK  347 (841)
+Q Consensus       268 easl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~  347 (841)
+                      ||+|+|                                               +.+++|.|                   
+T Consensus        79 ea~l~e-----------------------------------------------~~~~~~vC-------------------   92 (394)
+T 1ok8_A           79 EPTLNE-----------------------------------------------EQDKRFVC-------------------   92 (394)
+T ss_dssp             CCCCGG-----------------------------------------------GGCTTEEE-------------------
+T ss_pred             ccCChh-----------------------------------------------hccCCeEe-------------------
+
+
+Q ss_pred             CCCCceeeecCccccccCccEEEeeeeccccccceEEEecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCcee
+Q flavivirusEnv_  348 KPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLI  427 (841)
+Q Consensus       348 ~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~  427 (841)
+                                                               |-.|.                 ||||||||||||||||+
+T Consensus        93 -----------------------------------------kr~~~-----------------DRGWGNGCgLFGKGsi~  114 (394)
+T 1ok8_A           93 -----------------------------------------KHSMV-----------------DRGWGNGCGLFGKGGIV  114 (394)
+T ss_dssp             -----------------------------------------EEEEE-----------------EECGGGTCSSCEEEEEE
+T ss_pred             -----------------------------------------cCCCC-----------------CCCCccccccccCccEE
+
+
+Q ss_pred             eeeeeeeeeeecceEEEeecceeEEEEEEecCCcccccCcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCcee
+Q flavivirusEnv_  428 TCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQE  507 (841)
+Q Consensus       428 tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~  507 (841)
+                      |||||+|.+++.|++||+|||+|+|.|+||+++.                                              
+T Consensus       115 tCaKftC~~~~~g~~i~~enI~y~V~v~vH~~~~----------------------------------------------  148 (394)
+T 1ok8_A          115 TCAMFTCKKNMEGKIVQPENLEYTVVITPHSGEE----------------------------------------------  148 (394)
+T ss_dssp             EEEEEEEEEEEEEEECCGGGEEEEEEEEEC--------------------------------------------------
+T ss_pred             EEEeEEcCCceeEEEEecceEEEEEEEEEeCCcc----------------------------------------------
+
+
+Q ss_pred             EEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCCCCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCC
+Q flavivirusEnv_  508 VEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGL  587 (841)
+Q Consensus       508 ~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgl  587 (841)
+                                                                      ............+++|+.-             
+T Consensus       149 ------------------------------------------------~~~~~~~~~~~~~~~~t~~-------------  167 (394)
+T 1ok8_A          149 ------------------------------------------------HAVGNDTGKHGKEVKITPQ-------------  167 (394)
+T ss_dssp             ----------------------------------------------------------CEEEEECSS-------------
+T ss_pred             ------------------------------------------------cccccccccceeEEEEecC-------------
+
+
+Q ss_pred             CccceeeeecCCcCCCCCCCCceeeeEEEeecccccccceecccCCCchheecccceeecCCcceEEEEEeccCCCCCCC
+Q flavivirusEnv_  588 DFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLTLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLG  667 (841)
+Q Consensus       588 df~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL~LPW~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~  667 (841)
+                        +....+.++          +|...+.-++            ..++.+..+++.|..                      
+T Consensus       168 --s~~~t~~lg----------dyG~vtl~C~------------~~sg~D~~~~y~~~~----------------------  201 (394)
+T 1ok8_A          168 --SSITEAELT----------GYGTVTMECS------------PRTGLDFNEMVLLQM----------------------  201 (394)
+T ss_dssp             --CCEEEEEET----------TTEEEEEEEE------------ECSCCCTTTEEEEEE----------------------
+T ss_pred             --CCCEEEEcC----------CceEEEEEEE------------eccCcccccEEEEEe----------------------
+
+
+Q ss_pred             CcccccceeEEEeeeeecCCCcCCCCCccccccccccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccc
+Q flavivirusEnv_  668 DENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGA  747 (841)
+Q Consensus       668 ~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA  747 (841)
+                          ..++||||||||+||||||++++.+....|+++|+||+|++|||+||+|+                          
+T Consensus       202 ----~~k~wLV~r~Wf~Dl~LPW~~~~~~~~~~W~~~e~LVeF~epHA~k~~V~--------------------------  251 (394)
+T 1ok8_A          202 ----KDKAWLVHRQWFLDLPLPWLPGADTQGSNWIQKETLVTFKNPHAKKQDVV--------------------------  251 (394)
+T ss_dssp             ----TTEEEEEEHHHHHHCSSCEEETTCCSCCSCBCGGGTEEECCCCSSCCCEE--------------------------
+T ss_pred             ----CCcEEEEcHHHHhcCccCcccCCCccccccccceeEEEECCCceeEEEEE--------------------------
+
+
+Q ss_pred             eEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCCCCCCcceecccccchhhccccceeEeecceeEEeeceeeeeeecc
+Q flavivirusEnv_  748 MRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGDENWVLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMD  827 (841)
+Q Consensus       748 ~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty~~~~~~lgsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~  827 (841)
+                                                               +||+|+|+||+||+||+++++++++.|.+||++|||+|+
+T Consensus       252 -----------------------------------------~lg~Qegal~~ALagA~~~~~~~~~~l~~Ghl~Crv~ld  290 (394)
+T 1ok8_A          252 -----------------------------------------VLGSQEGAMHTALTGATEIQMSSGNLLFTGHLKCRLRMD  290 (394)
+T ss_dssp             -----------------------------------------ECCCCHHHHHHHTTTSEEECBSSSEEEECCEEEEEEEEE
+T ss_pred             -----------------------------------------EecChhHHHHHHhcCCeEEEecCccEEeeeEEEEEEEec
+
+
+Q ss_pred             eeeeccCC--cCCCC
+Q flavivirusEnv_  828 KLTLKGGY--BCLOS  840 (841)
+Q Consensus       828 kl~lkg~~--~c~g~  840 (841)
+                      ||+|||++  +|.+.
+T Consensus       291 kLklKG~TY~~C~~~  305 (394)
+T 1ok8_A          291 KLQLKGMSYSMCTGK  305 (394)
+T ss_dssp             SCCBCCCCCCBCCSC
+T ss_pred             CeEECccChhcCCCc
+
+
+No 13 
+>1svb_A TICK-borne encephalitis virus glycoprotein; viral protein; HET: NAG; 1.90A {Tick-borne encephalitis virus} SCOP: b.1.18.4 f.10.1.1 PDB: 1k4r_A 1na4_A 1n6g_A* 1urz_A 1z3r_A 2gg1_A 1z66_A
+Probab=100.00  E-value=3.3e-61  Score=506.66  Aligned_cols=211  Identities=36%  Similarity=0.661  Sum_probs=162.3
+
+Q ss_pred             eEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeeeeee--eeecceEEEeecceeEEEEEEecCCcccccC
+Q flavivirusEnv_  389 KIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKFKCV--TKLEGKIVQYENLKYSVIVTVHTGDQHQVGY  466 (841)
+Q Consensus       389 ~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF~C~--~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~  466 (841)
+                      |.+|.=|                 .||||||||||||+.|||||.|.  .+++|+++|.||++|.|.|.||+|+      
+T Consensus        93 kr~~~DR-----------------GWGNGCgLFGKGsi~tCaKf~C~~~~~~~g~~i~~e~I~y~V~v~vH~~~------  149 (395)
+T 1svb_A           93 KRDQSDR-----------------GWGNHCGLFGKGSIVACVKAACEAKKKATGHVYDANKIVYTVKVEPHTGD------  149 (395)
+T ss_dssp             EEEEEEE-----------------SGGGTCSSCEEEEEEEEEEEEECTTCEEEEEECCTTTCEEEEEEEECCSC------
+T ss_pred             cCCCCCC-----------------CcccccccccCcceEEEEeEEeCCCCeeeEEEEeeeeEEEEEEEEEECCc------
+Confidence            4455555                 49999999999999999999999  9999999999999999999999864      
+
+
+Q ss_pred             cCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCCC
+Q flavivirusEnv_  467 BCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDEN  546 (841)
+Q Consensus       467 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~~  546 (841)
+                                                                                                      
+T Consensus       150 --------------------------------------------------------------------------------  149 (395)
+T 1svb_A          150 --------------------------------------------------------------------------------  149 (395)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             CCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeecccccccc
+Q flavivirusEnv_  547 WGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLT  626 (841)
+Q Consensus       547 ~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL~  626 (841)
+                         .+..+.+      ..-..+++++.               -.+.+.+.+|.          |--+.--=.-       
+T Consensus       150 ---~~~~~~~------~~~~~~~~~t~---------------~s~~~t~~lgd----------YGtvTleCr~-------  188 (395)
+T 1svb_A          150 ---YVAANET------HSGRKTASFTI---------------SSEKTILTMGE----------YGDVSLLCRV-------  188 (395)
+T ss_dssp             ---CCCTTSC------CTTCEEEEEBT---------------TBCEEEEECGG----------GBEEEEEEEG-------
+T ss_pred             ---ccccccc------ccceeeEEEec---------------CCCCEEEECCC----------ceEEEEEEcc-------
+Confidence               2333321      23445566653               22355555552          3333333222       
+
+
+Q ss_pred             eecccCCCchheecccceeecCCcceEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCccccccccccce
+Q flavivirusEnv_  627 LPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDL  706 (841)
+Q Consensus       627 LPW~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~~  706 (841)
+                         ++|-.           |+     ...++.+++.-..      +.|+|||||+||.||||||++++.   ..|+..+.
+T Consensus       189 ---~SGlD-----------~~-----~~Ylvt~~~~~~~------~~k~wlV~r~W~~Dl~LPW~~~~~---~~W~~~e~  240 (395)
+T 1svb_A          189 ---ASGVD-----------LA-----QTVILELDKTVEH------LPTAWQVHRDWFNDLALPWKHEGA---QNWNNAER  240 (395)
+T ss_dssp             ---GGSCC-----------CT-----TEEEEESCTTCTT------SCSEEEEEHHHHHTCCSCEECTTC---SSCBTGGG
+T ss_pred             ---ccCcc-----------hh-----hEEEEEEccccCC------CCeEeEEeHHHhhcCCCCccCCCC---Ccccccee
+Confidence               23321           22     2678888886533      347999999999999999999975   48999999
+
+
+Q ss_pred             EEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCCCCCC
+Q flavivirusEnv_  707 LVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGDE  786 (841)
+Q Consensus       707 lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty~~~  786 (841)
+                      ||.|+.+||.||.|+                                                                 
+T Consensus       241 LVeF~~pHA~k~~V~-----------------------------------------------------------------  255 (395)
+T 1svb_A          241 LVEFGAPHAVKMDVY-----------------------------------------------------------------  255 (395)
+T ss_dssp             GEEECCCBTTBCCEE-----------------------------------------------------------------
+T ss_pred             EEEECCCceeEEEEE-----------------------------------------------------------------
+Confidence            999999999999863                                                                 
+
+
+Q ss_pred             cceecccccchhhccccceeEeeccee-EEeeceeeeeeecceeeeccC-Cc-CC
+Q flavivirusEnv_  787 NWVLGSQEGAMHTALTGATEIQTSGTT-TIFAGHLKCRLKMDKLTLKGG-YB-CL  838 (841)
+Q Consensus       787 ~~~lgsqeGalh~AltgA~ev~~Sgt~-ti~sGh~pCRIpm~kl~lkg~-~~-c~  838 (841)
+                        +||+|+|++|+||+||++++.+|.+ .++.||++||++|+||.+||. |- |-
+T Consensus       256 --~lg~Qega~~~ALagA~~~~~~~~~~~l~~Ghl~Crv~l~kLklkG~TY~~C~  308 (395)
+T 1svb_A          256 --NLGDQTGVLLKALAGVPVAHIEGTKYHLKSGHVTCEVGLEKLKMKGLTYTMCD  308 (395)
+T ss_dssp             --ECCCCHHHHHHHTTTSCEEEEETTEEECSSCEEEEEEECTTBCCSCTTSCBCC
+T ss_pred             --EecChhHHHHHHhcCCcEEEecCCeEEEeeeEEEEEEEecceEECccCcccCC
+Confidence              4689999999999999999998865 788999999999999999994 33 42
+
+
+No 14 
+>4cct_A Dengue virus 1 E protein; flavivirus; 4.50A {Dengue virus 1} PDB: 4b03_A 4c2i_A* 3j6s_A 3j6t_A 3j6u_A
+Probab=100.00  E-value=5e-51  Score=437.72  Aligned_cols=293  Identities=57%  Similarity=0.898  Sum_probs=0.0
+
+Q ss_pred             CCCCCccccccccc----------ccCcccccccccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeee
+Q flavivirusEnv_  203 DKCPSTGEAHLAEE----------NEGDNACKRTYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLV  272 (841)
+Q Consensus       203 ~rCPt~gea~~~e~----------~e~~~~Ckr~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~  272 (841)
+                      .||.++.+++|.|+          +|++ .|++.+ +.++|.               ++-.+.+++..+-=         
+T Consensus         1 ~~Cv~i~nRDFveG~sG~TwvdvvLe~~-gCVTi~-a~~kpt---------------lDi~l~~~~~~~~a---------   54 (495)
+T 4cct_A            1 MRCVGISNRDFVEGLSATGWVDVVLEHG-SCVTTM-AKDKPT---------------LDIELLKTEVTNPA---------   54 (495)
+T ss_pred             CccccccCCcccccCCCCEEEEEEEcCC-cEEEEE-cCCCCe---------------EEEEEEEEEEeccH---------
+
+
+Q ss_pred             eecccceeEEeeeeccCcCCcCChhhHHHhhhhcCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCc
+Q flavivirusEnv_  273 EEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRSIGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLG  352 (841)
+Q Consensus       273 e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~  352 (841)
+                                                   ..|+.=|...|                         +...++         
+T Consensus        55 -----------------------------~~R~yc~~a~v-------------------------s~~~s~---------   71 (495)
+T 4cct_A           55 -----------------------------ILRKLCIEAKI-------------------------SNTTTD---------   71 (495)
+T ss_pred             -----------------------------HhhhheeeeEE-------------------------eccEEc---------
+
+
+Q ss_pred             eeeecCccccccCccEEEeeeeccccccceEEEecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeee
+Q flavivirusEnv_  353 YEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKF  432 (841)
+Q Consensus       353 ~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF  432 (841)
+                           +.|=-=|.=...                           ..|.....+..+++||||||||||||||||+|||||
+T Consensus        72 -----~~CPt~Gea~l~---------------------------e~~~~~~vCkr~~~DRGWGNGCgLFGkGsi~tCakf  119 (495)
+T 4cct_A           72 -----SRCPTQGEATLV---------------------------EEQDTNFVCRRTFVDRGWGNGCGLFGKGSLITCAKF  119 (495)
+T ss_pred             -----ccCCCCCccCCh---------------------------hhccCCeeecCCCCCCCCccccccccCcceEEEEeE
+
+
+Q ss_pred             eeeeeecceEEEeecceeEEEEEEecCCcccccCcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEe
+Q flavivirusEnv_  433 KCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIG  512 (841)
+Q Consensus       433 ~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~  512 (841)
+                      +|.+++.|++||+|||+|+|.+++|+++.                                                   
+T Consensus       120 tC~~~~~g~~i~~enI~y~V~v~vH~~~~---------------------------------------------------  148 (495)
+T 4cct_A          120 KCVTKLEGKIVQYENLKYSVIVTVHTGDQ---------------------------------------------------  148 (495)
+T ss_pred             EcCCcceEEEEecceEEEEEEEEEECCcc---------------------------------------------------
+
+
+Q ss_pred             ecceeeEEEEEEeeecCcceeeecccCCCCCCCCCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccce
+Q flavivirusEnv_  513 YGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEM  592 (841)
+Q Consensus       513 yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~  592 (841)
+                                                         ....+...+...        +++++.       .+|...++|++|
+T Consensus       149 -----------------------------------~~~~~~~~~~~~--------~~~~Tp-------~s~~~t~~lgdy  178 (495)
+T 4cct_A          149 -----------------------------------HQVGNETTEHGT--------TATITP-------QAPTSEIQLTDY  178 (495)
+T ss_pred             -----------------------------------ccccccccccee--------EEEEec-------CCCcEEEEcCCc
+
+
+Q ss_pred             eeeecCCcCCCCCCCCceeeeEEEeecccccccceecccCCCchheecccceeecCCcceEEEEEeccCCCCCCCCcccc
+Q flavivirusEnv_  593 VLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLTLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWE  672 (841)
+Q Consensus       593 ~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL~LPW~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~  672 (841)
+                      +.++|  +|+   |++|.++...+                                       ++.+|+           
+T Consensus       179 G~vtl--~C~---~~sg~D~~~~y---------------------------------------~~~~~~-----------  203 (495)
+T 4cct_A          179 GALTL--DCS---PRTGLDFNEMV---------------------------------------LLTMKE-----------  203 (495)
+T ss_pred             eEEEE--EEE---eccCcccccEE---------------------------------------EEEeCC-----------
+
+
+Q ss_pred             cceeEEEeeeeecCCCcCCCCCccccccccccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEee
+Q flavivirusEnv_  673 KKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTK  752 (841)
+Q Consensus       673 ~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~  752 (841)
+                       ++||||||||+||||||++++.+....|+++|+||+|++|||+||+|+                               
+T Consensus       204 -k~wLV~R~Wf~DL~LPW~~~~~~~~~~W~~~e~LVeF~epHA~k~~V~-------------------------------  251 (495)
+T 4cct_A          204 -KSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVV-------------------------------  251 (495)
+T ss_pred             -cEEEEcHHHHhcCccCccCCCCCcccccccceeEEEECCCceeEEEEE-------------------------------
+
+
+Q ss_pred             eCCCCcceeeeCceeeEEEEeeeeeecCCCCCCCcceecccccchhhccccceeEeecceeEEeeceeeeeeecceeeec
+Q flavivirusEnv_  753 DTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGDENWVLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLK  832 (841)
+Q Consensus       753 ~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty~~~~~~lgsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lk  832 (841)
+                                                          ++|+|+|++|+||+||++++++++++|.+||++|||+|+||+||
+T Consensus       252 ------------------------------------~lg~Qega~~~ALaga~~~~~~~~~~l~~Ghl~Crv~ldkL~lk  295 (495)
+T 4cct_A          252 ------------------------------------VLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLK  295 (495)
+T ss_pred             ------------------------------------EecCchHHHHHHhcCCeEEeecCceEEeeeEEEEEEEecCeEEC
+
+
+Q ss_pred             cCC--cCCCC
+Q flavivirusEnv_  833 GGY--BCLOS  840 (841)
+Q Consensus       833 g~~--~c~g~  840 (841)
+                      |++  +|.+.
+T Consensus       296 G~TY~~C~~~  305 (495)
+T 4cct_A          296 GVSYVMCTGS  305 (495)
+T ss_pred             ccChhcCCCc
+
+
+No 15 
+>4cbf_A Envelope protein E; flavivirus; 4.10A {Dengue virus 2}
+Probab=100.00  E-value=1.4e-50  Score=434.10  Aligned_cols=294  Identities=40%  Similarity=0.747  Sum_probs=0.0
+
+Q ss_pred             CCCCCccccccccc----------ccCcccccccccCCCCCCCCCCCCCHHHHHhhheeeeeccccccCCCCCCCceeee
+Q flavivirusEnv_  203 DKCPSTGEAHLAEE----------NEGDNACKRTYSDRGWPOLGDENWNPAVLRKLCIEAKISNTTTDSRCPTQGEATLV  272 (841)
+Q Consensus       203 ~rCPt~gea~~~e~----------~e~~~~Ckr~~sdrGw~n~~~~~~~pa~~r~~c~~a~is~~~~~~~CPt~Geasl~  272 (841)
+                      .||.++.+++|.|+          +|++ .|++.+ +.|+|.               ++-.+.+++..+-=         
+T Consensus         1 ~~Cv~i~nRDFveG~sG~TwvdvvLe~~-gCVTi~-a~~kpt---------------lDi~l~~~~~~~~a---------   54 (495)
+T 4cbf_A            1 MRCVGVGNRDFVEGVSGGAWVDLVLEHG-GCVTTM-AQGKPT---------------LDFELTKTTAKEVA---------   54 (495)
+T ss_pred             CccccccCCcccccCCCCEEEEEEEcCC-cEEEEE-cCCCCe---------------EEEEEEEEEEeccH---------
+
+
+Q ss_pred             eecccceeEEeeeeccCcCCcCChhhHHHhhhhcCceeeeeccchhHHhhhccCccccccccccceeeEEEecccCCCCc
+Q flavivirusEnv_  273 EEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRSIGYPVAVDEHRITYQELQDNFTPTRKATSKAQSISTITFGLKKPOLG  352 (841)
+Q Consensus       273 e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~  352 (841)
+                                                   ..|+.=|...|.+-..+                                  
+T Consensus        55 -----------------------------~~R~yc~~a~vs~~~s~----------------------------------   71 (495)
+T 4cbf_A           55 -----------------------------LLRTYCIEASISNITTA----------------------------------   71 (495)
+T ss_pred             -----------------------------HhhhheeeeEEeccEec----------------------------------
+
+
+Q ss_pred             eeeecCccccccCccEEEeeeeccccccceEEEecceEEEEEEeeecccccccCCCCCCCCCCCccccccCCceeeeeee
+Q flavivirusEnv_  353 YEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQTKIQYVIRAQLHVGAKQENPOLGDENWGNGCGLFGKGSLITCAKF  432 (841)
+Q Consensus       353 ~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~~~~~i~y~v~~~~H~~~~~~~~~~~dr~WGNgCGLfGKGsi~tCakF  432 (841)
+                           +.|=-=|.=...                           ..|.....+..+++||||||||||||||||+|||||
+T Consensus        72 -----~~CPt~Gea~l~---------------------------e~~~~~~vCkr~~~DRGWGNGCgLFGkGsi~tCakf  119 (495)
+T 4cbf_A           72 -----TRCPTQGEPYLK---------------------------EEQDQQYICRRDVVDRGWGNGCGLFGKGGVVTCAKF  119 (495)
+T ss_pred             -----ccCCCCCccCCh---------------------------hhccCCeeecCCCCCCCcccccccccCcceEEEEeE
+
+
+Q ss_pred             eeeeeecceEEEeecceeEEEEEEecCCcccccCcCchhhhccccccCCCCCCeeeeEecccceeEeeccCCceeEEEEe
+Q flavivirusEnv_  433 KCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYEFVWNTDIKTLKFDALSGSQEVEFIG  512 (841)
+Q Consensus       433 ~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~s~~~~~~~~~  512 (841)
+                      +|.+++.|++||+|||+|+|.+++|+++.                                                   
+T Consensus       120 ~C~~~~~g~~i~~~~I~y~V~v~vH~~~~---------------------------------------------------  148 (495)
+T 4cbf_A          120 LCSGKITGNLVQIENLEYTVAVTVHNGDT---------------------------------------------------  148 (495)
+T ss_pred             EcCCceeEEEEecceEEEEEEEEEeCCcc---------------------------------------------------
+
+
+Q ss_pred             ecceeeEEEEEEeeecCcceeeecccCCCCCCCCCCCccccccceeEecCCCCCcceeeeccceeeeecCCCCCCCccce
+Q flavivirusEnv_  513 YGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEM  592 (841)
+Q Consensus       513 yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~  592 (841)
+                                                         ....++..+...        +++++.       .+|...++|.+|
+T Consensus       149 -----------------------------------~~~~~~~~~~~~--------~~~~t~-------~s~~~t~~lgdY  178 (495)
+T 4cbf_A          149 -----------------------------------HAVGNDTSSHGV--------TATITP-------RSPSVEVKLPDY  178 (495)
+T ss_pred             -----------------------------------ccccccccccee--------EEEEec-------CCCcEEEEcccC
+
+
+Q ss_pred             eeeecCCcCCCCCCCCceeeeEEEeecccccccceecccCCCchheecccceeecCCcceEEEEEeccCCCCCCCCcccc
+Q flavivirusEnv_  593 VLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLTLPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWE  672 (841)
+Q Consensus       593 ~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL~LPW~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~  672 (841)
+                      +.++|  +|+   |++|.++...+                                       ++.+|+           
+T Consensus       179 Gtvtl--~Cr---~~Sg~D~~~~Y---------------------------------------~vt~~~-----------  203 (495)
+T 4cbf_A          179 GELTL--DCE---PRSGIDFNEMI---------------------------------------LMKMKK-----------  203 (495)
+T ss_pred             eEEEE--EEe---eccccchhhEE---------------------------------------EEEeCC-----------
+
+
+Q ss_pred             cceeEEEeeeeecCCCcCCCCCccccccccccceEEEEecccccccccccCcCCCCCCCCcceeccchhhhhccceEEee
+Q flavivirusEnv_  673 KKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVGYBCLOSIPOLGYEFVGSLKTALTGAMRVTK  752 (841)
+Q Consensus       673 ~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~~lv~f~~~ha~k~~v~~~~~~~~~~~~~~~~~G~l~~ALaGA~~v~~  752 (841)
+                       ++||||||||+||||||++++.++...|+++|+||+|++|||+||+|+                               
+T Consensus       204 -k~wlV~r~W~~Dl~lPW~~~~~~~~~~W~~~e~lVeF~~phA~k~~V~-------------------------------  251 (495)
+T 4cbf_A          204 -KTWLVHKQWFLDLPLPWTAGADTSEVHWNHKERMVTFKVPHAKRQDVT-------------------------------  251 (495)
+T ss_pred             -eEEEEEHHHhhcCCCCcccCCCCcccccccceeEEEeCCCeEEEEEEE-------------------------------
+
+
+Q ss_pred             eCCCCcceeeeCceeeEEEEeeeeeecCCCCCCCcceecccccchhhccccceeEeecceeEEeeceeeeeeecceeeec
+Q flavivirusEnv_  753 DTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGDENWVLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLK  832 (841)
+Q Consensus       753 ~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty~~~~~~lgsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~lk  832 (841)
+                                                          ++|+|+|++|+||+||++++.+.+++|.+||++|||+|+||+||
+T Consensus       252 ------------------------------------~lg~Qegal~~ALaga~~~~~~~~~~l~~Ghl~Crv~l~kL~lk  295 (495)
+T 4cbf_A          252 ------------------------------------VLGSQEGAMHSALAGATEVDSGDGNHMFAGHLKCKVRMEKLRIK  295 (495)
+T ss_pred             ------------------------------------EecChhHHHHHHhcCCeEeecCCceEEeeeeEEEEEEecCeEEc
+
+
+Q ss_pred             cCC--cCCCCC
+Q flavivirusEnv_  833 GGY--BCLOSI  841 (841)
+Q Consensus       833 g~~--~c~g~~  841 (841)
+                      |++  +|.+..
+T Consensus       296 G~TY~~C~~~f  306 (495)
+T 4cbf_A          296 GMSYTMCSGKF  306 (495)
+T ss_pred             ccChhhCCCcc
+
+
+No 16 
+>4gsx_A Envelope protein E; viral fusion protein, viral protein; HET: NAG; 1.90A {Dengue virus 1} PDB: 4gt0_A* 3g7t_A 3j05_A 4cau_A 1uzg_A*
+Probab=100.00  E-value=8e-49  Score=415.13  Aligned_cols=203  Identities=73%  Similarity=1.095  Sum_probs=156.5
+
+Q ss_pred             CCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCcccccCcCchhhhccccccCCCCCCeeeeEe
+Q flavivirusEnv_  412 ENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYEFVWN  491 (841)
+Q Consensus       412 r~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~  491 (841)
+                      ..||||||||||||+.|||||.|..+++|+++|.||++|.|.|.||+|+                               
+T Consensus       115 RGWGNGCgLFGKGsi~tCaKftC~~~~~g~~i~~e~I~y~V~v~vH~~~-------------------------------  163 (427)
+T 4gsx_A          115 RGHGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGD-------------------------------  163 (427)
+T ss_dssp             ECGGGTCSSCEEEEEEEEEEEEEEEEEEEEECCGGGEEEEEEEEECCC--------------------------------
+T ss_pred             CCcccccccccCccEEEEEeEEcCCceeEEEEecceEEEEEEEEEeCCc-------------------------------
+Confidence            2599999999999999999999999999999999999999999999763                               
+
+
+Q ss_pred             cccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCCCCCCccccccceeEecCCCCCcceee
+Q flavivirusEnv_  492 TDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWGNETTEHGTTATITPQAPTSEIQL  571 (841)
+Q Consensus       492 ~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~t~~~~~~~~~tp~a~~~~~~l  571 (841)
+                                                                                ....+..+     ..-..    
+T Consensus       164 ----------------------------------------------------------~~~~~~~~-----~~~~~----  176 (427)
+T 4gsx_A          164 ----------------------------------------------------------QHQVGNET-----TEHGT----  176 (427)
+T ss_dssp             --------------------------------------------------------------------------CE----
+T ss_pred             ----------------------------------------------------------cccccccc-----cccee----
+Confidence                                                                      11111000     01111    
+
+
+Q ss_pred             eccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeecccccccceecccCCCchheecccceeecCCcc
+Q flavivirusEnv_  572 TDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLTLPWQSGSGGVWREMHHLVEFEPPHA  651 (841)
+Q Consensus       572 ~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL~LPW~~gs~~~W~n~e~LVeF~ePHA  651 (841)
+                          .+++  +|.+     +.+.+.+|-          |--+.--=.-            .++-.+   .          
+T Consensus       177 ----~atf--Tp~S-----p~~tv~LgD----------YGtvtl~C~~------------~sg~d~---~----------  210 (427)
+T 4gsx_A          177 ----IATI--TPQA-----PTSEIQLTD----------YGALTLDCSP------------RTGLDF---N----------  210 (427)
+T ss_dssp             ----EEEE--CSSC-----CEEEEEETT----------TEEEEEEEEE------------CSCCCT---T----------
+T ss_pred             ----EEEE--ecCC-----CCEEEEcCC----------CcEEEEEecc------------ccCcCh---h----------
+Confidence                3333  4554     578888886          3333322221            222111   1          
+
+
+Q ss_pred             eEEEEEeccCCCCCCCCcccccceeEEEeeeeecCCCcCCCCCccccccccccceEEEEecccccccccccCcCCCCCCC
+Q flavivirusEnv_  652 ATIRVLALGNQEPOLGDENWEKKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVGYBCLOSIPO  731 (841)
+Q Consensus       652 tkq~V~aLGsQE~~l~~~~~~~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~~lv~f~~~ha~k~~v~~~~~~~~~~~  731 (841)
+                       .+.++.++            +|+|||||+||.||||||++++.+....|+..+.||.|+.+||.||.|+          
+T Consensus       211 -~~y~~~~~------------~k~wlV~r~W~~Dl~LPW~~~~~~~~~~W~~~e~LVeF~~pHA~k~~V~----------  267 (427)
+T 4gsx_A          211 -EMVLLTME------------KKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVV----------  267 (427)
+T ss_dssp             -TEEEEEET------------TEEEEEEHHHHHTCCSCEEESSCCSSCCCBCGGGTEEECCCCSSCCCEE----------
+T ss_pred             -hEEEEEec------------CcEEEEeHHHHhcCccCccCCCCCcccccccceeEEEeCCCeEEEEEEE----------
+Confidence             14455554            6999999999999999999999998889999999999999999999863          
+
+
+Q ss_pred             CcceeccchhhhhccceEEeeeCCCCcceeeeCceeeEEEEeeeeeecCCCCCCCcceecccccchhhccccceeEeecc
+Q flavivirusEnv_  732 LGYEFVGSLKTALTGAMRVTKDTNDNNLYKLHGGHVSCRVKLSALTLKGPOLGDENWVLGSQEGAMHTALTGATEIQTSG  811 (841)
+Q Consensus       732 ~~~~~~G~l~~ALaGA~~v~~~~~~~~~~~l~gGHl~CrvkldkL~LKG~ty~~~~~~lgsqeGalh~AltgA~ev~~Sg  811 (841)
+                                                                               +||+|||++|.||+||++|+.++
+T Consensus       268 ---------------------------------------------------------~lg~Qegal~~ALagA~~~~~~~  290 (427)
+T 4gsx_A          268 ---------------------------------------------------------VLGSQEGAMHTALTGATEIQTSG  290 (427)
+T ss_dssp             ---------------------------------------------------------ECCCCHHHHHHHTTTSEEEEEET
+T ss_pred             ---------------------------------------------------------EecCchHHHHHHhcCCeEEeecC
+Confidence                                                                     46899999999999999999999
+
+
+Q ss_pred             eeEEeeceeeeeeecceeeeccC-Cc-CC
+Q flavivirusEnv_  812 TTTIFAGHLKCRLKMDKLTLKGG-YB-CL  838 (841)
+Q Consensus       812 t~ti~sGh~pCRIpm~kl~lkg~-~~-c~  838 (841)
+                      +..++.||++||++|+||.+||. |- |-
+T Consensus       291 ~~~l~~Ghl~Crv~l~kLklkG~TY~~C~  319 (427)
+T 4gsx_A          291 TTTIFAGHLKCRLKMDKLTLKGMSYVMCT  319 (427)
+T ss_dssp             TEEEECCEEEEEEEEESCCBCCCCCCBCC
+T ss_pred             ceEEEeeeEEEEEEecceEEcccChhcCC
+Confidence            99999999999999999999994 32 42
+
+
+No 17 
+>3uaj_B Envelope protein; dengue antibody membrane fusion, viral protein-immune system; HET: NAG; 3.23A {Dengue virus 4}
+Probab=100.00  E-value=7.3e-45  Score=384.73  Aligned_cols=233  Identities=28%  Similarity=0.573  Sum_probs=161.6
+
+Q ss_pred             EEeecCccccccccccceeEEeeeecceEEEEecCCCCCcceeeeeeeeCCCCCCCCeeEEeecCcccccccCCCeeEEE
+Q flavivirusEnv_    9 HCIGITDRDFIEGVHGGTWVSATLEQDKCVTVMAPDKPSLDISLETVAIDPOLGDENWRCVGIGNRDFVEGLSGATWVDV   88 (841)
+Q Consensus         9 ~C~~~~nrDfiegv~G~Twvd~vLe~~~CVTi~a~~kPsidv~l~~~~i~pa~~~~~~~c~~~~nRdfveg~~g~twv~~   88 (841)
+                      +|+||.+||||||+.|+|||+.-||++.|||+||+|||+|||.|+.+.|.                       +..++--
+T Consensus         2 ~Cvgi~nRDFVeGvsG~TwvdvVLE~ggCVTi~a~~KPtlDi~l~~~~~~-----------------------~~a~~R~   58 (433)
+T 3uaj_B            2 RCVGVGNRDFVEGVSGGAWVDLVLEHGGCVTTMAQGKPTLDFELTKTTAK-----------------------EVALLRT   58 (433)
+T ss_dssp             CSTTCSSEEEEECCSSCSEEEEEECTTCEEEEEETTEEEEEEEEEEEECC-----------------------SCEEEEE
+T ss_pred             ccccccCCcceecCCCCEEEEEEecCCcEEEEEcCCCCeEEEEEEEEEEe-----------------------cchHhhh
+Confidence            58999999999999999999999999999999999999999999999874                       3455542
+
+
+Q ss_pred             eeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCceeeeeeeeeeeCceeeEEEEEEE
+Q flavivirusEnv_   89 VLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDTAWGVQCGFVTKGSRITTTVELIC  168 (841)
+Q Consensus        89 vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~~wh~gcGL~gKgsr~~T~vE~wc  168 (841)
+                      .+     .                                                                .+      
+T Consensus        59 yC-----~----------------------------------------------------------------~a------   63 (433)
+T 3uaj_B           59 YC-----I----------------------------------------------------------------EA------   63 (433)
+T ss_dssp             EE-----E----------------------------------------------------------------EE------
+T ss_pred             he-----e----------------------------------------------------------------ee------
+Confidence            21     0                                                                12      
+
+
+Q ss_pred             ecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccccccCCCCCCCCCCCCCHHHHHhh
+Q flavivirusEnv_  169 FKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKRTYSDRGWPOLGDENWNPAVLRKL  248 (841)
+Q Consensus       169 ~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr~~sdrGw~n~~~~~~~pa~~r~~  248 (841)
+                                                -++..++.+.||++||||++||...+..|||.|+||||-               
+T Consensus        64 --------------------------~vs~t~s~~rCPt~GeA~l~e~~~~~~vCkr~~sDRGWG---------------  102 (433)
+T 3uaj_B           64 --------------------------SISNITTATRCPTQGEPYLKEEQDQQYICRRDVVDRGWG---------------  102 (433)
+T ss_dssp             --------------------------EEEEEEEEECCTTSCCCCCGGGTCTTEEEEEEEEEESTT---------------
+T ss_pred             --------------------------EEeccEEcccCCCCCccCChhhccCCeeecCCCCCCCCc---------------
+Confidence                                      236678889999999999999999999999999999994               
+
+
+Q ss_pred             heeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhhcCceeeeeccchhHHhhhccCcc
+Q flavivirusEnv_  249 CIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRSIGYPVAVDEHRITYQELQDNFTP  328 (841)
+Q Consensus       249 c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~  328 (841)
+                                  +-|=-=|.-.++-=  ..|.|...+.-+-                                       
+T Consensus       103 ------------NGCgLFGKGSIvTC--aKftC~~~~~g~~---------------------------------------  129 (433)
+T 3uaj_B          103 ------------NGCGLFGKGGVVTC--AKFSCSGKITGNL---------------------------------------  129 (433)
+T ss_dssp             ------------TTCSSCEEEEEEEE--EEEEEEEEEEEEE---------------------------------------
+T ss_pred             ------------cccccccCcceEEE--EeEEcCCceEEEE---------------------------------------
+Confidence                        46777776666543  3578877654221                                       
+
+
+Q ss_pred             ccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEEecceEEEEEEeeecccccccCCC
+Q flavivirusEnv_  329 TRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQTKIQYVIRAQLHVGAKQENPO  408 (841)
+Q Consensus       329 ~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~~~~~i~y~v~~~~H~~~~~~~~~  408 (841)
+                                       +....+-                              ++|.   +      ++|.+...+..+
+T Consensus       130 -----------------i~~enI~------------------------------y~V~---v------~vH~~~~~~~~~  153 (433)
+T 3uaj_B          130 -----------------VQIENLE------------------------------YTVV---V------TVHNGDTHAVGN  153 (433)
+T ss_dssp             -----------------CCSSSCE------------------------------EEEE---E------EECC--------
+T ss_pred             -----------------EeeeeEE------------------------------EEEE---E------EEeCCccccccc
+Confidence                             1222222                              3332   2      468877654311
+
+
+Q ss_pred             CCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCcccccCcCchhhhccccccCCCCCCeee
+Q flavivirusEnv_  409 LGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYEF  488 (841)
+Q Consensus       409 ~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~~~~~~~~~~~~~~~~~~~~~  488 (841)
+                                                                         |                            
+T Consensus       154 ---------------------------------------------------~----------------------------  154 (433)
+T 3uaj_B          154 ---------------------------------------------------D----------------------------  154 (433)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             ---------------------------------------------------c----------------------------
+Confidence                                                               0                            
+
+
+Q ss_pred             eEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeeccc--------------CCCC-CC----CCCCC
+Q flavivirusEnv_  489 VWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMET--------------EPOL-GD----ENWGN  549 (841)
+Q Consensus       489 ~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~--------------~~~~-~~----~~~~~  549 (841)
+                       ++...++++|.+.+.+++++|=+||.++|+|.+++.+||.|.|+.+|..              -|.. +.    .+|.|
+T Consensus       155 -~~~~~~~~~~Tp~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~~k~wLV~R~Wf~DL~LPW~~~~~~~~~~W~~  233 (433)
+T 3uaj_B          155 -TSNHGVTAMITPRSPSVEVKLPDYGELTLDCEPRSGIDFNEMILMKMKKKTWLVHKQWFLDLPLPWTAGADTSEVHWNY  233 (433)
+T ss_dssp             ----CCEEEEEBTTBCEEEEEETTTEEEEEEEEEECSSCGGGEEEEEETTEEEEEEHHHHHTCCSCEEC-------CCBC
+T ss_pred             -cccceeEEEEecCCCCEEEEcCCCcEEEEEEEeccCcchhhEEEEEeCCcEEEEeHHHHhcCccCccCCCCCccccccc
+Confidence             0234578999999999999999999999999999999999999999975              2222 22    35765
+
+
+Q ss_pred             ccccccceeEecC-CCCCcce-eeec
+Q flavivirusEnv_  550 ETTEHGTTATITP-QAPTSEI-QLTD  573 (841)
+Q Consensus       550 ~t~~~~~~~~~tp-~a~~~~~-~l~d  573 (841)
+                      -.    .-+.+-+ -|-+..+ .|+|
+T Consensus       234 ~e----~LVeF~epHA~k~~V~~LG~  255 (433)
+T 3uaj_B          234 KE----RMVTFKVPHAKRQDVTVLGS  255 (433)
+T ss_dssp             GG----GTEEECCC-----CEEECCB
+T ss_pred             ce----eEEEECCCceeEEEEEEecC
+Confidence            22    2345543 3332222 2333
+
+
+No 18 
+>3j27_A Envelope protein E; flavivirus, fusion protein, protein complex, membrane, chape virus; HET: NAG; 3.60A {Dengue virus 2} PDB: 3j2p_A* 4uih_A 1p58_A 3zko_A 4uif_A 5a1z_A
+Probab=100.00  E-value=1.4e-46  Score=402.97  Aligned_cols=374  Identities=29%  Similarity=0.509  Sum_probs=210.1
+
+Q ss_pred             EEeecCccccccccccceeEEeeeecceEEEEecCCCCCcceeeeeeeeCCCCCCCCeeEEeecCcccccccCCCeeEEE
+Q flavivirusEnv_    9 HCIGITDRDFIEGVHGGTWVSATLEQDKCVTVMAPDKPSLDISLETVAIDPOLGDENWRCVGIGNRDFVEGLSGATWVDV   88 (841)
+Q Consensus         9 ~C~~~~nrDfiegv~G~Twvd~vLe~~~CVTi~a~~kPsidv~l~~~~i~pa~~~~~~~c~~~~nRdfveg~~g~twv~~   88 (841)
+                      +|+||.+||||||+.|+|||+.-||++.|||+||+|||+|||.|+.+.+.-                             
+T Consensus         2 ~Cv~i~nRDFveG~sG~TwvdvVLe~~gCVTi~a~~KPtlDi~l~~~~~~~-----------------------------   52 (495)
+T 3j27_A            2 RCIGISNRDFVEGVSGGSWVDIVLEHGSCVTTMAKNKPTLDFELIETEAKQ-----------------------------   52 (495)
+T ss_dssp             CCSSCSSCCEEECCTTTTEEEEECCSSCEEEEECSSSCCEEEEEEEECCCS-----------------------------
+T ss_pred             ccccccCCcccccCCCCEEEEEEecCCcEEEEEcCCCceEEEEEeeEEEec-----------------------------
+Confidence            599999999999999999999999999999999999999999999886531                             
+
+
+Q ss_pred             eeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCceeeeeeeeeeeCceeeEEEEEEE
+Q flavivirusEnv_   89 VLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDTAWGVQCGFVTKGSRITTTVELIC  168 (841)
+Q Consensus        89 vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~~wh~gcGL~gKgsr~~T~vE~wc  168 (841)
+                                +|             .+.-|                                                  
+T Consensus        53 ----------~a-------------~~R~y--------------------------------------------------   59 (495)
+T 3j27_A           53 ----------PA-------------TLRKY--------------------------------------------------   59 (495)
+T ss_dssp             ----------EE-------------CCCCB--------------------------------------------------
+T ss_pred             ----------cH-------------Hhhhe--------------------------------------------------
+Confidence                      11             12233                                                  
+
+
+Q ss_pred             ecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccccccCCCCCCCCCCCCCHHHHHhh
+Q flavivirusEnv_  169 FKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKRTYSDRGWPOLGDENWNPAVLRKL  248 (841)
+Q Consensus       169 ~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr~~sdrGw~n~~~~~~~pa~~r~~  248 (841)
+                                            ||.|-++..++.+.||..||||++||...+..|||.|+||||                
+T Consensus        60 ----------------------c~~a~vs~~~s~~~CPt~Gea~l~e~~~~~~vCkr~~~DRGW----------------  101 (495)
+T 3j27_A           60 ----------------------CIEAKLTNTTTDSRCPTQGEPSLNEEQDKRFVCKHSMVDRGW----------------  101 (495)
+T ss_dssp             ----------------------EEEEEEEEEEEEECCSSSCCCCCGGGGBTTSCEEEEEECCCG----------------
+T ss_pred             ----------------------eeeeEEeccEEcccCCCCCccCChhhccCCeeecCCCCCCCc----------------
+Confidence                                  111234778889999999999999999999999999999999                
+
+
+Q ss_pred             heeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhhcCceeeeeccchhHHhhhccCcc
+Q flavivirusEnv_  249 CIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRSIGYPVAVDEHRITYQELQDNFTP  328 (841)
+Q Consensus       249 c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~  328 (841)
+                                 .+-|=-=|.-.++-=  ..|.|.+.+.    |                |-                   
+T Consensus       102 -----------GNGCgLFGkGsi~tC--akftC~~~~~----g----------------~~-------------------  129 (495)
+T 3j27_A          102 -----------GNGCGLFGKGGIVTC--AMFTCKKNMK----G----------------KV-------------------  129 (495)
+T ss_dssp             -----------GGTSSSCSCEEEEEE--EEEEEEEECC----C----------------CE-------------------
+T ss_pred             -----------ccccccccCcceEEE--EeEEcCCcee----E----------------EE-------------------
+Confidence                       457988888877753  3577876521    1                00                   
+
+
+Q ss_pred             ccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEEecceEEEEEEeeecccccccCCC
+Q flavivirusEnv_  329 TRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQTKIQYVIRAQLHVGAKQENPO  408 (841)
+Q Consensus       329 ~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~~~~~i~y~v~~~~H~~~~~~~~~  408 (841)
+                                       +.+..+                              -++|         .+++|.+...+..+
+T Consensus       130 -----------------i~~enI------------------------------~y~V---------~v~vH~~~~~~~~~  153 (495)
+T 3j27_A          130 -----------------VQPENL------------------------------EYTI---------VITPHSGEEHAVGN  153 (495)
+T ss_dssp             -----------------ECSTTC------------------------------CEEE---------EEEECCCCTTCSSC
+T ss_pred             -----------------EecceE------------------------------EEEE---------EEEEeCCccccccc
+Confidence                             112222                              3444         58999998855322
+
+
+Q ss_pred             CCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCcccccCcCchhhhccccccCCCCCCeee
+Q flavivirusEnv_  409 LGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYEF  488 (841)
+Q Consensus       409 ~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~~~~~~~~~~~~~~~~~~~~~  488 (841)
+                        |.                                                                            
+T Consensus       154 --~~----------------------------------------------------------------------------  155 (495)
+T 3j27_A          154 --DT----------------------------------------------------------------------------  155 (495)
+T ss_dssp             --SS----------------------------------------------------------------------------
+T ss_pred             --cc----------------------------------------------------------------------------
+Confidence              10                                                                            
+
+
+Q ss_pred             eEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccC--------------CCCCCC-----CCCC
+Q flavivirusEnv_  489 VWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETE--------------POLGDE-----NWGN  549 (841)
+Q Consensus       489 ~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~--------------~~~~~~-----~~~~  549 (841)
+                        +...++++|.+.+.+++++|=+||+++|+|.+++.+||.|.|+.+|+..              |....+     +|.|
+T Consensus       156 --~~~~~~~~~Tp~s~~~t~~lgdyG~vtl~C~~~sg~D~~~~y~~~~~~k~wLVhR~Wf~DL~LPW~~~~~~~~~~W~~  233 (495)
+T 3j27_A          156 --GKHGKEIKITPQSSITEAELTGYGTVTMECSPRTGLDFNEMVLLQMENKAWLVHRQWFLDLPLPWLPGADTQGSNWIQ  233 (495)
+T ss_dssp             --SCSSCCEEECTTSCEEEEEETTTEEEEEEECTTSSSCCSSBCCEESSSCEECCBHHHHTTSCSCBCCSCCSSCCCCBC
+T ss_pred             --ccceeEEEEecCCCcEEEECCCceEEEEEEEeccCcccccEEEEEeCCeEEEEEHHHhhcCCCCcccCCCCccccccc
+Confidence              1245789999999999999999999999999999999999999999875              444433     4543
+
+
+Q ss_pred             ccccccceeEe-cCCCCCcceeeeccceeeeecCCCCCCCccceeeeecCCcCCCCCCCCceeeeEEEeecccccccc--
+Q flavivirusEnv_  550 ETTEHGTTATI-TPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMGYBCLOSIPOLGYEFVSWIVDRQWAQDLT--  626 (841)
+Q Consensus       550 ~t~~~~~~~~~-tp~a~~~~~~l~dyG~~tl~C~p~sgldf~~~~~~tm~~~c~~~~~~~~~~~~sWLVhRqWf~DL~--  626 (841)
+                      -   + .-+.+ .|.|-                         +|.++.+|..                 ...|.+-|+  
+T Consensus       234 ~---e-~LVeF~~pHA~-------------------------k~~V~~lg~Q-----------------ega~~~ALaga  267 (495)
+T 3j27_A          234 K---E-TLVTFKNPHAK-------------------------KQDVVVLGSQ-----------------EGAMHTALTGA  267 (495)
+T ss_dssp             S---C-SSCEEECSTTS-------------------------SCEEECCCCT-----------------HHHHHHHHTTS
+T ss_pred             c---e-eEEEeCCCeEE-------------------------EEEEEEecCh-----------------hHHHHHHhcCC
+Confidence            1   1 11222 23332                         3444444430                 000111110  
+
+
+Q ss_pred             eecccCCCchheecccceeecCCcceEEEEEeccCCCCCCCCcccc-cceeEEEeeeeecCCCcCCCCCccccccccccc
+Q flavivirusEnv_  627 LPWQSGSGGVWREMHHLVEFEPPHAATIRVLALGNQEPOLGDENWE-KKSWLVHKQWFLDLPLPWTSGASTSQETWNRQD  705 (841)
+Q Consensus       627 LPW~~gs~~~W~n~e~LVeF~ePHAtkq~V~aLGsQE~~l~~~~~~-~~~~lvhr~w~~dl~lpw~sg~s~~~~~w~~~~  705 (841)
+                      .|=+..+.         ..|..-|. +-||.--+=.--...-..=. +.+       |.--|...--|.-.-+       
+T Consensus       268 ~~~~~~~~---------~~l~~Ghl-~Cri~l~kL~lkG~TY~~C~~~fs-------~~k~p~~tgHgTVVme-------  323 (495)
+T 3j27_A          268 TEIQMSSG---------NLLFTGHL-KCRLRMDKLQLKGMSYSMCTGKFK-------VVKEIAETQHGTIVIR-------  323 (495)
+T ss_dssp             CBCCCSSS---------CCCCCCCC-EEEEECSCCCCSSTTCCCCCSEEE-------ESSCCCCSSSSCBCCC-------
+T ss_pred             eEEeecCc---------ceEeeeEE-EEEEEecCeEEcccChhcCCCcee-------EEECCCCCCCCeEEEE-------
+Confidence            00011110         11333443 34443221111000001111 111       2334444444433322       
+
+
+Q ss_pred             eEEEEecccccccccccCcCCCCCCCC-----cceeccchhhhh------ccceEEeeeCCCCcceeeeC---ceeeEEE
+Q flavivirusEnv_  706 LLVTFKTAHAKKQEVVGYBCLOSIPOL-----GYEFVGSLKTAL------TGAMRVTKDTNDNNLYKLHG---GHVSCRV  771 (841)
+Q Consensus       706 ~lv~f~~~ha~k~~v~~~~~~~~~~~~-----~~~~~G~l~~AL------aGA~~v~~~~~~~~~~~l~g---GHl~Crv  771 (841)
+                        |+++          |.|---+||.-     +-+-+|.|-||=      ....-+.-...-+..|-.-|   +++.=  
+T Consensus       324 --v~y~----------gt~~PCripv~~~~~~~~~~~G~liT~nPiv~~~~~~v~iE~epP~Gds~I~vG~g~~~l~~--  389 (495)
+T 3j27_A          324 --VQYE----------GDGSPCKIPFEIMDLEKRHVLGRLITVNPIVTEKDSPVNIEAEPPFGDSYIIIGVEPGQLKL--  389 (495)
+T ss_dssp             --EEEE----------SCCSSBCCCCEEECSSSCCCCCCBCSSSCCBCSSSCCCCCCBCCCSSCCEEECCCTTCCCEE--
+T ss_pred             --EEEc----------cCCCCeEeEEEEEeCCCCccceEEEecCCEEEcCCCceEEEecCCCCceEEEEcCCCCeEEE--
+Confidence              2222          22222233320     011112221110      00001111111222233222   22210  
+
+
+Q ss_pred             EeeeeeecCC-----------------CCCCCcceecccccch
+Q flavivirusEnv_  772 KLSALTLKGP-----------------OLGDENWVLGSQEGAM  797 (841)
+Q Consensus       772 kldkL~LKG~-----------------ty~~~~~~lgsqeGal  797 (841)
+                         .-.=||.                 -++|-.|-++|.-|..
+T Consensus       390 ---~W~~~GSsIG~af~~t~kG~~r~a~lgd~aWdfgsvGGvf  429 (495)
+T 3j27_A          390 ---NWFKKGSSIGQMIETTMRGAKRMAILGDTAWDFGSLGGVF  429 (495)
+T ss_dssp             ---ECCCCCCHHHHHHHHHHHHHHHHTTTSGGGGGGSCSCSSH
+T ss_pred             ---EecCCCccHHHHHHHHHHHHHHHHHhhhccccCCCCceeE
+Confidence               0012342                 4677777777777765
+
+
+No 19 
+>3uc0_A Envelope protein; dengue antibody membrane fusion, viral protein-immune system; 2.71A {Dengue virus 4}
+Probab=99.98  E-value=1.3e-28  Score=232.83  Aligned_cols=50  Identities=74%  Similarity=1.276  Sum_probs=47.1
+
+Q ss_pred             eeEEeecCcccccccCCCeeEEEeeccCceeeeeccCCCccceeeeeccc
+Q flavivirusEnv_   66 WRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKDKPTLDIELLKTEV  115 (841)
+Q Consensus        66 ~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~a~dkptldi~l~~~~~  115 (841)
+                      .||++|.|||||||++|+||||||||+|+|||+||++||+|||+|.++++
+T Consensus         1 ~rCv~v~nRDFVeG~sG~TwvdvVLe~ggCVTita~~KPtlDi~l~~~~A   50 (165)
+T 3uc0_A            1 MRCVGVGNRDFVEGVSGGAWVDLVLEHGGCVTTMAQGKPTLDFELTKTTA   50 (165)
+T ss_dssp             CCCEEEECTTCCTTTSSSCCEEEEEEBTCEEEEEETTEEEEEEEEEEECT
+T ss_pred             CcccccccCceeecCCCCEEEEEEecCCcEEEEEcCCCceEEEEeeeeEE
+Confidence            48999999999999999999999999999999999999999999997542
+
+
+No 20 
+>3uc0_A Envelope protein; dengue antibody membrane fusion, viral protein-immune system; 2.71A {Dengue virus 4}
+Probab=99.91  E-value=2e-21  Score=183.26  Aligned_cols=133  Identities=32%  Similarity=0.578  Sum_probs=95.9
+
+Q ss_pred             EEEeecCccccccccccceeEEeeeecceEEEEecCCCCCcceeeeeeeeCCCCCCCCeeEEeecCcccccccCCCeeEE
+Q flavivirusEnv_    8 VHCIGITDRDFIEGVHGGTWVSATLEQDKCVTVMAPDKPSLDISLETVAIDPOLGDENWRCVGIGNRDFVEGLSGATWVD   87 (841)
+Q Consensus         8 ~~C~~~~nrDfiegv~G~Twvd~vLe~~~CVTi~a~~kPsidv~l~~~~i~pa~~~~~~~c~~~~nRdfveg~~g~twv~   87 (841)
+                      .+|+||.+||||||+.|+|||...||++.|||+||++||+|||.|+.+.+-                    ++.      
+T Consensus         1 ~rCv~v~nRDFVeG~sG~TwvdvVLe~ggCVTita~~KPtlDi~l~~~~A~--------------------nIe------   54 (165)
+T 3uc0_A            1 MRCVGVGNRDFVEGVSGGAWVDLVLEHGGCVTTMAQGKPTLDFELTKTTAG--------------------GLE------   54 (165)
+T ss_dssp             CCCEEEECTTCCTTTSSSCCEEEEEEBTCEEEEEETTEEEEEEEEEEECTT--------------------SCC------
+T ss_pred             CcccccccCceeecCCCCEEEEEEecCCcEEEEEcCCCceEEEEeeeeEEc--------------------ceE------
+Confidence            259999999999999999999999999999999999999999999986531                    100      
+
+
+Q ss_pred             EeeccCceeeeeccCCCccceeeeeccccCCcCCcCcccccCccccceeeccccCCCceeeeeeeeeeeCceeeEEEEEE
+Q flavivirusEnv_   88 VVLEHGSCVTTMAKDKPTLDIELLKTEVTGYBCLOSIACDHTKREDTVFSQHRRNGDTAWGVQCGFVTKGSRITTTVELI  167 (841)
+Q Consensus        88 ~vle~~~Cvt~~a~dkptldi~l~~~~~~d~dC~c~G~c~~tk~~d~~~~r~rrsvd~~wh~gcGL~gKgsr~~T~vE~w  167 (841)
+                                                                                                      
+T Consensus        55 --------------------------------------------------------------------------------   54 (165)
+T 3uc0_A           55 --------------------------------------------------------------------------------   54 (165)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             EecCCCCCCCCceeccchhhhhhhhhheeeeeEecCCCCCcccccccccccCcccccccccCCCCCCCCCCCCCHHHHHh
+Q flavivirusEnv_  168 CFKGLRGPOLGYEFVRPAEVRKVCYNAVLTHVKINDKCPSTGEAHLAEENEGDNACKRTYSDRGWPOLGDENWNPAVLRK  247 (841)
+Q Consensus       168 c~~~lrgp~i~~e~g~~a~~r~yc~~a~l~~v~~~~rCPt~gea~~~e~~e~~~~Ckr~~sdrGw~n~~~~~~~pa~~r~  247 (841)
+                                                                                                      
+T Consensus        55 --------------------------------------------------------------------------------   54 (165)
+T 3uc0_A           55 --------------------------------------------------------------------------------   54 (165)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             hheeeeeccccccCCCCCCCceeeeeecccceeEEeeeeccCcCCcCChhhHHHhhhhcCceeeeeccchhHHhhhccCc
+Q flavivirusEnv_  248 LCIEAKISNTTTDSRCPTQGEATLVEEQDTNFVCRRTFVDRGWGYBCLOSILEVAFRSIGYPVAVDEHRITYQELQDNFT  327 (841)
+Q Consensus       248 ~c~~a~is~~~~~~~CPt~Geasl~e~~d~~~vCkr~~~dRGWg~d~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~  327 (841)
+                                                                                                      
+T Consensus        55 --------------------------------------------------------------------------------   54 (165)
+T 3uc0_A           55 --------------------------------------------------------------------------------   54 (165)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             --------------------------------------------------------------------------------
+Confidence                                                                                            
+
+
+Q ss_pred             cccccccccceeeEEEecccCCCCceeeecCccccccCccEEEeeeeccccccceEEEecceEEEEEEeeecccccccCC
+Q flavivirusEnv_  328 PTRKATSKAQSISTITFGLKKPOLGYEFVGNGCGLFGKGSIVACAKFTCAKSMSLFEVDQTKIQYVIRAQLHVGAKQENP  407 (841)
+Q Consensus       328 ~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~ngcglfGkGsiv~Cakf~c~~~~~~~~~~~~~i~y~v~~~~H~~~~~~~~  407 (841)
+                                                                                      |+|.+++|.|...++.
+T Consensus        55 ----------------------------------------------------------------Y~V~VeVHgg~~~~~~   70 (165)
+T 3uc0_A           55 ----------------------------------------------------------------YTVVVTVHNGDTHAVG   70 (165)
+T ss_dssp             ----------------------------------------------------------------EEEEEEEC--------
+T ss_pred             ----------------------------------------------------------------EEEEEEecCCcccccc
+Confidence                                                                            8999999988765532
+
+
+Q ss_pred             CCCCCCCCCccccccCCceeeeeeeeeeeeecceEEEeecceeEEEEEEecCCcccccCcCchhhhccccccCCCCCCee
+Q flavivirusEnv_  408 OLGDENWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGYBCLOSIVKNAVRCSRPOLGYE  487 (841)
+Q Consensus       408 ~~~dr~WGNgCGLfGKGsi~tCakF~C~~k~~g~~i~~eni~y~V~v~vHtg~~~~~g~~~~~~~~~~~~~~~~~~~~~~  487 (841)
+                      |                                                   |                           
+T Consensus        71 n---------------------------------------------------~---------------------------   72 (165)
+T 3uc0_A           71 N---------------------------------------------------D---------------------------   72 (165)
+T ss_dssp             --------------------------------------------------------------------------------
+T ss_pred             C---------------------------------------------------c---------------------------
+Confidence            1                                                   0                           
+
+
+Q ss_pred             eeEecccceeEeeccCCceeEEEEeecceeeEEEEEEeeecCcceeeecccCCCCCCCCCCCcc
+Q flavivirusEnv_  488 FVWNTDIKTLKFDALSGSQEVEFIGYGKATLECQVQTAVDFGNSYIAEMETEPOLGDENWGNET  551 (841)
+Q Consensus       488 ~~~~~~~~~~~~~~~s~~~~~~~~~yg~~~~~c~~~~~~d~~~~~~~~~~~~~~~~~~~~~~~t  551 (841)
+                        =+...++++|.+.|.+.++++=+||..+|+|.+++.+|+ +--...||.-..-|-..+..+.
+T Consensus        73 --t~k~~a~~tfTP~Apk~ta~LGDYGeVTLeCeprSG~d~-~~~~~~~~~~~~~~~~~~~~~~  133 (165)
+T 3uc0_A           73 --TSNHGVTAMITPRSPSVEVKLPDYGELTLDCEPRSGTGH-LKCKVRMEKLRIKGMSPFEDDD  133 (165)
+T ss_dssp             ------CEEEEECSSCCEEEEEETTTEEEEEEEECCSSSSE-EEEEEECTTBCCCC--------
+T ss_pred             --cccceeEEEEecCCCcEEEEcCCCceeEEEEEeccCcch-HHhhhhhHhheecccCCcccCc
+Confidence              023568999999999999999999999999999888874 3345568876666644333222
+
+
+No 21 
+>3c5x_C PRM; beta barrel, helicase, hydrolase, NUC binding, RNA replication, transmembrane, viral protein; HET: NAG NDG SHD BMA; 2.20A {Dengue virus 2} PDB: 3c6e_C* 3c6d_D 3ixy_D 3j42_D 3iya_D 3c6r_D
+Probab=99.26  E-value=8.2e-11  Score=106.17  Aligned_cols=60  Identities=27%  Similarity=0.386  Sum_probs=31.7
+
+Q ss_pred             ceeEEeee--ecceEEEEecCCCCCc---ceeeeeeeeCCCCCCCCeeEEeecCcccccccCCCeeEEEeeccCceeeee
+Q flavivirusEnv_   25 GTWVSATL--EQDKCVTVMAPDKPSL---DISLETVAIDPOLGDENWRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTM   99 (841)
+Q Consensus        25 ~Twvd~vL--e~~~CVTi~a~~kPsi---dv~l~~~~i~pa~~~~~~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~   99 (841)
+                      |.++....  ....| +|||+|--..   .|+-|=+.|| .-..|..-|--=       +.  ..||    +-|-|....
+T Consensus        20 g~~~~i~~~~g~~~C-~~~a~DvG~~C~dtitY~Cp~l~-~eeP~DIDCwC~-------~~--~v~V----~YGrC~~~~   84 (130)
+T 3c5x_C           20 GKSLLFKTEDGVNMC-TLMAMDLGELCEDTITYKCPLLR-QNEPEDIDCWCN-------ST--STWV----TYGTCTTMG   84 (130)
+T ss_dssp             TSCEEEEETTEEEEE-EECCTTCCEEEEEEEEEEECBCS-SSCCCSCSEEES-------SS--CEEE----EEEEEC---
+T ss_pred             ccEEEeeecccCceE-EEEeeccccccCCCeEEECCcCC-CCCccccccccC-------CE--EEEE----EecCCcCCC
+Confidence            44444333  22344 6888888764   5667777777 466677777541       22  1343    345565432
+
+
+No 22 
+>4b03_D Dengue virus 1 PRM protein; flavivirus; 6.00A {Dengue virus 1}
+Probab=99.20  E-value=6e-10  Score=103.87  Aligned_cols=60  Identities=17%  Similarity=0.243  Sum_probs=35.9
+
+Q ss_pred             ceeEEe--eeecceEEEEecCCCCC---cceeeeeeeeCCCCCCCCeeEEeecCcccccccCCCeeEEEeeccCceeeee
+Q flavivirusEnv_   25 GTWVSA--TLEQDKCVTVMAPDKPS---LDISLETVAIDPOLGDENWRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTM   99 (841)
+Q Consensus        25 ~Twvd~--vLe~~~CVTi~a~~kPs---idv~l~~~~i~pa~~~~~~~c~~~~nRdfveg~~g~twv~~vle~~~Cvt~~   99 (841)
+                      |+++..  ......| +|+|+|--+   -.|+-|-+.|| .-..|..-|             +-+|++|-++-|-|....
+T Consensus        20 g~~~~i~~~~gn~~C-~~~a~DvG~~C~dtitY~Cptl~-~eeP~DiDC-------------wC~~~~v~V~YGrC~~~~   84 (166)
+T 4b03_D           20 GKSLLFKTSAGVNMC-TLIAMDLGELCEDTMTYKCPRIT-ETEPDDVDC-------------WCNATETWVTYGTCSQTG   84 (166)
+T ss_pred             cceEEeeecccCceE-EEEeecccccCCCCeEEECCcCC-CCCcccccc-------------ccCCEEEEEEecCCCCCC
+Confidence            444333  3344566 467777554   35677766777 344444444             456789999999886432
+
+
+No 23 
+>2jqm_A Envelope protein E; yellow fever envelope protein domain III, asibi strain, structure, transferase; NMR {Yellow fever virus} PDB: 2jv6_A
+Probab=98.30  E-value=1.6e-06  Score=76.02  Aligned_cols=59  Identities=17%  Similarity=0.253  Sum_probs=49.0
+
+Q ss_pred             eeeeeecCCCCCCC--ccee-cccccchhhccccceeEeecceeEEeeceeeeeeecceeee-ccCCc--CCCC
+Q flavivirusEnv_  773 LSALTLKGPOLGDE--NWVL-GSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTL-KGGYB--CLOS  840 (841)
+Q Consensus       773 ldkL~LKG~ty~~~--~~~l-gsqeGalh~AltgA~ev~~Sgt~ti~sGh~pCRIpm~kl~l-kg~~~--c~g~  840 (841)
+                      |++|+|||.||.+|  +|++ +.|.+++|+++  ++|+++++ +      .|||+|+..... .+..+  |||.
+T Consensus         1 mdkL~lkG~TY~~C~~~fs~~k~p~dtgHgTV--V~ev~y~~-~------~PCripi~~~~~~~~~~~~G~liT   65 (112)
+T 2jqm_A            1 MSALTLKGTSYKMCTDKMSFVKNPTDTGHGTV--VMQVKVPK-G------APCKIPVIVADDLTAAINKGILVT   65 (112)
+T ss_dssp             CCSSCCTTTSCCCCCSCCEEEEEEEECSSSCE--EEEEECCS-S------CCCBCCEEEESSTTCSSCCCEESS
+T ss_pred             CCceEEcccChhhCCCceEEEECCCCCCCCeE--EEEEEECC-C------CCeEeEEEEEecCCCCccceEEEe
+Confidence            68999999999999  8888 99999999999  99999998 4      699999998753 43443  2222
+
+
+No 24 
+>3ixx_D Peptide PR; WEST NIle virus, WNV, immature, fusion loop, ATP- binding, envelope protein, helicase, hydrolase, membrane; 15.00A {West nile virus}
+Probab=95.20  E-value=0.02  Score=46.59  Aligned_cols=25  Identities=20%  Similarity=0.178  Sum_probs=10.9
+
+Q ss_pred             ccceeEEeeee--------cceEEEEecCCCCC
+Q flavivirusEnv_   23 HGGTWVSATLE--------QDKCVTVMAPDKPS   47 (841)
+Q Consensus        23 ~G~Twvd~vLe--------~~~CVTi~a~~kPs   47 (841)
+                      .|--++.|+=-        .-+|+++-....|.
+T Consensus        29 ~~~C~~~a~d~G~~C~d~itY~Cp~l~~~~ep~   61 (80)
+T 3ixx_D           29 KNLCIVRAMDVGYMCDDTITYECPVLSAGNDPE   61 (80)
+T ss_pred             CceEEEEeeccccccCCCEEEECCccCCCCCcc
+Confidence            22334444321        23677765444332
+
+
+No 25 
+>3ixx_D Peptide PR; WEST NIle virus, WNV, immature, fusion loop, ATP- binding, envelope protein, helicase, hydrolase, membrane; 15.00A {West nile virus}
+Probab=94.91  E-value=0.45  Score=38.15  Aligned_cols=58  Identities=21%  Similarity=0.262  Sum_probs=37.3
+
+Q ss_pred             ceeEEe--eeecceEEEEecCCCCC---cceeeeeeeeCCCCCCCCeeEEeecCcccccccCCCeeEEEeeccCcee
+Q flavivirusEnv_   25 GTWVSA--TLEQDKCVTVMAPDKPS---LDISLETVAIDPOLGDENWRCVGIGNRDFVEGLSGATWVDVVLEHGSCV   96 (841)
+Q Consensus        25 ~Twvd~--vLe~~~CVTi~a~~kPs---idv~l~~~~i~pa~~~~~~~c~~~~nRdfveg~~g~twv~~vle~~~Cv   96 (841)
+                      |.++..  ......| +|+|+|--.   ..|+-+=+.||+.-..|..-|             +-+|++|-++-|-|.
+T Consensus        18 g~~~~i~~~~g~~~C-~~~a~d~G~~C~d~itY~Cp~l~~~~ep~DiDC-------------wC~~~~v~v~YgrC~   80 (80)
+T 3ixx_D           18 TDVITIPTAAGKNLC-IVRAMDVGYMCDDTITYECPVLSAGNDPEDIDC-------------WCTKSAVYVRYGRCT   80 (80)
+T ss_pred             ceEEEEeecccCceE-EEEeeccccccCCCEEEECCccCCCCCcccccc-------------ccCCEEEEEEecccC
+Confidence            344433  2233455 577777654   357777777777655555555             556899999988883
+
+
+No 26 
+>4b03_D Dengue virus 1 PRM protein; flavivirus; 6.00A {Dengue virus 1}
+Probab=94.58  E-value=0.027  Score=50.77  Aligned_cols=11  Identities=27%  Similarity=0.643  Sum_probs=4.6
+
+Q ss_pred             ceEEEEecCCCC
+Q flavivirusEnv_   35 DKCVTVMAPDKP   46 (841)
+Q Consensus        35 ~~CVTi~a~~kP   46 (841)
+                      -+|+++-. ..|
+T Consensus        51 Y~Cptl~~-eeP   61 (166)
+T 4b03_D           51 YKCPRITE-TEP   61 (166)
+T ss_pred             EECCcCCC-CCc
+Confidence            24655542 222
+
+
+No 27 
+>3c5x_C PRM; beta barrel, helicase, hydrolase, NUC binding, RNA replication, transmembrane, viral protein; HET: NAG NDG SHD BMA; 2.20A {Dengue virus 2} PDB: 3c6e_C* 3c6d_D 3ixy_D 3j42_D 3iya_D 3c6r_D
+Probab=94.51  E-value=0.018  Score=50.11  Aligned_cols=42  Identities=17%  Similarity=0.315  Sum_probs=20.3
+
+Q ss_pred             ccccccceeEEeeeecceEEEEecCCCCCcc-------eeeeeeeeCCCCCCCCeeEEeec
+Q flavivirusEnv_   19 IEGVHGGTWVSATLEQDKCVTVMAPDKPSLD-------ISLETVAIDPOLGDENWRCVGIG   72 (841)
+Q Consensus        19 iegv~G~Twvd~vLe~~~CVTi~a~~kPsid-------v~l~~~~i~pa~~~~~~~c~~~~   72 (841)
+                      +-..-=|.|-..+++- +|+++-.-|.-.+|       +-++-           -||..-+
+T Consensus        36 ~~a~DvG~~C~dtitY-~Cp~l~~eeP~DIDCwC~~~~v~V~Y-----------GrC~~~~   84 (130)
+T 3c5x_C           36 LMAMDLGELCEDTITY-KCPLLRQNEPEDIDCWCNSTSTWVTY-----------GTCTTMG   84 (130)
+T ss_dssp             ECCTTCCEEEEEEEEE-EECBCSSSCCCSCSEEESSSCEEEEE-----------EEEC---
+T ss_pred             EEeeccccccCCCeEE-ECCcCCCCCccccccccCCEEEEEEe-----------cCCcCCC
+Confidence            2233458999888874 68776532222222       22222           2565432
+
+
+Done!

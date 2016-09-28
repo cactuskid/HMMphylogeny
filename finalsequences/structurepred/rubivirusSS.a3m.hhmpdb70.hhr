@@ -1,0 +1,681 @@
+Query         rubivirusSS
+Match_columns 496
+No_of_seqs    2 out of 22
+Neff          1.1 
+Searched_HMMs 45
+Date          Thu Aug  4 12:33:19 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/rubivirusSS.a3m.hhm -ohhm ./structurepred/rubivirusSS.a3m.hhm -o ./structurepred/rubivirusSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 4adi_A E1 envelope glycoprotei 100.0  1E-278  2E-282 1968.1  86.8  445   16-460     1-449 (473)
+  2 2l0z_A Glycoprotein G2; zinc-b  17.2      59  0.0077   20.8   4.8   23   44-66      4-26  (42)
+  3 3c9q_A Uncharacterized protein   4.8 3.5E+02   0.055   19.8   8.9   36  406-441   157-192 (205)
+  4 1un8_A Dihydroxyacetone kinase   0.6 1.7E+03     0.3   16.3  19.2  220   18-343    39-339 (552)
+  5 3tbm_A Putative uncharacterize   0.3 1.5E+03    0.25   12.2  11.2   34  165-204    13-59  (69)
+  6 1okg_A Possible 3-mercaptopyru   0.2   2E+03    0.42   13.0   8.9  165  260-471    89-298 (373)
+  7 2c1l_A Restriction endonucleas   0.1 3.3E+03    0.57   12.7  25.8  198    1-235    65-344 (358)
+  8 3tbn_A Putative uncharacterize   0.1 3.8E+03    0.59   10.4  18.6   64  164-252    14-82  (87)
+  9 3cgl_A GFP-like fluorescent ch   0.1 4.7E+03     0.7   11.7  13.5  147  250-444     7-175 (241)
+ 10 2imp_A Lactaldehyde dehydrogen   0.0 3.7E+03    0.83    9.6  27.9   89  407-495     2-122 (479)
+ 11 3tbo_A Zinc finger, CDGSH-type   0.0 5.9E+03    0.96    6.6  17.8   44  164-214     7-58  (60)
+ 12 3ek1_A Aldehyde dehydrogenase;   0.0 4.7E+03       1    6.0  28.6   89  399-492    24-145 (504)
+ 13 1wjv_A Cell growth regulating    0.0 6.7E+03       1    5.2   6.4   59  358-434     7-76  (79)
+ 14 3u21_A Nuclear factor related    0.0 6.4E+03       1    4.3  11.7   45  441-496    23-73  (127)
+ 15 3k2w_A Betaine-aldehyde dehydr   0.0 4.6E+03       1    2.6  35.5   88  407-495     8-128 (497)
+ 16 4nmk_A Aldehyde dehydrogenase;   0.0 4.6E+03       1    2.3  34.5   84  407-491     4-119 (491)
+ 17 2hpv_A FMN-dependent NADH-azor   0.0 4.6E+03       1    1.4  18.7  114  337-467    35-202 (208)
+ 18 3mgx_A Putative P450 monooxyge   0.0 4.3E+03       1    1.8  18.9  167  277-491    50-272 (415)
+ 19 4fqd_A NIKO protein; beta/alph   0.0 4.7E+03       1    2.1  20.3  137  126-327   312-478 (479)
+ 20 3i44_A Aldehyde dehydrogenase;   0.0 4.7E+03       1    1.7  31.2   93  374-491    13-138 (497)
+
+No 1  
+>4adi_A E1 envelope glycoprotein; viral protein, membrane fusion; HET: NAG NGA; 1.80A {Rubella virus} PDB: 4adg_A* 4adj_A* 4b3v_A*
+Probab=100.00  E-value=1.3e-278  Score=1968.06  Aligned_cols=445  Identities=97%  Similarity=1.647  Sum_probs=424.8
+
+Q ss_pred             ccceeeeccCCCccccCCcceeeeeeeeeeeeecCCccccccccccceeeeecCccccccccccccccCcccccccCccc
+Q rubivirusSS      16 EEAFTYLCTAPGCATQAPVPVRLAGVRFESKIVDGGCFAPWDLEATGACICEIPTDVSCEGLGAWVPAAPCARIWNGTQR   95 (496)
+Q Consensus        16 eeaftylctapgcatqapvpvrlagvrfeskivdggcfapwdleatgaciceiptdvsceglgawvpaapcariwngtqr   95 (496)
+                      |||||||||+||||||.||||||+||||||||||||||+||||||||||||||||||||||||||||.||||||||||||
+T Consensus         1 eeaftylctapgcatqtpvpvrlagvrfeskivdggcfapwdleatgaciceiptdvsceglgawvptapcariwngtqr   80 (473)
+T 4adi_A            1 EEAFTYLCTAPGCATQTPVPVRLAGVRFESKIVDGGCFAPWDLEATGACICEIPTDVSCEGLGAWVPTAPCARIWNGTQR   80 (473)
+T ss_dssp             -CEEEEECCSTTCEECSSSCEEEEEEEEEEEEEEEEEEECCCEEEEEEEESSCCSCCSTTTTTTTSCHHHHHHHHTSEEE
+T ss_pred             CcceeeeecCCCcccCCCcceEeeeeeeeeeeecCcccccccccccceEEEecCCccccccccccccCcchhhhhcCccc
+Confidence            79999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             eeEEEEeeeecCccceeccccccCCCcccccccCcceeeccCCCCCCccccCCCccchhhHHHHhhhhcCCcceEEEEEe
+Q rubivirusSS      96 ACTFWAVNAYSSGGYAQLASYFNPGGSYYKQYHPTACEVEPAFGHSDAACWGFPTDTVMSVFALASYVQHPHKTVRVKFH  175 (496)
+Q Consensus        96 actfwavnayssggyaqlasyfnpggsyykqyhptacevepafghsdaacwgfptdtvmsvfalasyvqhphktvrvkfh  175 (496)
+                      |||||||||||||||+|||||||||||||||||||+|||||+||||||||||||||||||||||||||||||||||||||
+T Consensus        81 actfwavnayssggyaqlasyfnpggsyykqyhptacevepafghsdaacwgfptdtvmsvfalasyvqhphktvrvkfh  160 (473)
+T 4adi_A           81 ACTFWAVNAYSSGGYAQLASYFNPGGSYYKQYHPTACEVEPAFGHSDAACWGFPTDTVMSVFALASYVQHPHKTVRVKFH  160 (473)
+T ss_dssp             EEEEEEEECBSSCSSSCBGGGCCTTCHHHHHHSCCSSEEEECTTSCCTTCCCCSSSCCEEEEEEEEECCCGGGCEEEEEE
+T ss_pred             eeeeEEeeccccccHHHHHhhcCCCcchhhhcCCcceecccccCCCcccccCCcchhhHHHHHHHHHhhCCCceEEEEEe
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             ecceeEEEEEeeeeeeeeccCCCcCCCCCcceEEecCCCCchHHHHHhhccCcccccccCCCCCCCCCCCCcccccccCC
+Q rubivirusSS     176 TETRTVWQLSVAGVSCNVTTEHPFCNTPHGQLEVQVPPDPGDLVEYIMNYTGNQQSRWGLGSPNCHGPDWASPVCQRHSP  255 (496)
+Q Consensus       176 tetrtvwqlsvagvscnvttehpfcntphgqlevqvppdpgdlveyimnytgnqqsrwglgspnchgpdwaspvcqrhsp  255 (496)
+                      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+T Consensus       161 tetrtvwqlsvagvscnvttehpfcntphgqlevqvppdpgdlveyimnytgnqqsrwglgspnchgpdwaspvcqrhsp  240 (473)
+T 4adi_A          161 TETRTVWQLSVAGVSCNVTTEHPFCNTPHGQLEVQVPPDPGDLVEYIMNYTGNQQSRWGLGSPNCHGPDWASPVCQRHSP  240 (473)
+T ss_dssp             EEEEEEEEEEETTEEEEECSSCCEEECSSSEEEEECCCCCCCEEEEEEC----CEEEEEESSCCTTTTTTTCGGGSEEET
+T ss_pred             ecceeEEEEeeeeeeecccccCCccCCCCceeEEeCCCCchHHHHHHHhccCcccccccCCCCCCCCCCccChhhhccCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CccccccCCCCCCceeeecCCCcccccCCCCcceEEeeeccccccccceeeeccCCccceeeccceeecccCCCCCCCCC
+Q rubivirusSS     256 DCSRLVGATPERPRLRLVDADDPLLRTAPGPGEVWVTPVIGSQARKCGLHIRAGPYGHATVEMPEWIHAHTTSDPWHPPG  335 (496)
+Q Consensus       256 dcsrlvgatperprlrlvdaddpllrtapgpgevwvtpvigsqarkcglhiragpyghatvempewihaht~~~~~~p~~  335 (496)
+                      ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||+|||++
+T Consensus       241 dcsrlvgatperprlrlvdaddpllrtapgpgevwvtpvigsqarkcglhiragpyghatvempewihaht~~~~~~p~~  320 (473)
+T 4adi_A          241 DCSRLVGATPERPRLRLVDADDPLLRTAPGPGEVWVTPVIGSQARKCGLHIRAGPYGHATVEMPEWIHAHTTSDPWHPPG  320 (473)
+T ss_dssp             TSSSCBSCCCCCCEEEECCTTCGGGGSCCCTTEEEEEEEECSSTTCEEEEEEECCGGGEEECHHHHHHHHCBSSCCCCCC
+T ss_pred             chhhhhcCCCCCCceeeecCCCcceecCCCCCceEEeecccchhhhcceeeeccCCCcceeechhhhhhcccCCCCCCCC
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             CCccceeeeecccccCcCCCCCceeEeeeeecCchhhhcccCCCCCceeEEEeCccCCCCCCCceeeehhcCCCCCceee
+Q rubivirusSS     336 PLGLKFKTVRPVALPRTLAPPRNVRVTGCYQCGTPALVEGLAPGGGNCHLTVNGEDLGAVPPGKFVTAALLNTPPPYQVS  415 (496)
+Q Consensus       336 plg~~~~~~~~~~lpr~lapp~~~~~~~~~~~~~~~~~~glapggg~~~~~~~~edlgavppgkfvtaallntpppyqvs  415 (496)
+                      |||+||||++||+|||+||||||+|+|+||||++++|||||||||||||+++|+||.|+.||||||||||||||||||||
+T Consensus       321 plg~~~~~~~~~~lpralapp~~~~~~~~~~~~~~~~~~glapggg~~~~~~~~edvgafppgkfvtaallntpppyqvs  400 (473)
+T 4adi_A          321 PLGLKFKTVRPVALPRALAPPRNVRVTGCYQCGTPALVEGLAPGGGNCHLTVNGEDVGAFPPGKFVTAALLNTPPPYQVS  400 (473)
+T ss_dssp             CEEEEEESCCC-----CCSCCEEEEEEEESSSSSCEEEEEEECSSSCEEEEETTEEEEEECSEEEEEEECCCSCSSCEEE
+T ss_pred             CcccceeeecccccccccCCCcceeeeeecccchHHHHhccCCCCCceecccchhhcccCCCcceeehhhhcCCCCeeee
+Confidence            99999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+
+Q ss_pred             cCCcccccceeeeCcccccceeeEEeeeeccchhhhHhH----HHHHHH
+Q rubivirusSS     416 CGGESDRATARVIDPAAQSFTGVVYGTHTTAVSETRQTW----AEWAAA  460 (496)
+Q Consensus       416 cggesdratarvidpaaqsftgvvygthttavsetrqtw----aewaaa  460 (496)
+                      ||||||||.|||||||||||||||||||||||||||-.=    +.|.--
+T Consensus       401 cggesdrasarvidpaaqsftgvvygthttavsetrfeddddkagwshp  449 (473)
+T 4adi_A          401 CGGESDRASARVIDPAAQSFTGVVYGTHTTAVSETRFEDDDDKAGWSHP  449 (473)
+T ss_dssp             SSSSEEECEEEEECHHHHHTTTEEESCEEEEECCC--------------
+T ss_pred             cCCccccccceecChhhhcceeEEeecccceecccccccccccccccCc
+Confidence            999999999999999999999999999999999998532    223211
+
+
+No 2  
+>2l0z_A Glycoprotein G2; zinc-binding domain, virus envelope glycoprotein, GPC, junin arenavirus, viral protein; NMR {Junin virus}
+Probab=17.18  E-value=59  Score=20.82  Aligned_cols=23  Identities=30%  Similarity=0.696  Sum_probs=0.0
+
+Q ss_pred             eeeeecCCccccccccccceeee
+Q rubivirusSS      44 ESKIVDGGCFAPWDLEATGACIC   66 (496)
+Q Consensus        44 eskivdggcfapwdleatgacic   66 (496)
+                      ---|+..||-.|-.|...|.|-|
+T Consensus         4 HRHI~G~~CPkPHRL~~~~~C~C   26 (42)
+T 2l0z_A            4 HRHIRGEACPLPHRLNSLGGCRC   26 (42)
+T ss_dssp             EEECSSSSCCTTSCCCTTSSBTT
+T ss_pred             cccccCCCCCCCceecCCceecc
+
+
+No 3  
+>3c9q_A Uncharacterized protein C8ORF32; medically relevant, putative involvement in human inherited and disorders of purkinje cell degeneration; HET: MSE; 1.50A {Homo sapiens} PDB: 4w79_A*
+Probab=4.80  E-value=3.5e+02  Score=19.76  Aligned_cols=36  Identities=28%  Similarity=0.392  Sum_probs=0.0
+
+Q ss_pred             cCCCCCceeecCCcccccceeeeCcccccceeeEEe
+Q rubivirusSS     406 LNTPPPYQVSCGGESDRATARVIDPAAQSFTGVVYG  441 (496)
+Q Consensus       406 lntpppyqvscggesdratarvidpaaqsftgvvyg  441 (496)
+                      +..||+|-.-+|.++.----..||-.....-|+|+.
+T Consensus       157 ~apPP~yp~I~~~~~~nNL~~fi~M~~~~~~G~V~~  192 (205)
+T 3c9q_A          157 REPPPPYPCIETGDSKMNLNDFISMDPKVGWGAVYT  192 (205)
+T ss_dssp             SSCCCSSCCBCCSSCSCCTHHHHCCCTTSSSSEEEE
+T ss_pred             ecCCCCCCcccCCCCccchHHheeecCCCCCeEEec
+
+
+No 4  
+>1un8_A Dihydroxyacetone kinase; transferase; HET: MYY; 2.5A {Citrobacter freundii} SCOP: a.208.1.1 c.119.1.2 PDB: 1un9_A*
+Probab=0.58  E-value=1.7e+03  Score=16.32  Aligned_cols=220  Identities=16%  Similarity=0.202  Sum_probs=74.7
+
+Q ss_pred             ceeeeccCCCccccCCcceeeeeeeeeeeeecCC--cccccc--ccccceeeeecCccccccccccccccCccc------
+Q rubivirusSS      18 AFTYLCTAPGCATQAPVPVRLAGVRFESKIVDGG--CFAPWD--LEATGACICEIPTDVSCEGLGAWVPAAPCA------   87 (496)
+Q Consensus        18 aftylctapgcatqapvpvrlagvrfeskivdgg--cfapwd--leatgaciceiptdvsceglgawvpaapca------   87 (496)
+                      -.-|.=...    +-.|.+=-.|-.       |-  -|+-+=  =-.++|+.=||=+             +|-+      
+T Consensus        39 ~vv~~~~~~----~~kV~lisGGGs-------GHEP~~~G~VG~Gml~aav~G~vFa-------------sPs~~~i~~a   94 (552)
+T 1un8_A           39 RIVVRRDLN----KNNVAVISGGGS-------GHEPAHVGFIGKGMLTAAVCGDVFA-------------SPSVDAVLTA   94 (552)
+T ss_dssp             CEEEESCCC----TTSCEEEEEEEE-------SSTTTTGGGBSTTSBSEEEEEEETS-------------CCCHHHHHHH
+T ss_pred             eEEEecCCC----CCceEEEeCCCC-------CCCccccccccCCCcCceecCCCCC-------------CcCHHHHHHH
+Confidence            122321111    223332222211       10  111111  1134555556543             3321      
+
+
+Q ss_pred             -ccccCccceeEEEEeeeecC--------------ccceeccccccCCCcccccccCcceeeccCCCCCCc---------
+Q rubivirusSS      88 -RIWNGTQRACTFWAVNAYSS--------------GGYAQLASYFNPGGSYYKQYHPTACEVEPAFGHSDA---------  143 (496)
+Q Consensus        88 -riwngtqractfwavnayss--------------ggyaqlasyfnpggsyykqyhptacevepafghsda---------  143 (496)
+                       |.=++ ..-|-+ .|+.|.-              -|+.-=.-..+           .-|-+++.-|..-.         
+T Consensus        95 i~~~~~-~~Gvl~-iv~NytGD~lnF~lA~e~a~~~g~~v~~v~v~-----------DDva~~~~~~RRGlaG~vlv~Ki  161 (552)
+T 1un8_A           95 IQAVTG-EAGCLL-IVKNYTGDRLNFGLAAEKARRLGYNVEMLIVG-----------DDISLPDNKHPRGIAGTILVHKI  161 (552)
+T ss_dssp             HHHHCC-TTCEEE-EEESCHHHHHHHHHHHHHHHHTTCCEEEEEEC-----------CBCSCTTCSSCCCCTTHHHHHHH
+T ss_pred             HHhccC-CCCEEE-EEecCHHHHHhHHHHHHHHHhcCCeEEEEEeC-----------CccccCCccCCCCcchhHHHHHH
+Confidence             11122 234444 3444420              12211111111           11222222232221         
+
+
+Q ss_pred             ----cccCCCccchhhHHHHhhhhcCCcceEEEEEeecceeEEEEEeeeeeeeec-cCCCcCCCCCcceEE---------
+Q rubivirusSS     144 ----ACWGFPTDTVMSVFALASYVQHPHKTVRVKFHTETRTVWQLSVAGVSCNVT-TEHPFCNTPHGQLEV---------  209 (496)
+Q Consensus       144 ----acwgfptdtvmsvfalasyvqhphktvrvkfhtetrtvwqlsvagvscnvt-tehpfcntphgqlev---------  209 (496)
+                          |-.|.+-|.   |..++..+..           .   +..+.|+--+|.+. +.+|.-.-+.+++|+         
+T Consensus       162 aGA~A~~G~~l~e---v~~~~~~~~~-----------~---~~tigval~~c~~P~~~~~~~~l~~~e~e~G~GiHgE~G  224 (552)
+T 1un8_A          162 AGYFAERGYNLAT---VLREAQYAAS-----------N---TFSLGVALSSCHLPQETDAAPRHHPGHAELGMGIHGEPG  224 (552)
+T ss_dssp             HHHHHHTTCCHHH---HHHHHHHHHH-----------T---EEEEEEEEECCCCSSCCSSSCCBCTTCEEETCCTTCCCC
+T ss_pred             HHHHHhcCCCHHH---HHHHHHHHHH-----------h---hcccccccccccCCCCCCCccccCCcceeeccccCCCCC
+Confidence                124554444   4444444421           1   23356777778874 567777889999997         
+
+
+Q ss_pred             --ecCCC-CchHHHHHhhccCcccccccCCCCCCCCCCCCcccccccCCCccccccCCCCCCceeeecCCCcccccCCCC
+Q rubivirusSS     210 --QVPPD-PGDLVEYIMNYTGNQQSRWGLGSPNCHGPDWASPVCQRHSPDCSRLVGATPERPRLRLVDADDPLLRTAPGP  286 (496)
+Q Consensus       210 --qvppd-pgdlveyimnytgnqqsrwglgspnchgpdwaspvcqrhspdcsrlvgatperprlrlvdaddpllrtapgp  286 (496)
+                        ++++. ..++|+.+++.-=++     +                             |.                  +.
+T Consensus       225 ~~~~~~~~~~~~v~~m~~~l~~~-----~-----------------------------~~------------------~~  252 (552)
+T 1un8_A          225 ASVIDTQNSAQVVNLMVDKLLAA-----L-----------------------------PE------------------TG  252 (552)
+T ss_dssp             SEEESCCBHHHHHHHHHHHHHHH-----S-----------------------------CS------------------SC
+T ss_pred             cccCCCCCHHHHHHHHHHHHHhh-----c-----------------------------CC------------------CC
+Confidence              56653 234555554321000     1                             00                  00
+
+
+Q ss_pred             cceEEeeeccc---------------ccccccee--eeccCCccc---------eeec-cce---eecccCCCCCCCCCC
+Q rubivirusSS     287 GEVWVTPVIGS---------------QARKCGLH--IRAGPYGHA---------TVEM-PEW---IHAHTTSDPWHPPGP  336 (496)
+Q Consensus       287 gevwvtpvigs---------------qarkcglh--iragpygha---------tvem-pew---ihaht~~~~~~p~~p  336 (496)
+                      --|-..--.|+               |..+.|+.  +-.|.|=-.         -+.+ +||   +.+-+....|.-..+
+T Consensus       253 ~vvvlvNnlG~~s~lEl~~~~~~~~~~l~~~~i~~r~~~G~~~Tsl~m~GfSITll~l~~~~l~~ldap~~a~~W~~~~~  332 (552)
+T 1un8_A          253 RLAVMINNLGGVSVAEMAIITRELASSPLHSRIDWLIGPASLVTALDMKGFSLTAIVLEESIEKALLTEVETSNWPTPVP  332 (552)
+T ss_dssp             CEEEEEEECBCSCHHHHHHHHHHHHTSTTGGGEEEEEEEECSSCCTTBEEEEEEEEECCTTHHHHHHSCCCCSSCCCCBC
+T ss_pred             ceEEEEcCCCCccHHHHHHHHHHHHHHHhcCCCceEEeccceeccccCCCceEEEeccchHHHHHhcCCCcccccCCCCC
+Confidence            01111222222               11111332  223333110         1222 222   223333333333222
+
+
+Q ss_pred             Cccceee
+Q rubivirusSS     337 LGLKFKT  343 (496)
+Q Consensus       337 lg~~~~~  343 (496)
+                      .......
+T Consensus       333 ~~~~~~~  339 (552)
+T 1un8_A          333 PREITCV  339 (552)
+T ss_dssp             CCCCCEE
+T ss_pred             ccccccc
+Confidence            2211111
+
+
+No 5  
+>3tbm_A Putative uncharacterized protein; iron-sulfur, CDGSH, metal binding protein; HET: 2PE TLA; 1.80A {Ralstonia solanacearum}
+Probab=0.34  E-value=1.5e+03  Score=12.25  Aligned_cols=34  Identities=21%  Similarity=0.547  Sum_probs=14.8
+
+Q ss_pred             CCcceEEEE------------Eee-cceeEEEEEeeeeeeeeccCCCcCCCCC
+Q rubivirusSS     165 HPHKTVRVK------------FHT-ETRTVWQLSVAGVSCNVTTEHPFCNTPH  204 (496)
+Q Consensus       165 hphktvrvk------------fht-etrtvwqlsvagvscnvttehpfcntph  204 (496)
+                      .+...+.|+            +.. +.++.  |    -.|--+.+-|||+..|
+T Consensus        13 ~~nGP~~v~G~~~i~~~~g~~~~~~~~~~~--l----CrCG~S~~~PfCDgSH   59 (69)
+T 3tbm_A           13 RNNGPYHIKGSFRIVTQGGRELPVEQGQAW--L----CRCGHSLNKPFCDGSH   59 (69)
+T ss_dssp             CTTSCEEEESSCEEEESSCCEECCBTTEEE--E----CCSSCCSSTTBCCSHH
+T ss_pred             eCCCCEEEECCcEEEcCCCCEEecCCCcEE--E----eeCCCCCCccccCCCc
+Confidence            111112222            112 12221  2    3466788899998532
+
+
+No 6  
+>1okg_A Possible 3-mercaptopyruvate sulfurtransferase; rhodanese, prolyl isomerase, catalytic triad, serine protease, leishmania pyruvate; HET: CSR; 2.10A {Leishmania major} SCOP: c.46.1.2 c.46.1.2 d.26.1.3
+Probab=0.22  E-value=2e+03  Score=12.96  Aligned_cols=165  Identities=13%  Similarity=0.262  Sum_probs=51.5
+
+Q ss_pred             cccCCCCCCceeeecCCCccc---------ccCCCCcceEEeeeccccc--cccceeeeccCCccceeeccceeecccCC
+Q rubivirusSS     260 LVGATPERPRLRLVDADDPLL---------RTAPGPGEVWVTPVIGSQA--RKCGLHIRAGPYGHATVEMPEWIHAHTTS  328 (496)
+Q Consensus       260 lvgatperprlrlvdaddpll---------rtapgpgevwvtpvigsqa--rkcglhiragpyghatvempewihaht~~  328 (496)
+                      .+|..+++ .+=++|.+.-..         +.. |= +|.+  +-|...  .+-|+....+..--.    |      ..+
+T Consensus        89 ~~gi~~~~-~VVvy~~~~~~~~a~~~~~~L~~~-G~-~v~i--L~GG~~~w~~~g~~~~~~~~~~~----~------~~~  153 (373)
+T 1okg_A           89 ANGMAGEL-PVLCYDDECGAMGGCRLWWMLNSL-GA-DAYV--INGGFQACKAAGLEMESGEPSSL----P------RPA  153 (373)
+T ss_dssp             HTTCSSSS-CEEEECSSTTTTTHHHHHHHHHHH-TC-CEEE--ETTTTHHHHTTTCCEECSCCCSC----C------CCC
+T ss_pred             HcCCCCCC-eEEEEcCCCCcchhHHHHHHHHHc-Cc-eEEE--eCCCHHHHHHcCCCcccCCCCCc----c------ccc
+Confidence            13444443 355666553111         100 11 3432  222211  122333333221110    0      001
+
+
+Q ss_pred             CCCCCCCCCccceeeeecccccCcCCCCCceeEeeeeecCchhhhcccCCCCCceeEEEeCccCCCCCCCc---------
+Q rubivirusSS     329 DPWHPPGPLGLKFKTVRPVALPRTLAPPRNVRVTGCYQCGTPALVEGLAPGGGNCHLTVNGEDLGAVPPGK---------  399 (496)
+Q Consensus       329 ~~~~p~~plg~~~~~~~~~~lpr~lapp~~~~~~~~~~~~~~~~~~glapggg~~~~~~~~edlgavppgk---------  399 (496)
+                      ..|.....+  ..++..     ..+ ....+-    ..+-...-++|..++-.       ++....--||.         
+T Consensus       154 ~~~~~~~~i--~~~~~~-----~~~-~~~~~i----vDvR~~~e~~g~~~~~~-------~~~~~ghIpgAv~ip~~~~~  214 (373)
+T 1okg_A          154 THWPFKTAF--QHHYLV-----DEI-PPQAII----TDARSADRFASTVRPYA-------ADKMPGHIEGARNLPYTSHL  214 (373)
+T ss_dssp             CCCCSCSSC--CSBCCG-----GGS-CTTCCE----EECSCHHHHTCCSSCCT-------TCSSSSCSTTCEECCGGGGE
+T ss_pred             ccccccccC--CHHHHH-----hcc-CCCeEE----EECCChhhcCcccCCCC-------CCCcCCCCCCcEeccchhhc
+Confidence            122221111  111111     112 222222    23455566666655531       11211111222         
+
+
+Q ss_pred             -------eeee-h-h------------c-CCCCCceeecCCcccccce--eeeCccccccee-eEEeeeeccchhhhHhH
+Q rubivirusSS     400 -------FVTA-A-L------------L-NTPPPYQVSCGGESDRATA--RVIDPAAQSFTG-VVYGTHTTAVSETRQTW  454 (496)
+Q Consensus       400 -------fvta-a-l------------l-ntpppyqvscggesdrata--rvidpaaqsftg-vvygthttavsetrqtw  454 (496)
+                             .... . |            + ..--+.-+-|++.. |+..  +++.  ..-|.. .+|-          --|
+T Consensus       215 ~~~~~~~~~~~~~~l~~~~~~~~~~~g~~~~~~~ii~yC~~G~-~a~~~~~~L~--~~G~~~v~~~~----------Gg~  281 (373)
+T 1okg_A          215 VTRGDGKVLRSEEEIRHNIMTVVQGAGDAADLSSFVFSCGSGV-TACINIALVH--HLGLGHPYLYC----------GSW  281 (373)
+T ss_dssp             ECCSSSCEECCHHHHHHHHHTTCC-----CCCTTSEEECSSSS-THHHHHHHHH--HTTSCCCEECS----------SHH
+T ss_pred             cccCCCceECCHHHHHHHHHHhhhhcCCCCCCCeEEEECCChH-HHHHHHHHHH--HcCCCCceeeC----------ChH
+Confidence                   1110 0 0            1 12256677776543 3210  0000  001110 1110          168
+
+
+Q ss_pred             HHHHHHHHHHHHhhhhh
+Q rubivirusSS     455 AEWAAAHWWQLTLGAIC  471 (496)
+Q Consensus       455 aewaaahwwqltlgaic  471 (496)
+                      .+|.+.+=..+.-+.+-
+T Consensus       282 ~~w~~~~~~p~~~~~~~  298 (373)
+T 1okg_A          282 SEYSGLFRPPIMRSIID  298 (373)
+T ss_dssp             HHHHHHTHHHHHHHHHH
+T ss_pred             HHHhcCCCCCchhhhhh
+Confidence            88888743344333221
+
+
+No 7  
+>2c1l_A Restriction endonuclease; BFII, domain fusion, hydrolase; HET: TAR TLA SRT MES; 1.9A {Bacillus firmus} PDB: 3zi5_A
+Probab=0.14  E-value=3.3e+03  Score=12.68  Aligned_cols=198  Identities=14%  Similarity=0.159  Sum_probs=65.2
+
+Q ss_pred             CeeeeecccCCCCc-cc-cceeeeccCCCccccCCcceeee--eeeeeeee--ecC----------Ccccccccccccee
+Q rubivirusSS       1 LTAVVLQGYNPPAY-GE-EAFTYLCTAPGCATQAPVPVRLA--GVRFESKI--VDG----------GCFAPWDLEATGAC   64 (496)
+Q Consensus         1 ltavvlqgynppay-ge-eaftylctapgcatqapvpvrla--gvrfeski--vdg----------gcfapwdleatgac   64 (496)
+                      ...-++-+.+.... .. +++..|.       ..-+.||..  ..+|-+|+  +|+          .=|...-+...--.
+T Consensus        65 v~VrIIl~~~~~~~~t~~~~l~~Ll-------~~gveVr~~~~~~~~HsK~yIfD~~~~~~aiIGSaNlT~~gL~~N~E~  137 (358)
+T 2c1l_A           65 GRVIAILGGSTSQRLSSRQVVEELL-------NRGVEVHIINRKRILHAKLYGTSNNLGESLVVSSGNFTGPGMSQNIEA  137 (358)
+T ss_dssp             CEEEEEEECCSSSCCBBHHHHHHHH-------HTTCEEEEEECSSCBCCEEEEEEETTEEEEEEESCCBSTTTTTTSBEE
+T ss_pred             CeEEEEECCccccccchHHHHHHHH-------hCCCeEEEecCCCCccceEEEEECCCceEEEECCCcCChhHHccCcee
+Confidence            11223333221100 00 0000000       012344443  11233332  222          22222222211122
+
+
+Q ss_pred             eeecCccc---------------ccccccccccc--Ccccccc----------cCccceeEEEEeeeec-----------
+Q rubivirusSS      65 ICEIPTDV---------------SCEGLGAWVPA--APCARIW----------NGTQRACTFWAVNAYS-----------  106 (496)
+Q Consensus        65 iceiptdv---------------sceglgawvpa--apcariw----------ngtqractfwavnays-----------  106 (496)
+                      ...|-.+-               -.+----|-+.  .|....|          .-.+..=.-+.+++-|           
+T Consensus       138 ~v~i~~~~~~~~~~~~~~~f~~~~~~~~~i~~~~~~~~~~~~w~~~y~~~~~~~~~~~~~~~~~il~ls~~d~~~~~~~p  217 (358)
+T 2c1l_A          138 SLLLDNNTTQSMGFSWNDMISEMLNQNWHIHNMTNATDASPGWNLLYDERTTNLTLDETERVTLIVTLGHADTARIQAAP  217 (358)
+T ss_dssp             EEEECHHHHHHHTCCHHHHHHHHTTSCCEEEECTTCCTTCGGGGGSBCTTCCCSSCCGGGCEEEEEECCHHHHHHHHSCT
+T ss_pred             EEEEeccccchhHHHHHHHHHHHHHHHHHhhccccCccCCHHHHHHHHHHhccccccccccceeeEeecccchhhhcccc
+Confidence            22221000               00000011110  0111111          0000000112222222           
+
+
+Q ss_pred             Cccceeccccc-cCCCcccccccCcceeeccCCCCCCccccCCCccchhhHHHHhhhhcCCcceEEEEEeecceeEEEEE
+Q rubivirusSS     107 SGGYAQLASYF-NPGGSYYKQYHPTACEVEPAFGHSDAACWGFPTDTVMSVFALASYVQHPHKTVRVKFHTETRTVWQLS  185 (496)
+Q Consensus       107 sggyaqlasyf-npggsyykqyhptacevepafghsdaacwgfptdtvmsvfalasyvqhphktvrvkfhtetrtvwqls  185 (496)
+                      -.|-.+-..|| -+.++| +-|-+..-  .-+-||.-                        --+-++.++--.-.+|.--
+T Consensus       218 ~~~~~~~~q~~~~~~~~~-~~f~~~~~--~~~~~~~~------------------------~~~~~~~~~~~~~~~~~~~  270 (358)
+T 2c1l_A          218 GTTAGQGTQYFWLSKDSY-DFFPPLTI--RNRRGTKA------------------------TYSSLINMNYIDINYTDTQ  270 (358)
+T ss_dssp             TCGGGCSCCEEEECTTCT-TTSSCCCE--ECCTTSCC------------------------EEEEEEEEEEGGGTEEEEE
+T ss_pred             cccCCcceeeeeeccCcc-cccCcccc--ccccCccc------------------------ceEEEEEeeeeccccccce
+Confidence            01111222333 344444 33333222  22233321                        1244577776655576544
+
+
+Q ss_pred             eeeeeeeeccCCCc---------CCCCCc----------------ceEEecCCCCc--hHHHHHhhccCcccccccC
+Q rubivirusSS     186 VAGVSCNVTTEHPF---------CNTPHG----------------QLEVQVPPDPG--DLVEYIMNYTGNQQSRWGL  235 (496)
+Q Consensus       186 vagvscnvttehpf---------cntphg----------------qlevqvppdpg--dlveyimnytgnqqsrwgl  235 (496)
+                      +- |---  -|+-|         =.+.-|                .|.|-.|-+|+  .|-.|..||.|||..|+|.
+T Consensus       271 ~r-~~~~--~~~n~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  344 (358)
+T 2c1l_A          271 CR-VTFE--AENNFDFRLGTGKLRYTGVAKSNDIAAITRVGDSDYELRIIKQGTPEHSQLDPYAVSFIGNRGKRFGY  344 (358)
+T ss_dssp             EE-EEEE--TTTTCCEEEECGGGTTSCCCCTTCEEEEEECSSSEEEEEEECTTSHHHHHHGGGCCEECSSSSCEEEE
+T ss_pred             ee-EEEE--ecCceEEEEecCCccCCCCCCCCCeEEEEEecceeeeeeeecCCCCChHHHHHHHHHHhhhcCccccc
+Confidence            33 2111  23322         233333                24457676653  5777888999999999983
+
+
+No 8  
+>3tbn_A Putative uncharacterized protein; CDGSH, iron-sulfur, miner2, metal binding protein; 1.15A {Magnetospirillum magneticum}
+Probab=0.09  E-value=3.8e+03  Score=10.43  Aligned_cols=64  Identities=17%  Similarity=0.488  Sum_probs=34.5
+
+Q ss_pred             cCCcceEEEEEeecceeEEEEEeeeeeeeeccCCCcCCCCCcc-----eEEecCCCCchHHHHHhhccCcccccccCCCC
+Q rubivirusSS     164 QHPHKTVRVKFHTETRTVWQLSVAGVSCNVTTEHPFCNTPHGQ-----LEVQVPPDPGDLVEYIMNYTGNQQSRWGLGSP  238 (496)
+Q Consensus       164 qhphktvrvkfhtetrtvwqlsvagvscnvttehpfcntphgq-----levqvppdpgdlveyimnytgnqqsrwglgsp  238 (496)
+                      --..+-+.|+.-.+.+-+|      -.|..+.+-|||+.-|-.     |++.+- .              .+..| |  =
+T Consensus        14 ~~~~~P~~v~l~~g~~~~~------C~CG~S~~qPfCDgsH~~~~~kP~~~~~~-~--------------~~~~~-l--C   69 (87)
+T 3tbn_A           14 IAQKAPYPVTVEAGKTYHW------CACGRSKAQPFCDGSHKGTGLAPVAYTPD-K--------------AGTAY-F--C   69 (87)
+T ss_dssp             CSCSSCEEEEECTTCCEEE------CSSSCCSSTTBCCSTTTTTTCCCEEECCS-S--------------CEEEE-E--C
+T ss_pred             ccCCCCEEEEeCCCCEEEE------ecCCccCCccCCcccccCCCCccceEeec-C--------------CCEEE-E--e
+Confidence            1134567776654555455      688999999999998853     444432 1              12222 1  2
+
+
+Q ss_pred             CCCCCCCCcccccc
+Q rubivirusSS     239 NCHGPDWASPVCQR  252 (496)
+Q Consensus       239 nchgpdwaspvcqr  252 (496)
+                      +|+.-. ..|.|.-
+T Consensus        70 ~Ck~s~-~~P~CDG   82 (87)
+T 3tbn_A           70 GCKASK-APPLCDG   82 (87)
+T ss_dssp             SSSCCS-STTBCCS
+T ss_pred             eCCCCC-CCCccCC
+Confidence            344333 2355531
+
+
+No 9  
+>3cgl_A GFP-like fluorescent chromoprotein DSFP483; beta barrel, chromophore, luminescence, photoprotein, fluore protein; HET: CRQ; 2.09A {Discosoma striata}
+Probab=0.09  E-value=4.7e+03  Score=11.72  Aligned_cols=147  Identities=19%  Similarity=0.160  Sum_probs=43.0
+
+Q ss_pred             ccccCCCccccccCCCCCCceeeecCCCcccccCCCCcceEEeeeccccccccceeeeccCC-ccceeeccceeecccCC
+Q rubivirusSS     250 CQRHSPDCSRLVGATPERPRLRLVDADDPLLRTAPGPGEVWVTPVIGSQARKCGLHIRAGPY-GHATVEMPEWIHAHTTS  328 (496)
+Q Consensus       250 cqrhspdcsrlvgatperprlrlvdaddpllrtapgpgevwvtpvigsqarkcglhiragpy-ghatvempewihaht~~  328 (496)
+                      -..|.-.||..+=...-+=.+|+                   -=-+.-+.=++-=-=.--|| |..++.           
+T Consensus         7 ~~~~~~~~~~~~i~~~m~~k~~m-------------------eG~VNGh~F~i~GeG~G~p~eG~~~~~-----------   56 (241)
+T 3cgl_A            7 HHHHGMSCSKSVIKEEMLIDLHL-------------------EGTFNGHYFEIKGKGKGQPNEGTNTVT-----------   56 (241)
+T ss_dssp             -----CCGGGGCSCSSEEEEEEE-------------------EEEETTEEEEEEEEEEEETTTTEEEEE-----------
+T ss_pred             ccccchhhhhhhccCCceEEEEE-------------------EEEECCEEEEEEEEEeeCCCCCEEEEE-----------
+Confidence            12355678876543221111221                   11111111110000000122 222211           
+
+
+Q ss_pred             CCCCCCCCCccceeeeeccccc---CcCCCCCceeEeeeeecCchhhhcccCCCCCceeEEEeCccCCCC--------CC
+Q rubivirusSS     329 DPWHPPGPLGLKFKTVRPVALP---RTLAPPRNVRVTGCYQCGTPALVEGLAPGGGNCHLTVNGEDLGAV--------PP  397 (496)
+Q Consensus       329 ~~~~p~~plg~~~~~~~~~~lp---r~lapp~~~~~~~~~~~~~~~~~~glapggg~~~~~~~~edlgav--------pp  397 (496)
+                                  ++-...=.||   -.|.|-|..+++.-|-.+.+.+.|..-|+|=+-.-+.+-||=|.+        .-
+T Consensus        57 ------------l~v~~ggpLPFs~diLs~~fG~r~F~kYP~~I~DyFKqsfPeGys~eRt~~FEDGGv~t~~~~isleg  124 (241)
+T 3cgl_A           57 ------------LEVTKGGPLPFGWHILCPQFXNKAFVHHPDNIHDYLKLSFPEGYTWERSMHFEDGGLCCITNDISLTG  124 (241)
+T ss_dssp             ------------EEEEESCSCSSCGGGGTTTC-CTTSSBCCTTSCCHHHHTTTTCEEEEEEEEETTSCEEEEEEEEEEET
+T ss_pred             ------------EEEecCCCCCCCHHHhhhhhcccccccCCCCCChHHHhhCCCceEEEEEEEEcCCcEEEEEEEEEecC
+Confidence                        1101111111   224444433444556666666666666665444444444432210        12
+
+
+Q ss_pred             Cceeeeh---hcCCCCCceeecCCcccccceeeeCc-------ccccceeeEEeeee
+Q rubivirusSS     398 GKFVTAA---LLNTPPPYQVSCGGESDRATARVIDP-------AAQSFTGVVYGTHT  444 (496)
+Q Consensus       398 gkfvtaa---llntpppyqvscggesdratarvidp-------aaqsftgvvygtht  444 (496)
+                      |+|+.-.   =.|-|+-      |--=.....-.||       .-....|-|-=+..
+T Consensus       125 ~~~~~~v~~~G~nFP~d------GPVMqkk~~~wePs~e~m~p~dg~L~g~v~~~l~  175 (241)
+T 3cgl_A          125 NCFYYDIKFTGLNFPPN------GPVVQKKTTGWEPSTERLYPRDGVLIGDIHHALT  175 (241)
+T ss_dssp             TEEEEEEEEEEECCCTT------STTTTTCEEEECCEEEEEEEETTEEEEEEEEEEE
+T ss_pred             CEEEEEEEEEEECCCCC------CCcccccccccCCCEEEEEeeCCEEEEEEEEEEE
+Confidence            3332211   1233331      1111111122222       11112222211111
+
+
+No 10 
+>2imp_A Lactaldehyde dehydrogenase; protein-lactate-NADH ternary complex, oxidoreductase; HET: NAI; 2.10A {Escherichia coli} PDB: 2ilu_A* 2hg2_A* 2opx_A*
+Probab=0.04  E-value=3.7e+03  Score=9.64  Aligned_cols=89  Identities=17%  Similarity=0.133  Sum_probs=35.4
+
+Q ss_pred             CCCCCceeecCCc----ccccceeeeCcccccceeeEEeeee----ccchhhhHhHHHHHH--HHHHHHHhhhhh-----
+Q rubivirusSS     407 NTPPPYQVSCGGE----SDRATARVIDPAAQSFTGVVYGTHT----TAVSETRQTWAEWAA--AHWWQLTLGAIC-----  471 (496)
+Q Consensus       407 ntpppyqvscgge----sdratarvidpaaqsftgvvygtht----tavsetrqtwaewaa--ahwwqltlgaic-----  471 (496)
+                      ..|..|..-.+|+    .++.+..++||......+.|.-.=.    .++.+.++.+.+|..  ..+-.-.|-.+.     
+T Consensus         2 ~~~~~~~~~i~g~~~~~~~~~~~~~~~p~tg~~~~~~~~~~~~~~~~av~~a~~a~~~w~~~~~~~R~~~L~~la~~l~~   81 (479)
+T 2imp_A            2 SVPVQHPMYIDGQFVTWRGDAWIDVVNPATEAVISRIPDGQAEDARKAIDAAERAQPEWEALPAIERASWLRKISAGIRE   81 (479)
+T ss_dssp             -CCEECCEEETTEEECCCCSCEEEEECTTTCCEEEEEECCCHHHHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHHHHHHH
+T ss_pred             CCCccCCeEECCEEecCCCCCeEEEECCCCCCEEEEEeCCCHHHHHHHHHHHHHHHHHHhhCCHHHHHHHHHHHHHHHHH
+Confidence            1222344555666    2456788999986554444321110    124445666666653  121111111111     
+
+
+Q ss_pred             -------------hhhh----hhHHHHhHHHHHhhhcccCC
+Q rubivirusSS     472 -------------ALPL----AGLLACCAKCLYYLRGAIAP  495 (496)
+Q Consensus       472 -------------alpl----agllaccakclyylrgaiap  495 (496)
+                                   ..|.    .-+...-..+-||.+-+...
+T Consensus        82 ~~~~l~~~~~~~~g~~~~~~~~e~~~~~~~l~~~~~~~~~~  122 (479)
+T 2imp_A           82 RASEISALIVEEGGKIQQLAEVEVAFTADYIDYMAEWARRY  122 (479)
+T ss_dssp             THHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHTTTTTC
+T ss_pred             hHHHHHHHHHHhcCCCHHHHHhhHHHHHHHHHHHHHhhHhh
+Confidence                         1111    11112222333444322111
+
+
+No 11 
+>3tbo_A Zinc finger, CDGSH-type domain protein; iron-sulfur, metal binding protein; 1.50A {Pyrobaculum calidifontis}
+Probab=0.02  E-value=5.9e+03  Score=6.57  Aligned_cols=44  Identities=16%  Similarity=0.240  Sum_probs=23.3
+
+Q ss_pred             cCCcceEEEEEeecceeEEEEEeeeeeeeeccCCCcCC--------CCCcceEEecCCC
+Q rubivirusSS     164 QHPHKTVRVKFHTETRTVWQLSVAGVSCNVTTEHPFCN--------TPHGQLEVQVPPD  214 (496)
+Q Consensus       164 qhphktvrvkfhtetrtvwqlsvagvscnvttehpfcn--------tphgqlevqvppd  214 (496)
+                      -...+.+.|+.. +.+      ++=-.|--+.+-|||+        .|=...+|.---.
+T Consensus         7 v~~~gP~~v~~~-~~~------~~~C~CG~S~~~PfCDGSH~~~~~~~~~~~~~~~~~~   58 (60)
+T 3tbo_A            7 AIENGPYEVKIG-GRA------IYLCRCGHSGSKPHCDGTHAKVGFKAPGAKIVHHHHH   58 (60)
+T ss_dssp             ECTTSCEEEEC----C------EEECCSSCCTTTTBCCSHHHHHTCCCCCEEEEECCTT
+T ss_pred             ECCCCCEEEEeC-CCE------EEEeeCCCCCCceeeCCcCCCCCCCcccccccccccc
+Confidence            112344555532 222      2336789999999998        3556666653211
+
+
+No 12 
+>3ek1_A Aldehyde dehydrogenase; ssgcid, oxidoreductase, structural genomics; HET: MES; 2.10A {Brucella melitensis biovar ABORTUS2308}
+Probab=0.01  E-value=4.7e+03  Score=5.96  Aligned_cols=89  Identities=24%  Similarity=0.318  Sum_probs=31.4
+
+Q ss_pred             ceeeehhcCCCCCceeecCCc----ccccceeeeCcccccceeeEEeeeec-----cchhhhHhHHHHHH--HHHHHHHh
+Q rubivirusSS     399 KFVTAALLNTPPPYQVSCGGE----SDRATARVIDPAAQSFTGVVYGTHTT-----AVSETRQTWAEWAA--AHWWQLTL  467 (496)
+Q Consensus       399 kfvtaallntpppyqvscgge----sdratarvidpaaqsftgvvygthtt-----avsetrqtwaewaa--ahwwqltl  467 (496)
+                      .+....+.  ..+.-  -+|+    ++..+..++||......+-|--. +.     ++...++.+.+|..  ..+-.-.|
+T Consensus        24 ~~~~~~~~--~~~~~--i~G~~~~~~~~~~~~~~~p~~g~~~~~~~~~-~~~~~~~av~~a~~a~~~w~~~~~~~R~~~L   98 (504)
+T 3ek1_A           24 ALKDPSLL--KSQCL--VNGRWIDAADGTTIKVTNPADGSVIGTVPSL-SVATIKEAIDASAKALSGWAAKTAKERAGIL   98 (504)
+T ss_dssp             CCSSGGGC--CSSEE--ETTEEECCTTCCEEEEECTTTCCEEEEEECC-CHHHHHHHHHHHHHHHHHHHHSCHHHHHHHH
+T ss_pred             Hhhccccc--ccCeE--ECCEEecCCCCCeEEeECCCCCCEEEEEcCC-CHHHHHHHHHHHHHHHHHHhhCCHHHHHHHH
+Confidence            11111111  11111  1221    23457899999876655443221 11     14445556666652  11111111
+
+
+Q ss_pred             hhh--------------h----hhhh----hhHHHHhHHHHHhhhcc
+Q rubivirusSS     468 GAI--------------C----ALPL----AGLLACCAKCLYYLRGA  492 (496)
+Q Consensus       468 gai--------------c----alpl----agllaccakclyylrga  492 (496)
+                      -.+              .    ..|+    .-+..+...|.+|..-+
+T Consensus        99 ~~~~~~l~~~~~~l~~~~~~e~G~~~~~~~~ev~~~~~~~~~~~~~~  145 (504)
+T 3ek1_A           99 RKWFDLIIANADDIALIMTSEQGKPLAEARGEVLYAASFIEWFAEEA  145 (504)
+T ss_dssp             HHHHHHHHHTHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHhhHHHHHHHHHHhcCCCHHHHhhhHHHHHHHHHHHHHHH
+Confidence            111              1    1111    12222333344443211
+
+
+No 13 
+>1wjv_A Cell growth regulating nucleolar protein LYAR; DNA-binding protein, C2H2 type zinc-finger, structural genomics; NMR {Mus musculus} SCOP: g.37.1.2 g.37.1.2
+Probab=0.01  E-value=6.7e+03  Score=5.16  Aligned_cols=59  Identities=15%  Similarity=0.294  Sum_probs=15.2
+
+Q ss_pred             ceeEeeeeecCc----hhhhccc-CCCCCcee------EEEeCccCCCCCCCceeeehhcCCCCCceeecCCccccccee
+Q rubivirusSS     358 NVRVTGCYQCGT----PALVEGL-APGGGNCH------LTVNGEDLGAVPPGKFVTAALLNTPPPYQVSCGGESDRATAR  426 (496)
+Q Consensus       358 ~~~~~~~~~~~~----~~~~~gl-apggg~~~------~~~~~edlgavppgkfvtaallntpppyqvscggesdratar  426 (496)
+                      ....+-|..|+-    +.+-+-+ .=-+.+..      -+..+++.-.-                  .+|=.|..+--..
+T Consensus         7 ~MV~F~C~~Cgd~lkK~kv~~H~~~Cr~~~~~sCiDC~~~F~~~~y~~H------------------tsCITE~EKY~gk   68 (79)
+T 1wjv_A            7 GMVFFTCNACGESVKKIQVEKHVSNCRNCECLSCIDCGKDFWGDDYKSH------------------VKCISEGQKYGGK   68 (79)
+T ss_dssp             CCCEEEESSSCCEEETTHHHHHHHHCTTCCEEEETTTTEEEEGGGTTTC------------------CCCCSCTTSSCCC
+T ss_pred             ceEEEECCCCCCeeEccccHHHHhhccCCCcEEeeccCCCcCCCCcccc------------------ceEccccEEeccc
+Confidence            111233444441    1100000 00011111      23334443322                  2344444433322
+
+
+Q ss_pred             eeCccccc
+Q rubivirusSS     427 VIDPAAQS  434 (496)
+Q Consensus       427 vidpaaqs  434 (496)
+                      ..-+..+-
+T Consensus        69 ~yk~k~~~   76 (79)
+T 1wjv_A           69 GYEAKSGP   76 (79)
+T ss_dssp             SCSCCCCC
+T ss_pred             ceecCCCC
+Confidence            22221111
+
+
+No 14 
+>3u21_A Nuclear factor related to kappa-B-binding protein; DNA/RNA-binding 3-helical bundle, winged-HTH domain, structu genomics; HET: MSE MLY; 2.18A {Homo sapiens}
+Probab=0.01  E-value=6.4e+03  Score=4.27  Aligned_cols=45  Identities=20%  Similarity=0.262  Sum_probs=15.6
+
+Q ss_pred             eeeeccchhhhHhHHHHHHHHHHHHHhh-hhhhh----h-hhhHHHHhHHHHHhhhcccCCC
+Q rubivirusSS     441 GTHTTAVSETRQTWAEWAAAHWWQLTLG-AICAL----P-LAGLLACCAKCLYYLRGAIAPR  496 (496)
+Q Consensus       441 gthttavsetrqtwaewaaahwwqltlg-aical----p-lagllaccakclyylrgaiapr  496 (496)
+                      +-+|+  ++-.+.-      +=||-.-. ..+.=    | -.-|+   .-=|-||-|-....
+T Consensus        23 ~~~s~--~~Lee~V------~~Wq~sp~s~ln~W~s~~~dWs~lv---~sAL~FLaGe~~~~   73 (127)
+T 3u21_A           23 SQASL--PMLEERV------LDWQSSPASSLNSWFSAAPNWAELV---LPALQYLAGESRAV   73 (127)
+T ss_dssp             SEEEH--HHHHHHH------HHHHTSGGGGGSTTGGGCSCSGGGH---HHHHHHHTTCSSCS
+T ss_pred             CCcCH--HHHHHHH------HHHHHCcCCCCCCccccCCCHHHHH---HHHHHHhcCCCCCC
+Confidence            12333  2333322      33453221 11110    0 01222   12367888866531
+
+
+No 15 
+>3k2w_A Betaine-aldehyde dehydrogenase; structural genomics, PSI-2, protein initiative; 1.90A {Pseudoalteromonas atlantica T6C}
+Probab=0.00  E-value=4.6e+03  Score=2.64  Aligned_cols=88  Identities=16%  Similarity=0.126  Sum_probs=34.6
+
+Q ss_pred             CCCCCceeecCCc----ccccceeeeCcccccceeeEEeeee-----ccchhhhHhHHHHHH--HHHHHHHhhhh-----
+Q rubivirusSS     407 NTPPPYQVSCGGE----SDRATARVIDPAAQSFTGVVYGTHT-----TAVSETRQTWAEWAA--AHWWQLTLGAI-----  470 (496)
+Q Consensus       407 ntpppyqvscgge----sdratarvidpaaqsftgvvygtht-----tavsetrqtwaewaa--ahwwqltlgai-----  470 (496)
+                      ....-.....+|+    .+..+..++||......+-+= .-+     .++...|+.+.+|..  ....+-.|-.+     
+T Consensus         8 ~~~~~~~~~I~G~~~~~~~~~~~~~~~p~tg~~~~~~~-~~~~~~~~~av~~A~~a~~~w~~~~~~~R~~~L~~~a~~l~   86 (497)
+T 3k2w_A            8 LHFKNKVNFIGGQYVPSNESDTIDILSPSTGKVIGEIP-AGCKADAENALEVAQAAQKAWAKLTARTRQNMLRTFANKIR   86 (497)
+T ss_dssp             CCCCTTCEEETTEEECCSSCCEEEEECSSSCSEEEEEE-CCCHHHHHHHHHHHHHHHHHHHTSCHHHHHHHHHHHHHHHH
+T ss_pred             ccccccceEECCEEecCCCCCeEEEECCCCCCEEEEEe-CCCHHHHHHHHHHHHHHHHHHhhCCHHHHHHHHHHHHHHHH
+Confidence            1112222334444    235588999999776665541 111     124445666666651  11111111111     
+
+
+Q ss_pred             -------------hhhhhh----hHHHHhHHHHHhhhcccCC
+Q rubivirusSS     471 -------------CALPLA----GLLACCAKCLYYLRGAIAP  495 (496)
+Q Consensus       471 -------------calpla----gllaccakclyylrgaiap  495 (496)
+                                   ...|+.    -+..+-..+.||..-....
+T Consensus        87 ~~~~~l~~~~~~e~G~~~~~a~~e~~~~~~~~~~~~~~~~~~  128 (497)
+T 3k2w_A           87 ENKHILAPMLVAEQGKLLSVAEMEVDVTATFIDYGCDNALTI  128 (497)
+T ss_dssp             TTHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHHHTTTTC
+T ss_pred             HHHHHHHHHhHhhhCCCHHHHHHHHHHHHHHHHHHHhhhHhh
+Confidence                         112221    1122222334443322211
+
+
+No 16 
+>4nmk_A Aldehyde dehydrogenase; aldehyde oxidation, NADP reduction, intracellular, oxidoredu; HET: NAP; 1.90A {Pyrobaculum SP} PDB: 4h73_A* 4nmj_A*
+Probab=0.00  E-value=4.6e+03  Score=2.25  Aligned_cols=84  Identities=15%  Similarity=0.027  Sum_probs=32.5
+
+Q ss_pred             CCCCCceeecCCc----ccccceeeeCcccccceeeEEeeeec-----cchhhhHhHHHHHH--HHHHHHHhh-------
+Q rubivirusSS     407 NTPPPYQVSCGGE----SDRATARVIDPAAQSFTGVVYGTHTT-----AVSETRQTWAEWAA--AHWWQLTLG-------  468 (496)
+Q Consensus       407 ntpppyqvscgge----sdratarvidpaaqsftgvvygthtt-----avsetrqtwaewaa--ahwwqltlg-------  468 (496)
+                      ..+.-++.-.+|+    ++..+..++||+.....+.+-.. +.     ++...++.+.+|..  ...-.-.|-       
+T Consensus         4 ~~~~~~~~~I~G~~~~~~~~~~~~~~~p~tg~~~~~~~~~-~~~~v~~av~~a~~a~~~w~~~~~~~R~~~L~~~a~~l~   82 (491)
+T 4nmk_A            4 LNIMKVANYINGEFKEPSTGAFQVKTSPVDGSKIAEVPRS-GREDAREAIDSAFEALKAWANIPAIRRAEYLYKMLEVFR   82 (491)
+T ss_dssp             CCSCCCCEEETTEEECCSSCCEEEEECTTTCCEEEEEECC-CHHHHHHHHHHHHHHHHHHHHSCHHHHHHHHHHHHHHHH
+T ss_pred             cCccccceEECCEEecCCCCceEEeECCCCCCEEEEEeCC-CHHHHHHHHHHHHHHHHHHhhCCHHHHHHHHHHHHHHHH
+Confidence            1222333333333    34567889999976655544211 11     24455666666653  111111111       
+
+
+Q ss_pred             -------hh----hhhhhhhH---HHHhHHHHHhhhc
+Q rubivirusSS     469 -------AI----CALPLAGL---LACCAKCLYYLRG  491 (496)
+Q Consensus       469 -------ai----calplagl---laccakclyylrg  491 (496)
+                             .+    ...|+.-.   +.-..+.+.++..
+T Consensus        83 ~~~~~l~~~~~~~~g~~~~~~~~ev~~~~~~l~~~~~  119 (491)
+T 4nmk_A           83 QMKEDFMKILTVEGGGTYRKVWGEVVFTERLIQNAAE  119 (491)
+T ss_dssp             HTHHHHHHHHHHTTCCCHHHHHHHHHHHHHHHHHHHH
+T ss_pred             HhHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHH
+Confidence                   01    11232211   1122222222211
+
+
+No 17 
+>2hpv_A FMN-dependent NADH-azoreductase; structural genomics, PS protein structure initiative, southeast collaboratory for S genomics, secsg; HET: FMN; 2.00A {Enterococcus faecalis}
+Probab=0.00  E-value=4.6e+03  Score=1.41  Aligned_cols=114  Identities=10%  Similarity=0.059  Sum_probs=36.9
+
+Q ss_pred             CccceeeeecccccCcCCCCC-------------------------------------------ceeEeeeeecCchhhh
+Q rubivirusSS     337 LGLKFKTVRPVALPRTLAPPR-------------------------------------------NVRVTGCYQCGTPALV  373 (496)
+Q Consensus       337 lg~~~~~~~~~~lpr~lapp~-------------------------------------------~~~~~~~~~~~~~~~~  373 (496)
+                      -|.+++......+-..+ |++                                           -+-++-.|....+..+
+T Consensus        35 ~g~ev~~~~l~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~~~~~~~l~~aD~iV~~~P~y~~~~p~~l  113 (208)
+T 2hpv_A           35 PSDEIEILDVYAPETNM-PEIDEELLSAWGALRAGAAFETLSENQQQKVARFNELTDQFLSADKVVIANPMWNLNVPTRL  113 (208)
+T ss_dssp             TTSEEEEEETTCGGGCC-CCCCHHHHHHHHHHHHTCCGGGSCHHHHHHHHHHHHHHHHHHHCSEEEEEEECBTTBCCHHH
+T ss_pred             CCCeEEEEECCCCcCCC-CcCCHHHHHHHhhhhccCCcccCCHHHHHHHHHHHHHHHHHHHCCEEEEEeCCccCcCCHHH
+Confidence            12334433333221111 111                                           1344455555555543
+
+
+Q ss_pred             ----cccCCCCCceeEEEeCccCCCCCCCceeeehhcCCCCCceeecCCcccc--cceeeeC-----cccccceeeEEee
+Q rubivirusSS     374 ----EGLAPGGGNCHLTVNGEDLGAVPPGKFVTAALLNTPPPYQVSCGGESDR--ATARVID-----PAAQSFTGVVYGT  442 (496)
+Q Consensus       374 ----~glapggg~~~~~~~~edlgavppgkfvtaallntpppyqvscggesdr--atarvid-----paaqsftgvvygt  442 (496)
+                          +-+.+.+.+-.. .+.+.-+ .--||-+..         -+++|+..+.  ...+.+.     -... +.+.++-.
+T Consensus       114 k~~lDrl~~~~~~~~~-~~~~~~~-~l~~K~~~~---------i~t~g~~~~~~~~~~~~l~~~~~~~g~~-~~~~~~~~  181 (208)
+T 2hpv_A          114 KAWVDTINVAGKTFQY-TAEGPKP-LTSGKKALH---------IQSNGGFYEGKDFASQYIKAILNFIGVD-QVDGLFIE  181 (208)
+T ss_dssp             HHHHHHHCCBTTTEEE-ETTEEEE-SCCSCEEEE---------EEEESSCCCSCSHHHHHHHHHHHHTTCC-EEEEEEEE
+T ss_pred             HHHHHHHeeCCcceec-CCCCCcc-CCCCCeEEE---------EEecCCCCCCchHHHHHHHHHHHHcCCC-ceeEEEEC
+Confidence                334444443222 2111001 123554422         2344443221  1000000     0111 22333333
+
+
+Q ss_pred             eeccchhhhHhHHHHHHHHHHHHHh
+Q rubivirusSS     443 HTTAVSETRQTWAEWAAAHWWQLTL  467 (496)
+Q Consensus       443 httavsetrqtwaewaaahwwqltl  467 (496)
+                      -+....+.++.|.+    -+.+..-
+T Consensus       182 ~~~~~~~~~~~~~~----~~~~~~~  202 (208)
+T 2hpv_A          182 GIDHFPDRAEELLN----TAMTKAT  202 (208)
+T ss_dssp             CTTTCGGGHHHHHH----HHHHHHH
+T ss_pred             ccccCchhhHHHHH----HHHHHHH
+Confidence            33334455555544    2222211
+
+
+No 18 
+>3mgx_A Putative P450 monooxygenase; cytochrome P450 oxidase, HAEM protein, vancomycin biosynthes carrier protein, oxidoreductase; HET: HEM; 2.10A {Amycolatopsis balhimycina}
+Probab=0.00  E-value=4.3e+03  Score=1.79  Aligned_cols=167  Identities=13%  Similarity=0.137  Sum_probs=35.4
+
+Q ss_pred             CcccccCCC--CcceEEeeecccc-----ccccceeeeccCCccceeeccceeecccCCCCCCCCCCCccceeeeec---
+Q rubivirusSS     277 DPLLRTAPG--PGEVWVTPVIGSQ-----ARKCGLHIRAGPYGHATVEMPEWIHAHTTSDPWHPPGPLGLKFKTVRP---  346 (496)
+Q Consensus       277 dpllrtapg--pgevwvtpvigsq-----arkcglhiragpyghatvempewihaht~~~~~~p~~plg~~~~~~~~---  346 (496)
+                      .|+.|..||  +...||.-  ...     .++-....  ...+.       ++.  ...+.......-+.-..+...   
+T Consensus        50 gpv~~~~~~~~~~~~vvv~--~~~~i~~vl~~~~~f~--~~~~~-------~~~--~~~~~~~~~~~~~l~~~~g~~w~~  116 (415)
+T 3mgx_A           50 DAMVWSDPGSSPSGFWSVF--SHRACAAVLAPSAPLT--SEYGM-------MIG--FDRDHPDNSGGRMMVVSEHEQHRK  116 (415)
+T ss_dssp             TCCEEECSSSSSSCEEEEC--SHHHHHHHSCTTSSEE--CTTCS-------STT--CCSSSCCTTTTTSGGGCCHHHHHH
+T ss_pred             CCceecCCCCCCCCEEEEe--cHHHHHHHhcCccccc--cCccc-------ccc--ccccchhhhcccccccCCHHHHHH
+Confidence            456676776  44566642  100     01111111  11111       000  000111111111111111000   
+
+
+Q ss_pred             ---ccccCcCCCCCceeEeeeeecCch-------hhhcccCCCCCceeEEEeCccCCCCCCCce---eeehhcCCCCCce
+Q rubivirusSS     347 ---VALPRTLAPPRNVRVTGCYQCGTP-------ALVEGLAPGGGNCHLTVNGEDLGAVPPGKF---VTAALLNTPPPYQ  413 (496)
+Q Consensus       347 ---~~lpr~lapp~~~~~~~~~~~~~~-------~~~~glapggg~~~~~~~~edlgavppgkf---vtaallntpppyq  413 (496)
+                         ... +.+.+ .++      ..-.+       .+++-+.. ++.   ..-.+++..    .+   +...++..+..  
+T Consensus       117 ~R~~~~-~~~s~-~~~------~~~~~~~~~~~~~ll~~l~~-~~~---vdl~~~~~~----~~~~~ii~~lfG~~~~--  178 (415)
+T 3mgx_A          117 LRKLVG-PLLSR-AAA------RKLAERVRIEVGDVLGRVLD-GEV---CDAATAIGP----RIPAAVVCEILGVPAE--  178 (415)
+T ss_dssp             HHHHHG-GGSSH-HHH------HHSHHHHHHHHHHHTTTSSS-SSC---EESTTTTTT----HHHHHHHHHHHTCCGG--
+T ss_pred             HHHHHH-HhcCH-HHH------HHHHHHHHHHHHHHHHHHhc-CCC---ccHHHHHHH----HHHHHHHHHHhCCChh--
+Confidence               000 01100 000      00000       12333332 221   111222210    00   00011222110  
+
+
+Q ss_pred             eecCCccccc--------ceeeeCcccccceeeEEeeeeccchhhhHhHHHHH----HHHH-------HHHHh-------
+Q rubivirusSS     414 VSCGGESDRA--------TARVIDPAAQSFTGVVYGTHTTAVSETRQTWAEWA----AAHW-------WQLTL-------  467 (496)
+Q Consensus       414 vscggesdra--------tarvidpaaqsftgvvygthttavsetrqtwaewa----aahw-------wqltl-------  467 (496)
+                             |..        ...-+++.   +.       .....+.++...++.    +.+-       .+..+       
+T Consensus       179 -------~~~~~~~~~~~~~~~~~~~---~~-------~~~~~~~~~~l~~~~~~~i~~~~~~~~~d~l~~ll~~~~~~~  241 (415)
+T 3mgx_A          179 -------DEDMLIDLTNHAFGGEDEL---FD-------GMTPRQAHTEILVYFDELITARRKEPGDDLVSTLVTDDDLTI  241 (415)
+T ss_dssp             -------GHHHHHHHHHHHTSCCC--------------CCCHHHHHHHHHHHHHHHHHHHHHSCCSSHHHHHHHCTTSCH
+T ss_pred             -------hHHHHHHHHHHHhcccccc---cc-------cccHHHHHHHHHHHHHHHHHHhhhcCcccHHHHHHhcCCCCH
+Confidence                   000        00000000   00       011233333333332    2221       11111       
+
+
+Q ss_pred             ----hhhhhhhhhh---HHHHhHHHHHhhhc
+Q rubivirusSS     468 ----GAICALPLAG---LLACCAKCLYYLRG  491 (496)
+Q Consensus       468 ----gaicalplag---llaccakclyylrg  491 (496)
+                          ..+..+=+||   .-.-..-.+|+|--
+T Consensus       242 ~~i~~~~~~~~~aG~~Tt~~~l~~~l~~L~~  272 (415)
+T 3mgx_A          242 DDVLLNCDNVLIGGNETTRHAITGAVHALAT  272 (415)
+T ss_dssp             HHHHHHHHHHHHHHHTTHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhhHHHHHHHHHHHHHHHh
+Confidence                1111111222   12223444555421
+
+
+No 19 
+>4fqd_A NIKO protein; beta/alpha inverse barrel, enolpyruvyl transferase, fosfomyc binding, transferase; 2.50A {Streptomyces tendae}
+Probab=0.00  E-value=4.7e+03  Score=2.09  Aligned_cols=137  Identities=18%  Similarity=0.157  Sum_probs=42.0
+
+Q ss_pred             cccCcceeeccCCC--CC-Cc--cccCCCccchhhHHHHhhhhcCCcceEEEEEeecceeEEEEEeeeeeeeeccCCCcC
+Q rubivirusSS     126 QYHPTACEVEPAFG--HS-DA--ACWGFPTDTVMSVFALASYVQHPHKTVRVKFHTETRTVWQLSVAGVSCNVTTEHPFC  200 (496)
+Q Consensus       126 qyhptacevepafg--hs-da--acwgfptdtvmsvfalasyvqhphktvrvkfhtetrtvwqlsvagvscnvttehpfc  200 (496)
+                      ++....-++++..+  +. +.  ..-+...|..+.+.+++.+.   ..++++  .                |+..|..  
+T Consensus       312 ~~~~~~i~i~~~~~~l~~~~i~~~~~~~~~d~~~~l~~la~~a---~g~~~i--~----------------~~~~~~~--  368 (479)
+T 4fqd_A          312 DVGADEVTAHPLTKPLRPVEFTAMSRGVFSDSQPFLALLGAYA---EGPTYI--R----------------EAVWEHR--  368 (479)
+T ss_dssp             EECSSEEEECCCSSCBCCCEEEECTTSBCTTTHHHHHHHHTTB---SEEEEE--E----------------ESSSSSC--
+T ss_pred             EEeCCeEEEEecCCCccceEEeCCCCCCcchhHHHHHHHHHhC---CCcEEE--E----------------eeechhH--
+Confidence            11222233444211  11 11  11355667777655556543   223322  2                1111211  
+
+
+Q ss_pred             CCCCcceEEecCCCCchHHHHHhhccCcccccccCCCCCCCCCCCCcccccccCCCccccccCCC-CCCceeeecCCCcc
+Q rubivirusSS     201 NTPHGQLEVQVPPDPGDLVEYIMNYTGNQQSRWGLGSPNCHGPDWASPVCQRHSPDCSRLVGATP-ERPRLRLVDADDPL  279 (496)
+Q Consensus       201 ntphgqlevqvppdpgdlveyimnytgnqqsrwglgspnchgpdwaspvcqrhspdcsrlvgatp-erprlrlvdaddpl  279 (496)
+                                     -..++.+..+-.+-. .-+                     +.-++-|..+ .++- ..+...|.-
+T Consensus       369 ---------------~~~~~~L~~lG~~i~-~~~---------------------~~i~i~g~~~~~~~~-~~~~~~D~r  410 (479)
+T 4fqd_A          369 ---------------FGFAPELEALGIRTA-VDD---------------------TVLRVDGPCPPHRPG-TDLRATDLR  410 (479)
+T ss_dssp             ---------------CTTHHHHHHHTCCEE-EET---------------------TEEEEEESCCCCCCS-EEEECCSHH
+T ss_pred             ---------------HHHHHHHHhCCceeE-EEC---------------------CEEEEECCCCCCCCc-ceeecCcHH
+Confidence                           155666655433322 110                     1112334332 1221 234556631
+
+
+Q ss_pred             -------cccCCCCcceEEeeec-ccc--------ccccceeeec--------cCCccceeeccceeecccC
+Q rubivirusSS     280 -------LRTAPGPGEVWVTPVI-GSQ--------ARKCGLHIRA--------GPYGHATVEMPEWIHAHTT  327 (496)
+Q Consensus       280 -------lrtapgpgevwvtpvi-gsq--------arkcglhira--------gpyghatvempewihaht~  327 (496)
+                             +-. -.+|++-+.-+- -+|        .+|.|..|..        =|-+|+.|.--   |-|.|
+T Consensus       411 ~a~~~~~~al-~~~g~~~I~n~~~~~~~~~~f~~~L~~lGa~i~~~~~~~~~~~~~~~~~~~~~---~~~~~  478 (479)
+T 4fqd_A          411 AAAVLLLAAL-AVPGRTTLRNHHHLARGYRDLVEDLVKLGADIRHTTAPDVRPKPPAGAGVDPA---HHHHH  478 (479)
+T ss_dssp             HHHHHHHHHT-TSSSEEEEECGGGGGGTCSCHHHHHHHTTCEEEEEECC-----------------------
+T ss_pred             HHHHHHHHHH-cCCCcEEEECceeecCCcchHHHHHHhCCCeEEEecCCCCCCCCchhcccCcc---ccccC
+Confidence                   101 134554444332 111        1124544431        12233333211   11111
+
+
+No 20 
+>3i44_A Aldehyde dehydrogenase; oxidoreductase, structural genomics, seattle structural genomics center for infectious disease, ssgcid; 2.00A {Bartonella henselae}
+Probab=0.00  E-value=4.7e+03  Score=1.70  Aligned_cols=93  Identities=14%  Similarity=0.191  Sum_probs=27.1
+
+Q ss_pred             cccCCCCCceeEEEeCccCCCCCCCceeeehhcCCCCCceeecCCcccccceeeeCcccccceeeEEeeeeccc------
+Q rubivirusSS     374 EGLAPGGGNCHLTVNGEDLGAVPPGKFVTAALLNTPPPYQVSCGGESDRATARVIDPAAQSFTGVVYGTHTTAV------  447 (496)
+Q Consensus       374 ~glapggg~~~~~~~~edlgavppgkfvtaallntpppyqvscggesdratarvidpaaqsftgvvygthttav------  447 (496)
+                      |.--||-+.....     .+..--|+++.              +  +...+..++||+..    -++++...+.      
+T Consensus        13 ~~~~~~~~~~~~~-----~~~~i~G~~~~--------------~--~~~~~~~~~~P~~g----~~i~~v~~~~~~~v~~   67 (497)
+T 3i44_A           13 EAQTQGPGSMLNK-----RKFYINGLWDD--------------P--STPHDLYVIDPSTE----EACAVISLGSTRDADK   67 (497)
+T ss_dssp             ---------CEEE-----CCEEETTEEEC--------------C--SSCCEEEEEETTTT----EEEEEEECCCHHHHHH
+T ss_pred             hhcccCCcccccc-----cCeeECCEEec--------------C--CCCCeEEEECCCCC----CEEEEEcCCCHHHHHH
+Confidence            1111111111111     00000122221              1  12346889999864    3445554432      
+
+
+Q ss_pred             --hhhhHhHHHHH-------HHHHHHH-------------HhhhhhhhhhhhH----HH-HhHHHHHhhhc
+Q rubivirusSS     448 --SETRQTWAEWA-------AAHWWQL-------------TLGAICALPLAGL----LA-CCAKCLYYLRG  491 (496)
+Q Consensus       448 --setrqtwaewa-------aahwwql-------------tlgaicalplagl----la-ccakclyylrg  491 (496)
+                        ...++.+..|.       +..-.++             .+..-...|+.-.    +. .-....++++-
+T Consensus        68 av~~a~~a~~~w~~~~~~~R~~~L~~~a~~l~~~~~~la~~~~~e~Gk~~~~~~~~e~~~~~~~~~~~~~~  138 (497)
+T 3i44_A           68 AINAAKKAFQTWKTTSPHERLGFVEKILEIYEKRSSDMAKTISMEMGAPIDMALNAQTATGSSHIRNFIKA  138 (497)
+T ss_dssp             HHHHHHHHHHHHTTSCHHHHHHHHHHHHHHHHHTHHHHHHHHHHHHCCCHHHHHHTHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhhhCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHH
+Confidence              23333344441       1111110             0111111222211    11 22233444432
+
+
+Done!

@@ -1,0 +1,443 @@
+Query         plasmodiumSS
+Match_columns 661
+No_of_seqs    199 out of 248
+Neff          7.1 
+Searched_HMMs 92
+Date          Thu Aug  4 12:31:13 2016
+Command       hhblits -cpu 30 -d /implacable/pdb70/pdb70 -i ./models/plasmodiumSS.a3m.hhm -ohhm ./structurepred/plasmodiumSS.a3m.hhm -o ./structurepred/plasmodiumSS.a3m.hhmpdb70.hhr -n 1 -maxmem 15 -b 20 -z 20 -B 2000 -Z 2000 -nodbfilter -mact .1 -ssm 2 -ssw .5 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 3idu_A Uncharacterized protein  15.9 1.1E+02   0.017   21.7  36.8   92  487-595    20-116 (127)
+  2 3zyz_A Beta-D-glucoside glucoh   4.3 7.3E+02    0.11   22.5  49.3  129  456-596   575-713 (713)
+  3 3q48_A Chaperone CUPB2; IG fol   0.7 1.6E+03    0.23   16.0  34.3   85  481-581    30-117 (257)
+  4 3fnv_A CDGSH iron sulfur domai   0.6 1.1E+03    0.14   15.3   2.2   38  149-186    40-80  (83)
+  5 3igf_A ALL4481 protein; two-do   0.2 3.7E+03    0.55   13.3  18.5   98  400-532   259-368 (374)
+  6 1wev_A Riken cDNA 1110020M19;    0.1 3.1E+03    0.47    9.7   2.1   19  632-650    34-52  (88)
+  7 3l0q_A Xylulose kinase; xlylul   0.1 4.9E+03    0.73   12.5  16.4   38  554-598     2-39  (554)
+  8 2obb_A Hypothetical protein; s   0.1 4.2E+03    0.62   10.3   6.0   31  576-607     3-48  (142)
+  9 2l6p_A PHAC1, PHAC2 and PHAD g   0.0 5.9E+03    0.84    8.8   8.7   25   72-98     13-37  (124)
+ 10 2ag5_A DHRS6, dehydrogenase/re   0.0 5.9E+03    0.92    7.8   4.8   14  278-291     2-15  (246)
+ 11 3e29_A Uncharacterized protein   0.0 6.2E+03    0.94    6.7  27.5   54  452-531    79-132 (144)
+ 12 1vh5_A Hypothetical protein YD   0.0 6.3E+03    0.94    6.8  33.8   56  464-535    83-142 (148)
+ 13 3llv_A Exopolyphosphatase-rela   0.0 6.1E+03    0.95    6.3   5.7   13  277-289     2-14  (141)
+ 14 2zex_A S-layer associated mult   0.0 6.3E+03    0.97    5.8  31.9   83  489-605    27-112 (147)
+ 15 2pw6_A Uncharacterized protein   0.0 6.7E+03    0.98    7.7   7.2   82  245-369   137-235 (271)
+ 16 1sc0_A Hypothetical protein HI   0.0 6.5E+03    0.99    5.4  34.4   52  465-532    82-137 (138)
+ 17 1mw7_A Hypothetical protein HP   0.0 7.1E+03    0.99    7.2  15.6   71  197-287    77-176 (240)
+ 18 2rrl_A FLIK, flagellar HOOK-le   0.0 7.3E+03    0.99    6.7  16.8   59  466-568    87-154 (169)
+ 19 2cal_A Rusticyanin; iron respi   0.0 6.8E+03       1    5.4  32.4  113  451-590    25-145 (154)
+ 20 3u48_A JMB19063; TIM barrel, b   0.0 6.9E+03       1    7.6  57.3  157  392-595   562-719 (775)
+
+No 1  
+>3idu_A Uncharacterized protein; all beta-protein, structural genomics, PSI-2, protein structure initiative; 1.70A {Pyrococcus furiosus} PDB: 2kl6_A 2m8x_A
+Probab=15.89  E-value=1.1e+02  Score=21.71  Aligned_cols=92  Identities=15%  Similarity=0.126  Sum_probs=0.0
+
+Q ss_pred             eeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEeccccceeeccCcccccccccccCCceEEeeeeeh
+Q plasmodiumSS    487 TITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVDKSTQQVATHISPISKINAHIDANKNYAFYFIIKF  566 (661)
+Q Consensus       487 ~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~~~~~~~~~~v~pi~~~~~~i~p~~~~~~~f~i~~  566 (661)
+                      .|. +..+......+    .-.+.|.|.|. |...+ ..+.+.-.        .+-..+..+.+.|+|++...++|.+.+
+T Consensus        20 ~v~-v~~p~~~~~g~----~~~i~v~V~N~-G~~~~-~~~~v~l~--------~~~~~~~~~~v~l~~g~~~tv~f~~~~   84 (127)
+T 3idu_A           20 TVE-IKGPDVVGVNK----LAEYEVHVKNL-GGIGV-PSTKVRVY--------INGTLYKNWTVSLGPKEEKVLTFNWTP   84 (127)
+T ss_dssp             EEE-EESCSEECTTC----CEEEEEEEEEC-SSSCE-EEEEEEEE--------ETTEEEEEEEEEECTTCEEEEEEEECC
+T ss_pred             EEE-EeCCCcccCCC----EEEEEEEEEEC-CCCCC-CCEEEEEE--------ECCEEEEEEEEEECCCCEEEEEEEEEc
+
+
+Q ss_pred             hhcccccccceeeeecCC-----Cccccceeeec
+Q plasmodiumSS    567 LINKKITSNCTAILKDAD-----GRECSKLSFNL  595 (661)
+Q Consensus       567 ~~~~~~~~~C~v~L~ds~-----~~~ld~~~~~f  595 (661)
+                        ...+.+...|.+...+     ...-++....+
+T Consensus        85 --~~~G~~~~~~~v~~~~~~~e~n~~NN~~~~~v  116 (127)
+T 3idu_A           85 --TQEGMYRINATVDEENTVVELNENNNVATFDV  116 (127)
+T ss_dssp             --SSCEEEEEEEEESTTCCSCCSCSSSSEEEEEE
+T ss_pred             --CCCeEEEEEEEECCCCceecccCCCCceeEEE
+
+
+No 2  
+>3zyz_A Beta-D-glucoside glucohydrolase; HET: NAG BGC; 2.10A {Hypocrea jecorina} PDB: 3zz1_A* 4i8d_A*
+Probab=4.33  E-value=7.3e+02  Score=22.49  Aligned_cols=129  Identities=6%  Similarity=-0.058  Sum_probs=0.0
+
+Q ss_pred             eeeeecCceEEEEEEecCceEEeeeeecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEeccc
+Q plasmodiumSS    456 IDYKYNGNHTVEIKFETNALEVHEIRPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVDKST  535 (661)
+Q Consensus       456 l~~~~~~~~~s~i~Ie~~Ad~i~~i~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~~~~  535 (661)
+                      .++.|+.-.-+.+++......-.     ....+........+      ...-++.|.|+|+ |.+.+.-.|++.=....+
+T Consensus       575 ~GLSYt~F~~~~~~~~~~~~~~~-----~~~~~~~~~~~~~~------~~~~~vsv~V~Nt-G~~~g~evvqlY~~~~~~  642 (713)
+T 3zyz_A          575 YGLSYTKFNYSRLSVLSTAKSGP-----ATGAVVPGGPSDLF------QNVATVTVDIANS-GQVTGAEVAQLYITYPSS  642 (713)
+T ss_dssp             CCBCSSCEEEEEEEEEECCCCEE-----CCSCEETTEETTTT------SEEEEEEEEEEEC-SSSCEEEEEEEEEECCTT
+T ss_pred             CCCccCcceeeeccccccccccc-----ccccccCCCccccc------cceEEEEEEEEec-CcccceeeEEEEeccCCC
+
+
+Q ss_pred             cceeeccCcccccccccccCCceEEeeeeehhhc----------ccccccceeeeecCCCccccceeeecc
+Q plasmodiumSS    536 QQVATHISPISKINAHIDANKNYAFYFIIKFLIN----------KKITSNCTAILKDADGRECSKLSFNLT  596 (661)
+Q Consensus       536 ~~~~~~v~pi~~~~~~i~p~~~~~~~f~i~~~~~----------~~~~~~C~v~L~ds~~~~ld~~~~~f~  596 (661)
+                      ........-.-=+++.|+|+++...+|+|....-          ......-.+.+-.+......+..+.+.
+T Consensus       643 ~~~~p~k~L~gF~kv~L~pGe~~~v~~~~~~~~l~~~d~~~~~~~~~~G~y~~~vg~ss~~~~~~~~~~~~  713 (713)
+T 3zyz_A          643 APRTPPKQLRGFAKLNLTPGQSGTATFNIRRRDLSYWDTASQKWVVPSGSFGISVGASSRDIRLTSTLSVA  713 (713)
+T ss_dssp             SSSCCSCEEEEEEEEEECTTCEEEEEEEEEGGGGCEEETTTTEEEECCEEEEEEEESSSSCEEEEEEEEEC
+T ss_pred             CcccchHHHHhhhhhccCCCceEEEEEEEcHHHeeEEecCCCeEEEeCcEEEEEEECCCCCcceeEEEEeC
+
+
+No 3  
+>3q48_A Chaperone CUPB2; IG fold, periplasmic chaperone; 2.50A {Pseudomonas aeruginosa}
+Probab=0.70  E-value=1.6e+03  Score=16.00  Aligned_cols=85  Identities=7%  Similarity=-0.002  Sum_probs=0.0
+
+Q ss_pred             eecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEeccccceeeccCc---ccccccccccCCc
+Q plasmodiumSS    481 RPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVDKSTQQVATHISP---ISKINAHIDANKN  557 (661)
+Q Consensus       481 ~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~~~~~~~~~~v~p---i~~~~~~i~p~~~  557 (661)
+                      .+.+|.++.--            ...+...+.|.|+ |  +..+.+++.=.+...+.......+   +++..+.|+|++.
+T Consensus        30 i~V~p~~i~~~------------~~~~~~~i~v~N~-~--~~~~~v~~~~~~~g~~~~~~s~~~~~~vsP~~~~L~pg~~   94 (257)
+T 3q48_A           30 LIAQGTRVVFP------------ASEREVTLRVSNT-S--GTPVLAQAWIDDGRQDVPPEELQVPFSVTPAVTRVEPNGG   94 (257)
+T ss_dssp             -CCSCSEEEEE------------TTCSEEEEEEEEC-S--SSCEEEEEEEESSCCSSCGGGGCCSEEEESSEEEECTTEE
+T ss_pred             EEecceEEEEe------------CCCceEEEEEEeC-C--CCcEEEEEEEecCCCcccccccCCCEEEeCCEEEECCCCc
+
+
+Q ss_pred             eEEeeeeehhhcccccccceeeee
+Q plasmodiumSS    558 YAFYFIIKFLINKKITSNCTAILK  581 (661)
+Q Consensus       558 ~~~~f~i~~~~~~~~~~~C~v~L~  581 (661)
+                      +.+.+.+.. ............|.
+T Consensus        95 q~vrv~~~~-~~~~~~~E~~y~l~  117 (257)
+T 3q48_A           95 AVLRIAYLK-APLPTDRESLFWLN  117 (257)
+T ss_dssp             EEEEEEECC-CCCCSSSCEEEEEE
+T ss_pred             eEEEEEecC-CCCCCCceEEEEEE
+
+
+No 4  
+>3fnv_A CDGSH iron sulfur domain-containing protein 2; diabetes, membrane bound, thiazolidinedione, oxidative stres endoplasmic reticulum, membrane; 2.10A {Homo sapiens}
+Probab=0.58  E-value=1.1e+03  Score=15.26  Aligned_cols=38  Identities=11%  Similarity=0.155  Sum_probs=15.9
+
+Q ss_pred             ccccCcccccCccceeecCCccccce---eeeeeeeeeeec
+Q plasmodiumSS    149 EYTRGESCICPSYHLFKNDNSIKRAK---LKCTYFNMLFTD  186 (661)
+Q Consensus       149 ~~sqgfCC~C~~~~~~~~~~~~~R~~---l~C~~~~~~~~~  186 (661)
+                      ....-.=|.|+....+|.+....+..   ...+.....+-.
+T Consensus        40 ~~~~~~~CrCg~S~~~PfCDGSH~~~~~~~gdn~gPl~~~~   80 (83)
+T 3fnv_A           40 SLTKAAYCRCWRSKTFPACDGSHNKHNELTGDNVGPLILKK   80 (83)
+T ss_dssp             CSSEEEECSSSCCTTTTBCCSHHHHHHHHHCCCEEEEEEEC
+T ss_pred             CCceEEEEecCcccCccCCCCcccCcccccCCcccceEEEe
+Confidence            11122458888777677777553310   011112211111
+
+
+No 5  
+>3igf_A ALL4481 protein; two-domained protein consisting of the N-terminal alpha-beta the C-terminal all beta domain., structural genomics; 2.00A {Nostoc SP}
+Probab=0.17  E-value=3.7e+03  Score=13.32  Aligned_cols=98  Identities=14%  Similarity=0.110  Sum_probs=35.5
+
+Q ss_pred             eccccCCCCceeeeecccCCch--hhhccc--------CCCCccccccccCcccccccccccccceeeeeecCc--eEEE
+Q plasmodiumSS    400 IKNIYGSEPQTKVYTSAKLPNY--LKDKVD--------SNNNKSYDINDIDNKIFYNENAAAHSHFIDYKYNGN--HTVE  467 (661)
+Q Consensus       400 l~~~~g~~p~~~~~~~~~~p~~--~~~~i~--------~~~~~~~d~~~~~~~~~~~~~~~~~~~~l~~~~~~~--~~s~  467 (661)
+                      +...|+..|. ..-+.-..+.+  ..+.+.        ..+.-.++               ...+.+.+.+.+.  ..-.
+T Consensus       259 i~~~~~~~p~-~~ip~~g~~~l~~~~~~l~~~~~~~~~~~~~~~i~---------------~~~~~~~~~lpg~~~~~i~  322 (374)
+T 3igf_A          259 LSAEFTPLSV-TVVPDVTKGDWQPLIDALPNFVEQAEQAPKPITID---------------THNRQVRLFLPGFDKKQVK  322 (374)
+T ss_dssp             CGGGSTTSCE-EECCCCBTTBCHHHHHHCCCHHHHHHHSCCSEEEE---------------TTTTEEEEECTTCCGGGCE
+T ss_pred             HHHhcCCCce-eeccccChhHHHHHHHhhcccCCccccCCCCceEE---------------CCEEEEEEECCCCchHheE
+Confidence            1112333221 11110011111  111111        11111111               2356666665422  1223
+
+
+Q ss_pred             EEEecCceEEeeeeecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEe
+Q plasmodiumSS    468 IKFETNALEVHEIRPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVD  532 (661)
+Q Consensus       468 i~Ie~~Ad~i~~i~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~  532 (661)
+                      |.++  .+.+.... .  ..--.+.+|....      ..-.+.....|  |-+.      |.=.+
+T Consensus       323 i~~~--~~~L~i~~-~--~~~r~i~LP~~~~------~~~~~~A~~~~--g~L~------i~~~~  368 (374)
+T 3igf_A          323 LTQY--GPEVTVEA-G--DQRRNIFLPPALS------GRPITGAKFQN--NYLI------ISFLE  368 (374)
+T ss_dssp             EEEE--TTEEEEEE-T--TEEEEEECCTTTT------TCCEEEEEEET--TEEE------EEECC
+T ss_pred             EEEE--CCEEEEEE-e--eEEEEEECChhhC------ccCceEEEEEC--CEEE------EEEcc
+Confidence            3333  44555432 2  2344557786442      23267888888  5532      22211
+
+
+No 6  
+>1wev_A Riken cDNA 1110020M19; structural genomics, PHD domain, riken structural genomics/proteomics initiative, RSGI, gene regulation; NMR {Mus musculus} SCOP: g.50.1.2
+Probab=0.11  E-value=3.1e+03  Score=9.66  Aligned_cols=19  Identities=11%  Similarity=0.333  Sum_probs=6.4
+
+Q ss_pred             CCCCccccchhhhheehcc
+Q plasmodiumSS    632 PTADKCDCYFNLLCYILNL  650 (661)
+Q Consensus       632 ~~~~~C~~~~~~~C~i~~~  650 (661)
+                      ..|..|...+-..|+-...
+T Consensus        34 ~~C~~C~~~~h~~C~~~~~   52 (88)
+T 1wev_A           34 VECQECHNLYHQDCHKPQV   52 (88)
+T ss_dssp             EECSSSCCEEETTTSSSCC
+T ss_pred             eECCCCCcHHhHhhCCCcc
+Confidence            1133444334444442111
+
+
+No 7  
+>3l0q_A Xylulose kinase; xlylulose kinase, SGX, PSI, structural genomics, protein structure initiative; HET: MSE XUL EPE; 1.61A {Yersinia pseudotuberculosis} PDB: 3gg4_A*
+Probab=0.10  E-value=4.9e+03  Score=12.53  Aligned_cols=38  Identities=21%  Similarity=0.132  Sum_probs=22.9
+
+Q ss_pred             cCCceEEeeeeehhhcccccccceeeeecCCCccccceeeecccc
+Q plasmodiumSS    554 ANKNYAFYFIIKFLINKKITSNCTAILKDADGRECSKLSFNLTSK  598 (661)
+Q Consensus       554 p~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~~ld~~~~~f~t~  598 (661)
+                      .......-+.+-       ++.+.+.|+|.+|.++......+...
+T Consensus         2 ~~~~~~lgID~G-------Tts~Ka~l~d~~g~~~~~~~~~~~~~   39 (554)
+T 3l0q_A            2 SLASYFIGVDVG-------TGSARAGVFDLQGRMVGQASREITMF   39 (554)
+T ss_dssp             --CCEEEEEEEC-------SSEEEEEEEETTSCEEEEEEEECCCE
+T ss_pred             CCCCEEEEEEeC-------CCCEEEEEEcCCCCEEEEEEeecccc
+Confidence            123344444443       67888899998888777666654421
+
+
+No 8  
+>2obb_A Hypothetical protein; structural genomics, PSI-2, PR structure initiative, midwest center for structural genomic unknown function; 2.20A {Bacteroides thetaiotaomicron} SCOP: c.108.1.25
+Probab=0.08  E-value=4.2e+03  Score=10.32  Aligned_cols=31  Identities=19%  Similarity=0.037  Sum_probs=13.6
+
+Q ss_pred             ceeeeecCCCccccce---eeecc------------ccceeeeeecc
+Q plasmodiumSS    576 CTAILKDADGRECSKL---SFNLT------------SKETINVVESG  607 (661)
+Q Consensus       576 C~v~L~ds~~~~ld~~---~~~f~------------t~~t~~~~~~~  607 (661)
+                      =.+++.|-+|.+++..   .....            ....+... +.
+T Consensus         3 ~k~i~~D~DgtL~~~~~~~~~~~~~~a~~~L~~L~~~g~~v~iv-T~   48 (142)
+T 2obb_A            3 AMTIAVDFDGTIVEHRYPRIGEEIPFAVETLKLLQQEKHRLILW-SV   48 (142)
+T ss_dssp             CCEEEECCBTTTBCSCTTSCCCBCTTHHHHHHHHHHTTCEEEEC-CS
+T ss_pred             ceEEEEeCCCcccCCCCcccCCCCHHHHHHHHHHHHCCCEEEEE-eC
+Confidence            1377888888887752   11111            11222211 11
+
+
+No 9  
+>2l6p_A PHAC1, PHAC2 and PHAD genes; DUF971, structural genomics, PSI-biology, protein structure initiative, joint center for structural genomics; NMR {Pseudomonas aeruginosa}
+Probab=0.04  E-value=5.9e+03  Score=8.75  Aligned_cols=25  Identities=8%  Similarity=0.094  Sum_probs=11.0
+
+Q ss_pred             cCceeEEEEeeeeEEeeeehhhcccCc
+Q plasmodiumSS     72 EGKGYFVTIRRDYVTISYYLKYMKDIP   98 (661)
+Q Consensus        72 ~~~p~~Iti~ks~v~~~YpL~Y~~~v~   98 (661)
+                      .++.+.|+..-. . ..|+..++|+-=
+T Consensus        13 ~~~~l~v~~~dg-~-~~~~~~wLRd~C   37 (124)
+T 2l6p_A           13 ASKTLTLRYGED-S-YDLPAEFLRVHS   37 (124)
+T ss_dssp             TTCEEEEEETTE-E-EEEEHHHHHHTC
+T ss_pred             CCCeEEEEEcCC-C-EeeCHHHHHHcC
+Confidence            122444444322 3 667765554321
+
+
+No 10 
+>2ag5_A DHRS6, dehydrogenase/reductase (SDR family) member 6; protein-CO-factor complex, structural genomics, structural G consortium, SGC, oxidoreductase; HET: NAD; 1.84A {Homo sapiens} SCOP: c.2.1.2
+Probab=0.02  E-value=5.9e+03  Score=7.82  Aligned_cols=14  Identities=7%  Similarity=0.280  Sum_probs=7.0
+
+Q ss_pred             eeecCCEEEecCCC
+Q plasmodiumSS    278 INLSNDYVVIPSSP  291 (661)
+Q Consensus       278 ~~l~~~yLliP~~p  291 (661)
+                      ..+.++.++|=-..
+T Consensus         2 ~~~~~~~~lVtG~~   15 (246)
+T 2ag5_A            2 GRLDGKVIILTAAA   15 (246)
+T ss_dssp             CTTTTCEEEESSTT
+T ss_pred             CCCCCeEEEEECCC
+Confidence            12456777774321
+
+
+No 11 
+>3e29_A Uncharacterized protein Q7WE92_borbr; Q7WE92 NESG, structural genomics, PSI-2, Pro structure initiative; 2.40A {Bordetella bronchiseptica}
+Probab=0.02  E-value=6.2e+03  Score=6.74  Aligned_cols=54  Identities=9%  Similarity=0.110  Sum_probs=23.2
+
+Q ss_pred             ccceeeeeecCceEEEEEEecCceEEeeeeecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEE
+Q plasmodiumSS    452 HSHFIDYKYNGNHTVEIKFETNALEVHEIRPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCV  531 (661)
+Q Consensus       452 ~~~~l~~~~~~~~~s~i~Ie~~Ad~i~~i~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~  531 (661)
+                      -...+++.+..+        +..+++..     .++++..  .         .+...+.+.++|..|.+-+.=  +..+.
+T Consensus        79 v~~~~~i~fl~p--------~~~g~i~v-----~~~v~~~--~---------~~~~~~~~~i~~~~g~~va~~--~~~~~  132 (144)
+T 3e29_A           79 PTMDMHVDYHRV--------ATPGDLRA-----EGQVIHF--G---------KRFATAHARVLDMDGNLVASG--RALYL  132 (144)
+T ss_dssp             CEEEEEEEECSC--------CCSSCEEE-----EEEEEEE--C---------SSEEEEEEEEEETTCCEEEEE--EEEEE
+T ss_pred             EEEEEEEEEEcc--------CCCCcEEE-----EEEEEEc--C---------CcEEEEEEEEEeCCCCEEEEE--EEEEE
+Confidence            112222223232        22222433     3455544  1         358899999998525432221  11222
+
+
+No 12 
+>1vh5_A Hypothetical protein YDII; PSI, protein structure initiative, NEW YORK SGX research center for structural genomics, nysgxrc; 1.34A {Escherichia coli} SCOP: d.38.1.5 PDB: 1vi8_A 4k49_C* 4k4a_A* 4k4b_A* 1sbk_A
+Probab=0.02  E-value=6.3e+03  Score=6.82  Aligned_cols=56  Identities=9%  Similarity=0.098  Sum_probs=28.4
+
+Q ss_pred             eEEEEEEecC----ceEEeeeeecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEeccc
+Q plasmodiumSS    464 HTVEIKFETN----ALEVHEIRPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVDKST  535 (661)
+Q Consensus       464 ~~s~i~Ie~~----Ad~i~~i~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~~~~  535 (661)
+                      ....+.|+..    ++.+..     .++++..  .         .+...+.+.+.|..|.+-+.....+.-.+..+
+T Consensus        83 ~~~~~~i~y~~p~~~g~l~v-----~~~v~~~--~---------~~~~~~~~~i~~~~g~~va~~~~~~~~~~~~~  142 (148)
+T 1vh5_A           83 VGLEINANHVRSAREGRVRG-----VCKPLHL--G---------SRHQVWQIEIFDEKGRLCCSSRLTTAILEGGS  142 (148)
+T ss_dssp             EEEEEEEEECSCCCSSEEEE-----EEEEEEE--C---------SSEEEEEEEEECTTSCEEEEEEEEEEEEC---
+T ss_pred             EEEEEEEEEEcCCCCCeEEE-----EEEEEec--C---------CcEEEEEEEEECCCCcEEEEEEEEEEEcCCCc
+Confidence            1122222221    222322     2444443  2         35899999999843788777777776664211
+
+
+No 13 
+>3llv_A Exopolyphosphatase-related protein; NAD(P)-binding, rossmann, PSI, M structural genomics; 1.70A {Archaeoglobus fulgidus}
+Probab=0.02  E-value=6.1e+03  Score=6.28  Aligned_cols=13  Identities=38%  Similarity=0.396  Sum_probs=5.8
+
+Q ss_pred             EeeecCCEEEecC
+Q plasmodiumSS    277 LINLSNDYVVIPS  289 (661)
+Q Consensus       277 ~~~l~~~yLliP~  289 (661)
+                      .+....+.+++=.
+T Consensus         2 ~~~~~~~i~viG~   14 (141)
+T 3llv_A            2 TENGRYEYIVIGS   14 (141)
+T ss_dssp             ----CCSEEEECC
+T ss_pred             CCCCCCeEEEEcC
+Confidence            1235677888821
+
+
+No 14 
+>2zex_A S-layer associated multidomain endoglucanase; family 16 CBM-1 cellopentaose complex, glycosidase, hydrolase; HET: BGC; 1.20A {Thermoanaerobacteriumpolysaccharolyticum} PDB: 2zew_A 2zey_A* 3oea_A* 3oeb_A*
+Probab=0.02  E-value=6.3e+03  Score=5.80  Aligned_cols=83  Identities=11%  Similarity=-0.020  Sum_probs=30.6
+
+Q ss_pred             EEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEeccccceeeccCcccccccccccCCceEEeeeeehhh
+Q plasmodiumSS    489 THITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVDKSTQQVATHISPISKINAHIDANKNYAFYFIIKFLI  568 (661)
+Q Consensus       489 ~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~~~~~~~~~~v~pi~~~~~~i~p~~~~~~~f~i~~~~  568 (661)
+                      ..+.... . .  +.. .   .+.+.+. ..    .  ..  .+        .        +.+.|++.+.+++-++...
+T Consensus        27 ~~~~~~~-~-~--~g~-~---~~~~~~~-~~----~--~~--~q--------~--------~~l~~g~~Y~~s~~~~~~~   73 (147)
+T 2zex_A           27 MSAVPEA-A-H--NGA-L---GLKIGGG-KA----A--GG--GQ--------D--------IPLKPNTTYILGAWAKFDS   73 (147)
+T ss_dssp             EEEEGGG-C-S--SSS-C---EEEECSS-SC----E--EE--EE--------E--------CCCCTTCEEEEEEEEEESS
+T ss_pred             eEecccc-c-C--CCc-e---EEEEecC-cc----c--Cc--cc--------e--------EEeCCCCEEEEEEEEEeCC
+Confidence            1121111 1 1  111 2   3555554 32    0  11  11        1        2278888889988888653
+
+
+Q ss_pred             cccccccceeeeecCCCcc--ccceeeeccc-cceeeeee
+Q plasmodiumSS    569 NKKITSNCTAILKDADGRE--CSKLSFNLTS-KETINVVE  605 (661)
+Q Consensus       569 ~~~~~~~C~v~L~ds~~~~--ld~~~~~f~t-~~t~~~~~  605 (661)
+                      .......+.+.+.+.....  .. ....... .=+.....
+T Consensus        74 ~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~W~~~~~~  112 (147)
+T 2zex_A           74 KPAGTFDVVVQYHLKDANNTYVQ-HILNFNETDWTYKQLL  112 (147)
+T ss_dssp             CCSSCEEEEEEEEBSSTTCCEEE-EEEEECCSSCEEEEEE
+T ss_pred             CCCccEEEEEEEecCCCCccccc-eeeeecCCCCEEEEEE
+Confidence            3222233334444442221  11 1122211 11111111
+
+
+No 15 
+>2pw6_A Uncharacterized protein YGID; JW3007, escherichia coli structural genomics, protein structure, riken and PSI, protein structu initiative; 2.27A {Escherichia coli} SCOP: c.56.6.1
+Probab=0.02  E-value=6.7e+03  Score=7.71  Aligned_cols=82  Identities=4%  Similarity=-0.211  Sum_probs=22.1
+
+Q ss_pred             ceeecccc----hhh-------hcc-ccceeeEeeecccccceeEeeecCCEEEecCCCCCCccchhhhhhhhcCCCcCC
+Q plasmodiumSS    245 KKYEINDS----MSE-------IRD-DYFDLWLFLRGERHGKRTLINLSNDYVVIPSSPLDDADVIETDVMRNCGLKEDN  312 (661)
+Q Consensus       245 ~~~~l~~s----~~~-------~~~-~~~~i~~~ligd~~~~~~~~~l~~~yLliP~~p~~~~~v~~s~~~~~c~~~~~~  312 (661)
+                      ..+.++.+    ...       ++. .+..+-+-..|++.++-..     .   -|. +.....-.+..           
+T Consensus       137 pvVpis~~~~~~~~~~~~lG~aL~~~~~~rv~iI~SG~lsH~l~~-----~---~~~-~~~~~~~~a~~-----------  196 (271)
+T 2pw6_A          137 PMVQLSIDSSKPAAWHFEMGRKLAALRDEGIMLVASGNVVHNLRT-----V---KWH-GDSSPYPWATS-----------  196 (271)
+T ss_dssp             CEEEEEEETTSCHHHHHHHHHHHGGGGGGTEEEEEEECSSCCTTS-----C---CSS-SCCCCCHHHHH-----------
+T ss_pred             CEEEeeccCCCCHHHHHHHHHHHHHHhhCCEEEEecCcccccccc-----c---ccc-ccccCCchHHH-----------
+Confidence            12222221    110       111 3566777778887544210     0   011 11111111111           
+
+
+Q ss_pred             CCCcCCCccccCccchhhhHhhhccchhhhcccc---cccccccccc--cccccCCCCcccC
+Q plasmodiumSS    313 PALKGCDYKHECNIIHPCLVKAMMLPKYLFDLSG---KTCNKLGVSL--NKWRNSDGNFCGS  369 (661)
+Q Consensus       313 ~~~~~~~~~~~c~~~~~c~~~~mll~k~~v~~~G---~eCnKIGVs~--~af~~~q~~~C~~  369 (661)
+                                        ..+|++ +  .+. +|   ..-+-....-  ..... ++..|..
+T Consensus       197 ------------------fD~~~~-~--~l~-~~d~~~~~~l~~l~~~~~~~~~-~~~~~~~  235 (271)
+T 2pw6_A          197 ------------------FNEYVK-A--NLT-WQGPVEQHPLVNYLDHEGGTLS-NPTPEHY  235 (271)
+T ss_dssp             ------------------HHHHHH-T--TTT-CCSCGGGCTTTSGGGSTTHHHH-CSSSTTT
+T ss_pred             ------------------HHHHHH-H--HHH-cCChhHHHHHHHHHhCcchhhc-CCCccch
+Confidence                              333321 0  111 11   1111111110  01111 2233311
+
+
+No 16 
+>1sc0_A Hypothetical protein HI1161; structural genomics, unknown function, PSI-2, protein structure initiative; 1.70A {Haemophilus influenzae} SCOP: d.38.1.5 PDB: 2b6e_A 3lz7_A
+Probab=0.02  E-value=6.5e+03  Score=5.35  Aligned_cols=52  Identities=6%  Similarity=0.058  Sum_probs=28.7
+
+Q ss_pred             EEEEEEe----cCceEEeeeeecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEe
+Q plasmodiumSS    465 TVEIKFE----TNALEVHEIRPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVD  532 (661)
+Q Consensus       465 ~s~i~Ie----~~Ad~i~~i~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~  532 (661)
+                      ...+.++    +..+++..     .++|+..  .         .+...+.+.+.+..|++-+.-...+.+.+
+T Consensus        82 ~~~~~v~f~~pv~~g~l~~-----~~~v~~~--~---------~~~~~~~~~i~~~~~~~va~~~~~~~~~~  137 (138)
+T 1sc0_A           82 GLDINANHLRPVRSGKVTA-----RATPINL--G---------RNIQVWQIDIRTEENKLCCVSRLTLSVIN  137 (138)
+T ss_dssp             EEEEEEEECSCCCSSEEEE-----EEEEEEE--C---------SSEEEEEEEEECTTSCEEEEEEEEEEEEC
+T ss_pred             EEEEEeEEecCCCCCeEEE-----EEEEEEC--C---------CeEEEEEEEEEcCCCcEEEEEEEEEEEec
+Confidence            1122222    22333433     2455544  1         35899999999943777777766666652
+
+
+No 17 
+>1mw7_A Hypothetical protein HP0162; structural genomics, PSI, protein structure initiative, northeast structural genomics consortium, NESG; 2.00A {Helicobacter pylori} SCOP: e.39.1.1
+Probab=0.01  E-value=7.1e+03  Score=7.24  Aligned_cols=71  Identities=10%  Similarity=0.053  Sum_probs=21.9
+
+Q ss_pred             eeeeeeEEEeeecCCcccceeeEEEEeEEeec-------------cc-cCccccc---ccc-ccccceeecccc------
+Q plasmodiumSS    197 IMDLFYFSVYEIDYPPIFNTYIDITIQEYTYD-------------DV-SGMSLNK---HDL-VTKEKKYEINDS------  252 (661)
+Q Consensus       197 r~~~~wY~~y~i~~~~~f~~~v~v~i~~~~~~-------------d~-~~~~~~~---~~~-~~k~~~~~l~~s------  252 (661)
+                      .+...+|.+|..+.       +.+.+....-+             .. .......   ..+ ..+ ..+.+...      
+T Consensus        77 ~~~~~~yE~~gp~g-------v~iive~~TdN~~rt~~~ir~~~~k~ggg~l~~~gsv~~~F~~k-G~i~v~~~~~~~~~  148 (240)
+T 1mw7_A           77 NLSEITYEGKANFG-------VLIIMECMTDNPTRTIANLKSYFNKTQGASIVPNGSLEFMFNRK-SVFECLKNEVENLK  148 (240)
+T ss_dssp             CCEEEEEEEEETTT-------EEEEEEEEESCHHHHHHHHHHHHTTSTTCEEECTTTTTTSEEEE-EEEEEEHHHHHHTT
+T ss_pred             CceEEEEEeecCCC-------ceeEEEEecCCHHHHHHHHHHHHHhcCCceECCCcchheeeccc-cEEEEccCcccccc
+Confidence            12344799998887       33555554333             11 1111111   111 111 12222211      
+
+
+Q ss_pred             --hhh---hccccceeeEeeecccccceeEeeecCCEEEe
+Q plasmodiumSS    253 --MSE---IRDDYFDLWLFLRGERHGKRTLINLSNDYVVI  287 (661)
+Q Consensus       253 --~~~---~~~~~~~i~~~ligd~~~~~~~~~l~~~yLli  287 (661)
+                        ...   +..+            .|-..+-.-++.|.|+
+T Consensus       149 ~~~d~~~e~AIe------------~GAeDv~~~~~~~~~~  176 (240)
+T 1mw7_A          149 LSLEDLEFALID------------YGLEELEEVEDKIIIR  176 (240)
+T ss_dssp             CCHHHHHHHHGG------------GTEEEEEEETTEEEEE
+T ss_pred             CCHHHHHHHHHh------------cCCceeecccceEEEE
+Confidence              000   0001            1222221112222222
+
+
+No 18 
+>2rrl_A FLIK, flagellar HOOK-length control protein; FLHB, bacterial flagella motor, P transport; NMR {Salmonella typhimurium}
+Probab=0.01  E-value=7.3e+03  Score=6.73  Aligned_cols=59  Identities=3%  Similarity=-0.057  Sum_probs=17.0
+
+Q ss_pred             EEEEEecCceEEeeeeecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEeccccceeeccCcc
+Q plasmodiumSS    466 VEIKFETNALEVHEIRPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVDKSTQQVATHISPI  545 (661)
+Q Consensus       466 s~i~Ie~~Ad~i~~i~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~~~~~~~~~~v~pi  545 (661)
+                      ..++|.++-.        ..|                   .-.|++.+.+  |.+.    +.|...           .+-
+T Consensus        87 ~~~~I~L~Pe--------~LG-------------------~V~I~l~~~~--~~l~----v~~~A~-----------~~~  122 (169)
+T 2rrl_A           87 QSAQLRLHPE--------ELG-------------------QVHISLKLDD--NQAQ----LQMVSP-----------HSH  122 (169)
+T ss_dssp             CEEEECCSSG--------GGC-------------------CEEEEEEEET--TEEE----EEEECC-----------SSH
+T ss_pred             ceEEEEeCcc--------ccC-------------------CEEEEEEEeC--CEEE----EEEEcC-----------CHH
+Confidence            1344444411        223                   3344444444  2211    111111           110
+
+
+Q ss_pred             ---------cccccccccCCceEEeeeeehhh
+Q plasmodiumSS    546 ---------SKINAHIDANKNYAFYFIIKFLI  568 (661)
+Q Consensus       546 ---------~~~~~~i~p~~~~~~~f~i~~~~  568 (661)
+                               ...+-.+..+....-.+.+....
+T Consensus       123 t~~~Le~~l~~Lr~~L~~~Gl~l~~~~V~~~~  154 (169)
+T 2rrl_A          123 VRAALEAALPMLRTQLAESGIQLGQSSISSES  154 (169)
+T ss_dssp             HHHHHHHTHHHHHHHHHTTTCEEEEEEEESSC
+T ss_pred             HHHHHHHhHHHHHHHHHHCCCCeeeeEEecCC
+Confidence                     00001222333333333333211
+
+
+No 19 
+>2cal_A Rusticyanin; iron respiratory electron transport chain, blue protein, electron transport, metal- binding, periplasmic; 1.10A {Thiobacillus ferrooxidans} PDB: 1cur_A 1gy2_A 1a3z_A 1e30_A 1gy1_A 1rcy_A 1a8z_A 2cak_A
+Probab=0.01  E-value=6.8e+03  Score=5.38  Aligned_cols=113  Identities=13%  Similarity=0.032  Sum_probs=37.4
+
+Q ss_pred             cccceeeeeecCceEEEEEEec-Cc-eEEeeeeecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCc-eeecceeEE
+Q plasmodiumSS    451 AHSHFIDYKYNGNHTVEIKFET-NA-LEVHEIRPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNK-TIGANFSCH  527 (661)
+Q Consensus       451 ~~~~~l~~~~~~~~~s~i~Ie~-~A-d~i~~i~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G-~~~a~y~v~  527 (661)
+                      .....  +.++....+...+.- .+ ....+--...++..+.+  +.          +-.+++.+.|. + ...-.+.+.
+T Consensus        25 ~~~~~--~~~~~~~~~v~~~~~~~~~~~~~fng~~~~~~~i~v--~~----------Gd~v~~~~~N~-~~~~~H~~~~~   89 (154)
+T 2cal_A           25 VSGDT--VTYSGKTVHVVAAAVLPGFPFPSFEVHDKKNPTLEI--PA----------GATVDVTFINT-NKGFGHSFDIT   89 (154)
+T ss_dssp             EETTE--EECCSSEEEEEEEESCTTSCSSCEEETTEESCEEEE--CT----------TCEEEEEEEEC-CTTCCCCCEEE
+T ss_pred             cCCCE--EEEeCCeEEEEEEEccCCCCcceEeccccCCCEEEE--cC----------CCEEEEEEEEC-CCCcCceEEEe
+Confidence            11222  233444444444432 11 10011001123444444  32          34678888896 6 344444333
+
+
+Q ss_pred             EEEEeccccceeeccCccc---ccccccccCC--ceEEeeeeehhhcccccccceeeeecCCCccccc
+Q plasmodiumSS    528 VLCVDKSTQQVATHISPIS---KINAHIDANK--NYAFYFIIKFLINKKITSNCTAILKDADGRECSK  590 (661)
+Q Consensus       528 v~C~~~~~~~~~~~v~pi~---~~~~~i~p~~--~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~~ld~  590 (661)
+                         .......+-....+..   .-...+.|++  +..+.|.+     .    .-...+........+.
+T Consensus        90 ---~~~~~~~~~~~~~~~~~~~~~~~~i~~g~~~~~~~~~~~-----~----~G~y~y~C~~~~h~~~  145 (154)
+T 2cal_A           90 ---KKGPPYAVMPVIDPIVAGTGFSPVPKDGKFGYTDFTWHP-----T----AGTYYYVCQIPGMAAT  145 (154)
+T ss_dssp             ---SCCSCCCSSCCCCSEEEEBCCCCCCBTTBEEEEEEEECC-----C----SEEEEEECCSTTTGGG
+T ss_pred             ---CCCCcccccccccccccccCCceecCCCceEEEEEEEEc-----C----CcEEEEECCCcCHHHC
+Confidence               0000000000001100   0124556666  44444432     0    2222333322222221
+
+
+No 20 
+>3u48_A JMB19063; TIM barrel, beta-D-glucosidase, hydrolase; HET: BGC; 2.20A {Compost metagenome} PDB: 3u4a_A*
+Probab=0.01  E-value=6.9e+03  Score=7.56  Aligned_cols=157  Identities=10%  Similarity=-0.002  Sum_probs=0.0
+
+Q ss_pred             CCCCccceeccccCCCCceeeeecccCCchhhhcccCCCCccccccccCcccccccccccccceeeeeecCceEEEEEEe
+Q plasmodiumSS    392 NRKPSKYKIKNIYGSEPQTKVYTSAKLPNYLKDKVDSNNNKSYDINDIDNKIFYNENAAAHSHFIDYKYNGNHTVEIKFE  471 (661)
+Q Consensus       392 ~g~~~~Y~l~~~~g~~p~~~~~~~~~~p~~~~~~i~~~~~~~~d~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~s~i~Ie  471 (661)
+                      +|+.|..+.. ..+..|..........+.....-+........|.   .....|---  -+-.|=.|.+....       
+T Consensus       562 sGkLPvt~p~-~~~~~p~~~~~~~~~~~~~e~~~~~~~~~~y~d~---~~~~~yPFG--yGLSYt~F~y~~~~-------  628 (775)
+T 3u48_A          562 SGKLSATFPR-NVGQVPIYYNHKNTGRPLPEGQWFQKFRSNYLDV---PNDPLYPFG--YGLSFTKFTYGDLK-------  628 (775)
+T ss_dssp             CCCCSSCBCS-SGGGCSCCSSCCCCSSCCCTTCCCCTTSSCBSSS---CSSCSBCTT--CCBCSSCEEECCCE-------
+T ss_pred             CCCCceEEee-ecccchhhccccccCcccCCCceeeeeeeeeecc---CCCcccccc--cCCCCcceeecccc-------
+
+
+Q ss_pred             cCceEEeeeeecceeeeEEEeecCCCCCCCCCCceEEEEEEEecCCceeecceeEEEEEEeccccceeeccCcccccccc
+Q plasmodiumSS    472 TNALEVHEIRPVSYGTITHITIPKDCSSNQTNSKECILVVHTWNNNKTIGANFSCHVLCVDKSTQQVATHISPISKINAH  551 (661)
+Q Consensus       472 ~~Ad~i~~i~~~S~G~I~s~~~~~~c~~~q~~s~~g~l~V~v~N~~G~~~a~y~v~v~C~~~~~~~~~~~v~pi~~~~~~  551 (661)
+                      ++..++              ....          .-++.|.|+|+ |++.+.-.|++.-.............-.-=+++.
+T Consensus       629 ~~~~~~--------------~~~~----------~~~vsv~V~N~-G~~~g~evvqlY~~~~~~~~~~p~~~L~gF~kv~  683 (775)
+T 3u48_A          629 LSSTNL--------------KGNQ----------TLTASIELTNS-GDYDGAEVVQLYIRDLVGSTTRPVKELKGFQKVF  683 (775)
+T ss_dssp             ESCSEE--------------ESSC----------CEEEEEEEEEC-SSSCEEEEEEEEEEECCCSSCCCSCEEEEEEEEE
+T ss_pred             cccccc--------------cCCc----------eEEEEEEEecC-CCCCcceeEEEEecCCCcCcccchhheeeeeeec
+
+
+Q ss_pred             cccCCceEEeeeeehhhcccccccceeeeecCCCc-cccceeeec
+Q plasmodiumSS    552 IDANKNYAFYFIIKFLINKKITSNCTAILKDADGR-ECSKLSFNL  595 (661)
+Q Consensus       552 i~p~~~~~~~f~i~~~~~~~~~~~C~v~L~ds~~~-~ld~~~~~f  595 (661)
+                      |+|+++....|+|....         ...+|..+. .++.-.+.+
+T Consensus       684 l~pges~~v~~~~~~~~---------l~~~d~~~~~~~~~G~y~~  719 (775)
+T 3u48_A          684 LKKGETKTITFKITPED---------LKFYNYDLKYDWEPGEFVI  719 (775)
+T ss_dssp             ECTTCEEEEEEEECGGG---------GCEECTTCCEECCSEEEEE
+T ss_pred             cCCCCeEEEEEEEcHHH---------hceEcCCCCEEEeCceEEE
+
+
+Done!
